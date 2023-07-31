@@ -1,0 +1,369 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок первый</translation>
+ </item>
+ <item id="1">
+  <translation>ручка</translation>
+ </item>
+ <item id="2">
+  <translation>карандаш</translation>
+ </item>
+ <item id="3">
+  <translation>книга</translation>
+ </item>
+ <item id="4">
+  <translation>(неопределенный артикль)</translation>
+ </item>
+ <item id="5">
+  <translation>что это</translation>
+ </item>
+ <item id="6">
+  <translation>это</translation>
+ </item>
+ <item id="7">
+  <translation>это есть</translation>
+ </item>
+ <item id="8">
+  <translation>Что это?</translation>
+ </item>
+ <item id="8">
+  <translation>Это ручка</translation>
+ </item>
+ <item id="9">
+  <translation>стол</translation>
+ </item>
+ <item id="10">
+  <translation>стул</translation>
+ </item>
+ <item id="11">
+  <translation>свет</translation>
+ </item>
+ <item id="12">
+  <translation>стена</translation>
+ </item>
+ <item id="13">
+  <translation>пол</translation>
+ </item>
+ <item id="14">
+  <translation>комната</translation>
+ </item>
+ <item id="15">
+  <translation>потолок</translation>
+ </item>
+ <item id="16">
+  <translation>окно</translation>
+ </item>
+ <item id="17">
+  <translation>дверь</translation>
+ </item>
+ <item id="18">
+  <translation>часы</translation>
+ </item>
+ <item id="19">
+  <translation>коробка</translation>
+ </item>
+ <item id="20">
+  <translation>картина</translation>
+ </item>
+ <item id="21">
+  <translation>это есть?</translation>
+ </item>
+ <item id="22">
+  <translation>да</translation>
+ </item>
+ <item id="23">
+  <translation>Это ручка?</translation>
+ </item>
+ <item id="23">
+  <translation>Да, это ручка</translation>
+ </item>
+ <item id="24">
+  <translation>нет, это не</translation>
+ </item>
+ <item id="25">
+  <translation>Это ручка</translation>
+ </item>
+ <item id="25">
+  <translation>Нет, это не ручка, это карандаш</translation>
+ </item>
+ <item id="26">
+  <translation>Это карандаш?</translation>
+ </item>
+ <item id="26">
+  <translation>Нет, это не карандаш, это книга</translation>
+ </item>
+ <item id="27">
+  <translation>длинный</translation>
+ </item>
+ <item id="28">
+  <translation>короткий</translation>
+ </item>
+ <item id="29">
+  <translation>(определенный артикль)</translation>
+ </item>
+ <item id="30">
+  <translation>сокращение</translation>
+ </item>
+ <item id="31">
+  <translation>Ручка короткая?</translation>
+ </item>
+ <item id="31">
+  <translation>Нет, ручка не короткая, она длинная</translation>
+ </item>
+ <item id="32">
+  <translation>Карандаш длинный?</translation>
+ </item>
+ <item id="32">
+  <translation>Нет, карандаш не длинный, он короткий</translation>
+ </item>
+ <item id="33">
+  <translation>Комната короткая?</translation>
+ </item>
+ <item id="33">
+  <translation>Нет, комната не короткая, она длинная</translation>
+ </item>
+ <item id="34">
+  <translation>большой</translation>
+ </item>
+ <item id="35">
+  <translation>маленький</translation>
+ </item>
+ <item id="36">
+  <translation>Стол маленький?</translation>
+ </item>
+ <item id="36">
+  <translation>Нет, стол не маленький, он большой</translation>
+ </item>
+ <item id="37">
+  <translation>Коробка большая?</translation>
+ </item>
+ <item id="37">
+  <translation>Нет, коробка не большая, она маленькая</translation>
+ </item>
+ <item id="38">
+  <translation>город</translation>
+ </item>
+ <item id="39">
+  <translation>городок</translation>
+ </item>
+ <item id="40">
+  <translation>деревня</translation>
+ </item>
+ <item id="41">
+  <translation>Лондон деревня?</translation>
+ </item>
+ <item id="41">
+  <translation>Нет, Лондон не деревня, это город</translation>
+ </item>
+ <item id="42">
+  <translation>Виндзор город?</translation>
+ </item>
+ <item id="42">
+  <translation>Нет, Виндзон не город, это городок</translation>
+ </item>
+ <item id="43">
+  <translation>Грантчестер - городок?</translation>
+ </item>
+ <item id="43">
+  <translation>Нет, Грантчестер не городок, это деревня</translation>
+ </item>
+ <item id="44">
+  <translation>или</translation>
+ </item>
+ <item id="45">
+  <translation>Стол длинный или короткий?</translation>
+ </item>
+ <item id="45">
+  <translation>Стол короткий</translation>
+ </item>
+ <item id="46">
+  <translation>Город большой или маленький?</translation>
+ </item>
+ <item id="46">
+  <translation>Город - большой</translation>
+ </item>
+ <item id="47">
+  <translation>мужчина</translation>
+ </item>
+ <item id="48">
+  <translation>женщина</translation>
+ </item>
+ <item id="49">
+  <translation>мальчик</translation>
+ </item>
+ <item id="50">
+  <translation>девочка</translation>
+ </item>
+ <item id="51">
+  <translation>Что это?</translation>
+ </item>
+ <item id="51">
+  <translation>Это мужчина. Это женщина. Это мальчик. Это девочка.</translation>
+ </item>
+ <item id="52">
+  <translation>Это девочка?</translation>
+ </item>
+ <item id="52">
+  <translation>Нет, это не девочка, это мужчина</translation>
+ </item>
+ <item id="53">
+  <translation>Это мужчина?</translation>
+ </item>
+ <item id="53">
+  <translation>Нет, это не мужчина, это женщина</translation>
+ </item>
+ <item id="54">
+  <translation>Это женщина?</translation>
+ </item>
+ <item id="54">
+  <translation>Нет, это не женщина, это мальчик</translation>
+ </item>
+ <item id="55">
+  <translation>Это мальчик?</translation>
+ </item>
+ <item id="55">
+  <translation>Нет, это не мальчик, это девочка</translation>
+ </item>
+ <item id="56">
+  <translation>один</translation>
+ </item>
+ <item id="57">
+  <translation>два</translation>
+ </item>
+ <item id="58">
+  <translation>три</translation>
+ </item>
+ <item id="59">
+  <translation>четыре</translation>
+ </item>
+ <item id="60">
+  <translation>пять</translation>
+ </item>
+ <item id="61">
+  <translation>на</translation>
+ </item>
+ <item id="62">
+  <translation>под</translation>
+ </item>
+ <item id="63">
+  <translation>в</translation>
+ </item>
+ <item id="64">
+  <translation>Ручка в книге?</translation>
+ </item>
+ <item id="64">
+  <translation>Нет, ручка не в книга, она под книгой</translation>
+ </item>
+ <item id="65">
+  <translation>Ручка под книгой?</translation>
+ </item>
+ <item id="65">
+  <translation>Нет, ручка не под книгой, она на книге</translation>
+ </item>
+ <item id="66">
+  <translation>мистер</translation>
+ </item>
+ <item id="67">
+  <translation>миссис</translation>
+ </item>
+ <item id="68">
+  <translation>Джек</translation>
+ </item>
+ <item id="69">
+  <translation>Анна</translation>
+ </item>
+ <item id="70">
+  <translation>Это Анна Браун?</translation>
+ </item>
+ <item id="70">
+  <translation>Нет, это не Анна Браун, это мистер Браун</translation>
+ </item>
+ <item id="71">
+  <translation>Это мистер Браун?</translation>
+ </item>
+ <item id="71">
+  <translation>Нет, это не мистер Браун, это миссис Браун</translation>
+ </item>
+ <item id="72">
+  <translation>Это миссис Браун?</translation>
+ </item>
+ <item id="72">
+  <translation>Нет, это не миссис Браун, это Джек Браун</translation>
+ </item>
+ <item id="73">
+  <translation>Это Джек Браун?</translation>
+ </item>
+ <item id="73">
+  <translation>Нет, это не Джек Браун, это Анна Браун</translation>
+ </item>
+ <item id="74">
+  <translation>черный</translation>
+ </item>
+ <item id="75">
+  <translation>белый</translation>
+ </item>
+ <item id="76">
+  <translation>зеленый</translation>
+ </item>
+ <item id="77">
+  <translation>коричневый</translation>
+ </item>
+ <item id="78">
+  <translation>какой цвет?</translation>
+ </item>
+ <item id="79">
+  <translation>Какого цвета этот карандаш?</translation>
+ </item>
+ <item id="79">
+  <translation>Этот карандаш черный, белый и т.д. </translation>
+ </item>
+ <item id="80">
+  <translation>шесть</translation>
+ </item>
+ <item id="81">
+  <translation>семь</translation>
+ </item>
+ <item id="82">
+  <translation>восемь</translation>
+ </item>
+ <item id="83">
+  <translation>девять</translation>
+ </item>
+ <item id="84">
+  <translation>десять</translation>
+ </item>
+ <item id="85">
+  <translation>где</translation>
+ </item>
+ <item id="86">
+  <translation>Где ручка?</translation>
+ </item>
+ <item id="86">
+  <translation>Ручка на книге</translation>
+ </item>
+ <item id="87">
+  <translation>Где книга?</translation>
+ </item>
+ <item id="87">
+  <translation>Ручка на столе</translation>
+ </item>
+ <item id="88">
+  <translation>Где ручка?</translation>
+ </item>
+ <item id="88">
+  <translation>Ручка - под столом</translation>
+ </item>
+ <item id="89">
+  <translation>Где картина?</translation>
+ </item>
+ <item id="89">
+  <translation>Картина - на столе</translation>
+ </item>
+ <item id="90">
+  <translation>Где лампа?</translation>
+ </item>
+ <item id="90">
+  <translation>Лампа на потолке</translation>
+ </item>
+</items>

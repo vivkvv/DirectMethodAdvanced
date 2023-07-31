@@ -1,0 +1,204 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок девятнадцать</translation>
+ </item>
+ <item id="1">
+  <translation>хлеб</translation>
+ </item>
+ <item id="2">
+  <translation>сливочное масло</translation>
+ </item>
+ <item id="3">
+  <translation>рис</translation>
+ </item>
+ <item id="4">
+  <translation>Что мы кладем на наш хлеб?</translation>
+ </item>
+ <item id="4">
+  <translation>Мы кадем масло на наш хлеб</translation>
+ </item>
+ <item id="5">
+  <translation>Ты любишь хлеб без масла?</translation>
+ </item>
+ <item id="5">
+  <translation>Да, я люблю хлеб без масла</translation>
+ </item>
+ <item id="6">
+  <translation>Какого цвета масло?</translation>
+ </item>
+ <item id="6">
+  <translation>Масло - желтое или белое</translation>
+ </item>
+ <item id="7">
+  <translation>Ты предпочитаешь белый или коричневый рис?</translation>
+ </item>
+ <item id="7">
+  <translation>Я предпочитаю коричневый рис</translation>
+ </item>
+ <item id="8">
+  <translation>носить</translation>
+ </item>
+ <item id="9">
+  <translation>Что я делаю? (сейчас)</translation>
+ </item>
+ <item id="9">
+  <translation>Ты несешь свой стул к окну</translation>
+ </item>
+ <item id="10">
+  <translation>Ты думаешь, ты можешь нести этот стол на спине?</translation>
+ </item>
+ <item id="10">
+  <translation>Нет, я не думаю, что я могу нести этот стол на спине</translation>
+ </item>
+ <item id="11">
+  <translation>Я несу галстук? (сейчас)</translation>
+ </item>
+ <item id="11">
+  <translation>Нет, ты не несешь галстук; ты носишь галстук</translation>
+ </item>
+ <item id="12">
+  <translation>Я ношу носовой платок?</translation>
+ </item>
+ <item id="12">
+  <translation>Нет, ты не носишь носовой платок; ты несешь носовой платок</translation>
+ </item>
+ <item id="13">
+  <translation>нет</translation>
+ </item>
+ <item id="14">
+  <translation>Что мы можем сказать вместо &quot;not any book&quot;?</translation>
+ </item>
+ <item id="14">
+  <translation>Мы можем сказать &quot;no book&quot; вместо &quot;not any book&quot;</translation>
+ </item>
+ <item id="15">
+  <translation>Дай мне, пожалуйста, другой пример</translation>
+ </item>
+ <item id="15">
+  <translation>У них нет друзей или у них нет друзей</translation>
+ </item>
+ <item id="16">
+  <translation>слышать</translation>
+ </item>
+ <item id="17">
+  <translation>Ты можешь слышаить что я говорю тебе?</translation>
+ </item>
+ <item id="17">
+  <translation>Да, я могу слышать, что ты говоришь мне</translation>
+ </item>
+ <item id="18">
+  <translation>Ты можешь слышать кого-то в другой комнате?</translation>
+ </item>
+ <item id="18">
+  <translation>Да, я могу слышать кого-то в другой комнате</translation>
+ </item>
+ <item id="19">
+  <translation>С помощью чего мы слышим?</translation>
+ </item>
+ <item id="19">
+  <translation>Мы слышим с помощью ушей</translation>
+ </item>
+ <item id="20">
+  <translation>водить (например, автомобиль)</translation>
+ </item>
+ <item id="21">
+  <translation>Ты можешь водить автомобиль?</translation>
+ </item>
+ <item id="21">
+  <translation>Да, я могу водить автомобиль</translation>
+ </item>
+ <item id="22">
+  <translation>В твоей семье есть кто-то, кто не может водить автомобиь?</translation>
+ </item>
+ <item id="22">
+  <translation>Да, в моей семье есть кто-то, кто не может водить автомобиль </translation>
+ </item>
+ <item id="23">
+  <translation>деньги</translation>
+ </item>
+ <item id="24">
+  <translation>пенсы</translation>
+ </item>
+ <item id="25">
+  <translation>фунт</translation>
+ </item>
+ <item id="26">
+  <translation>Сколько денег у тебя в кармане?</translation>
+ </item>
+ <item id="26">
+  <translation>В моем кармане - десять фунтов</translation>
+ </item>
+ <item id="27">
+  <translation>Сколько пенсов составлют фунт?</translation>
+ </item>
+ <item id="27">
+  <translation>Сто пенсов составляют фунт</translation>
+ </item>
+ <item id="28">
+  <translation>Сколько евро составляют фунт?</translation>
+ </item>
+ <item id="28">
+  <translation>Около 1.2 евро составляют фунт</translation>
+ </item>
+ <item id="29">
+  <translation>меньше, чем</translation>
+ </item>
+ <item id="30">
+  <translation>На моих руках больше больших пальцев, чем пальцев</translation>
+ </item>
+ <item id="30">
+  <translation>Нет, на втоих руках не больше больших пальцев, чнм пальцев; на втоих руках меньше больших пальцев, чем пальцев</translation>
+ </item>
+ <item id="31">
+  <translation>В этой книге больше страниц, чем в той книге?</translation>
+ </item>
+ <item id="31">
+  <translation>Нет, в этой книге не больше страниц чем в той книге; в этой книге меньше страниц, чем в той книге</translation>
+ </item>
+ <item id="32">
+  <translation>В Европе больше людей, чем в Азии?</translation>
+ </item>
+ <item id="32">
+  <translation>Нет, в Европе не больше людей, чем в Азии; в Европе меньше людей, чем в Азии</translation>
+ </item>
+ <item id="33">
+  <translation>В этой школе больше столов, чем стульев?</translation>
+ </item>
+ <item id="33">
+  <translation>Нет, в этой школе не больше столов, чем стульев; в этой школе меньше столов, чем стульев</translation>
+ </item>
+ <item id="34">
+  <translation>наручные часы</translation>
+ </item>
+ <item id="35">
+  <translation>В чем разница между наручными часами и большими часами?</translation>
+ </item>
+ <item id="35">
+  <translation>Разница между наручными часами и большими часами в том, что мы носим наручные часы на запястье, в то время как мы вешаем большие часы на стену или помещаем их на стол</translation>
+ </item>
+ <item id="36">
+  <translation>В чем разница между &quot;wear&quot; и &quot;carry&quot;?</translation>
+ </item>
+ <item id="36">
+  <translation>Разница между &quot;wear&quot; и &quot;carry&quot; в том, что мы используем &quot;wear&quot; для вещи, которая есть на нашем теле, в то время как мы используем &quot;carry&quot; для вещи, которая не находится на нашем теле</translation>
+ </item>
+ <item id="37">
+  <translation>Есть ли большие часы в этой комнате?</translation>
+ </item>
+ <item id="37">
+  <translation>Да, есть большие часы в этой комнате</translation>
+ </item>
+ <item id="38">
+  <translation>Несу ли я часы? (сейчас)</translation>
+ </item>
+ <item id="38">
+  <translation>Нет, ты не несешь часы; ты носишь часы</translation>
+ </item>
+ <item id="39">
+  <translation>Что ты несешь в своем кармане? (сейчас)?</translation>
+ </item>
+ <item id="39">
+  <translation>Я несу ручку в своем кармане</translation>
+ </item>
+</items>

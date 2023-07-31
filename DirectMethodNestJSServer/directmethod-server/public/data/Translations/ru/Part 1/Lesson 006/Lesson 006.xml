@@ -1,0 +1,315 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок шестой</translation>
+ </item>
+ <item id="1">
+  <translation>Европа</translation>
+ </item>
+ <item id="2">
+  <translation>Азия</translation>
+ </item>
+ <item id="3">
+  <translation>Италия</translation>
+ </item>
+ <item id="4">
+  <translation>Франция</translation>
+ </item>
+ <item id="5">
+  <translation>Индия</translation>
+ </item>
+ <item id="6">
+  <translation>Греция в Азии?</translation>
+ </item>
+ <item id="6">
+  <translation>Нет, Греция не в Азии, она в Европе</translation>
+ </item>
+ <item id="7">
+  <translation>Индия в Европе?</translation>
+ </item>
+ <item id="7">
+  <translation>Нет, Индия не в Европе, она в Азии</translation>
+ </item>
+ <item id="8">
+  <translation>Франция и Италияв Азии?</translation>
+ </item>
+ <item id="8">
+  <translation>Нет, Франция и Италия не в Азии, они в Европе</translation>
+ </item>
+ <item id="9">
+  <translation>первый</translation>
+ </item>
+ <item id="10">
+  <translation>второй</translation>
+ </item>
+ <item id="11">
+  <translation>третий</translation>
+ </item>
+ <item id="12">
+  <translation>четвертый</translation>
+ </item>
+ <item id="13">
+  <translation>пятый</translation>
+ </item>
+ <item id="14">
+  <translation>шестой</translation>
+ </item>
+ <item id="15">
+  <translation>двенадцатый</translation>
+ </item>
+ <item id="16">
+  <translation>двадцатый</translation>
+ </item>
+ <item id="17">
+  <translation>количественное</translation>
+ </item>
+ <item id="18">
+  <translation>порядковое</translation>
+ </item>
+ <item id="19">
+  <translation>Что такое количественные числительные?</translation>
+ </item>
+ <item id="19">
+  <translation>Количественный числительный - это один, два, три и т.д.</translation>
+ </item>
+ <item id="20">
+  <translation>Что такое порядковые числительные?</translation>
+ </item>
+ <item id="20">
+  <translation>Порядковые числительные - это первый, второй, третий и т.д.</translation>
+ </item>
+ <item id="21">
+  <translation>Какая первая буква алфавита?</translation>
+ </item>
+ <item id="21">
+  <translation>Эй - первая буква алфавита</translation>
+ </item>
+ <item id="22">
+  <translation>Какая третья буква алфавита?</translation>
+ </item>
+ <item id="22">
+  <translation>Си - треться буква алфавита</translation>
+ </item>
+ <item id="23">
+  <translation>Какая пятая буква алфавита?</translation>
+ </item>
+ <item id="23">
+  <translation>И - пятая буква алфавита</translation>
+ </item>
+ <item id="24">
+  <translation>Какая двенадцатая буква алфавита?</translation>
+ </item>
+ <item id="24">
+  <translation>Эл - двенадцатая буква алфавита?</translation>
+ </item>
+ <item id="25">
+  <translation>Какая тринадцатая буква алфавита?</translation>
+ </item>
+ <item id="25">
+  <translation>Эм - тринадцатая буква алфавита</translation>
+ </item>
+ <item id="26">
+  <translation>Какая двадцатая буква алфавита?</translation>
+ </item>
+ <item id="26">
+  <translation>Тэ - двадцатая буква алфавита</translation>
+ </item>
+ <item id="27">
+  <translation>Какая двадцать первая буква?</translation>
+ </item>
+ <item id="27">
+  <translation>Ю - двадцать первая буква</translation>
+ </item>
+ <item id="28">
+  <translation>Какая двадцать третья буква?</translation>
+ </item>
+ <item id="28">
+  <translation>Дабл Ю - двадцать третья буква</translation>
+ </item>
+ <item id="29">
+  <translation>Какая двадцать пятая букава?</translation>
+ </item>
+ <item id="29">
+  <translation>Вай - двадцать пятая буква</translation>
+ </item>
+ <item id="30">
+  <translation>последний</translation>
+ </item>
+ <item id="31">
+  <translation>Какая последняя буква алфавита?</translation>
+ </item>
+ <item id="31">
+  <translation>Зед - последняя буква алфавита</translation>
+ </item>
+ <item id="32">
+  <translation>Эй - последняя буква алфавита?</translation>
+ </item>
+ <item id="32">
+  <translation>Нет, Эй - это не последняя буква алфавита, это - первая буква алфавита</translation>
+ </item>
+ <item id="33">
+  <translation>давать</translation>
+ </item>
+ <item id="34">
+  <translation>Возьми книгу, пожалуйста</translation>
+ </item>
+ <item id="35">
+  <translation>Дай мне книгу, пожалуйста</translation>
+ </item>
+ <item id="36">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="36">
+  <translation>Он дает тебе книгу</translation>
+ </item>
+ <item id="37">
+  <translation>Возьми книгу, пожалуйста</translation>
+ </item>
+ <item id="38">
+  <translation>Дай ему книгу, пожалуйста</translation>
+ </item>
+ <item id="39">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="39">
+  <translation>Он дает ему книгу</translation>
+ </item>
+ <item id="40">
+  <translation>француз</translation>
+ </item>
+ <item id="41">
+  <translation>немец</translation>
+ </item>
+ <item id="42">
+  <translation>итальянец</translation>
+ </item>
+ <item id="43">
+  <translation>англичанин</translation>
+ </item>
+ <item id="44">
+  <translation>Ты француз или немец?</translation>
+ </item>
+ <item id="44">
+  <translation>Нет, я не француз или немец, я - англичанин</translation>
+ </item>
+ <item id="45">
+  <translation>Я итальянец или француз?</translation>
+ </item>
+ <item id="45">
+  <translation>Нет, ты не итальянец или француз, ты - англичанин</translation>
+ </item>
+ <item id="46">
+  <translation>Студенты - немцы или англичане?</translation>
+ </item>
+ <item id="46">
+  <translation>Студенты - не немцы или англичане, но они - итальянцы и французы</translation>
+ </item>
+ <item id="47">
+  <translation>мой</translation>
+ </item>
+ <item id="48">
+  <translation>твой, ваш</translation>
+ </item>
+ <item id="49">
+  <translation>Это твоя книга?</translation>
+ </item>
+ <item id="49">
+  <translation>Нет, это не моя книга, это твоя книга</translation>
+ </item>
+ <item id="50">
+  <translation>Это мое платье?</translation>
+ </item>
+ <item id="50">
+  <translation>Нет, это не твое платье, это мое платье</translation>
+ </item>
+ <item id="51">
+  <translation>его</translation>
+ </item>
+ <item id="52">
+  <translation>ее</translation>
+ </item>
+ <item id="53">
+  <translation>Это его ботинки?</translation>
+ </item>
+ <item id="53">
+  <translation>Нет, это не его ботинки, это ее ботинки</translation>
+ </item>
+ <item id="54">
+  <translation>Это ее туфли?</translation>
+ </item>
+ <item id="54">
+  <translation>Нет, это не ее туфли, это его туфли</translation>
+ </item>
+ <item id="55">
+  <translation>Это его сумка?</translation>
+ </item>
+ <item id="55">
+  <translation>Нет, это не его сумка, это ее сумка</translation>
+ </item>
+ <item id="56">
+  <translation>Это ее костюм?</translation>
+ </item>
+ <item id="56">
+  <translation>нет, это не ее костюм, это его костюм</translation>
+ </item>
+ <item id="57">
+  <translation>Какого цвета его костюм?</translation>
+ </item>
+ <item id="57">
+  <translation>Его костюм - черный</translation>
+ </item>
+ <item id="58">
+  <translation>наш</translation>
+ </item>
+ <item id="59">
+  <translation>твой, ваш</translation>
+ </item>
+ <item id="60">
+  <translation>их</translation>
+ </item>
+ <item id="61">
+  <translation>Это наши туфли?</translation>
+ </item>
+ <item id="61">
+  <translation>Нет, это не наши туфли, это их туфли</translation>
+ </item>
+ <item id="62">
+  <translation>Какого цвета и туфли?</translation>
+ </item>
+ <item id="62">
+  <translation>Их туфли - черные</translation>
+ </item>
+ <item id="63">
+  <translation>Это их книги?</translation>
+ </item>
+ <item id="63">
+  <translation>Нет, это не их книги, это наши книги</translation>
+ </item>
+ <item id="64">
+  <translation>Где наши книги?</translation>
+ </item>
+ <item id="64">
+  <translation>Наши книги на столе</translation>
+ </item>
+ <item id="65">
+  <translation>все</translation>
+ </item>
+ <item id="66">
+  <translation>Все стены в этой комнате белые?</translation>
+ </item>
+ <item id="66">
+  <translation>Да, все стены в этой комнате белые</translation>
+ </item>
+ <item id="67">
+  <translation>Все книги в этой комнате - английские книги?</translation>
+ </item>
+ <item id="67">
+  <translation>Да, все книги в этой комнате - английские книги</translation>
+ </item>
+ <item id="68">
+  <translation>Все студенты сидят?</translation>
+ </item>
+ <item id="68">
+  <translation>Да, все студенты сидят</translation>
+ </item>
+</items>

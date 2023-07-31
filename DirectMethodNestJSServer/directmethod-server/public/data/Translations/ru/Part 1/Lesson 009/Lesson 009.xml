@@ -1,0 +1,279 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок девять</translation>
+ </item>
+ <item id="1">
+  <translation>спрашивать</translation>
+ </item>
+ <item id="2">
+  <translation>отвечать</translation>
+ </item>
+ <item id="3">
+  <translation>Что это?</translation>
+ </item>
+ <item id="3">
+  <translation>Это карандаш</translation>
+ </item>
+ <item id="4">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="4">
+  <translation>Ты задаешь ему вопрос</translation>
+ </item>
+ <item id="5">
+  <translation>Что это?</translation>
+ </item>
+ <item id="5">
+  <translation>Это рука</translation>
+ </item>
+ <item id="6">
+  <translation>Я задаю ей вопрос?</translation>
+ </item>
+ <item id="6">
+  <translation>Да, ты задаешь ей вопрос</translation>
+ </item>
+ <item id="7">
+  <translation>Что это?</translation>
+ </item>
+ <item id="7">
+  <translation>Это голова</translation>
+ </item>
+ <item id="8">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="8">
+  <translation>Он отвечает на твой вопрос</translation>
+ </item>
+ <item id="9">
+  <translation>Что это?</translation>
+ </item>
+ <item id="9">
+  <translation>Это рот</translation>
+ </item>
+ <item id="10">
+  <translation>Она отвечает на мой вопрос?</translation>
+ </item>
+ <item id="10">
+  <translation>Да, она отвечает на твой вопрос</translation>
+ </item>
+ <item id="11">
+  <translation>Задай ему вопрос, пожалуйста</translation>
+ </item>
+ <item id="12">
+  <translation>иметь</translation>
+ </item>
+ <item id="13">
+  <translation>у меня есть</translation>
+ </item>
+ <item id="14">
+  <translation>у тебя/вас есть</translation>
+ </item>
+ <item id="15">
+  <translation>у него есть</translation>
+ </item>
+ <item id="16">
+  <translation>у нее есть</translation>
+ </item>
+ <item id="17">
+  <translation>у него есть</translation>
+ </item>
+ <item id="18">
+  <translation>у нас есть</translation>
+ </item>
+ <item id="19">
+  <translation>у тебя/вас есть</translation>
+ </item>
+ <item id="20">
+  <translation>у них есть</translation>
+ </item>
+ <item id="21">
+  <translation>Какое значение глагола &quot;to have&quot;?</translation>
+ </item>
+ <item id="21">
+  <translation>Значение глагола &quot;to have&quot; - ...</translation>
+ </item>
+ <item id="22">
+  <translation>Какое сокращение от &quot;I have&quot;, &quot;you have&quot; и т.д.?</translation>
+ </item>
+ <item id="22">
+  <translation>Сокращение от &quot;I have&quot;, &quot;you have&quot; и т.д. - это &quot;I've&quot;, &quot;you've&quot; и т.д.</translation>
+ </item>
+ <item id="23">
+  <translation>используется только в связке с глаголом have</translation>
+ </item>
+ <item id="24">
+  <translation>обычно</translation>
+ </item>
+ <item id="25">
+  <translation>У меня два глаза?</translation>
+ </item>
+ <item id="25">
+  <translation>Да, у тебя два глаза</translation>
+ </item>
+ <item id="26">
+  <translation>У тебя два уха?</translation>
+ </item>
+ <item id="26">
+  <translation>Да, у меня два уха</translation>
+ </item>
+ <item id="27">
+  <translation>У него две ноги?</translation>
+ </item>
+ <item id="27">
+  <translation>Да, у него две ноги</translation>
+ </item>
+ <item id="28">
+  <translation>У нее две руки?</translation>
+ </item>
+ <item id="28">
+  <translation>Да, у нее две руки</translation>
+ </item>
+ <item id="29">
+  <translation>У нас две головы?</translation>
+ </item>
+ <item id="29">
+  <translation>Да, у нас две головы</translation>
+ </item>
+ <item id="30">
+  <translation>У них четыре руки</translation>
+ </item>
+ <item id="30">
+  <translation>Да, у них четыре руки</translation>
+ </item>
+ <item id="31">
+  <translation>какой-либо (неопределенный)</translation>
+ </item>
+ <item id="32">
+  <translation>да, несколько</translation>
+ </item>
+ <item id="33">
+  <translation>нет, ни одного</translation>
+ </item>
+ <item id="34">
+  <translation>сколько? (определенный)</translation>
+ </item>
+ <item id="35">
+  <translation>семь, тринадцать и т.д.; ни одного, нисколько</translation>
+ </item>
+ <item id="36">
+  <translation>определенный</translation>
+ </item>
+ <item id="37">
+  <translation>неопределенный</translation>
+ </item>
+ <item id="38">
+  <translation>отрицательный</translation>
+ </item>
+ <item id="39">
+  <translation>утвердительный</translation>
+ </item>
+ <item id="40">
+  <translation>например</translation>
+ </item>
+ <item id="41">
+  <translation>выжный</translation>
+ </item>
+ <item id="42">
+  <translation>когда</translation>
+ </item>
+ <item id="43">
+  <translation>Каково значение слов &quot;any&quot; и &quot;some&quot;?</translation>
+ </item>
+ <item id="43">
+  <translation>Значение слов &quot;any&quot; и &quot;some&quot; - &quot;любой&quot; и &quot;какой-то&quot;</translation>
+ </item>
+ <item id="44">
+  <translation>В чем разница между &quot;any&quot; и &quot;some&quot;?</translation>
+ </item>
+ <item id="44">
+  <translation>Разница между &quot;any&quot; и &quot;some&quot; состоит в том, что мы используем &quot;any&quot; в вопросительных и отрицательных предложениях, в том время как мы используем &quot;some&quot; в  утвердительных предложениях</translation>
+ </item>
+ <item id="45">
+  <translation>какой-либо</translation>
+ </item>
+ <item id="46">
+  <translation>Есть какие-нибудь книги на этом столе?</translation>
+ </item>
+ <item id="46">
+  <translation>Да, есть несколько книг на этом столе</translation>
+ </item>
+ <item id="47">
+  <translation>Есть ли какие-нибудь картины на этих стенах?</translation>
+ </item>
+ <item id="47">
+  <translation>Да, есть несколько картин на этих стенах</translation>
+ </item>
+ <item id="48">
+  <translation>Есть какие-то туфли у тебя на ногах?</translation>
+ </item>
+ <item id="48">
+  <translation>Да, у меня есть туфли на ногах</translation>
+ </item>
+ <item id="49">
+  <translation>ни одного</translation>
+ </item>
+ <item id="50">
+  <translation>Есть какие-нибудь книги на полу?</translation>
+ </item>
+ <item id="50">
+  <translation>Нет, нет никаких книг на полу</translation>
+ </item>
+ <item id="51">
+  <translation>Есть ли какие-нибудь картины на этом стуле?</translation>
+ </item>
+ <item id="51">
+  <translation>Нет, нет никаких картин на этом стуле</translation>
+ </item>
+ <item id="52">
+  <translation>Есть ли какие-нибудь стулья на этом столе?</translation>
+ </item>
+ <item id="52">
+  <translation>Нет, нет никаких стульев на этом столе</translation>
+ </item>
+ <item id="53">
+  <translation>ни одного, нисколько</translation>
+ </item>
+ <item id="54">
+  <translation>класс, урок</translation>
+ </item>
+ <item id="55">
+  <translation>классная комната</translation>
+ </item>
+ <item id="56">
+  <translation>Сколько книг на столе?</translation>
+ </item>
+ <item id="56">
+  <translation>На столе - две книги</translation>
+ </item>
+ <item id="57">
+  <translation>Сколько книг на полу?</translation>
+ </item>
+ <item id="57">
+  <translation>Нисколько</translation>
+ </item>
+ <item id="58">
+  <translation>Сколько картин на этих стенах?</translation>
+ </item>
+ <item id="58">
+  <translation>На этих стенах - три картины</translation>
+ </item>
+ <item id="59">
+  <translation>Сколько картин на этом стуле?</translation>
+ </item>
+ <item id="59">
+  <translation>Ни одной</translation>
+ </item>
+ <item id="60">
+  <translation>Сколько студентов в этой классной комнате?</translation>
+ </item>
+ <item id="60">
+  <translation>В этой классной комнате - двенадцать студентов</translation>
+ </item>
+ <item id="61">
+  <translation>Сколько студентов сидит на полу?</translation>
+ </item>
+ <item id="61">
+  <translation>Ни одного</translation>
+ </item>
+</items>

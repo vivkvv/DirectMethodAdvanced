@@ -1,0 +1,528 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="333.9">
+ <item id="0" start="0.3" duration="1.967">
+  <person>Teacher</person>
+  <text>Lesson twenty two</text>
+  <image/>
+ </item>
+ <item id="1" start="2.3" duration="1.6">
+  <person>Teacher</person>
+  <text>want</text>
+  <image/>
+ </item>
+ <item id="2" start="3.933" duration="1.8">
+  <person>Teacher</person>
+  <text>at the moment</text>
+  <image/>
+ </item>
+ <item id="3" start="5.733" duration="2.733">
+  <person>Teacher</person>
+  <text>Do you want to break your pen?</text>
+  <image/>
+ </item>
+ <item id="3" start="8.5" duration="1.867">
+  <person>Student</person>
+  <text>No, I don't want to break my pen</text>
+  <image/>
+ </item>
+ <item id="4" start="10.367" duration="3.467">
+  <person>Teacher</person>
+  <text>Do you want to break the window?</text>
+  <image/>
+ </item>
+ <item id="4" start="13.833" duration="3.1">
+  <person>Student</person>
+  <text>No, I don't want to break the window</text>
+  <image/>
+ </item>
+ <item id="5" start="16.967" duration="3.033">
+  <person>Teacher</person>
+  <text>Do you want anything to eat at the moment?</text>
+  <image/>
+ </item>
+ <item id="5" start="20.0" duration="3.533">
+  <person>Student</person>
+  <text>Yes, I want something to eat at the moment</text>
+  <image/>
+ </item>
+ <item id="6" start="23.533" duration="3.333">
+  <person>Teacher</person>
+  <text>Do you want anything to drink at the moment?</text>
+  <image/>
+ </item>
+ <item id="6" start="26.9" duration="3.633">
+  <person>Student</person>
+  <text>Yes, I want something to drink at the moment</text>
+  <image/>
+ </item>
+ <item id="7" start="30.533" duration="1.967">
+  <person>Teacher</person>
+  <text>do you have ...?</text>
+  <image/>
+ </item>
+ <item id="8" start="32.5" duration="2.067">
+  <person>Teacher</person>
+  <text>you don't have ...</text>
+  <image/>
+ </item>
+ <item id="9" start="34.6" duration="2.9">
+  <person>Teacher</person>
+  <text>Do you have anything in your pocket?</text>
+  <image/>
+ </item>
+ <item id="9" start="37.5" duration="3.333">
+  <person>Student</person>
+  <text>Yes, I have something in my pocket</text>
+  <image/>
+ </item>
+ <item id="10" start="40.833" duration="2.7">
+  <person>Teacher</person>
+  <text>What do they have on their feet?</text>
+  <image/>
+ </item>
+ <item id="10" start="43.567" duration="2.767">
+  <person>Student</person>
+  <text>They have shoes on their feet</text>
+  <image/>
+ </item>
+ <item id="11" start="46.333" duration="3.367">
+  <person>Teacher</person>
+  <text>Do you have any relatives in this town?</text>
+  <image/>
+ </item>
+ <item id="11" start="49.7" duration="3.367">
+  <person>Student</person>
+  <text>Yes, I have some relatives in this town</text>
+  <image/>
+ </item>
+ <item id="12" start="53.1" duration="1.633">
+  <person>Teacher</person>
+  <text>begin</text>
+  <image/>
+ </item>
+ <item id="13" start="54.733" duration="1.567">
+  <person>Teacher</person>
+  <text>end</text>
+  <image/>
+ </item>
+ <item id="14" start="56.333" duration="1.667">
+  <person>Teacher</person>
+  <text>last</text>
+  <image/>
+ </item>
+ <item id="15" start="58.0" duration="1.6">
+  <person>Teacher</person>
+  <text>how long</text>
+  <image/>
+ </item>
+ <item id="16" start="59.633" duration="2.9">
+  <person>Teacher</person>
+  <text>At what time does the lesson begin?</text>
+  <image/>
+ </item>
+ <item id="16" start="62.533" duration="3.467">
+  <person>Student</person>
+  <text>The lesson begins at 10:30</text>
+  <image/>
+ </item>
+ <item id="17" start="66.0" duration="3.033">
+  <person>Teacher</person>
+  <text>At what time does the lesson end?</text>
+  <image/>
+ </item>
+ <item id="17" start="69.033" duration="3.933">
+  <person>Student</person>
+  <text>The lesson ends at 11:20</text>
+  <image/>
+ </item>
+ <item id="18" start="73.0" duration="2.7">
+  <person>Teacher</person>
+  <text>How long does the lesson last?</text>
+  <image/>
+ </item>
+ <item id="18" start="75.7" duration="3.233">
+  <person>Student</person>
+  <text>The lesson lasts 50 minutes</text>
+  <image/>
+ </item>
+ <item id="19" start="78.967" duration="1.6">
+  <person>Teacher</person>
+  <text>cheap</text>
+  <image/>
+ </item>
+ <item id="20" start="80.6" duration="2.133">
+  <person>Teacher</person>
+  <text>expensive</text>
+  <image/>
+ </item>
+ <item id="21" start="82.733" duration="1.967">
+  <person>Teacher</person>
+  <text>Rolls Royce</text>
+  <image/>
+ </item>
+ <item id="22" start="84.7" duration="2.633">
+  <person>Teacher</person>
+  <text>Is this pen expensive?</text>
+  <image/>
+ </item>
+ <item id="22" start="87.367" duration="4.433">
+  <person>Student</person>
+  <text>No, that pen isn't expensive; it's cheap</text>
+  <image/>
+ </item>
+ <item id="23" start="91.833" duration="2.767">
+  <person>Teacher</person>
+  <text>Is a Rolls Royce cheap?</text>
+  <image/>
+ </item>
+ <item id="23" start="94.633" duration="5.0">
+  <person>Student</person>
+  <text>No, a Rolls Royce isn't cheap; it's expensive</text>
+  <image/>
+ </item>
+ <item id="24" start="99.633" duration="3.033">
+  <person>Teacher</person>
+  <text>Is my handkerchief expensive?</text>
+  <image/>
+ </item>
+ <item id="24" start="102.667" duration="4.867">
+  <person>Student</person>
+  <text>No, your handkerchief isn't expensive; it's cheap</text>
+  <image/>
+ </item>
+ <item id="25" start="107.567" duration="1.9">
+  <person>Teacher</person>
+  <text>the fewest</text>
+  <image/>
+ </item>
+ <item id="26" start="109.467" duration="4.767">
+  <person>Teacher</person>
+  <text>Of these three books, has this book got the most pages?</text>
+  <image/>
+ </item>
+ <item id="26" start="114.233" duration="7.2">
+  <person>Student</person>
+  <text>No, of these three books, that book hasn't got the most pages; it's got the fewest pages</text>
+  <image/>
+ </item>
+ <item id="27" start="121.433" duration="4.033">
+  <person>Teacher</person>
+  <text>Which person in your family reads the fewest books?</text>
+  <image/>
+ </item>
+ <item id="27" start="125.467" duration="5.2">
+  <person>Student</person>
+  <text>My sister is the person in my family who reads the fewest books</text>
+  <image/>
+ </item>
+ <item id="28" start="130.667" duration="7.133">
+  <person>Teacher</person>
+  <text>Of these three countries, Germany, France and Greece, has Greece got the most people?</text>
+  <image/>
+ </item>
+ <item id="28" start="137.8" duration="7.133">
+  <person>Student</person>
+  <text>No, of those three countries, Greece hasn't got the most people; it's got the fewest people</text>
+  <image/>
+ </item>
+ <item id="29" start="144.967" duration="1.733">
+  <person>Teacher</person>
+  <text>building</text>
+  <image/>
+ </item>
+ <item id="30" start="146.733" duration="3.7">
+  <person>Teacher</person>
+  <text>About how many rooms are there in this building?</text>
+  <image/>
+ </item>
+ <item id="30" start="150.433" duration="4.0">
+  <person>Student</person>
+  <text>There are about 20 rooms in this building</text>
+  <image/>
+ </item>
+ <item id="31" start="154.433" duration="2.467">
+  <person>Teacher</person>
+  <text>Is this building low?</text>
+  <image/>
+ </item>
+ <item id="31" start="156.933" duration="4.2">
+  <person>Student</person>
+  <text>No, this building isn't low; it's high</text>
+  <image/>
+ </item>
+ <item id="32" start="161.167" duration="1.767">
+  <person>Teacher</person>
+  <text>inside</text>
+  <image/>
+ </item>
+ <item id="33" start="162.933" duration="1.7">
+  <person>Teacher</person>
+  <text>outside</text>
+  <image/>
+ </item>
+ <item id="34" start="164.667" duration="1.8">
+  <person>Teacher</person>
+  <text>stomach</text>
+  <image/>
+ </item>
+ <item id="35" start="166.5" duration="2.9">
+  <person>Teacher</person>
+  <text>What part of the box is this?</text>
+  <image/>
+ </item>
+ <item id="35" start="169.4" duration="2.833">
+  <person>Student</person>
+  <text>It's the inside of the box</text>
+  <image/>
+ </item>
+ <item id="36" start="172.267" duration="2.867">
+  <person>Teacher</person>
+  <text>What part of the box is this?</text>
+  <image/>
+ </item>
+ <item id="36" start="175.133" duration="3.067">
+  <person>Student</person>
+  <text>It's the outside of the box</text>
+  <image/>
+ </item>
+ <item id="37" start="178.2" duration="3.167">
+  <person>Teacher</person>
+  <text>What can you see outside this window?</text>
+  <image/>
+ </item>
+ <item id="37" start="181.4" duration="4.2">
+  <person>Student</person>
+  <text>I can see a building, etc. outside this window</text>
+  <image/>
+ </item>
+ <item id="38" start="185.6" duration="3.133">
+  <person>Teacher</person>
+  <text>Are we sitting outside in the corridor?</text>
+  <image/>
+ </item>
+ <item id="38" start="188.767" duration="6.433">
+  <person>Student</person>
+  <text>No, we aren't sitting outside in the corridor; we're sitting inside the classroom</text>
+  <image/>
+ </item>
+ <item id="39" start="195.2" duration="4.1">
+  <person>Teacher</person>
+  <text>Is there any food inside our stomachs after eating?</text>
+  <image/>
+ </item>
+ <item id="39" start="199.333" duration="5.067">
+  <person>Student</person>
+  <text>Yes, there's some food inside our stomachs after eating</text>
+  <image/>
+ </item>
+ <item id="40" start="204.4" duration="1.1">
+  <person>Teacher</person>
+  <text>a</text>
+  <image/>
+ </item>
+ <item id="41" start="205.533" duration="1.7">
+  <person>Teacher</person>
+  <text>some</text>
+  <image/>
+ </item>
+ <item id="42" start="207.267" duration="2.767">
+  <person>Teacher</person>
+  <text>What's the plural of &quot;a&quot;?</text>
+  <image/>
+ </item>
+ <item id="42" start="210.033" duration="3.2">
+  <person>Student</person>
+  <text>The plural of &quot;a&quot; is &quot;some&quot;</text>
+  <image/>
+ </item>
+ <item id="43" start="213.267" duration="3.3">
+  <person>Teacher</person>
+  <text>What's the plural of &quot;a book&quot;?</text>
+  <image/>
+ </item>
+ <item id="43" start="216.6" duration="3.5">
+  <person>Student</person>
+  <text>The plural of &quot;a book&quot; is &quot;some books&quot;</text>
+  <image/>
+ </item>
+ <item id="44" start="220.1" duration="3.033">
+  <person>Teacher</person>
+  <text>What can you see in this classroom?</text>
+  <image/>
+ </item>
+ <item id="44" start="223.167" duration="8.133">
+  <person>Student</person>
+  <text>I can see some books, some pens, a teacher, a door, etc. in this classroom</text>
+  <image/>
+ </item>
+ <item id="45" start="231.3" duration="3.433">
+  <person>Teacher</person>
+  <text>Have I got a thumb on my left hand?</text>
+  <image/>
+ </item>
+ <item id="45" start="234.767" duration="3.733">
+  <person>Student</person>
+  <text>Yes, you've got a thumb on your left hand</text>
+  <image/>
+ </item>
+ <item id="46" start="238.5" duration="3.633">
+  <person>Teacher</person>
+  <text>Have I got any fingers on my left hand?</text>
+  <image/>
+ </item>
+ <item id="46" start="242.167" duration="3.867">
+  <person>Student</person>
+  <text>Yes, you've got some fingers on your left hand</text>
+  <image/>
+ </item>
+ <item id="47" start="246.033" duration="1.567">
+  <person>Teacher</person>
+  <text>well</text>
+  <image/>
+ </item>
+ <item id="48" start="247.633" duration="2.267">
+  <person>Teacher</person>
+  <text>Can you hear well?</text>
+  <image/>
+ </item>
+ <item id="48" start="249.9" duration="2.633">
+  <person>Student</person>
+  <text>Yes, I can hear well</text>
+  <image/>
+ </item>
+ <item id="49" start="252.533" duration="2.233">
+  <person>Teacher</person>
+  <text>Can you see well?</text>
+  <image/>
+ </item>
+ <item id="49" start="254.8" duration="2.933">
+  <person>Student</person>
+  <text>Yes, I can see well</text>
+  <image/>
+ </item>
+ <item id="50" start="257.733" duration="2.867">
+  <person>Teacher</person>
+  <text>Can you speak English well?</text>
+  <image/>
+ </item>
+ <item id="50" start="260.633" duration="3.4">
+  <person>Student</person>
+  <text>Yes, I can speak English well</text>
+  <image/>
+ </item>
+ <item id="51" start="264.033" duration="1.533">
+  <person>Teacher</person>
+  <text>flower</text>
+  <image/>
+ </item>
+ <item id="52" start="265.6" duration="1.6">
+  <person>Teacher</person>
+  <text>plant</text>
+  <image/>
+ </item>
+ <item id="53" start="267.2" duration="2.9">
+  <person>Teacher</person>
+  <text>Do you like the smell of flowers?</text>
+  <image/>
+ </item>
+ <item id="53" start="270.133" duration="3.2">
+  <person>Student</person>
+  <text>Yes, I like the smell of flowers</text>
+  <image/>
+ </item>
+ <item id="54" start="273.333" duration="2.967">
+  <person>Teacher</person>
+  <text>Have you got any plants at home?</text>
+  <image/>
+ </item>
+ <item id="54" start="276.333" duration="3.433">
+  <person>Student</person>
+  <text>Yes, I've got some plants at home</text>
+  <image/>
+ </item>
+ <item id="55" start="279.767" duration="1.7">
+  <person>Teacher</person>
+  <text>whose</text>
+  <image/>
+ </item>
+ <item id="56" start="281.5" duration="2.367">
+  <person>Teacher</person>
+  <text>Whose book's this?</text>
+  <image/>
+ </item>
+ <item id="56" start="283.867" duration="1.9">
+  <person>Student</person>
+  <text>It's your book</text>
+  <image/>
+ </item>
+ <item id="57" start="285.8" duration="2.4">
+  <person>Teacher</person>
+  <text>Whose hand's that?</text>
+  <image/>
+ </item>
+ <item id="57" start="288.2" duration="2.2">
+  <person>Student</person>
+  <text>It's her hand</text>
+  <image/>
+ </item>
+ <item id="58" start="290.433" duration="2.633">
+  <person>Teacher</person>
+  <text>Whose suit's that?</text>
+  <image/>
+ </item>
+ <item id="58" start="293.067" duration="2.633">
+  <person>Student</person>
+  <text>It's Mr. Brown's suit</text>
+  <image/>
+ </item>
+ <item id="59" start="295.7" duration="1.567">
+  <person>Teacher</person>
+  <text>love</text>
+  <image/>
+ </item>
+ <item id="60" start="297.3" duration="1.5">
+  <person>Teacher</person>
+  <text>hate</text>
+  <image/>
+ </item>
+ <item id="61" start="298.8" duration="4.0">
+  <person>Teacher</person>
+  <text>Do children generally love going to school?</text>
+  <image/>
+ </item>
+ <item id="61" start="302.8" duration="6.4">
+  <person>Student</person>
+  <text>No, children don't generally love going to school; they generally hate going to school</text>
+  <image/>
+ </item>
+ <item id="62" start="309.233" duration="3.2">
+  <person>Teacher</person>
+  <text>Do children hate their mothers?</text>
+  <image/>
+ </item>
+ <item id="62" start="312.467" duration="4.767">
+  <person>Student</person>
+  <text>No, children don't hate their mothers; they love their mothers</text>
+  <image/>
+ </item>
+ <item id="63" start="317.233" duration="3.133">
+  <person>Teacher</person>
+  <text>Do you love eating bad food?</text>
+  <image/>
+ </item>
+ <item id="63" start="320.4" duration="5.5">
+  <person>Student</person>
+  <text>No, I don't love eating bad food; I hate eating bad food</text>
+  <image/>
+ </item>
+ <item id="64" start="325.9" duration="2.5">
+  <person>Teacher</person>
+  <text>Do you hate all food?</text>
+  <image/>
+ </item>
+ <item id="64" start="328.4" duration="5.467">
+  <person>Student</person>
+  <text>No, I don't hate all food; some I hate and some I love</text>
+  <image/>
+ </item>
+</items>

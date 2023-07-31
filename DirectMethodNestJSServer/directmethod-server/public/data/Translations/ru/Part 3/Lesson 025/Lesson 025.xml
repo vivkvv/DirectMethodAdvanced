@@ -1,0 +1,252 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок 25</translation>
+ </item>
+ <item id="1">
+  <translation>дешевле, чем</translation>
+ </item>
+ <item id="2">
+  <translation>дороже, чем</translation>
+ </item>
+ <item id="3">
+  <translation>Твой носовой платок дороже, чем твои туфли?</translation>
+ </item>
+ <item id="3">
+  <translation>Нет, мой носовой платок не дороже, чем мои туфли; он дешевле, чем мои туфли</translation>
+ </item>
+ <item id="4">
+  <translation>Роллс Ройс дешевле, чем Форд?</translation>
+ </item>
+ <item id="4">
+  <translation>Нет, Роллс Ройс не дешевле, чем Форд; он дороже, чем Форд</translation>
+ </item>
+ <item id="5">
+  <translation>Твой городок - более дорогое место, чем Лондон?</translation>
+ </item>
+ <item id="5">
+  <translation>Нет, мой городок - не более дорогое место, чем Лондон; это более дешевое место, чем Лондон</translation>
+ </item>
+ <item id="6">
+  <translation>самый дешевый</translation>
+ </item>
+ <item id="7">
+  <translation>самый дорогой</translation>
+ </item>
+ <item id="8">
+  <translation>Форд - это самый дорогой автомобиль в этой стране?</translation>
+ </item>
+ <item id="8">
+  <translation>Нет, Форд - не самый дорогой автомобиль в этой стране; это самый дешевый автомобиль в этой стране</translation>
+ </item>
+ <item id="9">
+  <translation>Какая вещь в этой комнате самая дешевая?</translation>
+ </item>
+ <item id="9">
+  <translation>Мой карандаш - самая дешевая вещь в этой комнате</translation>
+ </item>
+ <item id="10">
+  <translation>Какая вещь из тех, что ты носишь, самая дорогая?</translation>
+ </item>
+ <item id="10">
+  <translation>Мои туфли - самая дорогая вещь из тех, что я ношу</translation>
+ </item>
+ <item id="11">
+  <translation>слог</translation>
+ </item>
+ <item id="12">
+  <translation>сравнительная степень</translation>
+ </item>
+ <item id="13">
+  <translation>превосходная степень</translation>
+ </item>
+ <item id="14">
+  <translation>Что есть сравнительной степенью для &quot;длинный&quot;?</translation>
+ </item>
+ <item id="14">
+  <translation>Сравнительной степенью для &quot;длинный&quot; есть &quot;длиннее, чем&quot;</translation>
+ </item>
+ <item id="15">
+  <translation>Что есть сравнительной степенью для &quot;красивый&quot;?</translation>
+ </item>
+ <item id="15">
+  <translation>Сравнительной степенью для &quot;красивый&quot; есть &quot;красивее, чем&quot;</translation>
+ </item>
+ <item id="16">
+  <translation>Что есть превосходной степенью от &quot;малый&quot;?</translation>
+ </item>
+ <item id="16">
+  <translation>Превосходной степенью от &quot;малый&quot; есть &quot;самый малый&quot;</translation>
+ </item>
+ <item id="17">
+  <translation>Что есть превосходной степенью от &quot;дорогой&quot;?</translation>
+ </item>
+ <item id="17">
+  <translation>Превосходной степенью о &quot;дорогой&quot; есть &quot;самый дорогой&quot;</translation>
+ </item>
+ <item id="18">
+  <translation>Почему мы говорим &quot;cheaper than&quot;, но не &quot;expensiver than&quot;?</translation>
+ </item>
+ <item id="18">
+  <translation>Мы говорим &quot;cheaper than&quot;, но не &quot;expensiver than&quot;, потому что прилагательное &quot;cheap&quot; имеет только один слог, в то время как прилагательное &quot;expensive&quot; имеет три слога</translation>
+ </item>
+ <item id="19">
+  <translation>над</translation>
+ </item>
+ <item id="20">
+  <translation>ниже</translation>
+ </item>
+ <item id="21">
+  <translation>Где мой нос?</translation>
+ </item>
+ <item id="21">
+  <translation>Твой нос - над твоим ртом</translation>
+ </item>
+ <item id="22">
+  <translation>Где мой подбородок?</translation>
+ </item>
+ <item id="22">
+  <translation>Твой подбородок - ниже твоего рта</translation>
+ </item>
+ <item id="23">
+  <translation>Где потолок?</translation>
+ </item>
+ <item id="23">
+  <translation>Потолок - над нашими головами</translation>
+ </item>
+ <item id="24">
+  <translation>Мои стопы - над столом?</translation>
+ </item>
+ <item id="24">
+  <translation>Нет, твои стопы - не над столом; они - под столом</translation>
+ </item>
+ <item id="25">
+  <translation>январь</translation>
+ </item>
+ <item id="26">
+  <translation>февраль</translation>
+ </item>
+ <item id="27">
+  <translation>март</translation>
+ </item>
+ <item id="28">
+  <translation>апрель</translation>
+ </item>
+ <item id="29">
+  <translation>май</translation>
+ </item>
+ <item id="30">
+  <translation>июнь</translation>
+ </item>
+ <item id="31">
+  <translation>июль</translation>
+ </item>
+ <item id="32">
+  <translation>август</translation>
+ </item>
+ <item id="33">
+  <translation>сентябрь</translation>
+ </item>
+ <item id="34">
+  <translation>октябрь</translation>
+ </item>
+ <item id="35">
+  <translation>ноябрь</translation>
+ </item>
+ <item id="36">
+  <translation>декабрь</translation>
+ </item>
+ <item id="37">
+  <translation>Назови мне, пожалуйста, названия месяцев в году</translation>
+ </item>
+ <item id="37">
+  <translation>Названия месяцев в году - январь, февраль, март, апрель, май, июнь, июль, август, сентябрь, октябрь, ноябрь, декабрь</translation>
+ </item>
+ <item id="38">
+  <translation>прошлый</translation>
+ </item>
+ <item id="39">
+  <translation>следующий</translation>
+ </item>
+ <item id="40">
+  <translation>Какой сейчас месяц?</translation>
+ </item>
+ <item id="40">
+  <translation>Сейчас январь</translation>
+ </item>
+ <item id="41">
+  <translation>Какой месяц был прошлым?</translation>
+ </item>
+ <item id="41">
+  <translation>Прошлый месяц был декабрь</translation>
+ </item>
+ <item id="42">
+  <translation>Каким будет следующий месяц?</translation>
+ </item>
+ <item id="42">
+  <translation>Следующим месяцем бцдет февраль</translation>
+ </item>
+ <item id="43">
+  <translation>Каким будет месяц после следующего?</translation>
+ </item>
+ <item id="43">
+  <translation>Месяцем после следующего будет март</translation>
+ </item>
+ <item id="44">
+  <translation>Каким был месяц перед прошлым?</translation>
+ </item>
+ <item id="44">
+  <translation>Месяцем перед прошлым был ноябрь</translation>
+ </item>
+ <item id="45">
+  <translation>часов утра</translation>
+ </item>
+ <item id="46">
+  <translation>часов пополудни</translation>
+ </item>
+ <item id="47">
+  <translation>полдень</translation>
+ </item>
+ <item id="48">
+  <translation>латынь</translation>
+ </item>
+ <item id="49">
+  <translation>затем</translation>
+ </item>
+ <item id="50">
+  <translation>Что значат буквы &quot;a.m.&quot; после времени?</translation>
+ </item>
+ <item id="50">
+  <translation>Буквы &quot;a.m.&quot; после времени значат &quot;до полудня&quot;</translation>
+ </item>
+ <item id="51">
+  <translation>Что значат буквы &quot;p.m.&quot; после времени?</translation>
+ </item>
+ <item id="51">
+  <translation>Буквы &quot;p.m.&quot; после времени значат &quot;после полудня&quot;</translation>
+ </item>
+ <item id="52">
+  <translation>В чем разница между &quot;a.m.&quot; и &quot;p.m.&quot;?</translation>
+ </item>
+ <item id="52">
+  <translation>Разница между &quot;a.m.&quot; и &quot;p.m.&quot; в том, что мы используем &quot;a.m.&quot; для времени до полудня (12 часов), а &quot;p.m.&quot; - для времени после полудня</translation>
+ </item>
+ <item id="53">
+  <translation>Мы говорим &quot;twenty to four a.m.&quot;?</translation>
+ </item>
+ <item id="53">
+  <translation>Нет, мы не говорим &quot;twenty to four a.m.&quot;; мы говорим &quot;three forty a.m.&quot;</translation>
+ </item>
+ <item id="54">
+  <translation>В котором часу ты завтракаешь?</translation>
+ </item>
+ <item id="54">
+  <translation>Я завтракаю в 7:30 утра</translation>
+ </item>
+ <item id="55">
+  <translation>В котором часу ты ужинаешь?</translation>
+ </item>
+ <item id="55">
+  <translation>Я ужинаю в 8 часов пополудни</translation>
+ </item>
+</items>

@@ -1,0 +1,413 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="304.2">
+ <item id="0" start="0.2" duration="2.4">
+  <person>Teacher</person>
+  <text>Lesson 45</text>
+  <image/>
+ </item>
+ <item id="1" start="2.6" duration="2.0">
+  <person>Teacher</person>
+  <text>lots of</text>
+  <image/>
+ </item>
+ <item id="2" start="4.633" duration="1.633">
+  <person>Teacher</person>
+  <text>away</text>
+  <image/>
+ </item>
+ <item id="3" start="6.3" duration="1.567">
+  <person>Teacher</person>
+  <text>tell</text>
+  <image/>
+ </item>
+ <item id="4" start="7.867" duration="3.433">
+  <person>Teacher</person>
+  <text>What can we say instead of &quot;a lot of&quot;?</text>
+  <image/>
+ </item>
+ <item id="4" start="11.333" duration="3.8">
+  <person>Student</person>
+  <text>We can say &quot;lots of&quot; instead of &quot;a lot of&quot;</text>
+  <image/>
+ </item>
+ <item id="5" start="15.167" duration="6.5">
+  <person>Teacher</person>
+  <text>If you have lots of work to do and a friend talks to you all the time, what do you tell him to do?</text>
+  <image/>
+ </item>
+ <item id="5" start="21.7" duration="6.1">
+  <person>Student</person>
+  <text>If I have lots of work to do and a friend talks to me all the time, I tell him to go away</text>
+  <image/>
+ </item>
+ <item id="6" start="27.8" duration="3.8">
+  <person>Teacher</person>
+  <text>Did you go away for your holidays last summer?</text>
+  <image/>
+ </item>
+ <item id="6" start="31.6" duration="3.733">
+  <person>Student</person>
+  <text>Yes, I went away for my holidays last summer</text>
+  <image/>
+ </item>
+ <item id="7" start="35.367" duration="3.2">
+  <person>Teacher</person>
+  <text>Where did you go? Did you like it?</text>
+  <image/>
+ </item>
+ <item id="7" start="38.6" duration="3.5">
+  <person>Student</person>
+  <text>I went to Spain; yes, I liked it</text>
+  <image/>
+ </item>
+ <item id="8" start="42.1" duration="3.067">
+  <person>Teacher</person>
+  <text>Do you ever give any money away?</text>
+  <image/>
+ </item>
+ <item id="8" start="45.167" duration="3.5">
+  <person>Student</person>
+  <text>Yes, I sometimes give some money away</text>
+  <image/>
+ </item>
+ <item id="9" start="48.667" duration="4.0">
+  <person>Teacher</person>
+  <text>Do you take this book away with you after the lesson?</text>
+  <image/>
+ </item>
+ <item id="9" start="52.7" duration="4.2">
+  <person>Student</person>
+  <text>No, I don't take that book away with me after the lesson</text>
+  <image/>
+ </item>
+ <item id="10" start="56.9" duration="1.7">
+  <person>Teacher</person>
+  <text>Why not?</text>
+  <image/>
+ </item>
+ <item id="10" start="58.6" duration="2.433">
+  <person>Student</person>
+  <text>Because it isn't mine</text>
+  <image/>
+ </item>
+ <item id="11" start="61.067" duration="1.767">
+  <person>Teacher</person>
+  <text>business</text>
+  <image/>
+ </item>
+ <item id="12" start="62.867" duration="1.6">
+  <person>Teacher</person>
+  <text>foreign</text>
+  <image/>
+ </item>
+ <item id="13" start="64.467" duration="3.867">
+  <person>Teacher</person>
+  <text>Does this country do business with foreign countries?</text>
+  <image/>
+ </item>
+ <item id="13" start="68.367" duration="4.5">
+  <person>Student</person>
+  <text>Yes, this country does business with foreign countries</text>
+  <image/>
+ </item>
+ <item id="14" start="72.9" duration="1.6">
+  <person>Teacher</person>
+  <text>rainy</text>
+  <image/>
+ </item>
+ <item id="15" start="74.533" duration="1.767">
+  <person>Teacher</person>
+  <text>sunny</text>
+  <image/>
+ </item>
+ <item id="16" start="76.3" duration="1.7">
+  <person>Teacher</person>
+  <text>cloudy</text>
+  <image/>
+ </item>
+ <item id="17" start="78.033" duration="2.9">
+  <person>Teacher</person>
+  <text>Is Greece a rainy country?</text>
+  <image/>
+ </item>
+ <item id="17" start="80.933" duration="4.633">
+  <person>Student</person>
+  <text>No, Greece isn't a rainy country; it's a sunny country</text>
+  <image/>
+ </item>
+ <item id="18" start="85.6" duration="2.8">
+  <person>Teacher</person>
+  <text>Is it a sunny day today?</text>
+  <image/>
+ </item>
+ <item id="18" start="88.4" duration="3.233">
+  <person>Student</person>
+  <text>No, it isn't a sunny day today</text>
+  <image/>
+ </item>
+ <item id="19" start="91.633" duration="3.233">
+  <person>Teacher</person>
+  <text>Was it a cloudy day yesterday?</text>
+  <image/>
+ </item>
+ <item id="19" start="94.9" duration="3.467">
+  <person>Student</person>
+  <text>Yes, it was a cloudy day yesterday</text>
+  <image/>
+ </item>
+ <item id="20" start="98.4" duration="3.733">
+  <person>Teacher</person>
+  <text>Do you think it will be a rainy day tomorrow?</text>
+  <image/>
+ </item>
+ <item id="20" start="102.133" duration="3.933">
+  <person>Student</person>
+  <text>Yes, I think it'll be a rainy day tomorrow</text>
+  <image/>
+ </item>
+ <item id="21" start="106.067" duration="1.6">
+  <person>Teacher</person>
+  <text>nature</text>
+  <image/>
+ </item>
+ <item id="22" start="107.667" duration="3.867">
+  <person>Teacher</person>
+  <text>Do you think nature is always beautiful?</text>
+  <image/>
+ </item>
+ <item id="22" start="111.567" duration="3.933">
+  <person>Student</person>
+  <text>Yes, I think nature is always beautiful</text>
+  <image/>
+ </item>
+ <item id="23" start="115.5" duration="1.7">
+  <person>Teacher</person>
+  <text>price</text>
+  <image/>
+ </item>
+ <item id="24" start="117.233" duration="5.267">
+  <person>Teacher</person>
+  <text>What is the price of a meal in a very cheap restaurant in the place where you live?</text>
+  <image/>
+ </item>
+ <item id="24" start="122.5" duration="6.933">
+  <person>Student</person>
+  <text>The price of a meal in a very cheap restaurant in the place where I live is about £15</text>
+  <image/>
+ </item>
+ <item id="25" start="129.467" duration="1.6">
+  <person>Teacher</person>
+  <text>bush</text>
+  <image/>
+ </item>
+ <item id="26" start="131.1" duration="3.3">
+  <person>Teacher</person>
+  <text>Is a bush higher than a tree?</text>
+  <image/>
+ </item>
+ <item id="26" start="134.4" duration="5.1">
+  <person>Student</person>
+  <text>No, a bush isn't higher than a tree; it's lower than a tree</text>
+  <image/>
+ </item>
+ <item id="27" start="139.5" duration="1.567">
+  <person>Teacher</person>
+  <text>worth</text>
+  <image/>
+ </item>
+ <item id="28" start="141.1" duration="2.0">
+  <person>Teacher</person>
+  <text>to be worth</text>
+  <image/>
+ </item>
+ <item id="29" start="143.1" duration="1.7">
+  <person>Teacher</person>
+  <text>value</text>
+  <image/>
+ </item>
+ <item id="30" start="144.8" duration="4.733">
+  <person>Teacher</person>
+  <text>What does it mean if I say &quot;This book is worth £5&quot;?</text>
+  <image/>
+ </item>
+ <item id="30" start="149.567" duration="8.667">
+  <person>Student</person>
+  <text>If you say that book is worth £5, it means that you can sell it for £5 or that it has a value of £5</text>
+  <image/>
+ </item>
+ <item id="31" start="158.267" duration="2.867">
+  <person>Teacher</person>
+  <text>How much did your watch cost?</text>
+  <image/>
+ </item>
+ <item id="31" start="161.133" duration="3.433">
+  <person>Student</person>
+  <text>My watch costs £50</text>
+  <image/>
+ </item>
+ <item id="32" start="164.6" duration="2.133">
+  <person>Teacher</person>
+  <text>When did you buy it?</text>
+  <image/>
+ </item>
+ <item id="32" start="166.733" duration="2.8">
+  <person>Student</person>
+  <text>I bought it one month ago</text>
+  <image/>
+ </item>
+ <item id="33" start="169.533" duration="3.333">
+  <person>Teacher</person>
+  <text>About how much do you think it's worth now?</text>
+  <image/>
+ </item>
+ <item id="33" start="172.9" duration="3.933">
+  <person>Student</person>
+  <text>I think it's worth about £40 now</text>
+  <image/>
+ </item>
+ <item id="34" start="176.867" duration="4.567">
+  <person>Teacher</person>
+  <text>Are your shoes worth as much now as they were when you bought them?</text>
+  <image/>
+ </item>
+ <item id="34" start="181.433" duration="7.567">
+  <person>Student</person>
+  <text>No, my shoes aren't worth as much now as they were when I bought them; they're worth less now than they were when I bought them</text>
+  <image/>
+ </item>
+ <item id="35" start="189.033" duration="2.933">
+  <person>Teacher</person>
+  <text>How much do you think this is worth?</text>
+  <image/>
+ </item>
+ <item id="35" start="192.0" duration="3.867">
+  <person>Student</person>
+  <text>I think that's worth about £10</text>
+  <image/>
+ </item>
+ <item id="36" start="195.867" duration="5.033">
+  <person>Teacher</person>
+  <text>Worth + -ing (gerund)</text>
+  <image/>
+ </item>
+ <item id="37" start="200.9" duration="4.367">
+  <person>Teacher</person>
+  <text>Do you think it's worth paying lots of money for clothes?</text>
+  <image/>
+ </item>
+ <item id="37" start="205.3" duration="4.6">
+  <person>Student</person>
+  <text>No, I don't think it's worth paying lots of money for clothes</text>
+  <image/>
+ </item>
+ <item id="38" start="209.9" duration="4.7">
+  <person>Teacher</person>
+  <text>Do you think it's worth studying the language of another country?</text>
+  <image/>
+ </item>
+ <item id="38" start="214.633" duration="4.667">
+  <person>Student</person>
+  <text>Yes, I think it's worth studying the language of another country</text>
+  <image/>
+ </item>
+ <item id="39" start="219.3" duration="7.767">
+  <person>Teacher</person>
+  <text>Do you think it's worth buying an umbrella if you live in a country where it only rains about once a month?</text>
+  <image/>
+ </item>
+ <item id="39" start="227.1" duration="7.267">
+  <person>Student</person>
+  <text>No, I don't think it's worth buying an umbrella if I live in a country where it only rains about once a month</text>
+  <image/>
+ </item>
+ <item id="40" start="234.367" duration="4.533">
+  <person>Teacher</person>
+  <text>Do you think it's worth taking an umbrella with you on a rainy day?</text>
+  <image/>
+ </item>
+ <item id="40" start="238.933" duration="4.933">
+  <person>Student</person>
+  <text>Yes, I think it's worth taking an umbrella with me on a rainy day</text>
+  <image/>
+ </item>
+ <item id="41" start="243.867" duration="1.633">
+  <person>Teacher</person>
+  <text>hard</text>
+  <image/>
+ </item>
+ <item id="42" start="245.533" duration="1.833">
+  <person>Teacher</person>
+  <text>soft</text>
+  <image/>
+ </item>
+ <item id="43" start="247.367" duration="3.467">
+  <person>Teacher</person>
+  <text>What are the three meanings of the word &quot;hard&quot;?</text>
+  <image/>
+ </item>
+ <item id="43" start="250.833" duration="7.5">
+  <person>Student</person>
+  <text>The three meanings of the word &quot;hard&quot; are &quot;difficult&quot;, &quot;very much&quot;, and the opposite of &quot;soft&quot;</text>
+  <image/>
+ </item>
+ <item id="44" start="258.333" duration="3.967">
+  <person>Teacher</person>
+  <text>Is Chinese an easy language to learn?</text>
+  <image/>
+ </item>
+ <item id="44" start="262.3" duration="5.7">
+  <person>Student</person>
+  <text>No, Chinese isn't an easy language to learn; it's a hard language to learn</text>
+  <image/>
+ </item>
+ <item id="45" start="268.033" duration="2.8">
+  <person>Teacher</person>
+  <text>Is English grammar hard?</text>
+  <image/>
+ </item>
+ <item id="45" start="270.867" duration="4.2">
+  <person>Student</person>
+  <text>No, English grammar isn't hard; it's easy</text>
+  <image/>
+ </item>
+ <item id="46" start="275.1" duration="2.633">
+  <person>Teacher</person>
+  <text>Do you work very hard?</text>
+  <image/>
+ </item>
+ <item id="46" start="277.733" duration="3.133">
+  <person>Student</person>
+  <text>Yes, I work very hard</text>
+  <image/>
+ </item>
+ <item id="47" start="280.867" duration="4.433">
+  <person>Teacher</person>
+  <text>Do you think you generally work harder than your parents?</text>
+  <image/>
+ </item>
+ <item id="47" start="285.3" duration="4.567">
+  <person>Student</person>
+  <text>Yes, I think I generally work harder than my parents</text>
+  <image/>
+ </item>
+ <item id="48" start="289.9" duration="2.8">
+  <person>Teacher</person>
+  <text>Is my hand hard?</text>
+  <image/>
+ </item>
+ <item id="48" start="292.7" duration="3.8">
+  <person>Student</person>
+  <text>No, your hand isn't hard; it's soft</text>
+  <image/>
+ </item>
+ <item id="49" start="296.533" duration="2.7">
+  <person>Teacher</person>
+  <text>Is the floor soft?</text>
+  <image/>
+ </item>
+ <item id="49" start="299.233" duration="4.967">
+  <person>Student</person>
+  <text>No, the floor isn't soft; it's hard</text>
+  <image/>
+ </item>
+</items>

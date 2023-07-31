@@ -1,0 +1,418 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="271.033">
+ <item id="0" start="0.2" duration="2.3">
+  <person>Teacher</person>
+  <text>Lesson 25</text>
+  <image/>
+ </item>
+ <item id="1" start="2.533" duration="1.967">
+  <person>Teacher</person>
+  <text>cheaper ... than</text>
+  <image/>
+ </item>
+ <item id="2" start="4.5" duration="2.733">
+  <person>Teacher</person>
+  <text>more expensive ... than</text>
+  <image/>
+ </item>
+ <item id="3" start="7.267" duration="4.167">
+  <person>Teacher</person>
+  <text>Is your handkerchief more expensive than your shoes?</text>
+  <image/>
+ </item>
+ <item id="3" start="11.467" duration="6.1">
+  <person>Student</person>
+  <text>No, my handkerchief isn't more expensive than my shoes; it's cheaper than my shoes</text>
+  <image/>
+ </item>
+ <item id="4" start="17.6" duration="3.367">
+  <person>Teacher</person>
+  <text>Is a Rolls-Royce cheaper than a Ford?</text>
+  <image/>
+ </item>
+ <item id="4" start="20.967" duration="5.833">
+  <person>Student</person>
+  <text>No, a Rolls Royce isn't cheaper than a Ford; it's more expensive than a Ford</text>
+  <image/>
+ </item>
+ <item id="5" start="26.8" duration="4.133">
+  <person>Teacher</person>
+  <text>Is your town a more expensive place than London?</text>
+  <image/>
+ </item>
+ <item id="5" start="30.933" duration="6.2">
+  <person>Student</person>
+  <text>No, my town isn't a more expensive place than London; it's a cheaper place than London</text>
+  <image/>
+ </item>
+ <item id="6" start="37.133" duration="1.967">
+  <person>Teacher</person>
+  <text>the cheapest</text>
+  <image/>
+ </item>
+ <item id="7" start="39.133" duration="2.133">
+  <person>Teacher</person>
+  <text>the most expensive</text>
+  <image/>
+ </item>
+ <item id="8" start="41.3" duration="4.033">
+  <person>Teacher</person>
+  <text>Is the Ford the most expensive car in this country?</text>
+  <image/>
+ </item>
+ <item id="8" start="45.333" duration="6.533">
+  <person>Student</person>
+  <text>No, the Ford isn't the most expensive car in this country; it's the cheapest car in this country</text>
+  <image/>
+ </item>
+ <item id="9" start="51.867" duration="2.867">
+  <person>Teacher</person>
+  <text>What's the cheapest thing in this room?</text>
+  <image/>
+ </item>
+ <item id="9" start="54.733" duration="3.3">
+  <person>Student</person>
+  <text>My pencil is the cheapest thing in this room</text>
+  <image/>
+ </item>
+ <item id="10" start="58.033" duration="3.633">
+  <person>Teacher</person>
+  <text>What's the most expensive thing you're wearing?</text>
+  <image/>
+ </item>
+ <item id="10" start="61.7" duration="4.033">
+  <person>Student</person>
+  <text>My shoes are the most expensive things I'm wearing</text>
+  <image/>
+ </item>
+ <item id="11" start="65.767" duration="1.733">
+  <person>Teacher</person>
+  <text>syllable</text>
+  <image/>
+ </item>
+ <item id="12" start="67.5" duration="1.967">
+  <person>Teacher</person>
+  <text>comparative</text>
+  <image/>
+ </item>
+ <item id="13" start="69.5" duration="2.033">
+  <person>Teacher</person>
+  <text>superlative</text>
+  <image/>
+ </item>
+ <item id="14" start="71.533" duration="2.833">
+  <person>Teacher</person>
+  <text>What's the comparative of &quot;long&quot;?</text>
+  <image/>
+ </item>
+ <item id="14" start="74.4" duration="3.6">
+  <person>Student</person>
+  <text>The comparative of &quot;long&quot; is &quot;longer than&quot;</text>
+  <image/>
+ </item>
+ <item id="15" start="78.0" duration="2.8">
+  <person>Teacher</person>
+  <text>What's the comparative of &quot;beautiful&quot;?</text>
+  <image/>
+ </item>
+ <item id="15" start="80.8" duration="4.267">
+  <person>Student</person>
+  <text>The comparative of &quot;beautiful&quot; is &quot;more beautiful than&quot;</text>
+  <image/>
+ </item>
+ <item id="16" start="85.1" duration="2.867">
+  <person>Teacher</person>
+  <text>What's the superlative of &quot;small&quot;?</text>
+  <image/>
+ </item>
+ <item id="16" start="87.967" duration="3.7">
+  <person>Student</person>
+  <text>The superlative of &quot;small&quot; is &quot;the smallest&quot;</text>
+  <image/>
+ </item>
+ <item id="17" start="91.667" duration="3.367">
+  <person>Teacher</person>
+  <text>What's the superlative of &quot;expensive&quot;?</text>
+  <image/>
+ </item>
+ <item id="17" start="95.033" duration="4.4">
+  <person>Student</person>
+  <text>The superlative of &quot;expensive&quot; is &quot;the most expensive&quot;</text>
+  <image/>
+ </item>
+ <item id="18" start="99.467" duration="4.367">
+  <person>Teacher</person>
+  <text>Why do we say &quot;cheaper than&quot; but not &quot;expensiver then&quot;?</text>
+  <image/>
+ </item>
+ <item id="18" start="103.833" duration="10.1">
+  <person>Student</person>
+  <text>We say &quot;cheaper then&quot;, but not &quot;expensiver then&quot; because the adjective &quot;cheap&quot; has only one syllable, whereas the adjective &quot;expensive&quot; has three syllables</text>
+  <image/>
+ </item>
+ <item id="19" start="113.933" duration="1.7">
+  <person>Teacher</person>
+  <text>above</text>
+  <image/>
+ </item>
+ <item id="20" start="115.667" duration="1.533">
+  <person>Teacher</person>
+  <text>below</text>
+  <image/>
+ </item>
+ <item id="21" start="117.233" duration="2.1">
+  <person>Teacher</person>
+  <text>Where's my nose?</text>
+  <image/>
+ </item>
+ <item id="21" start="119.333" duration="2.533">
+  <person>Student</person>
+  <text>Your nose's above your mouth</text>
+  <image/>
+ </item>
+ <item id="22" start="121.9" duration="2.033">
+  <person>Teacher</person>
+  <text>Where's my chin?</text>
+  <image/>
+ </item>
+ <item id="22" start="123.967" duration="2.533">
+  <person>Student</person>
+  <text>Your chin's below your mouth</text>
+  <image/>
+ </item>
+ <item id="23" start="126.5" duration="2.167">
+  <person>Teacher</person>
+  <text>Where's the ceiling?</text>
+  <image/>
+ </item>
+ <item id="23" start="128.667" duration="2.667">
+  <person>Student</person>
+  <text>The ceiling's above our heads</text>
+  <image/>
+ </item>
+ <item id="24" start="131.367" duration="2.467">
+  <person>Teacher</person>
+  <text>Are my feet above the table?</text>
+  <image/>
+ </item>
+ <item id="24" start="133.833" duration="4.9">
+  <person>Student</person>
+  <text>No, your feet aren't above the table; they're below the table</text>
+  <image/>
+ </item>
+ <item id="25" start="138.767" duration="1.767">
+  <person>Teacher</person>
+  <text>January</text>
+  <image/>
+ </item>
+ <item id="26" start="140.533" duration="1.8">
+  <person>Teacher</person>
+  <text>February</text>
+  <image/>
+ </item>
+ <item id="27" start="142.333" duration="1.767">
+  <person>Teacher</person>
+  <text>March</text>
+  <image/>
+ </item>
+ <item id="28" start="144.133" duration="1.6">
+  <person>Teacher</person>
+  <text>April</text>
+  <image/>
+ </item>
+ <item id="29" start="145.767" duration="1.6">
+  <person>Teacher</person>
+  <text>May</text>
+  <image/>
+ </item>
+ <item id="30" start="147.367" duration="1.733">
+  <person>Teacher</person>
+  <text>June</text>
+  <image/>
+ </item>
+ <item id="31" start="149.1" duration="1.7">
+  <person>Teacher</person>
+  <text>July</text>
+  <image/>
+ </item>
+ <item id="32" start="150.8" duration="1.8">
+  <person>Teacher</person>
+  <text>August</text>
+  <image/>
+ </item>
+ <item id="33" start="152.633" duration="1.867">
+  <person>Teacher</person>
+  <text>September</text>
+  <image/>
+ </item>
+ <item id="34" start="154.533" duration="1.9">
+  <person>Teacher</person>
+  <text>October</text>
+  <image/>
+ </item>
+ <item id="35" start="156.433" duration="1.7">
+  <person>Teacher</person>
+  <text>November</text>
+  <image/>
+ </item>
+ <item id="36" start="158.167" duration="1.7">
+  <person>Teacher</person>
+  <text>December</text>
+  <image/>
+ </item>
+ <item id="37" start="159.9" duration="3.367">
+  <person>Teacher</person>
+  <text>Tell me the names of the months of the year, please</text>
+  <image/>
+ </item>
+ <item id="37" start="163.267" duration="15.333">
+  <person>Student</person>
+  <text>The names of the months of the year are January, February, March, April, May, June, July, August, September, October, November, December</text>
+  <image/>
+ </item>
+ <item id="38" start="178.633" duration="1.733">
+  <person>Teacher</person>
+  <text>last</text>
+  <image/>
+ </item>
+ <item id="39" start="180.4" duration="1.667">
+  <person>Teacher</person>
+  <text>next</text>
+  <image/>
+ </item>
+ <item id="40" start="182.067" duration="2.067">
+  <person>Teacher</person>
+  <text>What's this month?</text>
+  <image/>
+ </item>
+ <item id="40" start="184.167" duration="2.367">
+  <person>Student</person>
+  <text>This month's January</text>
+  <image/>
+ </item>
+ <item id="41" start="186.533" duration="2.2">
+  <person>Teacher</person>
+  <text>What was last month?</text>
+  <image/>
+ </item>
+ <item id="41" start="188.767" duration="2.533">
+  <person>Student</person>
+  <text>Last month was December</text>
+  <image/>
+ </item>
+ <item id="42" start="191.3" duration="2.4">
+  <person>Teacher</person>
+  <text>What will next month be?</text>
+  <image/>
+ </item>
+ <item id="42" start="193.733" duration="2.667">
+  <person>Student</person>
+  <text>Next month will be February</text>
+  <image/>
+ </item>
+ <item id="43" start="196.4" duration="3.0">
+  <person>Teacher</person>
+  <text>What will the month after next be?</text>
+  <image/>
+ </item>
+ <item id="43" start="199.4" duration="3.2">
+  <person>Student</person>
+  <text>The month after next will be March</text>
+  <image/>
+ </item>
+ <item id="44" start="202.633" duration="2.767">
+  <person>Teacher</person>
+  <text>What was the month before last?</text>
+  <image/>
+ </item>
+ <item id="44" start="205.4" duration="3.2">
+  <person>Student</person>
+  <text>The month before last was November</text>
+  <image/>
+ </item>
+ <item id="45" start="208.633" duration="1.633">
+  <person>Teacher</person>
+  <text>a.m.</text>
+  <image/>
+ </item>
+ <item id="46" start="210.3" duration="1.733">
+  <person>Teacher</person>
+  <text>p.m.</text>
+  <image/>
+ </item>
+ <item id="47" start="212.033" duration="1.767">
+  <person>Teacher</person>
+  <text>midday</text>
+  <image/>
+ </item>
+ <item id="48" start="213.833" duration="1.633">
+  <person>Teacher</person>
+  <text>Latin</text>
+  <image/>
+ </item>
+ <item id="49" start="215.467" duration="1.667">
+  <person>Teacher</person>
+  <text>then</text>
+  <image/>
+ </item>
+ <item id="50" start="217.133" duration="4.167">
+  <person>Teacher</person>
+  <text>What do the letters &quot;a.m.&quot; mean after the time?</text>
+  <image/>
+ </item>
+ <item id="50" start="221.3" duration="4.867">
+  <person>Student</person>
+  <text>The letters &quot;a.m.&quot; mean &quot;ante meridiem&quot; after the time</text>
+  <image/>
+ </item>
+ <item id="51" start="226.2" duration="4.1">
+  <person>Teacher</person>
+  <text>What do the letters &quot;p.m.&quot; mean after the time?</text>
+  <image/>
+ </item>
+ <item id="51" start="230.3" duration="4.567">
+  <person>Student</person>
+  <text>The letters &quot;p.m.&quot; mean &quot;post meridiem&quot; after the time</text>
+  <image/>
+ </item>
+ <item id="52" start="234.9" duration="3.967">
+  <person>Teacher</person>
+  <text>What's the difference between &quot;a.m.&quot; and &quot;p.m.&quot;?</text>
+  <image/>
+ </item>
+ <item id="52" start="238.867" duration="9.933">
+  <person>Student</person>
+  <text>The difference between &quot;a.m.&quot; and &quot;p.m.&quot; is that we use &quot;a.m.&quot; for the time before midday (12 o'clock), and &quot;p.m.&quot; for the time after midday</text>
+  <image/>
+ </item>
+ <item id="53" start="248.833" duration="3.667">
+  <person>Teacher</person>
+  <text>Do we say &quot;twenty to four a.m.&quot;?</text>
+  <image/>
+ </item>
+ <item id="53" start="252.5" duration="6.2">
+  <person>Student</person>
+  <text>No, we don't say &quot;twenty to four a.m.&quot;; we say &quot;three forty a.m.&quot;</text>
+  <image/>
+ </item>
+ <item id="54" start="258.733" duration="3.0">
+  <person>Teacher</person>
+  <text>What time do you eat breakfast?</text>
+  <image/>
+ </item>
+ <item id="54" start="261.767" duration="3.533">
+  <person>Student</person>
+  <text>I eat breakfast at 7:30 a.m.</text>
+  <image/>
+ </item>
+ <item id="55" start="265.333" duration="2.333">
+  <person>Teacher</person>
+  <text>What time do you eat dinner?</text>
+  <image/>
+ </item>
+ <item id="55" start="267.7" duration="3.333">
+  <person>Student</person>
+  <text>I eat dinner at 8 p.m.</text>
+  <image/>
+ </item>
+</items>

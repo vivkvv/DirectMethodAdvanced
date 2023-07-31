@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок четыре</translation>
+ </item>
+ <item id="1">
+  <translation>между</translation>
+ </item>
+ <item id="2">
+  <translation>Какая буква находится между Ди и Эф?</translation>
+ </item>
+ <item id="2">
+  <translation>И находится между Ди и Эф</translation>
+ </item>
+ <item id="3">
+  <translation>Какая буква находится между Эйч и Джей?</translation>
+ </item>
+ <item id="3">
+  <translation>Ай находится между Эйч и Джей</translation>
+ </item>
+ <item id="4">
+  <translation>Какая буква находится между Кю и Эс?</translation>
+ </item>
+ <item id="4">
+  <translation>Ар находится между Кю и Эс</translation>
+ </item>
+ <item id="5">
+  <translation>нас</translation>
+ </item>
+ <item id="6">
+  <translation>Где стол?</translation>
+ </item>
+ <item id="6">
+  <translation>Стол - перед нами</translation>
+ </item>
+ <item id="7">
+  <translation>Стены - пер нами?</translation>
+ </item>
+ <item id="7">
+  <translation>Нет, стены не перед нами, они - позади нас</translation>
+ </item>
+ <item id="8">
+  <translation>Стол - позади нас?</translation>
+ </item>
+ <item id="8">
+  <translation>Нет, стол не позади нас, он перед нами</translation>
+ </item>
+ <item id="9">
+  <translation>их</translation>
+ </item>
+ <item id="10">
+  <translation>Где дом?</translation>
+ </item>
+ <item id="10">
+  <translation>Дом - за ними</translation>
+ </item>
+ <item id="11">
+  <translation>Вы - сзади них?</translation>
+ </item>
+ <item id="11">
+  <translation>Нет, я не позади их, я перед ними</translation>
+ </item>
+ <item id="12">
+  <translation>Я перед ними?</translation>
+ </item>
+ <item id="12">
+  <translation>Нет, Вы не перед ними, Вы за ними</translation>
+ </item>
+ <item id="13">
+  <translation>студент</translation>
+ </item>
+ <item id="14">
+  <translation>учитель</translation>
+ </item>
+ <item id="15">
+  <translation>Я студент?</translation>
+ </item>
+ <item id="15">
+  <translation>Нет, Вы не студент, Вы учитель</translation>
+ </item>
+ <item id="16">
+  <translation>Вы учитель</translation>
+ </item>
+ <item id="16">
+  <translation>Нет, я не учитель, я студент</translation>
+ </item>
+ <item id="17">
+  <translation>тридцать</translation>
+ </item>
+ <item id="18">
+  <translation>сорок</translation>
+ </item>
+ <item id="19">
+  <translation>пятьдесят</translation>
+ </item>
+ <item id="20">
+  <translation>шестьдесят</translation>
+ </item>
+ <item id="21">
+  <translation>семьдесят</translation>
+ </item>
+ <item id="22">
+  <translation>восемьдесят</translation>
+ </item>
+ <item id="23">
+  <translation>девяносто</translation>
+ </item>
+ <item id="24">
+  <translation>сто</translation>
+ </item>
+ <item id="25">
+  <translation>тысяча</translation>
+ </item>
+ <item id="26">
+  <translation>миллион</translation>
+ </item>
+ <item id="27">
+  <translation>число</translation>
+ </item>
+ <item id="28">
+  <translation>Что это за число?</translation>
+ </item>
+ <item id="28">
+  <translation>тридцать, сорок и т.д.</translation>
+ </item>
+ <item id="29">
+  <translation>Что это за числа</translation>
+ </item>
+ <item id="29">
+  <translation>тридцать, тринадцать, сорок, четырнадцать и т.д.</translation>
+ </item>
+ <item id="30">
+  <translation>Что это за число?</translation>
+ </item>
+ <item id="30">
+  <translation>Это триста тринадцать, тысяча восьсот пятнадцать, миллион девятьсот рятьдесят тысяч шестьсот тридцать</translation>
+ </item>
+ <item id="31">
+  <translation>плюс</translation>
+ </item>
+ <item id="32">
+  <translation/>
+ </item>
+ <item id="33">
+  <translation>два плюс два равно четыре</translation>
+ </item>
+ <item id="34">
+  <translation>Что это?</translation>
+ </item>
+ <item id="34">
+  <translation>Это два плюс два равно четыре</translation>
+ </item>
+ <item id="35">
+  <translation>сколько</translation>
+ </item>
+ <item id="36">
+  <translation>Сколько будет тринадцать плюс пять?</translation>
+ </item>
+ <item id="36">
+  <translation>Тринадцать плюс пять равно восемнадцать</translation>
+ </item>
+ <item id="37">
+  <translation>Солько будет восемнадцать плюс сорок?</translation>
+ </item>
+ <item id="38">
+  <translation>Шестьдесят плюс девятнадцать?</translation>
+ </item>
+ <item id="39">
+  <translation>Шестнадцать плюс тридцать?</translation>
+ </item>
+ <item id="40">
+  <translation>Девяносто плюс пятнадцать?</translation>
+ </item>
+ <item id="41">
+  <translation>Пять плюс десять?</translation>
+ </item>
+ <item id="42">
+  <translation>Шесть плюс три?</translation>
+ </item>
+ <item id="43">
+  <translation>Двадцать плюс пятнадцать?</translation>
+ </item>
+ <item id="44">
+  <translation>Десять плюс три?</translation>
+ </item>
+ <item id="45">
+  <translation>есть (это есть)</translation>
+ </item>
+ <item id="46">
+  <translation>Есть ли ручка на этой книге?</translation>
+ </item>
+ <item id="46">
+  <translation>Да, есть ручка на этой книге</translation>
+ </item>
+ <item id="47">
+  <translation>Есть ли лампа на потолке?</translation>
+ </item>
+ <item id="47">
+  <translation>Да, есть лампа на потолке</translation>
+ </item>
+ <item id="48">
+  <translation>Есть ли сумка в этой комнате?</translation>
+ </item>
+ <item id="48">
+  <translation>Да, есть сумка в этой комнате</translation>
+ </item>
+ <item id="49">
+  <translation>есть (множественное число)</translation>
+ </item>
+ <item id="50">
+  <translation>сейчас</translation>
+ </item>
+ <item id="51">
+  <translation>Есть ли ручка на книге?</translation>
+ </item>
+ <item id="51">
+  <translation>Да, есть ручка на книге</translation>
+ </item>
+ <item id="52">
+  <translation>Есть ли теперь две ручки на книге?</translation>
+ </item>
+ <item id="52">
+  <translation>Да, теперь есть две ручки на книге</translation>
+ </item>
+ <item id="53">
+  <translation>Есть двенадцать стульев в этой комнате?</translation>
+ </item>
+ <item id="53">
+  <translation>Да, есть двенадцать стульев в этой комнате</translation>
+ </item>
+ <item id="54">
+  <translation>Есть две картины на этих стенах?</translation>
+ </item>
+ <item id="54">
+  <translation>Да, есть две картины на этих стенах</translation>
+ </item>
+ <item id="55">
+  <translation>нет, не имеется</translation>
+ </item>
+ <item id="56">
+  <translation>Есть ручка на книге?</translation>
+ </item>
+ <item id="56">
+  <translation>Нет, нет ручки на книге</translation>
+ </item>
+ <item id="57">
+  <translation>Есть ли книга на полу?</translation>
+ </item>
+ <item id="57">
+  <translation>Нет, нет книги на полу</translation>
+ </item>
+ <item id="58">
+  <translation>Есть ли часы на столе?</translation>
+ </item>
+ <item id="58">
+  <translation>Нет, нет часов на столе</translation>
+ </item>
+ <item id="59">
+  <translation>нет, не имеется (множественное число)</translation>
+ </item>
+ <item id="60">
+  <translation>Есть трое часов на стене?</translation>
+ </item>
+ <item id="60">
+  <translation>Нет, нет трех часов на стене, есть одни часы на стене</translation>
+ </item>
+ <item id="61">
+  <translation>Есть сотня картин в этой комнате?</translation>
+ </item>
+ <item id="61">
+  <translation>Нет, нет сотни картин в этой комнате, есть две картины в этой комнате</translation>
+ </item>
+ <item id="62">
+  <translation>Есть тысяча стульев в этой комнате?</translation>
+ </item>
+ <item id="62">
+  <translation>Нет, нет тысячи стульев в этой комнате, есть двенадцать стульев в этой комнате</translation>
+ </item>
+ <item id="63">
+  <translation>высокий</translation>
+ </item>
+ <item id="64">
+  <translation/>
+ </item>
+ <item id="65">
+  <translation/>
+ </item>
+ <item id="66">
+  <translation>Стул - высокий?</translation>
+ </item>
+ <item id="66">
+  <translation>Нет, стул не высокий, он низкий</translation>
+ </item>
+ <item id="67">
+  <translation>Стена низкая?</translation>
+ </item>
+ <item id="67">
+  <translation>Нет, стена не низкая, она высокая</translation>
+ </item>
+ <item id="68">
+  <translation>Стол высокий?</translation>
+ </item>
+ <item id="68">
+  <translation>Нет, стол не высокий, он низкий</translation>
+ </item>
+</items>

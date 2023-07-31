@@ -1,0 +1,234 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок пятнадцать</translation>
+ </item>
+ <item id="1">
+  <translation>предлог</translation>
+ </item>
+ <item id="2">
+  <translation>Дай мне, пожалуйста, несколько примеров предлогов</translation>
+ </item>
+ <item id="2">
+  <translation>Некоторые примеры предлогов - это &quot;на&quot;, &quot;под&quot;, &quot;в&quot; и &quot;от&quot;</translation>
+ </item>
+ <item id="3">
+  <translation>Откуда ты прибываешь?</translation>
+ </item>
+ <item id="3">
+  <translation>Я прибываю из Лондона</translation>
+ </item>
+ <item id="4">
+  <translation>Откуда я прибываю?</translation>
+ </item>
+ <item id="4">
+  <translation>Ты прибываешь из Лондона</translation>
+ </item>
+ <item id="5">
+  <translation>С помощью чего мы говорим?</translation>
+ </item>
+ <item id="5">
+  <translation>Мы говорим с помощью ртов</translation>
+ </item>
+ <item id="6">
+  <translation>Откуда я беру книгу?</translation>
+ </item>
+ <item id="6">
+  <translation>Ты берешь книгу со стола</translation>
+ </item>
+ <item id="7">
+  <translation>Под что я кладу ручку?</translation>
+ </item>
+ <item id="7">
+  <translation>Ты кладешь ручку под книгу</translation>
+ </item>
+ <item id="8">
+  <translation>На чем ты сидишь?</translation>
+ </item>
+ <item id="8">
+  <translation>Я сижу на стуле</translation>
+ </item>
+ <item id="9">
+  <translation>север, на север</translation>
+ </item>
+ <item id="10">
+  <translation>юг, на юге</translation>
+ </item>
+ <item id="11">
+  <translation>восток, на восток</translation>
+ </item>
+ <item id="12">
+  <translation>запад, на запад</translation>
+ </item>
+ <item id="13">
+  <translation>сторона света</translation>
+ </item>
+ <item id="14">
+  <translation>Париж</translation>
+ </item>
+ <item id="15">
+  <translation>Скажи мне, пожалуйста, названия четырех сторон света</translation>
+ </item>
+ <item id="15">
+  <translation>Имена четырех сторон света: север, юг, восток и запад</translation>
+ </item>
+ <item id="16">
+  <translation>Греция на западе Италии?</translation>
+ </item>
+ <item id="16">
+  <translation>Нет, Греция не западнее Италии; она восточнее Италии</translation>
+ </item>
+ <item id="17">
+  <translation>Париж - на юге Франции?</translation>
+ </item>
+ <item id="17">
+  <translation>Нет, Париж - не на юге Франции; он на севере Франции</translation>
+ </item>
+ <item id="18">
+  <translation>Германия - восточнее или западнее Италии?</translation>
+ </item>
+ <item id="18">
+  <translation>Германия - не восточнее и не западнее Италии; она севернее Италии</translation>
+ </item>
+ <item id="19">
+  <translation>место</translation>
+ </item>
+ <item id="19">
+  <translation>некоторые из</translation>
+ </item>
+ <item id="20">
+  <translation>Сколько мест (для сидения) в этой комнате?</translation>
+ </item>
+ <item id="20">
+  <translation>В этой комнате - 14 мест</translation>
+ </item>
+ <item id="21">
+  <translation>Кто-то сидит на этом месте?</translation>
+ </item>
+ <item id="21">
+  <translation>Да, кто-то сидит на этом месте</translation>
+ </item>
+ <item id="22">
+  <translation>Назови мне некоторые из мест, которые тебе нравятся, в этой стране</translation>
+ </item>
+ <item id="22">
+  <translation>Названия некоторых из мест, которые мне нравятся в этой стране, - Оксфорд, Кэмбридж и Йорк</translation>
+ </item>
+ <item id="23">
+  <translation>антоним, противоположный</translation>
+ </item>
+ <item id="24">
+  <translation>Что есть противоположность для &quot;высокий&quot;?</translation>
+ </item>
+ <item id="24">
+  <translation>Противоположный для &quot;высокий&quot; - &quot;низкий&quot;</translation>
+ </item>
+ <item id="25">
+  <translation>Что есть противоположностью для &quot;позади&quot;?</translation>
+ </item>
+ <item id="25">
+  <translation>Противоположность для &quot;позади&quot; - &quot;перед&quot;</translation>
+ </item>
+ <item id="26">
+  <translation>Что есть противоположностью для &quot;длинный&quot;?</translation>
+ </item>
+ <item id="26">
+  <translation>Противоположностью для &quot;длинный&quot;  есть &quot;короткий&quot;</translation>
+ </item>
+ <item id="27">
+  <translation>Что есть противоположностью глагола &quot;обучать&quot;</translation>
+ </item>
+ <item id="27">
+  <translation>Противоположностью глагола &quot;обучать&quot; есть &quot;научаться&quot;</translation>
+ </item>
+ <item id="28">
+  <translation>без</translation>
+ </item>
+ <item id="29">
+  <translation>Что есть противоположностью для &quot;с&quot;?</translation>
+ </item>
+ <item id="29">
+  <translation>Противоположностью для &quot;с&quot; есть &quot;без&quot;</translation>
+ </item>
+ <item id="30">
+  <translation>Мы можем писать без ручки или карандаша?</translation>
+ </item>
+ <item id="30">
+  <translation>Нет, мы не можем писать без ручки или карандаша</translation>
+ </item>
+ <item id="31">
+  <translation>Мы можем говорить, не открывая ртов?</translation>
+ </item>
+ <item id="31">
+  <translation>Нет, мы не можем говорить, не открывая ртов</translation>
+ </item>
+ <item id="32">
+  <translation>Ты можешь читать без ношения очков?</translation>
+ </item>
+ <item id="32">
+  <translation>Да, я могу читать без ношения очков</translation>
+ </item>
+ <item id="33">
+  <translation>глагол</translation>
+ </item>
+ <item id="34">
+  <translation>существительно</translation>
+ </item>
+ <item id="35">
+  <translation>перевод</translation>
+ </item>
+ <item id="36">
+  <translation>В чем разница между глаголом и существительным?</translation>
+ </item>
+ <item id="36">
+  <translation>Разница между глаголом и существительным в том, что глагол мы используем для действий, в то время как существительное - это название вещи</translation>
+ </item>
+ <item id="37">
+  <translation>Дай мне, пожалуйста, пример глагола</translation>
+ </item>
+ <item id="37">
+  <translation>&quot;Брать&quot; - это глагол</translation>
+ </item>
+ <item id="38">
+  <translation>Дай мне пример существительного</translation>
+ </item>
+ <item id="38">
+  <translation>&quot;Книга&quot; - это существительное</translation>
+ </item>
+ <item id="39">
+  <translation>Слово &quot;перевод&quot; - глагол или существительное?</translation>
+ </item>
+ <item id="39">
+  <translation>Слово &quot;перевод&quot; - существительное</translation>
+ </item>
+ <item id="40">
+  <translation>в течение</translation>
+ </item>
+ <item id="41">
+  <translation>по, около</translation>
+ </item>
+ <item id="42">
+  <translation>Мы говорим на итальянском на протяжении урока?</translation>
+ </item>
+ <item id="42">
+  <translation>нет, мы не говорим по-итальянски на протяжении урока; мы говорим на английском</translation>
+ </item>
+ <item id="43">
+  <translation>Ты ходишь по комнате в течении урока?</translation>
+ </item>
+ <item id="43">
+  <translation>Нет, я не хожу по комнате на протяжении урока; я сижу на своем стуле</translation>
+ </item>
+ <item id="44">
+  <translation>Он ходит по комнате на протяжении урока?</translation>
+ </item>
+ <item id="44">
+  <translation>Нет, он не ходит по комнате на протяжении урока; он сидит на своем стуле</translation>
+ </item>
+ <item id="45">
+  <translation>Приблизительно на сколько вопросов ты отвечаешь на протяжении урока?</translation>
+ </item>
+ <item id="45">
+  <translation>Я отвечаю приблизительно на тридцать вопросов на протяжении урока</translation>
+ </item>
+</items>

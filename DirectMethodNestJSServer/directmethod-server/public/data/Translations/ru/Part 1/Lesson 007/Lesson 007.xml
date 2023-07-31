@@ -1,0 +1,333 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок семь</translation>
+ </item>
+ <item id="1">
+  <translation>человек</translation>
+ </item>
+ <item id="2">
+  <translation>люди</translation>
+ </item>
+ <item id="3">
+  <translation>Что есть множественным числом для слова &quot;человек&quot;?</translation>
+ </item>
+ <item id="3">
+  <translation>Множественное число от &quot;человек&quot; - &quot;люди&quot;</translation>
+ </item>
+ <item id="4">
+  <translation>Сколько людей в этой комнате?</translation>
+ </item>
+ <item id="4">
+  <translation>В этой комнате пять человек</translation>
+ </item>
+ <item id="5">
+  <translation>Сколько людей в этом городке?</translation>
+ </item>
+ <item id="5">
+  <translation>В этом городке - стопятьдесят тысяч человек</translation>
+ </item>
+ <item id="6">
+  <translation>идти от (идущий от)</translation>
+ </item>
+ <item id="7">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="7">
+  <translation>Ты идешь от двери</translation>
+ </item>
+ <item id="8">
+  <translation>Я  иду от окна?</translation>
+ </item>
+ <item id="8">
+  <translation>Нет, ты не идешь от окна, ты идешь к окну</translation>
+ </item>
+ <item id="9">
+  <translation>Я иду к окну?</translation>
+ </item>
+ <item id="9">
+  <translation>Нет, ты не идешь к окну, ты идешь от окна</translation>
+ </item>
+ <item id="10">
+  <translation>дотрагиваться, касаться</translation>
+ </item>
+ <item id="11">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="11">
+  <translation>Ты касаешься стены</translation>
+ </item>
+ <item id="12">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="12">
+  <translation>Ты касаешься картины</translation>
+ </item>
+ <item id="13">
+  <translation>Каснись своего галстука, пожалуйста</translation>
+ </item>
+ <item id="14">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="14">
+  <translation>Он касается своего гаслстука и т.д.</translation>
+ </item>
+ <item id="15">
+  <translation>предложение</translation>
+ </item>
+ <item id="16">
+  <translation>Что это?</translation>
+ </item>
+ <item id="16">
+  <translation>Это преддожение</translation>
+ </item>
+ <item id="17">
+  <translation>слово</translation>
+ </item>
+ <item id="18">
+  <translation>глагол</translation>
+ </item>
+ <item id="19">
+  <translation>использовать</translation>
+ </item>
+ <item id="20">
+  <translation>для</translation>
+ </item>
+ <item id="21">
+  <translation>действие</translation>
+ </item>
+ <item id="22">
+  <translation>Что это?</translation>
+ </item>
+ <item id="22">
+  <translation>Это слово</translation>
+ </item>
+ <item id="23">
+  <translation>Сколько слов в этом предложении?</translation>
+ </item>
+ <item id="23">
+  <translation>В этом предложении семь слов</translation>
+ </item>
+ <item id="24">
+  <translation>Какое первое слово этого предложения?</translation>
+ </item>
+ <item id="24">
+  <translation>&quot;Глаголы&quot; - первое слово этого предложения</translation>
+ </item>
+ <item id="25">
+  <translation>Какое третье слово этого предложения?</translation>
+ </item>
+ <item id="25">
+  <translation>&quot;Слово&quot; - третье слово этого предложения</translation>
+ </item>
+ <item id="26">
+  <translation>Какое пятое слово этого предложения?</translation>
+ </item>
+ <item id="26">
+  <translation>&quot;Использовать&quot; - пятое слово этого предложения</translation>
+ </item>
+ <item id="27">
+  <translation>Какое шестое слово?</translation>
+ </item>
+ <item id="27">
+  <translation>&quot;Для&quot; - шестое слово этого предложения</translation>
+ </item>
+ <item id="28">
+  <translation>Какое последнее слово?</translation>
+ </item>
+ <item id="28">
+  <translation>&quot;Действия&quot; - последнее слово этого предложения</translation>
+ </item>
+ <item id="29">
+  <translation>знак вопроса</translation>
+ </item>
+ <item id="30">
+  <translation>точка</translation>
+ </item>
+ <item id="31">
+  <translation>запятая</translation>
+ </item>
+ <item id="32">
+  <translation>двоеточие</translation>
+ </item>
+ <item id="33">
+  <translation>точка с запятой</translation>
+ </item>
+ <item id="34">
+  <translation>Что это?</translation>
+ </item>
+ <item id="34">
+  <translation>Это вопросительный знак</translation>
+ </item>
+ <item id="35">
+  <translation>Что это?</translation>
+ </item>
+ <item id="35">
+  <translation>Это точка</translation>
+ </item>
+ <item id="36">
+  <translation>Что это?</translation>
+ </item>
+ <item id="36">
+  <translation>Это запятая</translation>
+ </item>
+ <item id="37">
+  <translation>Что это?</translation>
+ </item>
+ <item id="37">
+  <translation>Это двоеточие</translation>
+ </item>
+ <item id="38">
+  <translation>Что это?</translation>
+ </item>
+ <item id="38">
+  <translation>Это точка с запятой</translation>
+ </item>
+ <item id="39">
+  <translation>зонт</translation>
+ </item>
+ <item id="40">
+  <translation>Что это за слово?</translation>
+ </item>
+ <item id="40">
+  <translation>Это слово - &quot;зонт&quot;</translation>
+ </item>
+ <item id="41">
+  <translation>Есть ли зонт на столе?</translation>
+ </item>
+ <item id="41">
+  <translation>Нет, нет зонта на столе</translation>
+ </item>
+ <item id="42">
+  <translation>произносить</translation>
+ </item>
+ <item id="43">
+  <translation>Произнеси это слово, пожалуйста</translation>
+ </item>
+ <item id="43">
+  <translation>что</translation>
+ </item>
+ <item id="44">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="44">
+  <translation>Он произносит слово &quot;word&quot;</translation>
+ </item>
+ <item id="45">
+  <translation>Произнеси это слово, пожалуйста</translation>
+ </item>
+ <item id="45">
+  <translation>цвет</translation>
+ </item>
+ <item id="46">
+  <translation>Что она делает?</translation>
+ </item>
+ <item id="46">
+  <translation>Она произносит слово &quot;color&quot;</translation>
+ </item>
+ <item id="47">
+  <translation>(неопределенный артикль)</translation>
+ </item>
+ <item id="48">
+  <translation>(неопределенный артикль)</translation>
+ </item>
+ <item id="49">
+  <translation>(определенный артикль)</translation>
+ </item>
+ <item id="50">
+  <translation>(определенный артикль)</translation>
+ </item>
+ <item id="51">
+  <translation>Произнеси эти слова, пожалуйста</translation>
+ </item>
+ <item id="51">
+  <translation>книга - зонт; книга - зонт</translation>
+ </item>
+ <item id="52">
+  <translation>тело</translation>
+ </item>
+ <item id="53">
+  <translation>Что это?</translation>
+ </item>
+ <item id="53">
+  <translation>Это тело</translation>
+ </item>
+ <item id="54">
+  <translation>Это ее тело?</translation>
+ </item>
+ <item id="54">
+  <translation>Нет, это не ее тело, это твое тело</translation>
+ </item>
+ <item id="55">
+  <translation>часть</translation>
+ </item>
+ <item id="56">
+  <translation>нога, стопа</translation>
+ </item>
+ <item id="57">
+  <translation>ноги, стопы</translation>
+ </item>
+ <item id="58">
+  <translation>Что это за часть тела?</translation>
+ </item>
+ <item id="58">
+  <translation>Эта часть тела - стопа</translation>
+ </item>
+ <item id="59">
+  <translation>Что есть множественнм числом для &quot;стопы&quot;?</translation>
+ </item>
+ <item id="59">
+  <translation>Множественное число для стопы - стопы</translation>
+ </item>
+ <item id="60">
+  <translation>нога</translation>
+ </item>
+ <item id="61">
+  <translation>спина</translation>
+ </item>
+ <item id="62">
+  <translation>рука</translation>
+ </item>
+ <item id="63">
+  <translation>запястье</translation>
+ </item>
+ <item id="64">
+  <translation>кисть руки</translation>
+ </item>
+ <item id="65">
+  <translation>палец</translation>
+ </item>
+ <item id="66">
+  <translation>большой палец</translation>
+ </item>
+ <item id="67">
+  <translation>Что это?</translation>
+ </item>
+ <item id="67">
+  <translation>Это нога, спина, рука, запястье и т.д.</translation>
+ </item>
+ <item id="68">
+  <translation>верно</translation>
+ </item>
+ <item id="69">
+  <translation>неверно</translation>
+ </item>
+ <item id="70">
+  <translation>Два плюс два равно семи: это верно?</translation>
+ </item>
+ <item id="70">
+  <translation>Нет, это не верно, это неверно</translation>
+ </item>
+ <item id="71">
+  <translation>Стены - высоки: это неверно?</translation>
+ </item>
+ <item id="71">
+  <translation>Нет, это не неверно, это верно</translation>
+ </item>
+ <item id="72">
+  <translation>Это верно, что Вы - мистер Браун?</translation>
+ </item>
+ <item id="72">
+  <translation>нет, это не верно, что я - мистер Браун; я - Лиз</translation>
+ </item>
+</items>

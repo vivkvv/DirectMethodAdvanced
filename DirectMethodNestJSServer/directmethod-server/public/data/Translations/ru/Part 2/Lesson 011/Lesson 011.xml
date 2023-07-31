@@ -1,0 +1,282 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок одиннадцать</translation>
+ </item>
+ <item id="1">
+  <translation>около</translation>
+ </item>
+ <item id="2">
+  <translation>страница</translation>
+ </item>
+ <item id="3">
+  <translation>Сколько приблизительно людей в вашей стране?</translation>
+ </item>
+ <item id="3">
+  <translation>В моей стране - около пятидесяти миллионов людей</translation>
+ </item>
+ <item id="4">
+  <translation>Сколько приблизительно вещей в этой комнате?</translation>
+ </item>
+ <item id="4">
+  <translation>В этой комнате приблизительно двадцать вещей</translation>
+ </item>
+ <item id="5">
+  <translation>Сколько приблизительно страниц в этой книге?</translation>
+ </item>
+ <item id="5">
+  <translation>В этой книге - приблизительно 150 страниц</translation>
+ </item>
+ <item id="6">
+  <translation>мочь, уметь</translation>
+ </item>
+ <item id="7">
+  <translation>Ты можешь говорить на своем языке? (вообще)</translation>
+ </item>
+ <item id="7">
+  <translation>Да, я могу говорить на моем языке</translation>
+ </item>
+ <item id="8">
+  <translation>Ты можешь прикоснуться к этой книге? (вообще)</translation>
+ </item>
+ <item id="8">
+  <translation>Да, я могу прикоснуться к этой книге</translation>
+ </item>
+ <item id="9">
+  <translation>Ты умеешь читать и писать? (вообще)</translation>
+ </item>
+ <item id="9">
+  <translation>Да, я умею читать и писать</translation>
+ </item>
+ <item id="10">
+  <translation>нравиться</translation>
+ </item>
+ <item id="11">
+  <translation>не нравиться</translation>
+ </item>
+ <item id="12">
+  <translation>кино</translation>
+ </item>
+ <item id="13">
+  <translation>телевидение</translation>
+ </item>
+ <item id="14">
+  <translation>Тебе нравится твой город? (вообще)</translation>
+ </item>
+ <item id="14">
+  <translation>Да, мне нравится мой город</translation>
+ </item>
+ <item id="15">
+  <translation>Ты не любишь кино? (вообще)</translation>
+ </item>
+ <item id="15">
+  <translation>Нет, мне не нравится вино; мне нравится кино</translation>
+ </item>
+ <item id="16">
+  <translation>Тебе нравится та картина? (вообще)</translation>
+ </item>
+ <item id="16">
+  <translation>Да, мне нравится та картина</translation>
+ </item>
+ <item id="17">
+  <translation>Тебе не нравится телевидение? (вообще)</translation>
+ </item>
+ <item id="17">
+  <translation>Нет, мне не не нравится телевидение; мне нравится телевидение</translation>
+ </item>
+ <item id="18">
+  <translation>Он не любит телевидение?</translation>
+ </item>
+ <item id="18">
+  <translation>Нет, он не не любит телевидение; он любит телевидение</translation>
+ </item>
+ <item id="19">
+  <translation>правый</translation>
+ </item>
+ <item id="20">
+  <translation>левый</translation>
+ </item>
+ <item id="21">
+  <translation>Какая это рука?</translation>
+ </item>
+ <item id="21">
+  <translation>Это твоя левая рука</translation>
+ </item>
+ <item id="22">
+  <translation>Какая это рука?</translation>
+ </item>
+ <item id="22">
+  <translation>Это твоя правая  рука</translation>
+ </item>
+ <item id="23">
+  <translation>Положи, пожалуйста, свою правую руку на эту книгу</translation>
+ </item>
+ <item id="24">
+  <translation>Что он делает? (сейчас)</translation>
+ </item>
+ <item id="24">
+  <translation>Он кладет свою правую руку на эту книгу</translation>
+ </item>
+ <item id="25">
+  <translation>Закрой, пожалуйста, свой левый глаз</translation>
+ </item>
+ <item id="26">
+  <translation>Что он делает? (сейчас)</translation>
+ </item>
+ <item id="26">
+  <translation>Он закрывает свой левый глаз</translation>
+ </item>
+ <item id="27">
+  <translation>двигаться</translation>
+ </item>
+ <item id="28">
+  <translation>неподвижно</translation>
+ </item>
+ <item id="29">
+  <translation>совершенно</translation>
+ </item>
+ <item id="30">
+  <translation>Моя рука двигается? (сейчас)</translation>
+ </item>
+ <item id="30">
+  <translation>Нет, твоя правая рука не двигается, она неподвижна</translation>
+ </item>
+ <item id="31">
+  <translation>Я стою неподвижно? (сейчас)</translation>
+ </item>
+ <item id="31">
+  <translation>Нет, ты стоишь не спокойно, ты двигаешься</translation>
+ </item>
+ <item id="32">
+  <translation>Все части твоего тела неподвижны сейчас?</translation>
+ </item>
+ <item id="32">
+  <translation>Нет, не все части моего тела неподвижны сейчас; мой рот и мой язык и т.д. двигаются</translation>
+ </item>
+ <item id="33">
+  <translation>Ты обычно сидишь совершенно неподвижно на уроке?</translation>
+ </item>
+ <item id="33">
+  <translation>Нет, я обычно не сижу совершенно спокойно на уроке; я двигаюсь</translation>
+ </item>
+ <item id="34">
+  <translation>Он обычно сидит совершенно спокойно на уроке?</translation>
+ </item>
+ <item id="34">
+  <translation>Нет, он обычно не сидит совершенно спокойно на уроке; он двигается</translation>
+ </item>
+ <item id="35">
+  <translation>носить</translation>
+ </item>
+ <item id="36">
+  <translation>носить</translation>
+ </item>
+ <item id="37">
+  <translation>очки</translation>
+ </item>
+ <item id="38">
+  <translation>Какую одежду ты носишь? (сейчас)</translation>
+ </item>
+ <item id="38">
+  <translation>Я ношу туфли, носки, костюм и т.д.</translation>
+ </item>
+ <item id="39">
+  <translation>Ты носишь очки? (сейчас)</translation>
+ </item>
+ <item id="39">
+  <translation>Да, я ношу очки</translation>
+ </item>
+ <item id="40">
+  <translation>Ты носишь шляпу? (сейчас)</translation>
+ </item>
+ <item id="40">
+  <translation>Нет, я не ношу шляпу</translation>
+ </item>
+ <item id="41">
+  <translation>Ты носишь шляпу? (вообще)</translation>
+ </item>
+ <item id="41">
+  <translation>Да, я ношу шляпу</translation>
+ </item>
+ <item id="42">
+  <translation>Ты носишь пальто? (сейчас)</translation>
+ </item>
+ <item id="42">
+  <translation>Нет, я не ношу пальто</translation>
+ </item>
+ <item id="43">
+  <translation>Ты носишь пальто? (вообще)</translation>
+ </item>
+ <item id="43">
+  <translation>Да, я ношу пальто</translation>
+ </item>
+ <item id="44">
+  <translation>с помощью/с</translation>
+ </item>
+ <item id="45">
+  <translation>Что я делаю? (сейчас)</translation>
+ </item>
+ <item id="45">
+  <translation>Ты касаешься своего носа пальцем</translation>
+ </item>
+ <item id="46">
+  <translation>Мы говорим с помощью ртов? (вообще)</translation>
+ </item>
+ <item id="46">
+  <translation>Да, мы говорим с помощью ртов</translation>
+ </item>
+ <item id="47">
+  <translation>Мы читаем с помощью глаз? (вообще)</translation>
+ </item>
+ <item id="47">
+  <translation>Да, мы читаем с помощью глаз</translation>
+ </item>
+ <item id="48">
+  <translation>половина</translation>
+ </item>
+ <item id="49">
+  <translation>Сколько это - половина от ста?</translation>
+ </item>
+ <item id="49">
+  <translation>Пятьдесят - половина ста</translation>
+ </item>
+ <item id="50">
+  <translation>Сколько это - половина тринадцати?</translation>
+ </item>
+ <item id="50">
+  <translation>Шесть с половиной - половина тринадцати</translation>
+ </item>
+ <item id="51">
+  <translation>Половина людей в этой школе - мужчины?</translation>
+ </item>
+ <item id="51">
+  <translation>Да, половина людей в этой школе - мужчины</translation>
+ </item>
+ <item id="52">
+  <translation>говорить, сказать</translation>
+ </item>
+ <item id="53">
+  <translation>Назови мне, пожалуйста, твое имя</translation>
+ </item>
+ <item id="53">
+  <translation>Мое имя - мистер Лонг</translation>
+ </item>
+ <item id="54">
+  <translation>Что он делает? (сейчас)</translation>
+ </item>
+ <item id="54">
+  <translation>Он говорит тебе свое имя</translation>
+ </item>
+ <item id="55">
+  <translation>Назови мне, пожалуйста, название столицы России</translation>
+ </item>
+ <item id="55">
+  <translation>Москва - столица России</translation>
+ </item>
+ <item id="56">
+  <translation>Что он делает? (сейчас)</translation>
+ </item>
+ <item id="56">
+  <translation>Он называет тебе имя столицы России</translation>
+ </item>
+</items>

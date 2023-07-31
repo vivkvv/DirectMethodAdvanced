@@ -1,0 +1,318 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation/>
+ </item>
+ <item id="1">
+  <translation>жена</translation>
+ </item>
+ <item id="2">
+  <translation>жены</translation>
+ </item>
+ <item id="3">
+  <translation>помогать</translation>
+ </item>
+ <item id="4">
+  <translation/>
+ </item>
+ <item id="4">
+  <translation/>
+ </item>
+ <item id="5">
+  <translation/>
+ </item>
+ <item id="5">
+  <translation/>
+ </item>
+ <item id="6">
+  <translation/>
+ </item>
+ <item id="6">
+  <translation/>
+ </item>
+ <item id="7">
+  <translation/>
+ </item>
+ <item id="7">
+  <translation/>
+ </item>
+ <item id="8">
+  <translation>распространенный</translation>
+ </item>
+ <item id="9">
+  <translation/>
+ </item>
+ <item id="9">
+  <translation/>
+ </item>
+ <item id="10">
+  <translation>камин</translation>
+ </item>
+ <item id="11">
+  <translation/>
+ </item>
+ <item id="11">
+  <translation/>
+ </item>
+ <item id="12">
+  <translation>широкий</translation>
+ </item>
+ <item id="13">
+  <translation/>
+ </item>
+ <item id="13">
+  <translation/>
+ </item>
+ <item id="14">
+  <translation>богатый</translation>
+ </item>
+ <item id="15">
+  <translation/>
+ </item>
+ <item id="15">
+  <translation/>
+ </item>
+ <item id="16">
+  <translation>бедный</translation>
+ </item>
+ <item id="17">
+  <translation/>
+ </item>
+ <item id="17">
+  <translation/>
+ </item>
+ <item id="18">
+  <translation>рассказ</translation>
+ </item>
+ <item id="19">
+  <translation>перед сном</translation>
+ </item>
+ <item id="20">
+  <translation/>
+ </item>
+ <item id="20">
+  <translation/>
+ </item>
+ <item id="21">
+  <translation/>
+ </item>
+ <item id="21">
+  <translation/>
+ </item>
+ <item id="22">
+  <translation>выражать</translation>
+ </item>
+ <item id="23">
+  <translation>мысль</translation>
+ </item>
+ <item id="24">
+  <translation/>
+ </item>
+ <item id="24">
+  <translation/>
+ </item>
+ <item id="25">
+  <translation/>
+ </item>
+ <item id="25">
+  <translation/>
+ </item>
+ <item id="26">
+  <translation>неправильные глаголы</translation>
+ </item>
+ <item id="27">
+  <translation>поэтому</translation>
+ </item>
+ <item id="28">
+  <translation>изменять</translation>
+ </item>
+ <item id="29">
+  <translation/>
+ </item>
+ <item id="29">
+  <translation/>
+ </item>
+ <item id="30">
+  <translation>говорить</translation>
+ </item>
+ <item id="31">
+  <translation>приходить</translation>
+ </item>
+ <item id="32">
+  <translation>ломать</translation>
+ </item>
+ <item id="33">
+  <translation>носить</translation>
+ </item>
+ <item id="34">
+  <translation>писать</translation>
+ </item>
+ <item id="35">
+  <translation>просыпаться</translation>
+ </item>
+ <item id="36">
+  <translation>стоять</translation>
+ </item>
+ <item id="37">
+  <translation>сиять</translation>
+ </item>
+ <item id="38">
+  <translation>брать</translation>
+ </item>
+ <item id="39">
+  <translation>рассказывать</translation>
+ </item>
+ <item id="40">
+  <translation>водить автомобиль</translation>
+ </item>
+ <item id="41">
+  <translation>забывать</translation>
+ </item>
+ <item id="42">
+  <translation>видеть</translation>
+ </item>
+ <item id="43">
+  <translation>сидеть</translation>
+ </item>
+ <item id="44">
+  <translation>кушать</translation>
+ </item>
+ <item id="45">
+  <translation>давать</translation>
+ </item>
+ <item id="46">
+  <translation>начинать</translation>
+ </item>
+ <item id="47">
+  <translation>пить</translation>
+ </item>
+ <item id="48">
+  <translation>спать</translation>
+ </item>
+ <item id="49">
+  <translation/>
+ </item>
+ <item id="49">
+  <translation/>
+ </item>
+ <item id="50">
+  <translation/>
+ </item>
+ <item id="50">
+  <translation/>
+ </item>
+ <item id="51">
+  <translation/>
+ </item>
+ <item id="51">
+  <translation/>
+ </item>
+ <item id="52">
+  <translation/>
+ </item>
+ <item id="52">
+  <translation/>
+ </item>
+ <item id="53">
+  <translation/>
+ </item>
+ <item id="53">
+  <translation/>
+ </item>
+ <item id="54">
+  <translation/>
+ </item>
+ <item id="54">
+  <translation/>
+ </item>
+ <item id="55">
+  <translation/>
+ </item>
+ <item id="55">
+  <translation/>
+ </item>
+ <item id="56">
+  <translation/>
+ </item>
+ <item id="56">
+  <translation/>
+ </item>
+ <item id="57">
+  <translation/>
+ </item>
+ <item id="57">
+  <translation/>
+ </item>
+ <item id="58">
+  <translation/>
+ </item>
+ <item id="58">
+  <translation/>
+ </item>
+ <item id="59">
+  <translation/>
+ </item>
+ <item id="59">
+  <translation/>
+ </item>
+ <item id="60">
+  <translation/>
+ </item>
+ <item id="60">
+  <translation/>
+ </item>
+ <item id="61">
+  <translation/>
+ </item>
+ <item id="61">
+  <translation/>
+ </item>
+ <item id="62">
+  <translation/>
+ </item>
+ <item id="62">
+  <translation/>
+ </item>
+ <item id="63">
+  <translation/>
+ </item>
+ <item id="63">
+  <translation/>
+ </item>
+ <item id="64">
+  <translation/>
+ </item>
+ <item id="64">
+  <translation/>
+ </item>
+ <item id="65">
+  <translation/>
+ </item>
+ <item id="65">
+  <translation/>
+ </item>
+ <item id="66">
+  <translation/>
+ </item>
+ <item id="66">
+  <translation/>
+ </item>
+ <item id="67">
+  <translation/>
+ </item>
+ <item id="67">
+  <translation/>
+ </item>
+ <item id="68">
+  <translation/>
+ </item>
+ <item id="68">
+  <translation/>
+ </item>
+ <item id="69">
+  <translation/>
+ </item>
+ <item id="69">
+  <translation/>
+ </item>
+</items>

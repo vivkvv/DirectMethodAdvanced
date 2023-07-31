@@ -1,0 +1,234 @@
+<div id="overlay"></div>
+
+<header>
+    <div *ngIf="isLoading | async" class="loading-spinner">
+        <mat-spinner></mat-spinner>
+    </div>
+
+    <!-- user -->
+    <div class="flex-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            style="border-width: 2px;">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+        </svg>
+    </div>
+    <!-- options -->
+    <div class="flex-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            style="border-width: 2px;">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z" />
+        </svg>
+    </div>
+    <!-- statistics -->
+    <div class="flex-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            style="border-width: 2px;">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" />
+        </svg>
+    </div>
+    <!-- previous lesson -->
+    <div class="flex-item">
+        <svg (click)="gotoPreviousLesson()" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" style="border-width: 2px;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+        </svg>
+    </div>
+    <!-- next lesson -->
+    <div class="flex-item">
+        <svg (click)="gotoNextLesson()" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+            stroke-width="1.5" stroke="currentColor" style="border-width: 2px;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+        </svg>
+    </div>
+    <!-- login -->
+    <div class="flex-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            style="border-width: 2px;">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-6a2.25 2.25 0 00-2.25 2.25v13.5A2.25 2.25 0 007.5 21h6a2.25 2.25 0 002.25-2.25V15m3 0l3-3m0 0l-3-3m3 3H9" />
+        </svg>
+    </div>
+</header>
+
+<div class="options" style="display: none;">
+    <div class="flex p-5 flex-wrap flex-row font-bold text-1xl">
+        <div class="flex flex-col flex-1">
+            <div>
+                <input type="checkbox" id="cb_show_foreign_text_id" checked="true">
+                <label for="cb_show_foreign_text_id">Show foreign text</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="cb_show_foreign_text_translation_id" checked="true">
+                <label for="cb_show_foreign_text_translation_id">Show foreign text translation</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="cb_show_answer_text_id" checked="true">
+                <label for="cb_show_answer_text_id">Show answer text</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="cb_show_answer_text_translation_id" checked="true">
+                <label for="cb_show_answer_text_translation_id">Show answer text translation</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="cb_auto_play_teacher_episode_id" checked="true">
+                <label for="cb_auto_play_teacher_episode_id">Auto play next teacher's episode</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="cb_stop_on_student_answer_id" checked="true">
+                <label for="cb_stop_on_student_answer_id">Stop on student's answer</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="auto_start_stt_id" checked="true">
+                <label for="auto_start_stt_id">Auto start STT</label>
+            </div>
+
+            <!-- </div> -->
+
+            <!-- <div class="flex flex-col flex-1"> -->
+
+            <div>
+                <input type="checkbox" id="auto_play_next_episode_after_success_answer_id" checked="true">
+                <label for="auto_play_next_episode_after_success_answer_id">Auto play the next episode after
+                    successful answer</label>
+            </div>
+
+            <div>
+                <label for="success_error_level_percent_id">Success errors level</label>
+                <input type="number" id="success_error_level_percent_id" name="success_error_level_percent_id" min="0"
+                    max="100" value="10" class="text-center">
+                <label>%</label>
+            </div>
+
+            <div>
+                <label for="success_error_level_number_id">Success errors level</label>
+                <input type="number" id="success_error_level_number_id" name="success_error_level_number_id" min="0"
+                    max="1000" value="3" class="text-center">
+                <label>times</label>
+            </div>
+
+            <div>
+                <label for="sb_pause_before_phrase_id">Pause before each phrase</label>
+                <input type="number" id="sb_pause_before_phrase_id" name="sb_pause_before_phrase_id" min="0" max="100"
+                    value="0.5" class="text-center">
+                <label>seconds</label>
+            </div>
+
+            <div>
+                <label for="stt_engines_id">STT engine</label>
+                <select name="stt_engines_id" id="stt_engines_id">
+                    <option value="Goolge">Google</option>
+                    <option value="Coqui" disabled>Coqui</option>
+                    <option value="Speechace" disabled>Speechace</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Velocity</label>
+                <input type="range" id="velocity_slider_id" min="50" max="200" value="100"
+                    onchange="onVelocitySliderChange()">
+                <label id="velocity_slider_label_id">100%</label>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<section class="grid py-3" style="display: flex;">
+    <aside style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2; width: 20%">
+        <div>
+            <div (click)="onPlay()">
+                <svg *ngIf="!isPlaying" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                    class="w-18 h-18 border-2">
+                    <path fill-rule="evenodd"
+                        d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg *ngIf="isPlaying" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="w-18 h-18 border-2">
+                    <rect x="6" y="4" width="4" height="16"></rect>
+                    <rect x="14" y="4" width="4" height="16"></rect>
+                </svg>
+            </div>
+
+            <svg (click)="gotoNextEpisode()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                class="w-18 h-18 border-2">
+                <path fill-rule="evenodd"
+                    d="M4.72 3.97a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 01-1.06-1.06L11.69 12 4.72 5.03a.75.75 0 010-1.06zm6 0a.75.75 0 011.06 0l7.5 7.5a.75.75 0 010 1.06l-7.5 7.5a.75.75 0 11-1.06-1.06L17.69 12l-6.97-6.97a.75.75 0 010-1.06z"
+                    clip-rule="evenodd" />
+            </svg>
+            <svg (click)="gotoPreviousEpisode()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                fill="currentColor" class="w-18 h-18 border-2">
+                <path fill-rule="evenodd"
+                    d="M13.28 3.97a.75.75 0 010 1.06L6.31 12l6.97 6.97a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0zm6 0a.75.75 0 010 1.06L12.31 12l6.97 6.97a.75.75 0 11-1.06 1.06l-7.5-7.5a.75.75 0 010-1.06l7.5-7.5a.75.75 0 011.06 0z"
+                    clip-rule="evenodd" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-18 h-18 border-2">
+                <path fill-rule="evenodd"
+                    d="M4.755 10.059a7.5 7.5 0 0112.548-3.364l1.903 1.903h-3.183a.75.75 0 100 1.5h4.992a.75.75 0 00.75-.75V4.356a.75.75 0 00-1.5 0v3.18l-1.9-1.9A9 9 0 003.306 9.67a.75.75 0 101.45.388zm15.408 3.352a.75.75 0 00-.919.53 7.5 7.5 0 01-12.548 3.364l-1.902-1.903h3.183a.75.75 0 000-1.5H2.984a.75.75 0 00-.75.75v4.992a.75.75 0 001.5 0v-3.18l1.9 1.9a9 9 0 0015.059-4.035.75.75 0 00-.53-.918z"
+                    clip-rule="evenodd" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-18 h-18 border-2">
+                <path fill-rule="evenodd"
+                    d="M4.804 21.644A6.707 6.707 0 006 21.75a6.721 6.721 0 003.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 01-.814 1.686.75.75 0 00.44 1.223zM8.25 10.875a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z"
+                    clip-rule="evenodd" />
+            </svg>
+        </div>
+    </aside>
+
+    <!-- grid with svg objects inside -->
+
+    <main style="grid-column-start: 2; grid-column-end: 3; grid-row-start: 1; grid-row-end: 2; width: 80%;">
+        <section class="grid py-3">
+            <div class="progress_div text-2xl flex justify-between items-center">
+                <div class="flex items-center">
+                    <progress class="progress text-3xl" id="progress" min="0" max="300" value="270"></progress>
+                    <label for="progress">03:56:12</label>
+                </div>
+                <label>Part {{part}}, lesson {{lesson}}</label>
+            </div>
+
+            <mat-form-field appearance="fill" class="w-full">
+                <mat-select [value]="selectedKey" (valueChange)="onValueChanged($event)">
+                    <ng-container *ngFor="let key of lessonItemKeys">
+                        <mat-option *ngFor="let item of lessonItemsDict[key]" [value]="key + ';' + item.person">
+                            <div class="option-item"
+                                style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                                {{ key }}: {{ item.person }} - {{ item.text}}
+                            </div>
+                        </mat-option>
+                    </ng-container>
+                </mat-select>
+            </mat-form-field>
+
+
+            <app-entity-block [entity]="questionEntity"></app-entity-block>
+            <app-entity-block [entity]="answerEntity"></app-entity-block>
+
+
+            <div class="tts">
+                <div class="flex justify-center">
+                    <textarea class="border-2 border-black p-2 w-1/2" placeholder="Say answer" rows="10"></textarea>
+                </div>
+
+                <div class="flex justify-center space-x-4 p-2">
+                    <select class="language_id border border-black"></select>
+                    <select class="dialect_id border border-black"></select>
+                </div>
+                <div class="flex justify-center space-x-4">
+                    <button class="border border-black p-2">START</button>
+                    <button class="border border-black p-2">STOP</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</section>

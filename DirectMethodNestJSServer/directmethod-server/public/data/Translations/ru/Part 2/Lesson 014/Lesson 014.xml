@@ -1,0 +1,291 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок четырнадцать</translation>
+ </item>
+ <item id="1">
+  <translation>легкий, легко</translation>
+ </item>
+ <item id="2">
+  <translation>трудный, трудно</translation>
+ </item>
+ <item id="3">
+  <translation>грамматика</translation>
+ </item>
+ <item id="4">
+  <translation>Английская грамматика трудная?</translation>
+ </item>
+ <item id="4">
+  <translation>Нет, английская грамматика не трудная, она легкая</translation>
+ </item>
+ <item id="5">
+  <translation>Китайский - легкий язык для изучения?</translation>
+ </item>
+ <item id="5">
+  <translation>Нет, китайский - не легкий язык для изучения; это трудный язык для изучения</translation>
+ </item>
+ <item id="6">
+  <translation>Это трудно для тебя - говорить на твоем языке?</translation>
+ </item>
+ <item id="6">
+  <translation>Нет, это не трудно для меня - говорить на моем языке; это легко</translation>
+ </item>
+ <item id="7">
+  <translation>Обычно это легко для людей - писать левой рукой?</translation>
+ </item>
+ <item id="7">
+  <translation>Нет, это обычно не легуо для людей - писать левой рукой; это трудно</translation>
+ </item>
+ <item id="8">
+  <translation>висеть</translation>
+ </item>
+ <item id="9">
+  <translation>карта</translation>
+ </item>
+ <item id="10">
+  <translation>Что делает моя ручка? (сейчас)</translation>
+ </item>
+ <item id="10">
+  <translation>Твоя ручка висит между твоим пальцем и большим пальцем</translation>
+ </item>
+ <item id="11">
+  <translation>Лампа свисает с потолка?</translation>
+ </item>
+ <item id="11">
+  <translation>Да, лампа свисает с потолка</translation>
+ </item>
+ <item id="12">
+  <translation>Есть ли карта, висящая на стене?</translation>
+ </item>
+ <item id="12">
+  <translation>Нет, нету карты, висящей на стене</translation>
+ </item>
+ <item id="13">
+  <translation>на, при помощи</translation>
+ </item>
+ <item id="14">
+  <translation>автомобиль</translation>
+ </item>
+ <item id="15">
+  <translation>автобус</translation>
+ </item>
+ <item id="16">
+  <translation>поезд</translation>
+ </item>
+ <item id="17">
+  <translation>школа</translation>
+ </item>
+ <item id="18">
+  <translation>Ты добираешься домой после занятия на автомобиле, на автобусе, на поезде или ты идешь пешком?</translation>
+ </item>
+ <item id="18">
+  <translation>Я добираюсь домой после урока на автобусе</translation>
+ </item>
+ <item id="19">
+  <translation>Что ты предпочитаешь: идти пешком или передигаться на автомобиле?</translation>
+ </item>
+ <item id="19">
+  <translation>Я предпочитаю идти пешком</translation>
+ </item>
+ <item id="20">
+  <translation>Ты добираешься в школу на поезде или на автобусе?</translation>
+ </item>
+ <item id="20">
+  <translation>Я добираюсь в школу на автобусе</translation>
+ </item>
+ <item id="21">
+  <translation>Он добирается в школу на поезде или на автобусе?</translation>
+ </item>
+ <item id="21">
+  <translation>Он добирается в школу на автобусе</translation>
+ </item>
+ <item id="22">
+  <translation>женат/замужем</translation>
+ </item>
+ <item id="23">
+  <translation>не женат/не замужем</translation>
+ </item>
+ <item id="24">
+  <translation>мисс</translation>
+ </item>
+ <item id="25">
+  <translation>Ты женат?</translation>
+ </item>
+ <item id="25">
+  <translation>Нет, я не женат; я холост</translation>
+ </item>
+ <item id="26">
+  <translation>Мистер Браун холост?</translation>
+ </item>
+ <item id="26">
+  <translation>Нет, мистер Браун не холост; он женат</translation>
+ </item>
+ <item id="27">
+  <translation>Мисс Браун замужем?</translation>
+ </item>
+ <item id="27">
+  <translation>Нет, мисс Браун не замужем; она одинока</translation>
+ </item>
+ <item id="28">
+  <translation>муж</translation>
+ </item>
+ <item id="29">
+  <translation>жена</translation>
+ </item>
+ <item id="30">
+  <translation>У мистера Брауна есть жена?</translation>
+ </item>
+ <item id="30">
+  <translation>Да, у мистера Брауна есть жена</translation>
+ </item>
+ <item id="31">
+  <translation>У миссис Браун есть муж?</translation>
+ </item>
+ <item id="31">
+  <translation>Да, у миссис Браун есть муж</translation>
+ </item>
+ <item id="32">
+  <translation>Муж миссис Браун стоит позади дома?</translation>
+ </item>
+ <item id="32">
+  <translation>Нет, муж миссис Браун не стоит позади дома; он стоит перед домом</translation>
+ </item>
+ <item id="33">
+  <translation>мать</translation>
+ </item>
+ <item id="34">
+  <translation>отец</translation>
+ </item>
+ <item id="35">
+  <translation>Как зовут твою мать?</translation>
+ </item>
+ <item id="35">
+  <translation>Мою мать зовут Катрин</translation>
+ </item>
+ <item id="36">
+  <translation>Как зовут твоего отца?</translation>
+ </item>
+ <item id="36">
+  <translation>Моего отца зовут Алан</translation>
+ </item>
+ <item id="37">
+  <translation>Как зовут жену твоего отца?</translation>
+ </item>
+ <item id="37">
+  <translation>Имя жены моего отца - Катрин</translation>
+ </item>
+ <item id="38">
+  <translation>как зовут мужа твоей матери?</translation>
+ </item>
+ <item id="38">
+  <translation>Мужа моей матери зовут Алан</translation>
+ </item>
+ <item id="39">
+  <translation>ребенок</translation>
+ </item>
+ <item id="40">
+  <translation>дети</translation>
+ </item>
+ <item id="41">
+  <translation>единственный ребенок</translation>
+ </item>
+ <item id="42">
+  <translation>Что есть можественным числом для слова &quot;ребенок&quot;</translation>
+ </item>
+ <item id="42">
+  <translation>Множественное число для &quot;ребенок&quot; - &quot;дети&quot;</translation>
+ </item>
+ <item id="43">
+  <translation>Сколько детей у твоих матери и отца?</translation>
+ </item>
+ <item id="43">
+  <translation>У моих матери и отца трое детей</translation>
+ </item>
+ <item id="44">
+  <translation>Ты единственный ребенок?</translation>
+ </item>
+ <item id="44">
+  <translation>Нет, я не единственный ребенок; у меня есть один брат и одна сестра</translation>
+ </item>
+ <item id="45">
+  <translation>называть</translation>
+ </item>
+ <item id="46">
+  <translation>мама</translation>
+ </item>
+ <item id="47">
+  <translation>папа</translation>
+ </item>
+ <item id="48">
+  <translation>Как мы называем это?</translation>
+ </item>
+ <item id="48">
+  <translation>Мы называем это рукой</translation>
+ </item>
+ <item id="49">
+  <translation>Как мы называем людей во Франции?</translation>
+ </item>
+ <item id="49">
+  <translation>Мыназываем людей во Франции французами</translation>
+ </item>
+ <item id="50">
+  <translation>Как мы называем вещь, которую мы носим на головах?</translation>
+ </item>
+ <item id="50">
+  <translation>Мы называем вещь, которую мы носим на головах, шляпой</translation>
+ </item>
+ <item id="51">
+  <translation>Как люди обычно называют их маму и папу?</translation>
+ </item>
+ <item id="51">
+  <translation>Люди обычно называют их маму и папу &quot;Mum&quot; и &quot;Dad&quot;</translation>
+ </item>
+ <item id="52">
+  <translation>один ... другой</translation>
+ </item>
+ <item id="53">
+  <translation>Обе мои руки на столе?</translation>
+ </item>
+ <item id="53">
+  <translation>Нет, не обе твои руки на столе; одна - на столе, а другая - на твоей руке</translation>
+ </item>
+ <item id="54">
+  <translation>Обе мои руки закрыты?</translation>
+ </item>
+ <item id="54">
+  <translation>Нет, не обе твои руки закрыты; одна закрыта, а другая - открыта</translation>
+ </item>
+ <item id="55">
+  <translation>Оба эти карандаша красные?</translation>
+ </item>
+ <item id="55">
+  <translation>Нет, не оба эти карандаша красные; один красный, а другой - серый</translation>
+ </item>
+ <item id="56">
+  <translation>тип</translation>
+ </item>
+ <item id="57">
+  <translation>Что это?</translation>
+ </item>
+ <item id="57">
+  <translation>Это книга</translation>
+ </item>
+ <item id="58">
+  <translation>Какого типа эта книга?</translation>
+ </item>
+ <item id="58">
+  <translation>Это - английская книга</translation>
+ </item>
+ <item id="59">
+  <translation>Какого типа эта комната?</translation>
+ </item>
+ <item id="59">
+  <translation>Это классная комната</translation>
+ </item>
+ <item id="60">
+  <translation>Какой тип автомобилей ты предпочитаешь?</translation>
+ </item>
+ <item id="60">
+  <translation>Я предпочитаю Ролс Ройс</translation>
+ </item>
+</items>
