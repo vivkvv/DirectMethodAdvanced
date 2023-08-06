@@ -11,13 +11,30 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: top 1s;    
+    box-sizing: border-box;
+    padding: 0;
+    border: none;
+    margin-bottom: 0;    
 }
 
 header svg {
     width: 100%;
     max-width: 96px;
     height: auto;
+    vertical-align: middle;
+    display: block;
+    transition: all 1s ease;
+    transform: translateY(0);
 }
+
+/* header.hide {
+    transform: translateY(-100px);
+}
+
+header.locked {
+    transform: translateY(0px);
+} */
 
 .flex-item {
     flex: 1 1 auto;
@@ -56,3 +73,12 @@ header svg {
     align-items: center;
 }
 
+.button-effect {
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+.button-effect:active {
+    transform: scale(0.95);
+  }
+  

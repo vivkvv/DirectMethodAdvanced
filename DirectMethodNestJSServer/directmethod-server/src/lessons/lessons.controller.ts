@@ -41,7 +41,8 @@ export class LessonsController {
         const translation_xml = await this.getFileContent(translationFilePath);
         const audio_link = lessonPart.mp3;
 
-        response.setHeader('Cache-Control', 'public, max-age=86400');
+        // response.setHeader('Cache-Control', 'public, max-age=86400');
+        response.setHeader('Cache-Control', 'public, max-age=0');
         return response.send({ lesson_xml, translation_xml, audio_link });
       }
     } catch (e) {

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/core';
 import { EntityService, IEntity } from '../services/entity.service';
 import { ActivatedRoute } from '@angular/router';
 import { LoadingService } from '../loading.service';
@@ -22,6 +22,10 @@ interface Lesson {
     styleUrls: ['./lesson.component.css'],
 })
 export class LessonComponent implements OnInit {
+    @ViewChild('headerElement') headerElement!: ElementRef;
+    timerId: any;
+    isHeaderVisible: boolean = true;
+
     title = 'DirectMethod';
     audio!: HTMLAudioElement;
     lessonItemsDict: { [key: string]: LessonItem[] } = {};
@@ -107,7 +111,7 @@ export class LessonComponent implements OnInit {
             playPromise
                 .then((_) => {
                     this.checkTimeInterval = setInterval(() => {
-                            if (
+                        if (
                             this.audio.currentTime >=
                             episode.start + episode.duration
                         ) {
