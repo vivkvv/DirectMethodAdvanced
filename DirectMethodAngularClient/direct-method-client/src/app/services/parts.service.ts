@@ -8,7 +8,8 @@ import { Part } from '../DirectMethodCommonInterface/folderStructure';
 })
 export class PartsService {
 
-  private apiUrl = 'http://localhost:3000/api/topics';
+  //private apiUrl = 'http://localhost:3000/api/topics';
+  private apiUrl = 'api/topics';
 
   constructor(private http: HttpClient) { }
 
