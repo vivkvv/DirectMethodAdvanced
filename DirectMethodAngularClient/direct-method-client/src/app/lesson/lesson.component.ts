@@ -1,4 +1,10 @@
-import { Component, OnInit, ViewChild, ElementRef, Renderer2 } from '@angular/core';
+import {
+    Component,
+    OnInit,
+    ViewChild,
+    ElementRef,
+    Renderer2,
+} from '@angular/core';
 import { EntityService, IEntity } from '../services/entity.service';
 import { ActivatedRoute } from '@angular/router';
 import { LoadingService } from '../loading.service';
@@ -6,6 +12,7 @@ import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, first, isEmpty, tap } from 'rxjs/operators';
 import { LessonItem } from './lesson.wrapper';
 import { Observable, forkJoin, of } from 'rxjs';
+import { MatSliderModule } from '@angular/material/slider';
 
 class TSelectedKey {
     constructor(public id: number = -1, public person: string = '') {}
@@ -33,6 +40,16 @@ export class LessonComponent implements OnInit {
     lesson: number = -1;
     part: number = -1;
     isPlaying: boolean = false;
+
+    showInterval: boolean = false;
+    minPossibleIntervalValue: number = 0;
+    maxPossibleIntervalValue: number = 50;
+    minIntervalValue: number = 15;
+    maxIntervalValue: number = 30;
+
+    formatIntervalLabel(value: number): string {
+        return `${value}`;
+    }
 
     private lessonID: string = '';
     private partID: string = '';
@@ -73,6 +90,22 @@ export class LessonComponent implements OnInit {
     // Переменная для хранения setInterval
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
+    private getCurrentEpisode(): undefined | LessonItem {
+        const currentKey: TSelectedKey = this.stringToISelectedKey(
+            this.selectedKey
+        );
+        const lessons: LessonItem[] = this.lessonItemsDict[currentKey.id];
+        const lesson: LessonItem[] = lessons.filter(
+            (item) => item.person == currentKey.person
+        );
+
+        if (!lesson) {
+            return undefined;
+        }
+
+        return lesson[0];
+    }
+
     public onPlay() {
         if (!this.audio) {
             return;
@@ -89,21 +122,12 @@ export class LessonComponent implements OnInit {
             return;
         }
 
-        const currentKey: TSelectedKey = this.stringToISelectedKey(
-            this.selectedKey
-        );
-        const lessons: LessonItem[] = this.lessonItemsDict[currentKey.id];
-        const lesson: LessonItem[] = lessons.filter(
-            (item) => item.person == currentKey.person
-        );
-
-        if (!lesson) {
+        const episode = this.getCurrentEpisode();
+        if (!episode) {
             return;
         }
 
-        const episode = lesson[0];
-
-        this.audio.currentTime = episode.start;
+        this.audio.currentTime = this.minIntervalValue; //episode.start;
         this.isPlaying = true;
         const playPromise = this.audio.play();
 
@@ -112,8 +136,8 @@ export class LessonComponent implements OnInit {
                 .then((_) => {
                     this.checkTimeInterval = setInterval(() => {
                         if (
-                            this.audio.currentTime >=
-                            episode.start + episode.duration
+                            this.audio.currentTime >= this.maxIntervalValue
+                            // episode.start + episode.duration
                         ) {
                             this.audio.pause();
                             this.isPlaying = false;
@@ -164,6 +188,18 @@ export class LessonComponent implements OnInit {
                 imageUrl: '',
             };
         }
+
+        const episode = this.getCurrentEpisode();
+        if (episode) {
+            this.minPossibleIntervalValue = episode.start;
+            this.maxPossibleIntervalValue = episode.start + episode?.duration;
+            this.minIntervalValue = episode.start;
+            this.maxIntervalValue = episode.start + episode.duration;
+        }
+    }
+
+    showHideInterval() {
+        this.showInterval = !this.showInterval;
     }
 
     gotoPreviousLesson() {
@@ -345,10 +381,10 @@ export class LessonComponent implements OnInit {
                         .then((blob) => {
                             let url = URL.createObjectURL(blob);
                             this.audio = new Audio(url);
-                            let overlay = document.getElementById('overlay');
-                            if (overlay) {
-                                overlay.style.display = 'none';
-                            }
+                            // let overlay = document.getElementById('overlay');
+                            // if (overlay) {
+                            //     overlay.style.display = 'none';
+                            // }
                         });
                 },
                 error: (error) => {
