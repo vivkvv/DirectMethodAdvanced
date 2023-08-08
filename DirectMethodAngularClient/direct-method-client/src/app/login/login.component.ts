@@ -28,7 +28,7 @@ export class LoginComponent {
             (data: any) => {
                 localStorage.setItem('access_token', data.access_token);
 
-                this.http.get('api/topics').subscribe(
+                this.http.get('/api/topics').subscribe(
                   (topics: any) => {
                       this.router.navigate(['/topic-list']);
                   },

@@ -1,5 +1,7 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, Get, Res } from '@nestjs/common';
 import { AppService } from './app.service';
+import { join } from 'path';
+import { Response } from 'express';
 
 @Controller()
 export class AppController {
@@ -9,4 +11,9 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  // @Get('**')
+  // catchAll(@Res() res: Response) {
+  //   res.sendFile(join(__dirname, '../..', 'public/index.html'));
+  // }
 }
