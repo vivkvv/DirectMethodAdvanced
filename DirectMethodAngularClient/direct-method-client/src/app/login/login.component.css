@@ -3,28 +3,42 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
-  }
-  
-  .form-group {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  label {
-    flex: none; /* отключаем flex: 1 */
-    width: 80px; /* фиксированная ширина для лейблов */
-    margin-right: 10px; /* отступ справа от лейбла */
-  }
-  
-  input {
-    flex-grow: 1; /* поля ввода будут занимать оставшееся пространство */
-  }
-  
+    width: 80%; /* Отступ 10% со всех сторон */
+    max-width: 400px; /* Можно установить максимальную ширину, если нужно */
+}
 
-  .button-container {
+.form-group {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    margin-bottom: 10px;
+}
+
+.form-group select {
+    flex-grow: 1;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+}
+
+label {
+    flex: none;
+    width: 45%; /* Максимально занимает половину ширины контейнера */
+    margin-right: 5%; /* Отступ от поля ввода 5% */
+    word-wrap: break-word; /* Разрешает перенос слов */
+}
+
+input {
+    flex-grow: 1;
+    width: 50%; /* Занимает оставшуюся половину ширины */
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.button-container {
     display: flex;
     justify-content: center;
-  }
-  
+}
+
+.divider {
+    width: 100%;
+    border: 1px solid #ccc;
+}
