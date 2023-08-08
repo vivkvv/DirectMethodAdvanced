@@ -9,6 +9,7 @@ const routes: Routes = [
     { path: 'Lesson/:part_id/:lesson_id', component: LessonComponent },
     { path: 'topic-list', component: PartsListComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
+    { path: 'not-found', component: LoginComponent },
     { path: '**', redirectTo: 'not-found' }
 ];
 
