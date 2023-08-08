@@ -10,6 +10,7 @@ import { LessonsController } from './lessons/lessons.controller';
 import { ImagesController } from './images/images.controller';
 import { NextLessonController } from './next.lesson/next.lesson.controller';
 import { PrevLessonController } from './prev.lesson/prev.lesson.controller';
+import { NotFoundController } from './not-found-controller/not-found.controller';
 
 @Module({
   imports: [
@@ -26,6 +27,7 @@ import { PrevLessonController } from './prev.lesson/prev.lesson.controller';
     ImagesController,
     NextLessonController,
     PrevLessonController,
+    NotFoundController,
   ],
   providers: [AppService, AuthService, FilesService],
 })

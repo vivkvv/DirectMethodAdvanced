@@ -9,7 +9,7 @@ const routes: Routes = [
     { path: 'Lesson/:part_id/:lesson_id', component: LessonComponent },
     { path: 'topic-list', component: PartsListComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
-    { path: '**', redirectTo: '/login', pathMatch: 'full' },
+    { path: '**', redirectTo: 'not-found' }
 ];
 
 @NgModule({
