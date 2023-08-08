@@ -4,6 +4,7 @@ import {
     ViewChild,
     ElementRef,
     Renderer2,
+    ChangeDetectorRef,
 } from '@angular/core';
 import { EntityService, IEntity } from '../services/entity.service';
 import { ActivatedRoute } from '@angular/router';
@@ -34,7 +35,11 @@ export class LessonComponent implements OnInit {
     isHeaderVisible: boolean = true;
 
     title = 'DirectMethod';
-    audio!: HTMLAudioElement;
+
+    audioContext: AudioContext = new AudioContext();
+    audioBuffer!: AudioBuffer;
+    source!: AudioBufferSourceNode | null;
+
     lessonItemsDict: { [key: string]: LessonItem[] } = {};
     selectedKey: string = '0:Teacher'; //ISelectedKey = { id: 0, person: '' };
     lesson: number = -1;
@@ -87,7 +92,6 @@ export class LessonComponent implements OnInit {
         this._answerEntity = value;
     }
 
-    // Переменная для хранения setInterval
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
     private getCurrentEpisode(): undefined | LessonItem {
@@ -107,17 +111,15 @@ export class LessonComponent implements OnInit {
     }
 
     public onPlay() {
-        if (!this.audio) {
+        if (!this.audioBuffer) {
             return;
         }
 
         if (this.isPlaying) {
-            if (this.checkTimeInterval) {
-                clearInterval(this.checkTimeInterval);
-                this.checkTimeInterval = undefined;
+            if (this.source) {
+                this.source.stop();
+                this.source = null;
             }
-
-            this.audio.pause();
             this.isPlaying = false;
             return;
         }
@@ -127,34 +129,20 @@ export class LessonComponent implements OnInit {
             return;
         }
 
-        this.audio.currentTime = this.minIntervalValue; //episode.start;
+        this.source = this.audioContext.createBufferSource();
+        this.source.buffer = this.audioBuffer;
+        this.source.connect(this.audioContext.destination);
         this.isPlaying = true;
-        const playPromise = this.audio.play();
 
-        if (playPromise !== undefined) {
-            playPromise
-                .then((_) => {
-                    this.checkTimeInterval = setInterval(() => {
-                        if (
-                            this.audio.currentTime >= this.maxIntervalValue
-                            // episode.start + episode.duration
-                        ) {
-                            this.audio.pause();
-                            this.isPlaying = false;
-                            clearInterval(this.checkTimeInterval);
-                            this.checkTimeInterval = undefined;
-                        }
-                    }, 50); // 50 milliseconds
-                })
-                .catch((error) => {
-                    console.log('Playback error detected', error);
-                    this.isPlaying = false;
-                });
-        }
-
-        this.audio.onended = () => {
+        this.source.onended = () => {
             this.isPlaying = false;
+            this.source = null;
+            this.cd.detectChanges();
         };
+
+        const start = this.minIntervalValue;
+        const duration = this.maxIntervalValue - this.minIntervalValue;
+        this.source.start(0, start, duration);
     }
 
     public updateGUIDueToSelectedKey() {
@@ -289,7 +277,8 @@ export class LessonComponent implements OnInit {
         private http: HttpClient,
         private entityService: EntityService,
         private route: ActivatedRoute,
-        private loadingService: LoadingService
+        private loadingService: LoadingService,
+        private cd: ChangeDetectorRef
     ) {}
 
     async ngOnInit(): Promise<void> {
@@ -377,14 +366,12 @@ export class LessonComponent implements OnInit {
                     const audio_link = response.audio_link;
 
                     fetch(audio_link)
-                        .then((response) => response.blob())
-                        .then((blob) => {
-                            let url = URL.createObjectURL(blob);
-                            this.audio = new Audio(url);
-                            // let overlay = document.getElementById('overlay');
-                            // if (overlay) {
-                            //     overlay.style.display = 'none';
-                            // }
+                        .then((response) => response.arrayBuffer())
+                        .then((arrayBuffer) =>
+                            this.audioContext.decodeAudioData(arrayBuffer)
+                        )
+                        .then((audioBuffer) => {
+                            this.audioBuffer = audioBuffer;
                         });
                 },
                 error: (error) => {
