@@ -6,13 +6,14 @@ import { PartsListComponent } from './parts-list/parts-list.component';
 
 const routes: Routes = [
     { path: 'login', component: LoginComponent },
-    { path: 'Lesson/:part_id/:lesson_id', component: LessonComponent},
-    { path: 'topic-list', component: PartsListComponent},
-    { path: '', redirectTo: '/login', pathMatch: 'full' },    
+    { path: 'Lesson/:part_id/:lesson_id', component: LessonComponent },
+    { path: 'topic-list', component: PartsListComponent },
+    { path: '', redirectTo: '/login', pathMatch: 'full' },
+    { path: '**', redirectTo: '/login', pathMatch: 'full' },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
