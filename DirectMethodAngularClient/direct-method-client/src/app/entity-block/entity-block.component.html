@@ -1,7 +1,7 @@
 <div style="display: flex; justify-content: space-between; align-items: center;">
     <div style="flex-grow: 1;">
-        <div *ngIf="enTextVisible">{{ enText }}</div>
-        <div *ngIf="ruTextVisible">{{ ruText }}</div>
+        <div *ngIf="enTextVisible" style="font-size: 250%; color: darkgreen; margin-bottom: 20px; line-height: 1.3;">{{ enText }}</div>
+        <div *ngIf="ruTextVisible" style="font-size: 150%; line-height: 1.3;">{{ ruText }}</div>
     </div>
 
     <div *ngIf="imageUrl && imageExists" style="display: flex; justify-content: center; align-items: center; padding: 2px; max-width: 200px; height: 200px; overflow: hidden;">

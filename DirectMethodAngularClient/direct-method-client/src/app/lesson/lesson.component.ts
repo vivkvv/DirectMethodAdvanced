@@ -49,8 +49,11 @@ export class LessonComponent implements OnInit {
     showInterval: boolean = false;
     minPossibleIntervalValue: number = 0;
     maxPossibleIntervalValue: number = 50;
-    minIntervalValue: number = 15;
-    maxIntervalValue: number = 30;
+    minIntervalValue!: number;
+    maxIntervalValue!: number;
+    startLessonTime: number = 0;
+    endLessonTime: number = 250.78;
+    currentLessonTime: number = 126.8;
 
     formatIntervalLabel(value: number): string {
         return `${value}`;
@@ -94,13 +97,14 @@ export class LessonComponent implements OnInit {
 
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
-    private getCurrentEpisode(): undefined | LessonItem {
+    getCurrentEpisode(strictCurrentPerson: boolean): undefined | LessonItem {
         const currentKey: TSelectedKey = this.stringToISelectedKey(
             this.selectedKey
         );
         const lessons: LessonItem[] = this.lessonItemsDict[currentKey.id];
         const lesson: LessonItem[] = lessons.filter(
-            (item) => item.person == currentKey.person
+            (item) =>
+                item.person === (strictCurrentPerson ? currentKey.person : 'Teacher')
         );
 
         if (!lesson) {
@@ -110,7 +114,7 @@ export class LessonComponent implements OnInit {
         return lesson[0];
     }
 
-    public onPlay() {
+    public onPlay(strictCurrentPerson: boolean) {
         if (!this.audioBuffer) {
             return;
         }
@@ -124,7 +128,11 @@ export class LessonComponent implements OnInit {
             return;
         }
 
-        const episode = this.getCurrentEpisode();
+        const episode = this.getCurrentEpisode(strictCurrentPerson);
+        this.playEpisode(episode);
+    }
+
+    private playEpisode(episode: LessonItem | undefined) {
         if (!episode) {
             return;
         }
@@ -140,9 +148,23 @@ export class LessonComponent implements OnInit {
             this.cd.detectChanges();
         };
 
-        const start = this.minIntervalValue;
-        const duration = this.maxIntervalValue - this.minIntervalValue;
+        const start = episode.start;
+        const duration = episode.duration;
+        const relativeStart = this.audioContext.currentTime;
         this.source.start(0, start, duration);
+
+        const updateProgress = () => {
+            if (!this.isPlaying) {
+                return;
+            }
+
+            this.currentLessonTime =
+                start + this.audioContext.currentTime - relativeStart;
+            this.cd.detectChanges();
+            requestAnimationFrame(updateProgress);
+        };
+
+        updateProgress();
     }
 
     public updateGUIDueToSelectedKey() {
@@ -177,12 +199,14 @@ export class LessonComponent implements OnInit {
             };
         }
 
-        const episode = this.getCurrentEpisode();
+        const episode = this.getCurrentEpisode(false);
         if (episode) {
             this.minPossibleIntervalValue = episode.start;
             this.maxPossibleIntervalValue = episode.start + episode?.duration;
             this.minIntervalValue = episode.start;
             this.maxIntervalValue = episode.start + episode.duration;
+
+            this.currentLessonTime = episode.start;
         }
     }
 
@@ -372,6 +396,9 @@ export class LessonComponent implements OnInit {
                         )
                         .then((audioBuffer) => {
                             this.audioBuffer = audioBuffer;
+                            this.startLessonTime = 0;
+                            this.endLessonTime = audioBuffer.duration;
+                            this.currentLessonTime = 0;
                         });
                 },
                 error: (error) => {
@@ -379,6 +406,13 @@ export class LessonComponent implements OnInit {
                 },
             });
     }
+
+    // private getNumberSecondsAsTimeFormat(secs: number) {
+    //     const hours = Math.floor(secs / 3600);
+    //     const minutes = Math.floor((secs % 3600) / 60);
+    //     const seconds = secs % 60;
+    //     return hours === 0 ? `${minutes}:${seconds}` : `${hours}:${minutes}:${seconds}`;
+    // }
 
     fetchAndReplaceImage(
         partId: any,
