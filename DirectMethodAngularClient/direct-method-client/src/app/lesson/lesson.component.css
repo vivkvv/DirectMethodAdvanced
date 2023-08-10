@@ -56,7 +56,7 @@ header.locked {
     transform: translateY(0px);
 } */
 
-.flex-item {
+/* .flex-item {
     flex: 1 1 auto;
     width: 20%;
     max-width: 96px;
@@ -65,7 +65,7 @@ header.locked {
 
 .w-full {
     width: 100%;
-}
+} */
 
 .progress_div {
     display: flex;
