@@ -48,37 +48,6 @@ header svg {
     transform: translateY(0);
 }
 
-/* header.hide {
-    transform: translateY(-100px);
-}
-
-header.locked {
-    transform: translateY(0px);
-} */
-
-/* .flex-item {
-    flex: 1 1 auto;
-    width: 20%;
-    max-width: 96px;
-    min-width: 0;
-}
-
-.w-full {
-    width: 100%;
-} */
-
-.progress_div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.progress_div > div {
-    display: flex;
-    align-items: center;
-}
-
 .button-effect {
     transition: all 0.1s ease;
     cursor: pointer;
