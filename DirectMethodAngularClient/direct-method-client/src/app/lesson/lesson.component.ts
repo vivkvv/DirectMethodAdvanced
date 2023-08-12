@@ -13,7 +13,6 @@ import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, first, isEmpty, tap } from 'rxjs/operators';
 import { LessonItem } from './lesson.wrapper';
 import { Observable, forkJoin, of } from 'rxjs';
-import { MatSliderModule } from '@angular/material/slider';
 
 class TSelectedKey {
     constructor(public id: number = -1, public person: string = '') {}
@@ -45,6 +44,7 @@ export class LessonComponent implements OnInit {
     lesson: number = -1;
     part: number = -1;
     isPlaying: boolean = false;
+    playLoop: boolean = false;
 
     showInterval: boolean = false;
     minPossibleIntervalValue: number = 0;
@@ -97,6 +97,10 @@ export class LessonComponent implements OnInit {
 
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
+    changeAudioLoop(){
+        this.playLoop = !this.playLoop;
+    }
+
     getCurrentEpisode(strictCurrentPerson: boolean): undefined | LessonItem {
         const currentKey: TSelectedKey = this.stringToISelectedKey(
             this.selectedKey
@@ -104,7 +108,8 @@ export class LessonComponent implements OnInit {
         const lessons: LessonItem[] = this.lessonItemsDict[currentKey.id];
         const lesson: LessonItem[] = lessons.filter(
             (item) =>
-                item.person === (strictCurrentPerson ? currentKey.person : 'Teacher')
+                item.person ===
+                (strictCurrentPerson ? currentKey.person : 'Teacher')
         );
 
         if (!lesson) {
@@ -114,7 +119,11 @@ export class LessonComponent implements OnInit {
         return lesson[0];
     }
 
-    public onPlay(strictCurrentPerson: boolean) {
+    public onPlay(
+        strictCurrentPerson: boolean,
+        customStart: number | undefined = undefined,
+        customDuration: number | undefined = undefined
+    ) {
         if (!this.audioBuffer) {
             return;
         }
@@ -129,10 +138,14 @@ export class LessonComponent implements OnInit {
         }
 
         const episode = this.getCurrentEpisode(strictCurrentPerson);
-        this.playEpisode(episode);
+        this.playEpisode(episode, customStart, customDuration);
     }
 
-    private playEpisode(episode: LessonItem | undefined) {
+    private playEpisode(
+        episode: LessonItem | undefined,
+        customStart: number | undefined,
+        customDuration: number | undefined
+    ) {
         if (!episode) {
             return;
         }
@@ -140,7 +153,11 @@ export class LessonComponent implements OnInit {
         this.source = this.audioContext.createBufferSource();
         this.source.buffer = this.audioBuffer;
         this.source.connect(this.audioContext.destination);
+        this.source.loop = this.playLoop;
         this.isPlaying = true;
+
+        const start = customStart ? customStart : episode.start;
+        const duration = customDuration? customDuration : episode.duration;
 
         this.source.onended = () => {
             this.isPlaying = false;
@@ -148,18 +165,22 @@ export class LessonComponent implements OnInit {
             this.cd.detectChanges();
         };
 
-        const start = episode.start;
-        const duration = episode.duration;
         const relativeStart = this.audioContext.currentTime;
-        this.source.start(0, start, duration);
+        if(this.source.loop){
+            this.source.loopStart = start;
+            this.source.loopEnd = start + duration;
+            this.source.start(0, start);//, duration);
+        }
+        else {
+            this.source.start(0, start, duration);
+        }
 
         const updateProgress = () => {
             if (!this.isPlaying) {
                 return;
             }
 
-            this.currentLessonTime =
-                start + this.audioContext.currentTime - relativeStart;
+            this.currentLessonTime = start + (this.audioContext.currentTime - relativeStart) % duration;                
             this.cd.detectChanges();
             requestAnimationFrame(updateProgress);
         };
@@ -199,7 +220,7 @@ export class LessonComponent implements OnInit {
             };
         }
 
-        const episode = this.getCurrentEpisode(false);
+        const episode = this.getCurrentEpisode(true);
         if (episode) {
             this.minPossibleIntervalValue = episode.start;
             this.maxPossibleIntervalValue = episode.start + episode?.duration;

@@ -3,13 +3,13 @@
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%; /* Отступ 10% со всех сторон */
-    max-width: 400px; /* Можно установить максимальную ширину, если нужно */
+    width: 80%;
+    max-width: 400px;
 }
 
 .form-group {
     display: flex;
-    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    flex-wrap: wrap;
     margin-bottom: 10px;
 }
 
@@ -21,14 +21,14 @@
 
 label {
     flex: none;
-    width: 45%; /* Максимально занимает половину ширины контейнера */
-    margin-right: 5%; /* Отступ от поля ввода 5% */
-    word-wrap: break-word; /* Разрешает перенос слов */
+    width: 45%;
+    margin-right: 5%;
+    word-wrap: break-word;
 }
 
 input {
     flex-grow: 1;
-    width: 50%; /* Занимает оставшуюся половину ширины */
+    width: 50%;
     box-sizing: border-box;
     border: 1px solid #ccc;
 }
@@ -37,6 +37,7 @@ input {
     display: flex;
     justify-content: center;
     border: 1px;
+    margin: 15px;
 }
 
 .divider {
