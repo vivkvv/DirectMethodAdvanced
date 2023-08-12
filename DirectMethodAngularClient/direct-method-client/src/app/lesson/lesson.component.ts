@@ -13,6 +13,8 @@ import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, first, isEmpty, tap } from 'rxjs/operators';
 import { LessonItem } from './lesson.wrapper';
 import { Observable, forkJoin, of } from 'rxjs';
+import { MatDialog } from '@angular/material/dialog';
+import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component';
 
 class TSelectedKey {
     constructor(public id: number = -1, public person: string = '') {}
@@ -97,7 +99,23 @@ export class LessonComponent implements OnInit {
 
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
-    changeAudioLoop(){
+    showAudioDialog() {
+        const dialogRef = this.dialog.open(AudioOverlayComponent, {
+            width: '100%',
+            // height: '50%',
+            // position: { top: '50%' },
+            panelClass: 'custom-overlay-pane-class',
+        });
+
+        //this.renderer.setStyle(dialogRef, 'max-width', '100vw');
+        //this.renderer.setStyle(dialogRef, 'background-color', 'rgba(0, 0, 0, 0.5)');
+
+        dialogRef.afterClosed().subscribe((result) => {
+            console.log(`Dialog result: ${result}`);
+        });
+    }
+
+    changeAudioLoop() {
         this.playLoop = !this.playLoop;
     }
 
@@ -157,7 +175,7 @@ export class LessonComponent implements OnInit {
         this.isPlaying = true;
 
         const start = customStart ? customStart : episode.start;
-        const duration = customDuration? customDuration : episode.duration;
+        const duration = customDuration ? customDuration : episode.duration;
 
         this.source.onended = () => {
             this.isPlaying = false;
@@ -166,12 +184,11 @@ export class LessonComponent implements OnInit {
         };
 
         const relativeStart = this.audioContext.currentTime;
-        if(this.source.loop){
+        if (this.source.loop) {
             this.source.loopStart = start;
             this.source.loopEnd = start + duration;
-            this.source.start(0, start);//, duration);
-        }
-        else {
+            this.source.start(0, start); //, duration);
+        } else {
             this.source.start(0, start, duration);
         }
 
@@ -180,7 +197,9 @@ export class LessonComponent implements OnInit {
                 return;
             }
 
-            this.currentLessonTime = start + (this.audioContext.currentTime - relativeStart) % duration;                
+            this.currentLessonTime =
+                start +
+                ((this.audioContext.currentTime - relativeStart) % duration);
             this.cd.detectChanges();
             requestAnimationFrame(updateProgress);
         };
@@ -323,7 +342,9 @@ export class LessonComponent implements OnInit {
         private entityService: EntityService,
         private route: ActivatedRoute,
         private loadingService: LoadingService,
-        private cd: ChangeDetectorRef
+        private cd: ChangeDetectorRef,
+        private renderer: Renderer2,
+        public dialog: MatDialog
     ) {}
 
     async ngOnInit(): Promise<void> {

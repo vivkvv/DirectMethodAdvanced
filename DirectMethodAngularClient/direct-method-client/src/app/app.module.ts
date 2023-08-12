@@ -20,6 +20,10 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { MatDialogModule } from '@angular/material/dialog';
+
+import { AudioOverlayComponent } from './audio-overlay/audio-overlay.component';
 
 @NgModule({
     declarations: [
@@ -28,6 +32,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
         LoginComponent,
         LessonComponent,
         PartsListComponent,
+        AudioOverlayComponent,
     ],
     imports: [
         CommonModule,
@@ -40,7 +45,9 @@ import { MatFormFieldModule } from '@angular/material/form-field';
         MatProgressSpinnerModule,
         MatSelectModule,
         MatSliderModule,
-        MatFormFieldModule
+        MatFormFieldModule,
+        MatIconModule,
+        MatDialogModule
     ],
     providers: [
         {

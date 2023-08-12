@@ -1,0 +1,15 @@
+<div class="flex flex-col h-full">
+    <div class="flex flex-row justify-between">
+      <button mat-icon-button (click)="close()" class="flex-none"><mat-icon>close</mat-icon></button>
+      <button mat-button class="flex-none">Record</button>
+      <button mat-button class="flex-none">Play</button>
+      <button mat-button class="flex-none">Record recognizing</button>
+      <button mat-button class="flex-none">Live recognizing</button>
+    </div>
+    <div class="flex justify-center space-x-4 p-2">
+        <select class="language_id border border-black"></select>
+        <select class="dialect_id border border-black"></select>
+    </div>
+    <textarea matInput class="flex-grow w-full border border-black"></textarea>
+  </div>
+  
