@@ -1,15 +1,56 @@
 <div class="flex flex-col h-full">
     <div class="flex flex-row justify-between">
-      <button mat-icon-button (click)="close()" class="flex-none"><mat-icon>close</mat-icon></button>
-      <button mat-button class="flex-none">Record</button>
-      <button mat-button class="flex-none">Play</button>
-      <button mat-button class="flex-none">Record recognizing</button>
-      <button mat-button class="flex-none">Live recognizing</button>
+        <button mat-icon-button (click)="close()" class="flex-none"><mat-icon>close</mat-icon></button>
+        <svg (click)="onRecord()" [style.pointer-events]="isRecordEnabled ? 'auto' : 'none'" [style.fill]="isRecordEnabled ? (audioState === 0 ? 'black' : 'red') : 'gray'"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" fill="currentColor"
+            class="w-12 h-12 button-effect">
+            <path fill-rule="evenodd"
+                d="M960 0c529.36 0 960 430.645 960 960 0 529.36-430.64 960-960 960-529.355 0-960-430.64-960-960C0 430.645 430.645 0 960 0Zm0 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.12 379.934 847.06 847.059 847.06 467.12 0 847.06-379.94 847.06-847.06 0-467.125-379.94-847.059-847.06-847.059Zm0 313.726c294.55 0 533.33 238.781 533.33 533.333 0 294.55-238.78 533.33-533.33 533.33-294.552 0-533.333-238.78-533.333-533.33 0-294.552 238.781-533.333 533.333-533.333Z"
+                clip-rule="evenodd" />
+        </svg>
+        <svg (click)="onPlay()" [style.pointer-events]="isPlayEnabled ? 'auto' : 'none'" [style.fill]="isPlayEnabled ? (audioState === 0 ? 'black' : 'red') : 'gray'"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 button-effect">
+            <path fill-rule="evenodd"
+                d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
+                clip-rule="evenodd" />
+        </svg>
+        <button mat-button (click)="onLiveRecognizingClick()" class="flex-none button-effect"
+            [style.visibility]="isLiveRecognizingEnabled ? 'visible' : 'hidden'" [ngClass]="liveRecognizing ? 'pressed' : ''"
+            [disabled]="!isLiveRecognizingEnabled">ALIVE</button>
+        <svg (click)="onRecognizing()" [style.visibility]="isRecognizeEnabled ? 'visible' : 'hidden'" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512" fill="currentColor" class="w-12 h-12 button-effect">
+            <rect x="104.088" y="67.516" style="fill:black;" width="303.824" height="343.209" />
+            <g>
+                <path style="fill:gray;" d="M104.088,465.966c0,25.319,20.715,46.034,46.034,46.034h211.756
+           c25.319,0,46.034-20.715,46.034-46.034v-55.241H104.088V465.966z" />
+                <path style="fill:gray;" d="M407.912,46.034C407.912,20.715,387.197,0,361.878,0H150.122c-25.319,0-46.034,20.715-46.034,46.034
+           v21.483h303.824V46.034z" />
+            </g>
+            <path style="fill:gray;" d="M256,101.275c-38.739,0-70.142,31.404-70.142,70.142v50.825c0,38.739,31.404,70.142,70.142,70.142
+       c38.739,0,70.142-31.403,70.142-70.142v-50.825C326.142,132.679,294.739,101.275,256,101.275z" />
+            <g>
+                <circle style="fill:gray;" cx="256" cy="461.363" r="16.879" />
+                <path style="fill:red086063;" d="M291.603,42.198h-71.205c-4.661,0-8.44-3.778-8.44-8.44s3.779-8.44,8.44-8.44h71.205
+           c4.661,0,8.44,3.778,8.44,8.44S296.263,42.198,291.603,42.198z" />
+            </g>
+            <path style="fill:white;" d="M359.9,180.044c-4.661,0-8.44,3.778-8.44,8.44v33.758c0,52.637-42.823,95.46-95.46,95.46
+       s-95.46-42.823-95.46-95.46v-33.758c0-4.662-3.779-8.44-8.44-8.44s-8.44,3.778-8.44,8.44v33.758
+       c0,59.105,45.883,107.693,103.9,112.023v34.262h-35.446c-4.661,0-8.44,3.778-8.44,8.44s3.779,8.44,8.44,8.44h87.771
+       c4.661,0,8.44-3.778,8.44-8.44s-3.779-8.44-8.44-8.44H264.44v-34.262c58.018-4.33,103.9-52.918,103.9-112.023v-33.758
+       C368.34,183.822,364.562,180.044,359.9,180.044z" />
+            <path style="fill:white;"
+                d="M255.998,227.55c-9.552,0-18.563-4.665-24.101-12.48c-2.696-3.802-1.798-9.071,2.005-11.766
+       c3.802-2.694,9.071-1.797,11.766,2.005c2.38,3.357,6.242,5.362,10.331,5.362c4.113,0,7.988-2.023,10.366-5.411
+       c2.678-3.815,7.942-4.736,11.756-2.059c3.816,2.677,4.737,7.941,2.06,11.756C274.646,222.842,265.606,227.55,255.998,227.55z" />
+            <g>
+                <circle style="fill:white;" cx="236.499" cy="178.491" r="8.44" />
+                <circle style="fill:white;" cx="275.501" cy="178.491" r="8.44" />
+            </g>
+        </svg>
     </div>
     <div class="flex justify-center space-x-4 p-2">
         <select class="language_id border border-black"></select>
         <select class="dialect_id border border-black"></select>
     </div>
     <textarea matInput class="flex-grow w-full border border-black"></textarea>
-  </div>
-  
+</div>

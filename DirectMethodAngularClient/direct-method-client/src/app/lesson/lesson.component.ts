@@ -102,13 +102,8 @@ export class LessonComponent implements OnInit {
     showAudioDialog() {
         const dialogRef = this.dialog.open(AudioOverlayComponent, {
             width: '100%',
-            // height: '50%',
-            // position: { top: '50%' },
             panelClass: 'custom-overlay-pane-class',
         });
-
-        //this.renderer.setStyle(dialogRef, 'max-width', '100vw');
-        //this.renderer.setStyle(dialogRef, 'background-color', 'rgba(0, 0, 0, 0.5)');
 
         dialogRef.afterClosed().subscribe((result) => {
             console.log(`Dialog result: ${result}`);

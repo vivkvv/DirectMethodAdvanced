@@ -46,15 +46,6 @@ header svg {
     transform: translateY(0);
 }
 
-.button-effect {
-    transition: all 0.1s ease;
-    cursor: pointer;
-}
-
-.button-effect:active {
-    transform: scale(0.95);
-}
-
 .pressed {
     transform: scale(0.75);
     box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
