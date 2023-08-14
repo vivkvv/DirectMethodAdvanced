@@ -1,24 +1,27 @@
 <div class="flex flex-col h-full">
     <div class="flex flex-row justify-between">
         <button mat-icon-button (click)="close()" class="flex-none"><mat-icon>close</mat-icon></button>
-        <svg (click)="onRecord()" [style.pointer-events]="isRecordEnabled ? 'auto' : 'none'" [style.fill]="isRecordEnabled ? (audioState === 0 ? 'black' : 'red') : 'gray'"
+        <svg (click)="onRecord()" [style.pointer-events]="isRecordEnabled ? 'auto' : 'none'"
+            [style.fill]="isRecordEnabled ? (audioState === 0 ? 'black' : 'red') : 'gray'"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" fill="currentColor"
             class="w-12 h-12 button-effect">
             <path fill-rule="evenodd"
                 d="M960 0c529.36 0 960 430.645 960 960 0 529.36-430.64 960-960 960-529.355 0-960-430.64-960-960C0 430.645 430.645 0 960 0Zm0 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.12 379.934 847.06 847.059 847.06 467.12 0 847.06-379.94 847.06-847.06 0-467.125-379.94-847.059-847.06-847.059Zm0 313.726c294.55 0 533.33 238.781 533.33 533.333 0 294.55-238.78 533.33-533.33 533.33-294.552 0-533.333-238.78-533.333-533.33 0-294.552 238.781-533.333 533.333-533.333Z"
                 clip-rule="evenodd" />
         </svg>
-        <svg (click)="onPlay()" [style.pointer-events]="isPlayEnabled ? 'auto' : 'none'" [style.fill]="isPlayEnabled ? (audioState === 0 ? 'black' : 'red') : 'gray'"
+        <!-- <svg (click)="onPlay()" [style.pointer-events]="isPlayEnabled ? 'auto' : 'none'"
+            [style.fill]="isPlayEnabled ? (audioState === 0 ? 'black' : 'red') : 'gray'"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 button-effect">
             <path fill-rule="evenodd"
                 d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
                 clip-rule="evenodd" />
-        </svg>
+        </svg> -->
         <button mat-button (click)="onLiveRecognizingClick()" class="flex-none button-effect"
-            [style.visibility]="isLiveRecognizingEnabled ? 'visible' : 'hidden'" [ngClass]="liveRecognizing ? 'pressed' : ''"
-            [disabled]="!isLiveRecognizingEnabled">ALIVE</button>
-        <svg (click)="onRecognizing()" [style.visibility]="isRecognizeEnabled ? 'visible' : 'hidden'" xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 512 512" fill="currentColor" class="w-12 h-12 button-effect">
+            [style.visibility]="isLiveRecognizingEnabled ? 'visible' : 'hidden'"
+            [ngClass]="liveRecognizing ? 'pressed' : ''" [disabled]="!isLiveRecognizingEnabled">ALIVE</button>
+        <svg (click)="onRecognizing()" [style.visibility]="isRecognizeEnabled ? 'visible' : 'hidden'"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"
+            class="w-12 h-12 button-effect">
             <rect x="104.088" y="67.516" style="fill:black;" width="303.824" height="343.209" />
             <g>
                 <path style="fill:gray;" d="M104.088,465.966c0,25.319,20.715,46.034,46.034,46.034h211.756
@@ -51,6 +54,11 @@
     <div class="flex justify-center space-x-4 p-2">
         <select class="language_id border border-black"></select>
         <select class="dialect_id border border-black"></select>
+    </div>
+    <div class="sound-clips">
+        <article class="clip">
+            <audio controls></audio>
+        </article>
     </div>
     <textarea matInput class="flex-grow w-full border border-black"></textarea>
 </div>
