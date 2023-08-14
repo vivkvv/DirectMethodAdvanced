@@ -103,10 +103,12 @@ export class LessonComponent implements OnInit {
         const dialogRef = this.dialog.open(AudioOverlayComponent, {
             width: '100%',
             panelClass: 'custom-overlay-pane-class',
+            disableClose: true,
+            hasBackdrop: false
         });
 
         dialogRef.afterClosed().subscribe((result) => {
-            console.log(`Dialog result: ${result}`);
+            // console.log(`Dialog result: ${result}`);
         });
     }
 

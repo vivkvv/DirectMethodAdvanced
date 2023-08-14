@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
+import { SpeechRecognitionService } from '../services/Speech-recognition/speech-recognition.service';
 
 export enum AudioState {
     AS_NONE = 0,
@@ -14,20 +15,61 @@ export enum AudioState {
     templateUrl: './audio-overlay.component.html',
     styleUrls: ['./audio-overlay.component.css'],
 })
-export class AudioOverlayComponent {
-    liveRecognizing: boolean = false;
+export class AudioOverlayComponent implements OnInit {
+    liveRecognizing: boolean = true;
     soundExists: boolean = false;
 
     isRecordEnabled: boolean = true;
-    // isPlayEnabled: boolean = false;
     isLiveRecognizingEnabled: boolean = true;
-    isRecognizeEnabled: boolean = false;
+    isRecognizeEnabled: boolean = true;
 
     _audioState: AudioState = AudioState.AS_NONE;
 
     mediaRecorder!: MediaRecorder;
+    transcript = '';
 
-    constructor(public dialogRef: MatDialogRef<AudioOverlayComponent>) {}
+    constructor(
+        public dialogRef: MatDialogRef<AudioOverlayComponent>,
+        private speechRecognitionService: SpeechRecognitionService,
+        private cd: ChangeDetectorRef
+    ) {
+        this.speechRecognitionService.onResult((event) => {
+            this.transcript = '';
+                    
+            for (let i = event.resultIndex; i < event.results.length; i++) {
+                const result = event.results[i];
+                if (result.isFinal) {
+                    this.transcript += result[0].transcript;
+                } else {
+                  this.transcript += result[0].transcript;
+                }
+            }
+
+            this.cd.detectChanges();
+        });
+    }
+
+    ngOnInit() {
+        this.speechRecognitionService.onStart(() => {
+            if (this.audioState === AudioState.AS_NONE) {
+                if (this.liveRecognizing) {
+                    this.audioState = AudioState.AS_LIVE_RECOGNIZE;
+                } else {
+                    this.audioState = AudioState.AS_RECOGNIZE;
+                }
+            }
+            this.cd.detectChanges();
+        });
+
+        this.speechRecognitionService.onEnd(() => {
+            if (this.audioState === AudioState.AS_RECOGNIZE) {
+                this.audioState = AudioState.AS_NONE;
+            } else if (this.audioState === AudioState.AS_LIVE_RECOGNIZE) {
+                this.audioState = AudioState.AS_NONE;
+            }
+            this.cd.detectChanges();
+        });
+    }
 
     close(): void {
         this.dialogRef.close();
@@ -42,32 +84,27 @@ export class AudioOverlayComponent {
         switch (state) {
             case AudioState.AS_NONE:
                 this.isRecordEnabled = true;
-                // this.isPlayEnabled = this.soundExists;
                 this.isLiveRecognizingEnabled = true;
                 this.isRecognizeEnabled =
                     this.soundExists || this.liveRecognizing;
                 break;
             case AudioState.AS_RECORD:
                 this.isRecordEnabled = true;
-                // this.isPlayEnabled = false;
                 this.isLiveRecognizingEnabled = false;
                 this.isRecognizeEnabled = false;
                 break;
             case AudioState.AS_PLAY:
                 this.isRecordEnabled = false;
-                // this.isPlayEnabled = true;
                 this.isLiveRecognizingEnabled = false;
                 this.isRecognizeEnabled = false;
                 break;
             case AudioState.AS_RECOGNIZE:
                 this.isRecordEnabled = false;
-                // this.isPlayEnabled = false;
                 this.isLiveRecognizingEnabled = true;
                 this.isRecognizeEnabled = true;
                 break;
             case AudioState.AS_LIVE_RECOGNIZE:
                 this.isRecordEnabled = false;
-                // this.isPlayEnabled = false;
                 this.isLiveRecognizingEnabled = true;
                 this.isRecognizeEnabled = true;
                 break;
@@ -85,25 +122,11 @@ export class AudioOverlayComponent {
         }
     }
 
-    // onPlay() {
-    //     if (this.audioState === AudioState.AS_NONE) {
-    //         this.audioState = AudioState.AS_PLAY;
-    //     } else if (this.audioState === AudioState.AS_PLAY) {
-    //         this.audioState = AudioState.AS_NONE;
-    //     }
-    // }
-
     onRecognizing() {
         if (this.audioState === AudioState.AS_NONE) {
-            if (this.liveRecognizing) {
-                this.audioState = AudioState.AS_LIVE_RECOGNIZE;
-            } else {
-                this.audioState = AudioState.AS_RECOGNIZE;
-            }
+            this.speechRecognitionService.start();
         } else if (this.audioState === AudioState.AS_RECOGNIZE) {
-            this.audioState = AudioState.AS_NONE;
-        } else if (this.audioState === AudioState.AS_LIVE_RECOGNIZE) {
-            this.audioState = AudioState.AS_NONE;
+            this.speechRecognitionService.stopListening();
         }
     }
 
@@ -134,8 +157,6 @@ export class AudioOverlayComponent {
                         });
 
                         audioElement.src = window.URL.createObjectURL(blob);
-                        //audioElement.setAttribute('controls', '');
-
                     };
 
                     this.mediaRecorder.start();
