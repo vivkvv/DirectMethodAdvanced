@@ -53,6 +53,9 @@
             <audio controls></audio>
         </article>
     </div>
+    <div>
+        <label [style.color]="getColor(comparison_result)" id="comparison-result">Error: {{comparison_result}}</label>
+    </div>
     <textarea matInput class="flex-grow w-full border border-black">
         {{transcript}}
     </textarea>

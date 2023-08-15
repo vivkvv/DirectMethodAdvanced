@@ -100,11 +100,13 @@ export class LessonComponent implements OnInit {
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
     showAudioDialog() {
+        const parentComponent = this;
         const dialogRef = this.dialog.open(AudioOverlayComponent, {
             width: '100%',
             panelClass: 'custom-overlay-pane-class',
             disableClose: true,
-            hasBackdrop: false
+            hasBackdrop: false,
+            data: { parentComponent },
         });
 
         dialogRef.afterClosed().subscribe((result) => {

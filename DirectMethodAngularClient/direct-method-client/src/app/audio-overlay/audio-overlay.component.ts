@@ -1,6 +1,9 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { SpeechRecognitionService } from '../services/Speech-recognition/speech-recognition.service';
+import { MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { Inject } from '@angular/core';
+import { LessonComponent } from '../lesson/lesson.component';
 
 export enum AudioState {
     AS_NONE = 0,
@@ -16,6 +19,7 @@ export enum AudioState {
     styleUrls: ['./audio-overlay.component.css'],
 })
 export class AudioOverlayComponent implements OnInit {
+    comparison_result: string = '';
     liveRecognizing: boolean = true;
     soundExists: boolean = false;
 
@@ -28,20 +32,38 @@ export class AudioOverlayComponent implements OnInit {
     mediaRecorder!: MediaRecorder;
     transcript = '';
 
+    lesson!: any;
+
     constructor(
+        @Inject(MAT_DIALOG_DATA) public data: any,
         public dialogRef: MatDialogRef<AudioOverlayComponent>,
         private speechRecognitionService: SpeechRecognitionService,
         private cd: ChangeDetectorRef
     ) {
+        this.lesson = data.parentComponent;
         this.speechRecognitionService.onResult((event) => {
-            this.transcript = '';
-                    
+            let final_flag: boolean = false;
+
             for (let i = event.resultIndex; i < event.results.length; i++) {
                 const result = event.results[i];
                 if (result.isFinal) {
-                    this.transcript += result[0].transcript;
+                    final_flag = true;
+                    this.transcript += result[0].transcript + '\n';
                 } else {
-                  this.transcript += result[0].transcript;
+                    //   this.transcript += result[0].transcript + '\n';
+                }
+            }
+
+            if (final_flag) {
+                const desired_text = this.lesson.getCurrentEpisode(true)?.text;
+                if (desired_text) {
+                    const difference = this.levenshtein(
+                        this.transcript,
+                        desired_text
+                    );
+                    this.comparison_result =
+                        ((100 * difference) / desired_text.length).toFixed(1) +
+                        '%';
                 }
             }
 
@@ -58,6 +80,7 @@ export class AudioOverlayComponent implements OnInit {
                     this.audioState = AudioState.AS_RECOGNIZE;
                 }
             }
+            this.transcript = '';
             this.cd.detectChanges();
         });
 
@@ -69,6 +92,12 @@ export class AudioOverlayComponent implements OnInit {
             }
             this.cd.detectChanges();
         });
+    }
+
+    getColor(value: string): string {
+        const percentage = parseFloat(value);
+        const hue = (1 - percentage / 100) * 120;
+        return `hsl(${hue}, 100%, 50%)`;
     }
 
     close(): void {
@@ -178,5 +207,43 @@ export class AudioOverlayComponent implements OnInit {
 
     private stopRecording() {
         this.mediaRecorder.stop();
+    }
+
+    normalizeString(str: string) {
+        return str
+            .replace(/[.,\/#!?$%\^&\*;:{}=\-_`~()\n\r]/g, '')
+            .toLowerCase();
+    }
+
+    private levenshtein(a: string, b: string) {
+        a = this.normalizeString(a);
+        b = this.normalizeString(b);
+
+        if (a.length === 0) return b.length;
+        if (b.length === 0) return a.length;
+
+        let matrix = [];
+
+        for (let i = 0; i <= b.length; i++) {
+            matrix[i] = [i];
+        }
+
+        for (let j = 0; j <= a.length; j++) {
+            matrix[0][j] = j;
+        }
+
+        for (let i = 1; i <= b.length; i++) {
+            for (let j = 1; j <= a.length; j++) {
+                if (b.charAt(i - 1) === a.charAt(j - 1)) {
+                    matrix[i][j] = matrix[i - 1][j - 1];
+                } else {
+                    matrix[i][j] = Math.min(
+                        matrix[i - 1][j - 1] + 1,
+                        Math.min(matrix[i][j - 1] + 1, matrix[i - 1][j] + 1)
+                    );
+                }
+            }
+        }
+        return matrix[b.length][a.length];
     }
 }
