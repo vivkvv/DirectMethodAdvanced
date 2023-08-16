@@ -10,6 +10,7 @@ export enum AudioState {
     AS_RECORD = 1,
     AS_PLAY = 2,
     AS_RECOGNIZE = 3,
+    AS_SYNC_PLAY = 4,
 }
 
 @Component({
@@ -19,17 +20,61 @@ export enum AudioState {
 })
 export class AudioOverlayComponent implements OnInit {
     comparison_result: string = '';
-    soundExists: boolean = false;
+    audio_buffer: AudioBuffer | undefined = undefined;
+    source: AudioBufferSourceNode | undefined = undefined;
+    episode_source: AudioBufferSourceNode | undefined = undefined;
 
-    isRecordEnabled: boolean = true;
-    isRecognizeEnabled: boolean = true;
+    audioContext: AudioContext = new (window.AudioContext ||
+        (window as any).webkitAudioContext)();
 
-    _audioState: AudioState = AudioState.AS_NONE;
+    audioState: AudioState = AudioState.AS_NONE;
 
     mediaRecorder!: MediaRecorder;
     transcript = '';
 
     lesson!: any;
+
+    isRecordEnabled(): boolean {
+        return (
+            this.audioState === AudioState.AS_NONE ||
+            this.audioState === AudioState.AS_RECORD
+        );
+    }
+
+    isLanguageEnabled(): boolean {
+        return this.audioState === AudioState.AS_NONE;
+    }
+
+    isRecognizeEnabled(): boolean {
+        return (
+            this.audioState === AudioState.AS_NONE ||
+            this.audioState === AudioState.AS_RECOGNIZE
+        );
+    }
+
+    isSyncPlayEnabled(): boolean {
+        return (
+            (this.audioState === AudioState.AS_NONE &&
+                Boolean(this.audio_buffer)) ||
+            this.audioState === AudioState.AS_SYNC_PLAY
+        );
+    }
+
+    isRecording(): boolean {
+        return this.audioState === AudioState.AS_RECORD;
+    }
+
+    isPlaying(): boolean {
+        return this.audioState === AudioState.AS_PLAY;
+    }
+
+    isRecognizing(): boolean {
+        return this.audioState === AudioState.AS_RECOGNIZE;
+    }
+
+    isSyncPlaying(): boolean {
+        return this.audioState === AudioState.AS_SYNC_PLAY;
+    }
 
     constructor(
         @Inject(MAT_DIALOG_DATA) public data: any,
@@ -95,41 +140,56 @@ export class AudioOverlayComponent implements OnInit {
         this.dialogRef.close();
     }
 
-    get audioState() {
-        return this._audioState;
-    }
+    private findStartOfSignal(
+        audioBuffer: AudioBuffer,
+        threshold = 0.1,
+        startTimeInSeconds = 0,
+        endTimeInSeconds = -1
+    ) {
+        let startOfSignal = 0;
 
-    set audioState(state: AudioState) {
-        this._audioState = state;
-        switch (state) {
-            case AudioState.AS_NONE:
-                this.isRecordEnabled = true;
-                this.isRecognizeEnabled = true;
-                break;
-            case AudioState.AS_RECORD:
-                this.isRecordEnabled = true;
-                this.isRecognizeEnabled = false;
-                break;
-            case AudioState.AS_PLAY:
-                this.isRecordEnabled = false;
-                this.isRecognizeEnabled = false;
-                break;
-            case AudioState.AS_RECOGNIZE:
-                this.isRecordEnabled = false;
-                this.isRecognizeEnabled = true;
-                break;
+        const startSample = startTimeInSeconds * audioBuffer.sampleRate;
+        let endSample = endTimeInSeconds * audioBuffer.sampleRate;
+
+        if (endTimeInSeconds === -1) {
+            endSample = audioBuffer.length;
         }
+
+        for (
+            let channel = 0;
+            channel < audioBuffer.numberOfChannels;
+            channel++
+        ) {
+            const data = audioBuffer.getChannelData(channel);
+
+            for (
+                let i = startSample;
+                i < Math.min(endSample, data.length);
+                i++
+            ) {
+                if (Math.abs(data[i]) > threshold) {
+                    startOfSignal = i / audioBuffer.sampleRate;
+                    break;
+                }
+            }
+
+            if (startOfSignal > 0) break;
+        }
+
+        return startOfSignal;
     }
 
     onRecord() {
-        if (this.audioState === AudioState.AS_RECORD) {
-            this.soundExists = true;
-            this.audioState = AudioState.AS_NONE;
-            this.stopRecording();
-        } else if (this.audioState === AudioState.AS_NONE) {
+        if (this.audioState === AudioState.AS_NONE) {
             this.audioState = AudioState.AS_RECORD;
             this.startRecording();
+        } else if (this.audioState === AudioState.AS_RECORD) {
+            // this.soundExists = true;
+            this.audioState = AudioState.AS_NONE;
+            this.stopRecording();
         }
+
+        this.cd.detectChanges();
     }
 
     onRecognizing() {
@@ -140,8 +200,50 @@ export class AudioOverlayComponent implements OnInit {
         }
     }
 
-    onLiveRecognizingClick() {
-        this.audioState = this.audioState;
+    onSyncPlay() {
+        if (this.audioState === AudioState.AS_NONE) {
+            if (this.audio_buffer) {
+                this.audioState = AudioState.AS_SYNC_PLAY;
+
+                const episode = this.lesson.getCurrentEpisode(true);
+
+                const episode_signal_start = this.findStartOfSignal(
+                    this.lesson.audioBuffer,
+                    0.1,
+                    episode.start,
+                    episode.start + episode.duration
+                );
+                this.episode_source = this.audioContext.createBufferSource();
+
+                const signal_start = this.findStartOfSignal(this.audio_buffer, 0.1);
+
+                this.source = this.audioContext.createBufferSource();
+
+                this.source.onended = () => {
+                    this.audioState = AudioState.AS_NONE;
+                    this.cd.detectChanges();
+                    this.episode_source?.stop();
+                };
+
+                this.source.buffer = this.audio_buffer;
+                this.source.connect(this.audioContext.destination);
+                this.source.start(this.audioContext.currentTime, signal_start);
+
+                this.episode_source.buffer = this.lesson.audioBuffer;
+                this.episode_source.connect(this.audioContext.destination);
+                this.episode_source.start(
+                    //this.lesson.audioContext.currentTime,
+                    this.audioContext.currentTime,
+                    episode_signal_start
+                );
+
+                this.cd.detectChanges();
+            }
+        } else if (this.audioState === AudioState.AS_SYNC_PLAY) {
+            this.source?.stop();
+            this.audioState = AudioState.AS_NONE;
+            this.cd.detectChanges();
+        }
     }
 
     private startRecording() {
@@ -166,6 +268,26 @@ export class AudioOverlayComponent implements OnInit {
                         });
 
                         audioElement.src = window.URL.createObjectURL(blob);
+
+                        const reader = new FileReader();
+                        reader.onloadend = () => {
+                            const arrayBuffer = reader.result as ArrayBuffer;
+                            const audioContext = new (window.AudioContext ||
+                                (window as any).webkitAudioContext)();
+                            audioContext
+                                .decodeAudioData(arrayBuffer)
+                                .then((audioBuffer) => {
+                                    this.audio_buffer = audioBuffer;
+                                    this.cd.detectChanges();
+                                })
+                                .catch((err) => {
+                                    console.error(
+                                        'Error on file decoding',
+                                        err
+                                    );
+                                });
+                        };
+                        reader.readAsArrayBuffer(blob);
                     };
 
                     this.mediaRecorder.start();
