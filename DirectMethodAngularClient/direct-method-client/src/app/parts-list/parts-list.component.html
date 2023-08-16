@@ -1,7 +1,11 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lusitana&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
 <div
-    style="font-family: Geneva, Arial, Helvetica, sans-serif; font-size: 1.5vw; display: flex; flex-direction: row; flex-wrap: wrap;">
-    <div style="flex: 1 0 50%;" *ngFor="let part of parts">
-        <p><a [href]="part.pdf">{{part.title}}</a> ({{formatTotalDuration(part)}})</p>        
+    style="display: flex; flex-direction: column; flex-wrap: wrap;">
+    <div *ngFor="let part of parts">
+        <p style="margin-bottom: 2px;"><a [href]="part.pdf">{{part.title}}</a> ({{formatTotalDuration(part)}})</p>        
         <ul style="padding-left: 30px;">
             <li *ngFor="let lesson of part.lessons">
                 <a [routerLink]="['/Lesson', part.title, lesson.title]">{{lesson.title}}</a>
@@ -10,6 +14,7 @@
                 &nbsp;&nbsp;&nbsp;
                 ({{formatDuration(lesson.duration)}})
             </li>
+            <div>&nbsp;&nbsp;&nbsp;</div>
         </ul>
     </div>
 </div>

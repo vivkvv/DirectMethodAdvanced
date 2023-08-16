@@ -50,474 +50,524 @@
   <text>We/you/they are speaking</text>
   <image/>
  </item>
- <item id="10" start="27.4" duration="2.233">
+ <item id="10">
+  <person>Teacher</person>
+  <text>(Grammar) We use the present continuous for an action that we are doing now. For example, I am going to the door; I am coming from the door; I am closing the book; I am opening the book.</text>
+  <image/>
+ </item>
+ <item id="11" start="27.4" duration="2.233">
   <person>Teacher</person>
   <text>What am I doing?</text>
   <image/>
  </item>
- <item id="10" start="29.667" duration="2.4">
+ <item id="11" start="29.667" duration="2.4">
   <person>Student</person>
   <text>You're opening the book</text>
   <image/>
  </item>
- <item id="11" start="32.1" duration="2.233">
+ <item id="12" start="32.1" duration="2.233">
   <person>Teacher</person>
   <text>What am I doing?</text>
   <image/>
  </item>
- <item id="11" start="34.333" duration="2.667">
+ <item id="12" start="34.333" duration="2.667">
   <person>Student</person>
   <text>You're closing the book</text>
   <image/>
  </item>
- <item id="12" start="37.033" duration="2.3">
+ <item id="13" start="37.033" duration="2.3">
   <person>Teacher</person>
   <text>What am I doing?</text>
   <image/>
  </item>
- <item id="12" start="39.333" duration="2.633">
+ <item id="13" start="39.333" duration="2.633">
   <person>Student</person>
   <text>You're going to the door</text>
   <image/>
  </item>
- <item id="13" start="41.967" duration="2.833">
+ <item id="14" start="41.967" duration="2.833">
   <person>Teacher</person>
   <text>Are you speaking English?</text>
   <image/>
  </item>
- <item id="13" start="44.833" duration="3.0">
+ <item id="14" start="44.833" duration="3.0">
   <person>Student</person>
   <text>Yes, I'm speaking English</text>
   <image/>
  </item>
- <item id="14" start="47.867" duration="2.8">
+ <item id="15" start="47.867" duration="2.8">
   <person>Teacher</person>
   <text>Is she sitting on a chair?</text>
   <image/>
  </item>
- <item id="14" start="50.667" duration="3.167">
+ <item id="15" start="50.667" duration="3.167">
   <person>Student</person>
   <text>Yes, she's sitting on a chair</text>
   <image/>
  </item>
- <item id="15" start="53.833" duration="3.7">
+ <item id="16" start="53.833" duration="3.7">
   <person>Teacher</person>
   <text>Present continuous (negative)</text>
   <image/>
  </item>
- <item id="16" start="57.533" duration="3.233">
+ <item id="17" start="57.533" duration="3.233">
   <person>Teacher</person>
   <text>I am not speaking</text>
   <image/>
  </item>
- <item id="17" start="60.8" duration="3.4">
+ <item id="18" start="60.8" duration="3.4">
   <person>Teacher</person>
   <text>You are not speaking</text>
   <image/>
  </item>
- <item id="18" start="64.2" duration="4.2">
+ <item id="19" start="64.2" duration="4.2">
   <person>Teacher</person>
   <text>He/she/it is not speaking</text>
   <image/>
  </item>
- <item id="19" start="68.433" duration="4.333">
+ <item id="20" start="68.433" duration="4.333">
   <person>Teacher</person>
   <text>We/you/they are not speaking</text>
   <image/>
+ </item> 
+ <item id="21">
+  <person>Teacher</person>
+  <text>(Grammar) For the negative, we say “not“. For example, I am not speaking French; you are not standing on the table.</text>
+  <image/>
  </item>
- <item id="20" start="72.767" duration="2.8">
+ <item id="22" start="72.767" duration="2.8">
   <person>Teacher</person>
   <text>Am I writing in the book?</text>
   <image/>
  </item>
- <item id="20" start="75.567" duration="5.1">
+ <item id="22" start="75.567" duration="5.1">
   <person>Student</person>
   <text>No, you aren't writing in the book; you're reading the book</text>
   <image/>
  </item>
- <item id="21" start="80.7" duration="2.733">
+ <item id="23" start="80.7" duration="2.733">
   <person>Teacher</person>
   <text>Are you speaking Italian?</text>
   <image/>
  </item>
- <item id="21" start="83.433" duration="4.8">
+ <item id="23" start="83.433" duration="4.8">
   <person>Student</person>
   <text>No, I'm not speaking Italian; I'm speaking English</text>
   <image/>
  </item>
- <item id="22" start="88.233" duration="2.833">
+ <item id="24" start="88.233" duration="2.833">
   <person>Teacher</person>
   <text>Is he standing on the floor?</text>
   <image/>
  </item>
- <item id="22" start="91.1" duration="5.233">
+ <item id="24" start="91.1" duration="5.233">
   <person>Student</person>
   <text>No, he isn't standing on the floor; he's sitting on the chair</text>
   <image/>
  </item>
- <item id="23" start="96.333" duration="2.767">
+ <item id="25" start="96.333" duration="2.767">
   <person>Teacher</person>
   <text>Is she speaking French?</text>
   <image/>
  </item>
- <item id="23" start="99.133" duration="5.1">
+ <item id="25" start="99.133" duration="5.1">
   <person>Student</person>
   <text>No, she isn't speaking French; she's speaking English</text>
   <image/>
  </item>
- <item id="24" start="104.267" duration="2.5">
+ <item id="26" start="104.267" duration="2.5">
   <person>Teacher</person>
   <text>Are we going home?</text>
   <image/>
  </item>
- <item id="24" start="106.8" duration="5.0">
+ <item id="26" start="106.8" duration="5.0">
   <person>Student</person>
   <text>No, we aren't going home; we're remaining in the room</text>
   <image/>
  </item>
- <item id="25" start="111.8" duration="3.533">
+ <item id="27" start="111.8" duration="3.533">
   <person>Teacher</person>
   <text>Are they standing behind the house?</text>
   <image/>
  </item>
- <item id="25" start="115.333" duration="6.433">
+ <item id="27" start="115.333" duration="6.433">
   <person>Student</person>
   <text>No, they aren't standing behind the house; they're standing in front of the house</text>
   <image/>
  </item>
- <item id="26" start="121.8" duration="3.667">
+ <item id="28" start="121.8" duration="3.667">
   <person>Teacher</person>
   <text>Present continuous (questions)</text>
   <image/>
  </item>
- <item id="27" start="125.467" duration="4.3">
+ <item id="29" start="125.467" duration="4.3">
   <person>Teacher</person>
   <text>positive: You are speaking</text>
   <image/>
  </item>
- <item id="28" start="129.8" duration="4.167">
+ <item id="30" start="129.8" duration="4.167">
   <person>Teacher</person>
   <text>question: Are you speaking?</text>
   <image/>
  </item>
- <item id="29" start="134.0" duration="2.767">
+ <item id="31">
+  <person>Teacher</person>
+  <text>(Grammar) “You are speaking“ is a positive sentence. For a question, we put “are“ before “you“ and we say “Are you speaking?“</text>
+  <image/>
+ </item> 
+ <item id="32" start="134.0" duration="2.767">
   <person>Teacher</person>
   <text>Are you sitting on a chair?</text>
   <image/>
  </item>
- <item id="29" start="136.767" duration="3.133">
+ <item id="32" start="136.767" duration="3.133">
   <person>Student</person>
   <text>Yes, I'm sitting on a chair</text>
   <image/>
  </item>
- <item id="30" start="139.9" duration="2.2">
+ <item id="33" start="139.9" duration="2.2">
   <person>Teacher</person>
   <text>What am I doing?</text>
   <image/>
  </item>
- <item id="30" start="142.1" duration="2.533">
+ <item id="33" start="142.1" duration="2.533">
   <person>Student</person>
   <text>You're closing the book</text>
   <image/>
  </item>
- <item id="31" start="144.667" duration="2.2">
+ <item id="34" start="144.667" duration="2.2">
   <person>Teacher</person>
   <text>Present simple</text>
   <image/>
  </item>
- <item id="32" start="146.9" duration="1.367">
+ <item id="35" start="146.9" duration="1.367">
   <person>Teacher</person>
   <text>do</text>
   <image/>
  </item>
- <item id="33" start="148.267" duration="1.667">
+ <item id="36" start="148.267" duration="1.667">
   <person>Teacher</person>
   <text>does</text>
   <image/>
  </item>
- <item id="34" start="149.933" duration="1.933">
+ <item id="37" start="149.933" duration="1.933">
   <person>Teacher</person>
   <text>Japanese</text>
   <image/>
  </item>
- <item id="35" start="151.9" duration="2.067">
+ <item id="38" start="151.9" duration="2.067">
   <person>Teacher</person>
   <text>Chinese</text>
   <image/>
  </item>
- <item id="36" start="154.0" duration="3.7">
+ <item id="39" start="154.0" duration="3.7">
   <person>Teacher</person>
   <text>Present simple (positive)</text>
   <image/>
  </item>
- <item id="37" start="157.7" duration="2.433">
+ <item id="40" start="157.7" duration="2.433">
   <person>Teacher</person>
   <text>I/you speak</text>
   <image/>
  </item>
- <item id="38" start="160.167" duration="2.767">
+ <item id="41" start="160.167" duration="2.767">
   <person>Teacher</person>
   <text>He/she/it speaks</text>
   <image/>
  </item>
- <item id="39" start="162.933" duration="3.733">
+ <item id="42" start="162.933" duration="3.733">
   <person>Teacher</person>
   <text>We/you/they speak</text>
   <image/>
  </item>
- <item id="40" start="166.7" duration="5.033">
+ <item id="43">
+  <person>Teacher</person>
+  <text>(Grammar) We use the present continuous for an action we are doing now, whereas we use the present simple for an action we do generally. For example, now you are speaking English, but generally you speak ... . He is not reading a book now, but generally he reads books.</text>
+  <image/>
+ </item> 
+ <item id="44" start="166.7" duration="5.033">
   <person>Teacher</person>
   <text>What's the difference between the present continuous and the present simple?</text>
   <image/>
  </item>
- <item id="40" start="171.733" duration="15.267">
+ <item id="44" start="171.733" duration="15.267">
   <person>Student</person>
   <text>The difference between the present continuous and the present simple is that we use the present continuous for an action we are doing now, whereas we use the present simple for an action we do generally</text>
   <image/>
+ </item> 
+<item id="45">
+  <person>Teacher</person>
+  <text>(Grammar) With the present simple, we use the word “do“. The word “do“ hasn’t got a meaning, but we use it in questions and negative sentences. For example, we say “Do you speak Japanese?“ and “You do not speak Japanese“. </text>
+  <image/>
  </item>
- <item id="41" start="187.0" duration="2.7">
+ <item id="46" start="187.0" duration="2.7">
   <person>Teacher</person>
   <text>Are you reading that book?</text>
   <image/>
  </item>
- <item id="41" start="189.733" duration="3.2">
+ <item id="46" start="189.733" duration="3.2">
   <person>Student</person>
   <text>No, I'm not reading this book</text>
   <image/>
  </item>
- <item id="42" start="192.967" duration="2.467">
+ <item id="47" start="192.967" duration="2.467">
   <person>Teacher</person>
   <text>Do you read that book?</text>
   <image/>
  </item>
- <item id="42" start="195.433" duration="2.8">
+ <item id="47" start="195.433" duration="2.8">
   <person>Student</person>
   <text>Yes, I read this book</text>
   <image/>
  </item>
- <item id="43" start="198.267" duration="2.3">
+ <item id="48" start="198.267" duration="2.3">
   <person>Teacher</person>
   <text>Are you writing?</text>
   <image/>
  </item>
- <item id="43" start="200.567" duration="2.567">
+ <item id="48" start="200.567" duration="2.567">
   <person>Student</person>
   <text>No, I'm not writing</text>
   <image/>
  </item>
- <item id="44" start="203.133" duration="2.067">
+ <item id="49" start="203.133" duration="2.067">
   <person>Teacher</person>
   <text>Do you write?</text>
   <image/>
  </item>
- <item id="44" start="205.2" duration="2.3">
+ <item id="49" start="205.2" duration="2.3">
   <person>Student</person>
   <text>Yes, I write</text>
   <image/>
  </item>
- <item id="45" start="207.5" duration="2.4">
+ <item id="50" start="207.5" duration="2.4">
   <person>Teacher</person>
   <text>Am I going to the door?</text>
   <image/>
  </item>
- <item id="45" start="209.933" duration="4.967">
+ <item id="50" start="209.933" duration="4.967">
   <person>Student</person>
   <text>No, you aren't going to the door; you're remaining on the chair</text>
   <image/>
  </item>
- <item id="46" start="214.933" duration="3.4">
+ <item id="51" start="214.933" duration="3.4">
   <person>Teacher</person>
   <text>Do I go to the door after the lesson?</text>
   <image/>
  </item>
- <item id="46" start="218.333" duration="3.9">
+ <item id="51" start="218.333" duration="3.9">
   <person>Student</person>
   <text>Yes, you go to the door after the lesson</text>
   <image/>
  </item>
- <item id="47" start="222.233" duration="2.267">
+ <item id="52">
+  <person>Teacher</person>
+  <text>(Grammar) For “he“, “she“ and “it“, we use the word “does“. For example, we say “Does he speak Japanese?“ and “He does not speak Japanese“.</text>
+  <image/>
+ </item> 
+ <item id="53" start="222.233" duration="2.267">
   <person>Teacher</person>
   <text>Is he going home?</text>
   <image/>
  </item>
- <item id="47" start="224.533" duration="4.733">
+ <item id="53" start="224.533" duration="4.733">
   <person>Student</person>
   <text>No, he isn't going home; he's remaining in the room</text>
   <image/>
  </item>
- <item id="48" start="229.3" duration="3.133">
+ <item id="54" start="229.3" duration="3.133">
   <person>Teacher</person>
   <text>Does he go home after the lesson?</text>
   <image/>
  </item>
- <item id="48" start="232.433" duration="3.5">
+ <item id="54" start="232.433" duration="3.5">
   <person>Student</person>
   <text>Yes, he goes home after the lesson</text>
   <image/>
  </item>
- <item id="49" start="235.933" duration="2.133">
+ <item id="55" start="235.933" duration="2.133">
   <person>Teacher</person>
   <text>Is she speaking?</text>
   <image/>
  </item>
- <item id="49" start="238.1" duration="2.633">
+ <item id="55" start="238.1" duration="2.633">
   <person>Student</person>
   <text>No, she isn't speaking</text>
   <image/>
  </item>
- <item id="50" start="240.733" duration="2.1">
+ <item id="56" start="240.733" duration="2.1">
   <person>Teacher</person>
   <text>Does she speak?</text>
   <image/>
  </item>
- <item id="50" start="242.867" duration="2.4">
+ <item id="56" start="242.867" duration="2.4">
   <person>Student</person>
   <text>Yes, she speaks</text>
   <image/>
  </item>
- <item id="51" start="245.267" duration="1.833">
+ <item id="57" start="245.267" duration="1.833">
   <person>Teacher</person>
   <text>do not</text>
   <image/>
  </item>
- <item id="52" start="247.1" duration="1.6">
+ <item id="58" start="247.1" duration="1.6">
   <person>Teacher</person>
   <text>don't</text>
   <image/>
  </item>
- <item id="53" start="248.733" duration="1.8">
+ <item id="59" start="248.733" duration="1.8">
   <person>Teacher</person>
   <text>does not</text>
   <image/>
  </item>
- <item id="54" start="250.533" duration="1.633">
+ <item id="60" start="250.533" duration="1.633">
   <person>Teacher</person>
   <text>doesn't</text>
   <image/>
  </item>
- <item id="55" start="252.2" duration="1.7">
+ <item id="61" start="252.2" duration="1.7">
   <person>Teacher</person>
   <text>remain</text>
   <image/>
  </item>
- <item id="56" start="253.933" duration="4.3">
+ <item id="62" start="253.933" duration="4.3">
   <person>Teacher</person>
   <text>Present simple (negative)</text>
   <image/>
  </item>
- <item id="57" start="258.267" duration="3.267">
+ <item id="63" start="258.267" duration="3.267">
   <person>Teacher</person>
   <text>I/you do not speak</text>
   <image/>
  </item>
- <item id="58" start="261.533" duration="3.533">
+ <item id="64" start="261.533" duration="3.533">
   <person>Teacher</person>
   <text>He/she/it does not speak</text>
   <image/>
  </item>
- <item id="59" start="265.067" duration="3.633">
+ <item id="65" start="265.067" duration="3.633">
   <person>Teacher</person>
   <text>We/you/they do not speak</text>
   <image/>
  </item>
- <item id="60" start="268.733" duration="3.533">
+ <item id="66">
+  <person>Teacher</person>
+  <text>(Grammar) For the negative of the present simple, we use the words “do not“ and we say “I do not speak Chinese“. The contraction of “do not“ is “don’t“ – “I don’t speak Chinese“.</text>
+  <image/>
+ </item>
+ <item id="67" start="268.733" duration="3.533">
   <person>Teacher</person>
   <text>What's the negative of &quot;I speak&quot;?</text>
   <image/>
  </item>
- <item id="60" start="272.3" duration="4.9">
+ <item id="67" start="272.3" duration="4.9">
   <person>Student</person>
   <text>The negative of &quot;I speak&quot; is &quot;I don't speak&quot;</text>
   <image/>
  </item>
- <item id="61" start="277.2" duration="3.267">
+ <item id="68" start="277.2" duration="3.267">
   <person>Teacher</person>
   <text>Do you remain here after the lesson?</text>
   <image/>
  </item>
- <item id="61" start="280.5" duration="4.767">
+ <item id="68" start="280.5" duration="4.767">
   <person>Student</person>
   <text>No, I don't remain here after the lesson; I go home</text>
   <image/>
  </item>
- <item id="62" start="285.3" duration="2.733">
+ <item id="69" start="285.3" duration="2.733">
   <person>Teacher</person>
   <text>Do they speak Japanese?</text>
   <image/>
  </item>
- <item id="62" start="288.033" duration="4.333">
+ <item id="69" start="288.033" duration="4.333">
   <person>Student</person>
   <text>No, they don't speak Japanese; they speak English</text>
   <image/>
  </item>
- <item id="63" start="292.4" duration="3.333">
+ <item id="70" start="292.4" duration="3.333">
   <person>Teacher</person>
   <text>Do I read books in Chinese?</text>
   <image/>
  </item>
- <item id="63" start="295.767" duration="5.2">
+ <item id="70" start="295.767" duration="5.2">
   <person>Student</person>
   <text>No, you don't read books in Chinese; you read books in English</text>
   <image/>
  </item>
- <item id="64" start="300.967" duration="3.333">
+ <item id="71">
+  <person>Teacher</person>
+  <text>(Grammar) For “he“, “she“ and “it“, we use the words “does not“ for the negative, and we say “He does not speak Chinese“. The contraction of “does not“ is “doesn’t“ – “He doesn’t speak Chinese“.</text>
+  <image/>
+ </item>
+ <item id="72" start="300.967" duration="3.333">
   <person>Teacher</person>
   <text>What's the negative of &quot;he speaks&quot;?</text>
   <image/>
  </item>
- <item id="64" start="304.333" duration="4.933">
+ <item id="72" start="304.333" duration="4.933">
   <person>Student</person>
   <text>The negative of &quot;he speaks&quot; is &quot;he doesn't speak&quot;</text>
   <image/>
  </item>
- <item id="65" start="309.3" duration="2.867">
+ <item id="73" start="309.3" duration="2.867">
   <person>Teacher</person>
   <text>Does he speak Japanese?</text>
   <image/>
  </item>
- <item id="65" start="312.167" duration="4.8">
+ <item id="73" start="312.167" duration="4.8">
   <person>Student</person>
   <text>No, he doesn't speak Japanese; he speaks English</text>
   <image/>
  </item>
- <item id="66" start="316.967" duration="3.3">
+ <item id="74" start="316.967" duration="3.3">
   <person>Teacher</person>
   <text>Does he remain here after the lesson?</text>
   <image/>
  </item>
- <item id="66" start="320.267" duration="6.167">
+ <item id="74" start="320.267" duration="6.167">
   <person>Student</person>
   <text>No, he doesn't remain here after the lesson; he goes home after the lesson</text>
   <image/>
  </item>
- <item id="67" start="326.433" duration="2.7">
+ <item id="75" start="326.433" duration="2.7">
   <person>Teacher</person>
   <text>Does she write in German?</text>
   <image/>
  </item>
- <item id="67" start="329.167" duration="4.633">
+ <item id="75" start="329.167" duration="4.633">
   <person>Student</person>
   <text>No, she doesn't write in German; she writes in English</text>
   <image/>
  </item>
- <item id="68" start="333.8" duration="4.167">
+ <item id="76" start="333.8" duration="4.167">
   <person>Teacher</person>
   <text>Present simple (questions)</text>
   <image/>
  </item>
- <item id="69" start="338.0" duration="3.6">
+ <item id="77" start="338.0" duration="3.6">
   <person>Teacher</person>
   <text>Do I/you speak?</text>
   <image/>
  </item>
- <item id="70" start="341.6" duration="3.533">
+ <item id="78" start="341.6" duration="3.533">
   <person>Teacher</person>
   <text>Does he/she/it speak?</text>
   <image/>
  </item>
- <item id="71" start="345.167" duration="3.4">
+ <item id="79" start="345.167" duration="3.4">
   <person>Teacher</person>
   <text>Do we/you/they speak?</text>
   <image/>
  </item>
+ <item id="80">
+  <person>Teacher</person>
+  <text>(Grammar) For questions, we use the words “do“ and “does“, and we say “Do you speak Chinese?“ or “Does she write in German?“</text>
+  <image/>
+ </item>
+ <item id="81">
+  <person>Teacher</person>
+  <text>(Dictation 2) You aren’t Mrs Brown; you’re Mr Green. I’m Mrs Brown. Six, seven, eight, nine, ten. The women are standing under the light in front of the picture. Where’s the house? It’s behind her. What am I doing? You’re taking the bag from me, closing it, and putting it on the floor. Which door is open? That door is. Eleven, twelve, thirteen, fourteen, fifteen.</text>
+  <image/>
+ </item> 
 </items>

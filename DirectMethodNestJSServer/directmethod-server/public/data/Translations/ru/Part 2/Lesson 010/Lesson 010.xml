@@ -30,286 +30,286 @@
  <item id="9">
   <translation>Мы/вы/они говорят</translation>
  </item>
- <item id="10">
+ <item id="11">
   <translation>Что я делвю?</translation>
  </item>
- <item id="10">
+ <item id="11">
   <translation>Вы открываете книгу</translation>
  </item>
- <item id="11">
+ <item id="12">
   <translation>Что я делаю?</translation>
  </item>
- <item id="11">
+ <item id="12">
   <translation>Вы закрываете книгу</translation>
  </item>
- <item id="12">
+ <item id="13">
   <translation>Что я делаю?</translation>
  </item>
- <item id="12">
+ <item id="13">
   <translation>Вы идете к двери</translation>
  </item>
- <item id="13">
+ <item id="14">
   <translation>Вы говорите по-английски?</translation>
  </item>
- <item id="13">
+ <item id="14">
   <translation>Да, я говорю по-английски</translation>
  </item>
- <item id="14">
+ <item id="15">
   <translation>Она сидит на стуле?</translation>
  </item>
- <item id="14">
+ <item id="15">
   <translation>Да, она сидит на стуле</translation>
  </item>
- <item id="15">
+ <item id="16">
   <translation>Настоящее продолжительное (отрицательное)</translation>
  </item>
- <item id="16">
+ <item id="17">
   <translation>Я не говорю</translation>
  </item>
- <item id="17">
+ <item id="18">
   <translation>Ты не говоришь</translation>
  </item>
- <item id="18">
+ <item id="19">
   <translation>Он/она/оно не говорят</translation>
  </item>
- <item id="19">
+ <item id="20">
   <translation>Мы/вы/они не говорят</translation>
  </item>
- <item id="20">
+ <item id="22">
   <translation>Я пишу в книге?</translation>
  </item>
- <item id="20">
+ <item id="22">
   <translation>Нет, Вы не пишите в книге, вы читаете книгу</translation>
  </item>
- <item id="21">
+ <item id="23">
   <translation>Вы говорите по-итальянски?</translation>
  </item>
- <item id="21">
+ <item id="23">
   <translation>Нет, я не говорю по-итальянмки; я говорю по-английски</translation>
  </item>
- <item id="22">
+ <item id="24">
   <translation>Он стоит на полу?</translation>
  </item>
- <item id="22">
+ <item id="24">
   <translation>Нет, он не стоит на полу; он сидит на стуле</translation>
  </item>
- <item id="23">
+ <item id="25">
   <translation>Она говорит по-французски?</translation>
  </item>
- <item id="23">
+ <item id="25">
   <translation>Нет, она не говорит по-французски; она говорит по-английски</translation>
  </item>
- <item id="24">
+ <item id="26">
   <translation>Мы идем домой?</translation>
  </item>
- <item id="24">
+ <item id="26">
   <translation>Нет, мы не идем домой; мы остаемся в комнате</translation>
  </item>
- <item id="25">
+ <item id="27">
   <translation>Они стоят позади дома?</translation>
  </item>
- <item id="25">
+ <item id="27">
   <translation>Нет, они стоят не позади дома, они стоят перед домом</translation>
  </item>
- <item id="26">
+ <item id="28">
   <translation>Настоящее продолжительное (вопросы)</translation>
  </item>
- <item id="27">
+ <item id="29">
   <translation>утверждение: Вы говорите</translation>
  </item>
- <item id="28">
+ <item id="30">
   <translation>вопрос: Вы говорите?</translation>
  </item>
- <item id="29">
+ <item id="32">
   <translation>Вы сидите на стуле?</translation>
  </item>
- <item id="29">
+ <item id="32">
   <translation>Да, я сижу на стуле</translation>
  </item>
- <item id="30">
+ <item id="33">
   <translation>Что я делаю?</translation>
  </item>
- <item id="30">
+ <item id="33">
   <translation>Вы закрываете книгу</translation>
  </item>
- <item id="31">
+ <item id="34">
   <translation>Настоящее простое</translation>
  </item>
- <item id="32">
-  <translation>вспомогательный глагол</translation>
- </item>
- <item id="33">
-  <translation>вспомогательный глагол</translation>
- </item>
- <item id="34">
-  <translation>японский</translation>
- </item>
  <item id="35">
-  <translation>китайский</translation>
+  <translation>вспомогательный глагол</translation>
  </item>
  <item id="36">
-  <translation>Настоящее простое (утвердительное)</translation>
+  <translation>вспомогательный глагол</translation>
  </item>
  <item id="37">
-  <translation>Я/ты говоришь</translation>
+  <translation>японский</translation>
  </item>
  <item id="38">
-  <translation>Он/она/оно говорит</translation>
+  <translation>китайский</translation>
  </item>
  <item id="39">
+  <translation>Настоящее простое (утвердительное)</translation>
+ </item>
+ <item id="40">
+  <translation>Я/ты говоришь</translation>
+ </item>
+ <item id="41">
+  <translation>Он/она/оно говорит</translation>
+ </item>
+ <item id="42">
   <translation>Мы/вы/они говорят</translation>
  </item>
- <item id="40">
+ <item id="44">
   <translation>В чем разница между настоящим продолжительным и настоящим простым?</translation>
  </item>
- <item id="40">
-  <translation>Разника между настоящим продолжительным и настоящим простым состоит в том, что мы используем настоящее продолжительное для действия, которое мы совершаем сейчас, в то время как мы используем настоящее простое для действия, которое мы совершаем вообще</translation>
+ <item id="44">
+  <translation>Разница между настоящим продолжительным и настоящим простым состоит в том, что мы используем настоящее продолжительное для действия, которое мы совершаем сейчас, в то время как мы используем настоящее простое для действия, которое мы совершаем вообще</translation>
  </item>
- <item id="41">
+ <item id="46">
   <translation>Вы читаете ту книгу?</translation>
  </item>
- <item id="41">
+ <item id="46">
   <translation>Нет, я не читаю эту книгу</translation>
  </item>
- <item id="42">
+ <item id="47">
   <translation>Вы читаете ту книгу?</translation>
  </item>
- <item id="42">
+ <item id="47">
   <translation>Да, я читаю эту книгу</translation>
  </item>
- <item id="43">
+ <item id="48">
   <translation>Вы пишете?</translation>
  </item>
- <item id="43">
+ <item id="48">
   <translation>Нет, я не пишу</translation>
  </item>
- <item id="44">
+ <item id="49">
   <translation>Вы пишете</translation>
  </item>
- <item id="44">
+ <item id="49">
   <translation>Да, я пишу</translation>
  </item>
- <item id="45">
+ <item id="50">
   <translation>Я иду к двери?</translation>
  </item>
- <item id="45">
+ <item id="50">
   <translation>Нет, Вы не идете к двери; Вы остаетесь на стуле</translation>
  </item>
- <item id="46">
+ <item id="51">
   <translation>Я иду к двери после урока?</translation>
  </item>
- <item id="46">
+ <item id="51">
   <translation>Да, Вы идете к двери после урока</translation>
  </item>
- <item id="47">
+ <item id="53">
   <translation>Он идет домой?</translation>
  </item>
- <item id="47">
+ <item id="53">
   <translation>Нет, он не идет домой; он остается в комнате</translation>
  </item>
- <item id="48">
+ <item id="54">
   <translation>Он идет домой после урока?</translation>
  </item>
- <item id="48">
+ <item id="54">
   <translation>Да, он идет домой после урока</translation>
  </item>
- <item id="49">
+ <item id="55">
   <translation>Она говорит?</translation>
- </item>
- <item id="49">
-  <translation>Нет, она не говорит</translation>
- </item>
- <item id="50">
-  <translation>Она говорит?</translation>
- </item>
- <item id="50">
-  <translation>Да, она говорит</translation>
- </item>
- <item id="51">
-  <translation>не</translation>
- </item>
- <item id="52">
-  <translation>не</translation>
- </item>
- <item id="53">
-  <translation>не</translation>
- </item>
- <item id="54">
-  <translation>не</translation>
  </item>
  <item id="55">
-  <translation>оставаться</translation>
+  <translation>Нет, она не говорит</translation>
  </item>
  <item id="56">
-  <translation>Настоящее прстое (отрицательное)</translation>
+  <translation>Она говорит?</translation>
+ </item>
+ <item id="56">
+  <translation>Да, она говорит</translation>
  </item>
  <item id="57">
-  <translation>Я/ты не говоришь</translation>
+  <translation>не</translation>
  </item>
  <item id="58">
-  <translation>Он/она/оно не говорит</translation>
+  <translation>не</translation>
  </item>
  <item id="59">
+  <translation>не</translation>
+ </item>
+ <item id="60">
+  <translation>не</translation>
+ </item>
+ <item id="61">
+  <translation>оставаться</translation>
+ </item>
+ <item id="62">
+  <translation>Настоящее прстое (отрицательное)</translation>
+ </item>
+ <item id="63">
+  <translation>Я/ты не говоришь</translation>
+ </item>
+ <item id="64">
+  <translation>Он/она/оно не говорит</translation>
+ </item>
+ <item id="65">
   <translation>Мы/вы/они не говорят</translation>
  </item>
- <item id="60">
+ <item id="67">
   <translation>Что есть отрицанием для &quot;Я говорю&quot;?</translation>
  </item>
- <item id="60">
+ <item id="67">
   <translation>Отрицанием для &quot;Я говорю&quot; есть &quot;Я не говорю&quot;</translation>
  </item>
- <item id="61">
+ <item id="68">
   <translation>Вы остаетесь здесь после урока?</translation>
  </item>
- <item id="61">
+ <item id="68">
   <translation>Нет, я не остаюсь здесь после урока; я иду домой</translation>
  </item>
- <item id="62">
+ <item id="69">
   <translation>Они говорят по-японски?</translation>
  </item>
- <item id="62">
+ <item id="69">
   <translation>Нет, они не говорят по-японски; они говорят по-английски</translation>
  </item>
- <item id="63">
+ <item id="70">
   <translation>Я читаю книги на китайском?</translation>
  </item>
- <item id="63">
+ <item id="70">
   <translation>Нет, Вы не читаете книги на китайском; вы читаете книги на английском</translation>
  </item>
- <item id="64">
+ <item id="72">
   <translation>Что есть отрицанием для &quot;он говорит&quot;?</translation>
  </item>
- <item id="64">
+ <item id="72">
   <translation>Отрицанием для &quot;Он говорит&quot; есть &quot;он не говорит&quot;</translation>
  </item>
- <item id="65">
+ <item id="73">
   <translation>Он говорит по-японски?</translation>
  </item>
- <item id="65">
+ <item id="73">
   <translation>Нет, он не говорит по-японски; он говорит по-английски</translation>
  </item>
- <item id="66">
+ <item id="74">
   <translation>Он остается здесь после урока?</translation>
  </item>
- <item id="66">
+ <item id="74">
   <translation>Нет, он не остается здесь после урока; он идет домой после урока</translation>
  </item>
- <item id="67">
+ <item id="75">
   <translation>Она пишет по-немецки?</translation>
  </item>
- <item id="67">
+ <item id="75">
   <translation>Нет, она не пишет по-немецки; она пишет по-английски</translation>
  </item>
- <item id="68">
+ <item id="76">
   <translation>Настоящее простое (вопросы)</translation>
  </item>
- <item id="69">
+ <item id="77">
   <translation>Я/ты говоришь?</translation>
  </item>
- <item id="70">
+ <item id="78">
   <translation>Он/она/оно говорит?</translation>
  </item>
- <item id="71">
+ <item id="79">
   <translation>Мы/вы/они говорят?</translation>
  </item>
 </items>

@@ -10,7 +10,6 @@ export enum AudioState {
     AS_RECORD = 1,
     AS_PLAY = 2,
     AS_RECOGNIZE = 3,
-    AS_LIVE_RECOGNIZE = 4,
 }
 
 @Component({
@@ -20,11 +19,9 @@ export enum AudioState {
 })
 export class AudioOverlayComponent implements OnInit {
     comparison_result: string = '';
-    liveRecognizing: boolean = true;
     soundExists: boolean = false;
 
     isRecordEnabled: boolean = true;
-    isLiveRecognizingEnabled: boolean = true;
     isRecognizeEnabled: boolean = true;
 
     _audioState: AudioState = AudioState.AS_NONE;
@@ -74,11 +71,7 @@ export class AudioOverlayComponent implements OnInit {
     ngOnInit() {
         this.speechRecognitionService.onStart(() => {
             if (this.audioState === AudioState.AS_NONE) {
-                if (this.liveRecognizing) {
-                    this.audioState = AudioState.AS_LIVE_RECOGNIZE;
-                } else {
-                    this.audioState = AudioState.AS_RECOGNIZE;
-                }
+                this.audioState = AudioState.AS_RECOGNIZE;
             }
             this.transcript = '';
             this.cd.detectChanges();
@@ -86,8 +79,6 @@ export class AudioOverlayComponent implements OnInit {
 
         this.speechRecognitionService.onEnd(() => {
             if (this.audioState === AudioState.AS_RECOGNIZE) {
-                this.audioState = AudioState.AS_NONE;
-            } else if (this.audioState === AudioState.AS_LIVE_RECOGNIZE) {
                 this.audioState = AudioState.AS_NONE;
             }
             this.cd.detectChanges();
@@ -113,28 +104,18 @@ export class AudioOverlayComponent implements OnInit {
         switch (state) {
             case AudioState.AS_NONE:
                 this.isRecordEnabled = true;
-                this.isLiveRecognizingEnabled = true;
-                this.isRecognizeEnabled =
-                    this.soundExists || this.liveRecognizing;
+                this.isRecognizeEnabled = true;
                 break;
             case AudioState.AS_RECORD:
                 this.isRecordEnabled = true;
-                this.isLiveRecognizingEnabled = false;
                 this.isRecognizeEnabled = false;
                 break;
             case AudioState.AS_PLAY:
                 this.isRecordEnabled = false;
-                this.isLiveRecognizingEnabled = false;
                 this.isRecognizeEnabled = false;
                 break;
             case AudioState.AS_RECOGNIZE:
                 this.isRecordEnabled = false;
-                this.isLiveRecognizingEnabled = true;
-                this.isRecognizeEnabled = true;
-                break;
-            case AudioState.AS_LIVE_RECOGNIZE:
-                this.isRecordEnabled = false;
-                this.isLiveRecognizingEnabled = true;
                 this.isRecognizeEnabled = true;
                 break;
         }
@@ -160,7 +141,6 @@ export class AudioOverlayComponent implements OnInit {
     }
 
     onLiveRecognizingClick() {
-        this.liveRecognizing = !this.liveRecognizing;
         this.audioState = this.audioState;
     }
 

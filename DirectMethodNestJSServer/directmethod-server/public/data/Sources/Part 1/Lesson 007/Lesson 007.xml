@@ -394,158 +394,163 @@
   <person>Teacher</person>
   <text>the</text>
   <image/>
+ </item> 
+ <item id="51">
+  <person>Teacher</person>
+  <text>(Grammar) We say a book, but an umbrella. The book, but the umbrella. Before a consonant we say "a" – a book. Before a vowel we say "an" – an umbrella. Before a consonant we say "the" – the book. Before a vowel we say "the" – the umbrella</text>
+  <image/>
  </item>
- <item id="51" start="204.767" duration="3.167">
+ <item id="52" start="204.767" duration="3.167">
   <person>Teacher</person>
   <text>Pronounce these words, please</text>
   <image/>
  </item>
- <item id="51" start="207.933" duration="8.867">
+ <item id="52" start="207.933" duration="8.867">
   <person>Student</person>
   <text>a book - an umbrella; the book - the umbrella</text>
   <image/>
  </item>
- <item id="52" start="216.833" duration="1.467">
+ <item id="53" start="216.833" duration="1.467">
   <person>Teacher</person>
   <text>body</text>
   <image/>
  </item>
- <item id="53" start="218.3" duration="1.9">
+ <item id="54" start="218.3" duration="1.9">
   <person>Teacher</person>
   <text>What's this?</text>
   <image/>
  </item>
- <item id="53" start="220.233" duration="2.433">
+ <item id="54" start="220.233" duration="2.433">
   <person>Student</person>
   <text>This is the body</text>
   <image/>
  </item>
- <item id="54" start="222.7" duration="2.8">
+ <item id="55" start="222.7" duration="2.8">
   <person>Teacher</person>
   <text>Is this her body?</text>
   <image/>
  </item>
- <item id="54" start="225.5" duration="4.6">
+ <item id="55" start="225.5" duration="4.6">
   <person>Student</person>
   <text>No, it isn't her body; it's your body</text>
   <image/>
  </item>
- <item id="55" start="230.133" duration="1.6">
+ <item id="56" start="230.133" duration="1.6">
   <person>Teacher</person>
   <text>part</text>
   <image/>
  </item>
- <item id="56" start="231.733" duration="1.567">
+ <item id="57" start="231.733" duration="1.567">
   <person>Teacher</person>
   <text>foot</text>
   <image/>
  </item>
- <item id="57" start="233.3" duration="1.5">
+ <item id="58" start="233.3" duration="1.5">
   <person>Teacher</person>
   <text>feet</text>
   <image/>
  </item>
- <item id="58" start="234.833" duration="3.333">
+ <item id="59" start="234.833" duration="3.333">
   <person>Teacher</person>
   <text>What part of the body is this?</text>
   <image/>
  </item>
- <item id="58" start="238.2" duration="3.4">
+ <item id="59" start="238.2" duration="3.4">
   <person>Student</person>
   <text>This part of the body is the foot</text>
   <image/>
  </item>
- <item id="59" start="241.6" duration="3.033">
+ <item id="60" start="241.6" duration="3.033">
   <person>Teacher</person>
   <text>What's the plural of &quot;foot&quot;?</text>
   <image/>
  </item>
- <item id="59" start="244.633" duration="3.433">
+ <item id="60" start="244.633" duration="3.433">
   <person>Student</person>
   <text>The plural of &quot;foot&quot; is &quot;feet&quot;</text>
   <image/>
  </item>
- <item id="60" start="248.1" duration="1.367">
+ <item id="61" start="248.1" duration="1.367">
   <person>Teacher</person>
   <text>leg</text>
   <image/>
  </item>
- <item id="61" start="249.467" duration="1.8">
+ <item id="62" start="249.467" duration="1.8">
   <person>Teacher</person>
   <text>back</text>
   <image/>
  </item>
- <item id="62" start="251.3" duration="1.2">
+ <item id="63" start="251.3" duration="1.2">
   <person>Teacher</person>
   <text>arm</text>
   <image/>
  </item>
- <item id="63" start="252.5" duration="2.033">
+ <item id="64" start="252.5" duration="2.033">
   <person>Teacher</person>
   <text>wrist</text>
   <image/>
  </item>
- <item id="64" start="254.567" duration="1.367">
+ <item id="65" start="254.567" duration="1.367">
   <person>Teacher</person>
   <text>hand</text>
   <image/>
  </item>
- <item id="65" start="255.933" duration="1.6">
+ <item id="66" start="255.933" duration="1.6">
   <person>Teacher</person>
   <text>finger</text>
   <image/>
  </item>
- <item id="66" start="257.567" duration="1.4">
+ <item id="67" start="257.567" duration="1.4">
   <person>Teacher</person>
   <text>thumb</text>
   <image/>
  </item>
- <item id="67" start="258.967" duration="2.0">
+ <item id="68" start="258.967" duration="2.0">
   <person>Teacher</person>
   <text>What's this?</text>
   <image/>
  </item>
- <item id="67" start="260.967" duration="8.833">
+ <item id="68" start="260.967" duration="8.833">
   <person>Student</person>
   <text>It's a leg, the back, an arm, a wrist, etc.</text>
   <image/>
  </item>
- <item id="68" start="269.8" duration="1.7">
+ <item id="69" start="269.8" duration="1.7">
   <person>Teacher</person>
   <text>right</text>
   <image/>
  </item>
- <item id="69" start="271.5" duration="1.433">
+ <item id="70" start="271.5" duration="1.433">
   <person>Teacher</person>
   <text>wrong</text>
   <image/>
  </item>
- <item id="70" start="272.967" duration="5.667">
+ <item id="71" start="272.967" duration="5.667">
   <person>Teacher</person>
   <text>Two plus two equals seven: is that right?</text>
   <image/>
  </item>
- <item id="70" start="278.633" duration="3.633">
+ <item id="71" start="278.633" duration="3.633">
   <person>Student</person>
   <text>No, it isn't right; it's wrong</text>
   <image/>
  </item>
- <item id="71" start="282.267" duration="4.6">
+ <item id="72" start="282.267" duration="4.6">
   <person>Teacher</person>
   <text>The walls are high: is that wrong?</text>
   <image/>
  </item>
- <item id="71" start="286.9" duration="3.733">
+ <item id="72" start="286.9" duration="3.733">
   <person>Student</person>
   <text>No, it isn't wrong; it's right</text>
   <image/>
  </item>
- <item id="72" start="290.667" duration="2.767">
+ <item id="73" start="290.667" duration="2.767">
   <person>Teacher</person>
   <text>Is it right you're Mr. Brown?</text>
   <image/>
  </item>
- <item id="72" start="293.433" duration="6.033">
+ <item id="73" start="293.433" duration="6.033">
   <person>Student</person>
   <text>No, it isn't right I'm Mr. Brown; it's wrong. I'm Liz.</text>
   <image/>

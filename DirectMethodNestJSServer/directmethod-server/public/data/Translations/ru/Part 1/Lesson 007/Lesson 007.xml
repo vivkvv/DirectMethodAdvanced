@@ -237,97 +237,97 @@
  <item id="50">
   <translation>(определенный артикль)</translation>
  </item>
- <item id="51">
+ <item id="52">
   <translation>Произнеси эти слова, пожалуйста</translation>
  </item>
- <item id="51">
+ <item id="52">
   <translation>книга - зонт; книга - зонт</translation>
  </item>
- <item id="52">
+ <item id="53">
   <translation>тело</translation>
  </item>
- <item id="53">
+ <item id="54">
   <translation>Что это?</translation>
  </item>
- <item id="53">
+ <item id="54">
   <translation>Это тело</translation>
  </item>
- <item id="54">
+ <item id="55">
   <translation>Это ее тело?</translation>
  </item>
- <item id="54">
+ <item id="55">
   <translation>Нет, это не ее тело, это твое тело</translation>
  </item>
- <item id="55">
+ <item id="56">
   <translation>часть</translation>
  </item>
- <item id="56">
+ <item id="57">
   <translation>нога, стопа</translation>
  </item>
- <item id="57">
+ <item id="58">
   <translation>ноги, стопы</translation>
  </item>
- <item id="58">
+ <item id="59">
   <translation>Что это за часть тела?</translation>
  </item>
- <item id="58">
+ <item id="59">
   <translation>Эта часть тела - стопа</translation>
  </item>
- <item id="59">
+ <item id="60">
   <translation>Что есть множественнм числом для &quot;стопы&quot;?</translation>
  </item>
- <item id="59">
+ <item id="60">
   <translation>Множественное число для стопы - стопы</translation>
  </item>
- <item id="60">
+ <item id="61">
   <translation>нога</translation>
  </item>
- <item id="61">
+ <item id="62">
   <translation>спина</translation>
  </item>
- <item id="62">
+ <item id="63">
   <translation>рука</translation>
  </item>
- <item id="63">
+ <item id="64">
   <translation>запястье</translation>
  </item>
- <item id="64">
+ <item id="65">
   <translation>кисть руки</translation>
  </item>
- <item id="65">
+ <item id="66">
   <translation>палец</translation>
  </item>
- <item id="66">
+ <item id="67">
   <translation>большой палец</translation>
  </item>
- <item id="67">
+ <item id="68">
   <translation>Что это?</translation>
  </item>
- <item id="67">
+ <item id="68">
   <translation>Это нога, спина, рука, запястье и т.д.</translation>
  </item>
- <item id="68">
+ <item id="69">
   <translation>верно</translation>
  </item>
- <item id="69">
+ <item id="70">
   <translation>неверно</translation>
  </item>
- <item id="70">
+ <item id="71">
   <translation>Два плюс два равно семи: это верно?</translation>
  </item>
- <item id="70">
+ <item id="71">
   <translation>Нет, это не верно, это неверно</translation>
  </item>
- <item id="71">
+ <item id="72">
   <translation>Стены - высоки: это неверно?</translation>
  </item>
- <item id="71">
+ <item id="72">
   <translation>Нет, это не неверно, это верно</translation>
  </item>
- <item id="72">
+ <item id="73">
   <translation>Это верно, что Вы - мистер Браун?</translation>
  </item>
- <item id="72">
+ <item id="73">
   <translation>нет, это не верно, что я - мистер Браун; я - Лиз</translation>
  </item>
 </items>

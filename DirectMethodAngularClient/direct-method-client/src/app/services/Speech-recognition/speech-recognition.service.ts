@@ -14,8 +14,8 @@ export class SpeechRecognitionService {
             (window as any).SpeechRecognition ||
             (window as any).webkitSpeechRecognition;
         this.recognition = new SpeechRecognition();
-        this.recognition.lang = 'en-US';
-        this.recognition.interimResults = true; 
+        // this.recognition.lang = 'en-US';
+        this.recognition.interimResults = true;
 
         this.recognition.onstart = () => {
             this.startSubject.next();
@@ -24,11 +24,17 @@ export class SpeechRecognitionService {
 
         this.recognition.onend = () => {
             this.endSubject.next();
-            console.log('speech recognition end');            
+            console.log('speech recognition end');
         };
     }
 
     start() {
+        const selectElement = document.querySelector('.language_id') as HTMLSelectElement;
+        if (selectElement) {
+            const selectedValue =
+                selectElement.options[selectElement.selectedIndex].value;
+            this.recognition.lang = selectedValue;
+        }
         this.recognition.start();
     }
 
