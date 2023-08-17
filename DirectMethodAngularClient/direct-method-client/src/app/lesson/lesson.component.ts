@@ -57,6 +57,8 @@ export class LessonComponent implements OnInit {
     endLessonTime: number = 250.78;
     currentLessonTime: number = 126.8;
 
+    isAudioDialogOpen: boolean = false;
+
     formatIntervalLabel(value: number): string {
         return `${value}`;
     }
@@ -100,6 +102,12 @@ export class LessonComponent implements OnInit {
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
     showAudioDialog() {
+        if(this.isAudioDialogOpen){
+            return;
+        }
+
+        this.isAudioDialogOpen = true;
+
         const parentComponent = this;
         const dialogRef = this.dialog.open(AudioOverlayComponent, {
             width: '100%',
@@ -110,7 +118,7 @@ export class LessonComponent implements OnInit {
         });
 
         dialogRef.afterClosed().subscribe((result) => {
-            // console.log(`Dialog result: ${result}`);
+            this.isAudioDialogOpen = false;
         });
     }
 

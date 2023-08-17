@@ -1,611 +1,611 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="305.633">
- <item id="0" start="0.167" duration="1.867">
+ <item id="0" start="0.167" duration="0.84">
   <person>Teacher</person>
   <text>Lesson one</text>
   <image/>
  </item>
- <item id="1" start="2.033" duration="1.6">
+ <item id="1" start="2.033" duration="0.8">
   <person>Teacher</person>
   <text>pen</text>
   <image>./images/pen.png</image>
  </item>
- <item id="2" start="3.633" duration="1.733">
+ <item id="2" start="3.633" duration="0.9">
   <person>Teacher</person>
   <text>pencil</text>
   <image>./images/pencil.png</image>
  </item>
- <item id="3" start="5.4" duration="1.6">
+ <item id="3" start="5.4" duration="0.96">
   <person>Teacher</person>
   <text>book</text>
   <image>./images/book.png</image>
  </item>
- <item id="4" start="7.0" duration="1.533">
+ <item id="4" start="7.0" duration="0.4">
   <person>Teacher</person>
   <text>a</text>
   <image/>
  </item>
- <item id="5" start="8.567" duration="3.367">
+ <item id="5" start="8.567" duration="2.5">
   <person>Teacher</person>
   <text>what is (what's)</text>
   <image/>
  </item>
- <item id="6" start="11.933" duration="1.667">
+ <item id="6" start="11.933" duration="1.1">
   <person>Teacher</person>
   <text>this</text>
   <image/>
  </item>
- <item id="7" start="13.6" duration="3.3">
+ <item id="7" start="13.6" duration="2.6">
   <person>Teacher</person>
   <text>it is (it's)</text>
   <image/>
  </item>
- <item id="8" start="16.933" duration="1.8">
+ <item id="8" start="16.933" duration="1.5">
   <person>Teacher</person>
   <text>What's this?</text>
   <image>./images/pen.png</image>
  </item>
- <item id="8" start="18.767" duration="1.7">
+ <item id="8" start="18.767" duration="1.4">
   <person>Student</person>
   <text>It's a pen.</text>
   <image/>
  </item>
- <item id="9" start="20.467" duration="1.7">
+ <item id="9" start="20.467" duration="1.3">
   <person>Teacher</person>
   <text>table</text>
   <image>./images/table.png</image>
  </item>
- <item id="10" start="22.167" duration="1.7">
+ <item id="10" start="22.167" duration="1.3">
   <person>Teacher</person>
   <text>chair</text>
   <image>./images/chair.png</image>
  </item>
- <item id="11" start="23.9" duration="1.7">
+ <item id="11" start="23.85" duration="1.3">
   <person>Teacher</person>
   <text>light</text>
   <image>./images/light.png</image>
  </item>
- <item id="12" start="25.633" duration="1.733">
+ <item id="12" start="25.633" duration="0.8">
   <person>Teacher</person>
   <text>wall</text>
   <image>./images/wall.png</image>
  </item>
- <item id="13" start="27.367" duration="1.733">
+ <item id="13" start="27.367" duration="0.9">
   <person>Teacher</person>
   <text>floor</text>
   <image>./images/floor.png</image>
  </item>
- <item id="14" start="29.133" duration="1.7">
+ <item id="14" start="29.133" duration="0.9">
   <person>Teacher</person>
   <text>room</text>
   <image>./images/room.png</image>
  </item>
- <item id="15" start="30.867" duration="1.967">
+ <item id="15" start="30.867" duration="1.2">
   <person>Teacher</person>
   <text>ceiling</text>
   <image>./images/ceiling.png</image>
  </item>
- <item id="16" start="32.833" duration="1.833">
+ <item id="16" start="32.8" duration="1.1">
   <person>Teacher</person>
   <text>window</text>
   <image>./images/window.png</image>
  </item>
- <item id="17" start="34.7" duration="1.667">
+ <item id="17" start="34.65" duration="1.0">
   <person>Teacher</person>
   <text>door</text>
   <image>./images/door.png</image>
  </item>
- <item id="18" start="36.367" duration="1.733">
+ <item id="18" start="36.36" duration="0.9">
   <person>Teacher</person>
   <text>clock</text>
   <image>./images/clock.png</image>
  </item>
- <item id="19" start="38.1" duration="1.667">
+ <item id="19" start="38.1" duration="1.0">
   <person>Teacher</person>
   <text>box</text>
   <image>./images/box.png</image>
  </item>
- <item id="20" start="39.8" duration="1.7">
+ <item id="20" start="39.8" duration="1.05">
   <person>Teacher</person>
   <text>picture</text>
   <image>./images/picture.png</image>
  </item>
- <item id="21" start="41.533" duration="1.833">
+ <item id="21" start="41.533" duration="1.0">
   <person>Teacher</person>
   <text>is this?</text>
   <image/>
  </item>
- <item id="22" start="43.367" duration="1.9">
+ <item id="22" start="43.367" duration="1.1">
   <person>Teacher</person>
   <text>yes</text>
   <image/>
  </item>
- <item id="23" start="45.3" duration="2.2">
+ <item id="23" start="45.3" duration="1.5">
   <person>Teacher</person>
   <text>Is this a pen?</text>
   <image>./images/pen.png</image>
  </item>
- <item id="23" start="47.5" duration="2.233">
+ <item id="23" start="47.5" duration="1.6">
   <person>Student</person>
   <text>Yes, it's a pen.</text>
   <image/>
  </item>
- <item id="24" start="49.767" duration="4.433">
+ <item id="24" start="49.767" duration="3.4">
   <person>Teacher</person>
   <text>no, it is not (isn't)</text>
   <image/>
  </item>
- <item id="25" start="54.2" duration="2.133">
+ <item id="25" start="54.2" duration="1.3">
   <person>Teacher</person>
   <text>Is this a pen?</text>
   <image>./images/pencil.png</image>
  </item>
- <item id="25" start="56.367" duration="3.8">
+ <item id="25" start="56.367" duration="3.2">
   <person>Student</person>
   <text>No, it isn't a pen; it's a pencil.</text>
   <image/>
  </item>
- <item id="26" start="60.167" duration="2.5">
+ <item id="26" start="60.167" duration="1.8">
   <person>Teacher</person>
   <text>Is this a pencil?</text>
   <image>./images/book.png</image>
  </item>
- <item id="26" start="62.667" duration="4.0">
+ <item id="26" start="62.667" duration="3.25">
   <person>Student</person>
   <text>No, it isn't a pencil; it's a book.</text>
   <image/>
  </item>
- <item id="27" start="66.7" duration="1.7">
+ <item id="27" start="66.7" duration="1.1">
   <person>Teacher</person>
   <text>long</text>
   <image/>
  </item>
- <item id="28" start="68.433" duration="1.9">
+ <item id="28" start="68.433" duration="1.1">
   <person>Teacher</person>
   <text>short</text>
   <image/>
  </item>
- <item id="29" start="70.333" duration="1.3">
+ <item id="29" start="70.3" duration="0.6">
   <person>Teacher</person>
   <text>the</text>
   <image/>
  </item>
- <item id="30" start="71.633" duration="2.067">
+ <item id="30" start="71.633" duration="1.5">
   <person>Teacher</person>
   <text>contraction</text>
   <image/>
  </item>
- <item id="31" start="73.733" duration="2.433">
+ <item id="31" start="73.733" duration="1.7">
   <person>Teacher</person>
   <text>Is the pen short?</text>
   <image/>
  </item>
- <item id="31" start="76.167" duration="4.0">
+ <item id="31" start="76.167" duration="3.2">
   <person>Student</person>
   <text>No, the pen isn't short; it's long.</text>
   <image/>
  </item>
- <item id="32" start="80.167" duration="2.633">
+ <item id="32" start="80.167" duration="2.1">
   <person>Teacher</person>
   <text>Is the pencil long?</text>
   <image/>
  </item>
- <item id="32" start="82.833" duration="4.2">
+ <item id="32" start="82.833" duration="3.2">
   <person>Student</person>
   <text>No, the pencil isn't long; it's short.</text>
   <image/>
  </item>
- <item id="33" start="87.033" duration="2.6">
+ <item id="33" start="87.033" duration="1.8">
   <person>Teacher</person>
   <text>Is the room short?</text>
   <image/>
  </item>
- <item id="33" start="89.633" duration="3.9">
+ <item id="33" start="89.633" duration="3.4">
   <person>Student</person>
   <text>No, the room isn't short; it's long.</text>
   <image/>
  </item>
- <item id="34" start="93.567" duration="1.767">
+ <item id="34" start="93.567" duration="0.9">
   <person>Teacher</person>
   <text>large</text>
   <image/>
  </item>
- <item id="35" start="95.367" duration="1.733">
+ <item id="35" start="95.36" duration="0.9">
   <person>Teacher</person>
   <text>small</text>
   <image/>
  </item>
- <item id="36" start="97.1" duration="2.6">
+ <item id="36" start="97.1" duration="1.8">
   <person>Teacher</person>
   <text>Is the table small?</text>
   <image/>
  </item>
- <item id="36" start="99.7" duration="4.3">
+ <item id="36" start="99.7" duration="3.3">
   <person>Student</person>
   <text>No, the table isn't small; it's large.</text>
   <image/>
  </item>
- <item id="37" start="104.033" duration="2.7">
+ <item id="37" start="104.033" duration="1.9">
   <person>Teacher</person>
   <text>Is the box large?</text>
   <image/>
  </item>
- <item id="37" start="106.733" duration="4.0">
+ <item id="37" start="106.733" duration="3.2">
   <person>Student</person>
   <text>No, the box isn't large; it's small.</text>
   <image/>
  </item>
- <item id="38" start="110.733" duration="1.633">
+ <item id="38" start="110.733" duration="1.0">
   <person>Teacher</person>
   <text>city</text>
   <image>./images/city.png</image>
  </item>
- <item id="39" start="112.4" duration="1.767">
+ <item id="39" start="112.4" duration="1.0">
   <person>Teacher</person>
   <text>town</text>
   <image>./images/town.png</image>
  </item>
- <item id="40" start="114.2" duration="1.767">
+ <item id="40" start="114.2" duration="1.0">
   <person>Teacher</person>
   <text>village</text>
   <image>./images/village.png</image>
  </item>
- <item id="41" start="115.967" duration="2.6">
+ <item id="41" start="115.967" duration="2.0">
   <person>Teacher</person>
   <text>Is London a village?</text>
   <image/>
  </item>
- <item id="41" start="118.567" duration="4.067">
+ <item id="41" start="118.567" duration="3.05">
   <person>Student</person>
   <text>No, London isn't a village; it's a city.</text>
   <image/>
  </item>
- <item id="42" start="122.667" duration="2.533">
+ <item id="42" start="122.667" duration="1.75">
   <person>Teacher</person>
   <text>Is Windsor a city?</text>
   <image/>
  </item>
- <item id="42" start="125.233" duration="4.2">
+ <item id="42" start="125.233" duration="3.2">
   <person>Student</person>
   <text>No, Windsor isn't a city; it's a town.</text>
   <image/>
  </item>
- <item id="43" start="129.433" duration="2.767">
+ <item id="43" start="129.433" duration="1.7">
   <person>Teacher</person>
   <text>Is Grantchester a town?</text>
   <image/>
  </item>
- <item id="43" start="132.233" duration="4.333">
+ <item id="43" start="132.233" duration="3.5">
   <person>Student</person>
   <text>No, Grantchester isn't a town; it's a village.</text>
   <image/>
  </item>
- <item id="44" start="136.6" duration="1.6">
+ <item id="44" start="136.6" duration="0.7">
   <person>Teacher</person>
   <text>or</text>
   <image/>
  </item>
- <item id="45" start="138.2" duration="3.367">
+ <item id="45" start="138.2" duration="2.65">
   <person>Teacher</person>
   <text>Is the table long or short?</text>
   <image/>
  </item>
- <item id="45" start="141.6" duration="2.467">
+ <item id="45" start="141.6" duration="1.5">
   <person>Student</person>
   <text>The table's short.</text>
   <image/>
  </item>
- <item id="46" start="144.067" duration="3.2">
+ <item id="46" start="144.067" duration="2.45">
   <person>Teacher</person>
   <text>Is a city large or small?</text>
   <image/>
  </item>
- <item id="46" start="147.3" duration="2.267">
+ <item id="46" start="147.25" duration="1.5">
   <person>Student</person>
   <text>A city's large.</text>
   <image/>
  </item>
- <item id="47" start="149.567" duration="1.767">
+ <item id="47" start="149.567" duration="0.9">
   <person>Teacher</person>
   <text>man</text>
   <image>./images/man.png</image>
  </item>
- <item id="48" start="151.367" duration="1.833">
+ <item id="48" start="151.367" duration="1.1">
   <person>Teacher</person>
   <text>woman</text>
   <image>./images/woman.png</image>
  </item>
- <item id="49" start="153.2" duration="1.533">
+ <item id="49" start="153.2" duration="0.8">
   <person>Teacher</person>
   <text>boy</text>
   <image>./images/boy.png</image>
  </item>
- <item id="50" start="154.767" duration="1.533">
+ <item id="50" start="154.76" duration="0.9">
   <person>Teacher</person>
   <text>girl</text>
   <image>./images/girl.png</image>
  </item>
- <item id="51" start="156.333" duration="1.733">
+ <item id="51" start="156.333" duration="1.1">
   <person>Teacher</person>
   <text>What's this?</text>
   <image/>
  </item>
- <item id="51" start="158.1" duration="6.1">
+ <item id="51" start="158.1" duration="5.3">
   <person>Student</person>
   <text>It's a man. It's a woman. It's a boy. It's a girl.</text>
   <image/>
  </item>
- <item id="52" start="164.2" duration="2.367">
+ <item id="52" start="164.2" duration="1.5">
   <person>Teacher</person>
   <text>Is this a girl?</text>
   <image>./images/man.png</image>
  </item>
- <item id="52" start="166.567" duration="3.633">
+ <item id="52" start="166.567" duration="3.0">
   <person>Student</person>
   <text>No, it isn't a girl; it's a man.</text>
   <image/>
  </item>
- <item id="53" start="170.2" duration="2.5">
+ <item id="53" start="170.2" duration="1.8">
   <person>Teacher</person>
   <text>Is this a man?</text>
   <image>./images/woman.png</image>
  </item>
- <item id="53" start="172.733" duration="4.233">
+ <item id="53" start="172.733" duration="3.4">
   <person>Student</person>
   <text>No, it isn't a man; it's a woman.</text>
   <image/>
  </item>
- <item id="54" start="177.0" duration="2.233">
+ <item id="54" start="177.0" duration="1.35">
   <person>Teacher</person>
   <text>Is this a woman?</text>
   <image>./images/boy.png</image>
  </item>
- <item id="54" start="179.233" duration="3.933">
+ <item id="54" start="179.233" duration="3.0">
   <person>Student</person>
   <text>No, it isn't a woman; it's a boy.</text>
   <image/>
  </item>
- <item id="55" start="183.2" duration="2.333">
+ <item id="55" start="183.2" duration="1.5">
   <person>Teacher</person>
   <text>Is this a boy?</text>
   <image>./images/girl.png</image>
  </item>
- <item id="55" start="185.567" duration="3.967">
+ <item id="55" start="185.567" duration="3.15">
   <person>Student</person>
   <text>No, it isn't a boy; it's a girl.</text>
   <image/>
  </item>
- <item id="56" start="189.567" duration="1.567">
+ <item id="56" start="189.567" duration="1.1">
   <person>Teacher</person>
   <text>one</text>
   <image>./images/one.png</image>
  </item>
- <item id="57" start="191.133" duration="1.633">
+ <item id="57" start="191.133" duration="0.9">
   <person>Teacher</person>
   <text>two</text>
   <image>./images/two.png</image>
  </item>
- <item id="58" start="192.767" duration="1.767">
+ <item id="58" start="192.767" duration="1.05">
   <person>Teacher</person>
   <text>three</text>
   <image>./images/three.png</image>
  </item>
- <item id="59" start="194.567" duration="1.6">
+ <item id="59" start="194.567" duration="0.9">
   <person>Teacher</person>
   <text>four</text>
   <image>./images/four.png</image>
  </item>
- <item id="60" start="196.2" duration="1.733">
+ <item id="60" start="196.2" duration="1.0">
   <person>Teacher</person>
   <text>five</text>
   <image>./images/five.png</image>
  </item>
- <item id="61" start="197.933" duration="1.567">
+ <item id="61" start="197.933" duration="0.8">
   <person>Teacher</person>
   <text>on</text>
   <image/>
  </item>
- <item id="62" start="199.5" duration="1.7">
+ <item id="62" start="199.5" duration="1.3">
   <person>Teacher</person>
   <text>under</text>
   <image/>
  </item>
- <item id="63" start="201.233" duration="1.6">
+ <item id="63" start="201.233" duration="0.9">
   <person>Teacher</person>
   <text>in</text>
   <image/>
  </item>
- <item id="64" start="202.867" duration="2.733">
+ <item id="64" start="202.867" duration="1.8">
   <person>Teacher</person>
   <text>Is the pen in the book?</text>
   <image/>
  </item>
- <item id="64" start="205.6" duration="5.067">
+ <item id="64" start="205.6" duration="4.2">
   <person>Student</person>
   <text>No, the pen isn't in the book; it's under the book.</text>
   <image/>
  </item>
- <item id="65" start="210.7" duration="2.9">
+ <item id="65" start="210.7" duration="2.4">
   <person>Teacher</person>
   <text>Is the pen under the book?</text>
   <image/>
  </item>
- <item id="65" start="213.6" duration="5.0">
+ <item id="65" start="213.6" duration="4.2">
   <person>Student</person>
   <text>No, the pen isn't under the book; it's on the book.</text>
   <image/>
  </item>
- <item id="66" start="218.6" duration="1.833">
+ <item id="66" start="218.6" duration="1.1">
   <person>Teacher</person>
   <text>Mr</text>
   <image/>
  </item>
- <item id="67" start="220.467" duration="1.867">
+ <item id="67" start="220.467" duration="1.1">
   <person>Teacher</person>
   <text>Mrs</text>
   <image/>
  </item>
- <item id="68" start="222.367" duration="1.733">
+ <item id="68" start="222.367" duration="1.1">
   <person>Teacher</person>
   <text>Jack</text>
   <image/>
  </item>
- <item id="69" start="224.1" duration="1.567">
+ <item id="69" start="224.1" duration="1.1">
   <person>Teacher</person>
   <text>Anna</text>
   <image/>
  </item>
- <item id="70" start="225.7" duration="2.567">
+ <item id="70" start="225.7" duration="2.0">
   <person>Teacher</person>
   <text>Is this Anna Brown?</text>
   <image>./images/man.png</image>
  </item>
- <item id="70" start="228.267" duration="4.333">
+ <item id="70" start="228.267" duration="3.4">
   <person>Student</person>
   <text>No, it isn't Anna Brown; it's Mr. Brown.</text>
   <image/>
  </item>
- <item id="71" start="232.633" duration="2.767">
+ <item id="71" start="232.633" duration="2.0">
   <person>Teacher</person>
   <text>Is this Mr Brown?</text>
   <image/>
  </item>
- <item id="71" start="235.4" duration="4.6">
+ <item id="71" start="235.4" duration="3.8">
   <person>Student</person>
   <text>No, it isn't Mr Brown; it's Mrs Brown.</text>
   <image/>
  </item>
- <item id="72" start="240.033" duration="2.9">
+ <item id="72" start="240.033" duration="2.2">
   <person>Teacher</person>
   <text>Is this Mrs Brown?</text>
   <image/>
  </item>
- <item id="72" start="242.933" duration="4.567">
+ <item id="72" start="242.933" duration="4.2">
   <person>Student</person>
   <text>No, it isn't Mrs Brown; it's Jack Brown.</text>
   <image/>
  </item>
- <item id="73" start="247.5" duration="2.533">
+ <item id="73" start="247.5" duration="1.9">
   <person>Teacher</person>
   <text>Is this Jack Brown?</text>
   <image/>
  </item>
- <item id="73" start="250.067" duration="4.367">
+ <item id="73" start="250.067" duration="3.45">
   <person>Student</person>
   <text>No, it isn't Jack Brown; it's Anna Brown.</text>
   <image/>
  </item>
- <item id="74" start="254.433" duration="1.767">
+ <item id="74" start="254.433" duration="1.0">
   <person>Teacher</person>
   <text>black</text>
   <image>./images/black.png</image>
  </item>
- <item id="75" start="256.2" duration="1.733">
+ <item id="75" start="256.2" duration="1.0">
   <person>Teacher</person>
   <text>white</text>
   <image>./images/white.png</image>
  </item>
- <item id="76" start="257.933" duration="1.633">
+ <item id="76" start="257.933" duration="1.1">
   <person>Teacher</person>
   <text>green</text>
   <image>./images/green.png</image>
  </item>
- <item id="77" start="259.6" duration="1.733">
+ <item id="77" start="259.6" duration="1.3">
   <person>Teacher</person>
   <text>brown</text>
   <image>./images/brown.png</image>
  </item>
- <item id="78" start="261.333" duration="1.967">
+ <item id="78" start="261.333" duration="1.2">
   <person>Teacher</person>
   <text>what color?</text>
   <image/>
  </item>
- <item id="79" start="263.333" duration="2.767">
+ <item id="79" start="263.333" duration="2.1">
   <person>Teacher</person>
   <text>What color's this pencil?</text>
   <image/>
  </item>
- <item id="79" start="266.1" duration="5.133">
+ <item id="79" start="266.1" duration="4.5">
   <person>Student</person>
   <text>This pencil's black, white, etc..</text>
   <image/>
  </item>
- <item id="80" start="271.267" duration="1.733">
+ <item id="80" start="271.267" duration="1.0">
   <person>Teacher</person>
   <text>six</text>
   <image>./images/six.png</image>
  </item>
- <item id="81" start="273.0" duration="1.767">
+ <item id="81" start="273.0" duration="1.0">
   <person>Teacher</person>
   <text>seven</text>
   <image>./images/seven.png</image>
  </item>
- <item id="82" start="274.8" duration="1.533">
+ <item id="82" start="274.75" duration="0.95">
   <person>Teacher</person>
   <text>eight</text>
   <image>./images/eight.png</image>
  </item>
- <item id="83" start="276.333" duration="1.633">
+ <item id="83" start="276.333" duration="1.0">
   <person>Teacher</person>
   <text>nine</text>
   <image>./images/nine.png</image>
  </item>
- <item id="84" start="278.0" duration="1.533">
+ <item id="84" start="278.0" duration="0.8">
   <person>Teacher</person>
   <text>ten</text>
   <image>./images/ten.png</image>
  </item>
- <item id="85" start="279.533" duration="1.533">
+ <item id="85" start="279.533" duration="1.0">
   <person>Teacher</person>
   <text>where</text>
   <image/>
  </item>
- <item id="86" start="281.1" duration="1.933">
+ <item id="86" start="281.1" duration="1.35">
   <person>Teacher</person>
   <text>Where's the pen?</text>
   <image/>
  </item>
- <item id="86" start="283.067" duration="2.567">
+ <item id="86" start="283.067" duration="1.9">
   <person>Student</person>
   <text>The pen's on the book.</text>
   <image/>
  </item>
- <item id="87" start="285.633" duration="2.133">
+ <item id="87" start="285.633" duration="1.45">
   <person>Teacher</person>
   <text>Where's the book?</text>
   <image/>
  </item>
- <item id="87" start="287.8" duration="2.5">
+ <item id="87" start="287.8" duration="1.65">
   <person>Student</person>
   <text>The book's on the table.</text>
   <image/>
  </item>
- <item id="88" start="290.3" duration="2.067">
+ <item id="88" start="290.3" duration="1.5">
   <person>Teacher</person>
   <text>Where's the pen?</text>
   <image/>
  </item>
- <item id="88" start="292.4" duration="2.833">
+ <item id="88" start="292.4" duration="2.05">
   <person>Student</person>
   <text>The pen's under the table.</text>
   <image/>
  </item>
- <item id="89" start="295.233" duration="2.267">
+ <item id="89" start="295.233" duration="1.65">
   <person>Teacher</person>
   <text>Where's the picture?</text>
   <image/>
  </item>
- <item id="89" start="297.5" duration="2.4">
+ <item id="89" start="297.5" duration="1.5">
   <person>Student</person>
   <text>The picture's on the wall.</text>
   <image/>
  </item>
- <item id="90" start="299.9" duration="2.2">
+ <item id="90" start="299.9" duration="1.5">
   <person>Teacher</person>
   <text>Where's the light?</text>
   <image/>
  </item>
- <item id="90" start="302.133" duration="3.467">
+ <item id="90" start="302.133" duration="1.8">
   <person>Student</person>
   <text>The light's on the ceiling.</text>
   <image/>
