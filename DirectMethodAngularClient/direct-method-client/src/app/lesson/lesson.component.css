@@ -46,3 +46,7 @@ header svg {
     transform: translateY(0);
 }
   
+
+.panel-hidden {
+    display: none;
+  }

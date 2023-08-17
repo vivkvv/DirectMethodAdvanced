@@ -33,7 +33,7 @@ interface Lesson {
 export class LessonComponent implements OnInit {
     @ViewChild('headerElement') headerElement!: ElementRef;
     timerId: any;
-    isHeaderVisible: boolean = true;
+    isPanelHidden: boolean = false;
 
     title = 'DirectMethod';
 
