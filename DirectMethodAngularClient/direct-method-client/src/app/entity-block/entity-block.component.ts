@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { OptionsService } from '../services/Options/options.service';
+import { FontOptions } from '../options/font-group/font-group.component';
 // import { EntityService, IEntity } from '../services/entity.service';
 
 @Component({
@@ -9,15 +11,18 @@ import { Component, Input, OnInit } from '@angular/core';
 export class EntityBlockComponent implements OnInit {
     @Input() entity: any;
 
+    @Input() fontOptions!: FontOptions;
+    @Input() translatedFontOptions!: FontOptions;
+
     imageExists = true;
     imageLoading = true;
-    enTextVisible = true;
-    ruTextVisible = true;
-    enText = '';
-    ruText = '';
+    // enTextVisible = true;
+    // ruTextVisible = true;
+    foreignText = '';
+    translatedText = '';
     imageUrl = '';
 
-    //constructor(private entityService: EntityService) {}
+    constructor(public optionsService: OptionsService) {}
 
     ngOnInit(): void {
         //this.getQuesion();
@@ -29,8 +34,8 @@ export class EntityBlockComponent implements OnInit {
     }
 
     updateEntityData(): void {
-      this.enText = this.entity?.sourceText;
-      this.ruText = this.entity?.translatedText;
+      this.foreignText = this.entity?.sourceText;
+      this.translatedText = this.entity?.translatedText;
       this.imageUrl = this.entity?.imageUrl;
       // const questionEntity = this.entityService.getQuestionEntity();
       // this.enText = questionEntity.sourceText;

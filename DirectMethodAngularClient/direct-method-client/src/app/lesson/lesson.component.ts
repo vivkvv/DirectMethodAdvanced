@@ -15,6 +15,7 @@ import { LessonItem } from './lesson.wrapper';
 import { Observable, forkJoin, of } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
 import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component';
+import { OptionsService } from '../services/Options/options.service';
 
 class TSelectedKey {
     constructor(public id: number = -1, public person: string = '') {}
@@ -102,7 +103,7 @@ export class LessonComponent implements OnInit {
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
     showAudioDialog() {
-        if(this.isAudioDialogOpen){
+        if (this.isAudioDialogOpen) {
             return;
         }
 
@@ -352,7 +353,8 @@ export class LessonComponent implements OnInit {
         private loadingService: LoadingService,
         private cd: ChangeDetectorRef,
         private renderer: Renderer2,
-        public dialog: MatDialog
+        public dialog: MatDialog,
+        public optionsService: OptionsService
     ) {}
 
     async ngOnInit(): Promise<void> {
@@ -493,7 +495,7 @@ export class LessonComponent implements OnInit {
         return this.loadingService.loading$;
     }
 
-    navigateToOptions(){
+    navigateToOptions() {
         this.router.navigate(['/options']);
     }
 }

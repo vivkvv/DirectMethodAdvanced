@@ -70,72 +70,6 @@
     <div class="flex p-5 flex-wrap flex-row font-bold text-1xl">
         <div class="flex flex-col flex-1">
             <div>
-                <input type="checkbox" id="cb_show_foreign_text_id" checked="true">
-                <label for="cb_show_foreign_text_id">Show foreign text</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="cb_show_foreign_text_translation_id" checked="true">
-                <label for="cb_show_foreign_text_translation_id">Show foreign text translation</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="cb_show_answer_text_id" checked="true">
-                <label for="cb_show_answer_text_id">Show answer text</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="cb_show_answer_text_translation_id" checked="true">
-                <label for="cb_show_answer_text_translation_id">Show answer text translation</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="cb_auto_play_teacher_episode_id" checked="true">
-                <label for="cb_auto_play_teacher_episode_id">Auto play next teacher's episode</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="cb_stop_on_student_answer_id" checked="true">
-                <label for="cb_stop_on_student_answer_id">Stop on student's answer</label>
-            </div>
-
-            <div>
-                <input type="checkbox" id="auto_start_stt_id" checked="true">
-                <label for="auto_start_stt_id">Auto start STT</label>
-            </div>
-
-            <!-- </div> -->
-
-            <!-- <div class="flex flex-col flex-1"> -->
-
-            <div>
-                <input type="checkbox" id="auto_play_next_episode_after_success_answer_id" checked="true">
-                <label for="auto_play_next_episode_after_success_answer_id">Auto play the next episode after
-                    successful answer</label>
-            </div>
-
-            <div>
-                <label for="success_error_level_percent_id">Success errors level</label>
-                <input type="number" id="success_error_level_percent_id" name="success_error_level_percent_id" min="0"
-                    max="100" value="10" class="text-center">
-                <label>%</label>
-            </div>
-
-            <div>
-                <label for="success_error_level_number_id">Success errors level</label>
-                <input type="number" id="success_error_level_number_id" name="success_error_level_number_id" min="0"
-                    max="1000" value="3" class="text-center">
-                <label>times</label>
-            </div>
-
-            <div>
-                <label for="sb_pause_before_phrase_id">Pause before each phrase</label>
-                <input type="number" id="sb_pause_before_phrase_id" name="sb_pause_before_phrase_id" min="0" max="100"
-                    value="0.5" class="text-center">
-                <label>seconds</label>
-            </div>
-
-            <div>
                 <label for="stt_engines_id">STT engine</label>
                 <select name="stt_engines_id" id="stt_engines_id">
                     <option value="Goolge">Google</option>
@@ -273,10 +207,16 @@
             </div>
 
             <div (click)="onPlay(false)" class="mb-10">
-                <app-entity-block [entity]="questionEntity"></app-entity-block>
+                <app-entity-block 
+                [fontOptions]="optionsService.teacherFont"
+                [translatedFontOptions]="optionsService.teacherTranslatedFont"
+                [entity]="questionEntity"></app-entity-block>
             </div>
             <div (click)="onPlay(true)">
-                <app-entity-block [entity]="answerEntity"></app-entity-block>
+                <app-entity-block 
+                [fontOptions]="optionsService.studentFont"
+                [translatedFontOptions]="optionsService.studentTranslatedFont"
+                [entity]="answerEntity"></app-entity-block>
             </div>
         </section>
     </main>

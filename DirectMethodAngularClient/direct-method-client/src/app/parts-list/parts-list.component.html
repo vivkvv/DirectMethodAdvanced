@@ -1,14 +1,14 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
     href="https://fonts.googleapis.com/css2?family=Lusitana&family=Open+Sans:ital,wght@1,300&family=Roboto:wght@100;300&display=swap"
-    rel="stylesheet">
+    rel="stylesheet"> -->
 
-<div style="display: flex; flex-direction: column; flex-wrap: wrap; align-items: center;">
-    <div *ngFor="let part of parts">
+<div style="display: flex; flex-direction: column; flex-wrap: wrap; align-items: center; font-family: 'Arial'">
+    <div *ngFor="let part of parts" style="font-size: 18px">
         <p style="margin-bottom: 2px;"><a [href]="part.pdf">{{part.title}}</a> ({{formatTotalDuration(part)}})</p>
         <ul style="padding-left: 30px;" class="mb-10">
-            <li *ngFor="let lesson of part.lessons">
+            <li *ngFor="let lesson of part.lessons" style="font-size: 14px">
                 <a [routerLink]="['/Lesson', part.title, lesson.title]">{{lesson.title}}</a>
                 &nbsp;&nbsp;&nbsp;
                 <a [href]="lesson.mp3">mp3</a>
