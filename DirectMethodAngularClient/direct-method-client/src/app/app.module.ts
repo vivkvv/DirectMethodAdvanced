@@ -24,6 +24,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
 
 import { AudioOverlayComponent } from './audio-overlay/audio-overlay.component';
+import { FontGroupComponent } from './options/font-group/font-group.component';
+import { OptionsPageComponent } from './options/options-page.component';
 
 @NgModule({
     declarations: [
@@ -33,6 +35,8 @@ import { AudioOverlayComponent } from './audio-overlay/audio-overlay.component';
         LessonComponent,
         PartsListComponent,
         AudioOverlayComponent,
+        FontGroupComponent,
+        OptionsPageComponent
     ],
     imports: [
         CommonModule,

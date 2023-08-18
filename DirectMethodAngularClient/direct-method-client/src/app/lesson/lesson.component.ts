@@ -7,7 +7,7 @@ import {
     ChangeDetectorRef,
 } from '@angular/core';
 import { EntityService, IEntity } from '../services/entity.service';
-import { ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute } from '@angular/router';
 import { LoadingService } from '../loading.service';
 import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, first, isEmpty, tap } from 'rxjs/operators';
@@ -54,8 +54,8 @@ export class LessonComponent implements OnInit {
     minIntervalValue!: number;
     maxIntervalValue!: number;
     startLessonTime: number = 0;
-    endLessonTime: number = 250.78;
-    currentLessonTime: number = 126.8;
+    endLessonTime: number = 0;
+    currentLessonTime: number = 0;
 
     isAudioDialogOpen: boolean = false;
 
@@ -348,6 +348,7 @@ export class LessonComponent implements OnInit {
         private http: HttpClient,
         private entityService: EntityService,
         private route: ActivatedRoute,
+        private router: Router,
         private loadingService: LoadingService,
         private cd: ChangeDetectorRef,
         private renderer: Renderer2,
@@ -490,5 +491,9 @@ export class LessonComponent implements OnInit {
 
     get isLoading() {
         return this.loadingService.loading$;
+    }
+
+    navigateToOptions(){
+        this.router.navigate(['/options']);
     }
 }

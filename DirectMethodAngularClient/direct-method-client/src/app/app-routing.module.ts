@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { LessonComponent } from './lesson/lesson.component';
 import { PartsListComponent } from './parts-list/parts-list.component';
+import { OptionsPageComponent } from './options/options-page.component';
 
 const routes: Routes = [
     { path: 'login', component: LoginComponent },
@@ -10,6 +11,7 @@ const routes: Routes = [
     { path: 'topic-list', component: PartsListComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
     { path: 'not-found', component: LoginComponent },
+    { path: 'options', component: OptionsPageComponent},
     { path: '**', redirectTo: 'not-found' }
 ];
 

@@ -1,0 +1,16 @@
+.label-container {
+    width: 25%;
+    text-align: right;
+    margin-right: 0.5rem;
+  }
+  
+  .value-container {
+    width: 75%;
+  }
+  
+  .flex-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  

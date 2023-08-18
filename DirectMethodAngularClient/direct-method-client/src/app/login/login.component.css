@@ -16,7 +16,7 @@
 .form-group select {
     flex-grow: 1;
     padding-left: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
 }
 
 label {
@@ -30,17 +30,18 @@ input {
     flex-grow: 1;
     width: 50%;
     box-sizing: border-box;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
 }
 
 .button-container {
     display: flex;
     justify-content: center;
-    border: 1px;
+    border: 1px solid #000;
     margin: 15px;
 }
 
 .divider {
     width: 100%;
-    border: 1px solid #ccc;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
 }
