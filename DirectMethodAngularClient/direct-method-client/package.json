@@ -20,6 +20,8 @@
         "@angular/platform-browser": "^16.1.0",
         "@angular/platform-browser-dynamic": "^16.1.0",
         "@angular/router": "^16.1.0",
+        "angular-oauth2-oidc": "^15.0.1",
+        "angular-oauth2-oidc-jwks": "^15.0.1",
         "fs": "^0.0.1-security",
         "hammerjs": "^2.0.8",
         "path": "^0.12.7",

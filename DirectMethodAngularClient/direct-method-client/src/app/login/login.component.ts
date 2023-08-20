@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { JwksValidationHandler, OAuthService } from 'angular-oauth2-oidc';
+import { googleAuthConfig } from '../services/OAuth/auth-config';
 
 @Component({
     selector: 'app-login',
@@ -17,8 +19,24 @@ export class LoginComponent {
     constructor(
         private fb: FormBuilder,
         private http: HttpClient,
-        private router: Router
+        private router: Router,
+        private oAuthService: OAuthService
     ) {}
+
+    onGoogleLogin(event: Event){        
+        event.preventDefault();
+
+        this.oAuthService.configure(googleAuthConfig);
+        // this.oAuthService.tokenValidationHandler = new JwksValidationHandler();
+        this.oAuthService.loadDiscoveryDocumentAndTryLogin();
+        this.oAuthService.initLoginFlow();
+    }
+
+    onGitHubLogin(){        
+    }
+
+    onFacebookLogin(){        
+    }
 
     onSubmit() {
         const username = this.loginForm.get('username')?.value;

@@ -16,6 +16,8 @@ import { PartsListComponent } from './parts-list/parts-list.component';
 import { AuthInterceptor } from './services/auth.interceptor';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { OAuthModule } from 'angular-oauth2-oidc';
+
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSliderModule } from '@angular/material/slider';
@@ -45,6 +47,7 @@ import { OptionsPageComponent } from './options/options-page.component';
         AppRoutingModule,
         ReactiveFormsModule,
         HttpClientModule,
+        OAuthModule.forRoot(),
         BrowserAnimationsModule,
         MatProgressSpinnerModule,
         MatSelectModule,
