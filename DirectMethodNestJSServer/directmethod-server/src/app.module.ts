@@ -11,6 +11,7 @@ import { ImagesController } from './images/images.controller';
 import { NextLessonController } from './next.lesson/next.lesson.controller';
 import { PrevLessonController } from './prev.lesson/prev.lesson.controller';
 import { NotFoundController } from './not-found-controller/not-found.controller';
+import { AuthRedirectControllerController } from './auth-redirect-controller/auth-redirect-controller.controller';
 
 @Module({
   imports: [
@@ -28,6 +29,7 @@ import { NotFoundController } from './not-found-controller/not-found.controller'
     NextLessonController,
     PrevLessonController,
     NotFoundController,
+    AuthRedirectControllerController,
   ],
   providers: [AppService, AuthService, FilesService],
 })
