@@ -29,6 +29,7 @@ import { AudioOverlayComponent } from './audio-overlay/audio-overlay.component';
 import { FontGroupComponent } from './options/font-group/font-group.component';
 import { OptionsPageComponent } from './options/options-page.component';
 import { AuthorizationCheckingComponent } from './authorization-checking/authorization-checking.component';
+import { PreAuthorizationCheckingComponent } from './pre-authorization-checking/pre-authorization-checking.components';
 
 @NgModule({
     declarations: [
@@ -40,7 +41,8 @@ import { AuthorizationCheckingComponent } from './authorization-checking/authori
         AudioOverlayComponent,
         FontGroupComponent,
         OptionsPageComponent,
-        AuthorizationCheckingComponent
+        AuthorizationCheckingComponent,
+        PreAuthorizationCheckingComponent
     ],
     imports: [
         CommonModule,
