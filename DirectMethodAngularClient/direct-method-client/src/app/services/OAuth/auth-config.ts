@@ -8,6 +8,7 @@ export const googleAuthConfig: AuthConfig = {
     scope: 'openid profile email',
     clearHashAfterLogin: false,
     strictDiscoveryDocumentValidation: false,
-    redirectUri: google_environment.redirectUri
+    redirectUri: google_environment.redirectUri,
     // ClientSecret = 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
+    //responseType: 'code'
 };
