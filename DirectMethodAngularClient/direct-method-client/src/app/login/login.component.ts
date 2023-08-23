@@ -4,6 +4,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { JwksValidationHandler, OAuthService } from 'angular-oauth2-oidc';
 import { googleAuthConfig } from '../services/OAuth/auth-config';
+import { AuthService, LoginData } from '../services/auth.service';
 
 @Component({
     selector: 'app-login',
@@ -20,10 +21,17 @@ export class LoginComponent {
         private fb: FormBuilder,
         private http: HttpClient,
         private router: Router,
-        private oAuthService: OAuthService
-    ) {}
+        private oAuthService: OAuthService,
+        private authService: AuthService
+    ) {
+        this.oAuthService.events.subscribe((e) => {
+            if (e.type === 'token_received') {
+                const accessToken = this.oAuthService.getAccessToken();
+            }
+        });
+    }
 
-    onGoogleLogin(event: Event){        
+    onGoogleLogin(event: Event) {
         event.preventDefault();
 
         this.oAuthService.configure(googleAuthConfig);
@@ -32,32 +40,24 @@ export class LoginComponent {
         this.oAuthService.initLoginFlow();
     }
 
-    onGitHubLogin(){        
-    }
+    onGitHubLogin() {}
 
-    onFacebookLogin(){        
-    }
+    onFacebookLogin() {}
 
     onSubmit() {
         const username = this.loginForm.get('username')?.value;
         const password = this.loginForm.get('password')?.value;
 
-        this.http.post('/api/login', { username, password }).subscribe(
-            (data: any) => {
-                localStorage.setItem('access_token', data.access_token);
+        const loginData: LoginData = {
+            method: 'direct',
+            username,
+            password,
+        };
 
-                this.http.get('/api/topics').subscribe(
-                  (topics: any) => {
-                      this.router.navigate(['/topic-list']);
-                  },
-                  (error) => {
-                      console.error('Failed to load topics:', error);
-                  }
-              );                
-            },
-            (error) => {
-                console.error('Login failed:', error);
-            }
-        );
+        this.authService.login(loginData, () => {
+            this.router.navigate(['/authorization-checking'], {
+                queryParams: { direct: true },
+            });
+        });
     }
 }

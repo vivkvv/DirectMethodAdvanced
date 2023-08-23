@@ -28,6 +28,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { AudioOverlayComponent } from './audio-overlay/audio-overlay.component';
 import { FontGroupComponent } from './options/font-group/font-group.component';
 import { OptionsPageComponent } from './options/options-page.component';
+import { AuthorizationCheckingComponent } from './authorization-checking/authorization-checking.component';
 
 @NgModule({
     declarations: [
@@ -38,7 +39,8 @@ import { OptionsPageComponent } from './options/options-page.component';
         PartsListComponent,
         AudioOverlayComponent,
         FontGroupComponent,
-        OptionsPageComponent
+        OptionsPageComponent,
+        AuthorizationCheckingComponent
     ],
     imports: [
         CommonModule,

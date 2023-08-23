@@ -21,6 +21,23 @@ export class AuthController {
     };
   }
 
+  @Post('login/google')
+  async googleLogin(@Request() req) {
+    const googleToken = req.body.token;
+    const googleUser = await this.authService.validateGoogleUser(googleToken);
+
+    if (!googleUser) {
+      // Проверьте черный список и другие условия здесь
+      return { status: 'failure' };
+    }
+
+    const payload = { username: googleUser.email };
+    return {
+      access_token: this.jwtService.sign(payload),
+      status: 'success',
+    };
+  }
+
   @UseGuards(JwtAuthGuard)
   @Get('profile')
   getProfile(@Request() req) {

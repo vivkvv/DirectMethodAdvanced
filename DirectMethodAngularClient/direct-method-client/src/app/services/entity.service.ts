@@ -5,7 +5,7 @@ export class IEntity {
         public sourceText: string | null = null,
         public translatedText: string | null | undefined = null,
         public imageUrl: string | null = null
-    ){};
+    ) {}
 }
 
 @Injectable({
@@ -13,16 +13,14 @@ export class IEntity {
 })
 export class EntityService {
     private questionEntity: IEntity = {
-        sourceText:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec odio. Donec et ante.',
-        translatedText:
-            'Пример текста на русском. Пример текста на русском. Пример текста на русском. ',
-        imageUrl: '..\\..\\favicon.ico',
+        sourceText: '',
+        translatedText: '',
+        imageUrl: '',
     };
     private answerEntity: IEntity = {
-        sourceText: 'answer',
-        translatedText: 'translated answer',
-        imageUrl: '..\\..\\favicon.ico',
+        sourceText: '',
+        translatedText: '',
+        imageUrl: '',
     };
 
     getQuestionEntity(): IEntity {
