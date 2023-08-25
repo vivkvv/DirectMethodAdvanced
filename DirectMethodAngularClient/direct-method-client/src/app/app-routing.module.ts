@@ -15,7 +15,7 @@ const routes: Routes = [
     { path: 'not-found', component: LoginComponent },
     { path: 'options', component: OptionsPageComponent },
     { path: 'authorization-checking', component: AuthorizationCheckingComponent },
-    { path: 'pre-authorization-checking', component: PreAuthorizationCheckingComponent },    
+    // { path: 'pre-authorization-checking', component: PreAuthorizationCheckingComponent },    
     { path: '**', redirectTo: 'not-found' },
 ];
 
