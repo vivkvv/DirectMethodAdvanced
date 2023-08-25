@@ -16,9 +16,5 @@ export class FontGroupComponent {
     @Input() groupName: string = 'Default Font Group Name';
     @Input() fontOptions!: FontOptions;
 
-    availableFonts: string[] = ['Arial', 'Verdana', 'Times New Roman'];    
-
-    onFontChange(){
-
-    }
+    availableFonts: string[] = ['Arial', 'Verdana', 'Times New Roman'];
 }

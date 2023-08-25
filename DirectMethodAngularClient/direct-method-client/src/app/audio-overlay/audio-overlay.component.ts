@@ -215,7 +215,10 @@ export class AudioOverlayComponent implements OnInit {
                 );
                 this.episode_source = this.audioContext.createBufferSource();
 
-                const signal_start = this.findStartOfSignal(this.audio_buffer, 0.1);
+                const signal_start = this.findStartOfSignal(
+                    this.audio_buffer,
+                    0.1
+                );
 
                 this.source = this.audioContext.createBufferSource();
 
@@ -247,70 +250,68 @@ export class AudioOverlayComponent implements OnInit {
     }
 
     private startRecording() {
-        if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-            console.log('getUserMedia supported.');
-            navigator.mediaDevices
-                .getUserMedia({
-                    audio: true,
-                })
-
-                .then((stream) => {
-                    const chunks: Blob[] = [];
-                    this.mediaRecorder = new MediaRecorder(stream);
-
-                    const audioElement = document.querySelector(
-                        '.sound-clips audio'
-                    ) as HTMLAudioElement;
-
-                    this.mediaRecorder.onstop = (e) => {
-                        const blob = new Blob(chunks, {
-                            type: 'audio/ogg; codecs=opus',
-                        });
-
-                        audioElement.src = window.URL.createObjectURL(blob);
-
-                        const reader = new FileReader();
-                        reader.onloadend = () => {
-                            const arrayBuffer = reader.result as ArrayBuffer;
-                            const audioContext = new (window.AudioContext ||
-                                (window as any).webkitAudioContext)();
-                            audioContext
-                                .decodeAudioData(arrayBuffer)
-                                .then((audioBuffer) => {
-                                    this.audio_buffer = audioBuffer;
-                                    this.cd.detectChanges();
-                                })
-                                .catch((err) => {
-                                    console.error(
-                                        'Error on file decoding',
-                                        err
-                                    );
-                                });
-                        };
-                        reader.readAsArrayBuffer(blob);
-                    };
-
-                    this.mediaRecorder.start();
-                    this.mediaRecorder.ondataavailable = (e) => {
-                        chunks.push(e.data);
-                    };
-                })
-
-                // Error callback
-                .catch((err) => {
-                    console.error(
-                        `The following getUserMedia error occurred: ${err}`
-                    );
-                });
-        } else {
-            console.log('getUserMedia not supported on your browser!');
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+            console.log('getUserMedia is not supported on your browser!');
+            return;
         }
+
+        console.log('getUserMedia supported.');
+        navigator.mediaDevices
+            .getUserMedia({
+                audio: true,
+            })
+            .then((stream) => {
+                const chunks: Blob[] = [];
+                this.mediaRecorder = new MediaRecorder(stream);
+
+                const audioElement = document.querySelector(
+                    '.sound-clips audio'
+                ) as HTMLAudioElement;
+
+                this.mediaRecorder.onstop = (e) => {
+                    const blob = new Blob(chunks, {
+                        type: 'audio/ogg; codecs=opus',
+                    });
+
+                    audioElement.src = window.URL.createObjectURL(blob);
+
+                    const reader = new FileReader();
+                    reader.onloadend = () => {
+                        const arrayBuffer = reader.result as ArrayBuffer;
+                        const audioContext = new (window.AudioContext ||
+                            (window as any).webkitAudioContext)();
+                        audioContext
+                            .decodeAudioData(arrayBuffer)
+                            .then((audioBuffer) => {
+                                this.audio_buffer = audioBuffer;
+                                this.cd.detectChanges();
+                            })
+                            .catch((err) => {
+                                console.error('Error on file decoding', err);
+                            });
+                    };
+                    reader.readAsArrayBuffer(blob);
+                };
+
+                this.mediaRecorder.start();
+                this.mediaRecorder.ondataavailable = (e) => {
+                    chunks.push(e.data);
+                };
+            })
+            // Error callback
+            .catch((err) => {
+                console.error(
+                    `The following getUserMedia error occurred: ${err}`
+                );
+            });
     }
 
     private stopRecording() {
         if (this.mediaRecorder && this.mediaRecorder.stream) {
-            this.mediaRecorder.stream.getTracks().forEach(track => track.stop());
-        }        
+            this.mediaRecorder.stream
+                .getTracks()
+                .forEach((track) => track.stop());
+        }
         this.mediaRecorder.stop();
     }
 

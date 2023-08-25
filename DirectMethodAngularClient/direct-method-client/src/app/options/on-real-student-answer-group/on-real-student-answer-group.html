@@ -1,0 +1,41 @@
+<fieldset class="block-container p-3 m-3 border border-solid border-gray-400">
+    <legend>On real student answer</legend>
+
+    <div class="w-full md:w-1/2">
+        <input type="checkbox" id="on_real_student_answer_use_id" [(ngModel)]="onRealStudentAnswer.use">
+        <label for="on_real_student_answer_use_id" class="ml-2">Use</label>
+    </div>
+
+    <div class="w-full md:w-1/2">
+        <input type="checkbox" id="signal_on_real_tudent_answer_id" disabled="{{!onRealStudentAnswer.use}}"
+            [(ngModel)]="onRealStudentAnswer.playSignal">
+        <label for=" signal_on_real_tudent_answer_id" class="ml-2">Play signal</label>
+    </div>
+
+    <div class="w-full md:w-1/2">
+        <input type="checkbox" id="open_speech_recognition_id" disabled="{{!onRealStudentAnswer.use}}"
+            [(ngModel)]="onRealStudentAnswer.openSpeechRecognitionDialog">
+        <label for="open_speech_recognition_id" class="ml-2">Open speech recognition dialog</label>
+    </div>
+
+    <div class="block-container">
+        <div class="w-full md:w-1/2">
+            <input type="checkbox" id="automatic_run_speech_recognition_id" disabled="{{!onRealStudentAnswer.use}}"
+                [(ngModel)]="onRealStudentAnswer.runSpeechRecognitionAuto">
+            <label for="automatic_run_speech_recognition_id" class="ml-2">Run speech recognition
+                automatically</label>
+        </div>
+
+        <div class="flex w-full md:w-1/2 mb-2 mt-4">
+            <label for="max_attempts_id" class="ml-2 flex-1">Maximum attepts</label>
+            <input type="number" id="max_attempts_id" class="border border-solid border-black flex-1"
+                disabled="{{!onRealStudentAnswer.use}}" [(ngModel)]="onRealStudentAnswer.maximumAttempts">
+        </div>
+
+        <div class="flex w-full md:w-1/2">
+            <label for="max_error_id" class="ml-2 flex-1">Maximum error</label>
+            <input type="number" id="max_error_id" class="border border-solid border-black flex-1"
+                disabled="{{!onRealStudentAnswer.use}}" [(ngModel)]="onRealStudentAnswer.maximumError">
+        </div>
+    </div>
+</fieldset>

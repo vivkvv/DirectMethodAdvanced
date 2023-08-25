@@ -1,46 +1,48 @@
 <div class="flex flex-wrap">
 
-    <div class="block-container p-3 m-3 border border-solid border-gray-400">
+    <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
-            <input type="checkbox" id="cb_show_teacher_text_id" [(ngModel)]="optionsService.teacherFont.visibility">
+            <input type="checkbox" id="cb_show_teacher_text_id"
+                [(ngModel)]="optionsService.teacherFont.visibility">
             <label for="cb_show_teacher_text_id" class="ml-2">Show teacher's text</label>
         </div>
         <div class="w-full md:w-1/2 p-3">
             <font-group [fontOptions]="optionsService.teacherFont"
-            groupName="Teacher's font"></font-group>
+                groupName="Teacher's font"></font-group>
         </div>
     </div>
 
-    <div class="block-container p-3 m-3 border border-solid border-gray-400">
+    <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
-            <input type="checkbox" id="cb_show_teacher_translation_text_id" [(ngModel)]="optionsService.teacherTranslatedFont.visibility">
-            <label for="cb_show_teacher_translation_text_id" class="ml-2">Show teacher's translation</label>
+            <input type="checkbox" id="cb_show_teacher_translation_text_id"
+                [(ngModel)]="optionsService.teacherTranslatedFont.visibility">
+            <label for="cb_show_teacher_translation_text_id" class="ml-2">Show teacher's text</label>
         </div>
         <div class="w-full md:w-1/2 p-3">
             <font-group [fontOptions]="optionsService.teacherTranslatedFont"
-            groupName="Teacher's translation font"></font-group>
+                groupName="Teacher's translation font"></font-group>
         </div>
     </div>
 
-    <div class="block-container p-3 m-3 border border-solid border-gray-400">
+    <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
             <input type="checkbox" id="cb_show_student_text_id" [(ngModel)]="optionsService.studentFont.visibility">
             <label for="cb_show_student_text_id" class="ml-2">Show students's text</label>
         </div>
         <div class="w-full md:w-1/2 p-3">
-            <font-group [fontOptions]="optionsService.studentFont"
-            groupName="Students's font"></font-group>
+            <font-group [fontOptions]="optionsService.studentFont" groupName="Students's font"></font-group>
         </div>
     </div>
 
-    <div class="block-container p-3 m-3 border border-solid border-gray-400">
+    <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
-            <input type="checkbox" id="cb_show_student_translation_text_id" [(ngModel)]="optionsService.studentTranslatedFont.visibility">
+            <input type="checkbox" id="cb_show_student_translation_text_id"
+                [(ngModel)]="optionsService.studentTranslatedFont.visibility">
             <label for="cb_show_student_translation_text_id" class="ml-2">Show student's translation</label>
         </div>
         <div class="w-full md:w-1/2 p-3">
             <font-group [fontOptions]="optionsService.studentTranslatedFont"
-            groupName="Students's translation font"></font-group>
+                groupName="Students's translation font"></font-group>
         </div>
     </div>
 
@@ -48,57 +50,23 @@
         <legend>Continuous lesson mode</legend>
         <div class="flex w-full md:w-1/2 mb-2">
             <label for="pause_before_phrase_id" class="ml-2 flex-1">Pause before phrase, s</label>
-            <input type="number" id="pause_before_phrase_id" class="border border-solid border-black flex-1">
+            <input type="number" id="pause_before_phrase_id" class="border border-solid border-black flex-1"
+                [(ngModel)]="optionsService.continuousLessonOptions.pauseBeforePhrase">
         </div>
 
         <div class="flex w-full md:w-1/2">
             <label for="pause_after_phrase_id" class="ml-2 flex-1">Pause after phrase, s</label>
-            <input type="number" id="pause_before_phrase_id" class="border border-solid border-black flex-1">
+            <input type="number" id="pause_before_phrase_id" class="border border-solid border-black flex-1"
+                [(ngModel)]="optionsService.continuousLessonOptions.pauseAfterPhrase">
         </div>
 
-        <fieldset class="block-container p-3 m-3 border border-solid border-gray-400">
-            <legend>Digital students</legend>
-            <div class="flex w-full md:w-1/2 mb-2">
-                <label for="digial_students_number_id" class="ml-2 flex-1">Number</label>
-                <input type="number" id="digial_students_number_id" class="border border-solid border-black flex-1">
-            </div>
+        <div>
+            <digital-students-group [digitalStudent]="optionsService.continuousLessonOptions.digitalStudent"></digital-students-group>
+        </div>
 
-            <div class="flex w-full md:w-1/2">
-                <label for="user_order_id" class="ml-2 flex-1">Real student order</label>
-                <input type="number" id="user_order_id" class="border border-solid border-black flex-1">
-            </div>
-        </fieldset>
-
-        <fieldset class="block-container p-3 m-3 border border-solid border-gray-400">
-            <legend>On real student answer</legend>
-            <div class="w-full md:w-1/2">
-                <input type="checkbox" id="signal_on_real_tudent_answer_id" checked="true">
-                <label for="signal_on_real_tudent_answer_id" class="ml-2">Play signal</label>
-            </div>
-
-            <div class="w-full md:w-1/2">
-                <input type="checkbox" id="open_audio_dialog_id" checked="true">
-                <label for="open_audio_dialog_id" class="ml-2">Open speech recognition dialog</label>
-            </div>
-
-            <div class="block-container">
-                <div class="w-full md:w-1/2">
-                    <input type="checkbox" id="automatic_run_speech_recognition_id" checked="true">
-                    <label for="automatic_run_speech_recognition_id" class="ml-2">Run speech recognition
-                        automatically</label>
-                </div>
-
-                <div class="flex w-full md:w-1/2 mb-2 mt-4">
-                    <label for="max_attempts_id" class="ml-2 flex-1">Maximum attepts</label>
-                    <input type="number" id="max_attempts_id" class="border border-solid border-black flex-1">
-                </div>
-
-                <div class="flex w-full md:w-1/2">
-                    <label for="max_error_id" class="ml-2 flex-1">Maximum error</label>
-                    <input type="number" id="max_error_id" class="border border-solid border-black flex-1">
-                </div>
-            </div>
-        </fieldset>
+        <div>
+            <on-real-student-answer-group [onRealStudentAnswer]="optionsService.continuousLessonOptions.onRealStudentAnswer"></on-real-student-answer-group>
+        </div>
 
     </fieldset>
 

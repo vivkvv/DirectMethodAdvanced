@@ -6,7 +6,7 @@
         <div class="flex flex-item mb-2">
             <label class="label-container w-1/3 mr-10">family</label>
             <div class="value-container w-2/3">
-                <select class="w-full" [(ngModel)]="fontOptions.fontFamily" (change)="onFontChange()">
+                <select class="w-full" [(ngModel)]="fontOptions.fontFamily">
                     <option *ngFor="let font of availableFonts" [value]="font">{{font}}</option>
                 </select>
             </div>

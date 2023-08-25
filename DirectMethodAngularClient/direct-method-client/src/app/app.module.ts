@@ -30,6 +30,8 @@ import { FontGroupComponent } from './options/font-group/font-group.component';
 import { OptionsPageComponent } from './options/options-page.component';
 import { AuthorizationCheckingComponent } from './authorization-checking/authorization-checking.component';
 import { PreAuthorizationCheckingComponent } from './pre-authorization-checking/pre-authorization-checking.components';
+import { DigitalStudentsGroupComponent } from './options/digital-students-group/digital-students-group.component';
+import { OnRealStudentAnswerGroupComponent } from './options/on-real-student-answer-group/on-real-student-answer-group';
 
 @NgModule({
     declarations: [
@@ -40,6 +42,8 @@ import { PreAuthorizationCheckingComponent } from './pre-authorization-checking/
         PartsListComponent,
         AudioOverlayComponent,
         FontGroupComponent,
+        DigitalStudentsGroupComponent,
+        OnRealStudentAnswerGroupComponent,
         OptionsPageComponent,
         AuthorizationCheckingComponent,
         PreAuthorizationCheckingComponent

@@ -1,0 +1,18 @@
+<fieldset class="block-container p-3 m-3 border border-solid border-gray-400">
+    <legend>Digital students</legend>
+    <div class="flex w-full md:w-1/2 mb-2">
+        <input type="checkbox" id="use_digital_student_id" [(ngModel)]="digitalStudent.use">
+        <label for="use_digital_student_id" class="ml-2">Use</label>
+    </div>
+    <div class="flex w-full md:w-1/2 mb-2">
+        <label for="digial_students_number_id" class="ml-2 flex-1">Number</label>
+        <input type="number" id="digial_students_number_id" class="border border-solid border-black flex-1" disabled="{{!digitalStudent.use}}"
+            [(ngModel)]="digitalStudent.amount">
+    </div>
+
+    <div class="flex w-full md:w-1/2">
+        <label for="user_order_id" class="ml-2 flex-1">Real student order</label>
+        <input type="number" id="user_order_id" class="border border-solid border-black flex-1" disabled="{{!digitalStudent.use}}"
+            [(ngModel)]="digitalStudent.realStudentOrder">
+    </div>
+</fieldset>
