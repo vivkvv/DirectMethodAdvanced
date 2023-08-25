@@ -49,6 +49,8 @@ export class LessonComponent implements OnInit {
     isPlaying: boolean = false;
     playLoop: boolean = false;
 
+    continuousPlayFlag: boolean = false;
+
     showInterval: boolean = false;
     minPossibleIntervalValue: number = 0;
     maxPossibleIntervalValue: number = 50;
@@ -144,6 +146,83 @@ export class LessonComponent implements OnInit {
 
         return lesson[0];
     }
+
+    private sleep(milliseconds: number) {
+        return new Promise((resolve) => setTimeout(resolve, milliseconds));
+    }
+
+    public onContinuousPlay() {
+        if (!this.continuousPlayFlag) {
+            this.continuousPlayFlag = true;
+            this.continuousPlay();
+        } else {
+            this.continuousPlayFlag = false;
+        }
+    }
+
+    private continuosPlayCurrentEpisode(episode: LessonItem): Promise<boolean> {
+        return new Promise((resolve) => {
+            this.source = this.audioContext.createBufferSource();
+            this.source.buffer = this.audioBuffer;
+            this.source.connect(this.audioContext.destination);
+            this.source.loop = false;
+
+            const start = episode.start;
+            const duration = episode.duration;
+
+            this.source.onended = () => {
+                resolve(true);
+            };
+
+            const relativeStart = this.audioContext.currentTime;
+            this.source.start(0, start, duration);
+
+            const updateProgress = () => {
+                if (!this.continuousPlayFlag) {
+                    return;
+                }
+
+                this.currentLessonTime =
+                    start +
+                    ((this.audioContext.currentTime - relativeStart));
+                this.cd.detectChanges();
+                requestAnimationFrame(updateProgress);
+            };
+
+            updateProgress();
+        });
+    }
+
+    private async continuousPlay() {
+        const pauseBefore =
+            this.optionsService.continuousLessonOptions.pauseBeforePhrase;
+        const pauseAfter =
+            this.optionsService.continuousLessonOptions.pauseAfterPhrase;
+
+        while (this.continuousPlayFlag && !this.currentEpisodeIsLast()) {
+            await this.sleep(1000 * pauseBefore);
+
+            const episode = this.getCurrentEpisode(true);
+            if (!episode) {
+                break;
+            }
+
+            const playResult: boolean = await this.continuosPlayCurrentEpisode(
+                episode
+            );
+            if (!playResult) {
+                break;
+            }
+
+            await this.sleep(1000 * pauseAfter);
+            this.gotoNextEpisode();
+        }
+
+        this.continuousStop();
+        this.continuousPlayFlag = false;
+    }
+
+    private continuousStop() {}
 
     public onPlay(
         strictCurrentPerson: boolean,
@@ -307,6 +386,20 @@ export class LessonComponent implements OnInit {
         }
 
         return this.SelectedKeyToString(iKey);
+    }
+
+    private currentEpisodeIsLast(): boolean {
+        const iKey: TSelectedKey = this.stringToISelectedKey(this.selectedKey);
+
+        const lessons = this.lessonItemsDict[iKey.id];
+        const ind = lessons.findIndex((item) => item.person === iKey.person);
+        if (ind < 0 || ind >= lessons.length - 1) {
+            if (!this.lessonItemsDict[iKey.id + 1]) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     private getNextKey(): string {
