@@ -12,7 +12,7 @@ export class AuthRedirectControllerController {
     console.log('After Gooogle AuthRedirectControllerController');
     // return null;
     if (process.env.NODE_ENV === 'production') {
-      res.redirect('https://direct-pqyo.onrender.com/authorization-checking');
+      res.status(200).json({ redirectTo: '/authorization-checking' });
     } else {
       res.redirect('http://localhost:4200/authorization-checking');
     }
