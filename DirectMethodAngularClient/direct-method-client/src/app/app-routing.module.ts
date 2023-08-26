@@ -7,7 +7,6 @@ import { OptionsPageComponent } from './options/options-page.component';
 import { AuthorizationCheckingComponent } from './authorization-checking/authorization-checking.component';
 // import { PreAuthorizationCheckingComponent } from './pre-authorization-checking/pre-authorization-checking.components';
 
-
 const routes: Routes = [
     { path: 'login', component: LoginComponent },
     { path: 'Lesson/:part_id/:lesson_id', component: LessonComponent },
@@ -15,9 +14,12 @@ const routes: Routes = [
     { path: '', redirectTo: '/login', pathMatch: 'full' },
     { path: 'not-found', component: LoginComponent },
     { path: 'options', component: OptionsPageComponent },
-    { path: 'authorization-checking', component: AuthorizationCheckingComponent },
-    {path: 'test.html', component: AuthorizationCheckingComponent},
-    // { path: 'pre-authorization-checking', component: PreAuthorizationCheckingComponent },    
+    {
+        path: 'authorization-checking',
+        component: AuthorizationCheckingComponent,
+    },
+    { path: 'test.html', component: AuthorizationCheckingComponent },
+    // { path: 'pre-authorization-checking', component: PreAuthorizationCheckingComponent },
     { path: '**', redirectTo: 'not-found' },
 ];
 
