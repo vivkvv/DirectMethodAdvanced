@@ -1,13 +1,15 @@
 import { Controller, Get, Redirect } from '@nestjs/common';
 
+const redirect_url =
+  process.env.NODE_ENV === 'production'
+    ? 'test.html'
+    : 'http://localhost:4200/test.html';
+
 @Controller()
 export class AuthRedirectControllerController {
   @Get('authorization-checking')
-  //   @Redirect('https://direct-pqyo.onrender.com/pre-authorization-checking')
-  //   @Redirect('/pre-authorization-checking')
-  @Redirect('/test.html')
+  @Redirect(redirect_url)
   authorizationChecking() {
-    // this method is intended to redirection and must not have any logic
     console.log('After Gooogle AuthRedirectControllerController');
     return null;
   }
