@@ -12,7 +12,12 @@ export class AuthRedirectControllerController {
     console.log('After Gooogle AuthRedirectControllerController');
     // return null;
     if (process.env.NODE_ENV === 'production') {
-      res.status(200).json({ redirectTo: '/authorization-checking' });
+      const script = `
+        <script>
+          window.location.href = '/authorization-checking';
+        </script>
+      `;
+      res.send(script);
     } else {
       res.redirect('http://localhost:4200/authorization-checking');
     }
