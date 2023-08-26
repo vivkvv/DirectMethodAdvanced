@@ -8,6 +8,7 @@ export class AuthRedirectControllerController {
   @Redirect('/test.html')
   authorizationChecking() {
     // this method is intended to redirection and must not have any logic
+    console.log('After Gooogle AuthRedirectControllerController');
     return null;
   }
 }
