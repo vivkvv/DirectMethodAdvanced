@@ -12,12 +12,10 @@ export class AuthRedirectControllerController {
     console.log('After Gooogle AuthRedirectControllerController');
     // return null;
     if (process.env.NODE_ENV === 'production') {
-      const script = `
-        <script>
-          window.location.href = '/authorization-checking';
-        </script>
-      `;
-      res.send(script);
+      res.redirect(
+        302,
+        'https://direct-pqyo.onrender.com/authorization-checking',
+      );
     } else {
       res.redirect('http://localhost:4200/authorization-checking');
     }
