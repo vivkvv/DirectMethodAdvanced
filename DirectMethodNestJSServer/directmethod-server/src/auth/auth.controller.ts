@@ -1,5 +1,5 @@
 import { Controller, Get, Post, Request, UseGuards } from '@nestjs/common';
-import { AuthService } from './auth.service';
+import { AuthService, DirectUser } from './auth.service';
 import { LocalAuthGuard } from './local-auth.guard';
 import { JwtAuthGuard } from './jwt-auth.guard';
 import { JwtService } from '@nestjs/jwt';
@@ -19,6 +19,27 @@ export class AuthController {
       access_token: this.jwtService.sign(payload),
       status: 'success',
     };
+  }
+
+  @Post('registering')
+  async register(@Request() req) {
+    const registerData: DirectUser = {
+      username: req.body.username,
+      email: req.body.email,
+      passwordHash: req.body.passwordHash,
+    };
+
+    const registerResult = await this.authService.register(registerData);
+
+    if (registerResult.result) {
+      return {
+        access_token: this.jwtService.sign(registerData),
+        status: 'success',
+      };
+    } else {
+      console.log('egistering error', registerResult.description);
+      return registerResult.description;
+    }
   }
 
   @Post('login/google')

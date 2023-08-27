@@ -16,6 +16,7 @@ import { Observable, forkJoin, of } from 'rxjs';
 import { MatDialog } from '@angular/material/dialog';
 import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component';
 import { OptionsService } from '../services/Options/options.service';
+import { ExitComponent } from '../exit/exit.component';
 
 class TSelectedKey {
     constructor(public id: number = -1, public person: string = '') {}
@@ -125,6 +126,14 @@ export class LessonComponent implements OnInit {
         });
     }
 
+    exit() {
+        // const parentComponent = this;
+        const dialogRef = this.dialog.open(ExitComponent, {
+            panelClass: 'exit-overlay-pane-class',
+            disableClose: true,
+        });
+    }
+
     changeAudioLoop() {
         this.playLoop = !this.playLoop;
     }
@@ -183,8 +192,7 @@ export class LessonComponent implements OnInit {
                 }
 
                 this.currentLessonTime =
-                    start +
-                    ((this.audioContext.currentTime - relativeStart));
+                    start + (this.audioContext.currentTime - relativeStart);
                 this.cd.detectChanges();
                 requestAnimationFrame(updateProgress);
             };

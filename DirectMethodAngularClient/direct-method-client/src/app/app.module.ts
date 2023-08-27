@@ -32,12 +32,16 @@ import { AuthorizationCheckingComponent } from './authorization-checking/authori
 import { PreAuthorizationCheckingComponent } from './pre-authorization-checking/pre-authorization-checking.components';
 import { DigitalStudentsGroupComponent } from './options/digital-students-group/digital-students-group.component';
 import { OnRealStudentAnswerGroupComponent } from './options/on-real-student-answer-group/on-real-student-answer-group';
+import { RegisterComponent } from './registering/registering.component';
+import { RouterModule } from '@angular/router';
+import { ExitComponent } from './exit/exit.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         EntityBlockComponent,
         LoginComponent,
+        RegisterComponent,
         LessonComponent,
         PartsListComponent,
         AudioOverlayComponent,
@@ -46,10 +50,12 @@ import { OnRealStudentAnswerGroupComponent } from './options/on-real-student-ans
         OnRealStudentAnswerGroupComponent,
         OptionsPageComponent,
         AuthorizationCheckingComponent,
-        PreAuthorizationCheckingComponent
+        PreAuthorizationCheckingComponent,
+        ExitComponent
     ],
     imports: [
         CommonModule,
+        RouterModule,
         FormsModule,
         BrowserModule,
         AppRoutingModule,

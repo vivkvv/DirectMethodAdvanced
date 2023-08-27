@@ -18,6 +18,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
   } 
 
+  .exit-overlay-pane-class {
+    opacity: 0.9;
+    position: absolute !important;
+    left: 25%;
+    top: 25%;
+    height: auto;/* 50%;*/
+    width: 50%;
+    max-width: 100vw !important;
+    border: 2px solid gray;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);    
+  } 
+
   .button-effect {
     transform: scale(0.95);
     transition: all 0.1s ease;

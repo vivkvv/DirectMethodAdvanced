@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { JwksValidationHandler, OAuthService } from 'angular-oauth2-oidc';
 import { googleAuthConfig } from '../services/OAuth/auth-config';
 import { AuthService, LoginData } from '../services/auth.service';
+import { RouterModule } from '@angular/router';
 
 @Component({
     selector: 'app-login',

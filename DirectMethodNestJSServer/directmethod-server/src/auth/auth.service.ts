@@ -7,9 +7,26 @@ class User {
   // другие свойства, которые могут быть вам нужны
 }
 
+export interface DirectUser {
+  username: string;
+  email: string;
+  passwordHash: string;
+}
+
+export interface GoogleUser {
+  username: string;
+  userId: string;
+}
+
+type UserData = DirectUser | GoogleUser;
+
+export type RegisterResult = { result: boolean; description: string };
+
 @Injectable()
 export class AuthService {
   constructor(private jwtService: JwtService) {}
+
+  registeredUsers: UserData[] = [];
 
   private static GOOGLE_CLIENT_ID =
     '1056330085698-p14refckgcbhs0533767eq2non7597nf.apps.googleusercontent.com';
@@ -21,6 +38,34 @@ export class AuthService {
     }
 
     return false;
+  }
+
+  async register(registerUser: UserData): Promise<RegisterResult> {
+    // 0. vaidation
+
+    // 1. check if user already exists
+    const exists = this.registeredUsers.some(
+      (user) => user.username === registerUser.username,
+    );
+
+    if (exists) {
+      return {
+        result: false,
+        description: 'User with this name is already registered',
+      };
+    }
+
+    // 2. check if user can be registered
+
+    // 3. added user
+    // await someDatabaseOperaton(registerUser)
+    this.registeredUsers.push(registerUser);
+
+    // 4. return result
+    return {
+      result: true,
+      description: '',
+    };
   }
 
   // login(username: string) {
