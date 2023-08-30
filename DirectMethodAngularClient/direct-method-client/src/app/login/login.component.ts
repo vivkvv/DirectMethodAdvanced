@@ -15,7 +15,7 @@ import { RouterModule } from '@angular/router';
 export class LoginComponent {
     loginForm = this.fb.group({
         username: ['', Validators.required],
-        password: ['', Validators.required],
+        password: ['', [Validators.required, Validators.minLength(8)]],
     });
 
     constructor(
@@ -30,6 +30,16 @@ export class LoginComponent {
                 const accessToken = this.oAuthService.getAccessToken();
             }
         });
+    }
+
+    isControlValid(controlName: string): boolean {
+        const control = this.loginForm.get(controlName);
+        return control?.valid ?? false;
+    }
+
+    isControlInvalid(controlName: string): boolean {
+        const control = this.loginForm.get(controlName);
+        return control?.invalid ?? false;
     }
 
     onGoogleLogin(event: Event) {

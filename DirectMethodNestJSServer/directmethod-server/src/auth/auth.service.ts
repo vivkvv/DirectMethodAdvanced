@@ -40,6 +40,19 @@ export class AuthService {
     return false;
   }
 
+  async logout(username: string): Promise<boolean> {
+    const index = this.registeredUsers.findIndex(
+      (user) => user.username === username,
+    );
+
+    if (index !== -1) {
+      this.registeredUsers.splice(index, 1);
+      return Promise.resolve(true);
+    }
+
+    return Promise.resolve(false);
+  }
+
   async register(registerUser: UserData): Promise<RegisterResult> {
     // 0. vaidation
 

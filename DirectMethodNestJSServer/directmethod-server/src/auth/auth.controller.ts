@@ -17,6 +17,7 @@ export class AuthController {
     const payload = { username: req.body.username, sub: req.body.userId };
     return {
       access_token: this.jwtService.sign(payload),
+      user_name: payload.username,
       status: 'success',
     };
   }
@@ -34,6 +35,7 @@ export class AuthController {
     if (registerResult.result) {
       return {
         access_token: this.jwtService.sign(registerData),
+        user_name: registerData.username,
         status: 'success',
       };
     } else {
@@ -55,8 +57,29 @@ export class AuthController {
     const payload = { username: googleUser.email };
     return {
       access_token: this.jwtService.sign(payload),
+      user_name: payload.username,
       status: 'success',
     };
+  }
+
+  @Post('logout')
+  async logout(@Request() req) {
+    const token = req.headers.authorization.split(' ')[1];
+    const payload = this.jwtService.decode(token) as any;
+    const username = payload.username;
+
+    const result = await this.authService.logout(username);
+
+    if (result) {
+      return {
+        status: 'success',
+      };
+    } else {
+      return {
+        description: 'user is not entered',
+        status: 'error',
+      };
+    }
   }
 
   @UseGuards(JwtAuthGuard)

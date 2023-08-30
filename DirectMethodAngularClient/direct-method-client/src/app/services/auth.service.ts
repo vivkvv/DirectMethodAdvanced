@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { UserService } from './UserService/user.service';
 
 export interface LoginData {
     method: 'google' | 'github' | 'facebook' | 'direct';
@@ -14,16 +15,17 @@ export interface LoginData {
 })
 export class AuthService {
     authError: string | null = null;
-    constructor(private http: HttpClient, private router: Router) {}
+    constructor(
+        private http: HttpClient,
+        private router: Router,
+        private userService: UserService
+    ) {}
 
     // login(username: string, password: string) {
     //   return this.http.post('/api/login', { username, password });
     // }
 
-    login(
-        loginData: LoginData,
-        onFailure: (errorMessage: any) => void
-    ): void {
+    login(loginData: LoginData, onFailure: (errorMessage: any) => void): void {
         let url = '/api/login';
         let body = {};
 
@@ -40,10 +42,8 @@ export class AuthService {
         this.http.post(url, body).subscribe(
             (data: any) => {
                 this.authError = null;
-                localStorage.setItem(
-                    'access_token',
-                    data.access_token
-                );
+                localStorage.setItem('access_token', data.access_token);
+                this.userService.setUsername(data.user_name);
                 this.router.navigate(['/topic-list']);
             },
             (error) => {

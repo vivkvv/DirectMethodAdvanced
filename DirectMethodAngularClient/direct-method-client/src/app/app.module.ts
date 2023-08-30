@@ -35,6 +35,7 @@ import { OnRealStudentAnswerGroupComponent } from './options/on-real-student-ans
 import { RegisterComponent } from './registering/registering.component';
 import { RouterModule } from '@angular/router';
 import { ExitComponent } from './exit/exit.component';
+import { UserService } from './services/UserService/user.service';
 
 @NgModule({
     declarations: [
@@ -76,6 +77,7 @@ import { ExitComponent } from './exit/exit.component';
             useClass: AuthInterceptor,
             multi: true,
         },
+        UserService
     ],
     bootstrap: [AppComponent],
 })

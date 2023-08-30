@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { SHA256 } from 'crypto-js';
+import { UserService } from '../services/UserService/user.service';
 
 interface RegisterData {
     username: string | null | undefined;
@@ -33,7 +34,8 @@ export class RegisterComponent {
     constructor(
         private fb: FormBuilder,
         private http: HttpClient,
-        private router: Router
+        private router: Router,
+        private userService: UserService
     ) {}
 
     onSubmit() {
@@ -54,6 +56,7 @@ export class RegisterComponent {
         this.http.post('/api/registering', registerData).subscribe(
             (data: any) => {
                 localStorage.setItem('access_token', data.access_token);
+                this.userService.setUsername(data.user_name);                
                 this.router.navigate(['/topic-list']);
             },
             (error) => {

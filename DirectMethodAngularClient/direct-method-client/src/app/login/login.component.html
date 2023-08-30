@@ -14,14 +14,18 @@
     <hr class="divider">
     <div class="form-group">
         <label>User</label>
-        <input type="text" formControlName="username">
+        <input type="text" formControlName="username"
+            [ngClass]="{'input-valid': isControlValid('username'), 'input-invalid': isControlInvalid('username')}">
     </div>
     <div class="form-group">
         <label>Password</label>
-        <input type="password" formControlName="password">
+        <input type="password" formControlName="password"
+            [ngClass]="{'input-valid': isControlValid('password'), 'input-invalid': isControlInvalid('password')}">
     </div>
     <div class="button-container">
-        <button type="submit" [disabled]="loginForm.invalid">Login</button>
+        <button type="submit" [disabled]="loginForm.invalid" [ngClass]="{
+            'valid-border': loginForm.valid, 
+            'invalid-border': loginForm.invalid}">Login</button>
         <button type="button" [routerLink]="['/register']">Registering ...</button>
     </div>
     <hr class="divider">
