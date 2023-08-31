@@ -91,3 +91,9 @@ input:focus {
 button:active {
     transform: scale(0.95);
 }
+
+.input-hint {
+    color: #888;
+    font-size: 12px;
+}
+

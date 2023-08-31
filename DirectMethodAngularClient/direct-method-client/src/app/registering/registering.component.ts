@@ -38,6 +38,16 @@ export class RegisterComponent {
         private userService: UserService
     ) {}
 
+    isControlValid(controlName: string): boolean {
+        const control = this.registerForm.get(controlName);
+        return control?.valid ?? false;
+    }
+
+    isControlInvalid(controlName: string): boolean {
+        const control = this.registerForm.get(controlName);
+        return control?.invalid ?? false;
+    }
+
     onSubmit() {
         const username = this.registerForm.get('username')?.value;
         const email = this.registerForm.get('email')?.value;

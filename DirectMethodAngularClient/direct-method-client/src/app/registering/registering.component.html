@@ -4,19 +4,26 @@
     </div>
     <div class="form-group">
         <label>Name</label>
-        <input type="text" formControlName="username">
+        <input type="text" formControlName="username"
+            [ngClass]="{'input-valid': isControlValid('username'), 'input-invalid': isControlInvalid('username')}">
+        <small class="input-hint">Any nonempty string</small>
     </div>
     <div class="form-group">
         <label>Email</label>
-        <input type="text" formControlName="email">
+        <input type="text" formControlName="email"
+            [ngClass]="{'input-valid': isControlValid('email'), 'input-invalid': isControlInvalid('email')}">
+        <small class="input-hint">Format: xxx@xxx.xxx</small>
     </div>
     <div class="form-group">
         <label>Password</label>
-        <input type="password" formControlName="password">
+        <input type="password" formControlName="password"
+            [ngClass]="{'input-valid': isControlValid('password'), 'input-invalid': isControlInvalid('password')}">
+        <small class="input-hint">Not less than 8 symbols</small>
     </div>
     <div class="button-container">
-        <button type="submit" [disabled]="registerForm.invalid"
-            [ngClass]="{'button-disabled': registerForm.invalid, 'button-enabled': !registerForm.invalid}">
+        <button type="submit" [disabled]="registerForm.invalid" [ngClass]="{
+            'valid-border': registerForm.valid, 
+            'invalid-border': registerForm.invalid}">
             Register
         </button>
     </div>

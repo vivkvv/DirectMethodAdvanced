@@ -16,11 +16,13 @@
         <label>User</label>
         <input type="text" formControlName="username"
             [ngClass]="{'input-valid': isControlValid('username'), 'input-invalid': isControlInvalid('username')}">
+        <small class="input-hint">Any nonempty string</small>
     </div>
     <div class="form-group">
         <label>Password</label>
         <input type="password" formControlName="password"
             [ngClass]="{'input-valid': isControlValid('password'), 'input-invalid': isControlInvalid('password')}">
+        <small class="input-hint">Not less than 8 symbols</small>
     </div>
     <div class="button-container">
         <button type="submit" [disabled]="loginForm.invalid" [ngClass]="{

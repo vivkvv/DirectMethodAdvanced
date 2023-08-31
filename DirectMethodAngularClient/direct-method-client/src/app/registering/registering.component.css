@@ -76,3 +76,33 @@ input {
     background-color: blue;
     cursor: pointer;
 }
+
+.input-valid {
+    border: 1px solid green;
+}
+
+.input-invalid {
+    border: 1px solid red;
+}
+
+.valid-border {
+    border: 1px solid green !important;
+}
+
+.invalid-border {
+    border: 1px solid red !important;
+}
+
+input:focus {
+    outline: none;
+    border-width: 2px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.input-hint {
+    color: #888;
+    font-size: 12px;
+}
