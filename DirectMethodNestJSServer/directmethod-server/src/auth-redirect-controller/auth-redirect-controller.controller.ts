@@ -14,16 +14,4 @@ export class AuthRedirectControllerController {
     console.log('After Gooogle AuthRedirectControllerController');
     return null;
   }
-  // redirectToAngular(@Res() res: Response) {
-  //   res.send(`
-  //   <html>
-  //     <head><title>Redirecting...</title></head>
-  //     <body>
-  //       <script>
-  //         window.location.href = "/options";
-  //       </script>
-  //     </body>
-  //   </html>
-  // `);
-  // }
 }

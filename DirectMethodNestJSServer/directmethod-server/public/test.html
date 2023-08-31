@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -15,6 +15,63 @@
 <body>
     <h1>Это тестовая страница</h1>
     <p>Файл находится в папке public.</p>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Authorization</title>
+    <script>
+        // Эмуляция функции authService.login
+        async function authServiceLogin(loginData) {
+            try {
+                // Отправка данных на сервер с использованием fetch или другим методом
+                const response = await fetch('/api/auth', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(loginData)
+                });
+
+                // Проверка успешности ответа
+                if (response.ok) {
+                    console.log('Successfully logged in');
+                    // Здесь можно выполнить перенаправление или другие действия
+                } else {
+                    console.log('Failed to log in');
+                }
+            } catch (error) {
+                console.log('Error:', error);
+            }
+        }
+
+        // Функция для обработки токена
+        function processToken() {
+            const fragment = window.location.hash.substring(1);
+            if (fragment) {
+                const urlParams = new URLSearchParams(fragment);
+                const idToken = urlParams.get('id_token');
+                const method = 'google';
+
+                if (idToken) {
+                    const loginData = {
+                        method: method,
+                        token: idToken,
+                    };
+                    authServiceLogin(loginData);
+                }
+            }
+        }
+    </script>
+</head>
+
+<body onload="processToken()">
+    <h1>Redirecting...</h1>
 </body>
 
 </html>
