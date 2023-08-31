@@ -9,21 +9,21 @@ const redirect_url =
 @Controller()
 export class AuthRedirectControllerController {
   @Get('authorization-checking')
-  // @Redirect(redirect_url)
-  // authorizationChecking() {
-  //   console.log('After Gooogle AuthRedirectControllerController');
-  //   return null;
-  // }
-  redirectToAngular(@Res() res: Response) {
-    res.send(`
-    <html>
-      <head><title>Redirecting...</title></head>
-      <body>
-        <script>
-          window.location.href = "/options";
-        </script>
-      </body>
-    </html>
-  `);
+  @Redirect(redirect_url)
+  authorizationChecking() {
+    console.log('After Gooogle AuthRedirectControllerController');
+    return null;
   }
+  // redirectToAngular(@Res() res: Response) {
+  //   res.send(`
+  //   <html>
+  //     <head><title>Redirecting...</title></head>
+  //     <body>
+  //       <script>
+  //         window.location.href = "/options";
+  //       </script>
+  //     </body>
+  //   </html>
+  // `);
+  // }
 }
