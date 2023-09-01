@@ -5,6 +5,7 @@ import { Response } from 'express';
 export class NotFoundController {
   @Get()
   handleNotFound(@Res() res: Response) {
+    console.log('Not-Found Controller, redirecting to /');
     res.status(HttpStatus.MOVED_PERMANENTLY).redirect('/');
   }
 }
