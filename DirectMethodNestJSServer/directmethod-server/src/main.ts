@@ -14,6 +14,11 @@ async function bootstrap() {
   }
   app.use(morgan('dev'));
 
+  // const httpAdapter = app.getHttpAdapter();
+  // httpAdapter.get('*', (req, res) => {
+  //   res.sendFile(join(__dirname, '../..', 'public', 'index.html'));
+  // });
+
   //app.enableCors({});
   await app.listen(3000); //, '0.0.0.0');
 }
