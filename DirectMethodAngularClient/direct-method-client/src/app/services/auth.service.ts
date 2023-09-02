@@ -41,10 +41,15 @@ export class AuthService {
 
         this.http.post(url, body).subscribe(
             (data: any) => {
-                this.authError = null;
-                localStorage.setItem('access_token', data.access_token);
-                this.userService.setUsername(data.user_name);
-                this.router.navigate(['/topic-list']);
+                if (data.status === 'failure') {
+                    this.authError = 'Error authentification';
+                    onFailure(this.authError);    
+                } else {
+                    this.authError = null;
+                    localStorage.setItem('access_token', data.access_token);
+                    this.userService.setUsername(data.user_name);
+                    this.router.navigate(['/topic-list']);
+                }
             },
             (error) => {
                 this.authError = error.message;

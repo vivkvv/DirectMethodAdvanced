@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { JwksValidationHandler, OAuthService } from 'angular-oauth2-oidc';
 import { googleAuthConfig } from '../services/OAuth/auth-config';
 import { AuthService, LoginData } from '../services/auth.service';
@@ -23,11 +23,31 @@ export class LoginComponent {
         private http: HttpClient,
         private router: Router,
         private oAuthService: OAuthService,
-        private authService: AuthService
+        private authService: AuthService,
+        private activatedRoute: ActivatedRoute
     ) {
-        this.oAuthService.events.subscribe((e) => {
-            if (e.type === 'token_received') {
-                const accessToken = this.oAuthService.getAccessToken();
+        this.activatedRoute.queryParams.subscribe((params) => {
+            if (
+                params['oauth2_redirect'] &&
+                params['oauth2_redirect'] === 'google'
+            ) {
+                const fragment = window.location.hash.substring(1);
+                const params = new URLSearchParams(fragment);
+                const accessToken = params.get('id_token');
+
+                if (accessToken) {
+                    const loginData: LoginData = {
+                        method: 'google',
+                        token: accessToken,
+                    };
+                    this.authService.login(loginData, () => {});
+                }
+            } else {
+                this.oAuthService.events.subscribe((e) => {
+                    if (e.type === 'token_received') {
+                        const accessToken = this.oAuthService.getAccessToken();
+                    }
+                });
             }
         });
     }
