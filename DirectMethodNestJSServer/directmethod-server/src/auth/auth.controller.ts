@@ -39,7 +39,7 @@ export class AuthController {
         status: 'success',
       };
     } else {
-      console.log('egistering error', registerResult.description);
+      console.log('registering error', registerResult.description);
       return registerResult.description;
     }
   }

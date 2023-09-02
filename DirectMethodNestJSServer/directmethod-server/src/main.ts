@@ -1,7 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import morgan from 'morgan';
-import express from 'express';
+import express, { json, urlencoded } from 'express';
 import { join } from 'path';
 
 async function bootstrap() {
@@ -13,6 +13,9 @@ async function bootstrap() {
     // app.use(morgan('dev'));
   }
   app.use(morgan('dev'));
+
+  app.use(urlencoded({ extended: true }));
+  app.use(json());
 
   // const httpAdapter = app.getHttpAdapter();
   // httpAdapter.get('*', (req, res) => {
