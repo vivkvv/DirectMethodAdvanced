@@ -15,7 +15,7 @@ const routes: Routes = [
     { path: 'Lesson/:part_id/:lesson_id', component: LessonComponent },
     { path: 'topic-list', component: PartsListComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
-    { path: 'not-found', component: LoginComponent },
+    { path: 'not-found-angular', component: LoginComponent },
     { path: 'options', component: OptionsPageComponent },
     { path: 'exit', component: ExitComponent },
     {
@@ -24,7 +24,7 @@ const routes: Routes = [
     },
     { path: 'test.html', component: AuthorizationCheckingComponent },
     // { path: 'pre-authorization-checking', component: PreAuthorizationCheckingComponent },
-    { path: '**', redirectTo: 'not-found' },
+    { path: '**', redirectTo: 'not-found-angular' },
 ];
 
 @NgModule({
