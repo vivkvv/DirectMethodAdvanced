@@ -4,7 +4,19 @@ import morgan from 'morgan';
 import express, { json, urlencoded } from 'express';
 import { join } from 'path';
 
+// import { MongoClient } from 'mongodb';
+
 async function bootstrap() {
+  // const uri =
+  //   'mongodb+srv://vivkvv:CF5rGfrtvEF2vGs7@directcluster0.tyh8vrd.mongodb.net/';
+
+  // try {
+  //   const client = await MongoClient.connect(uri, {});
+  //   console.log('Connected to MongoDB');
+  //   client.close();
+  // } catch (err) {
+  //   console.log('Error occurred while connecting to MongoDB Atlas...\n', err);
+  // }
   const app = await NestFactory.create(AppModule);
 
   if (process.env.NODE_ENV === 'production') {
@@ -14,7 +26,7 @@ async function bootstrap() {
   }
   app.use(morgan('dev'));
 
-  app.use(urlencoded({ extended: true }));
+  app.use(urlencoded({ extended: false }));
   app.use(json());
 
   // const httpAdapter = app.getHttpAdapter();

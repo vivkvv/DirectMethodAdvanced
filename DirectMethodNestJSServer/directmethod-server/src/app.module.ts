@@ -12,6 +12,8 @@ import { NextLessonController } from './next.lesson/next.lesson.controller';
 import { PrevLessonController } from './prev.lesson/prev.lesson.controller';
 import { NotFoundController } from './not-found-controller/not-found.controller';
 import { AuthRedirectControllerController } from './auth-redirect-controller/auth-redirect-controller.controller';
+import { DatabaseModule } from './mangoose-service/mongoose.module';
+//import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [
@@ -19,6 +21,10 @@ import { AuthRedirectControllerController } from './auth-redirect-controller/aut
       secret: 'secretKey',
       signOptions: { expiresIn: '1d' },
     }),
+    DatabaseModule
+    // MongooseModule.forRoot(
+    //   'mongodb+srv://vivkvv:CF5rGfrtvEF2vGs7@directcluster0.tyh8vrd.mongodb.net/?retryWrites=true&w=majority',
+    // ),
   ],
   controllers: [
     AppController,
