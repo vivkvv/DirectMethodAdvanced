@@ -13,7 +13,7 @@ import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, first, isEmpty, tap } from 'rxjs/operators';
 import { LessonItem } from './lesson.wrapper';
 import { Observable, forkJoin, of } from 'rxjs';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component';
 import { OptionsService } from '../services/Options/options.service';
 import { ExitComponent } from '../exit/exit.component';
@@ -50,7 +50,7 @@ export class LessonComponent implements OnInit {
     isPlaying: boolean = false;
     playLoop: boolean = false;
 
-    continuousPlayFlag: boolean = false;
+    //continuousPlayFlag: boolean = false;
 
     showInterval: boolean = false;
     minPossibleIntervalValue: number = 0;
@@ -62,6 +62,7 @@ export class LessonComponent implements OnInit {
     currentLessonTime: number = 0;
 
     isAudioDialogOpen: boolean = false;
+    dialogRef: MatDialogRef<AudioOverlayComponent, any> | undefined = undefined;
 
     formatIntervalLabel(value: number): string {
         return `${value}`;
@@ -105,15 +106,9 @@ export class LessonComponent implements OnInit {
 
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
-    showAudioDialog() {
-        if (this.isAudioDialogOpen) {
-            return;
-        }
-
-        this.isAudioDialogOpen = true;
-
+    private async openDialog() {
         const parentComponent = this;
-        const dialogRef = this.dialog.open(AudioOverlayComponent, {
+        this.dialogRef = this.dialog.open(AudioOverlayComponent, {
             width: '100%',
             panelClass: 'custom-overlay-pane-class',
             disableClose: true,
@@ -121,9 +116,34 @@ export class LessonComponent implements OnInit {
             data: { parentComponent },
         });
 
-        dialogRef.afterClosed().subscribe((result) => {
+        this.dialogRef.afterClosed().subscribe((result) => {
             this.isAudioDialogOpen = false;
         });
+
+        return this.dialogRef.afterOpened().toPromise();
+    }
+
+    async showAudioDialog(
+        startRecognition: boolean,
+        attemptsNumber: number,
+        acceptedResult: number
+    ) {
+        if (!this.isAudioDialogOpen) {
+            this.isAudioDialogOpen = true;
+            await this.openDialog();
+        }
+
+        if (startRecognition) {
+            await this.dialogRef?.componentInstance.onRecognizing(
+                attemptsNumber,
+                acceptedResult,
+                true
+            );
+        }
+    }
+
+    async closeAudioDialog() {
+        await this.dialogRef?.close()
     }
 
     exit() {
@@ -161,11 +181,15 @@ export class LessonComponent implements OnInit {
     }
 
     public onContinuousPlay() {
-        if (!this.continuousPlayFlag) {
-            this.continuousPlayFlag = true;
+        if (!this.isPlaying) {
+            this.isPlaying = true;
             this.continuousPlay();
         } else {
-            this.continuousPlayFlag = false;
+            if (this.source) {
+                this.source.stop();
+                this.source = null;
+            }
+            this.isPlaying = false;
         }
     }
 
@@ -187,7 +211,7 @@ export class LessonComponent implements OnInit {
             this.source.start(0, start, duration);
 
             const updateProgress = () => {
-                if (!this.continuousPlayFlag) {
+                if (!this.isPlaying) {
                     return;
                 }
 
@@ -201,13 +225,43 @@ export class LessonComponent implements OnInit {
         });
     }
 
+    private async playSignal(): Promise<void> {
+        return new Promise((resolve) => {
+            const audioCtx = new window.AudioContext();
+            const oscillator = audioCtx.createOscillator();
+            oscillator.type = 'sine';
+            oscillator.frequency.setValueAtTime(440, audioCtx.currentTime);
+            oscillator.connect(audioCtx.destination);
+            oscillator.start();
+            oscillator.stop(audioCtx.currentTime + 0.5);
+            oscillator.onended = () => {
+                resolve();
+            };
+        });
+    }
+
     private async continuousPlay() {
         const pauseBefore =
             this.optionsService.continuousLessonOptions.pauseBeforePhrase;
         const pauseAfter =
             this.optionsService.continuousLessonOptions.pauseAfterPhrase;
 
-        while (this.continuousPlayFlag && !this.currentEpisodeIsLast()) {
+        const useRealStudent =
+            this.optionsService.continuousLessonOptions.onRealStudentAnswer.use;
+        const playRealStudentSignal =
+            this.optionsService.continuousLessonOptions.onRealStudentAnswer
+                .playSignal;
+        const openRecognitionDialog =
+            this.optionsService.continuousLessonOptions.onRealStudentAnswer
+                .openSpeechRecognitionDialog;
+        const attemptsNumber =
+            this.optionsService.continuousLessonOptions.onRealStudentAnswer
+                .maximumAttempts;
+        const acceptableResult =
+            this.optionsService.continuousLessonOptions.onRealStudentAnswer
+                .maximumError;
+
+        while (this.isPlaying && !this.currentEpisodeIsLast()) {
             await this.sleep(1000 * pauseBefore);
 
             const episode = this.getCurrentEpisode(true);
@@ -215,10 +269,33 @@ export class LessonComponent implements OnInit {
                 break;
             }
 
-            const playResult: boolean = await this.continuosPlayCurrentEpisode(
-                episode
-            );
-            if (!playResult) {
+            let skipEpisode: boolean = false;
+            if (episode.person === 'Student' && useRealStudent) {
+                if (playRealStudentSignal) {
+                    await this.playSignal();
+                    await this.sleep(300);
+                }
+
+                if (openRecognitionDialog) {
+                    await this.showAudioDialog(
+                        true,
+                        attemptsNumber,
+                        acceptableResult
+                    );
+
+                    await this.closeAudioDialog();
+
+                    //skipEpisode = true;
+                }
+            }
+
+            let playResult: boolean = true;
+
+            if (!skipEpisode) {
+                playResult = await this.continuosPlayCurrentEpisode(episode);
+            }
+
+            if (!playResult || !this.isPlaying) {
                 break;
             }
 
@@ -227,7 +304,7 @@ export class LessonComponent implements OnInit {
         }
 
         this.continuousStop();
-        this.continuousPlayFlag = false;
+        this.isPlaying = false;
     }
 
     private continuousStop() {}

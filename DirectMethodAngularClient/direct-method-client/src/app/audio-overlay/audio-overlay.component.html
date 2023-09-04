@@ -20,7 +20,7 @@
             <option value="ru">ru</option>
             <option value="uk-UA">uk-UA</option>
         </select>
-        <svg (click)="onRecognizing()" [style.pointer-events]="isRecognizeEnabled() ? 'auto' : 'none'"
+        <svg (click)="onRecognizing(1, 0.0, false)" [style.pointer-events]="isRecognizeEnabled() ? 'auto' : 'none'"
             [class.pulsing]="isRecognizing()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
             [style.fill]="isRecognizeEnabled() ? (isRecognizing() ? 'red' : 'black') : 'gray'"
             class="w-12 h-12 button-effect">
@@ -73,7 +73,7 @@
         </article>
     </div>
     <div>
-        <label [style.color]="getColor(comparison_result)" id="comparison-result">Error: {{comparison_result}}</label>
+        <label [style.color]="getColor(comparison_result_text)" id="comparison-result">Error: {{comparison_result_text}}</label>
     </div>
     <textarea matInput class="flex-grow w-full border border-black">
         {{transcript}}

@@ -59,4 +59,12 @@ export class SpeechRecognitionService {
     onEnd(callback: () => void) {
         this.endSubject.subscribe(callback);
     }
+
+    recognitionEnded(): Promise<void> {
+        return new Promise(resolve => {
+          this.onEnd(() => {
+            resolve();
+          });
+        });
+      }      
 }

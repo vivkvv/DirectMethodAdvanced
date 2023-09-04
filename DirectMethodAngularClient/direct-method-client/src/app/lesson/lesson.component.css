@@ -50,3 +50,7 @@ header svg {
 .panel-hidden {
     display: none;
   }
+
+  .disabled-button {
+    @apply pointer-events-none opacity-50;
+  }

@@ -19,7 +19,8 @@ export enum AudioState {
     styleUrls: ['./audio-overlay.component.css'],
 })
 export class AudioOverlayComponent implements OnInit {
-    comparison_result: string = '';
+    comparison_result: number = 0;
+    comparison_result_text: string = '';
     audio_buffer: AudioBuffer | undefined = undefined;
     source: AudioBufferSourceNode | undefined = undefined;
     episode_source: AudioBufferSourceNode | undefined = undefined;
@@ -104,8 +105,9 @@ export class AudioOverlayComponent implements OnInit {
                         desired_text
                     );
                     this.comparison_result =
-                        ((100 * difference) / desired_text.length).toFixed(1) +
-                        '%';
+                        (100 * difference) / desired_text.length;
+                    this.comparison_result_text =
+                        this.comparison_result.toFixed(1) + '%';
                 }
             }
 
@@ -192,9 +194,24 @@ export class AudioOverlayComponent implements OnInit {
         this.cd.detectChanges();
     }
 
-    onRecognizing() {
+    async onRecognizing(
+        attemptsNumber: number,
+        acceptedResult: number,
+        checkResult: boolean
+    ) {
         if (this.audioState === AudioState.AS_NONE) {
-            this.speechRecognitionService.start();
+            let attempts = 0;
+            while (attempts < attemptsNumber) {
+                ++attempts;
+                this.speechRecognitionService.start();
+
+                if (checkResult) {
+                    await this.speechRecognitionService.recognitionEnded();
+                    if (this.comparison_result <= acceptedResult) {
+                        break;
+                    }
+                }
+            }
         } else if (this.audioState === AudioState.AS_RECOGNIZE) {
             this.speechRecognitionService.stopListening();
         }
