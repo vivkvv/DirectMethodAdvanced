@@ -11,7 +11,8 @@ export class OnRealStudentAnswer {
     use!: boolean;
     playSignal!: boolean;
     openSpeechRecognitionDialog!: boolean;
-    runSpeechRecognitionAuto!: boolean;
+    closeSpeechRecognitionDialog!: boolean;
+    useEvaluation!: boolean;
     maximumAttempts!: number;
     maximumError!: number;
 }
@@ -69,10 +70,10 @@ export class OptionsService {
             use: false,
             playSignal: false,
             openSpeechRecognitionDialog: true,
-            runSpeechRecognitionAuto: true,
+            closeSpeechRecognitionDialog: true,
+            useEvaluation: true,
             maximumAttempts: 3,
             maximumError: 30
-        }
-
+        }   
     };
 }

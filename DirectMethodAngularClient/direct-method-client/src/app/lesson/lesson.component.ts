@@ -247,7 +247,7 @@ export class LessonComponent implements OnInit {
             this.optionsService.continuousLessonOptions.pauseAfterPhrase;
 
         const useRealStudent =
-            this.optionsService.continuousLessonOptions.onRealStudentAnswer.use;
+            this.optionsService.continuousLessonOptions.onRealStudentAnswer.useEvaluation;
         const playRealStudentSignal =
             this.optionsService.continuousLessonOptions.onRealStudentAnswer
                 .playSignal;

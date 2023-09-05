@@ -8,4 +8,20 @@ import { OnRealStudentAnswer } from 'src/app/services/Options/options.service';
 })
 export class OnRealStudentAnswerGroupComponent {
     @Input() onRealStudentAnswer!: OnRealStudentAnswer;
+
+    selectedChoice: string = 'automatic';
+
+    isAutomaticRecognizingDisabled() {
+        return !this.onRealStudentAnswer.use || !this.onRealStudentAnswer.openSpeechRecognitionDialog;
+    }
+
+    isUseEvaluationDisabled() {
+        return !this.onRealStudentAnswer.use || !this.onRealStudentAnswer.openSpeechRecognitionDialog || 
+            this.selectedChoice != 'automatic';
+    }
+
+    isMaximumAttemptsDisabled() {
+        return !this.onRealStudentAnswer.use || !this.onRealStudentAnswer.openSpeechRecognitionDialog || 
+        this.selectedChoice != 'automatic' || !this.onRealStudentAnswer.useEvaluation;
+    }
 }

@@ -18,24 +18,64 @@
         <label for="open_speech_recognition_id" class="ml-2">Open speech recognition dialog</label>
     </div>
 
-    <div class="block-container">
-        <div class="w-full md:w-1/2">
-            <input type="checkbox" id="automatic_run_speech_recognition_id" disabled="{{!onRealStudentAnswer.use}}"
-                [(ngModel)]="onRealStudentAnswer.runSpeechRecognitionAuto">
-            <label for="automatic_run_speech_recognition_id" class="ml-2">Run speech recognition
-                automatically</label>
-        </div>
+    <fieldset class="block-container p-3 m-3 border border-solid border-gray-400">
+        <div class="block-container">
+            <div>
+                <div>
+                    <input type="radio" id="pause" name="choice" value="manual" [(ngModel)]="selectedChoice"
+                        disabled="{{!onRealStudentAnswer.use || !onRealStudentAnswer.openSpeechRecognitionDialog}}">
+                    <label for="manul">Manual recognizing</label>
+                </div>
+                <div *ngIf="selectedChoice === 'pause'">
+                </div>
+            </div>
 
-        <div class="flex w-full md:w-1/2 mb-2 mt-4">
-            <label for="max_attempts_id" class="ml-2 flex-1">Maximum attepts</label>
-            <input type="number" id="max_attempts_id" class="border border-solid border-black flex-1"
-                disabled="{{!onRealStudentAnswer.use}}" [(ngModel)]="onRealStudentAnswer.maximumAttempts">
-        </div>
+            <div>
+                <div>
+                    <input type="radio" id="automatic" name="choice" value="automatic" [(ngModel)]="selectedChoice"
+                        disabled="{{isAutomaticRecognizingDisabled()}}">
+                    <label for="automatic">Automatic recognizing</label>
+                </div>
 
-        <div class="flex w-full md:w-1/2">
-            <label for="max_error_id" class="ml-2 flex-1">Maximum error, %</label>
-            <input type="number" id="max_error_id" class="border border-solid border-black flex-1"
-                disabled="{{!onRealStudentAnswer.use}}" [(ngModel)]="onRealStudentAnswer.maximumError">
+                <div *ngIf="selectedChoice === 'automatic'">
+
+                    <fieldset class="block-container p-3 m-3 border border-solid border-gray-400">
+
+                        <div class="w-full md:w-1/2">
+                            <input type="checkbox" id="use_evaluation_id" disabled="{{isUseEvaluationDisabled()}}"
+                                [(ngModel)]="onRealStudentAnswer.useEvaluation">
+                            <label for="use_evaluation_id" class="ml-2">Use evaluation</label>
+                        </div>
+
+                        <fieldset class="block-container p-3 m-3 border border-solid border-gray-400">
+                            <div class="flex w-full md:w-1/2 mb-2 mt-4">
+                                <label for="max_attempts_id" class="ml-2 flex-1">Maximum attepts</label>
+                                <input type="number" id="max_attempts_id"
+                                    class="border border-solid border-black flex-1"
+                                    disabled="{{isMaximumAttemptsDisabled()}}"
+                                    [(ngModel)]="onRealStudentAnswer.maximumAttempts">
+                            </div>
+
+
+                            <div class="flex w-full md:w-1/2">
+                                <label for="max_error_id" class="ml-2 flex-1">Maximum error, %</label>
+                                <input type="number" id="max_error_id" class="border border-solid border-black flex-1"
+                                    disabled="{{isMaximumAttemptsDisabled()}}"
+                                    [(ngModel)]="onRealStudentAnswer.maximumError">
+                            </div>
+                        </fieldset>
+
+                        <div class="w-full md:w-1/2">
+                            <input type="checkbox" id="close_automatically_id"
+                                disabled="{{!onRealStudentAnswer.use || !onRealStudentAnswer.openSpeechRecognitionDialog}}"
+                                [(ngModel)]="onRealStudentAnswer.closeSpeechRecognitionDialog">
+                            <label for="close_automatically_id" class="ml-2">Close automatically</label>
+                        </div>
+
+
+                    </fieldset>
+                </div>
+            </div>
         </div>
-    </div>
+    </fieldset>
 </fieldset>
