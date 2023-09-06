@@ -14,7 +14,7 @@ export class EventsService {
     @InjectModel(Action.name) private readonly actionModel: Model<Action>,
     @InjectModel(User.name) private readonly userModel: Model<User>,
     private readonly userService: UserService,
-    private readonly actionService: ActionService
+    private readonly actionService: ActionService,
   ) {}
 
   async createEvent(
@@ -47,6 +47,11 @@ export class EventsService {
   async createExitEvent(userUniqId) {
     const action = await this.actionService.getActionByName('exit');
     const user = await this.userService.getUserByUserUniqId(userUniqId);
-    return await this.createEvent(user._id, action._id, new Date(), null);
+    if (Boolean(action) && Boolean(user)) {
+      await this.createEvent(user._id, action._id, new Date(), null);
+    }
+    else {
+      console.log("Can't find user for %s", userUniqId);
+    }
   }
 }
