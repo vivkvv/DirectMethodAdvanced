@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 export class FontOptions {
     visibility!: boolean;
@@ -10,11 +10,16 @@ export class FontOptions {
 @Component({
     selector: 'font-group',
     templateUrl: './font-group.html',
-    styleUrls: ['./font-group.css']
+    styleUrls: ['./font-group.css'],
 })
 export class FontGroupComponent {
     @Input() groupName: string = 'Default Font Group Name';
     @Input() fontOptions!: FontOptions;
+    @Output() fontChanged: EventEmitter<void> = new EventEmitter<void>();
 
     availableFonts: string[] = ['Arial', 'Verdana', 'Times New Roman'];
+
+    onPropertyChange() {
+        this.fontChanged.emit();
+    }
 }

@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { UserService } from './UserService/user.service';
+import { OptionsService } from './Options/options.service';
 
 export interface LoginData {
     method: 'google' | 'github' | 'facebook' | 'direct';
@@ -18,7 +19,8 @@ export class AuthService {
     constructor(
         private http: HttpClient,
         private router: Router,
-        private userService: UserService
+        private userService: UserService,
+        private optionsService: OptionsService
     ) {}
 
     // login(username: string, password: string) {
@@ -47,6 +49,9 @@ export class AuthService {
                 } else {
                     this.authError = null;
                     localStorage.setItem('access_token', data.access_token);
+
+                    this.optionsService.deserialize();
+
                     this.userService.setUsername(data.user_name);
                     this.router.navigate(['/topic-list']);
                 }

@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { FontOptions } from 'src/app/options/font-group/font-group.component';
+import { HttpClient } from '@angular/common/http';
 
 export class DigitalStudent {
     use!: boolean;
@@ -24,10 +25,7 @@ export class ContinuousLessonOptions {
     onRealStudentAnswer!: OnRealStudentAnswer;
 }
 
-@Injectable({
-    providedIn: 'root',
-})
-export class OptionsService {
+class SerializableOptions{
     teacherFont: FontOptions = {
         visibility: true,
         fontFamily: 'Arial',
@@ -57,13 +55,13 @@ export class OptionsService {
     };
 
     continuousLessonOptions: ContinuousLessonOptions = {
-        pauseBeforePhrase:  0.5,
+        pauseBeforePhrase: 0.5,
         pauseAfterPhrase: 0.5,
-        
+
         digitalStudent: {
             use: false,
             amount: 0,
-            realStudentOrder: 0
+            realStudentOrder: 0,
         },
 
         onRealStudentAnswer: {
@@ -73,7 +71,31 @@ export class OptionsService {
             closeSpeechRecognitionDialog: true,
             useEvaluation: true,
             maximumAttempts: 3,
-            maximumError: 30
-        }   
+            maximumError: 30,
+        },
     };
+}
+
+@Injectable({
+    providedIn: 'root',
+})
+export class OptionsService {
+    constructor(private http: HttpClient) {
+        this.options = new SerializableOptions();
+    }
+
+    serialize() {
+        const payload = JSON.parse(JSON.stringify(this.options));
+        this.http.post('/api/db/save_options', payload).subscribe();
+    }
+
+    deserialize() {
+        this.http.post('/api/db/load_options', null).subscribe(
+            (payload) => Object.assign(this.options, payload),
+            (error) => console.error('ailed to deserialize options:', error)
+        );
+    }
+
+    options: SerializableOptions;
+
 }

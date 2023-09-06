@@ -13,4 +13,13 @@ export class ActionService {
     const newAction = new this.actionModel({ name });
     return await newAction.save();
   }
+
+  async getActionByName(actionName: string) {
+    const action = await this.actionModel.findOne({ name: actionName }).exec();
+    if (!action) {
+      throw new Error("Action 'register' is not found");
+    }
+    return action;
+  }
+
 }

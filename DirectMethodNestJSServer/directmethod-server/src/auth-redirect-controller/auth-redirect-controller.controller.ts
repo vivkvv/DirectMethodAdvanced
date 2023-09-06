@@ -12,7 +12,7 @@ export class AuthRedirectControllerController {
   @Get('authorization-checking')
   // @Redirect(redirect_url)
   authorizationChecking(@Req() req: Request, @Res() res: Response) {
-    console.log('After Gooogle AuthRedirectControllerController');
+    console.log('After Google AuthRedirectControllerController');
     res.redirect(`${redirect_url}?oauth2_redirect=google`);
   }
 }

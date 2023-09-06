@@ -4,7 +4,7 @@ import { OAuth2Client } from 'google-auth-library';
 
 class User {
   email: string;
-  // другие свойства, которые могут быть вам нужны
+  //userId: string;
 }
 
 export interface DirectUser {
@@ -14,7 +14,7 @@ export interface DirectUser {
 }
 
 export interface GoogleUser {
-  username: string;
+  email: string;
   userId: string;
 }
 
@@ -42,7 +42,7 @@ export class AuthService {
 
   async logout(username: string): Promise<boolean> {
     const index = this.registeredUsers.findIndex(
-      (user) => user.username === username,
+      (user) => user.email === username,
     );
 
     if (index !== -1) {
@@ -58,7 +58,7 @@ export class AuthService {
 
     // 1. check if user already exists
     const exists = this.registeredUsers.some(
-      (user) => user.username === registerUser.username,
+      (user) => user.email === registerUser.email,
     );
 
     if (exists) {
@@ -86,7 +86,7 @@ export class AuthService {
   //   return this.jwtService.sign(payload);
   // }
 
-  async validateGoogleUser(token: string): Promise<User | null> {
+  async validateGoogleUser(token: string): Promise<GoogleUser | null> {
     try {
       const ticket = await this.googleClient.verifyIdToken({
         idToken: token,
@@ -99,7 +99,7 @@ export class AuthService {
 
       // registering on the database
       if (payload && payload.email) {
-        return { email: payload.email };
+        return { email: payload.email, userId: userId };
       }
     } catch (error) {
       console.log('Error on checking Google token:', error);

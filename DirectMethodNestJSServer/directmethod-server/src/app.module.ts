@@ -13,6 +13,11 @@ import { PrevLessonController } from './prev.lesson/prev.lesson.controller';
 import { NotFoundController } from './not-found-controller/not-found.controller';
 import { AuthRedirectControllerController } from './auth-redirect-controller/auth-redirect-controller.controller';
 import { DatabaseModule } from './mangoose-service/mongoose.module';
+import { DBService } from './mangoose-service/services/db.service';
+import { UserService } from './mangoose-service/services/user.service';
+import { EventsService } from './mangoose-service/services/events.service';
+import { ActionService } from './mangoose-service/services/actions.service';
+import { OptionsService } from './mangoose-service/services/options.service';
 //import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
@@ -21,7 +26,7 @@ import { DatabaseModule } from './mangoose-service/mongoose.module';
       secret: 'secretKey',
       signOptions: { expiresIn: '1d' },
     }),
-    DatabaseModule
+    DatabaseModule,
     // MongooseModule.forRoot(
     //   'mongodb+srv://vivkvv:CF5rGfrtvEF2vGs7@directcluster0.tyh8vrd.mongodb.net/?retryWrites=true&w=majority',
     // ),
@@ -37,6 +42,15 @@ import { DatabaseModule } from './mangoose-service/mongoose.module';
     NotFoundController,
     AuthRedirectControllerController,
   ],
-  providers: [AppService, AuthService, FilesService],
+  providers: [
+    AppService,
+    AuthService,
+    FilesService,
+    DBService,
+    UserService,
+    EventsService,
+    ActionService,
+    OptionsService,
+  ],
 })
 export class AppModule {}

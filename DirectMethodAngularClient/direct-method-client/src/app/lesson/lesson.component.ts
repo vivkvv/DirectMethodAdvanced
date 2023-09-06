@@ -143,7 +143,7 @@ export class LessonComponent implements OnInit {
     }
 
     async closeAudioDialog() {
-        await this.dialogRef?.close()
+        await this.dialogRef?.close();
     }
 
     exit() {
@@ -241,25 +241,18 @@ export class LessonComponent implements OnInit {
     }
 
     private async continuousPlay() {
-        const pauseBefore =
-            this.optionsService.continuousLessonOptions.pauseBeforePhrase;
-        const pauseAfter =
-            this.optionsService.continuousLessonOptions.pauseAfterPhrase;
+        const opt = this.optionsService.options.continuousLessonOptions;
+        const realStudentAnswer = opt.onRealStudentAnswer;
 
-        const useRealStudent =
-            this.optionsService.continuousLessonOptions.onRealStudentAnswer.useEvaluation;
-        const playRealStudentSignal =
-            this.optionsService.continuousLessonOptions.onRealStudentAnswer
-                .playSignal;
+        const pauseBefore = opt.pauseBeforePhrase;
+        const pauseAfter = opt.pauseAfterPhrase;
+
+        const useRealStudent = realStudentAnswer.use;
+        const playRealStudentSignal = realStudentAnswer.playSignal;
         const openRecognitionDialog =
-            this.optionsService.continuousLessonOptions.onRealStudentAnswer
-                .openSpeechRecognitionDialog;
-        const attemptsNumber =
-            this.optionsService.continuousLessonOptions.onRealStudentAnswer
-                .maximumAttempts;
-        const acceptableResult =
-            this.optionsService.continuousLessonOptions.onRealStudentAnswer
-                .maximumError;
+            realStudentAnswer.openSpeechRecognitionDialog;
+        const attemptsNumber = realStudentAnswer.maximumAttempts;
+        const acceptableResult = realStudentAnswer.maximumError;
 
         while (this.isPlaying && !this.currentEpisodeIsLast()) {
             await this.sleep(1000 * pauseBefore);

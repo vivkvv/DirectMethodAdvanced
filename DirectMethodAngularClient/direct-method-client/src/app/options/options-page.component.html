@@ -2,12 +2,12 @@
 
     <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
-            <input type="checkbox" id="cb_show_teacher_text_id"
-                [(ngModel)]="optionsService.teacherFont.visibility">
+            <input type="checkbox" id="cb_show_teacher_text_id" [(ngModel)]="optionsService.options.teacherFont.visibility"
+                (ngModelChange)="optionsService.serialize()">
             <label for="cb_show_teacher_text_id" class="ml-2">Show teacher's text</label>
         </div>
         <div class="w-full md:w-1/2 p-3">
-            <font-group [fontOptions]="optionsService.teacherFont"
+            <font-group [fontOptions]="optionsService.options.teacherFont" (fontChanged)="optionsService.serialize()"
                 groupName="Teacher's font"></font-group>
         </div>
     </div>
@@ -15,33 +15,37 @@
     <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
             <input type="checkbox" id="cb_show_teacher_translation_text_id"
-                [(ngModel)]="optionsService.teacherTranslatedFont.visibility">
+                [(ngModel)]="optionsService.options.teacherTranslatedFont.visibility"
+                (ngModelChange)="optionsService.serialize()">
             <label for="cb_show_teacher_translation_text_id" class="ml-2">Show teacher's text</label>
         </div>
         <div class="w-full md:w-1/2 p-3">
-            <font-group [fontOptions]="optionsService.teacherTranslatedFont"
+            <font-group [fontOptions]="optionsService.options.teacherTranslatedFont" (fontChanged)="optionsService.serialize()"
                 groupName="Teacher's translation font"></font-group>
         </div>
     </div>
 
     <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
-            <input type="checkbox" id="cb_show_student_text_id" [(ngModel)]="optionsService.studentFont.visibility">
+            <input type="checkbox" id="cb_show_student_text_id" [(ngModel)]="optionsService.options.studentFont.visibility"
+                (ngModelChange)="optionsService.serialize()">
             <label for="cb_show_student_text_id" class="ml-2">Show students's text</label>
         </div>
         <div class="w-full md:w-1/2 p-3">
-            <font-group [fontOptions]="optionsService.studentFont" groupName="Students's font"></font-group>
+            <font-group [fontOptions]="optionsService.options.studentFont" (fontChanged)="optionsService.serialize()"
+                groupName="Students's font"></font-group>
         </div>
     </div>
 
     <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
             <input type="checkbox" id="cb_show_student_translation_text_id"
-                [(ngModel)]="optionsService.studentTranslatedFont.visibility">
+                [(ngModel)]="optionsService.options.studentTranslatedFont.visibility"
+                (ngModelChange)="optionsService.serialize()">
             <label for="cb_show_student_translation_text_id" class="ml-2">Show student's translation</label>
         </div>
         <div class="w-full md:w-1/2 p-3">
-            <font-group [fontOptions]="optionsService.studentTranslatedFont"
+            <font-group [fontOptions]="optionsService.options.studentTranslatedFont" (fontChanged)="optionsService.serialize()"
                 groupName="Students's translation font"></font-group>
         </div>
     </div>
@@ -51,21 +55,27 @@
         <div class="flex w-full md:w-1/2 mb-2">
             <label for="pause_before_phrase_id" class="ml-2 flex-1">Pause before phrase, s</label>
             <input type="number" id="pause_before_phrase_id" class="border border-solid border-black flex-1"
-                [(ngModel)]="optionsService.continuousLessonOptions.pauseBeforePhrase">
+                [(ngModel)]="optionsService.options.continuousLessonOptions.pauseBeforePhrase"
+                (ngModelChange)="optionsService.serialize()">
         </div>
 
         <div class="flex w-full md:w-1/2">
             <label for="pause_after_phrase_id" class="ml-2 flex-1">Pause after phrase, s</label>
             <input type="number" id="pause_before_phrase_id" class="border border-solid border-black flex-1"
-                [(ngModel)]="optionsService.continuousLessonOptions.pauseAfterPhrase">
+                [(ngModel)]="optionsService.options.continuousLessonOptions.pauseAfterPhrase"
+                (ngModelChange)="optionsService.serialize()">
         </div>
 
         <div>
-            <digital-students-group [digitalStudent]="optionsService.continuousLessonOptions.digitalStudent"></digital-students-group>
+            <digital-students-group
+                [digitalStudent]="optionsService.options.continuousLessonOptions.digitalStudent"></digital-students-group>
         </div>
 
         <div>
-            <on-real-student-answer-group [onRealStudentAnswer]="optionsService.continuousLessonOptions.onRealStudentAnswer"></on-real-student-answer-group>
+            <on-real-student-answer-group
+                [onRealStudentAnswer]="optionsService.options.continuousLessonOptions.onRealStudentAnswer"
+                (realStudentChanged)="optionsService.serialize()"
+                (ngModelChange)="optionsService.serialize()"></on-real-student-answer-group>
         </div>
 
     </fieldset>

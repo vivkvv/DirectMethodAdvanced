@@ -191,13 +191,13 @@
             </div>
 
             <div (click)="onPlay(false)" class="mb-10">
-                <app-entity-block [fontOptions]="optionsService.teacherFont"
-                    [translatedFontOptions]="optionsService.teacherTranslatedFont"
+                <app-entity-block [fontOptions]="optionsService.options.teacherFont"
+                    [translatedFontOptions]="optionsService.options.teacherTranslatedFont"
                     [entity]="questionEntity"></app-entity-block>
             </div>
             <div (click)="onPlay(true)">
-                <app-entity-block [fontOptions]="optionsService.studentFont"
-                    [translatedFontOptions]="optionsService.studentTranslatedFont"
+                <app-entity-block [fontOptions]="optionsService.options.studentFont"
+                    [translatedFontOptions]="optionsService.options.studentTranslatedFont"
                     [entity]="answerEntity"></app-entity-block>
             </div>
         </section>

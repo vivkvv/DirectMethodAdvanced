@@ -2,19 +2,20 @@
     <legend>On real student answer</legend>
 
     <div class="w-full md:w-1/2">
-        <input type="checkbox" id="on_real_student_answer_use_id" [(ngModel)]="onRealStudentAnswer.use">
+        <input type="checkbox" id="on_real_student_answer_use_id" [(ngModel)]="onRealStudentAnswer.use"
+            (ngModelChange)="onPropertyChange()">
         <label for="on_real_student_answer_use_id" class="ml-2">Use</label>
     </div>
 
     <div class="w-full md:w-1/2">
         <input type="checkbox" id="signal_on_real_tudent_answer_id" disabled="{{!onRealStudentAnswer.use}}"
-            [(ngModel)]="onRealStudentAnswer.playSignal">
+            [(ngModel)]="onRealStudentAnswer.playSignal" (ngModelChange)="onPropertyChange()">
         <label for=" signal_on_real_tudent_answer_id" class="ml-2">Play signal</label>
     </div>
 
     <div class="w-full md:w-1/2">
         <input type="checkbox" id="open_speech_recognition_id" disabled="{{!onRealStudentAnswer.use}}"
-            [(ngModel)]="onRealStudentAnswer.openSpeechRecognitionDialog">
+            [(ngModel)]="onRealStudentAnswer.openSpeechRecognitionDialog" (ngModelChange)="onPropertyChange()">
         <label for="open_speech_recognition_id" class="ml-2">Open speech recognition dialog</label>
     </div>
 
@@ -23,6 +24,7 @@
             <div>
                 <div>
                     <input type="radio" id="pause" name="choice" value="manual" [(ngModel)]="selectedChoice"
+                        (ngModelChange)="onPropertyChange()"
                         disabled="{{!onRealStudentAnswer.use || !onRealStudentAnswer.openSpeechRecognitionDialog}}">
                     <label for="manul">Manual recognizing</label>
                 </div>
@@ -33,7 +35,7 @@
             <div>
                 <div>
                     <input type="radio" id="automatic" name="choice" value="automatic" [(ngModel)]="selectedChoice"
-                        disabled="{{isAutomaticRecognizingDisabled()}}">
+                        (ngModelChange)="onPropertyChange()" disabled="{{isAutomaticRecognizingDisabled()}}">
                     <label for="automatic">Automatic recognizing</label>
                 </div>
 
@@ -43,7 +45,7 @@
 
                         <div class="w-full md:w-1/2">
                             <input type="checkbox" id="use_evaluation_id" disabled="{{isUseEvaluationDisabled()}}"
-                                [(ngModel)]="onRealStudentAnswer.useEvaluation">
+                                (ngModelChange)="onPropertyChange()" [(ngModel)]="onRealStudentAnswer.useEvaluation">
                             <label for="use_evaluation_id" class="ml-2">Use evaluation</label>
                         </div>
 
@@ -53,25 +55,25 @@
                                 <input type="number" id="max_attempts_id"
                                     class="border border-solid border-black flex-1"
                                     disabled="{{isMaximumAttemptsDisabled()}}"
-                                    [(ngModel)]="onRealStudentAnswer.maximumAttempts">
+                                    [(ngModel)]="onRealStudentAnswer.maximumAttempts"
+                                    (ngModelChange)="onPropertyChange()">
                             </div>
-
 
                             <div class="flex w-full md:w-1/2">
                                 <label for="max_error_id" class="ml-2 flex-1">Maximum error, %</label>
                                 <input type="number" id="max_error_id" class="border border-solid border-black flex-1"
                                     disabled="{{isMaximumAttemptsDisabled()}}"
-                                    [(ngModel)]="onRealStudentAnswer.maximumError">
+                                    [(ngModel)]="onRealStudentAnswer.maximumError" (ngModelChange)="onPropertyChange()">
                             </div>
                         </fieldset>
 
                         <div class="w-full md:w-1/2">
                             <input type="checkbox" id="close_automatically_id"
                                 disabled="{{!onRealStudentAnswer.use || !onRealStudentAnswer.openSpeechRecognitionDialog}}"
-                                [(ngModel)]="onRealStudentAnswer.closeSpeechRecognitionDialog">
+                                [(ngModel)]="onRealStudentAnswer.closeSpeechRecognitionDialog"
+                                (ngModelChange)="onPropertyChange()">
                             <label for="close_automatically_id" class="ml-2">Close automatically</label>
                         </div>
-
 
                     </fieldset>
                 </div>

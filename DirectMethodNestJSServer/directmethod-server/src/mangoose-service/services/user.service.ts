@@ -17,4 +17,12 @@ export class UserService {
     const newUser = new this.userModel({ methodsId, userUniqId });
     return await newUser.save();
   }
+
+  async getUserByUserUniqId(userUniqId) {
+    const user = await this.userModel
+      .findOne({ userUniqId: userUniqId })
+      .exec();
+    return user;
+  }
+
 }
