@@ -133,7 +133,7 @@
   <translation>Что это за число?</translation>
  </item>
  <item id="30">
-  <translation>Это триста тринадцать, тысяча восьсот пятнадцать, миллион девятьсот рятьдесят тысяч шестьсот тридцать</translation>
+  <translation>Это триста тринадцать, тысяча восьсот пятнадцать, миллион девятьсот пятьдесят тысяч шестьсот тридцать</translation>
  </item>
  <item id="31">
   <translation>плюс</translation>
@@ -181,7 +181,7 @@
   <translation>Двадцать плюс пятнадцать?</translation>
  </item>
  <item id="44">
-  <translation>Десять плюс три?</translation>
+  <translation>Десять плюс тридцать?</translation>
  </item>
  <item id="45">
   <translation>есть (это есть)</translation>
@@ -280,10 +280,10 @@
   <translation>высокий</translation>
  </item>
  <item id="64">
-  <translation/>
+  <translation>низкий</translation>
  </item>
  <item id="65">
-  <translation/>
+  <translation>но</translation>
  </item>
  <item id="66">
   <translation>Стул - высокий?</translation>

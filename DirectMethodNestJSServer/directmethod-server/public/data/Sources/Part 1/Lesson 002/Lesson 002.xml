@@ -345,132 +345,132 @@
   <text>Am I opening the window?</text>
   <image/>
  </item>
- <item id="46" start="208.8" duration="4.333">
+ <item id="46" start="208.8" duration="3.6">
   <person>Student</person>
   <text>No, you aren't opening the window; you're closing the book</text>
   <image/>
  </item>
- <item id="47" start="213.167" duration="1.633">
+ <item id="47" start="213.167" duration="1.2">
   <person>Teacher</person>
   <text>doing</text>
   <image/>
  </item>
- <item id="48" start="214.8" duration="2.1">
+ <item id="48" start="214.8" duration="1.6">
   <person>Teacher</person>
   <text>what am I doing?</text>
   <image/>
  </item>
- <item id="49" start="216.933" duration="2.067">
+ <item id="49" start="216.933" duration="1.4">
   <person>Teacher</person>
   <text>What am I doing?</text>
   <image/>
  </item>
- <item id="49" start="219.0" duration="3.233">
+ <item id="49" start="219.0" duration="2.5">
   <person>Student</person>
   <text>You're taking the book from the table</text>
   <image/>
  </item>
- <item id="50" start="222.267" duration="2.0">
+ <item id="50" start="222.267" duration="1.5">
   <person>Teacher</person>
   <text>What am I doing?</text>
   <image/>
  </item>
- <item id="50" start="224.267" duration="2.333">
+ <item id="50" start="224.267" duration="1.8">
   <person>Student</person>
   <text>You're opening the book</text>
   <image/>
  </item>
- <item id="51" start="226.633" duration="2.033">
+ <item id="51" start="226.633" duration="1.4">
   <person>Teacher</person>
   <text>What am I doing?</text>
   <image/>
  </item>
- <item id="51" start="228.7" duration="2.4">
+ <item id="51" start="228.7" duration="1.7">
   <person>Student</person>
   <text>You're closing the book</text>
   <image/>
  </item>
- <item id="52" start="231.1" duration="2.0">
+ <item id="52" start="231.1" duration="1.5">
   <person>Teacher</person>
   <text>What am I doing?</text>
   <image/>
  </item>
- <item id="52" start="233.133" duration="3.233">
+ <item id="52" start="233.133" duration="2.6">
   <person>Student</person>
   <text>You're putting the book on the table</text>
   <image/>
  </item>
- <item id="53" start="236.4" duration="1.567">
+ <item id="53" start="236.4" duration="1.0">
   <person>Teacher</person>
   <text>which</text>
   <image/>
  </item>
- <item id="54" start="237.967" duration="2.567">
+ <item id="54" start="237.967" duration="1.9">
   <person>Teacher</person>
   <text>Which pencil's black?</text>
   <image/>
  </item>
- <item id="54" start="240.567" duration="2.567">
+ <item id="54" start="240.567" duration="1.9">
   <person>Student</person>
   <text>This pencil's black</text>
   <image/>
  </item>
- <item id="55" start="243.167" duration="2.533">
+ <item id="55" start="243.167" duration="1.9">
   <person>Teacher</person>
   <text>Which pencil's white?</text>
   <image/>
  </item>
- <item id="55" start="245.7" duration="2.533">
+ <item id="55" start="245.7" duration="1.9">
   <person>Student</person>
   <text>This pencil's white</text>
   <image/>
  </item>
- <item id="56" start="248.267" duration="2.567">
+ <item id="56" start="248.267" duration="2.0">
   <person>Teacher</person>
   <text>Which pencil's green?</text>
   <image/>
  </item>
- <item id="56" start="250.833" duration="2.5">
+ <item id="56" start="250.833" duration="2.0">
   <person>Student</person>
   <text>This pencil's green</text>
   <image/>
  </item>
- <item id="57" start="253.367" duration="2.6">
+ <item id="57" start="253.367" duration="2.0">
   <person>Teacher</person>
   <text>Which pencil's brown?</text>
   <image/>
  </item>
- <item id="57" start="255.967" duration="2.567">
+ <item id="57" start="255.967" duration="2.0">
   <person>Student</person>
   <text>This pencil's brown</text>
   <image/>
  </item>
- <item id="58" start="258.533" duration="1.6">
+ <item id="58" start="258.533" duration="0.9">
   <person>Teacher</person>
   <text>open</text>
   <image/>
  </item>
- <item id="59" start="260.167" duration="1.7">
+ <item id="59" start="260.167" duration="0.9">
   <person>Teacher</person>
   <text>closed</text>
   <image/>
  </item>
- <item id="60" start="261.867" duration="2.2">
+ <item id="60" start="261.867" duration="1.5">
   <person>Teacher</person>
   <text>Which book's open?</text>
   <image/>
  </item>
- <item id="60" start="264.1" duration="2.5">
+ <item id="60" start="264.1" duration="1.8">
   <person>Student</person>
   <text>This book's open</text>
   <image/>
  </item>
- <item id="61" start="266.6" duration="2.5">
+ <item id="61" start="266.6" duration="1.6">
   <person>Teacher</person>
   <text>Which book's closed?</text>
   <image/>
  </item>
- <item id="61" start="269.1" duration="2.6">
+ <item id="61" start="269.1" duration="2.0">
   <person>Student</person>
   <text>This book's closed</text>
   <image/>
