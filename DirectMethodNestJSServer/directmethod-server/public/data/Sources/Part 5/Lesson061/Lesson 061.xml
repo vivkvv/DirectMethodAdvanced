@@ -1,0 +1,648 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="475.1">
+ <item id="0" start="0.267" duration="2.267">
+  <person>Teacher</person>
+  <text>Lesson 61</text>
+  <image/>
+ </item>
+ <item id="1" start="2.533" duration="1.567">
+  <person>Teacher</person>
+  <text>chat</text>
+  <image/>
+ </item>
+ <item id="2" start="4.1" duration="1.767">
+  <person>Teacher</person>
+  <text>online</text>
+  <image/>
+ </item>
+ <item id="3" start="5.867" duration="4.1">
+  <person>Teacher</person>
+  <text>Do you prefer chatting with your friends on the phone or online?</text>
+  <image/>
+ </item>
+ <item id="3" start="10.0" duration="3.4">
+  <person>Student</person>
+  <text>I prefer chatting with my friends online.</text>
+  <image/>
+ </item>
+ <item id="4" start="13.433" duration="1.5">
+  <person>Teacher</person>
+  <text>Why?</text>
+  <image/>
+ </item>
+ <item id="4" start="14.933" duration="2.4">
+  <person>Student</person>
+  <text>Because I can see them.</text>
+  <image/>
+ </item>
+ <item id="5" start="17.333" duration="3.6">
+  <person>Teacher</person>
+  <text>How often do you go online to look at your email?</text>
+  <image/>
+ </item>
+ <item id="5" start="20.967" duration="4.267">
+  <person>Student</person>
+  <text>I go online a few times a day to look at my email.</text>
+  <image/>
+ </item>
+ <item id="6" start="25.233" duration="1.6">
+  <person>Teacher</person>
+  <text>notice</text>
+  <image/>
+ </item>
+ <item id="7" start="26.867" duration="3.733">
+  <person>Teacher</person>
+  <text>Do you notice anything different about the classroom today?</text>
+  <image/>
+ </item>
+ <item id="7" start="30.6" duration="4.1">
+  <person>Student</person>
+  <text>Yes, I noticed something different about the classroom today.</text>
+  <image/>
+ </item>
+ <item id="8" start="34.733" duration="4.8">
+  <person>Teacher</person>
+  <text>What's the first thing you notice about people when you meet them for the first time?</text>
+  <image/>
+ </item>
+ <item id="8" start="39.533" duration="6.0">
+  <person>Student</person>
+  <text>The first thing I notice about people when I meet them for the first time is their eyes</text>
+  <image/>
+ </item>
+ <item id="9" start="45.533" duration="1.5">
+  <person>Teacher</person>
+  <text>free</text>
+  <image/>
+ </item>
+ <item id="10" start="47.067" duration="1.6">
+  <person>Teacher</person>
+  <text>busy</text>
+  <image/>
+ </item>
+ <item id="11" start="48.667" duration="2.8">
+  <person>Teacher</person>
+  <text>Are most people busy on Sunday?</text>
+  <image/>
+ </item>
+ <item id="11" start="51.5" duration="4.433">
+  <person>Student</person>
+  <text>No, most people aren't busy on Sunday; they're free.</text>
+  <image/>
+ </item>
+ <item id="12" start="55.967" duration="2.767">
+  <person>Teacher</person>
+  <text>What do we mean by a free meal?</text>
+  <image/>
+ </item>
+ <item id="12" start="58.733" duration="4.067">
+  <person>Student</person>
+  <text>Buy a free meal we mean that we don't have to pay for it.</text>
+  <image/>
+ </item>
+ <item id="13" start="62.8" duration="3.433">
+  <person>Teacher</person>
+  <text>Do you believe that the best things in life are free?</text>
+  <image/>
+ </item>
+ <item id="13" start="66.267" duration="4.133">
+  <person>Student</person>
+  <text>Yes, I believe that the best things in life are free.</text>
+  <image/>
+ </item>
+ <item id="14" start="70.4" duration="1.567">
+  <person>Teacher</person>
+  <text>lie</text>
+  <image/>
+ </item>
+ <item id="15" start="72.0" duration="1.767">
+  <person>Teacher</person>
+  <text>comfortable</text>
+  <image/>
+ </item>
+ <item id="16" start="73.767" duration="1.767">
+  <person>Teacher</person>
+  <text>uncomfortable</text>
+  <image/>
+ </item>
+ <item id="17" start="75.533" duration="1.6">
+  <person>Teacher</person>
+  <text>pillow</text>
+  <image/>
+ </item>
+ <item id="18" start="77.167" duration="2.833">
+  <person>Teacher</person>
+  <text>Is the book standing on the table?</text>
+  <image/>
+ </item>
+ <item id="18" start="80.0" duration="5.0">
+  <person>Student</person>
+  <text>No, the book isn't standing on the table; it's lying on the table.</text>
+  <image/>
+ </item>
+ <item id="19" start="85.0" duration="3.933">
+  <person>Teacher</person>
+  <text>Is it more comfortable to sleep lying down or sitting up?</text>
+  <image/>
+ </item>
+ <item id="19" start="88.933" duration="4.2">
+  <person>Student</person>
+  <text>It's more comfortable to sleep lying down than sitting up.</text>
+  <image/>
+ </item>
+ <item id="20" start="93.167" duration="3.633">
+  <person>Teacher</person>
+  <text>Do you find it comfortable to sleep without a pillow?</text>
+  <image/>
+ </item>
+ <item id="20" start="96.833" duration="5.967">
+  <person>Student</person>
+  <text>No, I don't find it comfortable to sleep without a pillow; I find it uncomfortable.</text>
+  <image/>
+ </item>
+ <item id="21" start="102.8" duration="4.267">
+  <person>Teacher</person>
+  <text>wake up - woke up - woken up</text>
+  <image/>
+ </item>
+ <item id="22" start="107.1" duration="1.9">
+  <person>Teacher</person>
+  <text>go to sleep</text>
+  <image/>
+ </item>
+ <item id="23" start="109.0" duration="1.933">
+  <person>Teacher</person>
+  <text>immediately</text>
+  <image/>
+ </item>
+ <item id="24" start="110.933" duration="1.667">
+  <person>Teacher</person>
+  <text>midnight</text>
+  <image/>
+ </item>
+ <item id="25" start="112.633" duration="3.2">
+  <person>Teacher</person>
+  <text>Do you usually go to sleep before midnight?</text>
+  <image/>
+ </item>
+ <item id="25" start="115.833" duration="4.0">
+  <person>Student</person>
+  <text>No, I don't usually go to sleep before midnight.</text>
+  <image/>
+ </item>
+ <item id="26" start="119.867" duration="2.8">
+  <person>Teacher</person>
+  <text>Do you generally wake up early?</text>
+  <image/>
+ </item>
+ <item id="26" start="122.667" duration="3.1">
+  <person>Student</person>
+  <text>Yes, I generally wake up early.</text>
+  <image/>
+ </item>
+ <item id="27" start="125.8" duration="2.933">
+  <person>Teacher</person>
+  <text>What are the three forms of &quot;wake up&quot;?</text>
+  <image/>
+ </item>
+ <item id="27" start="128.767" duration="5.933">
+  <person>Student</person>
+  <text>The three forms of &quot;wake up&quot; are &quot;wake up, woke up, woken up&quot;.</text>
+  <image/>
+ </item>
+ <item id="28" start="134.7" duration="3.967">
+  <person>Teacher</person>
+  <text>What was the first thing you saw when you woke up today?</text>
+  <image/>
+ </item>
+ <item id="28" start="138.7" duration="4.6">
+  <person>Student</person>
+  <text>The first thing I saw when I woke up today was the ceiling.</text>
+  <image/>
+ </item>
+ <item id="29" start="143.3" duration="3.3">
+  <person>Teacher</person>
+  <text>Have you ever woken up too late to go to school?</text>
+  <image/>
+ </item>
+ <item id="29" start="146.633" duration="4.4">
+  <person>Student</person>
+  <text>Yes, I've sometimes woken up too late to go to school.</text>
+  <image/>
+ </item>
+ <item id="30" start="151.067" duration="1.667">
+  <person>Teacher</person>
+  <text>through</text>
+  <image/>
+ </item>
+ <item id="31" start="152.733" duration="1.667">
+  <person>Teacher</person>
+  <text>button</text>
+  <image/>
+ </item>
+ <item id="32" start="154.4" duration="1.8">
+  <person>Teacher</person>
+  <text>buttonhole</text>
+  <image/>
+ </item>
+ <item id="33" start="156.233" duration="1.967">
+  <person>Teacher</person>
+  <text>What am I doing?</text>
+  <image/>
+ </item>
+ <item id="33" start="158.2" duration="4.2">
+  <person>Student</person>
+  <text>You're putting your pen through the buttonhole in your shirt.</text>
+  <image/>
+ </item>
+ <item id="34" start="162.433" duration="3.667">
+  <person>Teacher</person>
+  <text>When you look through your bedroom window, what do you see?</text>
+  <image/>
+ </item>
+ <item id="34" start="166.1" duration="4.3">
+  <person>Student</person>
+  <text>When I look through my bedroom window, I see some trees.</text>
+  <image/>
+ </item>
+ <item id="35" start="170.433" duration="5.367">
+  <person>Teacher</person>
+  <text>If you went from London to Rome, which cities would you perhaps have to go through?</text>
+  <image/>
+ </item>
+ <item id="35" start="175.8" duration="6.4">
+  <person>Student</person>
+  <text>If I went from London to Rome, I would perhaps have to go through Paris, Milan etc.</text>
+  <image/>
+ </item>
+ <item id="36" start="182.233" duration="1.7">
+  <person>Teacher</person>
+  <text>career</text>
+  <image/>
+ </item>
+ <item id="37" start="183.967" duration="2.667">
+  <person>Teacher</person>
+  <text>Would you like a career in the Army?</text>
+  <image/>
+ </item>
+ <item id="37" start="186.633" duration="3.6">
+  <person>Student</person>
+  <text>No, I wouldn't like a career in the Army.</text>
+  <image/>
+ </item>
+ <item id="38" start="190.233" duration="1.6">
+  <person>Teacher</person>
+  <text>cross</text>
+  <image/>
+ </item>
+ <item id="39" start="191.867" duration="1.833">
+  <person>Teacher</person>
+  <text>crossroads</text>
+  <image/>
+ </item>
+ <item id="40" start="193.7" duration="1.533">
+  <person>Teacher</person>
+  <text>test</text>
+  <image/>
+ </item>
+ <item id="41" start="195.267" duration="1.633">
+  <person>Teacher</person>
+  <text>What's this?</text>
+  <image/>
+ </item>
+ <item id="41" start="196.9" duration="2.0">
+  <person>Student</person>
+  <text>It's a cross.</text>
+  <image/>
+ </item>
+ <item id="42" start="198.933" duration="5.367">
+  <person>Teacher</person>
+  <text>When a teacher puts a cross next to an answer in a written test, what does it mean?</text>
+  <image/>
+ </item>
+ <item id="42" start="204.3" duration="6.5">
+  <person>Student</person>
+  <text>When a teacher puts a cross next to an answer in a written test, it means the answer is wrong.</text>
+  <image/>
+ </item>
+ <item id="43" start="210.833" duration="3.967">
+  <person>Teacher</person>
+  <text>Are there any crossroads at the end of the street where you live?</text>
+  <image/>
+ </item>
+ <item id="43" start="214.8" duration="4.533">
+  <person>Student</person>
+  <text>Yes, there are some crossroads at the end of the street where I live</text>
+  <image/>
+ </item>
+ <item id="44" start="219.367" duration="1.6">
+  <person>Teacher</person>
+  <text>danger</text>
+  <image/>
+ </item>
+ <item id="45" start="221.0" duration="1.767">
+  <person>Teacher</person>
+  <text>dangerous</text>
+  <image/>
+ </item>
+ <item id="46" start="222.767" duration="1.933">
+  <person>Teacher</person>
+  <text>dangerously</text>
+  <image/>
+ </item>
+ <item id="47" start="224.7" duration="1.733">
+  <person>Teacher</person>
+  <text>alcohol</text>
+  <image/>
+ </item>
+ <item id="48" start="226.467" duration="1.833">
+  <person>Teacher</person>
+  <text>detective</text>
+  <image/>
+ </item>
+ <item id="49" start="228.3" duration="3.0">
+  <person>Teacher</person>
+  <text>What color do we use for danger?</text>
+  <image/>
+ </item>
+ <item id="49" start="231.3" duration="2.567">
+  <person>Student</person>
+  <text>We use red for danger.</text>
+  <image/>
+ </item>
+ <item id="50" start="233.9" duration="3.533">
+  <person>Teacher</person>
+  <text>Is it dangerous to drive after drinking alcohol?</text>
+  <image/>
+ </item>
+ <item id="50" start="237.433" duration="4.467">
+  <person>Student</person>
+  <text>Yes, It's dangerous to drive after drinking alcohol.</text>
+  <image/>
+ </item>
+ <item id="51" start="241.9" duration="5.733">
+  <person>Teacher</person>
+  <text>Would you like to live dangerously like a detective: somebody like Sherlock Holmes, for example.</text>
+  <image/>
+ </item>
+ <item id="51" start="247.667" duration="6.0">
+  <person>Student</person>
+  <text>Yes, I'd like to live dangerously like a detective: somebody like Sherlock Holmes.</text>
+  <image/>
+ </item>
+ <item id="52" start="253.7" duration="1.533">
+  <person>Teacher</person>
+  <text>should</text>
+  <image/>
+ </item>
+ <item id="53" start="255.233" duration="1.9">
+  <person>Teacher</person>
+  <text>obligation</text>
+  <image/>
+ </item>
+ <item id="54" start="257.133" duration="1.833">
+  <person>Teacher</person>
+  <text>alternative</text>
+  <image/>
+ </item>
+ <item id="55" start="259.0" duration="1.633">
+  <person>Teacher</person>
+  <text>ambulance</text>
+  <image/>
+ </item>
+ <item id="56" start="260.667" duration="7.267">
+  <person>Teacher</person>
+  <text>What's the difference between these two sentences: &quot;I must study&quot; and &quot;I should study&quot;.</text>
+  <image/>
+ </item>
+ <item id="56" start="267.933" duration="14.233">
+  <person>Student</person>
+  <text>The difference between those two sentences is that &quot;I must study&quot; means that I have no alternative, whereas &quot;I should study&quot; means I have alternatives, but that studying is the right thing for me to do.</text>
+  <image/>
+ </item>
+ <item id="57" start="282.2" duration="3.033">
+  <person>Teacher</person>
+  <text>How do we translate &quot;I must study&quot;.</text>
+  <image/>
+ </item>
+ <item id="57" start="285.267" duration="3.7">
+  <person>Student</person>
+  <text>We translate, &quot;I must study&quot; with ...</text>
+  <image/>
+ </item>
+ <item id="58" start="288.967" duration="4.0">
+  <person>Teacher</person>
+  <text>Do you think people should be more polite in the shops and streets?</text>
+  <image/>
+ </item>
+ <item id="58" start="293.0" duration="4.9">
+  <person>Student</person>
+  <text>Yes, I think people should be more polite in the shops and streets.</text>
+  <image/>
+ </item>
+ <item id="59" start="297.9" duration="3.433">
+  <person>Teacher</person>
+  <text>Do you agree that students should study hard?</text>
+  <image/>
+ </item>
+ <item id="59" start="301.333" duration="3.8">
+  <person>Student</person>
+  <text>Yes, I agree that students should study hard.</text>
+  <image/>
+ </item>
+ <item id="60" start="305.167" duration="3.467">
+  <person>Teacher</person>
+  <text>Do you agree that young people should help the old?</text>
+  <image/>
+ </item>
+ <item id="60" start="308.667" duration="3.967">
+  <person>Student</person>
+  <text>Yes, I agree that young people should help the old.</text>
+  <image/>
+ </item>
+ <item id="61" start="312.633" duration="3.667">
+  <person>Teacher</person>
+  <text>What should we do when somebody is dangerously ill?</text>
+  <image/>
+ </item>
+ <item id="61" start="316.3" duration="5.767">
+  <person>Student</person>
+  <text>When somebody is dangerously ill, we should immediately call an ambulance.</text>
+  <image/>
+ </item>
+ <item id="62" start="322.1" duration="3.933">
+  <person>Teacher</person>
+  <text>What do you think you should do if you want to make a lot of money?</text>
+  <image/>
+ </item>
+ <item id="62" start="326.033" duration="4.733">
+  <person>Student</person>
+  <text>If you want to make a lot of money, I think you should work very hard.</text>
+  <image/>
+ </item>
+ <item id="63" start="330.8" duration="1.633">
+  <person>Teacher</person>
+  <text>correct</text>
+  <image/>
+ </item>
+ <item id="64" start="332.467" duration="1.833">
+  <person>Teacher</person>
+  <text>grammatical</text>
+  <image/>
+ </item>
+ <item id="65" start="334.3" duration="3.4">
+  <person>Teacher</person>
+  <text>Do you correct your dictations during the lesson?</text>
+  <image/>
+ </item>
+ <item id="65" start="337.7" duration="6.533">
+  <person>Student</person>
+  <text>No, I don't correct my dictations during the lesson; I correct them after the lesson.</text>
+  <image/>
+ </item>
+ <item id="66" start="344.267" duration="4.833">
+  <person>Teacher</person>
+  <text>In a Callan method lesson, does the teacher correct your grammatical mistakes?</text>
+  <image/>
+ </item>
+ <item id="66" start="349.1" duration="5.3">
+  <person>Student</person>
+  <text>Yes, in a Callan method lesson, the teacher corrects my grammatical mistakes.</text>
+  <image/>
+ </item>
+ <item id="67" start="354.433" duration="3.767">
+  <person>Teacher</person>
+  <text>How can we correct our mistakes in our pronunciation?</text>
+  <image/>
+ </item>
+ <item id="67" start="358.233" duration="6.733">
+  <person>Student</person>
+  <text>We can correct our mistakes in our pronunciation by listening and speaking as much as possible.</text>
+  <image/>
+ </item>
+ <item id="68" start="365.0" duration="1.5">
+  <person>Teacher</person>
+  <text>problem</text>
+  <image/>
+ </item>
+ <item id="69" start="366.533" duration="1.7">
+  <person>Teacher</person>
+  <text>cause</text>
+  <image/>
+ </item>
+ <item id="70" start="368.233" duration="1.533">
+  <person>Teacher</person>
+  <text>colleague</text>
+  <image/>
+ </item>
+ <item id="71" start="369.8" duration="1.633">
+  <person>Teacher</person>
+  <text>boss</text>
+  <image/>
+ </item>
+ <item id="72" start="371.467" duration="1.567">
+  <person>Teacher</person>
+  <text>freedom</text>
+  <image/>
+ </item>
+ <item id="73" start="373.033" duration="1.7">
+  <person>Teacher</person>
+  <text>justice</text>
+  <image/>
+ </item>
+ <item id="74" start="374.767" duration="5.1">
+  <person>Teacher</person>
+  <text>If you have a problem with a colleague at work, should you speak to your boss about it?</text>
+  <image/>
+ </item>
+ <item id="74" start="379.9" duration="5.833">
+  <person>Student</person>
+  <text>Yes, if I have a problem with a colleague at work, I should speak to my boss about it.</text>
+  <image/>
+ </item>
+ <item id="75" start="385.733" duration="2.833">
+  <person>Teacher</person>
+  <text>Can smoking cause health problems?</text>
+  <image/>
+ </item>
+ <item id="75" start="388.6" duration="3.633">
+  <person>Student</person>
+  <text>Yes, smoking can cause health problems.</text>
+  <image/>
+ </item>
+ <item id="76" start="392.233" duration="5.1">
+  <person>Teacher</person>
+  <text>In history have many people died for the causes of freedom and justice?</text>
+  <image/>
+ </item>
+ <item id="76" start="397.333" duration="5.6">
+  <person>Student</person>
+  <text>Yes, in history, many people have died for the causes of freedom and justice.</text>
+  <image/>
+ </item>
+ <item id="77" start="402.933" duration="1.5">
+  <person>Teacher</person>
+  <text>as</text>
+  <image/>
+ </item>
+ <item id="78" start="404.467" duration="6.933">
+  <person>Teacher</person>
+  <text>As we have now studied about a thousand words and a lot of the grammar, can you hold a simple conversation in English?</text>
+  <image/>
+ </item>
+ <item id="78" start="411.4" duration="8.633">
+  <person>Student</person>
+  <text>Yes, as we have now studied about a thousand words and a lot of the grammar, I can hold a simple conversation in English.</text>
+  <image/>
+ </item>
+ <item id="79" start="420.067" duration="5.967">
+  <person>Teacher</person>
+  <text>As you are not tall enough to reach the ceiling, what would you have to do if you wanted to reach it?</text>
+  <image/>
+ </item>
+ <item id="79" start="426.033" duration="8.9">
+  <person>Student</person>
+  <text>As I am not tall enough to reach the ceiling, I would have to put a chair on the table and stand on the chair if I wanted to reach it.</text>
+  <image/>
+ </item>
+ <item id="80" start="434.967" duration="1.8">
+  <person>Teacher</person>
+  <text>that is</text>
+  <image/>
+ </item>
+ <item id="81" start="436.767" duration="3.2">
+  <person>Teacher</person>
+  <text>Give me a sentence with &quot;that is&quot; in it.</text>
+  <image/>
+ </item>
+ <item id="81" start="440.0" duration="10.533">
+  <person>Student</person>
+  <text>Everybody loves that film; that is, everybody I've spoken to. We will go to the cinema this evening; that is if we have enough money.</text>
+  <image/>
+ </item>
+ <item id="82" start="450.533" duration="1.633">
+  <person>Teacher</person>
+  <text>bone</text>
+  <image/>
+ </item>
+ <item id="83" start="452.2" duration="3.567">
+  <person>Teacher</person>
+  <text>Have you ever broken any of the bones in your body?</text>
+  <image/>
+ </item>
+ <item id="83" start="455.767" duration="4.0">
+  <person>Student</person>
+  <text>Yes, I've broken one of the bones in my body.</text>
+  <image/>
+ </item>
+ <item id="84" start="459.8" duration="2.467">
+  <person>Teacher</person>
+  <text>When? How?</text>
+  <image/>
+ </item>
+ <item id="84" start="462.267" duration="12.8">
+  <person>Student</person>
+  <text>A few years ago, I fell off my bicycle and broke my arm.</text>
+  <image/>
+ </item>
+</items>
