@@ -53,7 +53,7 @@ export class AuthService {
                     this.optionsService.deserialize();
 
                     this.userService.setUsername(data.user_name);
-                    this.router.navigate(['/topic-list']);
+                    this.router.navigate(['/quick-links']);
                 }
             },
             (error) => {

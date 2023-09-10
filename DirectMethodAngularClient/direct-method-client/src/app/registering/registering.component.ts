@@ -67,7 +67,7 @@ export class RegisterComponent {
             (data: any) => {
                 localStorage.setItem('access_token', data.access_token);
                 this.userService.setUsername(data.user_name);                
-                this.router.navigate(['/topic-list']);
+                this.router.navigate(['/quick-links']);
             },
             (error) => {
                 console.error('Error:', error.error.text);

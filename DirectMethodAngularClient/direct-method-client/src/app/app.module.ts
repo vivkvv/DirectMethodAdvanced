@@ -36,6 +36,7 @@ import { RegisterComponent } from './registering/registering.component';
 import { RouterModule } from '@angular/router';
 import { ExitComponent } from './exit/exit.component';
 import { UserService } from './services/UserService/user.service';
+import { QuickLinksComponent } from './quick-links/quick-links';
 
 @NgModule({
     declarations: [
@@ -43,6 +44,7 @@ import { UserService } from './services/UserService/user.service';
         EntityBlockComponent,
         LoginComponent,
         RegisterComponent,
+        QuickLinksComponent,
         LessonComponent,
         PartsListComponent,
         AudioOverlayComponent,

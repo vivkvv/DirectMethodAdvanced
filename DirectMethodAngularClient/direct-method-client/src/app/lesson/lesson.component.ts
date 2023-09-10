@@ -254,7 +254,7 @@ export class LessonComponent implements OnInit {
         const attemptsNumber = realStudentAnswer.maximumAttempts;
         const acceptableResult = realStudentAnswer.maximumError;
 
-        while (this.isPlaying && !this.currentEpisodeIsLast()) {
+        while (this.isPlaying) {
             await this.sleep(1000 * pauseBefore);
 
             const episode = this.getCurrentEpisode(true);
@@ -293,6 +293,11 @@ export class LessonComponent implements OnInit {
             }
 
             await this.sleep(1000 * pauseAfter);
+            
+            if(this.currentEpisodeIsLast()){
+                break;
+            }
+
             this.gotoNextEpisode();
         }
 
@@ -370,6 +375,13 @@ export class LessonComponent implements OnInit {
         };
 
         updateProgress();
+    }
+
+    formatTime(time: number): string {
+        const minutes = Math.floor(time / 60).toString().padStart(2, '0');
+        const seconds = Math.floor(time % 60).toString().padStart(2, '0');
+        const dSeconds = Math.floor((time * 10) % 10)
+        return `${minutes}:${seconds}:${dSeconds}`;
     }
 
     public updateGUIDueToSelectedKey() {
