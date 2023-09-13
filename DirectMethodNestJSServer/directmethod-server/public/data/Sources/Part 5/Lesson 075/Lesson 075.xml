@@ -1,0 +1,443 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="369.233">
+ <item id="0" start="0.367" duration="2.567">
+  <person>Teacher</person>
+  <text>Lesson 75</text>
+  <image/>
+ </item>
+ <item id="1" start="2.933" duration="1.667">
+  <person>Teacher</person>
+  <text>look like</text>
+  <image/>
+ </item>
+ <item id="2" start="4.633" duration="3.667">
+  <person>Teacher</person>
+  <text>What famous person would you most like to look like?</text>
+  <image/>
+ </item>
+ <item id="2" start="8.3" duration="3.533">
+  <person>Student</person>
+  <text>I'd most like to look like Robert de Niro.</text>
+  <image/>
+ </item>
+ <item id="3" start="11.867" duration="2.2">
+  <person>Teacher</person>
+  <text>What does he look like?</text>
+  <image/>
+ </item>
+ <item id="3" start="14.067" duration="5.4">
+  <person>Student</person>
+  <text>He's quite good looking. He has dark hair and dark eyes.</text>
+  <image/>
+ </item>
+ <item id="4" start="19.467" duration="3.6">
+  <person>Teacher</person>
+  <text>Do you look more like your mother or your father?</text>
+  <image/>
+ </item>
+ <item id="4" start="23.1" duration="2.5">
+  <person>Student</person>
+  <text>I look more like my mother.</text>
+  <image/>
+ </item>
+ <item id="5" start="25.6" duration="4.5">
+  <person>Teacher</person>
+  <text>Do you think it looks like rain or looks as if it is going to rain?</text>
+  <image/>
+ </item>
+ <item id="5" start="30.1" duration="3.467">
+  <person>Student</person>
+  <text>No, I don't think it looks like rain.</text>
+  <image/>
+ </item>
+ <item id="6" start="33.567" duration="6.633">
+  <person>Teacher</person>
+  <text>Do you think you look like succeeding or look as if you will succeed in learning English quite well?</text>
+  <image/>
+ </item>
+ <item id="6" start="40.2" duration="4.767">
+  <person>Student</person>
+  <text>Yes, I think I look like succeeding in learning English quite well.</text>
+  <image/>
+ </item>
+ <item id="7" start="45.0" duration="1.567">
+  <person>Teacher</person>
+  <text>travel</text>
+  <image/>
+ </item>
+ <item id="8" start="46.567" duration="1.567">
+  <person>Teacher</person>
+  <text>journey</text>
+  <image/>
+ </item>
+ <item id="9" start="48.133" duration="1.533">
+  <person>Teacher</person>
+  <text>just</text>
+  <image/>
+ </item>
+ <item id="10" start="49.7" duration="4.2">
+  <person>Teacher</person>
+  <text>What's the difference between travel and journey?</text>
+  <image/>
+ </item>
+ <item id="10" start="53.9" duration="8.267">
+  <person>Student</person>
+  <text>The difference between travel and journey is that we generally use travel as a verb and journey as a noun.</text>
+  <image/>
+ </item>
+ <item id="11" start="62.167" duration="6.033">
+  <person>Teacher</person>
+  <text>Why is it now easier for people to travel to other countries just for the weekend?</text>
+  <image/>
+ </item>
+ <item id="11" start="68.2" duration="8.267">
+  <person>Student</person>
+  <text>It's now easier for people to travel to other countries just for the weekend because traveling is cheaper and faster these days.</text>
+  <image/>
+ </item>
+ <item id="12" start="76.5" duration="2.967">
+  <person>Teacher</person>
+  <text>What's the longest journey you've ever made?</text>
+  <image/>
+ </item>
+ <item id="12" start="79.467" duration="4.833">
+  <person>Student</person>
+  <text>The longest journey I've ever made is from England to Australia.</text>
+  <image/>
+ </item>
+ <item id="13" start="84.3" duration="1.7">
+  <person>Teacher</person>
+  <text>of course</text>
+  <image/>
+ </item>
+ <item id="14" start="86.033" duration="4.4">
+  <person>Teacher</person>
+  <text>Give me a sentence with the words &quot;of course&quot; in it, please.</text>
+  <image/>
+ </item>
+ <item id="14" start="90.433" duration="9.8">
+  <person>Student</person>
+  <text>Could I borrow your pen for a second? Of course you can. He's American. And so, of course, he speaks English.</text>
+  <image/>
+ </item>
+ <item id="15" start="100.233" duration="1.867">
+  <person>Teacher</person>
+  <text>nowadays</text>
+  <image/>
+ </item>
+ <item id="16" start="102.133" duration="4.1">
+  <person>Teacher</person>
+  <text>Do you think people are happier nowadays than they were in the past?</text>
+  <image/>
+ </item>
+ <item id="16" start="106.267" duration="5.167">
+  <person>Student</person>
+  <text>Yes, I think people are happier nowadays than they were in the past.</text>
+  <image/>
+ </item>
+ <item id="17" start="111.433" duration="1.467">
+  <person>Teacher</person>
+  <text>Why?</text>
+  <image/>
+ </item>
+ <item id="17" start="112.9" duration="4.067">
+  <person>Student</person>
+  <text>Because people are healthier and live longer nowadays.</text>
+  <image/>
+ </item>
+ <item id="18" start="117.0" duration="1.667">
+  <person>Teacher</person>
+  <text>suffer</text>
+  <image/>
+ </item>
+ <item id="19" start="118.667" duration="3.933">
+  <person>Teacher</person>
+  <text>Have you suffered from any illnesses in the last two years?</text>
+  <image/>
+ </item>
+ <item id="19" start="122.6" duration="5.033">
+  <person>Student</person>
+  <text>No, I haven't suffered from any illnesses in the last two years.</text>
+  <image/>
+ </item>
+ <item id="20" start="127.667" duration="1.533">
+  <person>Teacher</person>
+  <text>wish</text>
+  <image/>
+ </item>
+ <item id="21" start="129.2" duration="2.633">
+  <person>Teacher</person>
+  <text>What's your greatest wish in life?</text>
+  <image/>
+ </item>
+ <item id="21" start="131.867" duration="3.367">
+  <person>Student</person>
+  <text>My greatest wish in life is to be happy.</text>
+  <image/>
+ </item>
+ <item id="22" start="135.233" duration="1.7">
+  <person>Teacher</person>
+  <text>exist</text>
+  <image/>
+ </item>
+ <item id="23" start="136.967" duration="3.6">
+  <person>Teacher</person>
+  <text>About how long has this building existed for?</text>
+  <image/>
+ </item>
+ <item id="23" start="140.6" duration="4.267">
+  <person>Student</person>
+  <text>This building has existed for more than a hundred years.</text>
+  <image/>
+ </item>
+ <item id="24" start="144.867" duration="1.733">
+  <person>Teacher</person>
+  <text>remind</text>
+  <image/>
+ </item>
+ <item id="25" start="146.633" duration="2.033">
+  <person>Teacher</person>
+  <text>in other words</text>
+  <image/>
+ </item>
+ <item id="26" start="148.667" duration="1.633">
+  <person>Teacher</person>
+  <text>member</text>
+  <image/>
+ </item>
+ <item id="27" start="150.3" duration="4.833">
+  <person>Teacher</person>
+  <text>What's the difference between the words &quot;remember&quot; and &quot;remind&quot;?</text>
+  <image/>
+ </item>
+ <item id="27" start="155.133" duration="13.633">
+  <person>Student</person>
+  <text>The difference between the words &quot;remember&quot; and &quot;remind&quot; is that we remember something ourselves without help, whereas if we forget something, somebody reminds us. In other words, they remember for us.</text>
+  <image/>
+ </item>
+ <item id="28" start="168.8" duration="5.0">
+  <person>Teacher</person>
+  <text>If you forget the meaning of a word during the lesson, who reminds you of it?</text>
+  <image/>
+ </item>
+ <item id="28" start="173.8" duration="5.333">
+  <person>Student</person>
+  <text>If I forget the meaning of a word during the lesson, the teacher reminds me of it.</text>
+  <image/>
+ </item>
+ <item id="29" start="179.167" duration="6.067">
+  <person>Teacher</person>
+  <text>If you have an important appointment to keep, which member of your family reminds you to keep it?</text>
+  <image/>
+ </item>
+ <item id="29" start="185.233" duration="5.267">
+  <person>Student</person>
+  <text>If I have an important appointment to keep, my mother reminds me to keep it.</text>
+  <image/>
+ </item>
+ <item id="30" start="190.533" duration="3.4">
+  <person>Teacher</person>
+  <text>Do I remind you of any member of your family?</text>
+  <image/>
+ </item>
+ <item id="30" start="193.967" duration="4.167">
+  <person>Student</person>
+  <text>No, you don't remind me of any member of my family.</text>
+  <image/>
+ </item>
+ <item id="31" start="198.133" duration="1.633">
+  <person>Teacher</person>
+  <text>library</text>
+  <image/>
+ </item>
+ <item id="32" start="199.8" duration="4.267">
+  <person>Teacher</person>
+  <text>What's the difference between a bookshop and a library?</text>
+  <image/>
+ </item>
+ <item id="32" start="204.067" duration="11.2">
+  <person>Student</person>
+  <text>The difference between a bookshop and a library is that a bookshop is a place where we can buy books, whereas a library is a place where we can go to read books and borrow them.</text>
+  <image/>
+ </item>
+ <item id="33" start="215.267" duration="1.833">
+  <person>Teacher</person>
+  <text>even though</text>
+  <image/>
+ </item>
+ <item id="34" start="217.1" duration="1.633">
+  <person>Teacher</person>
+  <text>even</text>
+  <image/>
+ </item>
+ <item id="35" start="218.767" duration="1.867">
+  <person>Teacher</person>
+  <text>not even</text>
+  <image/>
+ </item>
+ <item id="36" start="220.633" duration="5.533">
+  <person>Teacher</person>
+  <text>When you were a child, did you sometimes have to go to school even though you didn't want to?</text>
+  <image/>
+ </item>
+ <item id="36" start="226.2" duration="5.9">
+  <person>Student</person>
+  <text>Yes, when I was a child, I sometimes had to go to school even though I didn't want to.</text>
+  <image/>
+ </item>
+ <item id="37" start="232.1" duration="5.533">
+  <person>Teacher</person>
+  <text>Are there some areas of the world where it never gets warm, even in the middle of summer?</text>
+  <image/>
+ </item>
+ <item id="37" start="237.667" duration="5.567">
+  <person>Student</person>
+  <text>Yes, there are some areas of the world where it never gets warm, even in the middle of summer.</text>
+  <image/>
+ </item>
+ <item id="38" start="243.233" duration="5.167">
+  <person>Teacher</person>
+  <text>Will there be even more people and more cars in the world in a few years time?</text>
+  <image/>
+ </item>
+ <item id="38" start="248.4" duration="5.533">
+  <person>Student</person>
+  <text>Yes, there'll be even more people and more cars in the world in a few years time.</text>
+  <image/>
+ </item>
+ <item id="39" start="253.967" duration="5.4">
+  <person>Teacher</person>
+  <text>Do you know of a village in this country where they haven't even got water or electricity?</text>
+  <image/>
+ </item>
+ <item id="39" start="259.367" duration="6.5">
+  <person>Student</person>
+  <text>No, I don't know of a village in this country where they haven't even got water or electricity.</text>
+  <image/>
+ </item>
+ <item id="40" start="265.867" duration="1.5">
+  <person>Teacher</person>
+  <text>to</text>
+  <image/>
+ </item>
+ <item id="41" start="267.367" duration="1.467">
+  <person>Teacher</person>
+  <text>at</text>
+  <image/>
+ </item>
+ <item id="42" start="268.833" duration="1.767">
+  <person>Teacher</person>
+  <text>direction</text>
+  <image/>
+ </item>
+ <item id="43" start="270.633" duration="4.367">
+  <person>Teacher</person>
+  <text>What's the difference between the words &quot;to&quot; and &quot;at&quot;?</text>
+  <image/>
+ </item>
+ <item id="43" start="275.0" duration="10.433">
+  <person>Student</person>
+  <text>The difference between the words &quot;to&quot; and &quot;at&quot; is that we generally use &quot;to&quot; when we are moving in the direction of a place and &quot;at&quot; when we are there.</text>
+  <image/>
+ </item>
+ <item id="44" start="285.467" duration="2.3">
+  <person>Teacher</person>
+  <text>Give me an example, please.</text>
+  <image/>
+ </item>
+ <item id="44" start="287.8" duration="5.467">
+  <person>Student</person>
+  <text>I'm going to the table, and now I'm at the table.</text>
+  <image/>
+ </item>
+ <item id="45" start="293.267" duration="2.167">
+  <person>Teacher</person>
+  <text>Are you coming to the school?</text>
+  <image/>
+ </item>
+ <item id="45" start="295.433" duration="4.367">
+  <person>Student</person>
+  <text>No, I'm not coming to the school; I'm at the school.</text>
+  <image/>
+ </item>
+ <item id="46" start="299.8" duration="2.4">
+  <person>Teacher</person>
+  <text>Am I going to the table?</text>
+  <image/>
+ </item>
+ <item id="46" start="302.233" duration="5.9">
+  <person>Student</person>
+  <text>No, you aren't going to the table; you're standing at the table.</text>
+  <image/>
+ </item>
+ <item id="47" start="308.133" duration="1.6">
+  <person>Teacher</person>
+  <text>soon</text>
+  <image/>
+ </item>
+ <item id="48" start="309.733" duration="1.667">
+  <person>Teacher</person>
+  <text>at once</text>
+  <image/>
+ </item>
+ <item id="49" start="311.4" duration="5.4">
+  <person>Teacher</person>
+  <text>If I go out of the room and say &quot;I'll be back soon&quot;, how long will I be?</text>
+  <image/>
+ </item>
+ <item id="49" start="316.8" duration="6.033">
+  <person>Student</person>
+  <text>If you go out of the room and say &quot;I'll be back soon&quot;, you'll be maybe 5 or 10 minutes.</text>
+  <image/>
+ </item>
+ <item id="50" start="322.867" duration="4.967">
+  <person>Teacher</person>
+  <text>If I go out of the room and say &quot;I'll be back at once&quot;, how long will I be?</text>
+  <image/>
+ </item>
+ <item id="50" start="327.867" duration="8.0">
+  <person>Student</person>
+  <text>If you go out of the room and say &quot;I'll be back at once&quot;, you'll be about one minute or you'll be back almost immediately.</text>
+  <image/>
+ </item>
+ <item id="51" start="335.867" duration="2.3">
+  <person>Teacher</person>
+  <text>Will it soon be spring?</text>
+  <image/>
+ </item>
+ <item id="51" start="338.2" duration="3.1">
+  <person>Student</person>
+  <text>Yes, it'll soon be spring.</text>
+  <image/>
+ </item>
+ <item id="52" start="341.3" duration="2.933">
+  <person>Teacher</person>
+  <text>Is the lesson going to finish soon?</text>
+  <image/>
+ </item>
+ <item id="52" start="344.267" duration="3.4">
+  <person>Student</person>
+  <text>Yes, the lesson is going to finish soon.</text>
+  <image/>
+ </item>
+ <item id="53" start="347.667" duration="7.0">
+  <person>Teacher</person>
+  <text>How soon do you think it will be before everybody in the world has enough money in order to live a comfortable life?</text>
+  <image/>
+ </item>
+ <item id="53" start="354.667" duration="6.467">
+  <person>Student</person>
+  <text>I think it'll be a long time before everybody in the world has enough money in order to live a comfortable life.</text>
+  <image/>
+ </item>
+ <item id="54" start="361.133" duration="4.0">
+  <person>Teacher</person>
+  <text>Which would get you home sooner: a bus or a car?</text>
+  <image/>
+ </item>
+ <item id="54" start="365.167" duration="4.067">
+  <person>Student</person>
+  <text>I think maybe a car would get me home sooner than a bus.</text>
+  <image/>
+ </item>
+</items>
