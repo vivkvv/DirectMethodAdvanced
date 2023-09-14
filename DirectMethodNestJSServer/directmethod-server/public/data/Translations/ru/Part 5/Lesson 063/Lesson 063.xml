@@ -4,16 +4,16 @@
   <translation/>
  </item>
  <item id="1">
-  <translation/>
+  <translation>чистый</translation>
  </item>
  <item id="2">
-  <translation/>
+  <translation>грязный</translation>
  </item>
  <item id="3">
-  <translation/>
+  <translation>грязь</translation>
  </item>
  <item id="4">
-  <translation/>
+  <translation>знать о</translation>
  </item>
  <item id="5">
   <translation/>
@@ -46,7 +46,7 @@
   <translation/>
  </item>
  <item id="10">
-  <translation/>
+  <translation>бояться</translation>
  </item>
  <item id="11">
   <translation/>
@@ -67,13 +67,13 @@
   <translation/>
  </item>
  <item id="14">
-  <translation/>
+  <translation>защищать, охранять</translation>
  </item>
  <item id="15">
-  <translation/>
+  <translation>быть бдительным</translation>
  </item>
  <item id="16">
-  <translation/>
+  <translation>потерять бдительность</translation>
  </item>
  <item id="17">
   <translation/>
@@ -100,10 +100,10 @@
   <translation/>
  </item>
  <item id="21">
-  <translation/>
+  <translation>спокойный, успокаивать</translation>
  </item>
  <item id="22">
-  <translation/>
+  <translation>тихо</translation>
  </item>
  <item id="23">
   <translation/>
@@ -118,13 +118,13 @@
   <translation/>
  </item>
  <item id="25">
-  <translation/>
+  <translation>если бы я был</translation>
  </item>
  <item id="26">
-  <translation/>
+  <translation>король</translation>
  </item>
  <item id="27">
-  <translation/>
+  <translation>лицо (1ое, 2ое и т.д.)</translation>
  </item>
  <item id="28">
   <translation/>
@@ -145,7 +145,7 @@
   <translation/>
  </item>
  <item id="31">
-  <translation/>
+  <translation>на твоем/вашем месте, я бы ..</translation>
  </item>
  <item id="31">
   <translation/>
@@ -184,13 +184,13 @@
   <translation/>
  </item>
  <item id="38">
-  <translation/>
+  <translation>совет</translation>
  </item>
  <item id="39">
-  <translation/>
+  <translation>выражение</translation>
  </item>
  <item id="40">
-  <translation/>
+  <translation>особенно</translation>
  </item>
  <item id="41">
   <translation/>
@@ -217,10 +217,10 @@
   <translation/>
  </item>
  <item id="45">
-  <translation/>
+  <translation>победить - победил - победил</translation>
  </item>
  <item id="46">
-  <translation/>
+  <translation>лотерея</translation>
  </item>
  <item id="47">
   <translation/>
@@ -259,13 +259,13 @@
   <translation/>
  </item>
  <item id="53">
-  <translation/>
+  <translation>полезный</translation>
  </item>
  <item id="54">
-  <translation/>
+  <translation>бесполезный</translation>
  </item>
  <item id="55">
-  <translation/>
+  <translation>обладать</translation>
  </item>
  <item id="56">
   <translation/>
@@ -298,6 +298,6 @@
   <translation/>
  </item>
  <item id="61">
-  <translation/>
+  <translation>застигнуть врасплох</translation>
  </item>
 </items>

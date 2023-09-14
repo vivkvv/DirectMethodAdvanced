@@ -7,7 +7,7 @@
   <translation/>
  </item>
  <item id="2">
-  <translation/>
+  <translation>я съел</translation>
  </item>
  <item id="3">
   <translation/>
@@ -70,10 +70,10 @@
   <translation/>
  </item>
  <item id="13">
-  <translation/>
+  <translation>вечеринка, партия, группа людей</translation>
  </item>
  <item id="14">
-  <translation/>
+  <translation>политический</translation>
  </item>
  <item id="15">
   <translation/>
@@ -100,13 +100,13 @@
   <translation/>
  </item>
  <item id="19">
-  <translation/>
+  <translation>сумасшедший</translation>
  </item>
  <item id="20">
-  <translation/>
+  <translation>сумасшедший</translation>
  </item>
  <item id="21">
-  <translation/>
+  <translation>НЛО</translation>
  </item>
  <item id="22">
   <translation/>
@@ -133,7 +133,7 @@
   <translation/>
  </item>
  <item id="26">
-  <translation/>
+  <translation>копировать, списывать, копия</translation>
  </item>
  <item id="27">
   <translation/>
@@ -154,7 +154,7 @@
   <translation/>
  </item>
  <item id="30">
-  <translation/>
+  <translation>влияние</translation>
  </item>
  <item id="31">
   <translation/>
@@ -163,10 +163,10 @@
   <translation/>
  </item>
  <item id="32">
-  <translation/>
+  <translation>мышь</translation>
  </item>
  <item id="33">
-  <translation/>
+  <translation>мыши</translation>
  </item>
  <item id="34">
   <translation/>
@@ -181,7 +181,7 @@
   <translation/>
  </item>
  <item id="36">
-  <translation/>
+  <translation>горло</translation>
  </item>
  <item id="37">
   <translation/>
@@ -190,7 +190,7 @@
   <translation/>
  </item>
  <item id="38">
-  <translation/>
+  <translation>возможность</translation>
  </item>
  <item id="39">
   <translation/>
@@ -199,13 +199,13 @@
   <translation/>
  </item>
  <item id="40">
-  <translation/>
+  <translation>развивать</translation>
  </item>
  <item id="41">
-  <translation/>
+  <translation>промышленность</translation>
  </item>
  <item id="42">
-  <translation/>
+  <translation>сельское хозяйство</translation>
  </item>
  <item id="43">
   <translation/>
@@ -214,7 +214,7 @@
   <translation/>
  </item>
  <item id="44">
-  <translation/>
+  <translation>печатать</translation>
  </item>
  <item id="45">
   <translation/>
@@ -223,13 +223,13 @@
   <translation/>
  </item>
  <item id="46">
-  <translation/>
+  <translation>песок</translation>
  </item>
  <item id="47">
-  <translation/>
+  <translation>пляж</translation>
  </item>
  <item id="48">
-  <translation/>
+  <translation>пустыня</translation>
  </item>
  <item id="49">
   <translation/>
@@ -250,16 +250,16 @@
   <translation/>
  </item>
  <item id="52">
-  <translation/>
+  <translation>звонок, колокол</translation>
  </item>
  <item id="53">
-  <translation/>
+  <translation>стучать</translation>
  </item>
  <item id="54">
-  <translation/>
+  <translation>наносить визит</translation>
  </item>
  <item id="55">
-  <translation/>
+  <translation>звонить</translation>
  </item>
  <item id="56">
   <translation/>
@@ -280,7 +280,7 @@
   <translation/>
  </item>
  <item id="59">
-  <translation/>
+  <translation>кричать</translation>
  </item>
  <item id="60">
   <translation/>
@@ -295,10 +295,10 @@
   <translation/>
  </item>
  <item id="62">
-  <translation/>
+  <translation>палка</translation>
  </item>
  <item id="63">
-  <translation/>
+  <translation>трость</translation>
  </item>
  <item id="64">
   <translation/>
@@ -328,6 +328,6 @@
   <translation/>
  </item>
  <item id="69">
-  <translation/>
+  <translation>восклицательный знак</translation>
  </item>
 </items>

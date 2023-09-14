@@ -7,16 +7,16 @@
   <translation/>
  </item>
  <item id="2">
-  <translation/>
+  <translation>причина</translation>
  </item>
  <item id="3">
-  <translation/>
+  <translation>болезнь</translation>
  </item>
  <item id="4">
-  <translation/>
+  <translation>усталость</translation>
  </item>
  <item id="5">
-  <translation/>
+  <translation>темнота</translation>
  </item>
  <item id="6">
   <translation/>
@@ -49,7 +49,7 @@
   <translation/>
  </item>
  <item id="11">
-  <translation/>
+  <translation>один</translation>
  </item>
  <item id="12">
   <translation/>
@@ -70,7 +70,7 @@
   <translation/>
  </item>
  <item id="15">
-  <translation/>
+  <translation>уже</translation>
  </item>
  <item id="16">
   <translation/>
@@ -97,7 +97,7 @@
   <translation/>
  </item>
  <item id="20">
-  <translation/>
+  <translation>бросил</translation>
  </item>
  <item id="21">
   <translation/>
@@ -118,10 +118,10 @@
   <translation/>
  </item>
  <item id="25">
-  <translation/>
+  <translation>несмотря на</translation>
  </item>
  <item id="26">
-  <translation/>
+  <translation>несмотря на</translation>
  </item>
  <item id="27">
   <translation/>
@@ -148,13 +148,13 @@
   <translation/>
  </item>
  <item id="31">
-  <translation/>
+  <translation>кто-либо</translation>
  </item>
  <item id="32">
-  <translation/>
+  <translation>кто-то</translation>
  </item>
  <item id="33">
-  <translation/>
+  <translation>никто</translation>
  </item>
  <item id="34">
   <translation/>
@@ -175,7 +175,7 @@
   <translation/>
  </item>
  <item id="37">
-  <translation/>
+  <translation>брать в долг</translation>
  </item>
  <item id="38">
   <translation/>
@@ -196,10 +196,10 @@
   <translation/>
  </item>
  <item id="41">
-  <translation/>
+  <translation>мой собственный</translation>
  </item>
  <item id="42">
-  <translation/>
+  <translation>усиливать, подчеркивать</translation>
  </item>
  <item id="43">
   <translation/>
@@ -220,7 +220,7 @@
   <translation/>
  </item>
  <item id="46">
-  <translation/>
+  <translation>кожа</translation>
  </item>
  <item id="47">
   <translation/>
@@ -229,22 +229,22 @@
   <translation/>
  </item>
  <item id="48">
-  <translation/>
+  <translation>провод</translation>
  </item>
  <item id="49">
-  <translation/>
+  <translation>электричество</translation>
  </item>
  <item id="50">
-  <translation/>
+  <translation>связь</translation>
  </item>
  <item id="51">
-  <translation/>
+  <translation>беспроводной</translation>
  </item>
  <item id="52">
-  <translation/>
+  <translation>Wi-Fi, беспроводной доступ в интернет</translation>
  </item>
  <item id="53">
-  <translation/>
+  <translation>дефис</translation>
  </item>
  <item id="54">
   <translation/>
@@ -277,13 +277,13 @@
   <translation/>
  </item>
  <item id="59">
-  <translation/>
+  <translation>варить</translation>
  </item>
  <item id="60">
-  <translation/>
+  <translation>жарить</translation>
  </item>
  <item id="61">
-  <translation/>
+  <translation>жарить, запекать</translation>
  </item>
  <item id="62">
   <translation/>
@@ -304,7 +304,7 @@
   <translation/>
  </item>
  <item id="65">
-  <translation/>
+  <translation>кирпич</translation>
  </item>
  <item id="66">
   <translation/>
@@ -313,13 +313,13 @@
   <translation/>
  </item>
  <item id="67">
-  <translation/>
+  <translation>также</translation>
  </item>
  <item id="68">
-  <translation/>
+  <translation>также</translation>
  </item>
  <item id="69">
-  <translation/>
+  <translation>также</translation>
  </item>
  <item id="70">
   <translation/>

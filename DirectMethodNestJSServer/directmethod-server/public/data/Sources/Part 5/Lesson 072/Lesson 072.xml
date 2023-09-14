@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="423.767">
- <item id="0" start="0.267" duration="2.833">
+ <item id="0" start="0.267" duration="2.0">
   <person>Teacher</person>
   <text>Lesson 72</text>
   <image/>
  </item>
- <item id="1" start="3.133" duration="1.467">
+ <item id="1" start="2.333" duration="2.0">
   <person>Teacher</person>
   <text>-ness</text>
   <image/>

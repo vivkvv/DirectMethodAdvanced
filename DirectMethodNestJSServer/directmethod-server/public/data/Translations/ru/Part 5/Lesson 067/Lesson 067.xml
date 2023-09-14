@@ -4,10 +4,10 @@
   <translation/>
  </item>
  <item id="1">
-  <translation/>
+  <translation>принуждать</translation>
  </item>
  <item id="2">
-  <translation/>
+  <translation>заставлять кого-либо делать ...</translation>
  </item>
  <item id="3">
   <translation/>
@@ -34,16 +34,16 @@
   <translation/>
  </item>
  <item id="7">
-  <translation/>
+  <translation>легкая закуска</translation>
  </item>
  <item id="8">
-  <translation/>
+  <translation>перерыв</translation>
  </item>
  <item id="9">
-  <translation/>
+  <translation>бисквит, печенье</translation>
  </item>
  <item id="10">
-  <translation/>
+  <translation>чипсы</translation>
  </item>
  <item id="11">
   <translation/>
@@ -58,7 +58,7 @@
   <translation/>
  </item>
  <item id="13">
-  <translation/>
+  <translation>родиться</translation>
  </item>
  <item id="14">
   <translation/>
@@ -73,7 +73,7 @@
   <translation/>
  </item>
  <item id="16">
-  <translation/>
+  <translation>убийство</translation>
  </item>
  <item id="17">
   <translation/>
@@ -82,7 +82,7 @@
   <translation/>
  </item>
  <item id="18">
-  <translation/>
+  <translation>тюрьма</translation>
  </item>
  <item id="19">
   <translation/>
@@ -97,7 +97,7 @@
   <translation/>
  </item>
  <item id="21">
-  <translation/>
+  <translation>ученик</translation>
  </item>
  <item id="22">
   <translation/>
@@ -112,7 +112,7 @@
   <translation/>
  </item>
  <item id="24">
-  <translation/>
+  <translation>корень</translation>
  </item>
  <item id="25">
   <translation/>
@@ -121,7 +121,7 @@
   <translation/>
  </item>
  <item id="26">
-  <translation/>
+  <translation>память</translation>
  </item>
  <item id="27">
   <translation/>
@@ -163,7 +163,7 @@
   <translation/>
  </item>
  <item id="38">
-  <translation/>
+  <translation>пересекать</translation>
  </item>
  <item id="39">
   <translation/>
@@ -184,7 +184,7 @@
   <translation/>
  </item>
  <item id="42">
-  <translation/>
+  <translation>думать о</translation>
  </item>
  <item id="43">
   <translation/>
@@ -193,13 +193,13 @@
   <translation/>
  </item>
  <item id="44">
-  <translation/>
+  <translation>безопасный</translation>
  </item>
  <item id="45">
-  <translation/>
+  <translation>безопасность</translation>
  </item>
  <item id="46">
-  <translation/>
+  <translation>самостоятельно</translation>
  </item>
  <item id="47">
   <translation/>
@@ -232,7 +232,7 @@
   <translation/>
  </item>
  <item id="52">
-  <translation/>
+  <translation>лежал</translation>
  </item>
  <item id="53">
   <translation/>
@@ -247,22 +247,22 @@
   <translation/>
  </item>
  <item id="55">
-  <translation/>
+  <translation>сэр</translation>
  </item>
  <item id="56">
-  <translation/>
+  <translation>мадам</translation>
  </item>
  <item id="57">
-  <translation/>
+  <translation>джентльмен</translation>
  </item>
  <item id="58">
-  <translation/>
+  <translation>леди</translation>
  </item>
  <item id="59">
-  <translation/>
+  <translation>клиент</translation>
  </item>
  <item id="60">
-  <translation/>
+  <translation>офицер</translation>
  </item>
  <item id="61">
   <translation/>
@@ -289,7 +289,7 @@
   <translation/>
  </item>
  <item id="65">
-  <translation/>
+  <translation>обращение, титул</translation>
  </item>
  <item id="66">
   <translation/>
@@ -304,10 +304,10 @@
   <translation/>
  </item>
  <item id="68">
-  <translation/>
+  <translation>стандарт, стандартный</translation>
  </item>
  <item id="69">
-  <translation/>
+  <translation>рост</translation>
  </item>
  <item id="70">
   <translation/>
@@ -322,6 +322,6 @@
   <translation/>
  </item>
  <item id="72">
-  <translation/>
+  <translation>цветной</translation>
  </item>
 </items>

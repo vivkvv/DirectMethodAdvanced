@@ -4,16 +4,16 @@
   <translation/>
  </item>
  <item id="1">
-  <translation/>
+  <translation>в течение</translation>
  </item>
  <item id="2">
-  <translation/>
+  <translation>начиная с </translation>
  </item>
  <item id="3">
-  <translation/>
+  <translation>период</translation>
  </item>
  <item id="4">
-  <translation/>
+  <translation>момент</translation>
  </item>
  <item id="5">
   <translation/>
@@ -82,22 +82,22 @@
   <translation/>
  </item>
  <item id="16">
-  <translation/>
+  <translation>кухня</translation>
  </item>
  <item id="17">
-  <translation/>
+  <translation>холодильник</translation>
  </item>
  <item id="18">
-  <translation/>
+  <translation>морозилка</translation>
  </item>
  <item id="19">
-  <translation/>
+  <translation>плита для приготовления пищи</translation>
  </item>
  <item id="20">
-  <translation/>
+  <translation>раковина (мойка)</translation>
  </item>
  <item id="21">
-  <translation/>
+  <translation>микроволновая печь</translation>
  </item>
  <item id="22">
   <translation/>
@@ -118,7 +118,7 @@
   <translation/>
  </item>
  <item id="25">
-  <translation/>
+  <translation>учеба, занятия</translation>
  </item>
  <item id="26">
   <translation/>
@@ -133,10 +133,10 @@
   <translation/>
  </item>
  <item id="28">
-  <translation/>
+  <translation>одалживать - одалживал - одолжил</translation>
  </item>
  <item id="29">
-  <translation/>
+  <translation>возвращать</translation>
  </item>
  <item id="30">
   <translation/>
@@ -151,10 +151,10 @@
   <translation/>
  </item>
  <item id="32">
-  <translation/>
+  <translation>имя</translation>
  </item>
  <item id="33">
-  <translation/>
+  <translation>фамилия</translation>
  </item>
  <item id="34">
   <translation/>
@@ -169,16 +169,16 @@
   <translation/>
  </item>
  <item id="36">
-  <translation/>
+  <translation>актер</translation>
  </item>
  <item id="37">
-  <translation/>
+  <translation>актриса</translation>
  </item>
  <item id="38">
-  <translation/>
+  <translation>знаменитый</translation>
  </item>
  <item id="39">
-  <translation/>
+  <translation>кинозвезда</translation>
  </item>
  <item id="40">
   <translation/>
@@ -205,13 +205,13 @@
   <translation/>
  </item>
  <item id="44">
-  <translation/>
+  <translation>промышленный</translation>
  </item>
  <item id="45">
-  <translation/>
+  <translation>сельскохозяйственный</translation>
  </item>
  <item id="46">
-  <translation/>
+  <translation>регион, область</translation>
  </item>
  <item id="47">
   <translation/>
@@ -226,13 +226,13 @@
   <translation/>
  </item>
  <item id="49">
-  <translation/>
+  <translation>извиняться</translation>
  </item>
  <item id="50">
-  <translation/>
+  <translation>извинение</translation>
  </item>
  <item id="51">
-  <translation/>
+  <translation>заставлять кого-то ждать</translation>
  </item>
  <item id="52">
   <translation/>
@@ -253,7 +253,7 @@
   <translation/>
  </item>
  <item id="55">
-  <translation/>
+  <translation>избегать</translation>
  </item>
  <item id="56">
   <translation/>
@@ -262,7 +262,7 @@
   <translation/>
  </item>
  <item id="57">
-  <translation/>
+  <translation>сгибать</translation>
  </item>
  <item id="58">
   <translation/>
@@ -271,7 +271,7 @@
   <translation/>
  </item>
  <item id="59">
-  <translation/>
+  <translation>столетие</translation>
  </item>
  <item id="60">
   <translation/>
@@ -280,7 +280,7 @@
   <translation/>
  </item>
  <item id="61">
-  <translation/>
+  <translation>мода</translation>
  </item>
  <item id="62">
   <translation/>
@@ -289,7 +289,7 @@
   <translation/>
  </item>
  <item id="63">
-  <translation/>
+  <translation>ворота</translation>
  </item>
  <item id="64">
   <translation/>
@@ -298,10 +298,10 @@
   <translation/>
  </item>
  <item id="65">
-  <translation/>
+  <translation>беспокоиться</translation>
  </item>
  <item id="66">
-  <translation/>
+  <translation>быть обеспокоенным</translation>
  </item>
  <item id="67">
   <translation/>
@@ -322,7 +322,7 @@
   <translation/>
  </item>
  <item id="70">
-  <translation/>
+  <translation>бежать</translation>
  </item>
  <item id="71">
   <translation/>

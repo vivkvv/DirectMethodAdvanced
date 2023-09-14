@@ -4,13 +4,13 @@
   <translation/>
  </item>
  <item id="1">
-  <translation/>
+  <translation>где-либо</translation>
  </item>
  <item id="2">
-  <translation/>
+  <translation>где-то</translation>
  </item>
  <item id="3">
-  <translation/>
+  <translation>нигде</translation>
  </item>
  <item id="4">
   <translation/>
@@ -19,7 +19,7 @@
   <translation/>
  </item>
  <item id="6">
-  <translation/>
+  <translation>нигде</translation>
  </item>
  <item id="7">
   <translation/>
@@ -70,10 +70,10 @@
   <translation/>
  </item>
  <item id="15">
-  <translation/>
+  <translation>свободный, незакрепленный</translation>
  </item>
  <item id="16">
-  <translation/>
+  <translation>ослаблять, отпускать</translation>
  </item>
  <item id="17">
   <translation/>
@@ -100,13 +100,13 @@
   <translation/>
  </item>
  <item id="21">
-  <translation/>
+  <translation>буря, гроза</translation>
  </item>
  <item id="22">
-  <translation/>
+  <translation>молния</translation>
  </item>
  <item id="23">
-  <translation/>
+  <translation>гром</translation>
  </item>
  <item id="24">
   <translation/>
@@ -121,7 +121,7 @@
   <translation/>
  </item>
  <item id="26">
-  <translation/>
+  <translation>слепой</translation>
  </item>
  <item id="27">
   <translation/>
@@ -130,7 +130,7 @@
   <translation/>
  </item>
  <item id="28">
-  <translation/>
+  <translation>дьявол</translation>
  </item>
  <item id="29">
   <translation/>
@@ -139,10 +139,10 @@
   <translation/>
  </item>
  <item id="30">
-  <translation/>
+  <translation>ездить на чем-либо</translation>
  </item>
  <item id="31">
-  <translation/>
+  <translation>ездить на велосипеде</translation>
  </item>
  <item id="32">
   <translation/>
@@ -163,16 +163,16 @@
   <translation/>
  </item>
  <item id="35">
-  <translation/>
+  <translation>мочь, иметь разрешение делать что-либо</translation>
  </item>
  <item id="36">
-  <translation/>
+  <translation>мочь, уметь, быть способным</translation>
  </item>
  <item id="37">
-  <translation/>
+  <translation>мог, мог бы</translation>
  </item>
  <item id="38">
-  <translation/>
+  <translation>разрешение</translation>
  </item>
  <item id="39">
   <translation/>
@@ -187,10 +187,10 @@
   <translation/>
  </item>
  <item id="41">
-  <translation/>
+  <translation>поймать, ловить</translation>
  </item>
  <item id="42">
-  <translation/>
+  <translation>плащ</translation>
  </item>
  <item id="43">
   <translation/>
@@ -217,7 +217,7 @@
   <translation/>
  </item>
  <item id="47">
-  <translation/>
+  <translation>кепка</translation>
  </item>
  <item id="48">
   <translation/>
@@ -226,10 +226,10 @@
   <translation/>
  </item>
  <item id="49">
-  <translation/>
+  <translation>привычка</translation>
  </item>
  <item id="50">
-  <translation/>
+  <translation>иметь привычку делать что-либо</translation>
  </item>
  <item id="51">
   <translation/>
@@ -274,10 +274,10 @@
   <translation/>
  </item>
  <item id="58">
-  <translation/>
+  <translation>незнакомец</translation>
  </item>
  <item id="59">
-  <translation/>
+  <translation>иностранец</translation>
  </item>
  <item id="60">
   <translation/>
@@ -286,6 +286,6 @@
   <translation/>
  </item>
  <item id="61">
-  <translation/>
+  <translation>снежная буря</translation>
  </item>
 </items>

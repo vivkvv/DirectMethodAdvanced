@@ -4,16 +4,16 @@
   <translation/>
  </item>
  <item id="1">
-  <translation/>
+  <translation>жизнь</translation>
  </item>
  <item id="2">
-  <translation/>
+  <translation>жизни</translation>
  </item>
  <item id="3">
-  <translation/>
+  <translation>бедные</translation>
  </item>
  <item id="4">
-  <translation/>
+  <translation>богатые</translation>
  </item>
  <item id="5">
   <translation/>
@@ -28,7 +28,7 @@
   <translation/>
  </item>
  <item id="7">
-  <translation/>
+  <translation>хотя</translation>
  </item>
  <item id="8">
   <translation/>
@@ -49,13 +49,13 @@
   <translation/>
  </item>
  <item id="11">
-  <translation/>
+  <translation>повар, готовить</translation>
  </item>
  <item id="12">
-  <translation/>
+  <translation>вкусный</translation>
  </item>
  <item id="13">
-  <translation/>
+  <translation>паста</translation>
  </item>
  <item id="14">
   <translation/>
@@ -76,7 +76,7 @@
   <translation/>
  </item>
  <item id="17">
-  <translation/>
+  <translation>независимый</translation>
  </item>
  <item id="18">
   <translation/>
@@ -85,7 +85,7 @@
   <translation/>
  </item>
  <item id="19">
-  <translation/>
+  <translation>происхождение</translation>
  </item>
  <item id="20">
   <translation/>
@@ -94,7 +94,7 @@
   <translation/>
  </item>
  <item id="21">
-  <translation/>
+  <translation>принадлежать</translation>
  </item>
  <item id="22">
   <translation/>
@@ -115,10 +115,10 @@
   <translation/>
  </item>
  <item id="25">
-  <translation/>
+  <translation>мог бы</translation>
  </item>
  <item id="26">
-  <translation/>
+  <translation>наоборот</translation>
  </item>
  <item id="27">
   <translation/>
@@ -154,7 +154,7 @@
   <translation/>
  </item>
  <item id="33">
-  <translation/>
+  <translation>бросать</translation>
  </item>
  <item id="34">
   <translation/>
@@ -169,10 +169,10 @@
   <translation/>
  </item>
  <item id="36">
-  <translation/>
+  <translation>живой</translation>
  </item>
  <item id="37">
-  <translation/>
+  <translation>мертвый</translation>
  </item>
  <item id="38">
   <translation/>
@@ -181,10 +181,10 @@
   <translation/>
  </item>
  <item id="39">
-  <translation/>
+  <translation>ронять, капля</translation>
  </item>
  <item id="40">
-  <translation/>
+  <translation>обходиться без</translation>
  </item>
  <item id="41">
   <translation/>
@@ -211,7 +211,7 @@
   <translation/>
  </item>
  <item id="45">
-  <translation/>
+  <translation>убивать</translation>
  </item>
  <item id="46">
   <translation/>
@@ -220,10 +220,10 @@
   <translation/>
  </item>
  <item id="47">
-  <translation/>
+  <translation>обычный</translation>
  </item>
  <item id="48">
-  <translation/>
+  <translation>необычный</translation>
  </item>
  <item id="49">
   <translation/>
@@ -250,13 +250,13 @@
   <translation/>
  </item>
  <item id="53">
-  <translation/>
+  <translation>все еще</translation>
  </item>
  <item id="54">
-  <translation/>
+  <translation>еще не</translation>
  </item>
  <item id="55">
-  <translation/>
+  <translation>в процессе</translation>
  </item>
  <item id="56">
   <translation/>
@@ -301,6 +301,6 @@
   <translation/>
  </item>
  <item id="63">
-  <translation/>
+  <translation>особенный</translation>
  </item>
 </items>
