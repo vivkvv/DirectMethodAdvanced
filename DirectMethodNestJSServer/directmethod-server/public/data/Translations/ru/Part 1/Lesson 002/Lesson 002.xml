@@ -1,288 +1,412 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation>Урок два</translation>
- </item>
- <item id="1">
-  <translation>я (я есть)</translation>
- </item>
- <item id="2">
-  <translation>ты/вы есть</translation>
- </item>
- <item id="3">
-  <translation>он (он есть)</translation>
- </item>
- <item id="4">
-  <translation>она (есть)</translation>
- </item>
- <item id="5">
-  <translation>оно (есть)</translation>
- </item>
- <item id="6">
-  <translation>Я - Питер?</translation>
- </item>
- <item id="6">
-  <translation>Да, Вы - Питер</translation>
- </item>
- <item id="7">
-  <translation>Вы - Лиз?</translation>
- </item>
- <item id="7">
-  <translation>Да, я - Лиз</translation>
- </item>
- <item id="8">
-  <translation>Он - мистер Браун?</translation>
- </item>
- <item id="8">
-  <translation>Да, он - мистер Браун</translation>
- </item>
- <item id="9">
-  <translation>Она - миссис Браун?</translation>
- </item>
- <item id="9">
-  <translation>Да, она - миссис Браун</translation>
- </item>
- <item id="10">
-  <translation>я не (я есть не)</translation>
- </item>
- <item id="11">
-  <translation>ты/вы не (ты/вы есть не)</translation>
- </item>
- <item id="12">
-  <translation>он не (он есть не)</translation>
- </item>
- <item id="13">
-  <translation>она не (она есть не)</translation>
- </item>
- <item id="14">
-  <translation>оно не (оно есть не)</translation>
- </item>
- <item id="15">
-  <translation>Я - миссис Браун?</translation>
- </item>
- <item id="15">
-  <translation>Нет, Вы - не миссис Браун, Вы - Питер</translation>
- </item>
- <item id="16">
-  <translation>Вы - мистер Браун?</translation>
- </item>
- <item id="16">
-  <translation>Нет, я - не мистер Браун, я - Лиз</translation>
- </item>
- <item id="17">
-  <translation>Он - мистер Смит?</translation>
- </item>
- <item id="17">
-  <translation>Нет, он - не мистер Смит, он - мистер Браун</translation>
- </item>
- <item id="18">
-  <translation>Она - миссис Браун?</translation>
- </item>
- <item id="18">
-  <translation>Нет, она - не мистер Браун, она - миссис Браун</translation>
- </item>
- <item id="19">
-  <translation>Она - мистер Браун?</translation>
- </item>
- <item id="19">
-  <translation>Нет, она - не мистер Браун, она - миссис Браун</translation>
- </item>
- <item id="20">
-  <translation>перед</translation>
- </item>
- <item id="21">
-  <translation>сзади</translation>
- </item>
- <item id="22">
-  <translation>мной, меня</translation>
- </item>
- <item id="23">
-  <translation>тобой, тебя, вас</translation>
- </item>
- <item id="24">
-  <translation>Где стол?</translation>
- </item>
- <item id="24">
-  <translation>Стол - передо мной</translation>
- </item>
- <item id="25">
-  <translation>Стена - перед тобой?</translation>
- </item>
- <item id="25">
-  <translation>Нет, стена не передо мной, она - позади меня</translation>
- </item>
- <item id="26">
-  <translation>Стол - позади меня?</translation>
- </item>
- <item id="26">
-  <translation>Нет, стол - не позади тебя, он - перед тобой</translation>
- </item>
- <item id="27">
-  <translation>ним, его</translation>
- </item>
- <item id="28">
-  <translation>ней, ее</translation>
- </item>
- <item id="29">
-  <translation>дом</translation>
- </item>
- <item id="30">
-  <translation>Где дом?</translation>
- </item>
- <item id="30">
-  <translation>Дом - позади него</translation>
- </item>
- <item id="31">
-  <translation>Где дом?</translation>
- </item>
- <item id="31">
-  <translation>Дом - позади нее</translation>
- </item>
- <item id="32">
-  <translation>Ты - позади нее?</translation>
- </item>
- <item id="32">
-  <translation>Нет, я - не позади нее, я - перед ней</translation>
- </item>
- <item id="33">
-  <translation>Я - перед тобой?</translation>
- </item>
- <item id="33">
-  <translation>Нет, Вы - не перед ним, Вы - позади него</translation>
- </item>
- <item id="34">
-  <translation>стоящий</translation>
- </item>
- <item id="35">
-  <translation>сидящий</translation>
- </item>
- <item id="36">
-  <translation>Вы стоите на полу?</translation>
- </item>
- <item id="36">
-  <translation>Нет, я не стою на полу, я сижу на стуле</translation>
- </item>
- <item id="37">
-  <translation>Я сижу на стуле?</translation>
- </item>
- <item id="37">
-  <translation>Нет, вы не сидите на стуле, Вы стоите на полу</translation>
- </item>
- <item id="38">
-  <translation>Вы стоите передо мной?</translation>
- </item>
- <item id="38">
-  <translation>Нет, я не стою перед Вами, я сижу перед вами</translation>
- </item>
- <item id="39">
-  <translation>брать с</translation>
- </item>
- <item id="40">
-  <translation>класть на</translation>
- </item>
- <item id="41">
-  <translation>Я кладу книгу на пол?</translation>
- </item>
- <item id="41">
-  <translation>Нет, Вы не кладете книгу на пол, Вы берете книгу со стола</translation>
- </item>
- <item id="42">
-  <translation>Я беру ручку со стола?</translation>
- </item>
- <item id="42">
-  <translation>Нет, Вы не берете ручку со стола, Вы кладете книгу на стол</translation>
- </item>
- <item id="43">
-  <translation>открывание</translation>
- </item>
- <item id="44">
-  <translation>закрывание</translation>
- </item>
- <item id="45">
-  <translation>Я закрываю дверь?</translation>
- </item>
- <item id="45">
-  <translation>Нет, Вы не закрываете дверь, Вы открываете дверь</translation>
- </item>
- <item id="46">
-  <translation>Я открываю окно?</translation>
- </item>
- <item id="46">
-  <translation>Нет, Вы не открываете окно, Вы закрываете книгу</translation>
- </item>
- <item id="47">
-  <translation>делание</translation>
- </item>
- <item id="48">
-  <translation>что я делаю?</translation>
- </item>
- <item id="49">
-  <translation>Что я делаю?</translation>
- </item>
- <item id="49">
-  <translation>Вы берете книгу со стола</translation>
- </item>
- <item id="50">
-  <translation>Что я делаю?</translation>
- </item>
- <item id="50">
-  <translation>Вы открываете книгу</translation>
- </item>
- <item id="51">
-  <translation>Что я делаю?</translation>
- </item>
- <item id="51">
-  <translation>Вы закрываете книгу</translation>
- </item>
- <item id="52">
-  <translation>Что я делаю?</translation>
- </item>
- <item id="52">
-  <translation>Вы кладете книгу на стол</translation>
- </item>
- <item id="53">
-  <translation>который</translation>
- </item>
- <item id="54">
-  <translation>Который карандаш черный?</translation>
- </item>
- <item id="54">
-  <translation>Этот карандаш черный</translation>
- </item>
- <item id="55">
-  <translation>Который карандаш белый?</translation>
- </item>
- <item id="55">
-  <translation>Этот карандаш белый</translation>
- </item>
- <item id="56">
-  <translation>Который карандаш зеленый?</translation>
- </item>
- <item id="56">
-  <translation>Этот карандаш зеленый</translation>
- </item>
- <item id="57">
-  <translation>Который карандаш коричневый?</translation>
- </item>
- <item id="57">
-  <translation>Этот карандаш коричнеый</translation>
- </item>
- <item id="58">
-  <translation>открыт</translation>
- </item>
- <item id="59">
-  <translation>закрыт</translation>
- </item>
- <item id="60">
-  <translation>Которая книга открыта?</translation>
- </item>
- <item id="60">
-  <translation>Эта книга открыта</translation>
- </item>
- <item id="61">
-  <translation>Которая книга закрыта?</translation>
- </item>
- <item id="61">
-  <translation>Эта книга закрыта</translation>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation>Урок два</translation>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>я (я есть)</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>ты/вы есть</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>он (он есть)</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>она (есть)</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>оно (есть)</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>Я - Питер?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, Вы - Питер</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>Вы - Лиз?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я - Лиз</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>Он - мистер Браун?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, он - мистер Браун</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>Она - миссис Браун?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, она - миссис Браун</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>я не (я есть не)</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>ты/вы не (ты/вы есть не)</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>он не (он есть не)</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>она не (она есть не)</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>оно не (оно есть не)</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>Я - миссис Браун?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, Вы - не миссис Браун, Вы - Питер</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>Вы - мистер Браун?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я - не мистер Браун, я - Лиз</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>Он - мистер Смит?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, он - не мистер Смит, он - мистер Браун</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>Она - миссис Браун?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, она - не мистер Браун, она - миссис Браун</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>Она - мистер Браун?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, она - не мистер Браун, она - миссис Браун</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>перед</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>сзади</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>мной, меня</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>тобой, тебя, вас</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>Где стол?</translation>
+		</item>
+		<item id="1">
+			<translation>Стол - передо мной</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>Стена - перед тобой?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, стена не передо мной, она - позади меня</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>Стол - позади меня?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, стол - не позади тебя, он - перед тобой</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>ним, его</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>ней, ее</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>дом</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>Где дом?</translation>
+		</item>
+		<item id="1">
+			<translation>Дом - позади него</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>Где дом?</translation>
+		</item>
+		<item id="1">
+			<translation>Дом - позади нее</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>Ты - позади нее?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я - не позади нее, я - перед ней</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>Я - перед тобой?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, Вы - не перед ним, Вы - позади него</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>стоящий</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>сидящий</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>Вы стоите на полу?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не стою на полу, я сижу на стуле</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>Я сижу на стуле?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, вы не сидите на стуле, Вы стоите на полу</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>Вы стоите передо мной?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не стою перед Вами, я сижу перед вами</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>брать с</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>класть на</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>Я кладу книгу на пол?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, Вы не кладете книгу на пол, Вы берете книгу со стола</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>Я беру ручку со стола?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, Вы не берете ручку со стола, Вы кладете книгу на стол</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>открывание</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>закрывание</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>Я закрываю дверь?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, Вы не закрываете дверь, Вы открываете дверь</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>Я открываю окно?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, Вы не открываете окно, Вы закрываете книгу</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>делание</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>что я делаю?</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>Что я делаю?</translation>
+		</item>
+		<item id="1">
+			<translation>Вы берете книгу со стола</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>Что я делаю?</translation>
+		</item>
+		<item id="1">
+			<translation>Вы открываете книгу</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>Что я делаю?</translation>
+		</item>
+		<item id="1">
+			<translation>Вы закрываете книгу</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>Что я делаю?</translation>
+		</item>
+		<item id="1">
+			<translation>Вы кладете книгу на стол</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>который</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>Который карандаш черный?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш черный</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation>Который карандаш белый?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш белый</translation>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation>Который карандаш зеленый?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш зеленый</translation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>Который карандаш коричневый?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш коричнеый</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation>открыт</translation>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation>закрыт</translation>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation>Которая книга открыта?</translation>
+		</item>
+		<item id="1">
+			<translation>Эта книга открыта</translation>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation>Которая книга закрыта?</translation>
+		</item>
+		<item id="1">
+			<translation>Эта книга закрыта</translation>
+		</item>
+	</item>
 </items>

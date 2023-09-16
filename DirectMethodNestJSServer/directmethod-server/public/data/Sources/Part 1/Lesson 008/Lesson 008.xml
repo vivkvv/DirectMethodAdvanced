@@ -1,513 +1,647 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="277.933">
- <item id="0" start="0.1" duration="1.8">
-  <person>Teacher</person>
-  <text>Lesson eight</text>
-  <image/>
- </item>
- <item id="1" start="1.933" duration="1.8">
-  <person>Teacher</person>
-  <text>question</text>
-  <image/>
- </item>
- <item id="2" start="3.767" duration="1.433">
-  <person>Teacher</person>
-  <text>answer</text>
-  <image/>
- </item>
- <item id="3" start="5.2" duration="1.7">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="3" start="6.933" duration="1.9">
-  <person>Student</person>
-  <text>It's a question</text>
-  <image/>
- </item>
- <item id="4" start="8.867" duration="1.767">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="4" start="10.667" duration="2.033">
-  <person>Student</person>
-  <text>It's an answer</text>
-  <image/>
- </item>
- <item id="5" start="12.7" duration="2.233">
-  <person>Teacher</person>
-  <text>Is this an answer?</text>
-  <image/>
- </item>
- <item id="5" start="14.933" duration="3.933">
-  <person>Student</person>
-  <text>No, it isn't an answer; it's a question</text>
-  <image/>
- </item>
- <item id="6" start="18.9" duration="1.567">
-  <person>Teacher</person>
-  <text>meaning</text>
-  <image/>
- </item>
- <item id="7" start="20.467" duration="4.0">
-  <person>Teacher</person>
-  <text>What's the meaning of the word &quot;use&quot; in your language?</text>
-  <image/>
- </item>
- <item id="7" start="24.5" duration="4.067">
-  <person>Student</person>
-  <text>The meaning of the word &quot;use&quot; in my language is ...</text>
-  <image/>
- </item>
- <item id="8" start="28.567" duration="3.933">
-  <person>Teacher</person>
-  <text>What's the meaning of the word &quot;table&quot; in your language?</text>
-  <image/>
- </item>
- <item id="8" start="32.5" duration="4.2">
-  <person>Student</person>
-  <text>The meaning of the word &quot;table&quot; in my language is ...</text>
-  <image/>
- </item>
- <item id="9" start="36.733" duration="4.3">
-  <person>Teacher</person>
-  <text>What's the meaning of the word &quot;for&quot; in your language?</text>
-  <image/>
- </item>
- <item id="9" start="41.033" duration="3.733">
-  <person>Student</person>
-  <text>The meaning of the word &quot;for&quot; in my language is ...</text>
-  <image/>
- </item>
- <item id="10" start="44.8" duration="3.967">
-  <person>Teacher</person>
-  <text>What's the meaning of the word &quot;chair&quot; in your language?</text>
-  <image/>
- </item>
- <item id="10" start="48.8" duration="3.667">
-  <person>Student</person>
-  <text>The meaning of the word &quot;chair&quot; in my language is ...</text>
-  <image/>
- </item>
- <item id="11" start="52.467" duration="4.133">
-  <person>Teacher</person>
-  <text>What's the meaning of the word &quot;action&quot; in your language?</text>
-  <image/>
- </item>
- <item id="11" start="56.633" duration="4.3">
-  <person>Student</person>
-  <text>The meaning of the word &quot;action&quot; in my language is ...</text>
-  <image/>
- </item>
- <item id="12" start="60.967" duration="1.633">
-  <person>Teacher</person>
-  <text>name</text>
-  <image/>
- </item>
- <item id="13" start="62.6" duration="2.0">
-  <person>Teacher</person>
-  <text>What's my name?</text>
-  <image/>
- </item>
- <item id="13" start="64.633" duration="2.233">
-  <person>Student</person>
-  <text>Your name's Lazio</text>
-  <image/>
- </item>
- <item id="14" start="66.9" duration="1.933">
-  <person>Teacher</person>
-  <text>What's your name?</text>
-  <image/>
- </item>
- <item id="14" start="68.833" duration="2.467">
-  <person>Student</person>
-  <text>My name's Suhail</text>
-  <image/>
- </item>
- <item id="15" start="71.3" duration="2.0">
-  <person>Teacher</person>
-  <text>What's his name?</text>
-  <image/>
- </item>
- <item id="15" start="73.3" duration="2.733">
-  <person>Student</person>
-  <text>His name's Mr. Brown</text>
-  <image/>
- </item>
- <item id="16" start="76.067" duration="2.0">
-  <person>Teacher</person>
-  <text>What's her name?</text>
-  <image/>
- </item>
- <item id="16" start="78.067" duration="2.5">
-  <person>Student</person>
-  <text>Her name's Mrs. Brown</text>
-  <image/>
- </item>
- <item id="17" start="80.6" duration="1.433">
-  <person>Teacher</person>
-  <text>head</text>
-  <image/>
- </item>
- <item id="18" start="82.033" duration="1.533">
-  <person>Teacher</person>
-  <text>face</text>
-  <image/>
- </item>
- <item id="19" start="83.6" duration="1.567">
-  <person>Teacher</person>
-  <text>chin</text>
-  <image/>
- </item>
- <item id="20" start="85.167" duration="1.567">
-  <person>Teacher</person>
-  <text>mouth</text>
-  <image/>
- </item>
- <item id="21" start="86.733" duration="1.567">
-  <person>Teacher</person>
-  <text>nose</text>
-  <image/>
- </item>
- <item id="22" start="88.3" duration="1.6">
-  <person>Teacher</person>
-  <text>eye</text>
-  <image/>
- </item>
- <item id="23" start="89.9" duration="1.5">
-  <person>Teacher</person>
-  <text>ear</text>
-  <image/>
- </item>
- <item id="24" start="91.433" duration="1.5">
-  <person>Teacher</person>
-  <text>hair</text>
-  <image/>
- </item>
- <item id="25" start="92.933" duration="1.433">
-  <person>Teacher</person>
-  <text>tongue</text>
-  <image/>
- </item>
- <item id="26" start="94.4" duration="1.667">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="26" start="96.067" duration="2.367">
-  <person>Student</person>
-  <text>It's the head, etc.</text>
-  <image/>
- </item>
- <item id="27" start="98.433" duration="1.733">
-  <person>Teacher</person>
-  <text>remaining</text>
-  <image/>
- </item>
- <item id="28" start="100.2" duration="1.9">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="28" start="102.1" duration="2.867">
-  <person>Student</person>
-  <text>You're going to the window</text>
-  <image/>
- </item>
- <item id="29" start="104.967" duration="2.1">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="29" start="107.1" duration="3.267">
-  <person>Student</person>
-  <text>You're coming from the window</text>
-  <image/>
- </item>
- <item id="30" start="110.367" duration="2.7">
-  <person>Teacher</person>
-  <text>Are you going to the window?</text>
-  <image/>
- </item>
- <item id="30" start="113.1" duration="5.033">
-  <person>Student</person>
-  <text>No, I'm not going to the window; I'm remaining on the chair</text>
-  <image/>
- </item>
- <item id="31" start="118.133" duration="3.0">
-  <person>Teacher</person>
-  <text>Am I remaining on the chair?</text>
-  <image/>
- </item>
- <item id="31" start="121.133" duration="4.733">
-  <person>Student</person>
-  <text>No, you aren't remaining on the chair; you're going to the window</text>
-  <image/>
- </item>
- <item id="32" start="125.867" duration="1.7">
-  <person>Teacher</person>
-  <text>country</text>
-  <image/>
- </item>
- <item id="33" start="127.6" duration="1.667">
-  <person>Teacher</person>
-  <text>Spain</text>
-  <image/>
- </item>
- <item id="34" start="129.267" duration="2.733">
-  <person>Teacher</person>
-  <text>What's the name of your country?</text>
-  <image/>
- </item>
- <item id="34" start="132.0" duration="2.9">
-  <person>Student</person>
-  <text>Spain is the name of my country</text>
-  <image/>
- </item>
- <item id="35" start="134.933" duration="3.9">
-  <person>Teacher</person>
-  <text>What's the name of the country between England and Spain?</text>
-  <image/>
- </item>
- <item id="35" start="138.833" duration="4.267">
-  <person>Student</person>
-  <text>France is the name of the country between England and Spain</text>
-  <image/>
- </item>
- <item id="36" start="143.133" duration="1.767">
-  <person>Teacher</person>
-  <text>translate</text>
-  <image/>
- </item>
- <item id="37" start="144.933" duration="1.567">
-  <person>Teacher</person>
-  <text>into</text>
-  <image/>
- </item>
- <item id="38" start="146.5" duration="3.6">
-  <person>Teacher</person>
-  <text>Verbs are words we use for actions</text>
-  <image/>
- </item>
- <item id="39" start="150.133" duration="2.0">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="39" start="152.167" duration="4.7">
-  <person>Student</person>
-  <text>You're translating a sentence from English into ...</text>
-  <image/>
- </item>
- <item id="40" start="156.9" duration="5.2">
-  <person>Teacher</person>
-  <text>Translate this sentence, please: &quot;I am a student&quot;</text>
-  <image/>
- </item>
- <item id="41" start="162.1" duration="2.167">
-  <person>Teacher</person>
-  <text>What's he doing?</text>
-  <image/>
- </item>
- <item id="41" start="164.267" duration="3.867">
-  <person>Student</person>
-  <text>He's translating a sentence from English into ...</text>
-  <image/>
- </item>
- <item id="42" start="168.133" duration="4.267">
-  <person>Teacher</person>
-  <text>Translate this sentence, please: &quot;The wall's high&quot;</text>
-  <image/>
- </item>
- <item id="43" start="172.4" duration="1.933">
-  <person>Teacher</person>
-  <text>What's he doing?</text>
-  <image/>
- </item>
- <item id="43" start="174.367" duration="4.033">
-  <person>Student</person>
-  <text>He's translating a sentence from English into ...</text>
-  <image/>
- </item>
- <item id="44" start="178.433" duration="5.067">
-  <person>Teacher</person>
-  <text>Translate this sentence, please: &quot;There are ten chairs in this room&quot;</text>
-  <image/>
- </item>
- <item id="45" start="183.5" duration="1.967">
-  <person>Teacher</person>
-  <text>What's she doing?</text>
-  <image/>
- </item>
- <item id="45" start="185.5" duration="4.167">
-  <person>Student</person>
-  <text>She's translating a sentence from English into ...</text>
-  <image/>
- </item>
- <item id="46" start="189.667" duration="1.367">
-  <person>Teacher</person>
-  <text>who</text>
-  <image/>
- </item>
- <item id="47" start="191.033" duration="2.067">
-  <person>Teacher</person>
-  <text>Who am I?</text>
-  <image/>
- </item>
- <item id="47" start="193.1" duration="2.133">
-  <person>Student</person>
-  <text>You're Mr. Smith</text>
-  <image/>
- </item>
- <item id="48" start="195.267" duration="1.767">
-  <person>Teacher</person>
-  <text>Who are you?</text>
-  <image/>
- </item>
- <item id="48" start="197.033" duration="2.367">
-  <person>Student</person>
-  <text>I'm Mr. Rossi</text>
-  <image/>
- </item>
- <item id="49" start="199.4" duration="1.6">
-  <person>Teacher</person>
-  <text>Who's he?</text>
-  <image/>
- </item>
- <item id="49" start="201.033" duration="2.633">
-  <person>Student</person>
-  <text>He's Jack Brown</text>
-  <image/>
- </item>
- <item id="50" start="203.7" duration="1.6">
-  <person>Teacher</person>
-  <text>Who's she?</text>
-  <image/>
- </item>
- <item id="50" start="205.3" duration="2.6">
-  <person>Student</person>
-  <text>She's Anna Brown</text>
-  <image/>
- </item>
- <item id="51" start="207.933" duration="1.8">
-  <person>Teacher</person>
-  <text>Who are they?</text>
-  <image/>
- </item>
- <item id="51" start="209.733" duration="2.767">
-  <person>Student</person>
-  <text>They're Mr. and Mrs. Brown</text>
-  <image/>
- </item>
- <item id="52" start="212.533" duration="1.533">
-  <person>Teacher</person>
-  <text>thing</text>
-  <image/>
- </item>
- <item id="53" start="214.067" duration="2.9">
-  <person>Teacher</person>
-  <text>How many things are there on this book?</text>
-  <image/>
- </item>
- <item id="53" start="217.0" duration="2.867">
-  <person>Student</person>
-  <text>There are three things on that book</text>
-  <image/>
- </item>
- <item id="54" start="219.867" duration="2.4">
-  <person>Teacher</person>
-  <text>What's the name of this thing?</text>
-  <image/>
- </item>
- <item id="54" start="222.3" duration="3.2">
-  <person>Student</person>
-  <text>The name of that thing is a tie</text>
-  <image/>
- </item>
- <item id="55" start="225.5" duration="2.367">
-  <person>Teacher</person>
-  <text>What color's this thing?</text>
-  <image/>
- </item>
- <item id="55" start="227.867" duration="2.167">
-  <person>Student</person>
-  <text>This thing's red</text>
-  <image/>
- </item>
- <item id="56" start="230.033" duration="1.5">
-  <person>Teacher</person>
-  <text>tall</text>
-  <image/>
- </item>
- <item id="57" start="231.567" duration="1.633">
-  <person>Teacher</person>
-  <text>short</text>
-  <image/>
- </item>
- <item id="58" start="233.2" duration="1.867">
-  <person>Teacher</person>
-  <text>Scandinavia</text>
-  <image/>
- </item>
- <item id="59" start="235.1" duration="2.4">
-  <person>Teacher</person>
-  <text>Is Mr. Brown short?</text>
-  <image/>
- </item>
- <item id="59" start="237.5" duration="4.0">
-  <person>Student</person>
-  <text>No, Mr. Brown isn't; he's tall</text>
-  <image/>
- </item>
- <item id="60" start="241.533" duration="2.367">
-  <person>Teacher</person>
-  <text>Is Anna Brown tall?</text>
-  <image/>
- </item>
- <item id="60" start="243.9" duration="4.133">
-  <person>Student</person>
-  <text>No, Anna Brown isn't tall; she's short</text>
-  <image/>
- </item>
- <item id="61" start="248.033" duration="3.233">
-  <person>Teacher</person>
-  <text>All the people of Scandinavia short?</text>
-  <image/>
- </item>
- <item id="61" start="251.3" duration="5.2">
-  <person>Student</person>
-  <text>No, the people of Scandinavia aren't short; they're tall</text>
-  <image/>
- </item>
- <item id="62" start="256.533" duration="1.7">
-  <person>Teacher</person>
-  <text>difference</text>
-  <image/>
- </item>
- <item id="63" start="258.267" duration="1.6">
-  <person>Teacher</person>
-  <text>whereas</text>
-  <image/>
- </item>
- <item id="64" start="259.9" duration="1.433">
-  <person>Teacher</person>
-  <text>that</text>
-  <image/>
- </item>
- <item id="65" start="261.367" duration="5.0">
-  <person>Teacher</person>
-  <text>What's the difference between &quot;tall&quot; and &quot;short&quot; and &quot;high&quot; and &quot;low&quot;?</text>
-  <image/>
- </item>
- <item id="65" start="266.367" duration="12.167">
-  <person>Student</person>
-  <text>The difference between &quot;tall&quot; and &quot;short&quot; and &quot;high&quot; and &quot;low&quot; is that we use &quot;tall&quot; and &quot;short&quot; for people, whereas we use &quot;high&quot; and &quot;low&quot; for things</text>
-  <image/>
- </item>
- <item id="66">
-  <person>Teacher</person>
-  <text>(Dictation 1)&#10;What’s this? It’s a pen. Is this a pencil or a book? Is the long table black? No, it isn’t; it’s white. The short box is green. A city is large but a village is small. Is Mr Brown a man? Yes, he is. Is Anna Brown a boy or a girl? She’s a girl. One, two, three, four, five. Is the clock on the table or under the chair? No, it’s on the wall. What colour is the ceiling?</text>
-  <image/>
- </item> 
+	<item id="0">
+		<item id="0" start="0.1" duration="1.8">
+			<person>Teacher</person>
+			<text>Lesson eight</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="1.933" duration="1.8">
+			<person>Teacher</person>
+			<text>question</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="3.767" duration="1.433">
+			<person>Teacher</person>
+			<text>answer</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="5.2" duration="1.7">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="6.933" duration="1.9">
+			<person>Student</person>
+			<text>It's a question</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="8.867" duration="1.767">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="10.667" duration="2.033">
+			<person>Student</person>
+			<text>It's an answer</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="12.7" duration="2.233">
+			<person>Teacher</person>
+			<text>Is this an answer?</text>
+			<image/>
+		</item>
+		<item id="1" start="14.933" duration="3.933">
+			<person>Student</person>
+			<text>No, it isn't an answer; it's a question</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="18.9" duration="1.567">
+			<person>Teacher</person>
+			<text>meaning</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="20.467" duration="4.0">
+			<person>Teacher</person>
+			<text>What's the meaning of the word &quot;use&quot; in your language?</text>
+			<image/>
+		</item>
+		<item id="1" start="24.5" duration="4.067">
+			<person>Student</person>
+			<text>The meaning of the word &quot;use&quot; in my language is ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="28.567" duration="3.933">
+			<person>Teacher</person>
+			<text>What's the meaning of the word &quot;table&quot; in your language?</text>
+			<image/>
+		</item>
+		<item id="1" start="32.5" duration="4.2">
+			<person>Student</person>
+			<text>The meaning of the word &quot;table&quot; in my language is ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="36.733" duration="4.3">
+			<person>Teacher</person>
+			<text>What's the meaning of the word &quot;for&quot; in your language?</text>
+			<image/>
+		</item>
+		<item id="1" start="41.033" duration="3.733">
+			<person>Student</person>
+			<text>The meaning of the word &quot;for&quot; in my language is ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="44.8" duration="3.967">
+			<person>Teacher</person>
+			<text>What's the meaning of the word &quot;chair&quot; in your language?</text>
+			<image/>
+		</item>
+		<item id="1" start="48.8" duration="3.667">
+			<person>Student</person>
+			<text>The meaning of the word &quot;chair&quot; in my language is ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="52.467" duration="4.133">
+			<person>Teacher</person>
+			<text>What's the meaning of the word &quot;action&quot; in your language?</text>
+			<image/>
+		</item>
+		<item id="1" start="56.633" duration="4.3">
+			<person>Student</person>
+			<text>The meaning of the word &quot;action&quot; in my language is ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="60.967" duration="1.633">
+			<person>Teacher</person>
+			<text>name</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="62.6" duration="2.0">
+			<person>Teacher</person>
+			<text>What's my name?</text>
+			<image/>
+		</item>
+		<item id="1" start="64.633" duration="2.233">
+			<person>Student</person>
+			<text>Your name's Lazio</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="66.9" duration="1.933">
+			<person>Teacher</person>
+			<text>What's your name?</text>
+			<image/>
+		</item>
+		<item id="1" start="68.833" duration="2.467">
+			<person>Student</person>
+			<text>My name's Suhail</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="71.3" duration="2.0">
+			<person>Teacher</person>
+			<text>What's his name?</text>
+			<image/>
+		</item>
+		<item id="1" start="73.3" duration="2.733">
+			<person>Student</person>
+			<text>His name's Mr. Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="76.067" duration="2.0">
+			<person>Teacher</person>
+			<text>What's her name?</text>
+			<image/>
+		</item>
+		<item id="1" start="78.067" duration="2.5">
+			<person>Student</person>
+			<text>Her name's Mrs. Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="80.6" duration="1.433">
+			<person>Teacher</person>
+			<text>head</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="82.033" duration="1.533">
+			<person>Teacher</person>
+			<text>face</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="83.6" duration="1.567">
+			<person>Teacher</person>
+			<text>chin</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="85.167" duration="1.567">
+			<person>Teacher</person>
+			<text>mouth</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="86.733" duration="1.567">
+			<person>Teacher</person>
+			<text>nose</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="88.3" duration="1.6">
+			<person>Teacher</person>
+			<text>eye</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="89.9" duration="1.5">
+			<person>Teacher</person>
+			<text>ear</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="91.433" duration="1.5">
+			<person>Teacher</person>
+			<text>hair</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="92.933" duration="1.433">
+			<person>Teacher</person>
+			<text>tongue</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="94.4" duration="1.667">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="96.067" duration="2.367">
+			<person>Student</person>
+			<text>It's the head, etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="98.433" duration="1.733">
+			<person>Teacher</person>
+			<text>remaining</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="100.2" duration="1.9">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="102.1" duration="2.867">
+			<person>Student</person>
+			<text>You're going to the window</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="104.967" duration="2.1">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="107.1" duration="3.267">
+			<person>Student</person>
+			<text>You're coming from the window</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="110.367" duration="2.7">
+			<person>Teacher</person>
+			<text>Are you going to the window?</text>
+			<image/>
+		</item>
+		<item id="1" start="113.1" duration="5.033">
+			<person>Student</person>
+			<text>No, I'm not going to the window; I'm remaining on the chair</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="118.133" duration="3.0">
+			<person>Teacher</person>
+			<text>Am I remaining on the chair?</text>
+			<image/>
+		</item>
+		<item id="1" start="121.133" duration="4.733">
+			<person>Student</person>
+			<text>No, you aren't remaining on the chair; you're going to the window</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="125.867" duration="1.7">
+			<person>Teacher</person>
+			<text>country</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="127.6" duration="1.667">
+			<person>Teacher</person>
+			<text>Spain</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="129.267" duration="2.733">
+			<person>Teacher</person>
+			<text>What's the name of your country?</text>
+			<image/>
+		</item>
+		<item id="1" start="132.0" duration="2.9">
+			<person>Student</person>
+			<text>Spain is the name of my country</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="134.933" duration="3.9">
+			<person>Teacher</person>
+			<text>What's the name of the country between England and Spain?</text>
+			<image/>
+		</item>
+		<item id="1" start="138.833" duration="4.267">
+			<person>Student</person>
+			<text>France is the name of the country between England and Spain</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="143.133" duration="1.767">
+			<person>Teacher</person>
+			<text>translate</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="144.933" duration="1.567">
+			<person>Teacher</person>
+			<text>into</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="146.5" duration="3.6">
+			<person>Teacher</person>
+			<text>Verbs are words we use for actions</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="150.133" duration="2.0">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="152.167" duration="4.7">
+			<person>Student</person>
+			<text>You're translating a sentence from English into ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="156.9" duration="5.2">
+			<person>Teacher</person>
+			<text>Translate this sentence, please: &quot;I am a student&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="162.1" duration="2.167">
+			<person>Teacher</person>
+			<text>What's he doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="164.267" duration="3.867">
+			<person>Student</person>
+			<text>He's translating a sentence from English into ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="168.133" duration="4.267">
+			<person>Teacher</person>
+			<text>Translate this sentence, please: &quot;The wall's high&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="172.4" duration="1.933">
+			<person>Teacher</person>
+			<text>What's he doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="174.367" duration="4.033">
+			<person>Student</person>
+			<text>He's translating a sentence from English into ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="178.433" duration="5.067">
+			<person>Teacher</person>
+			<text>Translate this sentence, please: &quot;There are ten chairs in this room&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="183.5" duration="1.967">
+			<person>Teacher</person>
+			<text>What's she doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="185.5" duration="4.167">
+			<person>Student</person>
+			<text>She's translating a sentence from English into ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="189.667" duration="1.367">
+			<person>Teacher</person>
+			<text>who</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="191.033" duration="2.067">
+			<person>Teacher</person>
+			<text>Who am I?</text>
+			<image/>
+		</item>
+		<item id="1" start="193.1" duration="2.133">
+			<person>Student</person>
+			<text>You're Mr. Smith</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="195.267" duration="1.767">
+			<person>Teacher</person>
+			<text>Who are you?</text>
+			<image/>
+		</item>
+		<item id="1" start="197.033" duration="2.367">
+			<person>Student</person>
+			<text>I'm Mr. Rossi</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="199.4" duration="1.6">
+			<person>Teacher</person>
+			<text>Who's he?</text>
+			<image/>
+		</item>
+		<item id="1" start="201.033" duration="2.633">
+			<person>Student</person>
+			<text>He's Jack Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="203.7" duration="1.6">
+			<person>Teacher</person>
+			<text>Who's she?</text>
+			<image/>
+		</item>
+		<item id="1" start="205.3" duration="2.6">
+			<person>Student</person>
+			<text>She's Anna Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="207.933" duration="1.8">
+			<person>Teacher</person>
+			<text>Who are they?</text>
+			<image/>
+		</item>
+		<item id="1" start="209.733" duration="2.767">
+			<person>Student</person>
+			<text>They're Mr. and Mrs. Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="212.533" duration="1.533">
+			<person>Teacher</person>
+			<text>thing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="214.067" duration="2.9">
+			<person>Teacher</person>
+			<text>How many things are there on this book?</text>
+			<image/>
+		</item>
+		<item id="1" start="217.0" duration="2.867">
+			<person>Student</person>
+			<text>There are three things on that book</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="219.867" duration="2.4">
+			<person>Teacher</person>
+			<text>What's the name of this thing?</text>
+			<image/>
+		</item>
+		<item id="1" start="222.3" duration="3.2">
+			<person>Student</person>
+			<text>The name of that thing is a tie</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="225.5" duration="2.367">
+			<person>Teacher</person>
+			<text>What color's this thing?</text>
+			<image/>
+		</item>
+		<item id="1" start="227.867" duration="2.167">
+			<person>Student</person>
+			<text>This thing's red</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="230.033" duration="1.5">
+			<person>Teacher</person>
+			<text>tall</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="231.567" duration="1.633">
+			<person>Teacher</person>
+			<text>short</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="233.2" duration="1.867">
+			<person>Teacher</person>
+			<text>Scandinavia</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="235.1" duration="2.4">
+			<person>Teacher</person>
+			<text>Is Mr. Brown short?</text>
+			<image/>
+		</item>
+		<item id="1" start="237.5" duration="4.0">
+			<person>Student</person>
+			<text>No, Mr. Brown isn't; he's tall</text>
+			<image/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0" start="241.533" duration="2.367">
+			<person>Teacher</person>
+			<text>Is Anna Brown tall?</text>
+			<image/>
+		</item>
+		<item id="1" start="243.9" duration="4.133">
+			<person>Student</person>
+			<text>No, Anna Brown isn't tall; she's short</text>
+			<image/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0" start="248.033" duration="3.233">
+			<person>Teacher</person>
+			<text>All the people of Scandinavia short?</text>
+			<image/>
+		</item>
+		<item id="1" start="251.3" duration="5.2">
+			<person>Student</person>
+			<text>No, the people of Scandinavia aren't short; they're tall</text>
+			<image/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0" start="256.533" duration="1.7">
+			<person>Teacher</person>
+			<text>difference</text>
+			<image/>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0" start="258.267" duration="1.6">
+			<person>Teacher</person>
+			<text>whereas</text>
+			<image/>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0" start="259.9" duration="1.433">
+			<person>Teacher</person>
+			<text>that</text>
+			<image/>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0" start="261.367" duration="5.0">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;tall&quot; and &quot;short&quot; and &quot;high&quot; and &quot;low&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="266.367" duration="12.167">
+			<person>Student</person>
+			<text>The difference between &quot;tall&quot; and &quot;short&quot; and &quot;high&quot; and &quot;low&quot; is that we use &quot;tall&quot; and &quot;short&quot; for people, whereas we use &quot;high&quot; and &quot;low&quot; for things</text>
+			<image/>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<Dictation>
+			<text>\nWhat’s this?\nIt’s a pen.\nIs this a pencil or a book?\nIs the long table black?\nNo, it isn’t; it’s white.\nThe short box is green.\nA city is large but a village is small.\nIs Mr Brown a man?\nYes, he is.\nIs Anna Brown a boy or a girl?\nShe’s a girl.\nOne, two, three, four, five.\nIs the clock on the table or under the chair?\nNo, it’s on the wall.\nWhat colour is the ceiling?</text>
+			</Dictation>
+		</item>
+	</item>
 </items>

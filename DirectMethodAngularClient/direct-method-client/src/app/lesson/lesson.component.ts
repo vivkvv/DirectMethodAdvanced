@@ -18,13 +18,20 @@ import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component'
 import { OptionsService } from '../services/Options/options.service';
 import { ExitComponent } from '../exit/exit.component';
 
+/*
 class TSelectedKey {
     constructor(public id: number = -1, public person: string = '') {}
 }
+*/
 
 interface Lesson {
     nextPart: string;
     nextLesson: string;
+}
+
+interface Key {
+    itemId: string;
+    subItemId: string;
 }
 
 @Component({
@@ -34,6 +41,9 @@ interface Lesson {
 })
 export class LessonComponent implements OnInit {
     @ViewChild('headerElement') headerElement!: ElementRef;
+
+    Object = Object;
+
     timerId: any;
     isPanelHidden: boolean = false;
 
@@ -43,8 +53,8 @@ export class LessonComponent implements OnInit {
     audioBuffer!: AudioBuffer;
     source!: AudioBufferSourceNode | null;
 
-    lessonItemsDict: { [key: string]: LessonItem[] } = {};
-    selectedKey: string = '0:Teacher'; //ISelectedKey = { id: 0, person: '' };
+    lessonItemsDict: { [key: string]: LessonItem } = {};
+    selectedKey: Key = { itemId: '-1', subItemId: '-1' }; //string = '0:0'; //ISelectedKey = { id: 0, person: '' };
     lesson: number = -1;
     part: number = -1;
     isPlaying: boolean = false;
@@ -71,16 +81,31 @@ export class LessonComponent implements OnInit {
     private lessonID: string = '';
     private partID: string = '';
 
-    private stringToISelectedKey(value: string): TSelectedKey {
-        const parts = this.selectedKey.split(';');
-        return new TSelectedKey(parseInt(parts[0]), parts[1]);
-    }
-    private SelectedKeyToString(value: TSelectedKey) {
-        return value.id + ';' + value.person;
+    keyToString(key: Key): string {
+        return `${key.itemId}-${key.subItemId}`;
     }
 
-    setActiveKey(key: string) {
-        this.selectedKey = key;
+    private stringToKey(value: string): Key {
+        const [itemId, subItemId] = value.split('-');
+        return { itemId, subItemId };
+    }
+
+    private stringToISelectedKey(value: string): Key {
+        //const parts = this.selectedKey.split(';');
+        //return new TSelectedKey(parseInt(parts[0]), parts[1]);
+        return this.stringToKey(value);
+    }
+
+    //private SelectedKeyToString(value: TSelectedKey) {
+    //    return value.id + ';' + value.person;
+    //}
+
+    private getPersonByKey(key: Key) {
+        return this.lessonItemsDict[this.keyToString(key)]?.person;
+    }
+
+    setActiveKey(value: string) {
+        this.selectedKey = this.stringToKey(value);
         this.updateGUIDueToSelectedKey();
     }
 
@@ -159,14 +184,18 @@ export class LessonComponent implements OnInit {
     }
 
     getCurrentEpisode(strictCurrentPerson: boolean): undefined | LessonItem {
-        const currentKey: TSelectedKey = this.stringToISelectedKey(
-            this.selectedKey
-        );
-        const lessons: LessonItem[] = this.lessonItemsDict[currentKey.id];
+        const currentKey: Key = strictCurrentPerson
+            ? this.selectedKey
+            : { itemId: this.selectedKey.itemId, subItemId: "0" };
+        //        const currentKey: Key = this.selectedKey;
+        const lesson: LessonItem =
+            this.lessonItemsDict[this.keyToString(currentKey)];
+        return lesson;
+        /*
         const lesson: LessonItem[] = lessons.filter(
             (item) =>
                 item.person ===
-                (strictCurrentPerson ? currentKey.person : 'Teacher')
+                (strictCurrentPerson ? this.getPersonByKey(currentKey) : 'Teacher')
         );
 
         if (!lesson) {
@@ -174,6 +203,7 @@ export class LessonComponent implements OnInit {
         }
 
         return lesson[0];
+        */
     }
 
     private sleep(milliseconds: number) {
@@ -293,8 +323,8 @@ export class LessonComponent implements OnInit {
             }
 
             await this.sleep(1000 * pauseAfter);
-            
-            if(this.currentEpisodeIsLast()){
+
+            if (this.currentEpisodeIsLast()) {
                 break;
             }
 
@@ -378,20 +408,32 @@ export class LessonComponent implements OnInit {
     }
 
     formatTime(time: number): string {
-        const minutes = Math.floor(time / 60).toString().padStart(2, '0');
-        const seconds = Math.floor(time % 60).toString().padStart(2, '0');
-        const dSeconds = Math.floor((time * 10) % 10)
+        const minutes = Math.floor(time / 60)
+            .toString()
+            .padStart(2, '0');
+        const seconds = Math.floor(time % 60)
+            .toString()
+            .padStart(2, '0');
+        const dSeconds = Math.floor((time * 10) % 10);
         return `${minutes}:${seconds}:${dSeconds}`;
     }
 
     public updateGUIDueToSelectedKey() {
-        const iKey = this.stringToISelectedKey(this.selectedKey);
+        const iKey = this.selectedKey;
 
-        const lessons = this.lessonItemsDict[iKey.id];
-        const teacher = lessons.find((item) => item.person === 'Teacher');
+        const lesson: LessonItem = this.lessonItemsDict[this.keyToString(iKey)];
+
         let student: LessonItem | undefined = undefined;
-        if (iKey.person === 'Student') {
-            student = lessons.find((item) => item.person === 'Student');
+        let teacher: LessonItem | undefined = undefined;
+
+        if (iKey.subItemId === '0') {
+            teacher = lesson;
+        } else {
+            student = lesson;
+            teacher =
+                this.lessonItemsDict[
+                    this.keyToString({ itemId: iKey.itemId, subItemId: '0' })
+                ];
         }
 
         if (teacher) {
@@ -453,74 +495,52 @@ export class LessonComponent implements OnInit {
             });
     }
 
+    private getNextKey(): string {
+        const currentKey = this.keyToString(this.selectedKey);
+
+        const keys = Object.keys(this.lessonItemsDict);
+        const currentIndex = keys.indexOf(currentKey);
+
+        if (currentIndex === -1) return '0-0';
+
+        const nextKey =
+            currentIndex < keys.length - 1 ? keys[currentIndex + 1] : keys[0];
+
+        return nextKey;
+    }
+
     private getPreviousKey(): string {
-        const iKey: TSelectedKey = this.stringToISelectedKey(this.selectedKey);
+        const currentKey = this.keyToString(this.selectedKey);
 
-        const lessons = this.lessonItemsDict[iKey.id];
-        const ind = lessons.findIndex((item) => item.person === iKey.person);
-        if (ind == 0) {
-            if (iKey.id === 0) {
-                const keys = Object.keys(this.lessonItemsDict);
-                const lastKey = keys[keys.length - 1];
-                const lastLessons: LessonItem[] = this.lessonItemsDict[lastKey];
-                const lesson: LessonItem = lastLessons[lastLessons.length - 1];
-                iKey.id = parseInt(lastKey);
-                iKey.person = lesson.person;
-            } else {
-                iKey.id -= 1;
-                const lessonItems: LessonItem[] = this.lessonItemsDict[iKey.id];
-                iKey.person = lessonItems[lessonItems.length - 1].person;
-            }
-        } else {
-            iKey.person = lessons[ind - 1].person;
-        }
+        const keys = Object.keys(this.lessonItemsDict);
+        const currentIndex = keys.indexOf(currentKey);
 
-        return this.SelectedKeyToString(iKey);
+        if (currentIndex === -1) return '0-0';
+
+        const previousKey =
+            currentIndex > 0 ? keys[currentIndex - 1] : keys[keys.length - 1];
+
+        return previousKey;
     }
 
     private currentEpisodeIsLast(): boolean {
-        const iKey: TSelectedKey = this.stringToISelectedKey(this.selectedKey);
+        const currentKey = this.keyToString(this.selectedKey);
 
-        const lessons = this.lessonItemsDict[iKey.id];
-        const ind = lessons.findIndex((item) => item.person === iKey.person);
-        if (ind < 0 || ind >= lessons.length - 1) {
-            if (!this.lessonItemsDict[iKey.id + 1]) {
-                return true;
-            }
-        }
+        const keys = Object.keys(this.lessonItemsDict);
+        const currentIndex = keys.indexOf(currentKey);
 
-        return false;
-    }
-
-    private getNextKey(): string {
-        const iKey: TSelectedKey = this.stringToISelectedKey(this.selectedKey);
-
-        const lessons = this.lessonItemsDict[iKey.id];
-        const ind = lessons.findIndex((item) => item.person === iKey.person);
-        if (ind < 0 || ind >= lessons.length - 1) {
-            // if this element is the last
-            // we have to go the next element and it has to be 'Teacher'
-            iKey.id += 1;
-            iKey.person = 'Teacher';
-            if (!this.lessonItemsDict[iKey.id]) {
-                iKey.id = 0;
-            }
-        } else {
-            iKey.person = lessons[ind + 1].person;
-        }
-
-        return this.SelectedKeyToString(iKey);
+        return keys[keys.length - 1] === currentKey;
     }
 
     gotoPreviousEpisode() {
         const previousSelectedKey = this.getPreviousKey();
-        this.selectedKey = previousSelectedKey;
+        this.selectedKey = this.stringToKey(previousSelectedKey);
         this.updateGUIDueToSelectedKey();
     }
 
     gotoNextEpisode() {
         const nextSelectedKey = this.getNextKey();
-        this.selectedKey = nextSelectedKey;
+        this.selectedKey = this.stringToKey(nextSelectedKey);
         this.updateGUIDueToSelectedKey();
     }
 
@@ -577,6 +597,31 @@ export class LessonComponent implements OnInit {
                         'application/xml'
                     );
 
+                    const topLevelItems = Array.from(
+                        lessonXmlDoc.querySelectorAll('items > item')
+                    );
+                    topLevelItems.forEach((topItem) => {
+                        const itemId = topItem.getAttribute('id') || '-1';
+                        const subItems = topItem.querySelectorAll('item');
+                        subItems.forEach((subItem) => {
+                            const subItemId =
+                                subItem.getAttribute('id') || '-1';
+                            const translationElement =
+                                translationXmlDoc.querySelector(
+                                    `item[id="${itemId}"] item[id="${subItemId}"] translation`
+                                );
+                            const translation =
+                                translationElement?.textContent || '';
+
+                            const key = this.keyToString({ itemId, subItemId });
+
+                            this.lessonItemsDict[key] = new LessonItem(
+                                subItem,
+                                translation
+                            );
+                        });
+                    });
+                    /*
                     const lessonItems = Array.from(
                         lessonXmlDoc.getElementsByTagName('item')
                     );
@@ -603,24 +648,24 @@ export class LessonComponent implements OnInit {
                             new LessonItem(lessonItem, translation),
                         ];
                     }
-
+                    */
                     // load all the images of this.lessonItemsDict
                     let fetchObservables = [];
                     for (const key in this.lessonItemsDict) {
-                        for (let item of this.lessonItemsDict[key]) {
-                            fetchObservables.push(
-                                this.fetchAndReplaceImage(
-                                    partId,
-                                    lessonId,
-                                    item
-                                )
-                            );
-                        }
+                        //for (let item of this.lessonItemsDict[key]) {
+                        fetchObservables.push(
+                            this.fetchAndReplaceImage(
+                                partId,
+                                lessonId,
+                                this.lessonItemsDict[key]
+                            )
+                        );
+                        //}
                     }
 
                     forkJoin(fetchObservables).subscribe((responces) => {});
 
-                    this.setActiveKey('0;Teacher');
+                    this.setActiveKey('0-0');
 
                     const audio_link = response.audio_link;
 

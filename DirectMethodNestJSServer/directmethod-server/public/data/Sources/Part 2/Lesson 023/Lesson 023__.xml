@@ -1,0 +1,625 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="319.067">
+	<item id="0">
+		<item id="0" start="0.167" duration="2.3">
+			<person>Teacher</person>
+			<text>Lesson twenty three</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.467" duration="1.733">
+			<person>Teacher</person>
+			<text>meal</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.233" duration="1.867">
+			<person>Teacher</person>
+			<text>breakfast</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="6.1" duration="1.567">
+			<person>Teacher</person>
+			<text>lunch</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="7.667" duration="1.5">
+			<person>Teacher</person>
+			<text>dinner</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="9.2" duration="1.7">
+			<person>Teacher</person>
+			<text>a day</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="10.933" duration="1.6">
+			<person>Teacher</person>
+			<text>morning</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="12.533" duration="1.467">
+			<person>Teacher</person>
+			<text>evening</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="14.033" duration="5.333">
+			<person>Teacher</person>
+			<text>Tell me the names of the three meals that people generally eat a day</text>
+			<image/>
+		</item>
+		<item id="1" start="19.367" duration="7.4">
+			<person>Student</person>
+			<text>The names of the three meals that people generally eat today are breakfast, lunch and dinner</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="26.767" duration="3.2">
+			<person>Teacher</person>
+			<text>What time do you have your breakfast?</text>
+			<image/>
+		</item>
+		<item id="1" start="30.0" duration="3.367">
+			<person>Student</person>
+			<text>I have my breakfast at 8:00</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="33.4" duration="2.867">
+			<person>Teacher</person>
+			<text>What time do you have your lunch?</text>
+			<image/>
+		</item>
+		<item id="1" start="36.267" duration="3.167">
+			<person>Student</person>
+			<text>I have my lunch at 1:00</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="39.433" duration="3.2">
+			<person>Teacher</person>
+			<text>What time does your dinner begin?</text>
+			<image/>
+		</item>
+		<item id="1" start="42.667" duration="3.4">
+			<person>Student</person>
+			<text>My dinner begins at 7:00</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="46.067" duration="3.5">
+			<person>Teacher</person>
+			<text>What time does your dinner end?</text>
+			<image/>
+		</item>
+		<item id="1" start="49.567" duration="3.3">
+			<person>Student</person>
+			<text>My dinner ends at 8:00</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="52.9" duration="3.3">
+			<person>Teacher</person>
+			<text>How long does her dinner last?</text>
+			<image/>
+		</item>
+		<item id="1" start="56.233" duration="3.2">
+			<person>Student</person>
+			<text>Her dinner lasts one hour</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="59.467" duration="1.533">
+			<person>Teacher</person>
+			<text>plate</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="61.033" duration="1.567">
+			<person>Teacher</person>
+			<text>bowl</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="62.6" duration="1.633">
+			<person>Teacher</person>
+			<text>knife</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="64.267" duration="1.6">
+			<person>Teacher</person>
+			<text>fork</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="65.867" duration="1.733">
+			<person>Teacher</person>
+			<text>spoon</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="67.6" duration="1.967">
+			<person>Teacher</person>
+			<text>chopsticks</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="69.6" duration="2.8">
+			<person>Teacher</person>
+			<text>What do we eat our food from?</text>
+			<image/>
+		</item>
+		<item id="1" start="72.4" duration="4.167">
+			<person>Student</person>
+			<text>We eat our food from a plate or a bowl</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="76.567" duration="3.2">
+			<person>Teacher</person>
+			<text>What do we eat our food with?</text>
+			<image/>
+		</item>
+		<item id="1" start="79.8" duration="7.0">
+			<person>Student</person>
+			<text>We eat our food with a knife, fork and spoon or with chopsticks</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="86.8" duration="1.533">
+			<person>Teacher</person>
+			<text>many</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="88.367" duration="1.6">
+			<person>Teacher</person>
+			<text>more ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="90.0" duration="1.9">
+			<person>Teacher</person>
+			<text>the most</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="91.933" duration="1.6">
+			<person>Teacher</person>
+			<text>few</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="93.533" duration="1.733">
+			<person>Teacher</person>
+			<text>fewer ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="95.267" duration="1.9">
+			<person>Teacher</person>
+			<text>the fewest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="97.2" duration="1.7">
+			<person>Teacher</person>
+			<text>much</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="98.9" duration="1.8">
+			<person>Teacher</person>
+			<text>more ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="100.733" duration="1.867">
+			<person>Teacher</person>
+			<text>the most</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="102.6" duration="1.633">
+			<person>Teacher</person>
+			<text>little</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="104.233" duration="1.867">
+			<person>Teacher</person>
+			<text>less ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="106.1" duration="1.8">
+			<person>Teacher</person>
+			<text>the least</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="107.9" duration="1.9">
+			<person>Teacher</person>
+			<text>exception</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="109.833" duration="1.833">
+			<person>Teacher</person>
+			<text>quantity</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="111.7" duration="1.8">
+			<person>Teacher</person>
+			<text>singular</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>“Many“ and “much“ have the same meaning, but we use “many“ with things we can count. For example, we can count pens – one pen, two pens, three pens etc. We can count books, chairs etc. Generally, the things we can count have an “s“ in the plural. “People“ is an exception. It has no “s“, but it is plural and we use “many” with it. For example, “There are many people in this town”.\n
+		We use “much“ with things we cannot count. For example, we cannot count water or sugar. We cannot say “one water, two waters”; “one sugar, two sugars” etc. These things are a singular quantity and have no “s”. Money is not an exception; we can count money, but we do not say “one money, two monies”. We say “one pound, two pounds”; “one dollar, two dollars” etc.</text>
+	</Explanation>	
+	<item id="37">
+		<item id="0" start="113.5" duration="4.067">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;many&quot; and &quot;much&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="117.6" duration="9.7">
+			<person>Student</person>
+			<text>The difference between &quot;many&quot; and &quot;much&quot; is that we use &quot;many&quot; with things we can count and &quot;much&quot; with things we can't count</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="127.3" duration="3.7">
+			<person>Teacher</person>
+			<text>Give me a sentence with &quot;many&quot; in it, please</text>
+			<image/>
+		</item>
+		<item id="1" start="131.033" duration="3.933">
+			<person>Student</person>
+			<text>There are many cars in a large city</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="134.967" duration="3.533">
+			<person>Teacher</person>
+			<text>Give me a sentence with &quot;much&quot; in it</text>
+			<image/>
+		</item>
+		<item id="1" start="138.5" duration="3.6">
+			<person>Student</person>
+			<text>I do not put much sugar in my tea</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>“Few“ and “little“ also have the same meaning, but we use “few“ with things we can count, and “little“ with things we cannot count.</text>
+	</Explanation>	
+	<item id="40">
+		<item id="0" start="142.133" duration="3.867">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;few&quot; and &quot;little&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="146.0" duration="8.7">
+			<person>Student</person>
+			<text>The difference between &quot;few&quot; and &quot;little&quot; is that we use &quot;few&quot; with things we can count and &quot;little&quot; with things we can't count</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="154.7" duration="3.833">
+			<person>Teacher</person>
+			<text>Give me a sentence with &quot;few&quot; in it, please</text>
+			<image/>
+		</item>
+		<item id="1" start="158.567" duration="4.033">
+			<person>Student</person>
+			<text>There are few tables in this school</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="162.6" duration="3.5">
+			<person>Teacher</person>
+			<text>Give me a sentence with &quot;little&quot; in it</text>
+			<image/>
+		</item>
+		<item id="1" start="166.1" duration="2.9">
+			<person>Student</person>
+			<text>I drink little milk</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="169.0" duration="1.767">
+			<person>Teacher</person>
+			<text>many</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="170.8" duration="1.5">
+			<person>Teacher</person>
+			<text>few</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="172.3" duration="3.367">
+			<person>Teacher</person>
+			<text>Are there many pictures on these walls?</text>
+			<image/>
+		</item>
+		<item id="1" start="175.7" duration="7.1">
+			<person>Student</person>
+			<text>No, there aren't many pictures on these walls; there are few pictures on these walls</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="182.8" duration="3.6">
+			<person>Teacher</person>
+			<text>Are there few people in a large city?</text>
+			<image/>
+		</item>
+		<item id="1" start="186.4" duration="6.6">
+			<person>Student</person>
+			<text>No, there aren't few people in a large city; there are many people in a large city</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="193.0" duration="1.7">
+			<person>Teacher</person>
+			<text>much</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="194.733" duration="1.533">
+			<person>Teacher</person>
+			<text>little</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="196.267" duration="1.667">
+			<person>Teacher</person>
+			<text>a lot of</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="197.933" duration="1.633">
+			<person>Teacher</person>
+			<text>salt</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="199.6" duration="1.467">
+			<person>Teacher</person>
+			<text>pepper</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>We can use “much“ in questions and negative sentences, but in positive sentences we generally use “a lot of“. For example, we do not say “I eat much bread“; we say “I eat a lot of bread“.</text>
+	</Explanation>	
+	<item id="52">
+		<item id="0" start="201.067" duration="2.567">
+			<person>Teacher</person>
+			<text>Do you drink much water?</text>
+			<image/>
+		</item>
+		<item id="1" start="203.633" duration="3.4">
+			<person>Student</person>
+			<text>Yes, I drink a lot of water</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="207.033" duration="2.933">
+			<person>Teacher</person>
+			<text>Do you drink little water?</text>
+			<image/>
+		</item>
+		<item id="1" start="210.0" duration="5.2">
+			<person>Student</person>
+			<text>No, I don't drink little water; I drink a lot of water</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="215.2" duration="3.033">
+			<person>Teacher</person>
+			<text>Do you eat little bread?</text>
+			<image/>
+		</item>
+		<item id="1" start="218.267" duration="4.7">
+			<person>Student</person>
+			<text>No, I don't eat little bread; I eat a lot of bread</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="222.967" duration="3.067">
+			<person>Teacher</person>
+			<text>Do you eat much salt?</text>
+			<image/>
+		</item>
+		<item id="1" start="226.033" duration="4.5">
+			<person>Student</person>
+			<text>No, I don't eat much salt; I eat little salt</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="230.567" duration="3.767">
+			<person>Teacher</person>
+			<text>Do you put much pepper on your plate?</text>
+			<image/>
+		</item>
+		<item id="1" start="234.367" duration="6.167">
+			<person>Student</person>
+			<text>No, I don't put much pepper on my plate; I put little pepper on my plate</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="240.567" duration="1.933">
+			<person>Teacher</person>
+			<text>fewer ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="242.5" duration="1.8">
+			<person>Teacher</person>
+			<text>less ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="244.3" duration="1.533">
+			<person>Teacher</person>
+			<text>bank</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>The difference between “fewer ... than“ and “less ... than“ is that we use “fewer ... than“ with things we can count, and “less ... than“ with things we cannot count. For example, “I have fewer thumbs than fingers. I drink less milk than water“.</text>
+	</Explanation>	
+	<item id="60">
+		<item id="0" start="245.867" duration="4.633">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;fewer ... than&quot; and &quot;less ... than&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="250.5" duration="9.9">
+			<person>Student</person>
+			<text>The difference between &quot;fewer ... than&quot; and &quot;less ... than&quot; is that we use &quot;fewer ... than&quot; with things we can count and &quot;less ... than&quot; with things we can't count</text>
+			<image/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0" start="260.433" duration="4.167">
+			<person>Teacher</person>
+			<text>Give me a sentence with &quot;fewer ... than&quot; in it, please</text>
+			<image/>
+		</item>
+		<item id="1" start="264.633" duration="4.433">
+			<person>Student</person>
+			<text>There are fewer pictures in this room than chairs</text>
+			<image/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0" start="269.067" duration="3.5">
+			<person>Teacher</person>
+			<text>Give me a sentence with &quot;less ... than&quot; in it</text>
+			<image/>
+		</item>
+		<item id="1" start="272.567" duration="3.8">
+			<person>Student</person>
+			<text>I eat less food than my brother</text>
+			<image/>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0" start="276.367" duration="4.167">
+			<person>Teacher</person>
+			<text>Are there more people in Europe than in Asia?</text>
+			<image/>
+		</item>
+		<item id="1" start="280.567" duration="6.633">
+			<person>Student</person>
+			<text>No, there aren't more people in Europe than in Asia; there are fewer people in Europe than in Asia</text>
+			<image/>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0" start="287.2" duration="4.667">
+			<person>Teacher</person>
+			<text>Do you drink more milk than water?</text>
+			<image/>
+		</item>
+		<item id="1" start="291.9" duration="5.5">
+			<person>Student</person>
+			<text>No, I don't drink more milk than water; I drink less milk than water</text>
+			<image/>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0" start="297.4" duration="3.633">
+			<person>Teacher</person>
+			<text>Have you got more money than the Bank of England?</text>
+			<image/>
+		</item>
+		<item id="1" start="301.033" duration="6.8">
+			<person>Student</person>
+			<text>No, I haven't got more money than the Bank of England; I've got less money than the Bank of England</text>
+			<image/>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0" start="307.867" duration="3.033">
+			<person>Teacher</person>
+			<text>Do you eat more meat than bread?</text>
+			<image/>
+		</item>
+		<item id="1" start="310.9" duration="8.133">
+			<person>Student</person>
+			<text>No, I don't eat more meat than bread; I eat less meat than bread</text>
+			<image/>
+		</item>
+	</item>
+</items>

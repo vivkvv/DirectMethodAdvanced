@@ -1,0 +1,528 @@
+<?xml version="1.0" ?>
+<items>
+	<item id="0">
+		<item id="0">
+			<translation>Урок двадцать</translation>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>время</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>после</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>до</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>по</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>час, часа, часов</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>Какое время по этим часам?</translation>
+		</item>
+		<item id="1">
+			<translation>Сейчас три часа</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>Который сейчас час?</translation>
+		</item>
+		<item id="1">
+			<translation>Сейчас - одиннадцать часов</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>день</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>неделя</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>месяц</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>год</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>Сколько секунд составляют минуту?</translation>
+		</item>
+		<item id="1">
+			<translation>Шестьдесят секунд составляют минуту</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>Сколько минут составляют час?</translation>
+		</item>
+		<item id="1">
+			<translation>Шестьдесят минут составляют час</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation>Двадцать четыре часа составляют день</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>Сколько дней составляют неделю?</translation>
+		</item>
+		<item id="1">
+			<translation>Семь дней составляют неделю</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>Сколько недель составляют месяц?</translation>
+		</item>
+		<item id="1">
+			<translation>Четыре недели составляют месяц</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>Сколько месяцев составляют год?</translation>
+		</item>
+		<item id="1">
+			<translation>Двенадцать месяцев составляют год</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>также</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>Дай мне, пожалуйста, пример слова &quot;also&quot;</translation>
+		</item>
+		<item id="1">
+			<translation>Я могу говорить на своем языке и я могу также говорить на английском</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>мясо</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>сахар</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>Ты любишь мясо?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я люблю мясо</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>Какого цвета сахар?</translation>
+		</item>
+		<item id="1">
+			<translation>Сахар - белый или коричневый</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>Ты кладешь сахар в мясо?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не кладу сахар в мясо; я кладу сахар в чай или кофе</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>считать</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>от .. до</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>1, 2, 3, 4, 5 - Что я делаю? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты считаешь</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>6, 7, 8, 9, 20 - Что я делаю?</translation>
+		</item>
+		<item id="1">
+			<translation>Ты считаешь числа от шести до десяти</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>Посчитай, пожалуйста, числа от 100 до 105</translation>
+		</item>
+		<item id="1">
+			<translation>100, 101, 102, 103, 104, 105</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>Что он делает? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Он считает числа от 100 до 105</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>притяжательное прилагательное</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>мой</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>твой</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>его</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>ее</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>его</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>наше</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>ваше</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>их</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>притяжательное местоимение</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>мой</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>твой, ваш</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>его</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>ее</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>наш</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>твой, ваш</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>их</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>Что такое притяжательные прилагательные?</translation>
+		</item>
+		<item id="1">
+			<translation>Притяжательные прилагательные - это &quot;my&quot;, &quot;your&quot; и т.д.</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>Что такое притяжательные местоимения?</translation>
+		</item>
+		<item id="1">
+			<translation>Притяжательные местоимения - это &quot;mine&quot;, &quot;yours&quot; и т.д.</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>В чем разница между притяжательным прилагательным и притяжательным местоимением?</translation>
+		</item>
+		<item id="1">
+			<translation>Разница между притяжательным прилагательным и притяжательным местоимением в том, что мы ставим притяжательное прилагательное перед существительным, в то время как мы используем притяжательное местоимение вместо существительного</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>Дай мне, пожалуйста, пример</translation>
+		</item>
+		<item id="1">
+			<translation>Это моя книга. Эта книга - моя. Это - моя.</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>мой</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation>твой, ваш</translation>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation>Это твое ухо?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, это не мое ухо; это твое ухо</translation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>Это ухо - твое?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, это ухо - не мое; оно твое</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation>Этот нос - мой?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, этот нос - нет твой; он мой</translation>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation>его</translation>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation>ее</translation>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation>Это его платье?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, это платье не его; оно - ее</translation>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation>Этот костюм - ее?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, это костюм не ее; он - ее</translation>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation>Те руки - его?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, те руки не его; они - ее</translation>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0">
+			<translation>Те руки ее?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, те руки не ее; они - его</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation>наш</translation>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation>их</translation>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0">
+			<translation>Те ноги наши?</translation>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0">
+			<translation>Это их книги?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, это не их книги, это наши книги</translation>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0">
+			<translation>Эти книги - их?</translation>
+		</item>
+		<item id="1">
+			<translation>нет, эти книги - не их; они - наши</translation>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0">
+			<translation>инфинтив</translation>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0">
+			<translation>Дай мне, пожалуйста, некоторые примеры глаголов в инфнитиве</translation>
+		</item>
+		<item id="1">
+			<translation>Некоторые примеры глаголов в инфинитиве - &quot;to come&quot;, &quot;to go&quot;, &quot;to take&quot; и т.д.</translation>
+		</item>
+	</item>
+	<item id="73">
+		<item id="0">
+			<translation>Вспомогательный глагол</translation>
+		</item>
+	</item>
+	<item id="74">
+		<item id="0">
+			<translation>делать</translation>
+		</item>
+	</item>
+	<item id="76">
+		<item id="0">
+			<translation>Какое слово есть вспомогательным глаголом в этом предложении: &quot;Они могут открыть окно&quot;</translation>
+		</item>
+		<item id="1">
+			<translation>Слово &quot;мочь&quot; - это вспомогательный глагол в том предложении</translation>
+		</item>
+	</item>
+	<item id="77">
+		<item id="0">
+			<translation>Какое слово есть вспомогательным глаголом в этом предложении: &quot;Они ходят в школу?&quot; (вообще)</translation>
+		</item>
+		<item id="1">
+			<translation>Слово &quot;do&quot; - это вспомогательный глагол в этом предложениии</translation>
+		</item>
+	</item>
+	<item id="78">
+		<item id="0">
+			<translation>Что глагол &quot;to do&quot; значит?</translation>
+		</item>
+		<item id="1">
+			<translation>Глагол &quot;to do&quot; значит ...</translation>
+		</item>
+	</item>
+	<item id="79">
+		<item id="0">
+			<translation>Что я делаю? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты выходишь из комнаты</translation>
+		</item>
+	</item>
+	<item id="80">
+		<item id="0">
+			<translation>Что я делаю после урока? (вообще)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты выходишь из комнаты после урока</translation>
+		</item>
+	</item>
+	<item id="81">
+		<item id="0">
+			<translation>Что я делаю? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты сидишь</translation>
+		</item>
+	</item>
+	<item id="82">
+		<item id="0">
+			<translation>Что ты делаешь перед уроком? (вообще)</translation>
+		</item>
+		<item id="1">
+			<translation>Я сажусь перед уроком</translation>
+		</item>
+	</item>
+	<item id="83">
+		<item id="0">
+			<translation>Что я делаю? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты встаешь</translation>
+		</item>
+	</item>
+	<item id="84">
+		<item id="0">
+			<translation>Что ты делаешь после урока? (вообще)</translation>
+		</item>
+		<item id="1">
+			<translation>Я встаю после урока</translation>
+		</item>
+	</item>
+</items>

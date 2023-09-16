@@ -1,0 +1,808 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="358.3">
+	<item id="0">
+		<item id="0" start="0.167" duration="2.133">
+			<person>Teacher</person>
+			<text>Lesson twenty</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.3" duration="1.633">
+			<person>Teacher</person>
+			<text>time</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="3.933" duration="1.5">
+			<person>Teacher</person>
+			<text>past</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="5.467" duration="1.4">
+			<person>Teacher</person>
+			<text>to</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="6.9" duration="1.533">
+			<person>Teacher</person>
+			<text>by</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="8.433" duration="1.6">
+			<person>Teacher</person>
+			<text>o'clock</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="10.067" duration="2.867">
+			<person>Teacher</person>
+			<text>What's the time by this clock?</text>
+			<image/>
+		</item>
+		<item id="1" start="12.933" duration="2.933">
+			<person>Student</person>
+			<text>It's 3 o'clock etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="15.9" duration="2.633">
+			<person>Teacher</person>
+			<text>What's the time now, please?</text>
+			<image/>
+		</item>
+		<item id="1" start="18.533" duration="3.0">
+			<person>Student</person>
+			<text>It's 11 o'clock now</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>With the numbers 5, 10, 20, and 25 we don’t say “minutes“. For example, we say “It’s 5 past 3.“ With the numbers between one and five, five and ten etc. we say “minutes“. For example, “It’s 2 minutes past 4.“</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="21.533" duration="1.5">
+			<person>Teacher</person>
+			<text>day</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="23.033" duration="1.567">
+			<person>Teacher</person>
+			<text>week</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="24.633" duration="1.533">
+			<person>Teacher</person>
+			<text>month</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="26.167" duration="1.6">
+			<person>Teacher</person>
+			<text>year</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="27.8" duration="2.733">
+			<person>Teacher</person>
+			<text>How many seconds make a minute?</text>
+			<image/>
+		</item>
+		<item id="1" start="30.533" duration="2.767">
+			<person>Student</person>
+			<text>Sixty seconds make a minute</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="33.333" duration="2.667">
+			<person>Teacher</person>
+			<text>How many minutes make an hour?</text>
+			<image/>
+		</item>
+		<item id="1" start="36.0" duration="2.633">
+			<person>Student</person>
+			<text>Sixty minutes make an hour</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="38.667" duration="2.6">
+			<person>Teacher</person>
+			<text>How many hours make a day?</text>
+			<image>Сколько часов составляют день?</image>
+		</item>
+		<item id="1" start="41.3" duration="2.733">
+			<person>Student</person>
+			<text>Twenty four hours make a day</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="44.033" duration="2.7">
+			<person>Teacher</person>
+			<text>How many days make a week?</text>
+			<image/>
+		</item>
+		<item id="1" start="46.733" duration="2.667">
+			<person>Student</person>
+			<text>Seven days make a week</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="49.433" duration="2.7">
+			<person>Teacher</person>
+			<text>How many weeks make a month?</text>
+			<image/>
+		</item>
+		<item id="1" start="52.133" duration="2.367">
+			<person>Student</person>
+			<text>Four weeks make a month</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="54.5" duration="2.667">
+			<person>Teacher</person>
+			<text>How many months make a year?</text>
+			<image/>
+		</item>
+		<item id="1" start="57.167" duration="2.567">
+			<person>Student</person>
+			<text>Twelve months make a year</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="59.733" duration="1.5">
+			<person>Teacher</person>
+			<text>also</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="61.267" duration="4.167">
+			<person>Teacher</person>
+			<text>Give me an example of the word &quot;also&quot;, please</text>
+			<image/>
+		</item>
+		<item id="1" start="65.433" duration="5.0">
+			<person>Student</person>
+			<text>I can speak my language and I can also speak English</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="70.467" duration="1.4">
+			<person>Teacher</person>
+			<text>meat</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="71.9" duration="1.433">
+			<person>Teacher</person>
+			<text>sugar</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="73.367" duration="2.233">
+			<person>Teacher</person>
+			<text>Do you like meat?</text>
+			<image/>
+		</item>
+		<item id="1" start="75.6" duration="2.167">
+			<person>Student</person>
+			<text>Yes, I like meat</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="77.8" duration="2.233">
+			<person>Teacher</person>
+			<text>What color's sugar?</text>
+			<image/>
+		</item>
+		<item id="1" start="80.033" duration="2.833">
+			<person>Student</person>
+			<text>Sugar's white or brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="82.9" duration="2.733">
+			<person>Teacher</person>
+			<text>Do you put sugar on your meat?</text>
+			<image/>
+		</item>
+		<item id="1" start="85.633" duration="5.2">
+			<person>Student</person>
+			<text>No, I don't put sugar on my meat; I put it in my tea or coffee</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="90.867" duration="1.567">
+			<person>Teacher</person>
+			<text>count</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="92.433" duration="2.7">
+			<person>Teacher</person>
+			<text>from ... to</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="95.133" duration="6.433">
+			<person>Teacher</person>
+			<text>1, 2, 3, 4, 5 - What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="101.6" duration="1.9">
+			<person>Student</person>
+			<text>You're counting</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="103.5" duration="7.1">
+			<person>Teacher</person>
+			<text>6, 7, 8, 9, 10 - What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="110.6" duration="3.433">
+			<person>Student</person>
+			<text>You're counting the numbers from six to ten</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="114.067" duration="5.8">
+			<person>Teacher</person>
+			<text>Count the numbers from 100 to 105, please</text>
+			<image/>
+		</item>
+		<item id="1" start="119.867" duration="8.9">
+			<person>Student</person>
+			<text>100, 101, 102, 103, 104, 105</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="128.767" duration="1.933">
+			<person>Teacher</person>
+			<text>What's he doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="130.7" duration="4.367">
+			<person>Student</person>
+			<text>He's counting the numbers from 100 to 105</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="135.1" duration="2.4">
+			<person>Teacher</person>
+			<text>Possessive adjectives</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="137.533" duration="1.4">
+			<person>Teacher</person>
+			<text>my</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="138.933" duration="1.467">
+			<person>Teacher</person>
+			<text>your</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="140.433" duration="1.4">
+			<person>Teacher</person>
+			<text>his</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="141.867" duration="1.367">
+			<person>Teacher</person>
+			<text>her</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="143.267" duration="1.367">
+			<person>Teacher</person>
+			<text>its</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="144.633" duration="1.533">
+			<person>Teacher</person>
+			<text>our</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="146.2" duration="1.533">
+			<person>Teacher</person>
+			<text>your</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="147.733" duration="1.6">
+			<person>Teacher</person>
+			<text>their</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="149.333" duration="2.767">
+			<person>Teacher</person>
+			<text>Possessive pronouns</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="152.133" duration="1.6">
+			<person>Teacher</person>
+			<text>mine</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="153.733" duration="1.567">
+			<person>Teacher</person>
+			<text>yours</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="155.333" duration="1.4">
+			<person>Teacher</person>
+			<text>his</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="156.767" duration="1.467">
+			<person>Teacher</person>
+			<text>hers</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="158.233" duration="1.5">
+			<person>Teacher</person>
+			<text>ours</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="159.767" duration="1.533">
+			<person>Teacher</person>
+			<text>yours</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="161.3" duration="1.533">
+			<person>Teacher</person>
+			<text>theirs</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="162.867" duration="3.2">
+			<person>Teacher</person>
+			<text>What are the possessive adjectives?</text>
+			<image/>
+		</item>
+		<item id="1" start="166.1" duration="5.933">
+			<person>Student</person>
+			<text>The possessive adjectives are &quot;my&quot;, &quot;your&quot;, etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="172.033" duration="3.0">
+			<person>Teacher</person>
+			<text>What are the possessive pronouns?</text>
+			<image/>
+		</item>
+		<item id="1" start="175.033" duration="4.967">
+			<person>Student</person>
+			<text>The possessive pronouns are &quot;mine&quot;, &quot;yours&quot;, etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>The difference between a possessive adjective and a possessive pronoun is that we put a possessive adjective in front of a noun (for example, “This is my book“), whereas we use a possessive pronoun instead of a noun. For example, instead of saying “This is my pen and that is her pen”, we can say “This is my pen and that is hers”.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="180.033" duration="5.9">
+			<person>Teacher</person>
+			<text>What's the difference between a possessive adjective and a possessive pronoun?</text>
+			<image/>
+		</item>
+		<item id="1" start="185.933" duration="11.867">
+			<person>Student</person>
+			<text>The difference between a possessive adjective and a possessive pronoun is that we put a possessive adjective in front of a noun, whereas we use a possessive pronoun instead of a noun</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="197.833" duration="2.467">
+			<person>Teacher</person>
+			<text>Give me an example, please</text>
+			<image/>
+		</item>
+		<item id="1" start="200.3" duration="5.7">
+			<person>Student</person>
+			<text>This is my book. This book is mine. This is mine</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="206.0" duration="1.567">
+			<person>Teacher</person>
+			<text>mine</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="207.6" duration="1.6">
+			<person>Teacher</person>
+			<text>yours</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="209.2" duration="2.333">
+			<person>Teacher</person>
+			<text>Is this your ear?</text>
+			<image/>
+		</item>
+		<item id="1" start="211.567" duration="3.867">
+			<person>Student</person>
+			<text>No, that isn't my ear; it's your ear</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="215.433" duration="2.8">
+			<person>Teacher</person>
+			<text>Is this ear yours?</text>
+			<image/>
+		</item>
+		<item id="1" start="218.267" duration="4.033">
+			<person>Student</person>
+			<text>No, that ear isn't mine; it's yours</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="222.3" duration="2.533">
+			<person>Teacher</person>
+			<text>Is that nose mine?</text>
+			<image/>
+		</item>
+		<item id="1" start="224.867" duration="4.133">
+			<person>Student</person>
+			<text>No, this nose isn't yours; it's mine</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="229.0" duration="1.4">
+			<person>Teacher</person>
+			<text>his</text>
+			<image/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0" start="230.433" duration="1.467">
+			<person>Teacher</person>
+			<text>hers</text>
+			<image/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0" start="231.933" duration="2.5">
+			<person>Teacher</person>
+			<text>Is that dress his?</text>
+			<image/>
+		</item>
+		<item id="1" start="234.467" duration="4.1">
+			<person>Student</person>
+			<text>No, that dress isn't his; it's hers</text>
+			<image/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0" start="238.567" duration="2.533">
+			<person>Teacher</person>
+			<text>Is that suit hers?</text>
+			<image/>
+		</item>
+		<item id="1" start="241.1" duration="3.867">
+			<person>Student</person>
+			<text>No, that suit isn't hers; it's his</text>
+			<image/>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0" start="245.0" duration="2.633">
+			<person>Teacher</person>
+			<text>Are those hands his?</text>
+			<image/>
+		</item>
+		<item id="1" start="247.633" duration="4.167">
+			<person>Student</person>
+			<text>No, those hands aren't his; they're hers</text>
+			<image/>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0" start="251.8" duration="2.533">
+			<person>Teacher</person>
+			<text>Are those arms hers?</text>
+			<image/>
+		</item>
+		<item id="1" start="254.367" duration="4.567">
+			<person>Student</person>
+			<text>No, those arms aren't hers; they're his</text>
+			<image/>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0" start="258.967" duration="1.6">
+			<person>Teacher</person>
+			<text>ours</text>
+			<image/>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0" start="260.567" duration="1.533">
+			<person>Teacher</person>
+			<text>theirs</text>
+			<image/>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0" start="262.1" duration="2.3">
+			<person>Teacher</person>
+			<text>Are those legs ours?</text>
+			<image/>
+		</item>
+		<item id="1" start="264.4" duration="4.333">
+			<person>Student</person>
+			<text>No, those legs aren't ours; they're theirs</text>
+			<image/>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0" start="268.767" duration="2.867">
+			<person>Teacher</person>
+			<text>Are these their books?</text>
+			<image/>
+		</item>
+		<item id="1" start="271.667" duration="3.933">
+			<person>Student</person>
+			<text>No, these aren't their books; they're our books</text>
+			<image/>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0" start="275.6" duration="2.767">
+			<person>Teacher</person>
+			<text>Are these books theirs?</text>
+			<image/>
+		</item>
+		<item id="1" start="278.4" duration="4.333">
+			<person>Student</person>
+			<text>No, these books aren't theirs; they're ours</text>
+			<image/>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0" start="282.733" duration="1.933">
+			<person>Teacher</person>
+			<text>Infinitive</text>
+			<image/>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>Verbs in the infinitive generally have the word “to“ in front of them. For example, “to do”, “to come”, “to go“ etc.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0" start="284.7" duration="4.733">
+			<person>Teacher</person>
+			<text>Give me some examples of verbs in the infinitive, please</text>
+			<image/>
+		</item>
+		<item id="1" start="289.433" duration="7.567">
+			<person>Student</person>
+			<text>Some examples of verbs in the infinitive are &quot;to come&quot;, &quot;to go&quot;, &quot;to take&quot;, etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="73">
+		<item id="0" start="297.0" duration="2.067">
+			<person>Teacher</person>
+			<text>Auxiliary verb</text>
+			<image/>
+		</item>
+	</item>
+	<item id="74">
+		<item id="0" start="299.1" duration="1.3">
+			<person>Teacher</person>
+			<text>do</text>
+			<image/>
+		</item>
+	</item>
+	<item id="75">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>An auxiliary verb is part of the verb in a sentence, but it does not tell us the action. For example, in the sentence “We are speaking“, the word “speaking“ tells us the action, and the word “are“ is an auxiliary verb. In the sentence “He can read“, the word “can“ is the auxiliary verb. The auxiliary verb for the present simple is “do“. For example, we say “Do you speak English?“ or “I do not have a bag“.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="76">
+		<item id="0" start="300.4" duration="6.367">
+			<person>Teacher</person>
+			<text>Which word is the auxiliary verb in this sentence: &quot;They can open the window&quot;</text>
+			<image/>
+		</item>
+		<item id="1" start="306.8" duration="3.8">
+			<person>Student</person>
+			<text>The word &quot;can&quot; is the auxiliary verb in that sentence</text>
+			<image/>
+		</item>
+	</item>
+	<item id="77">
+		<item id="0" start="310.6" duration="5.833">
+			<person>Teacher</person>
+			<text>Which word is the auxiliary verb in this sentence: &quot;Do they walk to school?&quot;</text>
+			<image/>
+		</item>
+		<item id="1" start="316.433" duration="3.967">
+			<person>Student</person>
+			<text>The word &quot;do&quot; is the auxiliary verb in that sentence</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>Also, the word “do“ means (translate into student’s language). For example, “What is he doing?“ – “He’s sitting on a chair“.</text>
+	</Explanation>	
+	<item id="78">
+		<item id="0" start="320.4" duration="3.3">
+			<person>Teacher</person>
+			<text>What does the verb &quot;to do&quot; mean?</text>
+			<image/>
+		</item>
+		<item id="1" start="323.733" duration="2.733">
+			<person>Student</person>
+			<text>The verb &quot;to do&quot; means ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="79">
+		<item id="0" start="326.5" duration="2.267">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="328.767" duration="2.567">
+			<person>Student</person>
+			<text>You're going out of the room</text>
+			<image/>
+		</item>
+	</item>
+	<item id="80">
+		<item id="0" start="331.333" duration="2.933">
+			<person>Teacher</person>
+			<text>What do I do after the lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="334.3" duration="2.933">
+			<person>Student</person>
+			<text>You go out of the room after the lesson</text>
+			<image/>
+		</item>
+	</item>
+	<item id="81">
+		<item id="0" start="337.233" duration="2.067">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="339.333" duration="2.133">
+			<person>Student</person>
+			<text>You're sitting down</text>
+			<image/>
+		</item>
+	</item>
+	<item id="82">
+		<item id="0" start="341.5" duration="3.233">
+			<person>Teacher</person>
+			<text>What do you do before the lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="344.733" duration="2.967">
+			<person>Student</person>
+			<text>I sit down before the lesson</text>
+			<image/>
+		</item>
+	</item>
+	<item id="83">
+		<item id="0" start="347.733" duration="2.167">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="349.9" duration="1.967">
+			<person>Student</person>
+			<text>You're standing up</text>
+			<image/>
+		</item>
+	</item>
+	<item id="84">
+		<item id="0" start="351.9" duration="3.167">
+			<person>Teacher</person>
+			<text>What do you do after the lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="355.067" duration="3.2">
+			<person>Student</person>
+			<text>I stand up after the lesson</text>
+			<image/>
+		</item>
+	</item>
+	<item id="85">
+		<item id="0" start="" duration="">
+			<Dictation>
+				<text>\nThis part of the body is a leg and this is an arm.\nThe plural of “foot” is “feet”.\nThere are twelve words in this sentence.\nA verb is a word we use for an action.\nWhat does the word “do“ mean?\nAs an auxiliary verb it means nothing.\nWe say “the book“, but “the umbrella“.\nQuestion mark, full stop, comma.\nThe letter A isn’t a consonant, but a vowel.\nThis answer is wrong.\nThat is right.</text>
+			</Dictation>
+		</item>
+	</item>
+</items>

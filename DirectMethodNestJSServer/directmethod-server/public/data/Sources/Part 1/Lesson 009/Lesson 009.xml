@@ -1,474 +1,601 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="270.5">
- <item id="0" start="0.1" duration="2.033">
-  <person>Teacher</person>
-  <text>Lesson nine</text>
-  <image/>
- </item>
- <item id="1" start="2.167" duration="1.633">
-  <person>Teacher</person>
-  <text>asking</text>
-  <image/>
- </item>
- <item id="2" start="3.8" duration="1.733">
-  <person>Teacher</person>
-  <text>answering</text>
-  <image/>
- </item>
- <item id="3" start="5.6" duration="1.767">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="3" start="7.4" duration="1.933">
-  <person>Student</person>
-  <text>It's a pen</text>
-  <image/>
- </item>
- <item id="4" start="9.333" duration="2.033">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="4" start="11.367" duration="2.867">
-  <person>Student</person>
-  <text>You're asking him a question</text>
-  <image/>
- </item>
- <item id="5" start="14.267" duration="1.767">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="5" start="16.033" duration="2.133">
-  <person>Student</person>
-  <text>It's a hand</text>
-  <image/>
- </item>
- <item id="6" start="18.2" duration="2.867">
-  <person>Teacher</person>
-  <text>Am I asking her a question?</text>
-  <image/>
- </item>
- <item id="6" start="21.067" duration="3.367">
-  <person>Student</person>
-  <text>Yes, you're asking her a question</text>
-  <image/>
- </item>
- <item id="7" start="24.433" duration="1.733">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="7" start="26.2" duration="2.0">
-  <person>Student</person>
-  <text>It's a head</text>
-  <image/>
- </item>
- <item id="8" start="28.2" duration="1.833">
-  <person>Teacher</person>
-  <text>What's he doing?</text>
-  <image/>
- </item>
- <item id="8" start="30.033" duration="3.0">
-  <person>Student</person>
-  <text>He's answering your question</text>
-  <image/>
- </item>
- <item id="9" start="33.033" duration="1.667">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="9" start="34.733" duration="2.0">
-  <person>Student</person>
-  <text>It's a mouth</text>
-  <image/>
- </item>
- <item id="10" start="36.733" duration="2.767">
-  <person>Teacher</person>
-  <text>Is she answering my question?</text>
-  <image/>
- </item>
- <item id="10" start="39.5" duration="3.3">
-  <person>Student</person>
-  <text>Yes, she's answering your question</text>
-  <image/>
- </item>
- <item id="11" start="42.833" duration="2.4">
-  <person>Teacher</person>
-  <text>Ask him a question, please</text>
-  <image/>
- </item>
- <item id="12" start="45.267" duration="1.9">
-  <person>Teacher</person>
-  <text>to have</text>
-  <image/>
- </item>
- <item id="13" start="47.167" duration="3.433">
-  <person>Teacher</person>
-  <text>I have - I've</text>
-  <image/>
- </item>
- <item id="14" start="50.633" duration="3.733">
-  <person>Teacher</person>
-  <text>you have - you've</text>
-  <image/>
- </item>
- <item id="15" start="54.367" duration="3.667">
-  <person>Teacher</person>
-  <text>he has - he's</text>
-  <image/>
- </item>
- <item id="16" start="58.067" duration="3.333">
-  <person>Teacher</person>
-  <text>she has - she's</text>
-  <image/>
- </item>
- <item id="17" start="61.567" duration="3.433">
-  <person>Teacher</person>
-  <text>it has - it's</text>
-  <image/>
- </item>
- <item id="18" start="65.0" duration="3.5">
-  <person>Teacher</person>
-  <text>we have - we've</text>
-  <image/>
- </item>
- <item id="19" start="68.533" duration="3.6">
-  <person>Teacher</person>
-  <text>you have - you've</text>
-  <image/>
- </item>
- <item id="20" start="72.133" duration="3.567">
-  <person>Teacher</person>
-  <text>they have - they've</text>
-  <image/>
- </item>
- <item id="21" start="75.867" duration="3.633">
-  <person>Teacher</person>
-  <text>What's the meaning of the verb &quot;to have&quot;?</text>
-  <image/>
- </item>
- <item id="21" start="79.533" duration="3.533">
-  <person>Student</person>
-  <text>The meaning of the verb &quot;to have&quot; is ...</text>
-  <image/>
- </item>
- <item id="22" start="83.067" duration="5.333">
-  <person>Teacher</person>
-  <text>What's the contraction of &quot;I have, you have&quot; etc.?</text>
-  <image/>
- </item>
- <item id="22" start="88.7" duration="3.7">
-  <person>Student</person>
-  <text>I've, you've, etc.</text>
-  <image/>
- </item>
- <item id="23" start="92.433" duration="1.5">
-  <person>Teacher</person>
-  <text>got</text>
-  <image/>
- </item>
- <item id="24" start="93.933" duration="1.9">
-  <person>Teacher</person>
-  <text>generally</text>
-  <image/>
- </item> 
- <item id="25">
-  <person>Teacher</person>
-  <text>(Grammar)With the verb “have“, we generally use the word “got“ and we say “I’ve got“, “you’ve got“, “he’s got“ etc. We say “I have a pen“ or “I have got a pen“.</text>
-  <image/>
- </item>
- <item id="26" start="95.833" duration="2.833">
-  <person>Teacher</person>
-  <text>Have I got two eyes?</text>
-  <image/>
- </item>
- <item id="26" start="98.7" duration="2.9">
-  <person>Student</person>
-  <text>Yes, you've got two eyes</text>
-  <image/>
- </item>
- <item id="27" start="101.6" duration="2.933">
-  <person>Teacher</person>
-  <text>Have you got two ears?</text>
-  <image/>
- </item>
- <item id="27" start="104.567" duration="3.067">
-  <person>Student</person>
-  <text>Yes, I've got two ears</text>
-  <image/>
- </item>
- <item id="28" start="107.633" duration="2.9">
-  <person>Teacher</person>
-  <text>Has he got two legs?</text>
-  <image/>
- </item>
- <item id="28" start="110.533" duration="2.933">
-  <person>Student</person>
-  <text>Yes, he's got two legs</text>
-  <image/>
- </item>
- <item id="29" start="113.5" duration="2.7">
-  <person>Teacher</person>
-  <text>Has she got two hands?</text>
-  <image/>
- </item>
- <item id="29" start="116.2" duration="3.0">
-  <person>Student</person>
-  <text>Yes, she's got two hands</text>
-  <image/>
- </item>
- <item id="30" start="119.233" duration="2.7">
-  <person>Teacher</person>
-  <text>Have we got two heads?</text>
-  <image/>
- </item>
- <item id="30" start="121.933" duration="2.8">
-  <person>Student</person>
-  <text>Yes, we've got two heads</text>
-  <image/>
- </item>
- <item id="31" start="124.733" duration="2.8">
-  <person>Teacher</person>
-  <text>Have they got four arms?</text>
-  <image/>
- </item>
- <item id="31" start="127.567" duration="2.9">
-  <person>Student</person>
-  <text>Yes, they've got four arms</text>
-  <image/>
- </item>
- <item id="32" start="130.5" duration="3.1">
-  <person>Teacher</person>
-  <text>any? (non-specific)</text>
-  <image/>
- </item>
- <item id="33" start="133.6" duration="2.3">
-  <person>Teacher</person>
-  <text>yes, some</text>
-  <image/>
- </item>
- <item id="34" start="135.9" duration="2.5">
-  <person>Teacher</person>
-  <text>no, not any</text>
-  <image/>
- </item>
- <item id="35" start="138.433" duration="3.067">
-  <person>Teacher</person>
-  <text>how many? (specific)</text>
-  <image/>
- </item>
- <item id="36" start="141.667" duration="5.667">
-  <person>Teacher</person>
-  <text>seven, thirteen, etc.; none</text>
-  <image/>
- </item>
- <item id="37" start="147.367" duration="1.833">
-  <person>Teacher</person>
-  <text>specific</text>
-  <image/>
- </item>
- <item id="38" start="149.233" duration="2.433">
-  <person>Teacher</person>
-  <text>non-specific</text>
-  <image/>
- </item>
- <item id="39" start="151.7" duration="1.733">
-  <person>Teacher</person>
-  <text>negative</text>
-  <image/>
- </item>
- <item id="40" start="153.467" duration="1.8">
-  <person>Teacher</person>
-  <text>positive</text>
-  <image/>
- </item>
- <item id="41" start="155.3" duration="2.133">
-  <person>Teacher</person>
-  <text>for example</text>
-  <image/>
- </item>
- <item id="42" start="157.467" duration="1.867">
-  <person>Teacher</person>
-  <text>important</text>
-  <image/>
- </item>
- <item id="43" start="159.333" duration="1.633">
-  <person>Teacher</person>
-  <text>when</text>
-  <image/>
- </item>
- <item id="44">
-  <person>Teacher</person>
-  <text>(Grammar) The meaning of “any“ and “some“ is “...“, but we use “any“ in questions and negative sentences, and “some“ in positive sentences. For example, we say “Are there any books on the table?” – “Yes, there are some books on the table”, and we say “Are there any books on the floor?” – “No, there aren’t any books on the floor“. 
-  We use “any“ in a non-specific question, when the number is not important. For example, “Are there any books on the table?“ – “Yes, there are some books on the table“, or “No, there aren’t any books on the table“. If the number is important, we use “How many“ and there is a specific answer – “one“, “two“, “three“ etc., or “none“. </text>
-  <image/>
- </item>
- <item id="45" start="161.0" duration="5.0">
-  <person>Teacher</person>
-  <text>What is the meaning of the words &quot;any&quot; and &quot;some&quot;?</text>
-  <image/>
- </item>
- <item id="45" start="166.033" duration="4.767">
-  <person>Student</person>
-  <text>The meaning of the words &quot;any&quot; and &quot;some&quot; is ...</text>
-  <image/>
- </item>
- <item id="46" start="170.8" duration="4.767">
-  <person>Teacher</person>
-  <text>What's the difference between &quot;any&quot; and &quot;some&quot;?</text>
-  <image/>
- </item>
- <item id="46" start="175.6" duration="12.267">
-  <person>Student</person>
-  <text>The difference between &quot;any&quot; and &quot;some&quot; is that we use &quot;any&quot; in questions and negative sentences, whereas we use &quot;some&quot; in positive sentences</text>
-  <image/>
- </item>
- <item id="47" start="187.867" duration="1.533">
-  <person>Teacher</person>
-  <text>any</text>
-  <image/>
- </item>
- <item id="48" start="189.4" duration="2.967">
-  <person>Teacher</person>
-  <text>Are there any books on this table?</text>
-  <image/>
- </item>
- <item id="48" start="192.4" duration="3.367">
-  <person>Student</person>
-  <text>Yes, there are some books on this table</text>
-  <image/>
- </item>
- <item id="49" start="195.767" duration="3.1">
-  <person>Teacher</person>
-  <text>Are there any pictures on these walls?</text>
-  <image/>
- </item>
- <item id="49" start="198.9" duration="3.833">
-  <person>Student</person>
-  <text>Yes, there are some pictures on these walls</text>
-  <image/>
- </item>
- <item id="50" start="202.733" duration="3.0">
-  <person>Teacher</person>
-  <text>Have you got any shoes on your feet?</text>
-  <image/>
- </item>
- <item id="50" start="205.767" duration="3.367">
-  <person>Student</person>
-  <text>Yes, I've got some shoes on my feet</text>
-  <image/>
- </item>
- <item id="51" start="209.167" duration="1.867">
-  <person>Teacher</person>
-  <text>not any</text>
-  <image/>
- </item>
- <item id="52" start="211.033" duration="3.0">
-  <person>Teacher</person>
-  <text>Are there any books on the floor?</text>
-  <image/>
- </item>
- <item id="52" start="214.067" duration="3.433">
-  <person>Student</person>
-  <text>No, there aren't any books on the floor</text>
-  <image/>
- </item>
- <item id="53" start="217.5" duration="2.867">
-  <person>Teacher</person>
-  <text>Are there any pictures on that chair?</text>
-  <image/>
- </item>
- <item id="53" start="220.4" duration="3.4">
-  <person>Student</person>
-  <text>No, there aren't any pictures on that chair</text>
-  <image/>
- </item>
- <item id="54" start="223.8" duration="2.7">
-  <person>Teacher</person>
-  <text>Are there any chairs on the table?</text>
-  <image/>
- </item>
- <item id="54" start="226.533" duration="3.367">
-  <person>Student</person>
-  <text>No, there aren't any chairs on the table</text>
-  <image/>
- </item>
- <item id="55" start="229.933" duration="1.467">
-  <person>Teacher</person>
-  <text>none</text>
-  <image/>
- </item>
- <item id="56" start="231.433" duration="1.6">
-  <person>Teacher</person>
-  <text>class</text>
-  <image/>
- </item>
- <item id="57" start="233.033" duration="1.833">
-  <person>Teacher</person>
-  <text>classroom</text>
-  <image/>
- </item>
- <item id="58" start="234.9" duration="2.767">
-  <person>Teacher</person>
-  <text>How many books are there on the table?</text>
-  <image/>
- </item>
- <item id="58" start="237.667" duration="2.9">
-  <person>Student</person>
-  <text>There are two books on the table</text>
-  <image/>
- </item>
- <item id="59" start="240.567" duration="2.7">
-  <person>Teacher</person>
-  <text>How many books are there on the floor?</text>
-  <image/>
- </item>
- <item id="59" start="243.3" duration="2.0">
-  <person>Student</person>
-  <text>There are none</text>
-  <image/>
- </item>
- <item id="60" start="245.3" duration="3.333">
-  <person>Teacher</person>
-  <text>How many pictures are there on these walls?</text>
-  <image/>
- </item>
- <item id="60" start="248.667" duration="3.567">
-  <person>Student</person>
-  <text>There are three pictures on these walls</text>
-  <image/>
- </item>
- <item id="61" start="252.233" duration="3.033">
-  <person>Teacher</person>
-  <text>How many pictures are there on that chair?</text>
-  <image/>
- </item>
- <item id="61" start="255.267" duration="1.9">
-  <person>Student</person>
-  <text>There are none</text>
-  <image/>
- </item>
- <item id="62" start="257.2" duration="3.233">
-  <person>Teacher</person>
-  <text>How many students are there in this classroom?</text>
-  <image/>
- </item>
- <item id="62" start="260.433" duration="3.7">
-  <person>Student</person>
-  <text>There are 12 students in this classroom</text>
-  <image/>
- </item>
- <item id="63" start="264.133" duration="3.3">
-  <person>Teacher</person>
-  <text>How many students are there sitting on the floor?</text>
-  <image/>
- </item>
- <item id="63" start="267.467" duration="3.0">
-  <person>Student</person>
-  <text>There are none</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.1" duration="2.033">
+			<person>Teacher</person>
+			<text>Lesson nine</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.167" duration="1.633">
+			<person>Teacher</person>
+			<text>asking</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="3.8" duration="1.733">
+			<person>Teacher</person>
+			<text>answering</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="5.6" duration="1.767">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="7.4" duration="1.933">
+			<person>Student</person>
+			<text>It's a pen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="9.333" duration="2.033">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="11.367" duration="2.867">
+			<person>Student</person>
+			<text>You're asking him a question</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="14.267" duration="1.767">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="16.033" duration="2.133">
+			<person>Student</person>
+			<text>It's a hand</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="18.2" duration="2.867">
+			<person>Teacher</person>
+			<text>Am I asking her a question?</text>
+			<image/>
+		</item>
+		<item id="1" start="21.067" duration="3.367">
+			<person>Student</person>
+			<text>Yes, you're asking her a question</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="24.433" duration="1.733">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="26.2" duration="2.0">
+			<person>Student</person>
+			<text>It's a head</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="28.2" duration="1.833">
+			<person>Teacher</person>
+			<text>What's he doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="30.033" duration="3.0">
+			<person>Student</person>
+			<text>He's answering your question</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="33.033" duration="1.667">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="34.733" duration="2.0">
+			<person>Student</person>
+			<text>It's a mouth</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="36.733" duration="2.767">
+			<person>Teacher</person>
+			<text>Is she answering my question?</text>
+			<image/>
+		</item>
+		<item id="1" start="39.5" duration="3.3">
+			<person>Student</person>
+			<text>Yes, she's answering your question</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="42.833" duration="2.4">
+			<person>Teacher</person>
+			<text>Ask him a question, please</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="45.267" duration="1.9">
+			<person>Teacher</person>
+			<text>to have</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="47.167" duration="3.433">
+			<person>Teacher</person>
+			<text>I have - I've</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="50.633" duration="3.733">
+			<person>Teacher</person>
+			<text>you have - you've</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="54.367" duration="3.667">
+			<person>Teacher</person>
+			<text>he has - he's</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="58.067" duration="3.333">
+			<person>Teacher</person>
+			<text>she has - she's</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="61.567" duration="3.433">
+			<person>Teacher</person>
+			<text>it has - it's</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="65.0" duration="3.5">
+			<person>Teacher</person>
+			<text>we have - we've</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="68.533" duration="3.6">
+			<person>Teacher</person>
+			<text>you have - you've</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="72.133" duration="3.567">
+			<person>Teacher</person>
+			<text>they have - they've</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="75.867" duration="3.633">
+			<person>Teacher</person>
+			<text>What's the meaning of the verb &quot;to have&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="79.533" duration="3.533">
+			<person>Student</person>
+			<text>The meaning of the verb &quot;to have&quot; is ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="83.067" duration="5.333">
+			<person>Teacher</person>
+			<text>What's the contraction of &quot;I have, you have&quot; etc.?</text>
+			<image/>
+		</item>
+		<item id="1" start="88.7" duration="3.7">
+			<person>Student</person>
+			<text>I've, you've, etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="92.433" duration="1.5">
+			<person>Teacher</person>
+			<text>got</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="93.933" duration="1.9">
+			<person>Teacher</person>
+			<text>generally</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<Grammar>
+				<text>With the verb “have“, we generally use the word “got“ and we say “I’ve got“, “you’ve got“, “he’s got“ etc. We say “I have a pen“ or “I have got a pen“.</text>
+			</Grammar>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="95.833" duration="2.833">
+			<person>Teacher</person>
+			<text>Have I got two eyes?</text>
+			<image/>
+		</item>
+		<item id="1" start="98.7" duration="2.9">
+			<person>Student</person>
+			<text>Yes, you've got two eyes</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="101.6" duration="2.933">
+			<person>Teacher</person>
+			<text>Have you got two ears?</text>
+			<image/>
+		</item>
+		<item id="1" start="104.567" duration="3.067">
+			<person>Student</person>
+			<text>Yes, I've got two ears</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="107.633" duration="2.9">
+			<person>Teacher</person>
+			<text>Has he got two legs?</text>
+			<image/>
+		</item>
+		<item id="1" start="110.533" duration="2.933">
+			<person>Student</person>
+			<text>Yes, he's got two legs</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="113.5" duration="2.7">
+			<person>Teacher</person>
+			<text>Has she got two hands?</text>
+			<image/>
+		</item>
+		<item id="1" start="116.2" duration="3.0">
+			<person>Student</person>
+			<text>Yes, she's got two hands</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="119.233" duration="2.7">
+			<person>Teacher</person>
+			<text>Have we got two heads?</text>
+			<image/>
+		</item>
+		<item id="1" start="121.933" duration="2.8">
+			<person>Student</person>
+			<text>Yes, we've got two heads</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="124.733" duration="2.8">
+			<person>Teacher</person>
+			<text>Have they got four arms?</text>
+			<image/>
+		</item>
+		<item id="1" start="127.567" duration="2.9">
+			<person>Student</person>
+			<text>Yes, they've got four arms</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="130.5" duration="3.1">
+			<person>Teacher</person>
+			<text>any? (non-specific)</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="133.6" duration="2.3">
+			<person>Teacher</person>
+			<text>yes, some</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="135.9" duration="2.5">
+			<person>Teacher</person>
+			<text>no, not any</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="138.433" duration="3.067">
+			<person>Teacher</person>
+			<text>how many? (specific)</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="141.667" duration="5.667">
+			<person>Teacher</person>
+			<text>seven, thirteen, etc.; none</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="147.367" duration="1.833">
+			<person>Teacher</person>
+			<text>specific</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="149.233" duration="2.433">
+			<person>Teacher</person>
+			<text>non-specific</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="151.7" duration="1.733">
+			<person>Teacher</person>
+			<text>negative</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="153.467" duration="1.8">
+			<person>Teacher</person>
+			<text>positive</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="155.3" duration="2.133">
+			<person>Teacher</person>
+			<text>for example</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="157.467" duration="1.867">
+			<person>Teacher</person>
+			<text>important</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="159.333" duration="1.633">
+			<person>Teacher</person>
+			<text>when</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<Grammar>
+			<text>The meaning of “any“ and “some“ is “...“, but we use “any“ in questions and negative sentences, and “some“ in positive sentences. For example, we say “Are there any books on the table?” – “Yes, there are some books on the table”, and we say “Are there any books on the floor?” – “No, there aren’t any books on the floor“.\nWe use “any“ in a non-specific question, when the number is not important. For example, “Are there any books on the table?“ – “Yes, there are some books on the table“, or “No, there aren’t any books on the table“. If the number is important, we use “How many“ and there is a specific answer – “one“, “two“, “three“ etc., or “none“.</text>
+			</Grammar>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="161.0" duration="5.0">
+			<person>Teacher</person>
+			<text>What is the meaning of the words &quot;any&quot; and &quot;some&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="166.033" duration="4.767">
+			<person>Student</person>
+			<text>The meaning of the words &quot;any&quot; and &quot;some&quot; is ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="170.8" duration="4.767">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;any&quot; and &quot;some&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="175.6" duration="12.267">
+			<person>Student</person>
+			<text>The difference between &quot;any&quot; and &quot;some&quot; is that we use &quot;any&quot; in questions and negative sentences, whereas we use &quot;some&quot; in positive sentences</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="187.867" duration="1.533">
+			<person>Teacher</person>
+			<text>any</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="189.4" duration="2.967">
+			<person>Teacher</person>
+			<text>Are there any books on this table?</text>
+			<image/>
+		</item>
+		<item id="1" start="192.4" duration="3.367">
+			<person>Student</person>
+			<text>Yes, there are some books on this table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="195.767" duration="3.1">
+			<person>Teacher</person>
+			<text>Are there any pictures on these walls?</text>
+			<image/>
+		</item>
+		<item id="1" start="198.9" duration="3.833">
+			<person>Student</person>
+			<text>Yes, there are some pictures on these walls</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="202.733" duration="3.0">
+			<person>Teacher</person>
+			<text>Have you got any shoes on your feet?</text>
+			<image/>
+		</item>
+		<item id="1" start="205.767" duration="3.367">
+			<person>Student</person>
+			<text>Yes, I've got some shoes on my feet</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="209.167" duration="1.867">
+			<person>Teacher</person>
+			<text>not any</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="211.033" duration="3.0">
+			<person>Teacher</person>
+			<text>Are there any books on the floor?</text>
+			<image/>
+		</item>
+		<item id="1" start="214.067" duration="3.433">
+			<person>Student</person>
+			<text>No, there aren't any books on the floor</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="217.5" duration="2.867">
+			<person>Teacher</person>
+			<text>Are there any pictures on that chair?</text>
+			<image/>
+		</item>
+		<item id="1" start="220.4" duration="3.4">
+			<person>Student</person>
+			<text>No, there aren't any pictures on that chair</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="223.8" duration="2.7">
+			<person>Teacher</person>
+			<text>Are there any chairs on the table?</text>
+			<image/>
+		</item>
+		<item id="1" start="226.533" duration="3.367">
+			<person>Student</person>
+			<text>No, there aren't any chairs on the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="229.933" duration="1.467">
+			<person>Teacher</person>
+			<text>none</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="231.433" duration="1.6">
+			<person>Teacher</person>
+			<text>class</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="233.033" duration="1.833">
+			<person>Teacher</person>
+			<text>classroom</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="234.9" duration="2.767">
+			<person>Teacher</person>
+			<text>How many books are there on the table?</text>
+			<image/>
+		</item>
+		<item id="1" start="237.667" duration="2.9">
+			<person>Student</person>
+			<text>There are two books on the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="240.567" duration="2.7">
+			<person>Teacher</person>
+			<text>How many books are there on the floor?</text>
+			<image/>
+		</item>
+		<item id="1" start="243.3" duration="2.0">
+			<person>Student</person>
+			<text>There are none</text>
+			<image/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0" start="245.3" duration="3.333">
+			<person>Teacher</person>
+			<text>How many pictures are there on these walls?</text>
+			<image/>
+		</item>
+		<item id="1" start="248.667" duration="3.567">
+			<person>Student</person>
+			<text>There are three pictures on these walls</text>
+			<image/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0" start="252.233" duration="3.033">
+			<person>Teacher</person>
+			<text>How many pictures are there on that chair?</text>
+			<image/>
+		</item>
+		<item id="1" start="255.267" duration="1.9">
+			<person>Student</person>
+			<text>There are none</text>
+			<image/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0" start="257.2" duration="3.233">
+			<person>Teacher</person>
+			<text>How many students are there in this classroom?</text>
+			<image/>
+		</item>
+		<item id="1" start="260.433" duration="3.7">
+			<person>Student</person>
+			<text>There are 12 students in this classroom</text>
+			<image/>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0" start="264.133" duration="3.3">
+			<person>Teacher</person>
+			<text>How many students are there sitting on the floor?</text>
+			<image/>
+		</item>
+		<item id="1" start="267.467" duration="3.0">
+			<person>Student</person>
+			<text>There are none</text>
+			<image/>
+		</item>
+	</item>
 </items>

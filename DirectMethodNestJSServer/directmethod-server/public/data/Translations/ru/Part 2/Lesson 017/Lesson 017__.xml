@@ -1,0 +1,358 @@
+<?xml version="1.0" ?>
+<items>
+	<item id="0">
+		<item id="0">
+			<translation>Урок семнадцать</translation>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>много</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>мало</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>спичка</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>спичечный коробок</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>Много ли людей в маленькойдеревне?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, в маленькой деревне не много людей; в маленькой деревне мало людей</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>В большом городе мало людей?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, в большом городе не мало людей; в большом городе много людей</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>У тебя и у меня много ручек?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у тебя и у меня не много ручек; у нас мало ручек</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>В спичечной коробке много спичек?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, в спичечной коробке не мало спичек; в спичечной коробке много спичек</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>друг</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>дружелюбный</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>У тебя есть какие-нибудь друзья?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, у меня есть какие-то друзья</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>Ты думаешь, люди в твоем городке дружелюбны?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не думаю, что люди в моем городке дружелюбны; они не дружелюбны</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>Европейские страны в целом дружественны сейчас?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, европейские страны в целом дружественны сейчас</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>в</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>в</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>в том, что</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>другой</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>Что я делаю? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты кладешь ручку в карман</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>Где сейчас моя ручка?</translation>
+		</item>
+		<item id="1">
+			<translation>Твоя ручка сейчас у тебя в кармане</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>Что я делаю? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты входишь в класс</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>Где я сейчас?</translation>
+		</item>
+		<item id="1">
+			<translation>Ты сейчас в классе</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>В чем разница между &quot;into&quot; и &quot;in&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Разница между &quot;into&quot; и &quot;in&quot; - в том, что мы используем &quot;into&quot; для вещи, которая перемещается из одного места в другое, а &quot;in&quot; для вещи, которая остается на том же месте</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>видеть</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>такой как</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>Что ты можешь видеть в этой комнате?</translation>
+		</item>
+		<item id="1">
+			<translation>Я могу видеть много вещей в этой комнате, таких как студенты, стол, часы ...</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>Ты можешь видеть ее?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я могу видеть ее</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>Т можешь что-то видеть в моей левой руке?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не могу ничего видеть в твоей левой руке</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>почему</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>потому что</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>похожий</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>слишком</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>Гринвич</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>В чем разница между &quot;why&quot; и &quot;because&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Разница между &quot;why&quot; и because&quot; в том, что мы обычно используем &quot;why&quot; в вопросах, а &quot;because&quot; - в ответах</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>Ты можешь прикоснуться к потолку?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не могу коснуться к потолку</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>Почему нет?</translation>
+		</item>
+		<item id="1">
+			<translation>Потому что потолок слишком высок для меня, чтобы коснуться</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>Можешь ли ты положить эту книгу себе в карман?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не могу положить ту книгу в свой карман</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>Почему нет?</translation>
+		</item>
+		<item id="1">
+			<translation>Потому что та книга слишком велика, чтобы войти в мой карман</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>Можем ли мы назвать Гранчестер (в Англии) городом?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, мы не можем назвать Гранчестер (в Англии) городом</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>Почему нет?</translation>
+		</item>
+		<item id="1">
+			<translation>Потому что Гранчестер - слишком мал для нас для того, чтобы назвать его городом; Гранчестер - деревня</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>секунда</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>минута</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>наш</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>делать</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>Сколько секунд составляют минуту</translation>
+		</item>
+		<item id="1">
+			<translation>Шестьдеят секунд составляют минуту</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>Сколько минут составляют час?</translation>
+		</item>
+		<item id="1">
+			<translation>Шестьдесят минут составляют час</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>Ты можешь сделать костюм?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я могу сделать костюм</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>прилагательное</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>Дай мне, пожалуйста, некоторые примеры прилагательных</translation>
+		</item>
+		<item id="1">
+			<translation>Некоторые примеры прилагательных - это черный, белый, большой, ...</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>Слово &quot;книга&quot; - прилагательное?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, слово &quot;книга&quot; - не прилагательное; это существительное</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>Какое слово есть прилагательным в этом предложении: &quot;Зеленая ручка на полу&quot;</translation>
+		</item>
+		<item id="1">
+			<translation>Слово &quot;зеленая&quot; - прилагательное в этом предложении</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>В английском мы помещаем прилагательное перед или после существительного?</translation>
+		</item>
+		<item id="1">
+			<translation>В английском мы помещаем прилагательно перед существительным</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>Дай мне, подалуйста, пример</translation>
+		</item>
+		<item id="1">
+			<translation>голубая книга, высокий потолок, легкий язык</translation>
+		</item>
+	</item>
+</items>

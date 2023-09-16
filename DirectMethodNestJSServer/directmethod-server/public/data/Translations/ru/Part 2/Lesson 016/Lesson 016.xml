@@ -1,252 +1,358 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation>Урок шестадцать</translation>
- </item>
- <item id="1">
-  <translation>одни ... другие</translation>
- </item>
- <item id="2">
-  <translation>Все люди в этом городке - мужчины?</translation>
- </item>
- <item id="2">
-  <translation>Нет, не все люди в этом городке мужчины; одни - мужчины, другие - женщины</translation>
- </item>
- <item id="3">
-  <translation>Все автомобили в Европе - форды?</translation>
- </item>
- <item id="3">
-  <translation>Нет, не все автомобили в Европе - форды; одни - форды, другие - фиаты, рено, фольксфагены, вольво и т.д.</translation>
- </item>
- <item id="4">
-  <translation>Все люди в этом месте женаты?</translation>
- </item>
- <item id="4">
-  <translation>Нет, не все люди в этом месте женаты; одни - женаты, другие - холостые</translation>
- </item>
- <item id="5">
-  <translation>Все люди в Европе говорят на испанском?</translation>
- </item>
- <item id="5">
-  <translation>Нет, не все люди в Европе говорят на испанском; одни говорят на испанском, другие говорят на других языках</translation>
- </item>
- <item id="6">
-  <translation>что-нибудь</translation>
- </item>
- <item id="7">
-  <translation>неопределенный</translation>
- </item>
- <item id="8">
-  <translation>что-то</translation>
- </item>
- <item id="9">
-  <translation>ничего</translation>
- </item>
- <item id="10">
-  <translation>что</translation>
- </item>
- <item id="11">
-  <translation>определенный</translation>
- </item>
- <item id="12">
-  <translation>лампа</translation>
- </item>
- <item id="13">
-  <translation>картина</translation>
- </item>
- <item id="14">
-  <translation>ничего</translation>
- </item>
- <item id="15">
-  <translation>что-нибудь</translation>
- </item>
- <item id="16">
-  <translation>У меня есть что-то в правой руке?</translation>
- </item>
- <item id="16">
-  <translation>Да, у тебя есть что-то в правой руке</translation>
- </item>
- <item id="17">
-  <translation>Есть что-то на столе?</translation>
- </item>
- <item id="17">
-  <translation>Да, есть что-то на столе</translation>
- </item>
- <item id="18">
-  <translation>Ты носишь что-то на ногах?</translation>
- </item>
- <item id="18">
-  <translation>Да, я ношу что-то на ногах</translation>
- </item>
- <item id="19">
-  <translation>ничего</translation>
- </item>
- <item id="20">
-  <translation>Есть что-то в моей левой руке?</translation>
- </item>
- <item id="20">
-  <translation>Нет, у тебя нет ничего в левой руке</translation>
- </item>
- <item id="21">
-  <translation>Есть там что-то на полу?</translation>
- </item>
- <item id="21">
-  <translation>Нет, ничего нет на полу</translation>
- </item>
- <item id="22">
-  <translation>Ты носишь что-то на голове? (сейчас)</translation>
- </item>
- <item id="22">
-  <translation>Нет, я не ношу ничего на голове</translation>
- </item>
- <item id="23">
-  <translation>ничего</translation>
- </item>
- <item id="24">
-  <translation>Что в моей правой руке?</translation>
- </item>
- <item id="24">
-  <translation>В твоей правой руке - ручка</translation>
- </item>
- <item id="25">
-  <translation>Что у меня в левой руке?</translation>
- </item>
- <item id="25">
-  <translation>Ничего нет в твоей левой руке</translation>
- </item>
- <item id="26">
-  <translation>Что на столе?</translation>
- </item>
- <item id="26">
-  <translation>На столе - несколько книг, ручек и т.д.</translation>
- </item>
- <item id="27">
-  <translation>Что там на полу?</translation>
- </item>
- <item id="27">
-  <translation>Там на полу - ничего</translation>
- </item>
- <item id="28">
-  <translation>Что ты носишь на ногах? (сейчас)</translation>
- </item>
- <item id="28">
-  <translation>Я ношу туфли на ногах</translation>
- </item>
- <item id="29">
-  <translation>Что ты носишь на голове? (сейчас)</translation>
- </item>
- <item id="29">
-  <translation>Я ничего не ношу на голове</translation>
- </item>
- <item id="30">
-  <translation>Только одно отрицание</translation>
- </item>
- <item id="31">
-  <translation>Есть что-то в моей руке?</translation>
- </item>
- <item id="31">
-  <translation>Да, есть что-то в твоей руке</translation>
- </item>
- <item id="32">
-  <translation>Нет ничего у меня в руке?</translation>
- </item>
- <item id="32">
-  <translation>Нет, ты не имеешь ничего в твоей руке; в твоей руке есть что-то</translation>
- </item>
- <item id="33">
-  <translation>Что значит это предложение: &quot;Я не ем ничего&quot;?</translation>
- </item>
- <item id="33">
-  <translation>&quot;Я не ем ничего&quot; значит &quot;Я ем что-то&quot;</translation>
- </item>
- <item id="34">
-  <translation>передний, передняя часть</translation>
- </item>
- <item id="35">
-  <translation>задний, задняя часть</translation>
- </item>
- <item id="36">
-  <translation>верх</translation>
- </item>
- <item id="37">
-  <translation>низ</translation>
- </item>
- <item id="38">
-  <translation>сторона</translation>
- </item>
- <item id="39">
-  <translation>Что это за часть книги?</translation>
- </item>
- <item id="39">
-  <translation>Это передняя часть книги</translation>
- </item>
- <item id="40">
-  <translation>Это передняя часть моего тела?</translation>
- </item>
- <item id="40">
-  <translation>Нет, это не передняя часть твоего тела; это задняя часть твоего тела</translation>
- </item>
- <item id="41">
-  <translation>Где ручка?</translation>
- </item>
- <item id="41">
-  <translation>Ручка - сверху книги</translation>
- </item>
- <item id="42">
-  <translation>Что наверху моей головы?</translation>
- </item>
- <item id="42">
-  <translation>Твои волосы - сверху твоей головы</translation>
- </item>
- <item id="43">
-  <translation>Мои уши - сзади моей головы?</translation>
- </item>
- <item id="43">
-  <translation>Нет, твои уши не сзади твоей головы; они - по сторонам твоей головы</translation>
- </item>
- <item id="44">
-  <translation>Ты сидишь со стороны моей левой или правой руки?</translation>
- </item>
- <item id="44">
-  <translation>Я сижу со стороны твоей правой руки</translation>
- </item>
- <item id="45">
-  <translation>нюхать, запах</translation>
- </item>
- <item id="46">
-  <translation>Что я делаю?</translation>
- </item>
- <item id="46">
-  <translation>Ты обнюхиваешь свое запястье</translation>
- </item>
- <item id="47">
-  <translation>С помощью чего мы нюхаем?</translation>
- </item>
- <item id="47">
-  <translation>Мы нюхаем нашими носами</translation>
- </item>
- <item id="48">
-  <translation>У стола есть какой-то запах?</translation>
- </item>
- <item id="48">
-  <translation>Нет, у стола нет никакого запаха</translation>
- </item>
- <item id="49">
-  <translation>адрес</translation>
- </item>
- <item id="50">
-  <translation>улица</translation>
- </item>
- <item id="51">
-  <translation>Какой адрес этой школы?</translation>
- </item>
- <item id="51">
-  <translation>Адрес этой школы - улица Оксфорда, 139, Лондон, W1A 2 JA</translation>
- </item>
- <item id="52">
-  <translation>какой у тебя адрес?</translation>
- </item>
- <item id="52">
-  <translation>Мой адрес - королевская улица, 2, Лондон, SW3 2 HH</translation>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation>Урок шестадцать</translation>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>одни ... другие</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>Все люди в этом городке - мужчины?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, не все люди в этом городке мужчины; одни - мужчины, другие - женщины</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>Все автомобили в Европе - форды?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, не все автомобили в Европе - форды; одни - форды, другие - фиаты, рено, фольксфагены, вольво и т.д.</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>Все люди в этом месте женаты?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, не все люди в этом месте женаты; одни - женаты, другие - холостые</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>Все люди в Европе говорят на испанском?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, не все люди в Европе говорят на испанском; одни говорят на испанском, другие говорят на других языках</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>что-нибудь</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>неопределенный</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>что-то</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>ничего</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>что</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>определенный</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>лампа</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>картина</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>ничего</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>что-нибудь</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>У меня есть что-то в правой руке?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, у тебя есть что-то в правой руке</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>Есть что-то на столе?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, есть что-то на столе</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>Ты носишь что-то на ногах?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я ношу что-то на ногах</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>ничего</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>Есть что-то в моей левой руке?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у тебя нет ничего в левой руке</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>Есть там что-то на полу?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, ничего нет на полу</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>Ты носишь что-то на голове? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не ношу ничего на голове</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>ничего</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>Что в моей правой руке?</translation>
+		</item>
+		<item id="1">
+			<translation>В твоей правой руке - ручка</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>Что у меня в левой руке?</translation>
+		</item>
+		<item id="1">
+			<translation>Ничего нет в твоей левой руке</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>Что на столе?</translation>
+		</item>
+		<item id="1">
+			<translation>На столе - несколько книг, ручек и т.д.</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>Что там на полу?</translation>
+		</item>
+		<item id="1">
+			<translation>Там на полу - ничего</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>Что ты носишь на ногах? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Я ношу туфли на ногах</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>Что ты носишь на голове? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Я ничего не ношу на голове</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>Только одно отрицание</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>Есть что-то в моей руке?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, есть что-то в твоей руке</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>Нет ничего у меня в руке?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, ты не имеешь ничего в твоей руке; в твоей руке есть что-то</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>Что значит это предложение: &quot;Я не ем ничего&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>&quot;Я не ем ничего&quot; значит &quot;Я ем что-то&quot;</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>передний, передняя часть</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>задний, задняя часть</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>верх</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>низ</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>сторона</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>Что это за часть книги?</translation>
+		</item>
+		<item id="1">
+			<translation>Это передняя часть книги</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>Это передняя часть моего тела?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, это не передняя часть твоего тела; это задняя часть твоего тела</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>Где ручка?</translation>
+		</item>
+		<item id="1">
+			<translation>Ручка - сверху книги</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>Что наверху моей головы?</translation>
+		</item>
+		<item id="1">
+			<translation>Твои волосы - сверху твоей головы</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>Мои уши - сзади моей головы?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, твои уши не сзади твоей головы; они - по сторонам твоей головы</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>Ты сидишь со стороны моей левой или правой руки?</translation>
+		</item>
+		<item id="1">
+			<translation>Я сижу со стороны твоей правой руки</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>нюхать, запах</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>Что я делаю?</translation>
+		</item>
+		<item id="1">
+			<translation>Ты обнюхиваешь свое запястье</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>С помощью чего мы нюхаем?</translation>
+		</item>
+		<item id="1">
+			<translation>Мы нюхаем нашими носами</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>У стола есть какой-то запах?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у стола нет никакого запаха</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>адрес</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>улица</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>Какой адрес этой школы?</translation>
+		</item>
+		<item id="1">
+			<translation>Адрес этой школы - улица Оксфорда, 139, Лондон, W1A 2 JA</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>какой у тебя адрес?</translation>
+		</item>
+		<item id="1">
+			<translation>Мой адрес - королевская улица, 2, Лондон, SW3 2 HH</translation>
+		</item>
+	</item>
 </items>

@@ -24,6 +24,14 @@ export class EntityBlockComponent implements OnInit {
 
     constructor(public optionsService: OptionsService) {}
 
+    transformText(originalText: string): string {
+        if (originalText) {
+            return originalText.replace(/\\n/g, '<br>');
+        } else {
+            return '';
+        }
+    }
+
     ngOnInit(): void {
         //this.getQuesion();
         this.updateEntityData();
@@ -34,13 +42,13 @@ export class EntityBlockComponent implements OnInit {
     }
 
     updateEntityData(): void {
-      this.foreignText = this.entity?.sourceText;
-      this.translatedText = this.entity?.translatedText;
-      this.imageUrl = this.entity?.imageUrl;
-      // const questionEntity = this.entityService.getQuestionEntity();
-      // this.enText = questionEntity.sourceText;
-      // this.ruText = questionEntity.translatedText;
-      // this.imageUrl = questionEntity.imageUrl;
+        this.foreignText = this.entity?.sourceText;
+        this.translatedText = this.entity?.translatedText;
+        this.imageUrl = this.entity?.imageUrl;
+        // const questionEntity = this.entityService.getQuestionEntity();
+        // this.enText = questionEntity.sourceText;
+        // this.ruText = questionEntity.translatedText;
+        // this.imageUrl = questionEntity.imageUrl;
     }
 
     onImageLoaded() {

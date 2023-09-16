@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок восемнадцать</translation>
+ </item>
+ <item id="1">
+  <translation>еда</translation>
+ </item>
+ <item id="2">
+  <translation>Ты любишь еду?</translation>
+ </item>
+ <item id="2">
+  <translation>Да, я люблю еду</translation>
+ </item>
+ <item id="3">
+  <translation>Ты любишь всю еду?</translation>
+ </item>
+ <item id="3">
+  <translation>Да, я люблю всю еду</translation>
+ </item>
+ <item id="4">
+  <translation>Людям обычно не нравится запах еды?</translation>
+ </item>
+ <item id="4">
+  <translation>Нет, люди обычно не не нравится запах еды; они любят запах еды</translation>
+ </item>
+ <item id="5">
+  <translation>сын</translation>
+ </item>
+ <item id="6">
+  <translation>дочь</translation>
+ </item>
+ <item id="7">
+  <translation>Сколько сыновей у твоего отца?</translation>
+ </item>
+ <item id="7">
+  <translation>У моего отца один сын</translation>
+ </item>
+ <item id="8">
+  <translation>Сколько дочерей у твоей матери?</translation>
+ </item>
+ <item id="8">
+  <translation>У моей матери две дочери</translation>
+ </item>
+ <item id="9">
+  <translation>Ты сын или дочь?</translation>
+ </item>
+ <item id="9">
+  <translation>Я - дочь</translation>
+ </item>
+ <item id="10">
+  <translation>брат</translation>
+ </item>
+ <item id="11">
+  <translation>сестра</translation>
+ </item>
+ <item id="12">
+  <translation>У тебя есть какие-то братья?</translation>
+ </item>
+ <item id="12">
+  <translation>Есть, у меня есть брат</translation>
+ </item>
+ <item id="13">
+  <translation>У тебя есть какие-то сестры?</translation>
+ </item>
+ <item id="13">
+  <translation>Да, у меня есть сестра</translation>
+ </item>
+ <item id="14">
+  <translation>Сколько братьев и сестер у тебя есть?</translation>
+ </item>
+ <item id="14">
+  <translation>У меня - один брат и одна сестра</translation>
+ </item>
+ <item id="15">
+  <translation>родители</translation>
+ </item>
+ <item id="16">
+  <translation>родственники</translation>
+ </item>
+ <item id="17">
+  <translation>родственники</translation>
+ </item>
+ <item id="18">
+  <translation>семья</translation>
+ </item>
+ <item id="19">
+  <translation>дядя</translation>
+ </item>
+ <item id="20">
+  <translation>тетя</translation>
+ </item>
+ <item id="21">
+  <translation>двоюродный брат/сестра</translation>
+ </item>
+ <item id="22">
+  <translation>В чем разница между родителями и родственниками?</translation>
+ </item>
+ <item id="22">
+  <translation>Разница между родителями и родственниками в том, что родители - это мать и отец, в то время как родственники - это все остальные люди из семьи, такие как братья, сестры, дяди, тети, кузены и т.д.</translation>
+ </item>
+ <item id="23">
+  <translation>Что значит слово &quot;дядя&quot;?</translation>
+ </item>
+ <item id="23">
+  <translation>Слово &quot;дядя&quot; означает брата твоей матери ли брата твоего отца</translation>
+ </item>
+ <item id="24">
+  <translation>Что значит слово &quot;тетя&quot;?</translation>
+ </item>
+ <item id="24">
+  <translation>Слово &quot;тетя&quot; значит сестру твоей матери или брата твоей матери</translation>
+ </item>
+ <item id="25">
+  <translation>Что значит слово &quot;кузен&quot;?</translation>
+ </item>
+ <item id="25">
+  <translation>Слово &quot;кузен&quot; значит ребенка твоего дяди или ребенка твоей тети</translation>
+ </item>
+ <item id="26">
+  <translation>больше ... чем</translation>
+ </item>
+ <item id="27">
+  <translation>У тебя на руках больше пальцев, чем больших пальцев?</translation>
+ </item>
+ <item id="27">
+  <translation>Да, у меня на руках больше пальцев, чем больших пальцев</translation>
+ </item>
+ <item id="28">
+  <translation>В городке больше людей, чем в деревне?</translation>
+ </item>
+ <item id="28">
+  <translation>Да, в городке больше людей, чем в деревне</translation>
+ </item>
+ <item id="29">
+  <translation>В этой книге больше страниц, чем в той книге?</translation>
+ </item>
+ <item id="29">
+  <translation>Да, в этой книге больше людей, чем в той книге</translation>
+ </item>
+ <item id="30">
+  <translation>разбить, сломать</translation>
+ </item>
+ <item id="31">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="31">
+  <translation>Ты ломаешь свою ручку</translation>
+ </item>
+ <item id="32">
+  <translation>Ты можешь разбить окно стулом?</translation>
+ </item>
+ <item id="32">
+  <translation>Да, я могу разбить окно стулом</translation>
+ </item>
+ <item id="33">
+  <translation>Ты можешь разбить стол руками?</translation>
+ </item>
+ <item id="33">
+  <translation>Нет, я не могу разбить стол руками</translation>
+ </item>
+ <item id="34">
+  <translation>из</translation>
+ </item>
+ <item id="35">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="35">
+  <translation>Ты кладешь свою ручку в свой карман</translation>
+ </item>
+ <item id="36">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="36">
+  <translation>Ты берешь свою ручку из своего кармана</translation>
+ </item>
+ <item id="37">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="37">
+  <translation>Ты выходишь из класса</translation>
+ </item>
+ <item id="38">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="38">
+  <translation>Ты входишь в класс</translation>
+ </item>
+ <item id="39">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="39">
+  <translation>Ты засовываешь руки себе в карманы</translation>
+ </item>
+ <item id="40">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="40">
+  <translation>Ты вытаскиваешь руки из своих карманов</translation>
+ </item>
+ <item id="41">
+  <translation>Ты выходишь из класса перед уроком?</translation>
+ </item>
+ <item id="41">
+  <translation>Нет, я не выхожу из класса перед уроком; я вхожу в класс перед уроком</translation>
+ </item>
+ <item id="42">
+  <translation>думать</translation>
+ </item>
+ <item id="43">
+  <translation>Как ты думаешь, сколько приблизительно людей во Франции?</translation>
+ </item>
+ <item id="43">
+  <translation>Я думаю, во Франции около 65 миллионов людей</translation>
+ </item>
+ <item id="44">
+  <translation>Ты думаешь, что кто-то есть в другой комнате?</translation>
+ </item>
+ <item id="44">
+  <translation>Да, я думаю, что есть кто-то в другой комнате</translation>
+ </item>
+ <item id="45">
+  <translation>Как ты думаешь, что у меня в кармане?</translation>
+ </item>
+ <item id="45">
+  <translation>Я думаю, что у тебя в кармане - ручка</translation>
+ </item>
+ <item id="46">
+  <translation>хороший</translation>
+ </item>
+ <item id="47">
+  <translation>плохой</translation>
+ </item>
+ <item id="48">
+  <translation>уметь хорошо что-то делать</translation>
+ </item>
+ <item id="49">
+  <translation>не уметь</translation>
+ </item>
+ <item id="50">
+  <translation>Это плохая ручка?</translation>
+ </item>
+ <item id="50">
+  <translation>Нет, это не плохая ручка; это хорошая ручка</translation>
+ </item>
+ <item id="51">
+  <translation>Ты думаешь что это хорошая картина?</translation>
+ </item>
+ <item id="51">
+  <translation>Да, я думаю, что это - хорошая картина</translation>
+ </item>
+ <item id="52">
+  <translation>Все дети - хорошие дети?</translation>
+ </item>
+ <item id="52">
+  <translation>Нет, не все дети - хорошие дети; одни - хорошие, а другие - плохие</translation>
+ </item>
+ <item id="53">
+  <translation>Все студенты хороши в изучении языков?</translation>
+ </item>
+ <item id="53">
+  <translation>Нет, не все студенты хороши в изучении языков; одни - хороши в изучении языков, другие - плохи в изучении языков</translation>
+ </item>
+ <item id="54">
+  <translation>вместо</translation>
+ </item>
+ <item id="55">
+  <translation>Ты предрочитаешь чай вместо кофе?</translation>
+ </item>
+ <item id="55">
+  <translation>Да, я предпочитаю чай вместо кофе</translation>
+ </item>
+ <item id="56">
+  <translation>Ты предпочитаешь приходить в школу вместо посещения кино?</translation>
+ </item>
+ <item id="56">
+  <translation>Нет, я не предпочитаю приход в школу вместо посещения кино; я предпочитаю хождение в кино вместо прихода в школу</translation>
+ </item>
+ <item id="57">
+  <translation>Ты предпочитаешь пешие прогулки вместо передвижения на атомобиле?</translation>
+ </item>
+ <item id="57">
+  <translation>Да, я предпочитаю пешие пргулки вместо передвижения на автомобиле</translation>
+ </item>
+</items>

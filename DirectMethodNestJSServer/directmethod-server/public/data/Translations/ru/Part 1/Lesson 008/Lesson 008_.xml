@@ -1,0 +1,306 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок восемь</translation>
+ </item>
+ <item id="1">
+  <translation>вопрос</translation>
+ </item>
+ <item id="2">
+  <translation>ответ</translation>
+ </item>
+ <item id="3">
+  <translation>Что это?</translation>
+ </item>
+ <item id="3">
+  <translation>Это вопрос</translation>
+ </item>
+ <item id="4">
+  <translation>Что это?</translation>
+ </item>
+ <item id="4">
+  <translation>Это ответ</translation>
+ </item>
+ <item id="5">
+  <translation>Это ответ?</translation>
+ </item>
+ <item id="5">
+  <translation>Нет, это не ответ, это вопрос</translation>
+ </item>
+ <item id="6">
+  <translation>значение</translation>
+ </item>
+ <item id="7">
+  <translation>Какое значение слова &quot;use&quot; в твоем языке?</translation>
+ </item>
+ <item id="7">
+  <translation>Значение слова &quot;use&quot; в моем языке - ...</translation>
+ </item>
+ <item id="8">
+  <translation>Какое значение слова &quot;table&quot; в твоем языке?</translation>
+ </item>
+ <item id="8">
+  <translation>Значение слова &quot;table&quot;в моем языке - ...</translation>
+ </item>
+ <item id="9">
+  <translation>Какое значение слова &quot;for&quot; в твом языке?</translation>
+ </item>
+ <item id="9">
+  <translation>Значение слова &quot;for&quot; в моем языке - ...</translation>
+ </item>
+ <item id="10">
+  <translation>Какое значение слова &quot;chair&quot; в твоем языке?</translation>
+ </item>
+ <item id="10">
+  <translation>Значение слова &quot;chair&quot; в моем языке - ...</translation>
+ </item>
+ <item id="11">
+  <translation>Какое значение слова &quot;action&quot; в твоем языке?</translation>
+ </item>
+ <item id="11">
+  <translation>Значение слова &quot;action&quot; в моем языке - ...</translation>
+ </item>
+ <item id="12">
+  <translation>имя</translation>
+ </item>
+ <item id="13">
+  <translation>Как меня зовут?</translation>
+ </item>
+ <item id="13">
+  <translation>Тебя зовут ...</translation>
+ </item>
+ <item id="14">
+  <translation>Как тебя зовут?</translation>
+ </item>
+ <item id="14">
+  <translation>Меня зовут ...</translation>
+ </item>
+ <item id="15">
+  <translation>Как его зовут?</translation>
+ </item>
+ <item id="15">
+  <translation>Его зовут мистер Браун</translation>
+ </item>
+ <item id="16">
+  <translation>Как ее зовут?</translation>
+ </item>
+ <item id="16">
+  <translation>Ее зовут миссис Браун</translation>
+ </item>
+ <item id="17">
+  <translation>голова</translation>
+ </item>
+ <item id="18">
+  <translation>лицо</translation>
+ </item>
+ <item id="19">
+  <translation>подбородок</translation>
+ </item>
+ <item id="20">
+  <translation>рот</translation>
+ </item>
+ <item id="21">
+  <translation>нос</translation>
+ </item>
+ <item id="22">
+  <translation>глаз</translation>
+ </item>
+ <item id="23">
+  <translation>ухо</translation>
+ </item>
+ <item id="24">
+  <translation>волосы</translation>
+ </item>
+ <item id="25">
+  <translation>язык</translation>
+ </item>
+ <item id="26">
+  <translation>Что это?</translation>
+ </item>
+ <item id="26">
+  <translation>Это голова и т.д.</translation>
+ </item>
+ <item id="27">
+  <translation>оставаться</translation>
+ </item>
+ <item id="28">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="28">
+  <translation>Ты идешь к окну</translation>
+ </item>
+ <item id="29">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="29">
+  <translation>Ты идешь от окна</translation>
+ </item>
+ <item id="30">
+  <translation>Ты идешь к окну?</translation>
+ </item>
+ <item id="30">
+  <translation>Нет, я не иду к окну, я остаюсь на стуле</translation>
+ </item>
+ <item id="31">
+  <translation>Я остаюсь на стуле?</translation>
+ </item>
+ <item id="31">
+  <translation>Нет, ты не остаешься на стуле, ты идешь к окну</translation>
+ </item>
+ <item id="32">
+  <translation>страна</translation>
+ </item>
+ <item id="33">
+  <translation>Испания</translation>
+ </item>
+ <item id="34">
+  <translation>Как называется твоя страна?</translation>
+ </item>
+ <item id="34">
+  <translation>Испания - название моей страны</translation>
+ </item>
+ <item id="35">
+  <translation>Как называется страна между Англией и Испанией?</translation>
+ </item>
+ <item id="35">
+  <translation>Франция - так называется страна между Англией и Испанией</translation>
+ </item>
+ <item id="36">
+  <translation>переводить</translation>
+ </item>
+ <item id="37">
+  <translation>на</translation>
+ </item>
+ <item id="38">
+  <translation>Глаголы - это слова, которые мы испольуем для действий</translation>
+ </item>
+ <item id="39">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="39">
+  <translation>Ты переводишь предложение с английского на ...</translation>
+ </item>
+ <item id="40">
+  <translation>Переведи это предложение, пожалуйсва: &quot;Я - студент&quot;</translation>
+ </item>
+ <item id="41">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="41">
+  <translation>Он переводит предложение с английского на ...</translation>
+ </item>
+ <item id="42">
+  <translation>Переведи это предложение, пожалуйста: &quot;Стена - высока&quot;</translation>
+ </item>
+ <item id="43">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="43">
+  <translation>Он переводит предложение с английского на ...</translation>
+ </item>
+ <item id="44">
+  <translation>Переведи это предложение, пожалуйста: &quot;В этой комнате - десять стульев&quot;</translation>
+ </item>
+ <item id="45">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="45">
+  <translation>Он переводит предложение с английского на ...</translation>
+ </item>
+ <item id="46">
+  <translation>кто</translation>
+ </item>
+ <item id="47">
+  <translation>Кто я?</translation>
+ </item>
+ <item id="47">
+  <translation>Вы - мистер Смит</translation>
+ </item>
+ <item id="48">
+  <translation>Кто ты?</translation>
+ </item>
+ <item id="48">
+  <translation>Я - мистер Росси</translation>
+ </item>
+ <item id="49">
+  <translation>Кто он?</translation>
+ </item>
+ <item id="49">
+  <translation>Он - Джек Браун</translation>
+ </item>
+ <item id="50">
+  <translation>Кто она?</translation>
+ </item>
+ <item id="50">
+  <translation>Она - Анна Браун</translation>
+ </item>
+ <item id="51">
+  <translation>Кто они?</translation>
+ </item>
+ <item id="51">
+  <translation>Они - мистер и миссис Браун</translation>
+ </item>
+ <item id="52">
+  <translation>вещь</translation>
+ </item>
+ <item id="53">
+  <translation>Сколько вещей на этой книге?</translation>
+ </item>
+ <item id="53">
+  <translation>Три вещи на этой книге</translation>
+ </item>
+ <item id="54">
+  <translation>Как называется эта вещь?</translation>
+ </item>
+ <item id="54">
+  <translation>Эта вещь называется галстуком</translation>
+ </item>
+ <item id="55">
+  <translation>Какого цвета эта вещь?</translation>
+ </item>
+ <item id="55">
+  <translation>Эта вещь - красная</translation>
+ </item>
+ <item id="56">
+  <translation>высокий</translation>
+ </item>
+ <item id="57">
+  <translation>низкий</translation>
+ </item>
+ <item id="58">
+  <translation>Скандинавия</translation>
+ </item>
+ <item id="59">
+  <translation>Мистер Браун низкий?</translation>
+ </item>
+ <item id="59">
+  <translation>Нет, мистер Браун не низкий, он высокий</translation>
+ </item>
+ <item id="60">
+  <translation>Анна Браун высокая?</translation>
+ </item>
+ <item id="60">
+  <translation>Нет, Анна Браун не высокая, она низкая</translation>
+ </item>
+ <item id="61">
+  <translation>Все люди из Скандинавии низкие?</translation>
+ </item>
+ <item id="61">
+  <translation>Нет, люди из Скандинавии не низки, они высоки</translation>
+ </item>
+ <item id="62">
+  <translation>разница</translation>
+ </item>
+ <item id="63">
+  <translation>в то время как</translation>
+ </item>
+ <item id="64">
+  <translation>то, что</translation>
+ </item>
+ <item id="65">
+  <translation>Какова разница между &quot;tall&quot; и &quot;short&quot; и &quot;high&quot; и &quot;low&quot;?</translation>
+ </item>
+ <item id="65">
+  <translation>Разница между &quot;tall&quot; и &quot;short&quot; и &quot;high&quot; и &quot;low&quot; в том, что мы используем &quot;tall&quot; и &quot;short&quot; для людей, в то время как мы используем &quot;high&quot; и &quot;low&quot; для вещей</translation>
+ </item>
+</items>

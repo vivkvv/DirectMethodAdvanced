@@ -1,478 +1,602 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="271.733">
- <item id="0" start="0.1" duration="1.2">
-  <person>Teacher</person>
-  <text>Lesson two</text>
-  <image/>
- </item>
- <item id="1" start="2.0" duration="2.3">
-  <person>Teacher</person>
-  <text>I am - I'm</text>
-  <image/>
- </item>
- <item id="2" start="5.333" duration="2.5">
-  <person>Teacher</person>
-  <text>you are - you're</text>
-  <image/>
- </item>
- <item id="3" start="8.8" duration="3.2">
-  <person>Teacher</person>
-  <text>he is - he's</text>
-  <image/>
- </item>
- <item id="4" start="12.433" duration="3.0">
-  <person>Teacher</person>
-  <text>she is - she's</text>
-  <image/>
- </item>
- <item id="5" start="16.233" duration="2.6">
-  <person>Teacher</person>
-  <text>it is - it's</text>
-  <image/>
- </item>
- <item id="6" start="19.7" duration="1.6">
-  <person>Teacher</person>
-  <text>Am I Peter?</text>
-  <image/>
- </item>
- <item id="6" start="21.8" duration="2.3">
-  <person>Student</person>
-  <text>Yes, you're Peter</text>
-  <image/>
- </item>
- <item id="7" start="24.533" duration="1.5">
-  <person>Teacher</person>
-  <text>Are you Liz?</text>
-  <image/>
- </item>
- <item id="7" start="26.6" duration="2.0">
-  <person>Student</person>
-  <text>Yes, I'm Liz</text>
-  <image/>
- </item>
- <item id="8" start="29.3" duration="2.1">
-  <person>Teacher</person>
-  <text>Is he Mr. Brown?</text>
-  <image/>
- </item>
- <item id="8" start="32.0" duration="2.4">
-  <person>Student</person>
-  <text>Yes, he's Mr. Brown</text>
-  <image/>
- </item>
- <item id="9" start="34.9" duration="2.3">
-  <person>Teacher</person>
-  <text>Is she Mrs. Brown?</text>
-  <image/>
- </item>
- <item id="9" start="37.8" duration="2.5">
-  <person>Student</person>
-  <text>Yes, she's Mrs. Brown</text>
-  <image/>
- </item>
- <item id="10" start="40.9" duration="2.9">
-  <person>Teacher</person>
-  <text>I am not - I'm not</text>
-  <image/>
- </item>
- <item id="11" start="44.733" duration="3.2">
-  <person>Teacher</person>
-  <text>you are not - you aren't</text>
-  <image/>
- </item>
- <item id="12" start="48.8" duration="3.2">
-  <person>Teacher</person>
-  <text>he is not - he isn't</text>
-  <image/>
- </item>
- <item id="13" start="52.8" duration="3.3">
-  <person>Teacher</person>
-  <text>she is not - she isn't</text>
-  <image/>
- </item>
- <item id="14" start="57.033" duration="3.0">
-  <person>Teacher</person>
-  <text>it is not - it isn't</text>
-  <image/>
- </item>
- <item id="15" start="61.05" duration="2.0">
-  <person>Teacher</person>
-  <text>Am I Mrs. Brown?</text>
-  <image/>
- </item>
- <item id="15" start="63.567" duration="2.8">
-  <person>Student</person>
-  <text>No, you aren't Mrs. Brown; you're Peter</text>
-  <image/>
- </item>
- <item id="16" start="67.2" duration="2.0">
-  <person>Teacher</person>
-  <text>Are you Mr. Brown?</text>
-  <image/>
- </item>
- <item id="16" start="69.667" duration="3.0">
-  <person>Student</person>
-  <text>No, I'm not Mr. Brown; I'm Liz</text>
-  <image/>
- </item>
- <item id="17" start="73.4" duration="2.1">
-  <person>Teacher</person>
-  <text>Is he Mr. Smith?</text>
-  <image/>
- </item>
- <item id="17" start="76.233" duration="3.2">
-  <person>Student</person>
-  <text>No, he isn't Mr. Smith; he's Mr. Brown</text>
-  <image/>
- </item>
- <item id="18" start="80.233" duration="2.0">
-  <person>Teacher</person>
-  <text>Is she Mr. Brown?</text>
-  <image/>
- </item>
- <item id="18" start="82.933" duration="3.2">
-  <person>Student</person>
-  <text>No, she isn't Mr. Brown; she's Mrs. Brown</text>
-  <image/>
- </item>
- <item id="19" start="87.0" duration="2.2">
-  <person>Teacher</person>
-  <text>Is she Mr. Brown?</text>
-  <image/>
- </item>
- <item id="19" start="89.8" duration="3.8">
-  <person>Student</person>
-  <text>No, she isn't Mr. Brown; she's Mrs. Brown</text>
-  <image/>
- </item>
- <item id="20" start="94.433" duration="1.7">
-  <person>Teacher</person>
-  <text>in front of</text>
-  <image/>
- </item>
- <item id="21" start="96.6" duration="1.2">
-  <person>Teacher</person>
-  <text>behind</text>
-  <image/>
- </item>
- <item id="22" start="98.533" duration="1.2">
-  <person>Teacher</person>
-  <text>me</text>
-  <image/>
- </item>
- <item id="23" start="100.067" duration="1.0">
-  <person>Teacher</person>
-  <text>you</text>
-  <image/>
- </item>
- <item id="24" start="101.5" duration="1.6">
-  <person>Teacher</person>
-  <text>Where's the table?</text>
-  <image/>
- </item>
- <item id="24" start="103.733" duration="1.8">
-  <person>Student</person>
-  <text>The table's in front of me</text>
-  <image/>
- </item>
- <item id="25" start="106.267" duration="2.2">
-  <person>Teacher</person>
-  <text>Is the wall in front of you?</text>
-  <image/>
- </item>
- <item id="25" start="109.133" duration="3.8">
-  <person>Student</person>
-  <text>No, the wall isn't in front of me; it's behind me</text>
-  <image/>
- </item>
- <item id="26" start="113.8" duration="2.3">
-  <person>Teacher</person>
-  <text>Is the table behind me?</text>
-  <image/>
- </item>
- <item id="26" start="116.567" duration="3.6">
-  <person>Student</person>
-  <text>No, the table isn't behind you; it's in front of you</text>
-  <image/>
- </item>
- <item id="27" start="121.0" duration="1.1">
-  <person>Teacher</person>
-  <text>him</text>
-  <image/>
- </item>
- <item id="28" start="122.567" duration="1.2">
-  <person>Teacher</person>
-  <text>her</text>
-  <image/>
- </item>
- <item id="29" start="124.1" duration="1.1">
-  <person>Teacher</person>
-  <text>house</text>
-  <image/>
- </item>
- <item id="30" start="125.733" duration="1.6">
-  <person>Teacher</person>
-  <text>Where's the house?</text>
-  <image/>
- </item>
- <item id="30" start="127.867" duration="1.8">
-  <person>Student</person>
-  <text>The house is behind him</text>
-  <image/>
- </item>
- <item id="31" start="130.7" duration="2.0">
-  <person>Teacher</person>
-  <text>Where's the house?</text>
-  <image/>
- </item>
- <item id="31" start="132.7" duration="2.2">
-  <person>Student</person>
-  <text>The house is behind her</text>
-  <image/>
- </item>
- <item id="32" start="135.7" duration="2.1">
-  <person>Teacher</person>
-  <text>Are you behind her?</text>
-  <image/>
- </item>
- <item id="32" start="138.067" duration="3.2">
-  <person>Student</person>
-  <text>No, I'm not behind her; I'm in front of her</text>
-  <image/>
- </item>
- <item id="33" start="142.133" duration="1.8">
-  <person>Teacher</person>
-  <text>Am I in front of him?</text>
-  <image/>
- </item>
- <item id="33" start="144.667" duration="3.3">
-  <person>Student</person>
-  <text>No, you aren't in front of him; you're behind him</text>
-  <image/>
- </item>
- <item id="34" start="148.867" duration="1.4">
-  <person>Teacher</person>
-  <text>standing</text>
-  <image/>
- </item>
- <item id="35" start="150.7" duration="1.1">
-  <person>Teacher</person>
-  <text>sitting</text>
-  <image/>
- </item>
- <item id="36" start="152.433" duration="2.0">
-  <person>Teacher</person>
-  <text>Are you standing on the floor?</text>
-  <image/>
- </item>
- <item id="36" start="155.067" duration="3.9">
-  <person>Student</person>
-  <text>No, I'm not standing on the floor; I'm sitting on the chair</text>
-  <image/>
- </item>
- <item id="37" start="159.9" duration="2.2">
-  <person>Teacher</person>
-  <text>Am I sitting on the chair?</text>
-  <image/>
- </item>
- <item id="37" start="162.833" duration="3.5">
-  <person>Student</person>
-  <text>No, you aren't sitting on the chair; you're standing on the floor</text>
-  <image/>
- </item>
- <item id="38" start="167.133" duration="2.2">
-  <person>Teacher</person>
-  <text>Are you standing in front of me?</text>
-  <image/>
- </item>
- <item id="38" start="170.0" duration="4.3">
-  <person>Student</person>
-  <text>No, I'm not standing in front of you; I'm sitting in front of you</text>
-  <image/>
- </item>
- <item id="39" start="174.7" duration="1.6">
-  <person>Teacher</person>
-  <text>taking from</text>
-  <image/>
- </item>
- <item id="40" start="176.833" duration="1.5">
-  <person>Teacher</person>
-  <text>putting on</text>
-  <image/>
- </item>
- <item id="41" start="178.833" duration="2.3">
-  <person>Teacher</person>
-  <text>Am I putting the book on the floor?</text>
-  <image/>
- </item>
- <item id="41" start="181.8" duration="4.7">
-  <person>Student</person>
-  <text>No, you aren't putting the book on the floor; you're taking the book from the table</text>
-  <image/>
- </item>
- <item id="42" start="187.433" duration="2.4">
-  <person>Teacher</person>
-  <text>Am I taking the pen from the table?</text>
-  <image/>
- </item>
- <item id="42" start="190.567" duration="4.6">
-  <person>Student</person>
-  <text>No, you aren't taking the pen from the table; you're putting the book on the table</text>
-  <image/>
- </item>
- <item id="43" start="196.0" duration="1.3">
-  <person>Teacher</person>
-  <text>opening</text>
-  <image/>
- </item>
- <item id="44" start="197.7" duration="1.2">
-  <person>Teacher</person>
-  <text>closing</text>
-  <image/>
- </item>
- <item id="45" start="199.533" duration="1.6">
-  <person>Teacher</person>
-  <text>Am I closing the door?</text>
-  <image/>
- </item>
- <item id="45" start="201.933" duration="3.4">
-  <person>Student</person>
-  <text>No, you aren't closing the door; you're opening the door</text>
-  <image/>
- </item>
- <item id="46" start="206.267" duration="1.8">
-  <person>Teacher</person>
-  <text>Am I opening the window?</text>
-  <image/>
- </item>
- <item id="46" start="208.8" duration="3.6">
-  <person>Student</person>
-  <text>No, you aren't opening the window; you're closing the book</text>
-  <image/>
- </item>
- <item id="47" start="213.167" duration="1.2">
-  <person>Teacher</person>
-  <text>doing</text>
-  <image/>
- </item>
- <item id="48" start="214.8" duration="1.6">
-  <person>Teacher</person>
-  <text>what am I doing?</text>
-  <image/>
- </item>
- <item id="49" start="216.933" duration="1.4">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="49" start="219.0" duration="2.5">
-  <person>Student</person>
-  <text>You're taking the book from the table</text>
-  <image/>
- </item>
- <item id="50" start="222.267" duration="1.5">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="50" start="224.267" duration="1.8">
-  <person>Student</person>
-  <text>You're opening the book</text>
-  <image/>
- </item>
- <item id="51" start="226.633" duration="1.4">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="51" start="228.7" duration="1.7">
-  <person>Student</person>
-  <text>You're closing the book</text>
-  <image/>
- </item>
- <item id="52" start="231.1" duration="1.5">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="52" start="233.133" duration="2.6">
-  <person>Student</person>
-  <text>You're putting the book on the table</text>
-  <image/>
- </item>
- <item id="53" start="236.4" duration="1.0">
-  <person>Teacher</person>
-  <text>which</text>
-  <image/>
- </item>
- <item id="54" start="237.967" duration="1.9">
-  <person>Teacher</person>
-  <text>Which pencil's black?</text>
-  <image/>
- </item>
- <item id="54" start="240.567" duration="1.9">
-  <person>Student</person>
-  <text>This pencil's black</text>
-  <image/>
- </item>
- <item id="55" start="243.167" duration="1.9">
-  <person>Teacher</person>
-  <text>Which pencil's white?</text>
-  <image/>
- </item>
- <item id="55" start="245.7" duration="1.9">
-  <person>Student</person>
-  <text>This pencil's white</text>
-  <image/>
- </item>
- <item id="56" start="248.267" duration="2.0">
-  <person>Teacher</person>
-  <text>Which pencil's green?</text>
-  <image/>
- </item>
- <item id="56" start="250.833" duration="2.0">
-  <person>Student</person>
-  <text>This pencil's green</text>
-  <image/>
- </item>
- <item id="57" start="253.367" duration="2.0">
-  <person>Teacher</person>
-  <text>Which pencil's brown?</text>
-  <image/>
- </item>
- <item id="57" start="255.967" duration="2.0">
-  <person>Student</person>
-  <text>This pencil's brown</text>
-  <image/>
- </item>
- <item id="58" start="258.533" duration="0.9">
-  <person>Teacher</person>
-  <text>open</text>
-  <image/>
- </item>
- <item id="59" start="260.167" duration="0.9">
-  <person>Teacher</person>
-  <text>closed</text>
-  <image/>
- </item>
- <item id="60" start="261.867" duration="1.5">
-  <person>Teacher</person>
-  <text>Which book's open?</text>
-  <image/>
- </item>
- <item id="60" start="264.1" duration="1.8">
-  <person>Student</person>
-  <text>This book's open</text>
-  <image/>
- </item>
- <item id="61" start="266.6" duration="1.6">
-  <person>Teacher</person>
-  <text>Which book's closed?</text>
-  <image/>
- </item>
- <item id="61" start="269.1" duration="2.0">
-  <person>Student</person>
-  <text>This book's closed</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.1" duration="1.2">
+			<person>Teacher</person>
+			<text>Lesson two</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.0" duration="2.3">
+			<person>Teacher</person>
+			<text>I am - I'm</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="5.333" duration="2.5">
+			<person>Teacher</person>
+			<text>you are - you're</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="8.8" duration="3.2">
+			<person>Teacher</person>
+			<text>he is - he's</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="12.433" duration="3.0">
+			<person>Teacher</person>
+			<text>she is - she's</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="16.233" duration="2.6">
+			<person>Teacher</person>
+			<text>it is - it's</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="19.7" duration="1.6">
+			<person>Teacher</person>
+			<text>Am I Peter?</text>
+			<image/>
+		</item>
+		<item id="1" start="21.8" duration="2.3">
+			<person>Student</person>
+			<text>Yes, you're Peter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="24.533" duration="1.5">
+			<person>Teacher</person>
+			<text>Are you Liz?</text>
+			<image/>
+		</item>
+		<item id="1" start="26.6" duration="2.0">
+			<person>Student</person>
+			<text>Yes, I'm Liz</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="29.3" duration="2.1">
+			<person>Teacher</person>
+			<text>Is he Mr. Brown?</text>
+			<image/>
+		</item>
+		<item id="1" start="32.0" duration="2.4">
+			<person>Student</person>
+			<text>Yes, he's Mr. Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="34.9" duration="2.3">
+			<person>Teacher</person>
+			<text>Is she Mrs. Brown?</text>
+			<image/>
+		</item>
+		<item id="1" start="37.8" duration="2.5">
+			<person>Student</person>
+			<text>Yes, she's Mrs. Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="40.9" duration="2.9">
+			<person>Teacher</person>
+			<text>I am not - I'm not</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="44.733" duration="3.2">
+			<person>Teacher</person>
+			<text>you are not - you aren't</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="48.8" duration="3.2">
+			<person>Teacher</person>
+			<text>he is not - he isn't</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="52.8" duration="3.3">
+			<person>Teacher</person>
+			<text>she is not - she isn't</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="57.033" duration="3.0">
+			<person>Teacher</person>
+			<text>it is not - it isn't</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="61.05" duration="2.0">
+			<person>Teacher</person>
+			<text>Am I Mrs. Brown?</text>
+			<image/>
+		</item>
+		<item id="1" start="63.567" duration="2.8">
+			<person>Student</person>
+			<text>No, you aren't Mrs. Brown; you're Peter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="67.2" duration="2.0">
+			<person>Teacher</person>
+			<text>Are you Mr. Brown?</text>
+			<image/>
+		</item>
+		<item id="1" start="69.667" duration="3.0">
+			<person>Student</person>
+			<text>No, I'm not Mr. Brown; I'm Liz</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="73.4" duration="2.1">
+			<person>Teacher</person>
+			<text>Is he Mr. Smith?</text>
+			<image/>
+		</item>
+		<item id="1" start="76.233" duration="3.2">
+			<person>Student</person>
+			<text>No, he isn't Mr. Smith; he's Mr. Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="80.233" duration="2.0">
+			<person>Teacher</person>
+			<text>Is she Mr. Brown?</text>
+			<image/>
+		</item>
+		<item id="1" start="82.933" duration="3.2">
+			<person>Student</person>
+			<text>No, she isn't Mr. Brown; she's Mrs. Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="87.0" duration="2.2">
+			<person>Teacher</person>
+			<text>Is she Mr. Brown?</text>
+			<image/>
+		</item>
+		<item id="1" start="89.8" duration="3.8">
+			<person>Student</person>
+			<text>No, she isn't Mr. Brown; she's Mrs. Brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="94.433" duration="1.7">
+			<person>Teacher</person>
+			<text>in front of</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="96.6" duration="1.2">
+			<person>Teacher</person>
+			<text>behind</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="98.533" duration="1.2">
+			<person>Teacher</person>
+			<text>me</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="100.067" duration="1.0">
+			<person>Teacher</person>
+			<text>you</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="101.5" duration="1.6">
+			<person>Teacher</person>
+			<text>Where's the table?</text>
+			<image/>
+		</item>
+		<item id="1" start="103.733" duration="1.8">
+			<person>Student</person>
+			<text>The table's in front of me</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="106.267" duration="2.2">
+			<person>Teacher</person>
+			<text>Is the wall in front of you?</text>
+			<image/>
+		</item>
+		<item id="1" start="109.133" duration="3.8">
+			<person>Student</person>
+			<text>No, the wall isn't in front of me; it's behind me</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="113.8" duration="2.3">
+			<person>Teacher</person>
+			<text>Is the table behind me?</text>
+			<image/>
+		</item>
+		<item id="1" start="116.567" duration="3.6">
+			<person>Student</person>
+			<text>No, the table isn't behind you; it's in front of you</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="121.0" duration="1.1">
+			<person>Teacher</person>
+			<text>him</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="122.567" duration="1.2">
+			<person>Teacher</person>
+			<text>her</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="124.1" duration="1.1">
+			<person>Teacher</person>
+			<text>house</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="125.733" duration="1.6">
+			<person>Teacher</person>
+			<text>Where's the house?</text>
+			<image/>
+		</item>
+		<item id="1" start="127.867" duration="1.8">
+			<person>Student</person>
+			<text>The house is behind him</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="130.7" duration="2.0">
+			<person>Teacher</person>
+			<text>Where's the house?</text>
+			<image/>
+		</item>
+		<item id="1" start="132.7" duration="2.2">
+			<person>Student</person>
+			<text>The house is behind her</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="135.7" duration="2.1">
+			<person>Teacher</person>
+			<text>Are you behind her?</text>
+			<image/>
+		</item>
+		<item id="1" start="138.067" duration="3.2">
+			<person>Student</person>
+			<text>No, I'm not behind her; I'm in front of her</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="142.133" duration="1.8">
+			<person>Teacher</person>
+			<text>Am I in front of him?</text>
+			<image/>
+		</item>
+		<item id="1" start="144.667" duration="3.3">
+			<person>Student</person>
+			<text>No, you aren't in front of him; you're behind him</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="148.867" duration="1.4">
+			<person>Teacher</person>
+			<text>standing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="150.7" duration="1.1">
+			<person>Teacher</person>
+			<text>sitting</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="152.433" duration="2.0">
+			<person>Teacher</person>
+			<text>Are you standing on the floor?</text>
+			<image/>
+		</item>
+		<item id="1" start="155.067" duration="3.9">
+			<person>Student</person>
+			<text>No, I'm not standing on the floor; I'm sitting on the chair</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="159.9" duration="2.2">
+			<person>Teacher</person>
+			<text>Am I sitting on the chair?</text>
+			<image/>
+		</item>
+		<item id="1" start="162.833" duration="3.5">
+			<person>Student</person>
+			<text>No, you aren't sitting on the chair; you're standing on the floor</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="167.133" duration="2.2">
+			<person>Teacher</person>
+			<text>Are you standing in front of me?</text>
+			<image/>
+		</item>
+		<item id="1" start="170.0" duration="4.3">
+			<person>Student</person>
+			<text>No, I'm not standing in front of you; I'm sitting in front of you</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="174.7" duration="1.6">
+			<person>Teacher</person>
+			<text>taking from</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="176.833" duration="1.5">
+			<person>Teacher</person>
+			<text>putting on</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="178.833" duration="2.3">
+			<person>Teacher</person>
+			<text>Am I putting the book on the floor?</text>
+			<image/>
+		</item>
+		<item id="1" start="181.8" duration="4.7">
+			<person>Student</person>
+			<text>No, you aren't putting the book on the floor; you're taking the book from the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="187.433" duration="2.4">
+			<person>Teacher</person>
+			<text>Am I taking the pen from the table?</text>
+			<image/>
+		</item>
+		<item id="1" start="190.567" duration="4.6">
+			<person>Student</person>
+			<text>No, you aren't taking the pen from the table; you're putting the book on the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="196.0" duration="1.3">
+			<person>Teacher</person>
+			<text>opening</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="197.7" duration="1.2">
+			<person>Teacher</person>
+			<text>closing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="199.533" duration="1.6">
+			<person>Teacher</person>
+			<text>Am I closing the door?</text>
+			<image/>
+		</item>
+		<item id="1" start="201.933" duration="3.4">
+			<person>Student</person>
+			<text>No, you aren't closing the door; you're opening the door</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="206.267" duration="1.8">
+			<person>Teacher</person>
+			<text>Am I opening the window?</text>
+			<image/>
+		</item>
+		<item id="1" start="208.8" duration="3.6">
+			<person>Student</person>
+			<text>No, you aren't opening the window; you're closing the book</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="213.167" duration="1.2">
+			<person>Teacher</person>
+			<text>doing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="214.8" duration="1.6">
+			<person>Teacher</person>
+			<text>what am I doing?</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="216.933" duration="1.4">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="219.0" duration="2.5">
+			<person>Student</person>
+			<text>You're taking the book from the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="222.267" duration="1.5">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="224.267" duration="1.8">
+			<person>Student</person>
+			<text>You're opening the book</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="226.633" duration="1.4">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="228.7" duration="1.7">
+			<person>Student</person>
+			<text>You're closing the book</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="231.1" duration="1.5">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="233.133" duration="2.6">
+			<person>Student</person>
+			<text>You're putting the book on the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="236.4" duration="1.0">
+			<person>Teacher</person>
+			<text>which</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="237.967" duration="1.9">
+			<person>Teacher</person>
+			<text>Which pencil's black?</text>
+			<image/>
+		</item>
+		<item id="1" start="240.567" duration="1.9">
+			<person>Student</person>
+			<text>This pencil's black</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="243.167" duration="1.9">
+			<person>Teacher</person>
+			<text>Which pencil's white?</text>
+			<image/>
+		</item>
+		<item id="1" start="245.7" duration="1.9">
+			<person>Student</person>
+			<text>This pencil's white</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="248.267" duration="2.0">
+			<person>Teacher</person>
+			<text>Which pencil's green?</text>
+			<image/>
+		</item>
+		<item id="1" start="250.833" duration="2.0">
+			<person>Student</person>
+			<text>This pencil's green</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="253.367" duration="2.0">
+			<person>Teacher</person>
+			<text>Which pencil's brown?</text>
+			<image/>
+		</item>
+		<item id="1" start="255.967" duration="2.0">
+			<person>Student</person>
+			<text>This pencil's brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="258.533" duration="0.9">
+			<person>Teacher</person>
+			<text>open</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="260.167" duration="0.9">
+			<person>Teacher</person>
+			<text>closed</text>
+			<image/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0" start="261.867" duration="1.5">
+			<person>Teacher</person>
+			<text>Which book's open?</text>
+			<image/>
+		</item>
+		<item id="1" start="264.1" duration="1.8">
+			<person>Student</person>
+			<text>This book's open</text>
+			<image/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0" start="266.6" duration="1.6">
+			<person>Teacher</person>
+			<text>Which book's closed?</text>
+			<image/>
+		</item>
+		<item id="1" start="269.1" duration="2.0">
+			<person>Student</person>
+			<text>This book's closed</text>
+			<image/>
+		</item>
+	</item>
 </items>

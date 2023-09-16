@@ -1,0 +1,261 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок пять</translation>
+ </item>
+ <item id="1">
+  <translation>повелительное наклонение</translation>
+ </item>
+ <item id="2">
+  <translation>возьми!</translation>
+ </item>
+ <item id="3">
+  <translation>положи!</translation>
+ </item>
+ <item id="4">
+  <translation>открой!</translation>
+ </item>
+ <item id="5">
+  <translation>закрой!</translation>
+ </item>
+ <item id="6">
+  <translation>пожалуйста</translation>
+ </item>
+ <item id="7">
+  <translation>Возьми книгу, пожалуйстаё</translation>
+ </item>
+ <item id="8">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="8">
+  <translation>Он берет книгу</translation>
+ </item>
+ <item id="9">
+  <translation>Открой книгу, пожалуйста</translation>
+ </item>
+ <item id="9">
+  <translation>Он открывает книгу</translation>
+ </item>
+ <item id="10">
+  <translation>Закрой книгу, пожалуйста</translation>
+ </item>
+ <item id="11">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="11">
+  <translation>Он закрывает книгу</translation>
+ </item>
+ <item id="12">
+  <translation>Положи книгу на стол, пожалуйста</translation>
+ </item>
+ <item id="13">
+  <translation>Что он делает?</translation>
+ </item>
+ <item id="13">
+  <translation>Он кладет книгу на стол</translation>
+ </item>
+ <item id="14">
+  <translation>здесь</translation>
+ </item>
+ <item id="15">
+  <translation>там</translation>
+ </item>
+ <item id="16">
+  <translation>Где черный карандаш?</translation>
+ </item>
+ <item id="16">
+  <translation>Черный карандаш здесь передо мной</translation>
+ </item>
+ <item id="17">
+  <translation>Где белый карандаш?</translation>
+ </item>
+ <item id="17">
+  <translation>Белый карандаш там на стене</translation>
+ </item>
+ <item id="18">
+  <translation>Ты сидишь там?</translation>
+ </item>
+ <item id="18">
+  <translation>Нет, я не сижу там, я сижу здесь</translation>
+ </item>
+ <item id="19">
+  <translation>Белый карандаш здесь перед тобой?</translation>
+ </item>
+ <item id="19">
+  <translation>нет, белый карандаш не здесь передо мной, он там на диаграмме</translation>
+ </item>
+ <item id="20">
+  <translation>столица</translation>
+ </item>
+ <item id="21">
+  <translation>Англия</translation>
+ </item>
+ <item id="22">
+  <translation>Россия</translation>
+ </item>
+ <item id="23">
+  <translation>Греция</translation>
+ </item>
+ <item id="24">
+  <translation>Китай</translation>
+ </item>
+ <item id="25">
+  <translation>Лондон</translation>
+ </item>
+ <item id="26">
+  <translation>Москва</translation>
+ </item>
+ <item id="27">
+  <translation>Афины</translation>
+ </item>
+ <item id="28">
+  <translation>Пекин</translation>
+ </item>
+ <item id="29">
+  <translation>Что есть столицей Англии?</translation>
+ </item>
+ <item id="29">
+  <translation>Лондон - столица Англии</translation>
+ </item>
+ <item id="30">
+  <translation>Что есть столицей России?</translation>
+ </item>
+ <item id="30">
+  <translation>Москва - столица России</translation>
+ </item>
+ <item id="31">
+  <translation>Что есть столицей Греции?</translation>
+ </item>
+ <item id="31">
+  <translation>Афины - столица Греции</translation>
+ </item>
+ <item id="32">
+  <translation>Что есть столицей Китая?</translation>
+ </item>
+ <item id="32">
+  <translation>Пекин - столица Китая</translation>
+ </item>
+ <item id="33">
+  <translation>читать (читающий)</translation>
+ </item>
+ <item id="34">
+  <translation>писать (пишущий)</translation>
+ </item>
+ <item id="35">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="35">
+  <translation>Ты читаешь книгу</translation>
+ </item>
+ <item id="36">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="36">
+  <translation>Ты пишешь в книге</translation>
+ </item>
+ <item id="37">
+  <translation>Я пишу в книге?</translation>
+ </item>
+ <item id="37">
+  <translation>Нет, ты не пишешь в книге, ты читаешь книгу</translation>
+ </item>
+ <item id="38">
+  <translation>Я читаю книгу?</translation>
+ </item>
+ <item id="38">
+  <translation>Нет, ты не читаешь книгу, ты пишешь в книге</translation>
+ </item>
+ <item id="39">
+  <translation>пальто</translation>
+ </item>
+ <item id="40">
+  <translation>колготки</translation>
+ </item>
+ <item id="41">
+  <translation>платье</translation>
+ </item>
+ <item id="42">
+  <translation>юбка</translation>
+ </item>
+ <item id="43">
+  <translation>шарф</translation>
+ </item>
+ <item id="44">
+  <translation>блуза</translation>
+ </item>
+ <item id="45">
+  <translation>пуловер</translation>
+ </item>
+ <item id="46">
+  <translation>карман</translation>
+ </item>
+ <item id="47">
+  <translation>носовой платок</translation>
+ </item>
+ <item id="48">
+  <translation>Что это?</translation>
+ </item>
+ <item id="48">
+  <translation>Это пальто, платье и т.д.</translation>
+ </item>
+ <item id="49">
+  <translation>Что это?</translation>
+ </item>
+ <item id="49">
+  <translation>Это колготки</translation>
+ </item>
+ <item id="50">
+  <translation>сколько</translation>
+ </item>
+ <item id="51">
+  <translation>Сколько картин на этих стенах?</translation>
+ </item>
+ <item id="51">
+  <translation>Две картины на этих стенах</translation>
+ </item>
+ <item id="52">
+  <translation>Сколько часов в этой комнате?</translation>
+ </item>
+ <item id="52">
+  <translation>Одни часы в этой комнате</translation>
+ </item>
+ <item id="53">
+  <translation>Сколько стульев в этой комнате?</translation>
+ </item>
+ <item id="53">
+  <translation>Четырнадуать стульев в этой комнате</translation>
+ </item>
+ <item id="54">
+  <translation>Сколько учителей в этой комнате?</translation>
+ </item>
+ <item id="54">
+  <translation>Один учитель в этой комнате</translation>
+ </item>
+ <item id="55">
+  <translation>идти к (идущий)</translation>
+ </item>
+ <item id="56">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="56">
+  <translation>Ты идешь к двери</translation>
+ </item>
+ <item id="57">
+  <translation>Что я делаю?</translation>
+ </item>
+ <item id="57">
+  <translation>Ты идешь к окну</translation>
+ </item>
+ <item id="58">
+  <translation>Куда я иду?</translation>
+ </item>
+ <item id="58">
+  <translation>Ты идешь к стене</translation>
+ </item>
+ <item id="59">
+  <translation>Я иду к двери?</translation>
+ </item>
+ <item id="59">
+  <translation>Нет, ты не идешь к двери, ты идешь к окну</translation>
+ </item>
+</items>

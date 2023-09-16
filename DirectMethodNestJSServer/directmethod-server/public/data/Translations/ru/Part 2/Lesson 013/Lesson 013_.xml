@@ -1,0 +1,318 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок тринадцать</translation>
+ </item>
+ <item id="1">
+  <translation>кто-нибудь</translation>
+ </item>
+ <item id="2">
+  <translation>неопределенный</translation>
+ </item>
+ <item id="3">
+  <translation>кто-то</translation>
+ </item>
+ <item id="4">
+  <translation>никто</translation>
+ </item>
+ <item id="5">
+  <translation>кто?</translation>
+ </item>
+ <item id="6">
+  <translation>определенный</translation>
+ </item>
+ <item id="7">
+  <translation>мистер Браун, мистер Смит и т.д.</translation>
+ </item>
+ <item id="8">
+  <translation>никто</translation>
+ </item>
+ <item id="9">
+  <translation>Что значат слова &quot;anybody&quot; и &quot;somebody&quot;?</translation>
+ </item>
+ <item id="9">
+  <translation>Слова &quot;anybody&quot; и &quot;somebody&quot; значат ...</translation>
+ </item>
+ <item id="10">
+  <translation>Какая разница между &quot;anybody&quot; и &quot;somebody&quot;?</translation>
+ </item>
+ <item id="10">
+  <translation>Разница между &quot;anybidy&quot; и &quot;somebody&quot; в том, что мы используем &quot;anybody&quot; в вопросительных и отрицательных предложениях, в то время как мы используем &quot;somebody&quot; в утвердительных предложениях</translation>
+ </item>
+ <item id="11">
+  <translation>кто-нибудь</translation>
+ </item>
+ <item id="12">
+  <translation>Есть кто-то в этой комнате?</translation>
+ </item>
+ <item id="12">
+  <translation>Да, есть кто-то в этой комнате</translation>
+ </item>
+ <item id="13">
+  <translation>Кто-то разговаривает с тобой? (сейчас)</translation>
+ </item>
+ <item id="13">
+  <translation>Да, кто-то разговаривает с тобой</translation>
+ </item>
+ <item id="14">
+  <translation>Кто-то сидит на том стуле?</translation>
+ </item>
+ <item id="14">
+  <translation>Да, кто-то сидит на том стуле</translation>
+ </item>
+ <item id="15">
+  <translation>никто</translation>
+ </item>
+ <item id="16">
+  <translation>коридор</translation>
+ </item>
+ <item id="17">
+  <translation>Кто-то сидит на полу?</translation>
+ </item>
+ <item id="17">
+  <translation>Нет, никто не сидит на полу</translation>
+ </item>
+ <item id="18">
+  <translation>Кто-то в этой комнате носит шляпу?</translation>
+ </item>
+ <item id="18">
+  <translation>Никто в этой комнате не носит шляпу</translation>
+ </item>
+ <item id="19">
+  <translation>Есть кто-то в коридоре?</translation>
+ </item>
+ <item id="19">
+  <translation>Нет, никого нет в коридоре</translation>
+ </item>
+ <item id="20">
+  <translation>Никто</translation>
+ </item>
+ <item id="21">
+  <translation>Кто говорит на английском в этой комнате? (сейчас)</translation>
+ </item>
+ <item id="21">
+  <translation>Мы говорим на английском в этой комнате</translation>
+ </item>
+ <item id="22">
+  <translation>Кто говорит на французском в этой комнате? (сейчас)</translation>
+ </item>
+ <item id="22">
+  <translation>Никто не говорит на французском в этой комнате</translation>
+ </item>
+ <item id="23">
+  <translation>Кто в этой комнате носит одежду?</translation>
+ </item>
+ <item id="23">
+  <translation>Мы в этой комнате носим одежду</translation>
+ </item>
+ <item id="24">
+  <translation>Кто носит шляпу в этой комнате?</translation>
+ </item>
+ <item id="24">
+  <translation>Никто не носит шляпу в этой комнате</translation>
+ </item>
+ <item id="25">
+  <translation>Кто дает тебе урок английского?</translation>
+ </item>
+ <item id="25">
+  <translation>Ты даешь мне урок английского</translation>
+ </item>
+ <item id="26">
+  <translation>Кто в коридоре?</translation>
+ </item>
+ <item id="26">
+  <translation>Никого нет в коридоре</translation>
+ </item>
+ <item id="27">
+  <translation>ходить</translation>
+ </item>
+ <item id="28">
+  <translation>Что я делаю? (сейчас)</translation>
+ </item>
+ <item id="28">
+  <translation>Ты ходишь</translation>
+ </item>
+ <item id="29">
+  <translation>Куда я иду? (сейчас)</translation>
+ </item>
+ <item id="29">
+  <translation>Ты идешь к окну</translation>
+ </item>
+ <item id="30">
+  <translation>Ты любишь ходить? (вообще)</translation>
+ </item>
+ <item id="30">
+  <translation>Да, я люблю ходить</translation>
+ </item>
+ <item id="31">
+  <translation>Он любит ходить? (вообще)</translation>
+ </item>
+ <item id="31">
+  <translation>Да, он любит ходить</translation>
+ </item>
+ <item id="32">
+  <translation>мистера Брауна</translation>
+ </item>
+ <item id="33">
+  <translation>Это платье мистера Брауна?</translation>
+ </item>
+ <item id="33">
+  <translation>Нет, это не мистера Брауна платье; это платье миссис Браун</translation>
+ </item>
+ <item id="34">
+  <translation>Это рубаха мистера Брауна?</translation>
+ </item>
+ <item id="34">
+  <translation>Да, это рубаха мистера Брауна</translation>
+ </item>
+ <item id="35">
+  <translation>Это рука мистера Брауна?</translation>
+ </item>
+ <item id="35">
+  <translation>Нет, это рука не мистера Брауна; это рука миссис Браун</translation>
+ </item>
+ <item id="36">
+  <translation>Это ухо мистера Смита?</translation>
+ </item>
+ <item id="36">
+  <translation>Нет, это ухо не мистера Смита; это ухо мистера Брауна</translation>
+ </item>
+ <item id="37">
+  <translation>Это книга Дэвида?</translation>
+ </item>
+ <item id="37">
+  <translation>Нет, это книга не Дэвида; это книга Поля</translation>
+ </item>
+ <item id="38">
+  <translation>всавать</translation>
+ </item>
+ <item id="39">
+  <translation>садиться</translation>
+ </item>
+ <item id="40">
+  <translation>вверх</translation>
+ </item>
+ <item id="41">
+  <translation>вниз</translation>
+ </item>
+ <item id="42">
+  <translation>Что делает моя правая рука? (сейчас)</translation>
+ </item>
+ <item id="42">
+  <translation>Моя правая рука двигается вверх и вниз</translation>
+ </item>
+ <item id="43">
+  <translation>Что я делаю? (сейчас)</translation>
+ </item>
+ <item id="43">
+  <translation>Ты садишься</translation>
+ </item>
+ <item id="44">
+  <translation>Что я делаю? (сейчас)</translation>
+ </item>
+ <item id="44">
+  <translation>Ты встаешь</translation>
+ </item>
+ <item id="45">
+  <translation>Ты садишься после урока?</translation>
+ </item>
+ <item id="45">
+  <translation>Нет, я не сажусь после урока; я встаю после урока</translation>
+ </item>
+ <item id="46">
+  <translation>не мочь, не уметь</translation>
+ </item>
+ <item id="47">
+  <translation>не мочь, не уметь</translation>
+ </item>
+ <item id="48">
+  <translation>Что есть отрицанием для &quot;can&quot;?</translation>
+ </item>
+ <item id="48">
+  <translation>Отрицание для &quot;can&quot; - &quot;cannot&quot;</translation>
+ </item>
+ <item id="49">
+  <translation>Что есть сокращением от &quot;cannot&quot;</translation>
+ </item>
+ <item id="49">
+  <translation>Сокращение от &quot;cannot&quot; - &quot;can't&quot;</translation>
+ </item>
+ <item id="50">
+  <translation>Ты умеешь говорить по-китайски?</translation>
+ </item>
+ <item id="50">
+  <translation>Нет, я не умею говорить по-китайски</translation>
+ </item>
+ <item id="51">
+  <translation>Ты можешь положить стол в свой карман?</translation>
+ </item>
+ <item id="51">
+  <translation>Нет, я не могу положить стол в мой карман</translation>
+ </item>
+ <item id="52">
+  <translation>Ты можешь прикоснуться к потолку?</translation>
+ </item>
+ <item id="52">
+  <translation>Нет, я не могу прикоснуться к потолку</translation>
+ </item>
+ <item id="53">
+  <translation>четверть</translation>
+ </item>
+ <item id="54">
+  <translation>Сколько это - черверть от сорока?</translation>
+ </item>
+ <item id="54">
+  <translation>Десять - четверть от сорока</translation>
+ </item>
+ <item id="55">
+  <translation>Сколько это - четверть тысячи?</translation>
+ </item>
+ <item id="55">
+  <translation>250 - это четверть тысячи</translation>
+ </item>
+ <item id="56">
+  <translation>Сколько это - четверть от десяти?</translation>
+ </item>
+ <item id="56">
+  <translation>Два с половиной - четверть от десяти</translation>
+ </item>
+ <item id="57">
+  <translation>Что есть четверть от пяти?</translation>
+ </item>
+ <item id="57">
+  <translation>Один с четвертью - четверть от пяти</translation>
+ </item>
+ <item id="58">
+  <translation>обучать</translation>
+ </item>
+ <item id="59">
+  <translation>учить, изучать</translation>
+ </item>
+ <item id="60">
+  <translation>испанский</translation>
+ </item>
+ <item id="61">
+  <translation>Ты обучаешь меня английскому? (сейчас)</translation>
+ </item>
+ <item id="61">
+  <translation>Нет, я не обучаю тебя английскому; я изучаю английский от тебя</translation>
+ </item>
+ <item id="62">
+  <translation>Ты изучаешь испанский? (вообще)</translation>
+ </item>
+ <item id="62">
+  <translation>Нет, я не изучаю испанский; я изучаю английский</translation>
+ </item>
+ <item id="63">
+  <translation>Тебе нравится изучать язык?</translation>
+ </item>
+ <item id="63">
+  <translation>Да, мне нравится изучать язык</translation>
+ </item>
+ <item id="64">
+  <translation>Ей нравится изучать язык?</translation>
+ </item>
+ <item id="64">
+  <translation>Да, ей нравится изучать язык</translation>
+ </item>
+</items>

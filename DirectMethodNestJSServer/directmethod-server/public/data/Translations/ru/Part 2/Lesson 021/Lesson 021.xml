@@ -1,333 +1,477 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation>Урок двадцать один</translation>
- </item>
- <item id="1">
-  <translation>наибольшее количество</translation>
- </item>
- <item id="2">
-  <translation>Из этих трех книг, в какой книге наибоьшее количество страниц?</translation>
- </item>
- <item id="2">
-  <translation>Из этих трех книг, в этой книге наибольшее количество страниц</translation>
- </item>
- <item id="3">
-  <translation>В каком городе в этой стране наибольшее количество людей?</translation>
- </item>
- <item id="3">
-  <translation>Лондон - город в этой стране, в котором наибольшее количество людей</translation>
- </item>
- <item id="4">
-  <translation>Какой человек в вашей семье читает наибольшее количество книг?</translation>
- </item>
- <item id="4">
-  <translation>Мой отец - этот человек в моей семье, который читает наибольшее количество книг</translation>
- </item>
- <item id="5">
-  <translation>В какай школе в этом городке - наибольшее количество студентов?</translation>
- </item>
- <item id="5">
-  <translation>Школа Каллана - это школа в этом городке, в котором наибольшее количество студентов</translation>
- </item>
- <item id="6">
-  <translation>красивый</translation>
- </item>
- <item id="7">
-  <translation>красивый (о мужчине)</translation>
- </item>
- <item id="8">
-  <translation>уродливый</translation>
- </item>
- <item id="9">
-  <translation>Ты думаешь, Париж - ужасный город?</translation>
- </item>
- <item id="9">
-  <translation>Нет, я не думаю, что Париж - ужасный город; я думаю, что это - прекрасный город</translation>
- </item>
- <item id="10">
-  <translation>Ты думаешь, что Сибирь - прекрасное место?</translation>
- </item>
- <item id="10">
-  <translation>Нет, я не думаю, что Сибирь - прекрасное место; я думаю, это - ужасное место</translation>
- </item>
- <item id="11">
-  <translation>Ты думаешь, что Анжелина Джоли - уродлива?</translation>
- </item>
- <item id="11">
-  <translation>нет, я не думаю, что Анжелина Джоли - уродлива; я думаю, что она красива</translation>
- </item>
- <item id="12">
-  <translation>Что, по твоему мнению, наиболее красивое место в этой стране?</translation>
- </item>
- <item id="12">
-  <translation>Я думаю, Лондон - наиболее красивое место в этой стране</translation>
- </item>
- <item id="13">
-  <translation>есть</translation>
- </item>
- <item id="14">
-  <translation>Что я делаю? (сейчас)</translation>
- </item>
- <item id="14">
-  <translation>Ты ешь</translation>
- </item>
- <item id="15">
-  <translation>Ты ешь всю еду?</translation>
- </item>
- <item id="15">
-  <translation>Нет, я ем не всю еду; одну еду я ем, а другую - я не ем</translation>
- </item>
- <item id="16">
-  <translation>Ты ешь хлеб без масла?</translation>
- </item>
- <item id="16">
-  <translation>Да, я ем хлеб без масла</translation>
- </item>
- <item id="17">
-  <translation>С помощью чего мы едим?</translation>
- </item>
- <item id="17">
-  <translation>Мы едим с помощью ртов</translation>
- </item>
- <item id="18">
-  <translation>пить</translation>
- </item>
- <item id="19">
-  <translation>вода</translation>
- </item>
- <item id="20">
-  <translation>вино</translation>
- </item>
- <item id="21">
-  <translation>молоко</translation>
- </item>
- <item id="22">
-  <translation>Что я делаю? (сейчас)</translation>
- </item>
- <item id="22">
-  <translation>Ты пьешь</translation>
- </item>
- <item id="23">
-  <translation>Ты пьешь чай? (вообще)</translation>
- </item>
- <item id="23">
-  <translation>Да, я пью чай</translation>
- </item>
- <item id="24">
-  <translation>Мы можем пить мясо?</translation>
- </item>
- <item id="24">
-  <translation>Нет, мы не можем пить мясо; мы едим мясо</translation>
- </item>
- <item id="25">
-  <translation>Назови мне, пожалуйста, названия некоторых напитков</translation>
- </item>
- <item id="25">
-  <translation>Названия некоторых напитков - вода, вино и молоко</translation>
- </item>
- <item id="26">
-  <translation>Какого цвета вода?</translation>
- </item>
- <item id="26">
-  <translation>Вода не имеет цвета</translation>
- </item>
- <item id="27">
-  <translation>Есть ли напиок на столе?</translation>
- </item>
- <item id="27">
-  <translation>Да, на столе есть напиток</translation>
- </item>
- <item id="28">
-  <translation>Ты пьешь вино? (вообще)</translation>
- </item>
- <item id="28">
-  <translation>Да, я пью вино</translation>
- </item>
- <item id="29">
-  <translation>Какой напиток ты предпочитаешь: молоко или воду?</translation>
- </item>
- <item id="29">
-  <translation>Я предпочитаю воду</translation>
- </item>
- <item id="30">
-  <translation>металл</translation>
- </item>
- <item id="31">
-  <translation>золото</translation>
- </item>
- <item id="32">
-  <translation>серебро</translation>
- </item>
- <item id="33">
-  <translation>сталь</translation>
- </item>
- <item id="34">
-  <translation>железо</translation>
- </item>
- <item id="35">
-  <translation>Назови мне, пожалуйста, названия четырех металлов</translation>
- </item>
- <item id="35">
-  <translation>Названия четырех металлов - золото, серебро, сталь и железо</translation>
- </item>
- <item id="36">
-  <translation>сделанный из</translation>
- </item>
- <item id="37">
-  <translation>ключ</translation>
- </item>
- <item id="38">
-  <translation>пластик</translation>
- </item>
- <item id="39">
-  <translation>Твои часы сделаны из пластика?</translation>
- </item>
- <item id="39">
-  <translation>Нет, мои часы не сделаны из пластика; они сделаны из золота</translation>
- </item>
- <item id="40">
-  <translation>Из чего обычно делают ключ?</translation>
- </item>
- <item id="40">
-  <translation>Ключ обычно сделан из стали</translation>
- </item>
- <item id="41">
-  <translation>Ты носишь что-нибудь, сделанное из серебра?</translation>
- </item>
- <item id="41">
-  <translation>Да, я ношу что-то, сделанное из серебра</translation>
- </item>
- <item id="42">
-  <translation>стоить</translation>
- </item>
- <item id="43">
-  <translation>Как ты думаешь, сколько стоит эта ручка?</translation>
- </item>
- <item id="43">
-  <translation>Я думаю, эта ручка стоит около одного фунта</translation>
- </item>
- <item id="44">
-  <translation>Твои туфли стоят больше, чем твой носовой платок?</translation>
- </item>
- <item id="44">
-  <translation>Да, мои туфли стоят больше, чем мой носовой платок</translation>
- </item>
- <item id="45">
-  <translation>Сколько стоит кино в этом городке?</translation>
- </item>
- <item id="45">
-  <translation>Кино стоит около двенадцати фунтов в этом городке</translation>
- </item>
- <item id="46">
-  <translation>похожий, такой как</translation>
- </item>
- <item id="47">
-  <translation>Что значит слово &quot;like&quot;? (не глагол)</translation>
- </item>
- <item id="47">
-  <translation>Слово &quot;like&quot; значить &quot;похож на&quot; или &quot;такой же, как&quot;</translation>
- </item>
- <item id="48">
-  <translation>Эта книга такая же, как та книга?</translation>
- </item>
- <item id="48">
-  <translation>Да, эта книга похожа на ту книгу</translation>
- </item>
- <item id="49">
-  <translation>Твое лицо такое же, как лицо твоего отца?</translation>
- </item>
- <item id="49">
-  <translation>Нет, мое лицо - не такое же, как лицо моего отца; оно похоже на лицо моего отца</translation>
- </item>
- <item id="50">
-  <translation>Ты ешь разные типы еды, такие как китайская, индийская, испранская и т.д.?</translation>
- </item>
- <item id="50">
-  <translation>Да, я ем разные типы еды, такие как китайская, индийская, испанская и т.д.</translation>
- </item>
- <item id="51">
-  <translation>понедельник</translation>
- </item>
- <item id="52">
-  <translation>вторник</translation>
- </item>
- <item id="53">
-  <translation>среда</translation>
- </item>
- <item id="54">
-  <translation>четверг</translation>
- </item>
- <item id="55">
-  <translation>пятница</translation>
- </item>
- <item id="56">
-  <translation>суббота</translation>
- </item>
- <item id="57">
-  <translation>воскресенье</translation>
- </item>
- <item id="58">
-  <translation>выходные</translation>
- </item>
- <item id="59">
-  <translation>Назови мне, пожалуйста, имена дней недели</translation>
- </item>
- <item id="59">
-  <translation>Название дней недели - понедельник, вторник, среда, четверг, пятница, суббота, воскресенье</translation>
- </item>
- <item id="60">
-  <translation>Как мы называем субботу и воскресенье?</translation>
- </item>
- <item id="60">
-  <translation>Мы называем субботу и воскресенье выходными</translation>
- </item>
- <item id="61">
-  <translation>сегодня</translation>
- </item>
- <item id="62">
-  <translation>вчера</translation>
- </item>
- <item id="63">
-  <translation>завтра</translation>
- </item>
- <item id="64">
-  <translation>был</translation>
- </item>
- <item id="65">
-  <translation>будет</translation>
- </item>
- <item id="66">
-  <translation>быть</translation>
- </item>
- <item id="67">
-  <translation>Что сегодня?</translation>
- </item>
- <item id="67">
-  <translation>Сегодня - вторник</translation>
- </item>
- <item id="68">
-  <translation>Что было вчера?</translation>
- </item>
- <item id="68">
-  <translation>Вчера был понедельник</translation>
- </item>
- <item id="69">
-  <translation>Что будет завтра?</translation>
- </item>
- <item id="69">
-  <translation>Завтра будет среда</translation>
- </item>
- <item id="70">
-  <translation>Что будет послезавтра?</translation>
- </item>
- <item id="70">
-  <translation>Послезавтра будет четверг</translation>
- </item>
- <item id="71">
-  <translation>Что было позавчера?</translation>
- </item>
- <item id="71">
-  <translation>Позавчера было воскресенье</translation>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation>Урок двадцать один</translation>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>наибольшее количество</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>Из этих трех книг, в какой книге наибоьшее количество страниц?</translation>
+		</item>
+		<item id="1">
+			<translation>Из этих трех книг, в этой книге наибольшее количество страниц</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>В каком городе в этой стране наибольшее количество людей?</translation>
+		</item>
+		<item id="1">
+			<translation>Лондон - город в этой стране, в котором наибольшее количество людей</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>Какой человек в вашей семье читает наибольшее количество книг?</translation>
+		</item>
+		<item id="1">
+			<translation>Мой отец - этот человек в моей семье, который читает наибольшее количество книг</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>В какай школе в этом городке - наибольшее количество студентов?</translation>
+		</item>
+		<item id="1">
+			<translation>Школа Каллана - это школа в этом городке, в котором наибольшее количество студентов</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>красивый</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>красивый (о мужчине)</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>уродливый</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>Ты думаешь, Париж - ужасный город?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не думаю, что Париж - ужасный город; я думаю, что это - прекрасный город</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>Ты думаешь, что Сибирь - прекрасное место?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не думаю, что Сибирь - прекрасное место; я думаю, это - ужасное место</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>Ты думаешь, что Анжелина Джоли - уродлива?</translation>
+		</item>
+		<item id="1">
+			<translation>нет, я не думаю, что Анжелина Джоли - уродлива; я думаю, что она красива</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>Что, по твоему мнению, наиболее красивое место в этой стране?</translation>
+		</item>
+		<item id="1">
+			<translation>Я думаю, Лондон - наиболее красивое место в этой стране</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>есть</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>Что я делаю? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты ешь</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>Ты ешь всю еду?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я ем не всю еду; одну еду я ем, а другую - я не ем</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>Ты ешь хлеб без масла?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я ем хлеб без масла</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>С помощью чего мы едим?</translation>
+		</item>
+		<item id="1">
+			<translation>Мы едим с помощью ртов</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>пить</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>вода</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>вино</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>молоко</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>Что я делаю? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Ты пьешь</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>Ты пьешь чай? (вообще)</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я пью чай</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>Мы можем пить мясо?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, мы не можем пить мясо; мы едим мясо</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>Назови мне, пожалуйста, названия некоторых напитков</translation>
+		</item>
+		<item id="1">
+			<translation>Названия некоторых напитков - вода, вино и молоко</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>Какого цвета вода?</translation>
+		</item>
+		<item id="1">
+			<translation>Вода не имеет цвета</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>Есть ли напиок на столе?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, на столе есть напиток</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>Ты пьешь вино? (вообще)</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я пью вино</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>Какой напиток ты предпочитаешь: молоко или воду?</translation>
+		</item>
+		<item id="1">
+			<translation>Я предпочитаю воду</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>металл</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>золото</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>серебро</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>сталь</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>железо</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>Назови мне, пожалуйста, названия четырех металлов</translation>
+		</item>
+		<item id="1">
+			<translation>Названия четырех металлов - золото, серебро, сталь и железо</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>сделанный из</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>ключ</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>пластик</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>Твои часы сделаны из пластика?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, мои часы не сделаны из пластика; они сделаны из золота</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>Из чего обычно делают ключ?</translation>
+		</item>
+		<item id="1">
+			<translation>Ключ обычно сделан из стали</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>Ты носишь что-нибудь, сделанное из серебра?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я ношу что-то, сделанное из серебра</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>стоить</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>Как ты думаешь, сколько стоит эта ручка?</translation>
+		</item>
+		<item id="1">
+			<translation>Я думаю, эта ручка стоит около одного фунта</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>Твои туфли стоят больше, чем твой носовой платок?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, мои туфли стоят больше, чем мой носовой платок</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>Сколько стоит кино в этом городке?</translation>
+		</item>
+		<item id="1">
+			<translation>Кино стоит около двенадцати фунтов в этом городке</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>похожий, такой как</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>Что значит слово &quot;like&quot;? (не глагол)</translation>
+		</item>
+		<item id="1">
+			<translation>Слово &quot;like&quot; значить &quot;похож на&quot; или &quot;такой же, как&quot;</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>Эта книга такая же, как та книга?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, эта книга похожа на ту книгу</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>Твое лицо такое же, как лицо твоего отца?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, мое лицо - не такое же, как лицо моего отца; оно похоже на лицо моего отца</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>Ты ешь разные типы еды, такие как китайская, индийская, испранская и т.д.?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я ем разные типы еды, такие как китайская, индийская, испанская и т.д.</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>понедельник</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>вторник</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>среда</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>четверг</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation>пятница</translation>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation>суббота</translation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>воскресенье</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation>выходные</translation>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation>Назови мне, пожалуйста, имена дней недели</translation>
+		</item>
+		<item id="1">
+			<translation>Название дней недели - понедельник, вторник, среда, четверг, пятница, суббота, воскресенье</translation>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation>Как мы называем субботу и воскресенье?</translation>
+		</item>
+		<item id="1">
+			<translation>Мы называем субботу и воскресенье выходными</translation>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation>сегодня</translation>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation>вчера</translation>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation>завтра</translation>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0">
+			<translation>был</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation>будет</translation>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation>быть</translation>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0">
+			<translation>Что сегодня?</translation>
+		</item>
+		<item id="1">
+			<translation>Сегодня - вторник</translation>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0">
+			<translation>Что было вчера?</translation>
+		</item>
+		<item id="1">
+			<translation>Вчера был понедельник</translation>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0">
+			<translation>Что будет завтра?</translation>
+		</item>
+		<item id="1">
+			<translation>Завтра будет среда</translation>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0">
+			<translation>Что будет послезавтра?</translation>
+		</item>
+		<item id="1">
+			<translation>Послезавтра будет четверг</translation>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0">
+			<translation>Что было позавчера?</translation>
+		</item>
+		<item id="1">
+			<translation>Позавчера было воскресенье</translation>
+		</item>
+	</item>
 </items>

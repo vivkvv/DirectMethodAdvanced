@@ -1,0 +1,539 @@
+<?xml version="1.0" ?>
+<items>
+	<item id="0">
+		<item id="0">
+			<translation>Урок третий</translation>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>этот</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>тот</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>график, схема</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>Какого цвета этот карандаш?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш - черный</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>Какого цвета тот карандаш?</translation>
+		</item>
+		<item id="1">
+			<translation>Тот карандаш - белый</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>Где этот карандаш?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш - на графике</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>Где тот карандаш?</translation>
+		</item>
+		<item id="1">
+			<translation>Тот карандаш - на стене</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>одиннадцать</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>двенадцать</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>тринадцать</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>четырнадцать</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>пятнадцать</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>множественное число</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>(притяжательный предлог)</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>и т.д.</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>Что есть множественным числом слова &quot;книга&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Множественное число слова &quot;книга&quot; - &quot;книги&quot;</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>Что есть множественным числом слова &quot;часы&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Множественное число слова &quot;часы&quot; - &quot;часы&quot;</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>Что есть множественным числом слова &quot;стена&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Множественное число для &quot;стена&quot; - &quot;стены&quot;</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>мы (мы есть)</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>Мы сидим?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, мы сидим</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>Где мы сидим?</translation>
+		</item>
+		<item id="1">
+			<translation>Мы сидим на стульях</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>они (они есть)</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>Они стоят?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, они стоят</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>Где они стоят?</translation>
+		</item>
+		<item id="1">
+			<translation>Они стоят перед домом</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>мы не (мы есть не)</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>Мы стоим?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, мы не стоим, мы сидим</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>Мы сидим на полу?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, мы не сидим на полу, мы сидим на стульях</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>они не (они есть не)</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>Они сидят?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, они не сидят, они стоят</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>Они стоят позади дома?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, они стоят не позади дома, они стоят перед домом</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>красный</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>голубой</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>желтый</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>серый</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>Какого цвета этот карандаш?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш красный, голубой и т.д.</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>эти</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>те</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>и</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>Какого цвета этот карандаш?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш черный</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>Какого цвета тот карандаш?</translation>
+		</item>
+		<item id="1">
+			<translation>Тот карандаш белый</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>Какого цвета эти карандаши?</translation>
+		</item>
+		<item id="1">
+			<translation>Эти карандаши - черный и зеленый</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>Какого цвета те карандаши?</translation>
+		</item>
+		<item id="1">
+			<translation>Те карандаши - белый и коричневый</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>Где эти карандаши?</translation>
+		</item>
+		<item id="1">
+			<translation>Эти карандаши - на графике</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>Где те карандаши?</translation>
+		</item>
+		<item id="1">
+			<translation>Те карандаши - на стене</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>Какого цвета эти стулья?</translation>
+		</item>
+		<item id="1">
+			<translation>Эти стулья - красные</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>Какого цвета те стулья?</translation>
+		</item>
+		<item id="1">
+			<translation>Те стулья - голубые</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>мужчины</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>женщины</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>говорить</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>Что есть множественноым числом для &quot;мужчина&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Множественное число для &quot;мужчина&quot; - &quot;мужчины&quot;</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>Что есть множественным числом для &quot;женщина&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Множественное число для &quot;женщина&quot; - &quot;женщины&quot;</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>шестнадцать</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>семнадцать</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>восемнадцать</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation>девятнадцать</translation>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation>двадцать</translation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>одежда</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation>Что это?</translation>
+		</item>
+		<item id="1">
+			<translation>Это - одежда</translation>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation>туфля</translation>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation>ботинок</translation>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation>носок</translation>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation>брюки</translation>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation>куртка, пиджак</translation>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0">
+			<translation>костюм</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation>рубашка</translation>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation>галстук</translation>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0">
+			<translation>шляпа</translation>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0">
+			<translation>сумка</translation>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0">
+			<translation>Что это?</translation>
+		</item>
+		<item id="1">
+			<translation>Это туфля, ботинок и т.д.</translation>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0">
+			<translation>Что это?</translation>
+		</item>
+		<item id="1">
+			<translation>Это брюки</translation>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0">
+			<translation>алфавит</translation>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0">
+			<translation>буква</translation>
+		</item>
+	</item>
+	<item id="73">
+		<item id="0">
+			<translation>Что это за буква</translation>
+		</item>
+		<item id="1">
+			<translation>Эй, Би и т.д.</translation>
+		</item>
+	</item>
+	<item id="74">
+		<item id="0">
+			<translation>гласный</translation>
+		</item>
+	</item>
+	<item id="75">
+		<item id="0">
+			<translation>согласный</translation>
+		</item>
+	</item>
+	<item id="76">
+		<item id="0">
+			<translation>Что это?</translation>
+		</item>
+		<item id="1">
+			<translation>Это - пять гласных</translation>
+		</item>
+	</item>
+	<item id="77">
+		<item id="0">
+			<translation>Что есть пятью гласными?</translation>
+		</item>
+		<item id="1">
+			<translation>Рять гласных - это Эй, И, Ай, Оу, Ю</translation>
+		</item>
+	</item>
+	<item id="78">
+		<item id="0">
+			<translation>Буква Бэ - гласная?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, буква Бэ - не гласная, это согласная</translation>
+		</item>
+	</item>
+	<item id="79">
+		<item id="0">
+			<translation>до</translation>
+		</item>
+	</item>
+	<item id="80">
+		<item id="0">
+			<translation>после</translation>
+		</item>
+	</item>
+	<item id="81">
+		<item id="0">
+			<translation>Какая буква идет перед И?</translation>
+		</item>
+		<item id="1">
+			<translation>Ди идет перед И</translation>
+		</item>
+	</item>
+	<item id="82">
+		<item id="0">
+			<translation>Какая буква идет после Ай?</translation>
+		</item>
+		<item id="1">
+			<translation>Джей идет после Ай</translation>
+		</item>
+	</item>
+	<item id="83">
+		<item id="0">
+			<translation>Какая буква идет перед Зед?</translation>
+		</item>
+		<item id="1">
+			<translation>Вай идет перед Зед</translation>
+		</item>
+	</item>
+	<item id="84">
+		<item id="0">
+			<translation>Какая буква идет после Джи?</translation>
+		</item>
+		<item id="1">
+			<translation>Эйч идет после Джи</translation>
+		</item>
+	</item>
+</items>

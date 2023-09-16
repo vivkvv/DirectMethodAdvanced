@@ -1,338 +1,425 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="245.8">
- <item id="0" start="0.1" duration="2.3">
-  <person>Teacher</person>
-  <text>Lesson nineteen</text>
-  <image/>
- </item>
- <item id="1" start="2.4" duration="1.433">
-  <person>Teacher</person>
-  <text>bread</text>
-  <image/>
- </item>
- <item id="2" start="3.867" duration="1.5">
-  <person>Teacher</person>
-  <text>butter</text>
-  <image/>
- </item>
- <item id="3" start="5.367" duration="1.6">
-  <person>Teacher</person>
-  <text>rice</text>
-  <image/>
- </item>
- <item id="4" start="7.0" duration="2.767">
-  <person>Teacher</person>
-  <text>What do we put on our bread?</text>
-  <image/>
- </item>
- <item id="4" start="9.767" duration="2.767">
-  <person>Student</person>
-  <text>We put butter on our bread</text>
-  <image/>
- </item>
- <item id="5" start="12.567" duration="2.9">
-  <person>Teacher</person>
-  <text>Do you like bread without butter?</text>
-  <image/>
- </item>
- <item id="5" start="15.467" duration="3.133">
-  <person>Student</person>
-  <text>Yes, I like bread without butter</text>
-  <image/>
- </item>
- <item id="6" start="18.633" duration="2.2">
-  <person>Teacher</person>
-  <text>What color's butter?</text>
-  <image/>
- </item>
- <item id="6" start="20.833" duration="2.733">
-  <person>Student</person>
-  <text>Butter's yellow or white</text>
-  <image/>
- </item>
- <item id="7" start="23.567" duration="3.367">
-  <person>Teacher</person>
-  <text>Do you prefer white or brown rice?</text>
-  <image/>
- </item>
- <item id="7" start="26.967" duration="2.667">
-  <person>Student</person>
-  <text>I prefer brown rice</text>
-  <image/>
- </item>
- <item id="8" start="29.633" duration="1.567">
-  <person>Teacher</person>
-  <text>carry</text>
-  <image/>
- </item>
- <item id="9" start="31.233" duration="2.067">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="9" start="33.3" duration="2.367">
-  <person>Student</person>
-  <text>You're carrying your chair to the window</text>
-  <image/>
- </item>
- <item id="10" start="35.7" duration="5.367">
-  <person>Teacher</person>
-  <text>Do you think you can carry this table on your back?</text>
-  <image/>
- </item>
- <item id="10" start="41.067" duration="4.533">
-  <person>Student</person>
-  <text>No, I don't think I can carry this table on my back</text>
-  <image/>
- </item>
- <item id="11" start="45.6" duration="2.733">
-  <person>Teacher</person>
-  <text>Am I carrying a tie?</text>
-  <image/>
- </item>
- <item id="11" start="48.367" duration="4.733">
-  <person>Student</person>
-  <text>No, you aren't carrying a tie; you're wearing a tie</text>
-  <image/>
- </item>
- <item id="12" start="53.1" duration="2.733">
-  <person>Teacher</person>
-  <text>Am I wearing a handkerchief?</text>
-  <image/>
- </item>
- <item id="12" start="55.867" duration="5.3">
-  <person>Student</person>
-  <text>No, you aren't wearing a handkerchief; you're carrying a handkerchief</text>
-  <image/>
- </item>
- <item id="13" start="61.2" duration="3.533">
-  <person>Teacher</person>
-  <text>no = not any</text>
-  <image/>
- </item>
- <item id="14" start="64.733" duration="4.067">
-  <person>Teacher</person>
-  <text>What can we say instead of &quot;not any books&quot;?</text>
-  <image/>
- </item>
- <item id="14" start="68.8" duration="4.633">
-  <person>Student</person>
-  <text>We can say &quot;no books&quot; instead of &quot;not any books&quot;</text>
-  <image/>
- </item>
- <item id="15" start="73.467" duration="2.8">
-  <person>Teacher</person>
-  <text>Give me another example, please</text>
-  <image/>
- </item>
- <item id="15" start="76.3" duration="5.9">
-  <person>Student</person>
-  <text>They haven't got any friends or they have no friends</text>
-  <image/>
- </item>
- <item id="16" start="82.2" duration="1.467">
-  <person>Teacher</person>
-  <text>hear</text>
-  <image/>
- </item>
- <item id="17" start="83.7" duration="2.5">
-  <person>Teacher</person>
-  <text>Can you hear me speaking to you?</text>
-  <image/>
- </item>
- <item id="17" start="86.2" duration="3.067">
-  <person>Student</person>
-  <text>Yes, I can hear you speaking to me</text>
-  <image/>
- </item>
- <item id="18" start="89.267" duration="3.0">
-  <person>Teacher</person>
-  <text>Can you hear anybody in the other room?</text>
-  <image/>
- </item>
- <item id="18" start="92.3" duration="3.7">
-  <person>Student</person>
-  <text>Yes, I can hear somebody in the other room</text>
-  <image/>
- </item>
- <item id="19" start="96.0" duration="2.3">
-  <person>Teacher</person>
-  <text>What do we hear with?</text>
-  <image/>
- </item>
- <item id="19" start="98.333" duration="2.667">
-  <person>Student</person>
-  <text>We hear with our ears</text>
-  <image/>
- </item>
- <item id="20" start="101.0" duration="1.7">
-  <person>Teacher</person>
-  <text>drive</text>
-  <image/>
- </item>
- <item id="21" start="102.733" duration="2.0">
-  <person>Teacher</person>
-  <text>Can you drive a car?</text>
-  <image/>
- </item>
- <item id="21" start="104.733" duration="2.633">
-  <person>Student</person>
-  <text>Yes, I can drive a car</text>
-  <image/>
- </item>
- <item id="22" start="107.4" duration="4.0">
-  <person>Teacher</person>
-  <text>Is there anybody in your family who can't drive a car?</text>
-  <image/>
- </item>
- <item id="22" start="111.4" duration="5.067">
-  <person>Student</person>
-  <text>Yes, there's somebody in my family who can't drive a car</text>
-  <image/>
- </item>
- <item id="23" start="116.5" duration="1.6">
-  <person>Teacher</person>
-  <text>money</text>
-  <image/>
- </item>
- <item id="24" start="118.1" duration="1.567">
-  <person>Teacher</person>
-  <text>pence</text>
-  <image/>
- </item>
- <item id="25" start="119.7" duration="1.6">
-  <person>Teacher</person>
-  <text>pound</text>
-  <image/>
- </item>
- <item id="26" start="121.3" duration="3.333">
-  <person>Teacher</person>
-  <text>How much money have you got in your pocket?</text>
-  <image/>
- </item>
- <item id="26" start="124.633" duration="4.2">
-  <person>Student</person>
-  <text>I've got about £10 in my pocket</text>
-  <image/>
- </item>
- <item id="27" start="128.833" duration="2.733">
-  <person>Teacher</person>
-  <text>How many pence make a pound?</text>
-  <image/>
- </item>
- <item id="27" start="131.567" duration="3.067">
-  <person>Student</person>
-  <text>A hundred pence make a pound</text>
-  <image/>
- </item>
- <item id="28" start="134.667" duration="2.967">
-  <person>Teacher</person>
-  <text>How many euros make a pound?</text>
-  <image/>
- </item>
- <item id="28" start="137.633" duration="5.167">
-  <person>Student</person>
-  <text>About €1.2 make a pound</text>
-  <image/>
- </item>
- <item id="29" start="142.833" duration="1.833">
-  <person>Teacher</person>
-  <text>fewer ... than</text>
-  <image/>
- </item>
- <item id="30" start="144.667" duration="4.2">
-  <person>Teacher</person>
-  <text>Have I got more thumbs than fingers on my hands?</text>
-  <image/>
- </item>
- <item id="30" start="148.9" duration="8.1">
-  <person>Student</person>
-  <text>No, you haven't got more thumbs than fingers on your hands; you've got fewer thumbs than fingers on your hands</text>
-  <image/>
- </item>
- <item id="31" start="157.033" duration="3.933">
-  <person>Teacher</person>
-  <text>Are there more pages in this book than in that book?</text>
-  <image/>
- </item>
- <item id="31" start="160.967" duration="8.033">
-  <person>Student</person>
-  <text>No, there aren't more pages in this book than in that book; there are fewer pages in this book than in that book</text>
-  <image/>
- </item>
- <item id="32" start="169.0" duration="3.433">
-  <person>Teacher</person>
-  <text>Are there more people in Europe than in Asia?</text>
-  <image/>
- </item>
- <item id="32" start="172.467" duration="7.4">
-  <person>Student</person>
-  <text>No, there aren't more people in Europe than in Asia; there are fewer people in Europe than in Asia</text>
-  <image/>
- </item>
- <item id="33" start="179.9" duration="3.367">
-  <person>Teacher</person>
-  <text>Are there more tables in this school than chairs?</text>
-  <image/>
- </item>
- <item id="33" start="183.3" duration="7.967">
-  <person>Student</person>
-  <text>No, there aren't more tables in this school than chairs; there are fewer tables in this school than chairs</text>
-  <image/>
- </item>
- <item id="34" start="191.267" duration="1.567">
-  <person>Teacher</person>
-  <text>watch</text>
-  <image/>
- </item>
- <item id="35" start="192.867" duration="3.9">
-  <person>Teacher</person>
-  <text>What's the difference between a watch and a clock?</text>
-  <image/>
- </item>
- <item id="35" start="196.8" duration="12.0">
-  <person>Student</person>
-  <text>The difference between a watch and a clock is that we wear a watch on our wrist, whereas we hang a clock on the wall or put it on a table</text>
-  <image/>
- </item>
- <item id="36" start="208.8" duration="3.567">
-  <person>Teacher</person>
-  <text>What's the difference between &quot;wear&quot; and &quot;carry&quot;?</text>
-  <image/>
- </item>
- <item id="36" start="212.4" duration="11.167">
-  <person>Student</person>
-  <text>The difference between &quot;wear&quot; and &quot;carry&quot; is that we use &quot;wear&quot; for a thing that is on the body, whereas we use &quot;carry&quot; for a thing that is not on the body</text>
-  <image/>
- </item>
- <item id="37" start="223.567" duration="2.867">
-  <person>Teacher</person>
-  <text>Is there a clock in this room?</text>
-  <image/>
- </item>
- <item id="37" start="226.433" duration="3.2">
-  <person>Student</person>
-  <text>Yes, there's a clock in this room</text>
-  <image/>
- </item>
- <item id="38" start="229.633" duration="2.767">
-  <person>Teacher</person>
-  <text>Am I carrying a watch?</text>
-  <image/>
- </item>
- <item id="38" start="232.4" duration="4.9">
-  <person>Student</person>
-  <text>No, you aren't carrying a watch; you're wearing a watch</text>
-  <image/>
- </item>
- <item id="39" start="237.333" duration="3.133">
-  <person>Teacher</person>
-  <text>What are you carrying in your pocket?</text>
-  <image/>
- </item>
- <item id="39" start="240.5" duration="5.3">
-  <person>Student</person>
-  <text>I'm carrying a pen in my pocket</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.1" duration="2.3">
+			<person>Teacher</person>
+			<text>Lesson nineteen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.4" duration="1.433">
+			<person>Teacher</person>
+			<text>bread</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="3.867" duration="1.5">
+			<person>Teacher</person>
+			<text>butter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="5.367" duration="1.6">
+			<person>Teacher</person>
+			<text>rice</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="7.0" duration="2.767">
+			<person>Teacher</person>
+			<text>What do we put on our bread?</text>
+			<image/>
+		</item>
+		<item id="1" start="9.767" duration="2.767">
+			<person>Student</person>
+			<text>We put butter on our bread</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="12.567" duration="2.9">
+			<person>Teacher</person>
+			<text>Do you like bread without butter?</text>
+			<image/>
+		</item>
+		<item id="1" start="15.467" duration="3.133">
+			<person>Student</person>
+			<text>Yes, I like bread without butter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="18.633" duration="2.2">
+			<person>Teacher</person>
+			<text>What color's butter?</text>
+			<image/>
+		</item>
+		<item id="1" start="20.833" duration="2.733">
+			<person>Student</person>
+			<text>Butter's yellow or white</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="23.567" duration="3.367">
+			<person>Teacher</person>
+			<text>Do you prefer white or brown rice?</text>
+			<image/>
+		</item>
+		<item id="1" start="26.967" duration="2.667">
+			<person>Student</person>
+			<text>I prefer brown rice</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="29.633" duration="1.567">
+			<person>Teacher</person>
+			<text>carry</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="31.233" duration="2.067">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="33.3" duration="2.7">
+			<person>Student</person>
+			<text>You're carrying your chair to the window</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="36.2" duration="4.9">
+			<person>Teacher</person>
+			<text>Do you think you can carry this table on your back?</text>
+			<image/>
+		</item>
+		<item id="1" start="41.067" duration="4.533">
+			<person>Student</person>
+			<text>No, I don't think I can carry this table on my back</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="45.6" duration="2.733">
+			<person>Teacher</person>
+			<text>Am I carrying a tie?</text>
+			<image/>
+		</item>
+		<item id="1" start="48.367" duration="4.733">
+			<person>Student</person>
+			<text>No, you aren't carrying a tie; you're wearing a tie</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="53.1" duration="2.733">
+			<person>Teacher</person>
+			<text>Am I wearing a handkerchief?</text>
+			<image/>
+		</item>
+		<item id="1" start="55.867" duration="5.3">
+			<person>Student</person>
+			<text>No, you aren't wearing a handkerchief; you're carrying a handkerchief</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="61.2" duration="3.533">
+			<person>Teacher</person>
+			<text>no = not any</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>The word “no“ can mean “not any“. For example, we can say “I have not got any books“ or “I have got no books“; the sentences have the same meaning.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="64.733" duration="4.067">
+			<person>Teacher</person>
+			<text>What can we say instead of &quot;not any books&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="68.8" duration="4.633">
+			<person>Student</person>
+			<text>We can say &quot;no books&quot; instead of &quot;not any books&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="73.467" duration="2.8">
+			<person>Teacher</person>
+			<text>Give me another example, please</text>
+			<image/>
+		</item>
+		<item id="1" start="76.3" duration="5.9">
+			<person>Student</person>
+			<text>They haven't got any friends or they have no friends</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="82.2" duration="1.467">
+			<person>Teacher</person>
+			<text>hear</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="83.7" duration="2.5">
+			<person>Teacher</person>
+			<text>Can you hear me speaking to you?</text>
+			<image/>
+		</item>
+		<item id="1" start="86.2" duration="3.067">
+			<person>Student</person>
+			<text>Yes, I can hear you speaking to me</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="89.267" duration="3.0">
+			<person>Teacher</person>
+			<text>Can you hear anybody in the other room?</text>
+			<image/>
+		</item>
+		<item id="1" start="92.3" duration="3.7">
+			<person>Student</person>
+			<text>Yes, I can hear somebody in the other room</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="96.0" duration="2.3">
+			<person>Teacher</person>
+			<text>What do we hear with?</text>
+			<image/>
+		</item>
+		<item id="1" start="98.333" duration="2.667">
+			<person>Student</person>
+			<text>We hear with our ears</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="101.0" duration="1.7">
+			<person>Teacher</person>
+			<text>drive</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="102.733" duration="2.0">
+			<person>Teacher</person>
+			<text>Can you drive a car?</text>
+			<image/>
+		</item>
+		<item id="1" start="104.733" duration="2.633">
+			<person>Student</person>
+			<text>Yes, I can drive a car</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="107.4" duration="4.0">
+			<person>Teacher</person>
+			<text>Is there anybody in your family who can't drive a car?</text>
+			<image/>
+		</item>
+		<item id="1" start="111.4" duration="5.067">
+			<person>Student</person>
+			<text>Yes, there's somebody in my family who can't drive a car</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="116.5" duration="1.6">
+			<person>Teacher</person>
+			<text>money</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="118.1" duration="1.567">
+			<person>Teacher</person>
+			<text>pence</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="119.7" duration="1.6">
+			<person>Teacher</person>
+			<text>pound</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="121.3" duration="3.333">
+			<person>Teacher</person>
+			<text>How much money have you got in your pocket?</text>
+			<image/>
+		</item>
+		<item id="1" start="124.633" duration="4.2">
+			<person>Student</person>
+			<text>I've got about £10 in my pocket</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="128.833" duration="2.733">
+			<person>Teacher</person>
+			<text>How many pence make a pound?</text>
+			<image/>
+		</item>
+		<item id="1" start="131.567" duration="3.067">
+			<person>Student</person>
+			<text>A hundred pence make a pound</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="134.667" duration="2.967">
+			<person>Teacher</person>
+			<text>How many euros make a pound?</text>
+			<image/>
+		</item>
+		<item id="1" start="137.633" duration="5.167">
+			<person>Student</person>
+			<text>About €1.2 make a pound</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="142.833" duration="1.833">
+			<person>Teacher</person>
+			<text>fewer ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="144.667" duration="4.2">
+			<person>Teacher</person>
+			<text>Have I got more thumbs than fingers on my hands?</text>
+			<image/>
+		</item>
+		<item id="1" start="148.9" duration="8.1">
+			<person>Student</person>
+			<text>No, you haven't got more thumbs than fingers on your hands; you've got fewer thumbs than fingers on your hands</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="157.033" duration="3.933">
+			<person>Teacher</person>
+			<text>Are there more pages in this book than in that book?</text>
+			<image/>
+		</item>
+		<item id="1" start="160.967" duration="8.033">
+			<person>Student</person>
+			<text>No, there aren't more pages in this book than in that book; there are fewer pages in this book than in that book</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="169.0" duration="3.433">
+			<person>Teacher</person>
+			<text>Are there more people in Europe than in Asia?</text>
+			<image/>
+		</item>
+		<item id="1" start="172.467" duration="7.4">
+			<person>Student</person>
+			<text>No, there aren't more people in Europe than in Asia; there are fewer people in Europe than in Asia</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="179.9" duration="3.367">
+			<person>Teacher</person>
+			<text>Are there more tables in this school than chairs?</text>
+			<image/>
+		</item>
+		<item id="1" start="183.3" duration="7.967">
+			<person>Student</person>
+			<text>No, there aren't more tables in this school than chairs; there are fewer tables in this school than chairs</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="191.267" duration="1.567">
+			<person>Teacher</person>
+			<text>watch</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="192.867" duration="3.9">
+			<person>Teacher</person>
+			<text>What's the difference between a watch and a clock?</text>
+			<image/>
+		</item>
+		<item id="1" start="196.8" duration="12.0">
+			<person>Student</person>
+			<text>The difference between a watch and a clock is that we wear a watch on our wrist, whereas we hang a clock on the wall or put it on a table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="208.8" duration="3.567">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;wear&quot; and &quot;carry&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="212.4" duration="11.167">
+			<person>Student</person>
+			<text>The difference between &quot;wear&quot; and &quot;carry&quot; is that we use &quot;wear&quot; for a thing that is on the body, whereas we use &quot;carry&quot; for a thing that is not on the body</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="223.567" duration="2.867">
+			<person>Teacher</person>
+			<text>Is there a clock in this room?</text>
+			<image/>
+		</item>
+		<item id="1" start="226.433" duration="3.2">
+			<person>Student</person>
+			<text>Yes, there's a clock in this room</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="229.633" duration="2.767">
+			<person>Teacher</person>
+			<text>Am I carrying a watch?</text>
+			<image/>
+		</item>
+		<item id="1" start="232.4" duration="4.9">
+			<person>Student</person>
+			<text>No, you aren't carrying a watch; you're wearing a watch</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="237.333" duration="3.133">
+			<person>Teacher</person>
+			<text>What are you carrying in your pocket?</text>
+			<image/>
+		</item>
+		<item id="1" start="240.5" duration="5.3">
+			<person>Student</person>
+			<text>I'm carrying a pen in my pocket</text>
+			<image/>
+		</item>
+	</item>
 </items>

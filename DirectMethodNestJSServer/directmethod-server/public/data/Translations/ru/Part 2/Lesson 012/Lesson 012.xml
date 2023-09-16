@@ -1,315 +1,455 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation>Урок двенадцать</translation>
- </item>
- <item id="1">
-  <translation>русский</translation>
- </item>
- <item id="2">
-  <translation>грек, греческий</translation>
- </item>
- <item id="3">
-  <translation>Ты русский или грек?</translation>
- </item>
- <item id="3">
-  <translation>Нет, я не русский и не грек; я англичанин</translation>
- </item>
- <item id="4">
-  <translation>Ты говоришь по-гречески? (вообще)</translation>
- </item>
- <item id="4">
-  <translation>Нет, я не говорю по-гречески; я говорю на английском</translation>
- </item>
- <item id="5">
-  <translation>предпочитать</translation>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="7">
-  <translation>кофе</translation>
- </item>
- <item id="8">
-  <translation>Что ты предпочитаешь: кино или телевидение?</translation>
- </item>
- <item id="8">
-  <translation>Я предпочитаю кино телевидению</translation>
- </item>
- <item id="9">
-  <translation>Что ты предпочитаешь: чай или кофе?</translation>
- </item>
- <item id="9">
-  <translation>Я предпочитаю кофе чаю</translation>
- </item>
- <item id="10">
-  <translation>Что она предпочитает: чай или кофе?</translation>
- </item>
- <item id="10">
-  <translation>Она предпочитает кофе чаю</translation>
- </item>
- <item id="11">
-  <translation>Англичане обычно предпочитают кофе?</translation>
- </item>
- <item id="11">
-  <translation>Нет, англичане обычно предпочитают не кофе; они предпочитают чай</translation>
- </item>
- <item id="12">
-  <translation>оба</translation>
- </item>
- <item id="13">
-  <translation>но</translation>
- </item>
- <item id="14">
-  <translation>Обе мои руки на столе?</translation>
- </item>
- <item id="14">
-  <translation>Да, обе твои руки на столе</translation>
- </item>
- <item id="15">
-  <translation>Обе эти книги открыты?</translation>
- </item>
- <item id="15">
-  <translation>Да, обе эти книги открыты</translation>
- </item>
- <item id="16">
-  <translation>Как правильно сказать: &quot;both us&quot; или &quot;both of us&quot;?</translation>
- </item>
- <item id="16">
-  <translation>Правильно говорить: &quot;both of us&quot;</translation>
- </item>
- <item id="17">
-  <translation>Оба из нас сидят? (сейчас)</translation>
- </item>
- <item id="17">
-  <translation>Да, оба из нас сидят</translation>
- </item>
- <item id="18">
-  <translation>Оба из них говорят на английском? (вообще)</translation>
- </item>
- <item id="18">
-  <translation>Да, оба из них говорят на английском</translation>
- </item>
- <item id="19">
-  <translation>Оба из нас говорят на английском? (сейчас)</translation>
- </item>
- <item id="19">
-  <translation>Да, оба из нас говорят на английском</translation>
- </item>
- <item id="20">
-  <translation>Мы оба сидим? (сейчас)</translation>
- </item>
- <item id="20">
-  <translation>Нет, мы не оба сидим; я сижу, а ты стоишь</translation>
- </item>
- <item id="21">
-  <translation>значить</translation>
- </item>
- <item id="22">
-  <translation>привет, здравствуйте</translation>
- </item>
- <item id="23">
-  <translation>до свидания</translation>
- </item>
- <item id="24">
-  <translation>спасибо</translation>
- </item>
- <item id="25">
-  <translation>Что слово &quot;hello&quot; значит в ...?</translation>
- </item>
- <item id="25">
-  <translation>Слово &quot;hello&quot; значит &quot;...&quot; в ...</translation>
- </item>
- <item id="26">
-  <translation>Что слово &quot;goodbye&quot; начит в ...?</translation>
- </item>
- <item id="26">
-  <translation>Слово &quot;goodbye&quot; значит &quot;...&quot; в ...</translation>
- </item>
- <item id="27">
-  <translation>Что слова &quot;thank you&quot; значат в ...?</translation>
- </item>
- <item id="27">
-  <translation>Слова &quot;hank you&quot; значат &quot;...&quot; в ...</translation>
- </item>
- <item id="28">
-  <translation>язык</translation>
- </item>
- <item id="29">
-  <translation>европейский</translation>
- </item>
- <item id="30">
-  <translation>азиатский</translation>
- </item>
- <item id="31">
-  <translation>Германия</translation>
- </item>
- <item id="32">
-  <translation>На каком языке мы говорим сейчас?</translation>
- </item>
- <item id="32">
-  <translation>Сейчас мы говорим на английском</translation>
- </item>
- <item id="33">
-  <translation>На каком языке ты обычно говоришь?</translation>
- </item>
- <item id="33">
-  <translation>Я обычно говорю на английском</translation>
- </item>
- <item id="34">
-  <translation>На каком языке она обычно говорит?</translation>
- </item>
- <item id="34">
-  <translation>Она обычно говорит на английском</translation>
- </item>
- <item id="35">
-  <translation>Китайский - это европейский язык?</translation>
- </item>
- <item id="35">
-  <translation>Нет, китайский - это не европейский язык; это азиатский язык</translation>
- </item>
- <item id="36">
-  <translation>Германия - это азиатская страна?</translation>
- </item>
- <item id="36">
-  <translation>Нет, Германия - это не азиатская страна; это европейская страна</translation>
- </item>
- <item id="37">
-  <translation>у меня нет</translation>
- </item>
- <item id="38">
-  <translation>у меня нет</translation>
- </item>
- <item id="39">
-  <translation>у тебя/вас нет</translation>
- </item>
- <item id="40">
-  <translation>у тебя/вас нет</translation>
- </item>
- <item id="41">
-  <translation>у него нет</translation>
- </item>
- <item id="42">
-  <translation>у него нет</translation>
- </item>
- <item id="43">
-  <translation>у нее нет</translation>
- </item>
- <item id="44">
-  <translation>у нее нет</translation>
- </item>
- <item id="45">
-  <translation>у него нет</translation>
- </item>
- <item id="46">
-  <translation>у него нет</translation>
- </item>
- <item id="47">
-  <translation>у нас нет</translation>
- </item>
- <item id="48">
-  <translation>у нас нет</translation>
- </item>
- <item id="49">
-  <translation>у тебя/вас нет</translation>
- </item>
- <item id="50">
-  <translation>у тебя/вас нет</translation>
- </item>
- <item id="51">
-  <translation>у них нет</translation>
- </item>
- <item id="52">
-  <translation>у них нет</translation>
- </item>
- <item id="53">
-  <translation>только</translation>
- </item>
- <item id="54">
-  <translation>Что есть отрицанием для &quot;I have&quot;?</translation>
- </item>
- <item id="54">
-  <translation>Отрицание для &quot;I have&quot; - &quot;I have not&quot;</translation>
- </item>
- <item id="55">
-  <translation>Что есть сокращением от &quot;I have not&quot;?</translation>
- </item>
- <item id="55">
-  <translation>Сокращение от &quot;I have not&quot; - &quot;I haven't&quot;</translation>
- </item>
- <item id="56">
-  <translation>У меня четыре руки?</translation>
- </item>
- <item id="56">
-  <translation>Нет, у тебя не четыре руки; у тебя только две руки</translation>
- </item>
- <item id="57">
-  <translation>У тебя две головы?</translation>
- </item>
- <item id="57">
-  <translation>Нет, у меня не две головы; у меня только одна голова</translation>
- </item>
- <item id="58">
-  <translation>У него только одна рука?</translation>
- </item>
- <item id="58">
-  <translation>Нет, у него не только лишь одна рука; у него две руки</translation>
- </item>
- <item id="59">
-  <translation>У нее два носа?</translation>
- </item>
- <item id="59">
-  <translation>Нет, у нее не два носа; у нее только один нос</translation>
- </item>
- <item id="60">
-  <translation>У нас только один рот?</translation>
- </item>
- <item id="60">
-  <translation>Нет, у нас не один лишь рот; у нас два рта</translation>
- </item>
- <item id="61">
-  <translation>У них восемь ушей?</translation>
- </item>
- <item id="61">
-  <translation>Нет, у них не восемь ушей; у них только четыре уха</translation>
- </item>
- <item id="62">
-  <translation>такой же как</translation>
- </item>
- <item id="63">
-  <translation>отличный от</translation>
- </item>
- <item id="64">
-  <translation>Япония</translation>
- </item>
- <item id="65">
-  <translation>Твои туфли такие же как мои?</translation>
- </item>
- <item id="65">
-  <translation>Нет, мои туфли не такие же как твои; они отличаются от твоих</translation>
- </item>
- <item id="66">
-  <translation>Французы - такие же, как русские?</translation>
- </item>
- <item id="66">
-  <translation>Нет, французы не такие же, как русские; они отличаются от русских</translation>
- </item>
- <item id="67">
-  <translation>У твоих глаз такой же цвет, как и у моих? </translation>
- </item>
- <item id="67">
-  <translation>Нет, цвет моих глаз не такой же, как твоих; они по цвету отличаются от твоих</translation>
- </item>
- <item id="68">
-  <translation>Люди в Германии говорят на том же языке, что и в Японии?</translation>
- </item>
- <item id="68">
-  <translation>Нет, люди в Германии говорят не на том же языке, что и в Японии; они говорят на отличающемся языке от языка людей Японии</translation>
- </item>
- <item id="69">
-  <translation>Как правильно говорить: &quot;people are&quot; или &quot;people is&quot;?</translation>
- </item>
- <item id="69">
-  <translation>Правильно говорить &quot;people are&quot;</translation>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation>Урок двенадцать</translation>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>русский</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>грек, греческий</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>Ты русский или грек?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не русский и не грек; я англичанин</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>Ты говоришь по-гречески? (вообще)</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не говорю по-гречески; я говорю на английском</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>предпочитать</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>кофе</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>Что ты предпочитаешь: кино или телевидение?</translation>
+		</item>
+		<item id="1">
+			<translation>Я предпочитаю кино телевидению</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>Что ты предпочитаешь: чай или кофе?</translation>
+		</item>
+		<item id="1">
+			<translation>Я предпочитаю кофе чаю</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>Что она предпочитает: чай или кофе?</translation>
+		</item>
+		<item id="1">
+			<translation>Она предпочитает кофе чаю</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>Англичане обычно предпочитают кофе?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, англичане обычно предпочитают не кофе; они предпочитают чай</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>оба</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>но</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>Обе мои руки на столе?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, обе твои руки на столе</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>Обе эти книги открыты?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, обе эти книги открыты</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>Как правильно сказать: &quot;both us&quot; или &quot;both of us&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Правильно говорить: &quot;both of us&quot;</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>Оба из нас сидят? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Да, оба из нас сидят</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>Оба из них говорят на английском? (вообще)</translation>
+		</item>
+		<item id="1">
+			<translation>Да, оба из них говорят на английском</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>Оба из нас говорят на английском? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Да, оба из нас говорят на английском</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>Мы оба сидим? (сейчас)</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, мы не оба сидим; я сижу, а ты стоишь</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>значить</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>привет, здравствуйте</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>до свидания</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>спасибо</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>Что слово &quot;hello&quot; значит в ...?</translation>
+		</item>
+		<item id="1">
+			<translation>Слово &quot;hello&quot; значит &quot;...&quot; в ...</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>Что слово &quot;goodbye&quot; начит в ...?</translation>
+		</item>
+		<item id="1">
+			<translation>Слово &quot;goodbye&quot; значит &quot;...&quot; в ...</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>Что слова &quot;thank you&quot; значат в ...?</translation>
+		</item>
+		<item id="1">
+			<translation>Слова &quot;hank you&quot; значат &quot;...&quot; в ...</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>язык</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>европейский</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>азиатский</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>Германия</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>На каком языке мы говорим сейчас?</translation>
+		</item>
+		<item id="1">
+			<translation>Сейчас мы говорим на английском</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>На каком языке ты обычно говоришь?</translation>
+		</item>
+		<item id="1">
+			<translation>Я обычно говорю на английском</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>На каком языке она обычно говорит?</translation>
+		</item>
+		<item id="1">
+			<translation>Она обычно говорит на английском</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>Китайский - это европейский язык?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, китайский - это не европейский язык; это азиатский язык</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>Германия - это азиатская страна?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, Германия - это не азиатская страна; это европейская страна</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>у меня нет</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>у меня нет</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>у тебя/вас нет</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>у тебя/вас нет</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>у него нет</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>у него нет</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>у нее нет</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>у нее нет</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>у него нет</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>у него нет</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>у нас нет</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>у нас нет</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>у тебя/вас нет</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>у тебя/вас нет</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>у них нет</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>у них нет</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation>только</translation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>Что есть отрицанием для &quot;I have&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Отрицание для &quot;I have&quot; - &quot;I have not&quot;</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation>Что есть сокращением от &quot;I have not&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Сокращение от &quot;I have not&quot; - &quot;I haven't&quot;</translation>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation>У меня четыре руки?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у тебя не четыре руки; у тебя только две руки</translation>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation>У тебя две головы?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у меня не две головы; у меня только одна голова</translation>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation>У него только одна рука?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у него не только лишь одна рука; у него две руки</translation>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation>У нее два носа?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у нее не два носа; у нее только один нос</translation>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation>У нас только один рот?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у нас не один лишь рот; у нас два рта</translation>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0">
+			<translation>У них восемь ушей?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, у них не восемь ушей; у них только четыре уха</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation>такой же как</translation>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation>отличный от</translation>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0">
+			<translation>Япония</translation>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0">
+			<translation>Твои туфли такие же как мои?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, мои туфли не такие же как твои; они отличаются от твоих</translation>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0">
+			<translation>Французы - такие же, как русские?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, французы не такие же, как русские; они отличаются от русских</translation>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0">
+			<translation>У твоих глаз такой же цвет, как и у моих? </translation>
+		</item>
+		<item id="1">
+			<translation>Нет, цвет моих глаз не такой же, как твоих; они по цвету отличаются от твоих</translation>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0">
+			<translation>Люди в Германии говорят на том же языке, что и в Японии?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, люди в Германии говорят не на том же языке, что и в Японии; они говорят на отличающемся языке от языка людей Японии</translation>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0">
+			<translation>Как правильно говорить: &quot;people are&quot; или &quot;people is&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Правильно говорить &quot;people are&quot;</translation>
+		</item>
+	</item>
 </items>

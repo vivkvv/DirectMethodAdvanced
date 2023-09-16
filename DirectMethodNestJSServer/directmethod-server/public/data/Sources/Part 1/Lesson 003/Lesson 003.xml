@@ -1,613 +1,797 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="583.733">
- <item id="0" start="0.1" duration="1.2">
-  <person>Teacher</person>
-  <text>Lesson three</text>
-  <image/>
- </item>
- <item id="1" start="4.033" duration="0.8">
-  <person>Teacher</person>
-  <text>this</text>
-  <image/>
- </item>
- <item id="2" start="7.533" duration="0.9">
-  <person>Teacher</person>
-  <text>that</text>
-  <image/>
- </item>
- <item id="3" start="11.067" duration="1.0">
-  <person>Teacher</person>
-  <text>chart</text>
-  <image/>
- </item>
- <item id="4" start="14.8" duration="2.6">
-  <person>Teacher</person>
-  <text>What color's this pencil?</text>
-  <image/>
- </item>
- <item id="4" start="19.833" duration="2.4">
-  <person>Student</person>
-  <text>This pencil's black</text>
-  <image/>
- </item>
- <item id="5" start="24.7" duration="1.9">
-  <person>Teacher</person>
-  <text>What color's that pencil?</text>
-  <image/>
- </item>
- <item id="5" start="29.833" duration="2.3">
-  <person>Student</person>
-  <text>That pencil's white</text>
-  <image/>
- </item>
- <item id="6" start="34.8" duration="1.9">
-  <person>Teacher</person>
-  <text>Where's this pencil?</text>
-  <image/>
- </item>
- <item id="6" start="39.233" duration="2.6">
-  <person>Student</person>
-  <text>This pencil's on the chart</text>
-  <image/>
- </item>
- <item id="7" start="44.633" duration="1.6">
-  <person>Teacher</person>
-  <text>Where's that pencil?</text>
-  <image/>
- </item>
- <item id="7" start="49.033" duration="2.8">
-  <person>Student</person>
-  <text>That pencil's on the wall</text>
-  <image/>
- </item>
- <item id="8" start="54.633" duration="0.9">
-  <person>Teacher</person>
-  <text>eleven</text>
-  <image/>
- </item>
- <item id="9" start="58.133" duration="1.2">
-  <person>Teacher</person>
-  <text>twelve</text>
-  <image/>
- </item>
- <item id="10" start="61.767" duration="1.4">
-  <person>Teacher</person>
-  <text>thirteen</text>
-  <image/>
- </item>
- <item id="11" start="65.5" duration="1.3">
-  <person>Teacher</person>
-  <text>fourteen</text>
-  <image/>
- </item>
- <item id="12" start="69.2" duration="1.2">
-  <person>Teacher</person>
-  <text>fifteen</text>
-  <image/>
- </item>
- <item id="13" start="72.967" duration="1.2">
-  <person>Teacher</person>
-  <text>plural</text>
-  <image/>
- </item>
- <item id="14" start="76.667" duration="0.9">
-  <person>Teacher</person>
-  <text>of</text>
-  <image/>
- </item>
- <item id="15" start="80.067" duration="1.1">
-  <person>Teacher</person>
-  <text>etc.</text>
-  <image/>
- </item>
- <item id="16" start="83.867" duration="1.9">
-  <person>Teacher</person>
-  <text>What's the plural of &quot;book&quot;?</text>
-  <image/>
- </item>
- <item id="16" start="88.5" duration="3.2">
-  <person>Student</person>
-  <text>The plural of &quot;book&quot; is &quot;books&quot;</text>
-  <image/>
- </item>
- <item id="17" start="94.5" duration="2.3">
-  <person>Teacher</person>
-  <text>What's the plural of &quot;clock&quot;?</text>
-  <image/>
- </item>
- <item id="17" start="99.2" duration="3.4">
-  <person>Student</person>
-  <text>The plural of &quot;clock&quot; is &quot;clocks&quot;</text>
-  <image/>
- </item>
- <item id="18" start="105.2" duration="2.6">
-  <person>Teacher</person>
-  <text>What's the plural of &quot;wall&quot;?</text>
-  <image/>
- </item>
- <item id="18" start="110.167" duration="3.5">
-  <person>Student</person>
-  <text>The plural of &quot;wall&quot; is &quot;walls&quot;</text>
-  <image/>
- </item>
- <item id="19" start="116.333" duration="4.6">
-  <person>Teacher</person>
-  <text>we are - we're</text>
-  <image/>
- </item>
- <item id="20" start="123.6" duration="1.8">
-  <person>Teacher</person>
-  <text>Are we sitting?</text>
-  <image/>
- </item>
- <item id="20" start="127.5" duration="2.3">
-  <person>Student</person>
-  <text>Yes, we're sitting</text>
-  <image/>
- </item>
- <item id="21" start="132.167" duration="1.9">
-  <person>Teacher</person>
-  <text>Where are we sitting?</text>
-  <image/>
- </item>
- <item id="21" start="136.4" duration="2.5">
-  <person>Student</person>
-  <text>We're sitting on the chairs</text>
-  <image/>
- </item>
- <item id="22" start="141.567" duration="4.8">
-  <person>Teacher</person>
-  <text>they are - they're</text>
-  <image/>
- </item>
- <item id="23" start="149.033" duration="2.2">
-  <person>Teacher</person>
-  <text>Are they standing?</text>
-  <image/>
- </item>
- <item id="23" start="153.133" duration="2.4">
-  <person>Student</person>
-  <text>Yes, they're standing</text>
-  <image/>
- </item>
- <item id="24" start="157.8" duration="2.0">
-  <person>Teacher</person>
-  <text>Where are they standing?</text>
-  <image/>
- </item>
- <item id="24" start="162.3" duration="3.2">
-  <person>Student</person>
-  <text>They're standing in front of the house</text>
-  <image/>
- </item>
- <item id="25" start="168.4" duration="5.1">
-  <person>Teacher</person>
-  <text>we are not - we aren't</text>
-  <image/>
- </item>
- <item id="26" start="176.3" duration="1.8">
-  <person>Teacher</person>
-  <text>Are we standing?</text>
-  <image/>
- </item>
- <item id="26" start="180.467" duration="3.5">
-  <person>Student</person>
-  <text>No, we aren't standing; we're sitting</text>
-  <image/>
- </item>
- <item id="27" start="186.633" duration="2.3">
-  <person>Teacher</person>
-  <text>Are we sitting on the floor?</text>
-  <image/>
- </item>
- <item id="27" start="191.5" duration="5.3">
-  <person>Student</person>
-  <text>No, we aren't sitting on the floor; we're sitting on the chairs</text>
-  <image/>
- </item>
- <item id="28" start="199.667" duration="5.6">
-  <person>Teacher</person>
-  <text>they are not - they aren't</text>
-  <image/>
- </item>
- <item id="29" start="208.1" duration="1.7">
-  <person>Teacher</person>
-  <text>Are they sitting?</text>
-  <image/>
- </item>
- <item id="29" start="212.1" duration="3.6">
-  <person>Student</person>
-  <text>No, they aren't sitting; they're standing</text>
-  <image/>
- </item>
- <item id="30" start="218.333" duration="2.5">
-  <person>Teacher</person>
-  <text>Are they standing behind the house?</text>
-  <image/>
- </item>
- <item id="30" start="223.367" duration="6.2">
-  <person>Student</person>
-  <text>No, they aren't standing behind the house; they're standing in front of the house</text>
-  <image/>
- </item>
- <item id="31" start="232.267" duration="1.0">
-  <person>Teacher</person>
-  <text>red</text>
-  <image/>
- </item>
- <item id="32" start="235.767" duration="1.0">
-  <person>Teacher</person>
-  <text>blue</text>
-  <image/>
- </item>
- <item id="33" start="239.3" duration="1.1">
-  <person>Teacher</person>
-  <text>yellow</text>
-  <image/>
- </item>
- <item id="34" start="242.833" duration="1.2">
-  <person>Teacher</person>
-  <text>gray</text>
-  <image/>
- </item>
- <item id="35" start="246.4" duration="2.3">
-  <person>Teacher</person>
-  <text>What color's this pencil?</text>
-  <image/>
- </item>
- <item id="35" start="251.533" duration="4.1">
-  <person>Student</person>
-  <text>This pencil's red, blue etc.</text>
-  <image/>
- </item>
- <item id="36" start="258.567" duration="0.9">
-  <person>Teacher</person>
-  <text>these</text>
-  <image/>
- </item>
- <item id="37" start="262.233" duration="0.9">
-  <person>Teacher</person>
-  <text>those</text>
-  <image/>
- </item>
- <item id="38" start="265.9" duration="0.8">
-  <person>Teacher</person>
-  <text>and</text>
-  <image/>
- </item>
- <item id="39" start="269.4" duration="2.3">
-  <person>Teacher</person>
-  <text>What color's this pencil?</text>
-  <image/>
- </item>
- <item id="39" start="274.267" duration="1.7">
-  <person>Student</person>
-  <text>This pencil's black</text>
-  <image/>
- </item>
- <item id="40" start="279.0" duration="2.4">
-  <person>Teacher</person>
-  <text>What color's that pencil?</text>
-  <image/>
- </item>
- <item id="40" start="284.1" duration="2.3">
-  <person>Student</person>
-  <text>That pencil's white</text>
-  <image/>
- </item>
- <item id="41" start="288.933" duration="3.0">
-  <person>Teacher</person>
-  <text>What color are these pencils?</text>
-  <image/>
- </item>
- <item id="41" start="295.0" duration="3.9">
-  <person>Student</person>
-  <text>These pencils are black and green</text>
-  <image/>
- </item>
- <item id="42" start="301.667" duration="3.3">
-  <person>Teacher</person>
-  <text>What color are those pencils?</text>
-  <image/>
- </item>
- <item id="42" start="307.933" duration="3.0">
-  <person>Student</person>
-  <text>Those pencils are white and brown</text>
-  <image/>
- </item>
- <item id="43" start="313.9" duration="2.3">
-  <person>Teacher</person>
-  <text>Where are these pencils?</text>
-  <image/>
- </item>
- <item id="43" start="318.633" duration="2.7">
-  <person>Student</person>
-  <text>These pencils are on the chart</text>
-  <image/>
- </item>
- <item id="44" start="324.133" duration="1.9">
-  <person>Teacher</person>
-  <text>Where are those pencils?</text>
-  <image/>
- </item>
- <item id="44" start="328.733" duration="3.1">
-  <person>Student</person>
-  <text>Those pencils are on the wall</text>
-  <image/>
- </item>
- <item id="45" start="334.6" duration="2.6">
-  <person>Teacher</person>
-  <text>What color are these chairs?</text>
-  <image/>
- </item>
- <item id="45" start="339.833" duration="2.3">
-  <person>Student</person>
-  <text>These chairs are red</text>
-  <image/>
- </item>
- <item id="46" start="344.733" duration="2.7">
-  <person>Teacher</person>
-  <text>What color are those chairs?</text>
-  <image/>
- </item>
- <item id="46" start="350.1" duration="2.6">
-  <person>Student</person>
-  <text>Those chairs are blue</text>
-  <image/>
- </item>
- <item id="47" start="355.267" duration="0.9">
-  <person>Teacher</person>
-  <text>men</text>
-  <image/>
- </item>
- <item id="48" start="358.9" duration="1.0">
-  <person>Teacher</person>
-  <text>women</text>
-  <image/>
- </item>
- <item id="49" start="362.667" duration="0.8">
-  <person>Teacher</person>
-  <text>say</text>
-  <image/>
- </item>
- <item id="50" start="366.367" duration="2.1">
-  <person>Teacher</person>
-  <text>What's the plural of &quot;man&quot;?</text>
-  <image/>
- </item>
- <item id="50" start="371.167" duration="2.5">
-  <person>Student</person>
-  <text>The plural of &quot;man&quot; is &quot;men&quot;</text>
-  <image/>
- </item>
- <item id="51" start="376.7" duration="2.4">
-  <person>Teacher</person>
-  <text>What's the plural of &quot;woman&quot;?</text>
-  <image/>
- </item>
- <item id="51" start="381.7" duration="2.9">
-  <person>Student</person>
-  <text>The plural of &quot;woman&quot; is &quot;women&quot;</text>
-  <image/>
- </item>
- <item id="52" start="387.267" duration="1.0">
-  <person>Teacher</person>
-  <text>sixteen</text>
-  <image/>
- </item>
- <item id="53" start="391.267" duration="1.5">
-  <person>Teacher</person>
-  <text>seventeen</text>
-  <image/>
- </item>
- <item id="54" start="395.2" duration="1.3">
-  <person>Teacher</person>
-  <text>eighteen</text>
-  <image/>
- </item>
- <item id="55" start="398.867" duration="1.1">
-  <person>Teacher</person>
-  <text>nineteen</text>
-  <image/>
- </item>
- <item id="56" start="402.667" duration="1.3">
-  <person>Teacher</person>
-  <text>twenty</text>
-  <image/>
- </item>
- <item id="57" start="406.367" duration="1.1">
-  <person>Teacher</person>
-  <text>clothes</text>
-  <image/>
- </item>
- <item id="58" start="410.2" duration="1.0">
-  <person>Teacher</person>
-  <text>What are these?</text>
-  <image/>
- </item>
- <item id="58" start="414.133" duration="2.2">
-  <person>Student</person>
-  <text>These are clothes</text>
-  <image/>
- </item>
- <item id="59" start="419.0" duration="1.2">
-  <person>Teacher</person>
-  <text>shoe</text>
-  <image/>
- </item>
- <item id="60" start="422.833" duration="1.0">
-  <person>Teacher</person>
-  <text>boot</text>
-  <image/>
- </item>
- <item id="61" start="426.4" duration="1.2">
-  <person>Teacher</person>
-  <text>sock</text>
-  <image/>
- </item>
- <item id="62" start="430.067" duration="1.1">
-  <person>Teacher</person>
-  <text>trousers</text>
-  <image/>
- </item>
- <item id="63" start="433.967" duration="1.1">
-  <person>Teacher</person>
-  <text>jacket</text>
-  <image/>
- </item>
- <item id="64" start="437.733" duration="1.1">
-  <person>Teacher</person>
-  <text>suit</text>
-  <image/>
- </item>
- <item id="65" start="441.367" duration="1.2">
-  <person>Teacher</person>
-  <text>shirt</text>
-  <image/>
- </item>
- <item id="66" start="445.133" duration="1.3">
-  <person>Teacher</person>
-  <text>tie</text>
-  <image/>
- </item>
- <item id="67" start="448.85" duration="1.0">
-  <person>Teacher</person>
-  <text>hat</text>
-  <image/>
- </item>
- <item id="68" start="452.5" duration="1.0">
-  <person>Teacher</person>
-  <text>bag</text>
-  <image/>
- </item>
- <item id="69" start="456.033" duration="1.0">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="69" start="459.833" duration="3.5">
-  <person>Student</person>
-  <text>It's a shoe, boot etc.</text>
-  <image/>
- </item>
- <item id="70" start="466.067" duration="1.1">
-  <person>Teacher</person>
-  <text>What are these?</text>
-  <image/>
- </item>
- <item id="70" start="470.0" duration="2.1">
-  <person>Student</person>
-  <text>These are trousers</text>
-  <image/>
- </item>
- <item id="71" start="474.6" duration="1.0">
-  <person>Teacher</person>
-  <text>alphabet</text>
-  <image/>
- </item>
- <item id="72" start="478.7" duration="1.0">
-  <person>Teacher</person>
-  <text>letter</text>
-  <image/>
- </item>
- <item id="73" start="482.233" duration="2.2">
-  <person>Teacher</person>
-  <text>What letter's this?</text>
-  <image/>
- </item>
- <item id="73" start="487.1" duration="2.6">
-  <person>Student</person>
-  <text>A, B etc.</text>
-  <image/>
- </item>
- <item id="74" start="492.5" duration="1.0">
-  <person>Teacher</person>
-  <text>vowel</text>
-  <image/>
- </item>
- <item id="75" start="495.933" duration="1.4">
-  <person>Teacher</person>
-  <text>consonant</text>
-  <image/>
- </item>
- <item id="76" start="499.7" duration="1.2">
-  <person>Teacher</person>
-  <text>What are these?</text>
-  <image/>
- </item>
- <item id="76" start="503.6" duration="2.9">
-  <person>Student</person>
-  <text>These are the five vowels</text>
-  <image/>
- </item>
- <item id="77" start="509.267" duration="2.3">
-  <person>Teacher</person>
-  <text>What are the five vowels?</text>
-  <image/>
- </item>
- <item id="77" start="514.067" duration="7.9">
-  <person>Student</person>
-  <text>The five vowels are A, E, I, O, U</text>
-  <image/>
- </item>
- <item id="78" start="524.467" duration="2.7">
-  <person>Teacher</person>
-  <text>Is the letter B a vowel?</text>
-  <image/>
- </item>
- <item id="78" start="529.8" duration="5.4">
-  <person>Student</person>
-  <text>No, the letter B isn't a vowel; it's a consonant</text>
-  <image/>
- </item>
- <item id="79" start="537.733" duration="1.2">
-  <person>Teacher</person>
-  <text>before</text>
-  <image/>
- </item>
- <item id="80" start="541.467" duration="1.0">
-  <person>Teacher</person>
-  <text>after</text>
-  <image/>
- </item>
- <item id="81" start="545.1" duration="1.7">
-  <person>Teacher</person>
-  <text>Which letter's before E?</text>
-  <image/>
- </item>
- <item id="81" start="549.667" duration="2.2">
-  <person>Student</person>
-  <text>D's before E</text>
-  <image/>
- </item>
- <item id="82" start="554.333" duration="2.4">
-  <person>Teacher</person>
-  <text>Which letter's after I?</text>
-  <image/>
- </item>
- <item id="82" start="559.2" duration="2.2">
-  <person>Student</person>
-  <text>J's after I</text>
-  <image/>
- </item>
- <item id="83" start="564.0" duration="2.4">
-  <person>Teacher</person>
-  <text>Which letter's before Z?</text>
-  <image/>
- </item>
- <item id="83" start="569.233" duration="2.4">
-  <person>Student</person>
-  <text>Y's before Z</text>
-  <image/>
- </item>
- <item id="84" start="574.033" duration="2.5">
-  <person>Teacher</person>
-  <text>Which letter's after G?</text>
-  <image/>
- </item>
- <item id="84" start="579.133" duration="2.0">
-  <person>Student</person>
-  <text>H's after G</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.1" duration="1.2">
+			<person>Teacher</person>
+			<text>Lesson three</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="4.033" duration="0.8">
+			<person>Teacher</person>
+			<text>this</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="7.533" duration="0.9">
+			<person>Teacher</person>
+			<text>that</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="11.067" duration="1.0">
+			<person>Teacher</person>
+			<text>chart</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="14.8" duration="2.6">
+			<person>Teacher</person>
+			<text>What color's this pencil?</text>
+			<image/>
+		</item>
+		<item id="1" start="19.833" duration="2.4">
+			<person>Student</person>
+			<text>This pencil's black</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="24.7" duration="1.9">
+			<person>Teacher</person>
+			<text>What color's that pencil?</text>
+			<image/>
+		</item>
+		<item id="1" start="29.833" duration="2.3">
+			<person>Student</person>
+			<text>That pencil's white</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="34.8" duration="1.9">
+			<person>Teacher</person>
+			<text>Where's this pencil?</text>
+			<image/>
+		</item>
+		<item id="1" start="39.233" duration="2.6">
+			<person>Student</person>
+			<text>This pencil's on the chart</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="44.633" duration="1.6">
+			<person>Teacher</person>
+			<text>Where's that pencil?</text>
+			<image/>
+		</item>
+		<item id="1" start="49.033" duration="2.8">
+			<person>Student</person>
+			<text>That pencil's on the wall</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="54.633" duration="0.9">
+			<person>Teacher</person>
+			<text>eleven</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="58.133" duration="1.2">
+			<person>Teacher</person>
+			<text>twelve</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="61.767" duration="1.4">
+			<person>Teacher</person>
+			<text>thirteen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="65.5" duration="1.3">
+			<person>Teacher</person>
+			<text>fourteen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="69.2" duration="1.2">
+			<person>Teacher</person>
+			<text>fifteen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="72.967" duration="1.2">
+			<person>Teacher</person>
+			<text>plural</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="76.667" duration="0.9">
+			<person>Teacher</person>
+			<text>of</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="80.067" duration="1.1">
+			<person>Teacher</person>
+			<text>etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="83.867" duration="1.9">
+			<person>Teacher</person>
+			<text>What's the plural of &quot;book&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="88.5" duration="3.2">
+			<person>Student</person>
+			<text>The plural of &quot;book&quot; is &quot;books&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="94.5" duration="2.3">
+			<person>Teacher</person>
+			<text>What's the plural of &quot;clock&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="99.2" duration="3.4">
+			<person>Student</person>
+			<text>The plural of &quot;clock&quot; is &quot;clocks&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="105.2" duration="2.6">
+			<person>Teacher</person>
+			<text>What's the plural of &quot;wall&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="110.167" duration="3.5">
+			<person>Student</person>
+			<text>The plural of &quot;wall&quot; is &quot;walls&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="116.333" duration="4.6">
+			<person>Teacher</person>
+			<text>we are - we're</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="123.6" duration="1.8">
+			<person>Teacher</person>
+			<text>Are we sitting?</text>
+			<image/>
+		</item>
+		<item id="1" start="127.5" duration="2.3">
+			<person>Student</person>
+			<text>Yes, we're sitting</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="132.167" duration="1.9">
+			<person>Teacher</person>
+			<text>Where are we sitting?</text>
+			<image/>
+		</item>
+		<item id="1" start="136.4" duration="2.5">
+			<person>Student</person>
+			<text>We're sitting on the chairs</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="141.567" duration="4.8">
+			<person>Teacher</person>
+			<text>they are - they're</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="149.033" duration="2.2">
+			<person>Teacher</person>
+			<text>Are they standing?</text>
+			<image/>
+		</item>
+		<item id="1" start="153.133" duration="2.4">
+			<person>Student</person>
+			<text>Yes, they're standing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="157.8" duration="2.0">
+			<person>Teacher</person>
+			<text>Where are they standing?</text>
+			<image/>
+		</item>
+		<item id="1" start="162.3" duration="3.2">
+			<person>Student</person>
+			<text>They're standing in front of the house</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="168.4" duration="5.1">
+			<person>Teacher</person>
+			<text>we are not - we aren't</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="176.3" duration="1.8">
+			<person>Teacher</person>
+			<text>Are we standing?</text>
+			<image/>
+		</item>
+		<item id="1" start="180.467" duration="3.5">
+			<person>Student</person>
+			<text>No, we aren't standing; we're sitting</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="186.633" duration="2.3">
+			<person>Teacher</person>
+			<text>Are we sitting on the floor?</text>
+			<image/>
+		</item>
+		<item id="1" start="191.5" duration="5.3">
+			<person>Student</person>
+			<text>No, we aren't sitting on the floor; we're sitting on the chairs</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="199.667" duration="5.6">
+			<person>Teacher</person>
+			<text>they are not - they aren't</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="208.1" duration="1.7">
+			<person>Teacher</person>
+			<text>Are they sitting?</text>
+			<image/>
+		</item>
+		<item id="1" start="212.1" duration="3.6">
+			<person>Student</person>
+			<text>No, they aren't sitting; they're standing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="218.333" duration="2.5">
+			<person>Teacher</person>
+			<text>Are they standing behind the house?</text>
+			<image/>
+		</item>
+		<item id="1" start="223.367" duration="6.2">
+			<person>Student</person>
+			<text>No, they aren't standing behind the house; they're standing in front of the house</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="232.267" duration="1.0">
+			<person>Teacher</person>
+			<text>red</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="235.767" duration="1.0">
+			<person>Teacher</person>
+			<text>blue</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="239.3" duration="1.1">
+			<person>Teacher</person>
+			<text>yellow</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="242.833" duration="1.2">
+			<person>Teacher</person>
+			<text>gray</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="246.4" duration="2.3">
+			<person>Teacher</person>
+			<text>What color's this pencil?</text>
+			<image/>
+		</item>
+		<item id="1" start="251.533" duration="4.1">
+			<person>Student</person>
+			<text>This pencil's red, blue etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="258.567" duration="0.9">
+			<person>Teacher</person>
+			<text>these</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="262.233" duration="0.9">
+			<person>Teacher</person>
+			<text>those</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="265.9" duration="0.8">
+			<person>Teacher</person>
+			<text>and</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="269.4" duration="2.3">
+			<person>Teacher</person>
+			<text>What color's this pencil?</text>
+			<image/>
+		</item>
+		<item id="1" start="274.267" duration="1.7">
+			<person>Student</person>
+			<text>This pencil's black</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="279.0" duration="2.4">
+			<person>Teacher</person>
+			<text>What color's that pencil?</text>
+			<image/>
+		</item>
+		<item id="1" start="284.1" duration="2.3">
+			<person>Student</person>
+			<text>That pencil's white</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="288.933" duration="3.0">
+			<person>Teacher</person>
+			<text>What color are these pencils?</text>
+			<image/>
+		</item>
+		<item id="1" start="295.0" duration="3.9">
+			<person>Student</person>
+			<text>These pencils are black and green</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="301.667" duration="3.3">
+			<person>Teacher</person>
+			<text>What color are those pencils?</text>
+			<image/>
+		</item>
+		<item id="1" start="307.933" duration="3.0">
+			<person>Student</person>
+			<text>Those pencils are white and brown</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="313.9" duration="2.3">
+			<person>Teacher</person>
+			<text>Where are these pencils?</text>
+			<image/>
+		</item>
+		<item id="1" start="318.633" duration="2.7">
+			<person>Student</person>
+			<text>These pencils are on the chart</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="324.133" duration="1.9">
+			<person>Teacher</person>
+			<text>Where are those pencils?</text>
+			<image/>
+		</item>
+		<item id="1" start="328.733" duration="3.1">
+			<person>Student</person>
+			<text>Those pencils are on the wall</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="334.6" duration="2.6">
+			<person>Teacher</person>
+			<text>What color are these chairs?</text>
+			<image/>
+		</item>
+		<item id="1" start="339.833" duration="2.3">
+			<person>Student</person>
+			<text>These chairs are red</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="344.733" duration="2.7">
+			<person>Teacher</person>
+			<text>What color are those chairs?</text>
+			<image/>
+		</item>
+		<item id="1" start="350.1" duration="2.6">
+			<person>Student</person>
+			<text>Those chairs are blue</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="355.267" duration="0.9">
+			<person>Teacher</person>
+			<text>men</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="358.9" duration="1.0">
+			<person>Teacher</person>
+			<text>women</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="362.667" duration="0.8">
+			<person>Teacher</person>
+			<text>say</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="366.367" duration="2.1">
+			<person>Teacher</person>
+			<text>What's the plural of &quot;man&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="371.167" duration="2.5">
+			<person>Student</person>
+			<text>The plural of &quot;man&quot; is &quot;men&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="376.7" duration="2.4">
+			<person>Teacher</person>
+			<text>What's the plural of &quot;woman&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="381.7" duration="2.9">
+			<person>Student</person>
+			<text>The plural of &quot;woman&quot; is &quot;women&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="387.267" duration="1.0">
+			<person>Teacher</person>
+			<text>sixteen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="391.267" duration="1.5">
+			<person>Teacher</person>
+			<text>seventeen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="395.2" duration="1.3">
+			<person>Teacher</person>
+			<text>eighteen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="398.867" duration="1.1">
+			<person>Teacher</person>
+			<text>nineteen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="402.667" duration="1.3">
+			<person>Teacher</person>
+			<text>twenty</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="406.367" duration="1.1">
+			<person>Teacher</person>
+			<text>clothes</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="410.2" duration="1.0">
+			<person>Teacher</person>
+			<text>What are these?</text>
+			<image/>
+		</item>
+		<item id="1" start="414.133" duration="2.2">
+			<person>Student</person>
+			<text>These are clothes</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="419.0" duration="1.2">
+			<person>Teacher</person>
+			<text>shoe</text>
+			<image/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0" start="422.833" duration="1.0">
+			<person>Teacher</person>
+			<text>boot</text>
+			<image/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0" start="426.4" duration="1.2">
+			<person>Teacher</person>
+			<text>sock</text>
+			<image/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0" start="430.067" duration="1.1">
+			<person>Teacher</person>
+			<text>trousers</text>
+			<image/>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0" start="433.967" duration="1.1">
+			<person>Teacher</person>
+			<text>jacket</text>
+			<image/>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0" start="437.733" duration="1.1">
+			<person>Teacher</person>
+			<text>suit</text>
+			<image/>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0" start="441.367" duration="1.2">
+			<person>Teacher</person>
+			<text>shirt</text>
+			<image/>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0" start="445.133" duration="1.3">
+			<person>Teacher</person>
+			<text>tie</text>
+			<image/>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0" start="448.85" duration="1.0">
+			<person>Teacher</person>
+			<text>hat</text>
+			<image/>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0" start="452.5" duration="1.0">
+			<person>Teacher</person>
+			<text>bag</text>
+			<image/>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0" start="456.033" duration="1.0">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="459.833" duration="3.5">
+			<person>Student</person>
+			<text>It's a shoe, boot etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0" start="466.067" duration="1.1">
+			<person>Teacher</person>
+			<text>What are these?</text>
+			<image/>
+		</item>
+		<item id="1" start="470.0" duration="2.1">
+			<person>Student</person>
+			<text>These are trousers</text>
+			<image/>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0" start="474.6" duration="1.0">
+			<person>Teacher</person>
+			<text>alphabet</text>
+			<image/>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0" start="478.7" duration="1.0">
+			<person>Teacher</person>
+			<text>letter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="73">
+		<item id="0" start="482.233" duration="2.2">
+			<person>Teacher</person>
+			<text>What letter's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="487.1" duration="2.6">
+			<person>Student</person>
+			<text>A, B etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="74">
+		<item id="0" start="492.5" duration="1.0">
+			<person>Teacher</person>
+			<text>vowel</text>
+			<image/>
+		</item>
+	</item>
+	<item id="75">
+		<item id="0" start="495.933" duration="1.4">
+			<person>Teacher</person>
+			<text>consonant</text>
+			<image/>
+		</item>
+	</item>	
+	<item id="76">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>These are the five vowels: A, E, I, O, U.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="77">
+		<item id="0" start="499.7" duration="1.2">
+			<person>Teacher</person>
+			<text>What are these?</text>
+			<image/>
+		</item>
+		<item id="1" start="503.6" duration="2.9">
+			<person>Student</person>
+			<text>These are the five vowels</text>
+			<image/>
+		</item>
+	</item>
+	<item id="78">
+		<item id="0" start="509.267" duration="2.3">
+			<person>Teacher</person>
+			<text>What are the five vowels?</text>
+			<image/>
+		</item>
+		<item id="1" start="514.067" duration="7.9">
+			<person>Student</person>
+			<text>The five vowels are A, E, I, O, U</text>
+			<image/>
+		</item>
+	</item>
+	<item id="79">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>The letters B, C, D etc. are consonants.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="80">
+		<item id="0" start="524.467" duration="2.7">
+			<person>Teacher</person>
+			<text>Is the letter B a vowel?</text>
+			<image/>
+		</item>
+		<item id="1" start="529.8" duration="5.4">
+			<person>Student</person>
+			<text>No, the letter B isn't a vowel; it's a consonant</text>
+			<image/>
+		</item>
+	</item>
+	<item id="81">
+		<item id="0" start="537.733" duration="1.2">
+			<person>Teacher</person>
+			<text>before</text>
+			<image/>
+		</item>
+	</item>
+	<item id="82">
+		<item id="0" start="541.467" duration="1.0">
+			<person>Teacher</person>
+			<text>after</text>
+			<image/>
+		</item>
+	</item>
+	<item id="83">
+		<item id="0" start="545.1" duration="1.7">
+			<person>Teacher</person>
+			<text>Which letter's before E?</text>
+			<image/>
+		</item>
+		<item id="1" start="549.667" duration="2.2">
+			<person>Student</person>
+			<text>D's before E</text>
+			<image/>
+		</item>
+	</item>
+	<item id="84">
+		<item id="0" start="554.333" duration="2.4">
+			<person>Teacher</person>
+			<text>Which letter's after I?</text>
+			<image/>
+		</item>
+		<item id="1" start="559.2" duration="2.2">
+			<person>Student</person>
+			<text>J's after I</text>
+			<image/>
+		</item>
+	</item>
+	<item id="85">
+		<item id="0" start="564.0" duration="2.4">
+			<person>Teacher</person>
+			<text>Which letter's before Z?</text>
+			<image/>
+		</item>
+		<item id="1" start="569.233" duration="2.4">
+			<person>Student</person>
+			<text>Y's before Z</text>
+			<image/>
+		</item>
+	</item>
+	<item id="86">
+		<item id="0" start="574.033" duration="2.5">
+			<person>Teacher</person>
+			<text>Which letter's after G?</text>
+			<image/>
+		</item>
+		<item id="1" start="579.133" duration="2.0">
+			<person>Student</person>
+			<text>H's after G</text>
+			<image/>
+		</item>
+	</item>
 </items>

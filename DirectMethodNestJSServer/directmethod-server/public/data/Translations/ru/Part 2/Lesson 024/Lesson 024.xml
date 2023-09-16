@@ -1,279 +1,393 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation>Урок двадцать четыре</translation>
- </item>
- <item id="1">
-  <translation>наименьшее количество</translation>
- </item>
- <item id="2">
-  <translation>наименьшее количество</translation>
- </item>
- <item id="3">
-  <translation>тот</translation>
- </item>
- <item id="4">
-  <translation>В чем разница между &quot;the fewest&quot; и &quot;the least&quot;?</translation>
- </item>
- <item id="4">
-  <translation>Разница между &quot;the fewest&quot; и &quot;the least&quot; в том, что мы используем &quot;the fewest&quot; с вещами, которые мы можем сосчитать, тогда ка мы используем &quot;the least&quot; с вещами, которые мы не можем сосчитать</translation>
- </item>
- <item id="5">
-  <translation>Дай мне, пожалуйста, предложение с &quot;the feest&quot; в нем</translation>
- </item>
- <item id="5">
-  <translation>В моей семье мой брат - это тот, кто читает меньше всего книг</translation>
- </item>
- <item id="6">
-  <translation>Дай мне, пожалуйста, предложение, с &quot;the least&quot; в нем</translation>
- </item>
- <item id="6">
-  <translation>В моей семье, моя сестра - это та, кто ест меньше всего хлеба</translation>
- </item>
- <item id="7">
-  <translation>Из этих трех книг, эта книга имеет наибольшее количество страниц?</translation>
- </item>
- <item id="7">
-  <translation>Нет, из этих трех книг эта книга имеет не наибольшее количество страниц; она имеет наименьшее количество страниц</translation>
- </item>
- <item id="8">
-  <translation>Кто есть наименьшее количество еды в твоей семье?</translation>
- </item>
- <item id="8">
-  <translation>В моей семье мой брат ест меньше всего еды</translation>
- </item>
- <item id="9">
-  <translation>Кто пьет меньше всего кофе в твоей семье?</translation>
- </item>
- <item id="9">
-  <translation>Моя сестра пьет меньше всего кофе в моей семье</translation>
- </item>
- <item id="10">
-  <translation>Из этих трех ед: хлеба, мяса и соли, ты больше всего ешь соли?</translation>
- </item>
- <item id="10">
-  <translation>Нет, из этих трех ед: хлеба, мяса и соли, я больше всео ем не соли; я ем соли меньше всего</translation>
- </item>
- <item id="11">
-  <translation>Из этих трех напитков: воды, молока и вина, ты пьешь больше всего вина?</translation>
- </item>
- <item id="11">
-  <translation>Нет, из этих трех напитков: воды, молока и вина, я пью вина не больше всего; я пью его меньше всего</translation>
- </item>
- <item id="12">
-  <translation>напротив</translation>
- </item>
- <item id="13">
-  <translation>рядом с</translation>
- </item>
- <item id="14">
-  <translation>Кто сидит напротив тебя?</translation>
- </item>
- <item id="14">
-  <translation>Студент сидит напротив меня</translation>
- </item>
- <item id="15">
-  <translation>Кто сидит рядом с тобой?</translation>
- </item>
- <item id="15">
-  <translation>Студент сидит рядом со мной</translation>
- </item>
- <item id="16">
-  <translation>Что ты можешь видеть напротив этого здания?</translation>
- </item>
- <item id="16">
-  <translation>Я могу видеть другое строение и т.д. напротив этого строения</translation>
- </item>
- <item id="17">
-  <translation>работать</translation>
- </item>
- <item id="18">
-  <translation>отдыхать</translation>
- </item>
- <item id="19">
-  <translation>большинство людей</translation>
- </item>
- <item id="20">
-  <translation>Большинство людей отдыхает от понедельника до пятницы?</translation>
- </item>
- <item id="20">
-  <translation>Нет, большинство людей не отдыхает с понедельника по пятницу; они работают</translation>
- </item>
- <item id="21">
-  <translation>Ты думаешь, большинство людей любит работать?</translation>
- </item>
- <item id="21">
-  <translation>Нет, я не думаю, что большинство людей любит работать; я думаю, они не любят работать</translation>
- </item>
- <item id="22">
-  <translation>Ты работаешь на выходных?</translation>
- </item>
- <item id="22">
-  <translation>Да, я работаю на выходных</translation>
- </item>
- <item id="23">
-  <translation>стекло</translation>
- </item>
- <item id="24">
-  <translation>дерево</translation>
- </item>
- <item id="25">
-  <translation>Из чего сделано окно?</translation>
- </item>
- <item id="25">
-  <translation>Окно сделано из стекла</translation>
- </item>
- <item id="26">
-  <translation>Стол сделан из пластика?</translation>
- </item>
- <item id="26">
-  <translation>Нет, стол сделан не из пластика; он сделан из дерева</translation>
- </item>
- <item id="27">
-  <translation>бумага</translation>
- </item>
- <item id="28">
-  <translation>камень</translation>
- </item>
- <item id="29">
-  <translation>Из чего сделана эта книга?</translation>
- </item>
- <item id="29">
-  <translation>Эта книга сделана из бумаги</translation>
- </item>
- <item id="30">
-  <translation>Из чего сделана стена дома позади мистера и миссис Браун?</translation>
- </item>
- <item id="30">
-  <translation>Стена дома позади мистера и миссис Браун сделана из камня</translation>
- </item>
- <item id="31">
-  <translation>достаточно</translation>
- </item>
- <item id="32">
-  <translation>Ты говоришь на английском хорошо?</translation>
- </item>
- <item id="32">
-  <translation>Нет, я не говорю на английском хорошо, но я говорю на нем достаточно хорошо</translation>
- </item>
- <item id="33">
-  <translation>Ты достаточно высок, чтобы прикоснуться к потолку?</translation>
- </item>
- <item id="33">
-  <translation>Нет, я не достаточно высок, чтобы прикоснуться к потолку; я слишком низок</translation>
- </item>
- <item id="34">
-  <translation>Ты достаточно низок, чтобы стоять под столом?</translation>
- </item>
- <item id="34">
-  <translation>Нет, я не достаточно низок, чтобы стоять под столом; я слишком высок</translation>
- </item>
- <item id="35">
-  <translation>Мой капман достаточно велик, чтобы положить в него эту книгу?</translation>
- </item>
- <item id="35">
-  <translation>Нет, твой карман не достаточно велик, чтобы положить в него эту книгу; он слишком мал</translation>
- </item>
- <item id="36">
-  <translation>тот</translation>
- </item>
- <item id="37">
-  <translation>повторять</translation>
- </item>
- <item id="38">
-  <translation>Какого цвета этот каранда?</translation>
- </item>
- <item id="38">
-  <translation>Этот карандаш - черный</translation>
- </item>
- <item id="39">
-  <translation>Какого цвета тот (карандаш)?</translation>
- </item>
- <item id="39">
-  <translation>Он - белый</translation>
- </item>
- <item id="40">
-  <translation>Который карандаш красный?</translation>
- </item>
- <item id="40">
-  <translation>Этот карандаш - красный</translation>
- </item>
- <item id="41">
-  <translation>Который (карандаш) серый?</translation>
- </item>
- <item id="41">
-  <translation>Этот (карандаш) серый</translation>
- </item>
- <item id="42">
-  <translation>Какая книга открыта?</translation>
- </item>
- <item id="42">
-  <translation>Эта книга открыта</translation>
- </item>
- <item id="43">
-  <translation>Какая (книга) закрыта?</translation>
- </item>
- <item id="43">
-  <translation>Эта (книга) закрыта</translation>
- </item>
- <item id="44">
-  <translation>плохо</translation>
- </item>
- <item id="45">
-  <translation>Можешь ли ты слышать хорошо с пальцами в ушах?</translation>
- </item>
- <item id="45">
-  <translation>Нет, я не могу слышать хорошо с пальцами в ушах; я слышу плохо</translation>
- </item>
- <item id="46">
-  <translation>Ты выдишь плохо?</translation>
- </item>
- <item id="46">
-  <translation>Нет, я вижу не плохо; я вижу хорошо</translation>
- </item>
- <item id="47">
-  <translation>Эта ручка пишет плохо?</translation>
- </item>
- <item id="47">
-  <translation>Нет, эта ручка пишет не плохо; она пишет хорошо</translation>
- </item>
- <item id="48">
-  <translation>Ты ховоришь на своем языке плохо?</translation>
- </item>
- <item id="48">
-  <translation>Нет, я не говорю на моем языке похо; я говорю на нем хорошо</translation>
- </item>
- <item id="49">
-  <translation>телефон</translation>
- </item>
- <item id="50">
-  <translation>мобильный телефон</translation>
- </item>
- <item id="51">
-  <translation>телефон, телефонный</translation>
- </item>
- <item id="52">
-  <translation>звонок</translation>
- </item>
- <item id="53">
-  <translation>звонить (по телефону)</translation>
- </item>
- <item id="54">
-  <translation>Есть ли телефон в доме твоей семьи?</translation>
- </item>
- <item id="54">
-  <translation>Да, в доме моей семьи есть телефон</translation>
- </item>
- <item id="55">
-  <translation>У тебя в кармане есть мобильный телефон?</translation>
- </item>
- <item id="55">
-  <translation>Да, у меня в кармане есть телефон</translation>
- </item>
- <item id="56">
-  <translation>Сколько телефонных звонков ты делаешь ежедневно?</translation>
- </item>
- <item id="56">
-  <translation>Я делаю около тридцати телефонных звонков ежедневно</translation>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation>Урок двадцать четыре</translation>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>наименьшее количество</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>наименьшее количество</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>тот</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>В чем разница между &quot;the fewest&quot; и &quot;the least&quot;?</translation>
+		</item>
+		<item id="1">
+			<translation>Разница между &quot;the fewest&quot; и &quot;the least&quot; в том, что мы используем &quot;the fewest&quot; с вещами, которые мы можем сосчитать, тогда ка мы используем &quot;the least&quot; с вещами, которые мы не можем сосчитать</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>Дай мне, пожалуйста, предложение с &quot;the feest&quot; в нем</translation>
+		</item>
+		<item id="1">
+			<translation>В моей семье мой брат - это тот, кто читает меньше всего книг</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>Дай мне, пожалуйста, предложение, с &quot;the least&quot; в нем</translation>
+		</item>
+		<item id="1">
+			<translation>В моей семье, моя сестра - это та, кто ест меньше всего хлеба</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>Из этих трех книг, эта книга имеет наибольшее количество страниц?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, из этих трех книг эта книга имеет не наибольшее количество страниц; она имеет наименьшее количество страниц</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>Кто есть наименьшее количество еды в твоей семье?</translation>
+		</item>
+		<item id="1">
+			<translation>В моей семье мой брат ест меньше всего еды</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>Кто пьет меньше всего кофе в твоей семье?</translation>
+		</item>
+		<item id="1">
+			<translation>Моя сестра пьет меньше всего кофе в моей семье</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>Из этих трех ед: хлеба, мяса и соли, ты больше всего ешь соли?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, из этих трех ед: хлеба, мяса и соли, я больше всео ем не соли; я ем соли меньше всего</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>Из этих трех напитков: воды, молока и вина, ты пьешь больше всего вина?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, из этих трех напитков: воды, молока и вина, я пью вина не больше всего; я пью его меньше всего</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>напротив</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>рядом с</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>Кто сидит напротив тебя?</translation>
+		</item>
+		<item id="1">
+			<translation>Студент сидит напротив меня</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>Кто сидит рядом с тобой?</translation>
+		</item>
+		<item id="1">
+			<translation>Студент сидит рядом со мной</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>Что ты можешь видеть напротив этого здания?</translation>
+		</item>
+		<item id="1">
+			<translation>Я могу видеть другое строение и т.д. напротив этого строения</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>работать</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>отдыхать</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>большинство людей</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>Большинство людей отдыхает от понедельника до пятницы?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, большинство людей не отдыхает с понедельника по пятницу; они работают</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>Ты думаешь, большинство людей любит работать?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не думаю, что большинство людей любит работать; я думаю, они не любят работать</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>Ты работаешь на выходных?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, я работаю на выходных</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>стекло</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>дерево</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>Из чего сделано окно?</translation>
+		</item>
+		<item id="1">
+			<translation>Окно сделано из стекла</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>Стол сделан из пластика?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, стол сделан не из пластика; он сделан из дерева</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>бумага</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>камень</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>Из чего сделана эта книга?</translation>
+		</item>
+		<item id="1">
+			<translation>Эта книга сделана из бумаги</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>Из чего сделана стена дома позади мистера и миссис Браун?</translation>
+		</item>
+		<item id="1">
+			<translation>Стена дома позади мистера и миссис Браун сделана из камня</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>достаточно</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>Ты говоришь на английском хорошо?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не говорю на английском хорошо, но я говорю на нем достаточно хорошо</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>Ты достаточно высок, чтобы прикоснуться к потолку?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не достаточно высок, чтобы прикоснуться к потолку; я слишком низок</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>Ты достаточно низок, чтобы стоять под столом?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не достаточно низок, чтобы стоять под столом; я слишком высок</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>Мой капман достаточно велик, чтобы положить в него эту книгу?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, твой карман не достаточно велик, чтобы положить в него эту книгу; он слишком мал</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>тот</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>повторять</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>Какого цвета этот каранда?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш - черный</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>Какого цвета тот (карандаш)?</translation>
+		</item>
+		<item id="1">
+			<translation>Он - белый</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>Который карандаш красный?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот карандаш - красный</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>Который (карандаш) серый?</translation>
+		</item>
+		<item id="1">
+			<translation>Этот (карандаш) серый</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>Какая книга открыта?</translation>
+		</item>
+		<item id="1">
+			<translation>Эта книга открыта</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>Какая (книга) закрыта?</translation>
+		</item>
+		<item id="1">
+			<translation>Эта (книга) закрыта</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>плохо</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>Можешь ли ты слышать хорошо с пальцами в ушах?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не могу слышать хорошо с пальцами в ушах; я слышу плохо</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>Ты выдишь плохо?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я вижу не плохо; я вижу хорошо</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>Эта ручка пишет плохо?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, эта ручка пишет не плохо; она пишет хорошо</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>Ты ховоришь на своем языке плохо?</translation>
+		</item>
+		<item id="1">
+			<translation>Нет, я не говорю на моем языке похо; я говорю на нем хорошо</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>телефон</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>мобильный телефон</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>телефон, телефонный</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>звонок</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation>звонить (по телефону)</translation>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation>Есть ли телефон в доме твоей семьи?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, в доме моей семьи есть телефон</translation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>У тебя в кармане есть мобильный телефон?</translation>
+		</item>
+		<item id="1">
+			<translation>Да, у меня в кармане есть телефон</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation>Сколько телефонных звонков ты делаешь ежедневно?</translation>
+		</item>
+		<item id="1">
+			<translation>Я делаю около тридцати телефонных звонков ежедневно</translation>
+		</item>
+	</item>
 </items>
