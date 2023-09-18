@@ -2,8 +2,8 @@ import os
 import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 
-SOURCE_PATH = '.\\directmethod-server\\public\\data\\Sources\\Part 2\\Lesson 024\\Lesson 024.xml'
-TRANSLATION_PATH = '.\\directmethod-server\\public\\data\\Translations\\ru\\Part 2\\Lesson 024\\Lesson 024.xml'
+SOURCE_PATH = '.\\directmethod-server\\public\\data\\Sources\\Part 3\\Lesson 026\\Lesson 026.xml'
+TRANSLATION_PATH = '.\\directmethod-server\\public\\data\\Translations\\ru\\Part 3\\Lesson 026\\Lesson 026.xml'
 UPDATED_PATH = '.\\updated_temp'
 
 def prettify(xml_string):

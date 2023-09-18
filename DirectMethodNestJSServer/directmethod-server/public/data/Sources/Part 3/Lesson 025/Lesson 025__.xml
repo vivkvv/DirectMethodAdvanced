@@ -128,15 +128,11 @@
 			<image/>
 		</item>
 	</item>
-	<item id="14">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>When an adjective has one syllable, like “cheap“, we make the comparative by adding the letters “er“ and we say “cheaper than“. We make the superlative by adding the letters “est“ and we say “the cheapest“.
+	<Explanation>
+		<text>When an adjective has one syllable, like “cheap“, we make the comparative by adding the letters “er“ and we say “cheaper than“. We make the superlative by adding the letters “est“ and we say “the cheapest“.
 		\nWhen an adjective has three syllables, like “expensive“, we do not add “er“; instead, we make the comparative by using the word “more“, and we say “more expensive than“. For the superlative, we do not add “est“. Instead, we use the word “most“ and we say “the most expensive“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="15">
+	</Explanation>	
+	<item id="14">
 		<item id="0" start="71.533" duration="2.833">
 			<person>Teacher</person>
 			<text>What's the comparative of &quot;long&quot;?</text>
@@ -148,7 +144,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="16">
+	<item id="15">
 		<item id="0" start="78.0" duration="2.8">
 			<person>Teacher</person>
 			<text>What's the comparative of &quot;beautiful&quot;?</text>
@@ -160,7 +156,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="17">
+	<item id="16">
 		<item id="0" start="85.1" duration="2.867">
 			<person>Teacher</person>
 			<text>What's the superlative of &quot;small&quot;?</text>
@@ -172,7 +168,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="18">
+	<item id="17">
 		<item id="0" start="91.667" duration="3.367">
 			<person>Teacher</person>
 			<text>What's the superlative of &quot;expensive&quot;?</text>
@@ -184,7 +180,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="19">
+	<item id="18">
 		<item id="0" start="99.467" duration="4.367">
 			<person>Teacher</person>
 			<text>Why do we say &quot;cheaper than&quot; but not &quot;expensiver then&quot;?</text>
@@ -196,21 +192,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="20">
+	<item id="19">
 		<item id="0" start="113.933" duration="1.7">
 			<person>Teacher</person>
 			<text>above</text>
 			<image/>
 		</item>
 	</item>
-	<item id="21">
+	<item id="20">
 		<item id="0" start="115.667" duration="1.533">
 			<person>Teacher</person>
 			<text>below</text>
 			<image/>
 		</item>
 	</item>
-	<item id="22">
+	<item id="21">
 		<item id="0" start="117.233" duration="2.1">
 			<person>Teacher</person>
 			<text>Where's my nose?</text>
@@ -222,7 +218,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="23">
+	<item id="22">
 		<item id="0" start="121.9" duration="2.033">
 			<person>Teacher</person>
 			<text>Where's my chin?</text>
@@ -234,7 +230,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="24">
+	<item id="23">
 		<item id="0" start="126.5" duration="2.167">
 			<person>Teacher</person>
 			<text>Where's the ceiling?</text>
@@ -246,7 +242,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="24">
 		<item id="0" start="131.367" duration="2.467">
 			<person>Teacher</person>
 			<text>Are my feet above the table?</text>
@@ -258,91 +254,91 @@
 			<image/>
 		</item>
 	</item>
-	<item id="26">
+	<item id="25">
 		<item id="0" start="138.767" duration="1.767">
 			<person>Teacher</person>
 			<text>January</text>
 			<image/>
 		</item>
 	</item>
-	<item id="27">
+	<item id="26">
 		<item id="0" start="140.533" duration="1.8">
 			<person>Teacher</person>
 			<text>February</text>
 			<image/>
 		</item>
 	</item>
-	<item id="28">
+	<item id="27">
 		<item id="0" start="142.333" duration="1.767">
 			<person>Teacher</person>
 			<text>March</text>
 			<image/>
 		</item>
 	</item>
-	<item id="29">
+	<item id="28">
 		<item id="0" start="144.133" duration="1.6">
 			<person>Teacher</person>
 			<text>April</text>
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="29">
 		<item id="0" start="145.767" duration="1.6">
 			<person>Teacher</person>
 			<text>May</text>
 			<image/>
 		</item>
 	</item>
-	<item id="31">
+	<item id="30">
 		<item id="0" start="147.367" duration="1.733">
 			<person>Teacher</person>
 			<text>June</text>
 			<image/>
 		</item>
 	</item>
-	<item id="32">
+	<item id="31">
 		<item id="0" start="149.1" duration="1.7">
 			<person>Teacher</person>
 			<text>July</text>
 			<image/>
 		</item>
 	</item>
-	<item id="33">
+	<item id="32">
 		<item id="0" start="150.8" duration="1.8">
 			<person>Teacher</person>
 			<text>August</text>
 			<image/>
 		</item>
 	</item>
-	<item id="34">
+	<item id="33">
 		<item id="0" start="152.633" duration="1.867">
 			<person>Teacher</person>
 			<text>September</text>
 			<image/>
 		</item>
 	</item>
-	<item id="35">
+	<item id="34">
 		<item id="0" start="154.533" duration="1.9">
 			<person>Teacher</person>
 			<text>October</text>
 			<image/>
 		</item>
 	</item>
-	<item id="36">
+	<item id="35">
 		<item id="0" start="156.433" duration="1.7">
 			<person>Teacher</person>
 			<text>November</text>
 			<image/>
 		</item>
 	</item>
-	<item id="37">
+	<item id="36">
 		<item id="0" start="158.167" duration="1.7">
 			<person>Teacher</person>
 			<text>December</text>
 			<image/>
 		</item>
 	</item>
-	<item id="38">
+	<item id="37">
 		<item id="0" start="159.9" duration="3.367">
 			<person>Teacher</person>
 			<text>Tell me the names of the months of the year, please</text>
@@ -354,21 +350,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="38">
 		<item id="0" start="178.633" duration="1.733">
 			<person>Teacher</person>
 			<text>last</text>
 			<image/>
 		</item>
 	</item>
-	<item id="40">
+	<item id="39">
 		<item id="0" start="180.4" duration="1.667">
 			<person>Teacher</person>
 			<text>next</text>
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="40">
 		<item id="0" start="182.067" duration="2.067">
 			<person>Teacher</person>
 			<text>What's this month?</text>
@@ -380,7 +376,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="41">
 		<item id="0" start="186.533" duration="2.2">
 			<person>Teacher</person>
 			<text>What was last month?</text>
@@ -392,7 +388,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="42">
 		<item id="0" start="191.3" duration="2.4">
 			<person>Teacher</person>
 			<text>What will next month be?</text>
@@ -404,7 +400,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="44">
+	<item id="43">
 		<item id="0" start="196.4" duration="3.0">
 			<person>Teacher</person>
 			<text>What will the month after next be?</text>
@@ -416,7 +412,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="44">
 		<item id="0" start="202.633" duration="2.767">
 			<person>Teacher</person>
 			<text>What was the month before last?</text>
@@ -428,42 +424,42 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="45">
 		<item id="0" start="208.633" duration="1.633">
 			<person>Teacher</person>
 			<text>a.m.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="47">
+	<item id="46">
 		<item id="0" start="210.3" duration="1.733">
 			<person>Teacher</person>
 			<text>p.m.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="47">
 		<item id="0" start="212.033" duration="1.767">
 			<person>Teacher</person>
 			<text>midday</text>
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="48">
 		<item id="0" start="213.833" duration="1.633">
 			<person>Teacher</person>
 			<text>Latin</text>
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="49">
 		<item id="0" start="215.467" duration="1.667">
 			<person>Teacher</person>
 			<text>then</text>
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="50">
 		<item id="0" start="217.133" duration="4.167">
 			<person>Teacher</person>
 			<text>What do the letters &quot;a.m.&quot; mean after the time?</text>
@@ -475,7 +471,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="51">
 		<item id="0" start="226.2" duration="4.1">
 			<person>Teacher</person>
 			<text>What do the letters &quot;p.m.&quot; mean after the time?</text>
@@ -487,7 +483,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="52">
 		<item id="0" start="234.9" duration="3.967">
 			<person>Teacher</person>
 			<text>What's the difference between &quot;a.m.&quot; and &quot;p.m.&quot;?</text>
@@ -499,14 +495,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="54">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>When we use a.m. and p.m. we say the hours, then the minutes, and then a.m. or p.m. We don’t say “half past three p.m.”; we say “three thirty p.m.”.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="55">
+	<Explanation>
+		<text>When we use a.m. and p.m. we say the hours, then the minutes, and then a.m. or p.m. We don’t say “half past three p.m.”; we say “three thirty p.m.”.</text>
+	</Explanation>	
+	<item id="53">
 		<item id="0" start="248.833" duration="3.667">
 			<person>Teacher</person>
 			<text>Do we say &quot;twenty to four a.m.&quot;?</text>
@@ -518,7 +510,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="54">
 		<item id="0" start="258.733" duration="3.0">
 			<person>Teacher</person>
 			<text>What time do you eat breakfast?</text>
@@ -530,7 +522,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="55">
 		<item id="0" start="265.333" duration="2.333">
 			<person>Teacher</person>
 			<text>What time do you eat dinner?</text>

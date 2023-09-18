@@ -1,0 +1,358 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="263.167">
+ <item id="0" start="0.133" duration="2.633">
+  <person>Teacher</person>
+  <text>Lesson 26</text>
+  <image/>
+ </item>
+ <item id="1" start="2.767" duration="1.867">
+  <person>Teacher</person>
+  <text>a lot of</text>
+  <image/>
+ </item>
+ <item id="2" start="4.633" duration="3.167">
+  <person>Teacher</person>
+  <text>both ... and</text>
+  <image/>
+ </item>
+ <item id="3" start="7.833" duration="4.367">
+  <person>Teacher</person>
+  <text>What can we use instead of &quot;many&quot; and &quot;much&quot;?</text>
+  <image/>
+ </item>
+ <item id="3" start="12.2" duration="4.6">
+  <person>Student</person>
+  <text>We can use &quot;a lot of&quot; instead of &quot;many&quot; and &quot;much&quot;</text>
+  <image/>
+ </item>
+ <item id="4" start="16.833" duration="3.767">
+  <person>Teacher</person>
+  <text>Are there a lot of people in a small village?</text>
+  <image/>
+ </item>
+ <item id="4" start="20.6" duration="6.633">
+  <person>Student</person>
+  <text>No, there aren't a lot of people in a small village; there are few people in a small village</text>
+  <image/>
+ </item>
+ <item id="5" start="27.233" duration="3.3">
+  <person>Teacher</person>
+  <text>Do the English drink a lot of coffee?</text>
+  <image/>
+ </item>
+ <item id="5" start="30.567" duration="5.367">
+  <person>Student</person>
+  <text>No, the English don't drink a lot of coffee; they drink a lot of tea</text>
+  <image/>
+ </item>
+ <item id="6" start="35.967" duration="4.1">
+  <person>Teacher</person>
+  <text>Do you like to see a room with a lot of flowers in it?</text>
+  <image/>
+ </item>
+ <item id="6" start="40.067" duration="4.467">
+  <person>Student</person>
+  <text>Yes, I like to see a room with a lot of flowers in it</text>
+  <image/>
+ </item>
+ <item id="7" start="44.567" duration="3.767">
+  <person>Teacher</person>
+  <text>Do you put a lot of butter on your bread?</text>
+  <image/>
+ </item>
+ <item id="7" start="48.333" duration="3.867">
+  <person>Student</person>
+  <text>Yes, I put a lot of butter on my bread</text>
+  <image/>
+ </item>
+ <item id="8" start="52.2" duration="4.9">
+  <person>Teacher</person>
+  <text>Do we use our mouths for both eating and speaking?</text>
+  <image/>
+ </item>
+ <item id="8" start="57.133" duration="5.0">
+  <person>Student</person>
+  <text>Yes, we use our mouths for both eating and speaking</text>
+  <image/>
+ </item>
+ <item id="9" start="62.133" duration="4.467">
+  <person>Teacher</person>
+  <text>Can you speak both Chinese and Italian?</text>
+  <image/>
+ </item>
+ <item id="9" start="66.6" duration="6.5">
+  <person>Student</person>
+  <text>No, I can't speak both Chinese and Italian; I speak only Italian</text>
+  <image/>
+ </item>
+ <item id="10" start="73.133" duration="1.567">
+  <person>Teacher</person>
+  <text>a lot</text>
+  <image/>
+ </item>
+ <item id="11" start="74.7" duration="3.067">
+  <person>Teacher</person>
+  <text>Do you go to the cinema a lot?</text>
+  <image/>
+ </item>
+ <item id="11" start="77.8" duration="3.5">
+  <person>Student</person>
+  <text>Yes, I go to the cinema a lot</text>
+  <image/>
+ </item>
+ <item id="12" start="81.333" duration="2.433">
+  <person>Teacher</person>
+  <text>Do you read a lot?</text>
+  <image/>
+ </item>
+ <item id="12" start="83.8" duration="2.867">
+  <person>Student</person>
+  <text>Yes, I read a lot</text>
+  <image/>
+ </item>
+ <item id="13" start="86.667" duration="2.367">
+  <person>Teacher</person>
+  <text>Do you eat a lot?</text>
+  <image/>
+ </item>
+ <item id="13" start="89.033" duration="2.733">
+  <person>Student</person>
+  <text>Yes, I eat a lot</text>
+  <image/>
+ </item>
+ <item id="14" start="91.8" duration="2.667">
+  <person>Teacher</person>
+  <text>Does she eats a lot?</text>
+  <image/>
+ </item>
+ <item id="14" start="94.467" duration="3.1">
+  <person>Student</person>
+  <text>Yes, she eats a lot</text>
+  <image/>
+ </item>
+ <item id="15" start="97.567" duration="3.533">
+  <person>Teacher</person>
+  <text>Do you use your mobile phone a lot?</text>
+  <image/>
+ </item>
+ <item id="15" start="101.133" duration="4.133">
+  <person>Student</person>
+  <text>Yes, I use my mobile phone a lot</text>
+  <image/>
+ </item>
+ <item id="16" start="105.3" duration="1.5">
+  <person>Teacher</person>
+  <text>if</text>
+  <image/>
+ </item>
+ <item id="17" start="106.8" duration="1.8">
+  <person>Teacher</person>
+  <text>must</text>
+  <image/>
+ </item>
+ <item id="18" start="108.6" duration="3.267">
+  <person>Teacher</person>
+  <text>either ... or</text>
+  <image/>
+ </item>
+ <item id="19" start="111.9" duration="1.533">
+  <person>Teacher</person>
+  <text>bar</text>
+  <image/>
+ </item>
+ <item id="20" start="113.433" duration="1.6">
+  <person>Teacher</person>
+  <text>pub</text>
+  <image/>
+ </item>
+ <item id="21" start="115.033" duration="1.767">
+  <person>Teacher</person>
+  <text>restaurant</text>
+  <image/>
+ </item>
+ <item id="22" start="116.8" duration="3.567">
+  <person>Teacher</person>
+  <text>Do you want anything to eat at the moment?</text>
+  <image/>
+ </item>
+ <item id="22" start="120.4" duration="4.2">
+  <person>Student</person>
+  <text>Yes, I want something to eat at the moment</text>
+  <image/>
+ </item>
+ <item id="23" start="124.6" duration="4.467">
+  <person>Teacher</person>
+  <text>If she wants something to eat, where must she go?</text>
+  <image/>
+ </item>
+ <item id="23" start="129.1" duration="5.7">
+  <person>Student</person>
+  <text>If she wants something to eat, she must go either home or to a restaurant</text>
+  <image/>
+ </item>
+ <item id="24" start="134.8" duration="3.767">
+  <person>Teacher</person>
+  <text>Do you want anything to drink at the moment?</text>
+  <image/>
+ </item>
+ <item id="24" start="138.6" duration="3.867">
+  <person>Student</person>
+  <text>Yes, I want something to drink at the moment</text>
+  <image/>
+ </item>
+ <item id="25" start="142.467" duration="4.433">
+  <person>Teacher</person>
+  <text>If she wants something to drink, where must she go?</text>
+  <image/>
+ </item>
+ <item id="25" start="146.933" duration="6.467">
+  <person>Student</person>
+  <text>If she wants something to drink, she must go either home or to a bar or a pub</text>
+  <image/>
+ </item>
+ <item id="26" start="153.4" duration="5.533">
+  <person>Teacher</person>
+  <text>If you want to eat in a restaurant, about how much money must you have?</text>
+  <image/>
+ </item>
+ <item id="26" start="158.933" duration="5.9">
+  <person>Student</person>
+  <text>If I want to eat in a restaurant, I must have about £25</text>
+  <image/>
+ </item>
+ <item id="27" start="164.833" duration="5.867">
+  <person>Teacher</person>
+  <text>If you want to hear people speaking Welsh, which country must you go to?</text>
+  <image/>
+ </item>
+ <item id="27" start="170.733" duration="5.0">
+  <person>Student</person>
+  <text>If I want to hear people speaking Welsh, I must go to Wales</text>
+  <image/>
+ </item>
+ <item id="28" start="175.733" duration="1.533">
+  <person>Teacher</person>
+  <text>play</text>
+  <image/>
+ </item>
+ <item id="29" start="177.3" duration="1.733">
+  <person>Teacher</person>
+  <text>piano</text>
+  <image/>
+ </item>
+ <item id="30" start="179.033" duration="1.8">
+  <person>Teacher</person>
+  <text>guitar</text>
+  <image/>
+ </item>
+ <item id="31" start="180.867" duration="1.6">
+  <person>Teacher</person>
+  <text>football</text>
+  <image/>
+ </item>
+ <item id="32" start="182.467" duration="1.633">
+  <person>Teacher</person>
+  <text>tennis</text>
+  <image/>
+ </item>
+ <item id="33" start="184.1" duration="2.4">
+  <person>Teacher</person>
+  <text>Can you play the piano?</text>
+  <image/>
+ </item>
+ <item id="33" start="186.533" duration="3.2">
+  <person>Student</person>
+  <text>Yes, I can play the piano</text>
+  <image/>
+ </item>
+ <item id="34" start="189.733" duration="2.4">
+  <person>Teacher</person>
+  <text>Can you play football?</text>
+  <image/>
+ </item>
+ <item id="34" start="192.167" duration="3.2">
+  <person>Student</person>
+  <text>Yes, I can play football</text>
+  <image/>
+ </item>
+ <item id="35" start="195.367" duration="1.767">
+  <person>Teacher</person>
+  <text>morning</text>
+  <image/>
+ </item>
+ <item id="36" start="197.133" duration="1.733">
+  <person>Teacher</person>
+  <text>afternoon</text>
+  <image/>
+ </item>
+ <item id="37" start="198.9" duration="1.733">
+  <person>Teacher</person>
+  <text>evening</text>
+  <image/>
+ </item>
+ <item id="38" start="200.633" duration="1.433">
+  <person>Teacher</person>
+  <text>night</text>
+  <image/>
+ </item>
+ <item id="39" start="202.1" duration="1.433">
+  <person>Teacher</person>
+  <text>bed</text>
+  <image/>
+ </item>
+ <item id="40" start="203.567" duration="1.8">
+  <person>Teacher</person>
+  <text>go to bed</text>
+  <image/>
+ </item>
+ <item id="41" start="205.367" duration="5.433">
+  <person>Teacher</person>
+  <text>What do we say to people between about 6 a.m. and 12 p.m.?</text>
+  <image/>
+ </item>
+ <item id="41" start="210.833" duration="5.867">
+  <person>Student</person>
+  <text>We say &quot;Good morning&quot; to people between about 6:00 a.m. and 12 p.m.</text>
+  <image/>
+ </item>
+ <item id="42" start="216.733" duration="5.133">
+  <person>Teacher</person>
+  <text>What do we say to people between about 12 p.m. and 5 p.m.?</text>
+  <image/>
+ </item>
+ <item id="42" start="221.867" duration="6.0">
+  <person>Student</person>
+  <text>We say &quot;Good afternoon&quot; to people between about 12 p.m. and 5 p.m.</text>
+  <image/>
+ </item>
+ <item id="43" start="227.867" duration="5.333">
+  <person>Teacher</person>
+  <text>What do we say to people between about 5 p.m. and 10 p.m.?</text>
+  <image/>
+ </item>
+ <item id="43" start="233.2" duration="5.533">
+  <person>Student</person>
+  <text>We say &quot;Good evening&quot; to people between about 5 p.m. and 10 p.m.</text>
+  <image/>
+ </item>
+ <item id="44" start="238.767" duration="6.067">
+  <person>Teacher</person>
+  <text>And what do we say when we say goodbye after 10 p.m. or when we go to bed?</text>
+  <image/>
+ </item>
+ <item id="44" start="244.867" duration="5.733">
+  <person>Student</person>
+  <text>We say &quot;Good night&quot; when we say goodbye after 10 p.m. or when we go to bed</text>
+  <image/>
+ </item>
+ <item id="45" start="250.6" duration="6.033">
+  <person>Teacher</person>
+  <text>Do you come here in the morning, in the afternoon, in the evening or at night?</text>
+  <image/>
+ </item>
+ <item id="45" start="256.667" duration="6.5">
+  <person>Student</person>
+  <text>I come here in the morning, not in the afternoon, in the evening or at night</text>
+  <image/>
+ </item>
+</items>

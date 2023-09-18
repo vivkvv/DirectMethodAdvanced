@@ -60,7 +60,7 @@ export class FilesService implements OnModuleInit {
         const part: Part = this.allFolderParts.filter(
           (part) => part.title === partName,
         )[0];
-        const lesson: Lesson = part.lessons.filter(
+        const lesson: Lesson = part?.lessons.filter(
           (lesson) => lesson.title === lessonName,
         )[0];
         if (lesson) {

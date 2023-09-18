@@ -1,603 +1,761 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="368.133">
- <item id="0" start="0.133" duration="2.4">
-  <person>Teacher</person>
-  <text>Lesson 27</text>
-  <image/>
- </item>
- <item id="1" start="2.533" duration="1.5">
-  <person>Teacher</person>
-  <text>piece</text>
-  <image/>
- </item>
- <item id="2" start="4.033" duration="1.8">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="2" start="5.867" duration="2.1">
-  <person>Student</person>
-  <text>It's a piece of paper</text>
-  <image/>
- </item>
- <item id="3" start="7.967" duration="3.1">
-  <person>Teacher</person>
-  <text>Are there any pieces of paper on the table?</text>
-  <image/>
- </item>
- <item id="3" start="11.1" duration="3.4">
-  <person>Student</person>
-  <text>Yes, there are some pieces of paper on the table</text>
-  <image/>
- </item>
- <item id="4" start="14.5" duration="4.4">
-  <person>Teacher</person>
-  <text>About how many pieces of bread do you eat with your lunch?</text>
-  <image/>
- </item>
- <item id="4" start="18.933" duration="3.7">
-  <person>Student</person>
-  <text>I eat about four pieces of bread with my lunch</text>
-  <image/>
- </item>
- <item id="5" start="22.633" duration="1.833">
-  <person>Teacher</person>
-  <text>a country</text>
-  <image/>
- </item>
- <item id="6" start="24.467" duration="1.9">
-  <person>Teacher</person>
-  <text>the country</text>
-  <image/>
- </item>
- <item id="7" start="26.367" duration="1.8">
-  <person>Teacher</person>
-  <text>nation</text>
-  <image/>
- </item>
- <item id="8" start="28.167" duration="2.0">
-  <person>Teacher</person>
-  <text>nationality</text>
-  <image/>
- </item>
- <item id="9" start="30.167" duration="1.7">
-  <person>Teacher</person>
-  <text>British</text>
-  <image/>
- </item>
- <item id="10" start="31.9" duration="4.867">
-  <person>Teacher</person>
-  <text>What's the difference between a country and the country?</text>
-  <image/>
- </item>
- <item id="10" start="36.767" duration="10.733">
-  <person>Student</person>
-  <text>The difference between a country and the country is that a country is a nation, whereas the country is the opposite of the town</text>
-  <image/>
- </item>
- <item id="11" start="47.5" duration="2.567">
-  <person>Teacher</person>
-  <text>What's the name of your country?</text>
-  <image/>
- </item>
- <item id="11" start="50.1" duration="5.1">
-  <person>Student</person>
-  <text>Italy, France, etc. is the name of my country</text>
-  <image/>
- </item>
- <item id="12" start="55.2" duration="2.167">
-  <person>Teacher</person>
-  <text>What's your nationality?</text>
-  <image/>
- </item>
- <item id="12" start="57.367" duration="5.233">
-  <person>Student</person>
-  <text>My nationality is Italian, French, etc.</text>
-  <image/>
- </item>
- <item id="13" start="62.633" duration="3.267">
-  <person>Teacher</person>
-  <text>What nationality is Mr. Callan?</text>
-  <image/>
- </item>
- <item id="13" start="65.9" duration="2.733">
-  <person>Student</person>
-  <text>Mr. Callan is British</text>
-  <image/>
- </item>
- <item id="14" start="68.667" duration="1.367">
-  <person>Teacher</person>
-  <text>live</text>
-  <image/>
- </item>
- <item id="15" start="70.033" duration="2.333">
-  <person>Teacher</person>
-  <text>Do you live in the country?</text>
-  <image/>
- </item>
- <item id="15" start="72.4" duration="3.433">
-  <person>Student</person>
-  <text>No, I don't live in the country; I live in a town</text>
-  <image/>
- </item>
- <item id="16" start="75.833" duration="3.267">
-  <person>Teacher</person>
-  <text>Do most children live with their parents?</text>
-  <image/>
- </item>
- <item id="16" start="79.1" duration="3.067">
-  <person>Student</person>
-  <text>Yes, most children live with their parents</text>
-  <image/>
- </item>
- <item id="17" start="82.2" duration="2.767">
-  <person>Teacher</person>
-  <text>Do you want to live for 100 years?</text>
-  <image/>
- </item>
- <item id="17" start="84.967" duration="3.1">
-  <person>Student</person>
-  <text>Yes, I want to live for a hundred years</text>
-  <image/>
- </item>
- <item id="18" start="88.067" duration="1.667">
-  <person>Teacher</person>
-  <text>pleasant</text>
-  <image/>
- </item>
- <item id="19" start="89.733" duration="1.733">
-  <person>Teacher</person>
-  <text>unpleasant</text>
-  <image/>
- </item>
- <item id="20" start="91.5" duration="1.567">
-  <person>Teacher</person>
-  <text>gas</text>
-  <image/>
- </item>
- <item id="21" start="93.1" duration="2.567">
-  <person>Teacher</person>
-  <text>Does gas smell pleasant?</text>
-  <image/>
- </item>
- <item id="21" start="95.667" duration="4.1">
-  <person>Student</person>
-  <text>No, gas doesn't smell pleasant; it smells unpleasant</text>
-  <image/>
- </item>
- <item id="22" start="99.8" duration="2.933">
-  <person>Teacher</person>
-  <text>Do flowers smell unpleasant?</text>
-  <image/>
- </item>
- <item id="22" start="102.733" duration="4.367">
-  <person>Student</person>
-  <text>No, flowers don't smell unpleasant; they smell pleasant</text>
-  <image/>
- </item>
- <item id="23" start="107.133" duration="3.567">
-  <person>Teacher</person>
-  <text>Do most people think work is a pleasant thing?</text>
-  <image/>
- </item>
- <item id="23" start="110.7" duration="5.9">
-  <person>Student</person>
-  <text>No, most people don't think work is a pleasant thing; they think it's an unpleasant thing</text>
-  <image/>
- </item>
- <item id="24" start="116.633" duration="2.7">
-  <person>Teacher</person>
-  <text>Is Paris an unpleasant city?</text>
-  <image/>
- </item>
- <item id="24" start="119.367" duration="4.9">
-  <person>Student</person>
-  <text>No, Paris isn't an unpleasant city; it's a pleasant city</text>
-  <image/>
- </item>
- <item id="25" start="124.267" duration="1.6">
-  <person>Teacher</person>
-  <text>glass</text>
-  <image/>
- </item>
- <item id="26" start="125.9" duration="1.5">
-  <person>Teacher</person>
-  <text>cup</text>
-  <image/>
- </item>
- <item id="27" start="127.4" duration="2.433">
-  <person>Teacher</person>
-  <text>What do we drink wine from?</text>
-  <image/>
- </item>
- <item id="27" start="129.867" duration="2.8">
-  <person>Student</person>
-  <text>We drink wine from a glass</text>
-  <image/>
- </item>
- <item id="28" start="132.667" duration="3.033">
-  <person>Teacher</person>
-  <text>Do we drink coffee from a glass?</text>
-  <image/>
- </item>
- <item id="28" start="135.7" duration="4.933">
-  <person>Student</person>
-  <text>No, we don't drink coffee from a glass; we drink it from a cup</text>
-  <image/>
- </item>
- <item id="29" start="140.667" duration="2.1">
-  <person>Teacher</person>
-  <text>longer ... than</text>
-  <image/>
- </item>
- <item id="30" start="142.767" duration="2.233">
-  <person>Teacher</person>
-  <text>shorter ... than</text>
-  <image/>
- </item>
- <item id="31" start="145.033" duration="3.533">
-  <person>Teacher</person>
-  <text>Is the table longer than the room?</text>
-  <image/>
- </item>
- <item id="31" start="148.6" duration="5.4">
-  <person>Student</person>
-  <text>No, the table isn't longer than the room; it's shorter than the room</text>
-  <image/>
- </item>
- <item id="32" start="154.0" duration="2.1">
-  <person>Teacher</person>
-  <text>higher ... than</text>
-  <image/>
- </item>
- <item id="33" start="156.133" duration="2.0">
-  <person>Teacher</person>
-  <text>lower ... than</text>
-  <image/>
- </item>
- <item id="34" start="158.167" duration="2.8">
-  <person>Teacher</person>
-  <text>Is the table higher than the door?</text>
-  <image/>
- </item>
- <item id="34" start="161.0" duration="4.6">
-  <person>Student</person>
-  <text>No, the table isn't higher than the door; it's lower than the door</text>
-  <image/>
- </item>
- <item id="35" start="165.6" duration="2.0">
-  <person>Teacher</person>
-  <text>larger ... than</text>
-  <image/>
- </item>
- <item id="36" start="167.6" duration="2.2">
-  <person>Teacher</person>
-  <text>smaller ... than</text>
-  <image/>
- </item>
- <item id="37" start="169.8" duration="3.467">
-  <person>Teacher</person>
-  <text>Is a village larger than a city?</text>
-  <image/>
- </item>
- <item id="37" start="173.3" duration="5.5">
-  <person>Student</person>
-  <text>No, a village isn't larger than a city; it's smaller than a city</text>
-  <image/>
- </item>
- <item id="38" start="178.833" duration="2.0">
-  <person>Teacher</person>
-  <text>the longest</text>
-  <image/>
- </item>
- <item id="39" start="180.867" duration="1.467">
-  <person>Teacher</person>
-  <text>river</text>
-  <image/>
- </item>
- <item id="40" start="182.333" duration="1.7">
-  <person>Teacher</person>
-  <text>Nile</text>
-  <image/>
- </item>
- <item id="41" start="184.067" duration="1.733">
-  <person>Teacher</person>
-  <text>world</text>
-  <image/>
- </item>
- <item id="42" start="185.8" duration="3.233">
-  <person>Teacher</person>
-  <text>Which is the longest street in this town?</text>
-  <image/>
- </item>
- <item id="42" start="189.067" duration="3.733">
-  <person>Student</person>
-  <text>Oxford Street is the longest street in this town</text>
-  <image/>
- </item>
- <item id="43" start="192.8" duration="3.067">
-  <person>Teacher</person>
-  <text>Which is the longest river in the world?</text>
-  <image/>
- </item>
- <item id="43" start="195.9" duration="3.267">
-  <person>Student</person>
-  <text>The Nile is the longest river in the world</text>
-  <image/>
- </item>
- <item id="44" start="199.167" duration="1.9">
-  <person>Teacher</person>
-  <text>the highest</text>
-  <image/>
- </item>
- <item id="45" start="201.1" duration="1.767">
-  <person>Teacher</person>
-  <text>mountain</text>
-  <image/>
- </item>
- <item id="46" start="202.867" duration="1.8">
-  <person>Teacher</person>
-  <text>Everest</text>
-  <image/>
- </item>
- <item id="47" start="204.7" duration="1.667">
-  <person>Teacher</person>
-  <text>Mount</text>
-  <image/>
- </item>
- <item id="48" start="206.367" duration="1.7">
-  <person>Teacher</person>
-  <text>Mt</text>
-  <image/>
- </item>
- <item id="49" start="208.1" duration="3.1">
-  <person>Teacher</person>
-  <text>Which is the highest mountain in the world?</text>
-  <image/>
- </item>
- <item id="49" start="211.2" duration="3.9">
-  <person>Student</person>
-  <text>Mt Everest is the highest mountain in the world</text>
-  <image/>
- </item>
- <item id="50" start="215.133" duration="1.8">
-  <person>Teacher</person>
-  <text>the largest</text>
-  <image/>
- </item>
- <item id="51" start="216.967" duration="1.667">
-  <person>Teacher</person>
-  <text>Tokyo</text>
-  <image/>
- </item>
- <item id="52" start="218.633" duration="3.033">
-  <person>Teacher</person>
-  <text>Which is the largest city in Japan?</text>
-  <image/>
- </item>
- <item id="52" start="221.7" duration="3.567">
-  <person>Student</person>
-  <text>Tokyo's the largest city in Japan</text>
-  <image/>
- </item>
- <item id="53" start="225.267" duration="1.5">
-  <person>Teacher</person>
-  <text>date</text>
-  <image/>
- </item>
- <item id="54" start="226.8" duration="2.3">
-  <person>Teacher</person>
-  <text>What's the date today?</text>
-  <image/>
- </item>
- <item id="54" start="229.1" duration="7.133">
-  <person>Student</person>
-  <text>The date today is the 20th of January 2012</text>
-  <image/>
- </item>
- <item id="55" start="236.233" duration="2.533">
-  <person>Teacher</person>
-  <text>What was the date yesterday?</text>
-  <image/>
- </item>
- <item id="55" start="238.8" duration="5.333">
-  <person>Student</person>
-  <text>The date yesterday was the 19th of January 2012</text>
-  <image/>
- </item>
- <item id="56" start="244.133" duration="2.667">
-  <person>Teacher</person>
-  <text>What will the date tomorrow be?</text>
-  <image/>
- </item>
- <item id="56" start="246.8" duration="6.1">
-  <person>Student</person>
-  <text>The date tomorrow will be the 21st of January 2012</text>
-  <image/>
- </item>
- <item id="57" start="252.9" duration="1.533">
-  <person>Teacher</person>
-  <text>light</text>
-  <image/>
- </item>
- <item id="58" start="254.467" duration="1.367">
-  <person>Teacher</person>
-  <text>heavy</text>
-  <image/>
- </item>
- <item id="59" start="255.833" duration="2.267">
-  <person>Teacher</person>
-  <text>Is the table light?</text>
-  <image/>
- </item>
- <item id="59" start="258.133" duration="3.767">
-  <person>Student</person>
-  <text>No, the table isn't light; it's heavy</text>
-  <image/>
- </item>
- <item id="60" start="261.9" duration="3.6">
-  <person>Teacher</person>
-  <text>Is this piece of paper heavier than the table?</text>
-  <image/>
- </item>
- <item id="60" start="265.5" duration="6.167">
-  <person>Student</person>
-  <text>No, this piece of paper isn't heavier than the table; it's lighter than the table</text>
-  <image/>
- </item>
- <item id="61" start="271.7" duration="3.233">
-  <person>Teacher</person>
-  <text>Who's the lightest person in your family?</text>
-  <image/>
- </item>
- <item id="61" start="274.933" duration="4.1">
-  <person>Student</person>
-  <text>My mother is the lightest person in my family</text>
-  <image/>
- </item>
- <item id="62" start="279.067" duration="3.067">
-  <person>Teacher</person>
-  <text>Who's the heaviest person in your family?</text>
-  <image/>
- </item>
- <item id="62" start="282.133" duration="3.567">
-  <person>Student</person>
-  <text>My brother's the heaviest person in my family</text>
-  <image/>
- </item>
- <item id="63" start="285.733" duration="1.333">
-  <person>Teacher</person>
-  <text>shop</text>
-  <image/>
- </item>
- <item id="64" start="287.067" duration="3.867">
-  <person>Teacher</person>
-  <text>Which is the largest shop in this town?</text>
-  <image/>
- </item>
- <item id="64" start="290.933" duration="3.8">
-  <person>Student</person>
-  <text>Harrods is the largest shop in this town</text>
-  <image/>
- </item>
- <item id="65" start="294.767" duration="3.733">
-  <person>Teacher</person>
-  <text>Are there any shops in the street where you live?</text>
-  <image/>
- </item>
- <item id="65" start="298.5" duration="3.667">
-  <person>Student</person>
-  <text>Yes, there are some shops in the street where I live</text>
-  <image/>
- </item>
- <item id="66" start="302.2" duration="1.6">
-  <person>Teacher</person>
-  <text>ball</text>
-  <image/>
- </item>
- <item id="67" start="303.8" duration="2.533">
-  <person>Teacher</person>
-  <text>What do we play football with?</text>
-  <image/>
- </item>
- <item id="67" start="306.367" duration="2.6">
-  <person>Student</person>
-  <text>We play football with a ball</text>
-  <image/>
- </item>
- <item id="68" start="308.967" duration="2.767">
-  <person>Teacher</person>
-  <text>Can we play tennis without a ball?</text>
-  <image/>
- </item>
- <item id="68" start="311.733" duration="5.433">
-  <person>Student</person>
-  <text>No, we can't play tennis without a ball; we must have a ball to play tennis</text>
-  <image/>
- </item>
- <item id="69" start="317.2" duration="1.6">
-  <person>Teacher</person>
-  <text>bedroom</text>
-  <image/>
- </item>
- <item id="70" start="318.8" duration="1.667">
-  <person>Teacher</person>
-  <text>get up</text>
-  <image/>
- </item>
- <item id="71" start="320.467" duration="1.7">
-  <person>Teacher</person>
-  <text>sleep</text>
-  <image/>
- </item>
- <item id="72" start="322.167" duration="2.6">
-  <person>Teacher</person>
-  <text>What time do you go to bed at night?</text>
-  <image/>
- </item>
- <item id="72" start="324.8" duration="3.4">
-  <person>Student</person>
-  <text>I go to bed at 11:00 at night</text>
-  <image/>
- </item>
- <item id="73" start="328.2" duration="2.5">
-  <person>Teacher</person>
-  <text>What time do you get up in the morning?</text>
-  <image/>
- </item>
- <item id="73" start="330.7" duration="3.5">
-  <person>Student</person>
-  <text>I get up at 6:00 in the morning</text>
-  <image/>
- </item>
- <item id="74" start="334.233" duration="2.7">
-  <person>Teacher</person>
-  <text>How long do you sleep at night?</text>
-  <image/>
- </item>
- <item id="74" start="336.967" duration="3.5">
-  <person>Student</person>
-  <text>I sleep about 7 hours at night</text>
-  <image/>
- </item>
- <item id="75" start="340.467" duration="3.2">
-  <person>Teacher</person>
-  <text>What color are the walls of your bedroom?</text>
-  <image/>
- </item>
- <item id="75" start="343.667" duration="3.1">
-  <person>Student</person>
-  <text>The walls of my bedroom are white</text>
-  <image/>
- </item>
- <item id="76" start="346.767" duration="3.167">
-  <person>Teacher</person>
-  <text>Are you the first to get up in your family?</text>
-  <image/>
- </item>
- <item id="76" start="349.967" duration="3.5">
-  <person>Student</person>
-  <text>No, I'm not the first to get up in my family</text>
-  <image/>
- </item>
- <item id="77" start="353.5" duration="2.067">
-  <person>Teacher</person>
-  <text>Do you sleep a lot?</text>
-  <image/>
- </item>
- <item id="77" start="355.567" duration="3.933">
-  <person>Student</person>
-  <text>No, I don't sleep a lot; I sleep little</text>
-  <image/>
- </item>
- <item id="78" start="359.5" duration="2.733">
-  <person>Teacher</person>
-  <text>Do you sleep longer than your parents?</text>
-  <image/>
- </item>
- <item id="78" start="362.267" duration="5.867">
-  <person>Student</person>
-  <text>No, I don't sleep longer than my parents; I sleep less than my parents</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.133" duration="2.4">
+			<person>Teacher</person>
+			<text>Lesson 27</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.533" duration="1.5">
+			<person>Teacher</person>
+			<text>piece</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.033" duration="1.8">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="5.867" duration="2.1">
+			<person>Student</person>
+			<text>It's a piece of paper</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="7.967" duration="3.1">
+			<person>Teacher</person>
+			<text>Are there any pieces of paper on the table?</text>
+			<image/>
+		</item>
+		<item id="1" start="11.1" duration="3.4">
+			<person>Student</person>
+			<text>Yes, there are some pieces of paper on the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="14.5" duration="4.4">
+			<person>Teacher</person>
+			<text>About how many pieces of bread do you eat with your lunch?</text>
+			<image/>
+		</item>
+		<item id="1" start="18.933" duration="3.7">
+			<person>Student</person>
+			<text>I eat about four pieces of bread with my lunch</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="22.633" duration="1.833">
+			<person>Teacher</person>
+			<text>a country</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="24.467" duration="1.9">
+			<person>Teacher</person>
+			<text>the country</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="26.367" duration="1.8">
+			<person>Teacher</person>
+			<text>nation</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="28.167" duration="2.0">
+			<person>Teacher</person>
+			<text>nationality</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="30.167" duration="1.7">
+			<person>Teacher</person>
+			<text>British</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="31.9" duration="4.867">
+			<person>Teacher</person>
+			<text>What's the difference between a country and the country?</text>
+			<image/>
+		</item>
+		<item id="1" start="36.767" duration="10.733">
+			<person>Student</person>
+			<text>The difference between a country and the country is that a country is a nation, whereas the country is the opposite of the town</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="47.5" duration="2.567">
+			<person>Teacher</person>
+			<text>What's the name of your country?</text>
+			<image/>
+		</item>
+		<item id="1" start="50.1" duration="5.1">
+			<person>Student</person>
+			<text>Italy, France, etc. is the name of my country</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="55.2" duration="2.167">
+			<person>Teacher</person>
+			<text>What's your nationality?</text>
+			<image/>
+		</item>
+		<item id="1" start="57.367" duration="5.233">
+			<person>Student</person>
+			<text>My nationality is Italian, French, etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="62.633" duration="3.267">
+			<person>Teacher</person>
+			<text>What nationality is Mr. Callan?</text>
+			<image/>
+		</item>
+		<item id="1" start="65.9" duration="2.733">
+			<person>Student</person>
+			<text>Mr. Callan is British</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="68.667" duration="1.367">
+			<person>Teacher</person>
+			<text>live</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="70.033" duration="2.333">
+			<person>Teacher</person>
+			<text>Do you live in the country?</text>
+			<image/>
+		</item>
+		<item id="1" start="72.4" duration="3.433">
+			<person>Student</person>
+			<text>No, I don't live in the country; I live in a town</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="75.833" duration="3.267">
+			<person>Teacher</person>
+			<text>Do most children live with their parents?</text>
+			<image/>
+		</item>
+		<item id="1" start="79.1" duration="3.067">
+			<person>Student</person>
+			<text>Yes, most children live with their parents</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="82.2" duration="2.767">
+			<person>Teacher</person>
+			<text>Do you want to live for 100 years?</text>
+			<image/>
+		</item>
+		<item id="1" start="84.967" duration="3.1">
+			<person>Student</person>
+			<text>Yes, I want to live for a hundred years</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="88.067" duration="1.667">
+			<person>Teacher</person>
+			<text>pleasant</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="89.733" duration="1.733">
+			<person>Teacher</person>
+			<text>unpleasant</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="91.5" duration="1.567">
+			<person>Teacher</person>
+			<text>gas</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="93.1" duration="2.567">
+			<person>Teacher</person>
+			<text>Does gas smell pleasant?</text>
+			<image/>
+		</item>
+		<item id="1" start="95.667" duration="4.1">
+			<person>Student</person>
+			<text>No, gas doesn't smell pleasant; it smells unpleasant</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="99.8" duration="2.933">
+			<person>Teacher</person>
+			<text>Do flowers smell unpleasant?</text>
+			<image/>
+		</item>
+		<item id="1" start="102.733" duration="4.367">
+			<person>Student</person>
+			<text>No, flowers don't smell unpleasant; they smell pleasant</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="107.133" duration="3.567">
+			<person>Teacher</person>
+			<text>Do most people think work is a pleasant thing?</text>
+			<image/>
+		</item>
+		<item id="1" start="110.7" duration="5.9">
+			<person>Student</person>
+			<text>No, most people don't think work is a pleasant thing; they think it's an unpleasant thing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="116.633" duration="2.7">
+			<person>Teacher</person>
+			<text>Is Paris an unpleasant city?</text>
+			<image/>
+		</item>
+		<item id="1" start="119.367" duration="4.9">
+			<person>Student</person>
+			<text>No, Paris isn't an unpleasant city; it's a pleasant city</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="124.267" duration="1.6">
+			<person>Teacher</person>
+			<text>glass</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="125.9" duration="1.5">
+			<person>Teacher</person>
+			<text>cup</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="127.4" duration="2.433">
+			<person>Teacher</person>
+			<text>What do we drink wine from?</text>
+			<image/>
+		</item>
+		<item id="1" start="129.867" duration="2.8">
+			<person>Student</person>
+			<text>We drink wine from a glass</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="132.667" duration="3.033">
+			<person>Teacher</person>
+			<text>Do we drink coffee from a glass?</text>
+			<image/>
+		</item>
+		<item id="1" start="135.7" duration="4.933">
+			<person>Student</person>
+			<text>No, we don't drink coffee from a glass; we drink it from a cup</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="140.667" duration="2.1">
+			<person>Teacher</person>
+			<text>longer ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="142.767" duration="2.233">
+			<person>Teacher</person>
+			<text>shorter ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="145.033" duration="3.533">
+			<person>Teacher</person>
+			<text>Is the table longer than the room?</text>
+			<image/>
+		</item>
+		<item id="1" start="148.6" duration="5.4">
+			<person>Student</person>
+			<text>No, the table isn't longer than the room; it's shorter than the room</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="154.0" duration="2.1">
+			<person>Teacher</person>
+			<text>higher ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="156.133" duration="2.0">
+			<person>Teacher</person>
+			<text>lower ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="158.167" duration="2.8">
+			<person>Teacher</person>
+			<text>Is the table higher than the door?</text>
+			<image/>
+		</item>
+		<item id="1" start="161.0" duration="4.6">
+			<person>Student</person>
+			<text>No, the table isn't higher than the door; it's lower than the door</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="165.6" duration="2.0">
+			<person>Teacher</person>
+			<text>larger ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="167.6" duration="2.2">
+			<person>Teacher</person>
+			<text>smaller ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="169.8" duration="3.467">
+			<person>Teacher</person>
+			<text>Is a village larger than a city?</text>
+			<image/>
+		</item>
+		<item id="1" start="173.3" duration="5.5">
+			<person>Student</person>
+			<text>No, a village isn't larger than a city; it's smaller than a city</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="178.833" duration="2.0">
+			<person>Teacher</person>
+			<text>the longest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="180.867" duration="1.467">
+			<person>Teacher</person>
+			<text>river</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="182.333" duration="1.7">
+			<person>Teacher</person>
+			<text>Nile</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="184.067" duration="1.733">
+			<person>Teacher</person>
+			<text>world</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="185.8" duration="3.233">
+			<person>Teacher</person>
+			<text>Which is the longest street in this town?</text>
+			<image/>
+		</item>
+		<item id="1" start="189.067" duration="3.733">
+			<person>Student</person>
+			<text>Oxford Street is the longest street in this town</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="192.8" duration="3.067">
+			<person>Teacher</person>
+			<text>Which is the longest river in the world?</text>
+			<image/>
+		</item>
+		<item id="1" start="195.9" duration="3.267">
+			<person>Student</person>
+			<text>The Nile is the longest river in the world</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="199.167" duration="1.9">
+			<person>Teacher</person>
+			<text>the highest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="201.1" duration="1.767">
+			<person>Teacher</person>
+			<text>mountain</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="202.867" duration="1.8">
+			<person>Teacher</person>
+			<text>Everest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="204.7" duration="1.667">
+			<person>Teacher</person>
+			<text>Mount</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="206.367" duration="1.7">
+			<person>Teacher</person>
+			<text>Mt</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="208.1" duration="3.1">
+			<person>Teacher</person>
+			<text>Which is the highest mountain in the world?</text>
+			<image/>
+		</item>
+		<item id="1" start="211.2" duration="3.9">
+			<person>Student</person>
+			<text>Mt Everest is the highest mountain in the world</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="215.133" duration="1.8">
+			<person>Teacher</person>
+			<text>the largest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="216.967" duration="1.667">
+			<person>Teacher</person>
+			<text>Tokyo</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="218.633" duration="3.033">
+			<person>Teacher</person>
+			<text>Which is the largest city in Japan?</text>
+			<image/>
+		</item>
+		<item id="1" start="221.7" duration="3.567">
+			<person>Student</person>
+			<text>Tokyo's the largest city in Japan</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="225.267" duration="1.5">
+			<person>Teacher</person>
+			<text>date</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="226.8" duration="2.3">
+			<person>Teacher</person>
+			<text>What's the date today?</text>
+			<image/>
+		</item>
+		<item id="1" start="229.1" duration="7.133">
+			<person>Student</person>
+			<text>The date today is the 20th of January 2012</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="236.233" duration="2.533">
+			<person>Teacher</person>
+			<text>What was the date yesterday?</text>
+			<image/>
+		</item>
+		<item id="1" start="238.8" duration="5.333">
+			<person>Student</person>
+			<text>The date yesterday was the 19th of January 2012</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="244.133" duration="2.667">
+			<person>Teacher</person>
+			<text>What will the date tomorrow be?</text>
+			<image/>
+		</item>
+		<item id="1" start="246.8" duration="6.1">
+			<person>Student</person>
+			<text>The date tomorrow will be the 21st of January 2012</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="252.9" duration="1.533">
+			<person>Teacher</person>
+			<text>light</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="254.467" duration="1.367">
+			<person>Teacher</person>
+			<text>heavy</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="255.833" duration="2.267">
+			<person>Teacher</person>
+			<text>Is the table light?</text>
+			<image/>
+		</item>
+		<item id="1" start="258.133" duration="3.767">
+			<person>Student</person>
+			<text>No, the table isn't light; it's heavy</text>
+			<image/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0" start="261.9" duration="3.6">
+			<person>Teacher</person>
+			<text>Is this piece of paper heavier than the table?</text>
+			<image/>
+		</item>
+		<item id="1" start="265.5" duration="6.167">
+			<person>Student</person>
+			<text>No, this piece of paper isn't heavier than the table; it's lighter than the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0" start="271.7" duration="3.233">
+			<person>Teacher</person>
+			<text>Who's the lightest person in your family?</text>
+			<image/>
+		</item>
+		<item id="1" start="274.933" duration="4.1">
+			<person>Student</person>
+			<text>My mother is the lightest person in my family</text>
+			<image/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0" start="279.067" duration="3.067">
+			<person>Teacher</person>
+			<text>Who's the heaviest person in your family?</text>
+			<image/>
+		</item>
+		<item id="1" start="282.133" duration="3.567">
+			<person>Student</person>
+			<text>My brother's the heaviest person in my family</text>
+			<image/>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0" start="285.733" duration="1.333">
+			<person>Teacher</person>
+			<text>shop</text>
+			<image/>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0" start="287.067" duration="3.867">
+			<person>Teacher</person>
+			<text>Which is the largest shop in this town?</text>
+			<image/>
+		</item>
+		<item id="1" start="290.933" duration="3.8">
+			<person>Student</person>
+			<text>Harrods is the largest shop in this town</text>
+			<image/>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0" start="294.767" duration="3.733">
+			<person>Teacher</person>
+			<text>Are there any shops in the street where you live?</text>
+			<image/>
+		</item>
+		<item id="1" start="298.5" duration="3.667">
+			<person>Student</person>
+			<text>Yes, there are some shops in the street where I live</text>
+			<image/>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0" start="302.2" duration="1.6">
+			<person>Teacher</person>
+			<text>ball</text>
+			<image/>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0" start="303.8" duration="2.533">
+			<person>Teacher</person>
+			<text>What do we play football with?</text>
+			<image/>
+		</item>
+		<item id="1" start="306.367" duration="2.6">
+			<person>Student</person>
+			<text>We play football with a ball</text>
+			<image/>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0" start="308.967" duration="2.767">
+			<person>Teacher</person>
+			<text>Can we play tennis without a ball?</text>
+			<image/>
+		</item>
+		<item id="1" start="311.733" duration="5.433">
+			<person>Student</person>
+			<text>No, we can't play tennis without a ball; we must have a ball to play tennis</text>
+			<image/>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0" start="317.2" duration="1.6">
+			<person>Teacher</person>
+			<text>bedroom</text>
+			<image/>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0" start="318.8" duration="1.667">
+			<person>Teacher</person>
+			<text>get up</text>
+			<image/>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0" start="320.467" duration="1.7">
+			<person>Teacher</person>
+			<text>sleep</text>
+			<image/>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0" start="322.167" duration="2.6">
+			<person>Teacher</person>
+			<text>What time do you go to bed at night?</text>
+			<image/>
+		</item>
+		<item id="1" start="324.8" duration="3.4">
+			<person>Student</person>
+			<text>I go to bed at 11:00 at night</text>
+			<image/>
+		</item>
+	</item>
+	<item id="73">
+		<item id="0" start="328.2" duration="2.5">
+			<person>Teacher</person>
+			<text>What time do you get up in the morning?</text>
+			<image/>
+		</item>
+		<item id="1" start="330.7" duration="3.5">
+			<person>Student</person>
+			<text>I get up at 6:00 in the morning</text>
+			<image/>
+		</item>
+	</item>
+	<item id="74">
+		<item id="0" start="334.233" duration="2.7">
+			<person>Teacher</person>
+			<text>How long do you sleep at night?</text>
+			<image/>
+		</item>
+		<item id="1" start="336.967" duration="3.5">
+			<person>Student</person>
+			<text>I sleep about 7 hours at night</text>
+			<image/>
+		</item>
+	</item>
+	<item id="75">
+		<item id="0" start="340.467" duration="3.2">
+			<person>Teacher</person>
+			<text>What color are the walls of your bedroom?</text>
+			<image/>
+		</item>
+		<item id="1" start="343.667" duration="3.1">
+			<person>Student</person>
+			<text>The walls of my bedroom are white</text>
+			<image/>
+		</item>
+	</item>
+	<item id="76">
+		<item id="0" start="346.767" duration="3.167">
+			<person>Teacher</person>
+			<text>Are you the first to get up in your family?</text>
+			<image/>
+		</item>
+		<item id="1" start="349.967" duration="3.5">
+			<person>Student</person>
+			<text>No, I'm not the first to get up in my family</text>
+			<image/>
+		</item>
+	</item>
+	<item id="77">
+		<item id="0" start="353.5" duration="2.067">
+			<person>Teacher</person>
+			<text>Do you sleep a lot?</text>
+			<image/>
+		</item>
+		<item id="1" start="355.567" duration="3.933">
+			<person>Student</person>
+			<text>No, I don't sleep a lot; I sleep little</text>
+			<image/>
+		</item>
+	</item>
+	<item id="78">
+		<item id="0" start="359.5" duration="2.733">
+			<person>Teacher</person>
+			<text>Do you sleep longer than your parents?</text>
+			<image/>
+		</item>
+		<item id="1" start="362.267" duration="5.867">
+			<person>Student</person>
+			<text>No, I don't sleep longer than my parents; I sleep less than my parents</text>
+			<image/>
+		</item>
+	</item>
 </items>

@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation>Урок 26</translation>
+ </item>
+ <item id="1">
+  <translation>много</translation>
+ </item>
+ <item id="2">
+  <translation>и ... и ...</translation>
+ </item>
+ <item id="3">
+  <translation>Что мы можем использовать вместо &quot;many&quot; и &quot;much&quot;?</translation>
+ </item>
+ <item id="3">
+  <translation>Мы можем использовать &quot;a lot of&quot; вместо &quot;many&quot; и &quot;much&quot;</translation>
+ </item>
+ <item id="4">
+  <translation>В маленькой деревне - много людей?</translation>
+ </item>
+ <item id="4">
+  <translation>Нет, в маленькой деревне не много людей; в маленькой деревне - мало людей</translation>
+ </item>
+ <item id="5">
+  <translation>Англичане пьют много кофе?</translation>
+ </item>
+ <item id="5">
+  <translation>Нет, англичане не пьют много кофе; они пьют много чая</translation>
+ </item>
+ <item id="6">
+  <translation>Тебе нравится видеть комнату с множеством цветов в ней?</translation>
+ </item>
+ <item id="6">
+  <translation>Да, мне нравится видеть комнату с множеством цветов в ней</translation>
+ </item>
+ <item id="7">
+  <translation>Ты кладешь много масла на хлеб?</translation>
+ </item>
+ <item id="7">
+  <translation>Да, я кладу много масла на хлеб</translation>
+ </item>
+ <item id="8">
+  <translation>Мы используем наши рты и для еды, и для речи?</translation>
+ </item>
+ <item id="8">
+  <translation>Да, мы используем наши рты и для еды, и для речи</translation>
+ </item>
+ <item id="9">
+  <translation>Ты можешь говорить и по-китайски, и по-итальянски?</translation>
+ </item>
+ <item id="9">
+  <translation>Нет, я не могу говорить и по-китайски, и по-итальянски; я говорю только по-итальянски</translation>
+ </item>
+ <item id="10">
+  <translation>много</translation>
+ </item>
+ <item id="11">
+  <translation>Ты много ходишь в кино?</translation>
+ </item>
+ <item id="11">
+  <translation>Да, я много хожу в кино</translation>
+ </item>
+ <item id="12">
+  <translation>Ты много читаешь?</translation>
+ </item>
+ <item id="12">
+  <translation>Да, я много читаю</translation>
+ </item>
+ <item id="13">
+  <translation>Ты много ешь?</translation>
+ </item>
+ <item id="13">
+  <translation>Да, я много ем</translation>
+ </item>
+ <item id="14">
+  <translation>Она много ест?</translation>
+ </item>
+ <item id="14">
+  <translation>Да, она много ест</translation>
+ </item>
+ <item id="15">
+  <translation>Ты используешь свой мобильный телефон много?</translation>
+ </item>
+ <item id="15">
+  <translation>Да, я много использую свой мобильный телефон</translation>
+ </item>
+ <item id="16">
+  <translation>если</translation>
+ </item>
+ <item id="17">
+  <translation>должен</translation>
+ </item>
+ <item id="18">
+  <translation>лбо ... либо</translation>
+ </item>
+ <item id="19">
+  <translation>бар</translation>
+ </item>
+ <item id="20">
+  <translation>паб</translation>
+ </item>
+ <item id="21">
+  <translation>рестроран</translation>
+ </item>
+ <item id="22">
+  <translation>Ты хочишь сейчас что-нибудь съесть?</translation>
+ </item>
+ <item id="22">
+  <translation>Да, я сейчас хочу что-нибудь съесть</translation>
+ </item>
+ <item id="23">
+  <translation>Если она хочет что-то съесть, куда должны она пойти?</translation>
+ </item>
+ <item id="23">
+  <translation>Если она хочет что-то съесть, она должны пойти либо домой, либо в ресторан</translation>
+ </item>
+ <item id="24">
+  <translation>Ты хочешь сейчас что-нибудь выпить?</translation>
+ </item>
+ <item id="24">
+  <translation>Да, я хочу сейчас что-то выпить</translation>
+ </item>
+ <item id="25">
+  <translation>/если она хочет что-то выпить, куда должна она пойти?</translation>
+ </item>
+ <item id="25">
+  <translation>Если она хочет что-то выпить, она должна пойти либо домой, либо в бар или паб</translation>
+ </item>
+ <item id="26">
+  <translation>Если ты хочешь поесть в ресторане, приблизительно сколько денег у тебя должно быть?</translation>
+ </item>
+ <item id="26">
+  <translation>Если я хочу поесть в ресторане, я должен иметь около 25-ти фунтов</translation>
+ </item>
+ <item id="27">
+  <translation>Если ты хочешь услышать людей, говорящих на валлийском, в какую страну ты должен пойти?</translation>
+ </item>
+ <item id="27">
+  <translation>Если я хочу слышать людей, говорящих на валлийском, я должен пойти в Уэльс</translation>
+ </item>
+ <item id="28">
+  <translation>играть (на, в)</translation>
+ </item>
+ <item id="29">
+  <translation>фортепиано</translation>
+ </item>
+ <item id="30">
+  <translation>гитара</translation>
+ </item>
+ <item id="31">
+  <translation>футбол</translation>
+ </item>
+ <item id="32">
+  <translation>теннис</translation>
+ </item>
+ <item id="33">
+  <translation>Ты умеешь играть на фортепиано?</translation>
+ </item>
+ <item id="33">
+  <translation>Да, я умею играть на фортепиано</translation>
+ </item>
+ <item id="34">
+  <translation>Ты умеешь играть в футбол?</translation>
+ </item>
+ <item id="34">
+  <translation>Да, я умею играть в футбол</translation>
+ </item>
+ <item id="35">
+  <translation>утро</translation>
+ </item>
+ <item id="36">
+  <translation>день</translation>
+ </item>
+ <item id="37">
+  <translation>вечер</translation>
+ </item>
+ <item id="38">
+  <translation>ночь</translation>
+ </item>
+ <item id="39">
+  <translation>кровать</translation>
+ </item>
+ <item id="40">
+  <translation>ложиться спать</translation>
+ </item>
+ <item id="41">
+  <translation>Что мы говорим людям между шестью часами утра и двенадцатью часами пополудни?</translation>
+ </item>
+ <item id="41">
+  <translation>Мы говорим &quot;Доброе утро&quot; людям между шестью часами утар и двенадцатью часами пополудни</translation>
+ </item>
+ <item id="42">
+  <translation>Что мы говорим людям между двенадцатью часами пополудни и пятью часами пополудни?</translation>
+ </item>
+ <item id="42">
+  <translation>Мы говорим &quot;Добрый день&quot; людям между двенадцатью часами пополудни и пятью часами пополудни</translation>
+ </item>
+ <item id="43">
+  <translation>Что мы говорим людям между пятью часами пополудни и десятью часами пополудни?</translation>
+ </item>
+ <item id="43">
+  <translation>Мы говорим &quot;Добрый вечер&quot; людям между пятью часами пополудни и десятью часами пополудни</translation>
+ </item>
+ <item id="44">
+  <translation>И что мы говорим, когда мы прощаемся после десяти часов вечера или когда мы идем спать?</translation>
+ </item>
+ <item id="44">
+  <translation>Мы говорим &quot;Доброй ночи&quot;, когда мы прощаемся после десяти часов пополудни, или когда мы идем спать</translation>
+ </item>
+ <item id="45">
+  <translation>Ты приходишь сюда утром, днем, вечером или ночью?</translation>
+ </item>
+ <item id="45">
+  <translation>Я прихожу сюдя утром, а не днем, вечером или ночью</translation>
+ </item>
+</items>

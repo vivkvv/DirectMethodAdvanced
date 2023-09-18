@@ -151,7 +151,7 @@
 	<item id="14">
 		<item id="0" start="91.8" duration="2.667">
 			<person>Teacher</person>
-			<text>Does she eat a lot?</text>
+			<text>Does she eats a lot?</text>
 			<image/>
 		</item>
 		<item id="1" start="94.467" duration="3.1">
@@ -447,11 +447,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>We use the present simple for an action that we do generally.\nFor example, I generally speak German.\nWith the present simple, we use the auxiliary verb do in questions and negative sentences, but not in positive sentences.\nFor example, Do you speak French?\nYes, I speak French.\nDo you speak Japanese?\nNo, I do not speak Japanese.\nShe can speak Chinese.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>We use the present simple for an action that we do generally.\nFor example, I generally speak German.\nWith the present simple, we use the auxiliary verb do in questions and negative sentences, but not in positive sentences.\nFor example, Do you speak French?\nYes, I speak French.\nDo you speak Japanese?\nNo, I do not speak Japanese.\nShe can speak Chinese.</text>
+	</Dictation>	
 </items>
