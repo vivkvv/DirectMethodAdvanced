@@ -1,0 +1,396 @@
+<?xml version="1.0" ?>
+<items>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>вокзал</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>миллионер</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>очень</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>веселый</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>счастливый</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>несчастный</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation>грустный</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>вместе</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>врозь</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>отдельно от, кроме</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>лучше ... чем</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>хуже, чем</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>полюс</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation>заглавная буква</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>самый лучший</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>самый худший</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>игра</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>регби</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>гольф</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>баскетбол</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+</items>

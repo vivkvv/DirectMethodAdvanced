@@ -1,468 +1,597 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="284.567">
- <item id="0" start="0.1" duration="2.433">
-  <person>Teacher</person>
-  <text>Lesson 29</text>
-  <image/>
- </item>
- <item id="1" start="2.533" duration="2.233">
-  <person>Teacher</person>
-  <text>as ... as</text>
-  <image/>
- </item>
- <item id="2" start="4.8" duration="2.533">
-  <person>Teacher</person>
-  <text>not as ... as</text>
-  <image/>
- </item>
- <item id="3" start="7.333" duration="2.5">
-  <person>Teacher</person>
-  <text>not so ... as</text>
-  <image/>
- </item>
- <item id="4" start="9.867" duration="1.567">
-  <person>Teacher</person>
-  <text>Thames</text>
-  <image/>
- </item>
- <item id="5" start="11.433" duration="1.6">
-  <person>Teacher</person>
-  <text>America</text>
-  <image/>
- </item>
- <item id="6" start="13.033" duration="2.933">
-  <person>Teacher</person>
-  <text>Is the table as high as the door?</text>
-  <image/>
- </item>
- <item id="6" start="15.967" duration="4.867">
-  <person>Student</person>
-  <text>No, the table isn't as high as the door; it's lower than the door</text>
-  <image/>
- </item>
- <item id="7" start="20.867" duration="3.4">
-  <person>Teacher</person>
-  <text>Is this building as high as Mt Everest?</text>
-  <image/>
- </item>
- <item id="7" start="24.267" duration="5.7">
-  <person>Student</person>
-  <text>No, this building isn't as high as Mt. Everest; it's lower than Mt. Everest</text>
-  <image/>
- </item>
- <item id="8" start="30.0" duration="3.4">
-  <person>Teacher</person>
-  <text>Is the River Thames as long as the Nile?</text>
-  <image/>
- </item>
- <item id="8" start="33.4" duration="5.433">
-  <person>Student</person>
-  <text>No, the River Thames isn't as long as the Nile; it's shorter than the Nile</text>
-  <image/>
- </item>
- <item id="9" start="38.867" duration="3.2">
-  <person>Teacher</person>
-  <text>Is Spain as large as South America?</text>
-  <image/>
- </item>
- <item id="9" start="42.067" duration="6.0">
-  <person>Student</person>
-  <text>No, Spain isn't as large as South America; it's smaller than South America</text>
-  <image/>
- </item>
- <item id="10" start="48.067" duration="1.667">
-  <person>Teacher</person>
-  <text>season</text>
-  <image/>
- </item>
- <item id="11" start="49.733" duration="1.7">
-  <person>Teacher</person>
-  <text>spring</text>
-  <image/>
- </item>
- <item id="12" start="51.433" duration="1.667">
-  <person>Teacher</person>
-  <text>summer</text>
-  <image/>
- </item>
- <item id="13" start="53.133" duration="1.467">
-  <person>Teacher</person>
-  <text>autumn</text>
-  <image/>
- </item>
- <item id="14" start="54.6" duration="1.6">
-  <person>Teacher</person>
-  <text>winter</text>
-  <image/>
- </item>
- <item id="15" start="56.2" duration="3.733">
-  <person>Teacher</person>
-  <text>Tell me the names of the four seasons of the year, please</text>
-  <image/>
- </item>
- <item id="15" start="59.967" duration="7.2">
-  <person>Student</person>
-  <text>The names of the four seasons of the year are spring, summer, autumn and winter</text>
-  <image/>
- </item>
- <item id="16" start="67.2" duration="2.4">
-  <person>Teacher</person>
-  <text>What season are we in now?</text>
-  <image/>
- </item>
- <item id="16" start="69.6" duration="2.3">
-  <person>Student</person>
-  <text>We're in winter now</text>
-  <image/>
- </item>
- <item id="17" start="71.9" duration="2.467">
-  <person>Teacher</person>
-  <text>What was last season?</text>
-  <image/>
- </item>
- <item id="17" start="74.4" duration="2.967">
-  <person>Student</person>
-  <text>Last season was autumn</text>
-  <image/>
- </item>
- <item id="18" start="77.367" duration="2.633">
-  <person>Teacher</person>
-  <text>What will next season be?</text>
-  <image/>
- </item>
- <item id="18" start="80.0" duration="3.0">
-  <person>Student</person>
-  <text>Next season will be spring</text>
-  <image/>
- </item>
- <item id="19" start="83.0" duration="1.767">
-  <person>Teacher</person>
-  <text>precede</text>
-  <image/>
- </item>
- <item id="20" start="84.767" duration="1.567">
-  <person>Teacher</person>
-  <text>follow</text>
-  <image/>
- </item>
- <item id="21" start="86.367" duration="2.7">
-  <person>Teacher</person>
-  <text>Which day precedes Wednesday?</text>
-  <image/>
- </item>
- <item id="21" start="89.1" duration="3.1">
-  <person>Student</person>
-  <text>Tuesday precedes Wednesday</text>
-  <image/>
- </item>
- <item id="22" start="92.2" duration="2.833">
-  <person>Teacher</person>
-  <text>Does Thursday precede Wednesday?</text>
-  <image/>
- </item>
- <item id="22" start="95.067" duration="4.533">
-  <person>Student</person>
-  <text>No, Thursday doesn't precede Wednesday; it follows it</text>
-  <image/>
- </item>
- <item id="23" start="99.633" duration="3.1">
-  <person>Teacher</person>
-  <text>Which number follows the number 13?</text>
-  <image/>
- </item>
- <item id="23" start="102.733" duration="3.6">
-  <person>Student</person>
-  <text>14 follows the number 13</text>
-  <image/>
- </item>
- <item id="24" start="106.333" duration="4.7">
-  <person>Teacher</person>
-  <text>Do the students precede the teacher out of the classroom after the lesson?</text>
-  <image/>
- </item>
- <item id="24" start="111.033" duration="6.8">
-  <person>Student</person>
-  <text>No, the students don't precede the teacher out of the classroom after the lesson, they follow him</text>
-  <image/>
- </item>
- <item id="25" start="117.833" duration="4.633">
-  <person>Teacher</person>
-  <text>Does the teacher precede the students into the classroom before the lesson?</text>
-  <image/>
- </item>
- <item id="25" start="122.5" duration="6.9">
-  <person>Student</person>
-  <text>No, the teacher doesn't precede the students into the classroom before the lesson; he follows them</text>
-  <image/>
- </item>
- <item id="26" start="129.4" duration="1.5">
-  <person>Teacher</person>
-  <text>when</text>
-  <image/>
- </item>
- <item id="27" start="130.9" duration="2.3">
-  <person>Teacher</person>
-  <text>When do you have your breakfast?</text>
-  <image/>
- </item>
- <item id="27" start="133.233" duration="4.033">
-  <person>Student</person>
-  <text>I have my breakfast at 8:00 in the morning</text>
-  <image/>
- </item>
- <item id="28" start="137.267" duration="2.3">
-  <person>Teacher</person>
-  <text>When does the lesson begin?</text>
-  <image/>
- </item>
- <item id="28" start="139.567" duration="3.3">
-  <person>Student</person>
-  <text>The lesson begins at 2:30</text>
-  <image/>
- </item>
- <item id="29" start="142.9" duration="2.533">
-  <person>Teacher</person>
-  <text>When do you get up in the morning?</text>
-  <image/>
- </item>
- <item id="29" start="145.467" duration="3.2">
-  <person>Student</person>
-  <text>I get up at 7:00 in the morning</text>
-  <image/>
- </item>
- <item id="30" start="148.667" duration="1.767">
-  <person>Teacher</person>
-  <text>while</text>
-  <image/>
- </item>
- <item id="31" start="150.467" duration="1.733">
-  <person>Teacher</person>
-  <text>whilst</text>
-  <image/>
- </item>
- <item id="32" start="152.2" duration="3.667">
-  <person>Teacher</person>
-  <text>What other words can we use instead of &quot;whereas&quot;?</text>
-  <image/>
- </item>
- <item id="32" start="155.9" duration="4.433">
-  <person>Student</person>
-  <text>We can use &quot;while&quot; and &quot;whilst&quot; instead of &quot;whereas&quot;</text>
-  <image/>
- </item>
- <item id="33" start="160.333" duration="3.233">
-  <person>Teacher</person>
-  <text>Which word do we use the most when we speak?</text>
-  <image/>
- </item>
- <item id="33" start="163.6" duration="4.4">
-  <person>Student</person>
-  <text>We generally use &quot;whereas&quot; the most when we speak</text>
-  <image/>
- </item>
- <item id="34" start="168.0" duration="1.5">
-  <person>Teacher</person>
-  <text>old</text>
-  <image/>
- </item>
- <item id="35" start="169.533" duration="1.367">
-  <person>Teacher</person>
-  <text>new</text>
-  <image/>
- </item>
- <item id="36" start="170.9" duration="3.433">
-  <person>Teacher</person>
-  <text>Is this an old building we're in at the moment?</text>
-  <image/>
- </item>
- <item id="36" start="174.367" duration="4.367">
-  <person>Student</person>
-  <text>Yes, this is an old building we're in at the moment</text>
-  <image/>
- </item>
- <item id="37" start="178.733" duration="2.067">
-  <person>Teacher</person>
-  <text>Are your shoes new?</text>
-  <image/>
- </item>
- <item id="37" start="180.8" duration="3.467">
-  <person>Student</person>
-  <text>No, my shoes aren't new; they're old</text>
-  <image/>
- </item>
- <item id="38" start="184.3" duration="1.733">
-  <person>Teacher</person>
-  <text>older ... than</text>
-  <image/>
- </item>
- <item id="39" start="186.067" duration="1.6">
-  <person>Teacher</person>
-  <text>newer ... than</text>
-  <image/>
- </item>
- <item id="40" start="187.667" duration="2.8">
-  <person>Teacher</person>
-  <text>Is your blouse older than your shoes?</text>
-  <image/>
- </item>
- <item id="40" start="190.5" duration="5.0">
-  <person>Student</person>
-  <text>No, my blouse isn't older than my shoes; it's newer than my shoes</text>
-  <image/>
- </item>
- <item id="41" start="195.5" duration="1.7">
-  <person>Teacher</person>
-  <text>the oldest</text>
-  <image/>
- </item>
- <item id="42" start="197.233" duration="1.6">
-  <person>Teacher</person>
-  <text>the newest</text>
-  <image/>
- </item>
- <item id="43" start="198.867" duration="2.733">
-  <person>Teacher</person>
-  <text>What's the newest thing you're wearing?</text>
-  <image/>
- </item>
- <item id="43" start="201.6" duration="3.4">
-  <person>Student</person>
-  <text>My hat is the newest thing I'm wearing</text>
-  <image/>
- </item>
- <item id="44" start="205.0" duration="1.4">
-  <person>Teacher</person>
-  <text>old</text>
-  <image/>
- </item>
- <item id="45" start="206.433" duration="1.467">
-  <person>Teacher</person>
-  <text>young</text>
-  <image/>
- </item>
- <item id="46" start="207.933" duration="3.7">
-  <person>Teacher</person>
-  <text>What's the difference between &quot;new&quot; and &quot;young&quot;?</text>
-  <image/>
- </item>
- <item id="46" start="211.633" duration="8.167">
-  <person>Student</person>
-  <text>The difference between &quot;new&quot; and &quot;young&quot; is that we use &quot;new&quot; for things, whereas we use &quot;young&quot; for people</text>
-  <image/>
- </item>
- <item id="47" start="219.8" duration="3.067">
-  <person>Teacher</person>
-  <text>Is Miss Brown an old woman?</text>
-  <image/>
- </item>
- <item id="47" start="222.9" duration="4.833">
-  <person>Student</person>
-  <text>No, Miss Brown isn't an old woman; she's a young girl</text>
-  <image/>
- </item>
- <item id="48" start="227.733" duration="1.933">
-  <person>Teacher</person>
-  <text>younger ... than</text>
-  <image/>
- </item>
- <item id="49" start="229.667" duration="2.4">
-  <person>Teacher</person>
-  <text>Are you older than your mother?</text>
-  <image/>
- </item>
- <item id="49" start="232.1" duration="5.033">
-  <person>Student</person>
-  <text>No, I'm not older than my mother; I'm younger than my mother</text>
-  <image/>
- </item>
- <item id="50" start="237.167" duration="1.9">
-  <person>Teacher</person>
-  <text>the youngest</text>
-  <image/>
- </item>
- <item id="51" start="239.067" duration="2.6">
-  <person>Teacher</person>
-  <text>Who's the youngest in your family?</text>
-  <image/>
- </item>
- <item id="51" start="241.7" duration="3.4">
-  <person>Student</person>
-  <text>My brother is the youngest in my family</text>
-  <image/>
- </item>
- <item id="52" start="245.1" duration="1.933">
-  <person>Teacher</person>
-  <text>put ... on</text>
-  <image/>
- </item>
- <item id="53" start="247.067" duration="1.833">
-  <person>Teacher</person>
-  <text>take ... off</text>
-  <image/>
- </item>
- <item id="54" start="248.933" duration="1.667">
-  <person>Teacher</person>
-  <text>go out</text>
-  <image/>
- </item>
- <item id="55" start="250.633" duration="1.8">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="55" start="252.467" duration="2.933">
-  <person>Student</person>
-  <text>You're putting your hand on the table</text>
-  <image/>
- </item>
- <item id="56" start="255.4" duration="1.833">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="56" start="257.267" duration="3.2">
-  <person>Student</person>
-  <text>You're taking your hand off the table</text>
-  <image/>
- </item>
- <item id="57" start="260.467" duration="1.867">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="57" start="262.333" duration="2.433">
-  <person>Student</person>
-  <text>You're putting your hat on</text>
-  <image/>
- </item>
- <item id="58" start="264.767" duration="1.9">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="58" start="266.7" duration="2.5">
-  <person>Student</person>
-  <text>You're taking your hat off</text>
-  <image/>
- </item>
- <item id="59" start="269.2" duration="3.167">
-  <person>Teacher</person>
-  <text>What do we put on when we go out in winter?</text>
-  <image/>
- </item>
- <item id="59" start="272.367" duration="4.3">
-  <person>Student</person>
-  <text>We put our hats and coats on when we go out in winter</text>
-  <image/>
- </item>
- <item id="60" start="276.7" duration="3.233">
-  <person>Teacher</person>
-  <text>What do we take off when we come into a building?</text>
-  <image/>
- </item>
- <item id="60" start="279.967" duration="4.6">
-  <person>Student</person>
-  <text>We take our hats and coats off when we come into a building</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.1" duration="2.433">
+			<person>Teacher</person>
+			<text>Lesson 29</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.533" duration="2.233">
+			<person>Teacher</person>
+			<text>as ... as</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.8" duration="2.533">
+			<person>Teacher</person>
+			<text>not as ... as</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="7.333" duration="2.5">
+			<person>Teacher</person>
+			<text>not so ... as</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="9.867" duration="1.567">
+			<person>Teacher</person>
+			<text>Thames</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="11.433" duration="1.6">
+			<person>Teacher</person>
+			<text>America</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="13.033" duration="2.933">
+			<person>Teacher</person>
+			<text>Is the table as high as the door?</text>
+			<image/>
+		</item>
+		<item id="1" start="15.967" duration="4.867">
+			<person>Student</person>
+			<text>No, the table isn't as high as the door; it's lower than the door</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="20.867" duration="3.4">
+			<person>Teacher</person>
+			<text>Is this building as high as Mt Everest?</text>
+			<image/>
+		</item>
+		<item id="1" start="24.267" duration="5.7">
+			<person>Student</person>
+			<text>No, this building isn't as high as Mt. Everest; it's lower than Mt. Everest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="30.0" duration="3.4">
+			<person>Teacher</person>
+			<text>Is the River Thames as long as the Nile?</text>
+			<image/>
+		</item>
+		<item id="1" start="33.4" duration="5.433">
+			<person>Student</person>
+			<text>No, the River Thames isn't as long as the Nile; it's shorter than the Nile</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="38.867" duration="3.2">
+			<person>Teacher</person>
+			<text>Is Spain as large as South America?</text>
+			<image/>
+		</item>
+		<item id="1" start="42.067" duration="6.0">
+			<person>Student</person>
+			<text>No, Spain isn't as large as South America; it's smaller than South America</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="48.067" duration="1.667">
+			<person>Teacher</person>
+			<text>season</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="49.733" duration="1.7">
+			<person>Teacher</person>
+			<text>spring</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="51.433" duration="1.667">
+			<person>Teacher</person>
+			<text>summer</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="53.133" duration="1.467">
+			<person>Teacher</person>
+			<text>autumn</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="54.6" duration="1.6">
+			<person>Teacher</person>
+			<text>winter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="56.2" duration="3.733">
+			<person>Teacher</person>
+			<text>Tell me the names of the four seasons of the year, please</text>
+			<image/>
+		</item>
+		<item id="1" start="59.967" duration="7.2">
+			<person>Student</person>
+			<text>The names of the four seasons of the year are spring, summer, autumn and winter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="67.2" duration="2.4">
+			<person>Teacher</person>
+			<text>What season are we in now?</text>
+			<image/>
+		</item>
+		<item id="1" start="69.6" duration="2.3">
+			<person>Student</person>
+			<text>We're in winter now</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="71.9" duration="2.467">
+			<person>Teacher</person>
+			<text>What was last season?</text>
+			<image/>
+		</item>
+		<item id="1" start="74.4" duration="2.967">
+			<person>Student</person>
+			<text>Last season was autumn</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="77.367" duration="2.633">
+			<person>Teacher</person>
+			<text>What will next season be?</text>
+			<image/>
+		</item>
+		<item id="1" start="80.0" duration="3.0">
+			<person>Student</person>
+			<text>Next season will be spring</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="83.0" duration="1.767">
+			<person>Teacher</person>
+			<text>precede</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="84.767" duration="1.567">
+			<person>Teacher</person>
+			<text>follow</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="86.367" duration="2.7">
+			<person>Teacher</person>
+			<text>Which day precedes Wednesday?</text>
+			<image/>
+		</item>
+		<item id="1" start="89.1" duration="3.1">
+			<person>Student</person>
+			<text>Tuesday precedes Wednesday</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="92.2" duration="2.833">
+			<person>Teacher</person>
+			<text>Does Thursday precede Wednesday?</text>
+			<image/>
+		</item>
+		<item id="1" start="95.067" duration="4.533">
+			<person>Student</person>
+			<text>No, Thursday doesn't precede Wednesday; it follows it</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="99.633" duration="3.1">
+			<person>Teacher</person>
+			<text>Which number follows the number 13?</text>
+			<image/>
+		</item>
+		<item id="1" start="102.733" duration="3.6">
+			<person>Student</person>
+			<text>14 follows the number 13</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="106.333" duration="4.7">
+			<person>Teacher</person>
+			<text>Do the students precede the teacher out of the classroom after the lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="111.033" duration="6.8">
+			<person>Student</person>
+			<text>No, the students don't precede the teacher out of the classroom after the lesson, they follow him</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="117.833" duration="4.633">
+			<person>Teacher</person>
+			<text>Does the teacher precede the students into the classroom before the lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="122.5" duration="6.9">
+			<person>Student</person>
+			<text>No, the teacher doesn't precede the students into the classroom before the lesson; he follows them</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="129.4" duration="1.5">
+			<person>Teacher</person>
+			<text>when</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="130.9" duration="2.3">
+			<person>Teacher</person>
+			<text>When do you have your breakfast?</text>
+			<image/>
+		</item>
+		<item id="1" start="133.233" duration="4.033">
+			<person>Student</person>
+			<text>I have my breakfast at 8:00 in the morning</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="137.267" duration="2.3">
+			<person>Teacher</person>
+			<text>When does the lesson begin?</text>
+			<image/>
+		</item>
+		<item id="1" start="139.567" duration="3.3">
+			<person>Student</person>
+			<text>The lesson begins at 2:30</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="142.9" duration="2.533">
+			<person>Teacher</person>
+			<text>When do you get up in the morning?</text>
+			<image/>
+		</item>
+		<item id="1" start="145.467" duration="3.2">
+			<person>Student</person>
+			<text>I get up at 7:00 in the morning</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="148.667" duration="1.767">
+			<person>Teacher</person>
+			<text>while</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="150.467" duration="1.733">
+			<person>Teacher</person>
+			<text>whilst</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="152.2" duration="3.667">
+			<person>Teacher</person>
+			<text>What other words can we use instead of &quot;whereas&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="155.9" duration="4.433">
+			<person>Student</person>
+			<text>We can use &quot;while&quot; and &quot;whilst&quot; instead of &quot;whereas&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="160.333" duration="3.233">
+			<person>Teacher</person>
+			<text>Which word do we use the most when we speak?</text>
+			<image/>
+		</item>
+		<item id="1" start="163.6" duration="4.4">
+			<person>Student</person>
+			<text>We generally use &quot;whereas&quot; the most when we speak</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="168.0" duration="1.5">
+			<person>Teacher</person>
+			<text>old</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="169.533" duration="1.367">
+			<person>Teacher</person>
+			<text>new</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="170.9" duration="3.433">
+			<person>Teacher</person>
+			<text>Is this an old building we're in at the moment?</text>
+			<image/>
+		</item>
+		<item id="1" start="174.367" duration="4.367">
+			<person>Student</person>
+			<text>Yes, this is an old building we're in at the moment</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="178.733" duration="2.067">
+			<person>Teacher</person>
+			<text>Are your shoes new?</text>
+			<image/>
+		</item>
+		<item id="1" start="180.8" duration="3.467">
+			<person>Student</person>
+			<text>No, my shoes aren't new; they're old</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="184.3" duration="1.733">
+			<person>Teacher</person>
+			<text>older ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="186.067" duration="1.6">
+			<person>Teacher</person>
+			<text>newer ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="187.667" duration="2.8">
+			<person>Teacher</person>
+			<text>Is your blouse older than your shoes?</text>
+			<image/>
+		</item>
+		<item id="1" start="190.5" duration="5.0">
+			<person>Student</person>
+			<text>No, my blouse isn't older than my shoes; it's newer than my shoes</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="195.5" duration="1.7">
+			<person>Teacher</person>
+			<text>the oldest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="197.233" duration="1.6">
+			<person>Teacher</person>
+			<text>the newest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="198.867" duration="2.733">
+			<person>Teacher</person>
+			<text>What's the newest thing you're wearing?</text>
+			<image/>
+		</item>
+		<item id="1" start="201.6" duration="3.4">
+			<person>Student</person>
+			<text>My hat is the newest thing I'm wearing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="205.0" duration="1.4">
+			<person>Teacher</person>
+			<text>old</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="206.433" duration="1.467">
+			<person>Teacher</person>
+			<text>young</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="207.933" duration="3.7">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;new&quot; and &quot;young&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="211.633" duration="8.167">
+			<person>Student</person>
+			<text>The difference between &quot;new&quot; and &quot;young&quot; is that we use &quot;new&quot; for things, whereas we use &quot;young&quot; for people</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="219.8" duration="3.067">
+			<person>Teacher</person>
+			<text>Is Miss Brown an old woman?</text>
+			<image/>
+		</item>
+		<item id="1" start="222.9" duration="4.833">
+			<person>Student</person>
+			<text>No, Miss Brown isn't an old woman; she's a young girl</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="227.733" duration="1.933">
+			<person>Teacher</person>
+			<text>younger ... than</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="229.667" duration="2.4">
+			<person>Teacher</person>
+			<text>Are you older than your mother?</text>
+			<image/>
+		</item>
+		<item id="1" start="232.1" duration="5.033">
+			<person>Student</person>
+			<text>No, I'm not older than my mother; I'm younger than my mother</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="237.167" duration="1.9">
+			<person>Teacher</person>
+			<text>the youngest</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="239.067" duration="2.6">
+			<person>Teacher</person>
+			<text>Who's the youngest in your family?</text>
+			<image/>
+		</item>
+		<item id="1" start="241.7" duration="3.4">
+			<person>Student</person>
+			<text>My brother is the youngest in my family</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="245.1" duration="1.933">
+			<person>Teacher</person>
+			<text>put ... on</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="247.067" duration="1.833">
+			<person>Teacher</person>
+			<text>take ... off</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="248.933" duration="1.667">
+			<person>Teacher</person>
+			<text>go out</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="250.633" duration="1.8">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="252.467" duration="2.933">
+			<person>Student</person>
+			<text>You're putting your hand on the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="255.4" duration="1.833">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="257.267" duration="3.2">
+			<person>Student</person>
+			<text>You're taking your hand off the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="260.467" duration="1.867">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="262.333" duration="2.433">
+			<person>Student</person>
+			<text>You're putting your hat on</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="264.767" duration="1.9">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="266.7" duration="2.5">
+			<person>Student</person>
+			<text>You're taking your hat off</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="269.2" duration="3.167">
+			<person>Teacher</person>
+			<text>What do we put on when we go out in winter?</text>
+			<image/>
+		</item>
+		<item id="1" start="272.367" duration="4.3">
+			<person>Student</person>
+			<text>We put our hats and coats on when we go out in winter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0" start="276.7" duration="3.233">
+			<person>Teacher</person>
+			<text>What do we take off when we come into a building?</text>
+			<image/>
+		</item>
+		<item id="1" start="279.967" duration="4.6">
+			<person>Student</person>
+			<text>We take our hats and coats off when we come into a building</text>
+			<image/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0" start="" duration="">
+			<Dictation>
+				<text>\nThere isn’t anybody here, but there’s somebody in the corridor.\nHe hasn’t got the same colour hair as I have.\nHis is a different colour.\nTheir heads are moving up and down.\nMr Brown’s tie is grey.\nWe call this a map.\nLearning English grammar is easy; Spanish is difficult.\nThey go home by car or by train, but not by bus.\nMy mother and father have three children.</text>
+			</Dictation>
+		</item>
+	</item>
 </items>

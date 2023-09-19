@@ -1,318 +1,462 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation/>
- </item>
- <item id="1">
-  <translation>посылать</translation>
- </item>
- <item id="2">
-  <translation>открытка</translation>
- </item>
- <item id="3">
-  <translation>открытка</translation>
- </item>
- <item id="4">
-  <translation>отправляться в отпуск</translation>
- </item>
- <item id="5">
-  <translation>фотоаппарат</translation>
- </item>
- <item id="6">
-  <translation>фотография (фото)</translation>
- </item>
- <item id="7">
-  <translation>делать снимок</translation>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="11">
-  <translation>получать</translation>
- </item>
- <item id="12">
-  <translation>отвечать</translation>
- </item>
- <item id="13">
-  <translation>электронная почта</translation>
- </item>
- <item id="14">
-  <translation>смс/посылать смс</translation>
- </item>
- <item id="15">
-  <translation>(глагол) связаться с</translation>
- </item>
- <item id="16">
-  <translation>сообщение</translation>
- </item>
- <item id="17">
-  <translation>письмо</translation>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="21">
-  <translation/>
- </item>
- <item id="21">
-  <translation/>
- </item>
- <item id="22">
-  <translation/>
- </item>
- <item id="22">
-  <translation/>
- </item>
- <item id="23">
-  <translation/>
- </item>
- <item id="23">
-  <translation/>
- </item>
- <item id="24">
-  <translation>дом</translation>
- </item>
- <item id="25">
-  <translation>квартира</translation>
- </item>
- <item id="26">
-  <translation>этаж</translation>
- </item>
- <item id="27">
-  <translation>разделять</translation>
- </item>
- <item id="28">
-  <translation>(block of flats) = многоквартирный дом</translation>
- </item>
- <item id="29">
-  <translation/>
- </item>
- <item id="29">
-  <translation/>
- </item>
- <item id="30">
-  <translation/>
- </item>
- <item id="30">
-  <translation/>
- </item>
- <item id="31">
-  <translation/>
- </item>
- <item id="31">
-  <translation/>
- </item>
- <item id="32">
-  <translation/>
- </item>
- <item id="32">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="34">
-  <translation>возле</translation>
- </item>
- <item id="35">
-  <translation>далео от</translation>
- </item>
- <item id="36">
-  <translation/>
- </item>
- <item id="36">
-  <translation/>
- </item>
- <item id="37">
-  <translation>ближе, чем</translation>
- </item>
- <item id="38">
-  <translation>дальше, чем</translation>
- </item>
- <item id="39">
-  <translation>дальше, чем</translation>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="41">
-  <translation>ближайший</translation>
- </item>
- <item id="42">
-  <translation>самый дальний</translation>
- </item>
- <item id="43">
-  <translation>самый отдаленный</translation>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="45">
-  <translation/>
- </item>
- <item id="45">
-  <translation/>
- </item>
- <item id="46">
-  <translation>в начале</translation>
- </item>
- <item id="47">
-  <translation>в конце</translation>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="50">
-  <translation/>
- </item>
- <item id="50">
-  <translation/>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="52">
-  <translation>светить</translation>
- </item>
- <item id="53">
-  <translation/>
- </item>
- <item id="53">
-  <translation/>
- </item>
- <item id="54">
-  <translation/>
- </item>
- <item id="54">
-  <translation/>
- </item>
- <item id="55">
-  <translation/>
- </item>
- <item id="55">
-  <translation/>
- </item>
- <item id="56">
-  <translation>рано</translation>
- </item>
- <item id="57">
-  <translation>поздно</translation>
- </item>
- <item id="58">
-  <translation/>
- </item>
- <item id="58">
-  <translation/>
- </item>
- <item id="59">
-  <translation/>
- </item>
- <item id="59">
-  <translation/>
- </item>
- <item id="60">
-  <translation>раньше, чем</translation>
- </item>
- <item id="61">
-  <translation>позже, чем</translation>
- </item>
- <item id="62">
-  <translation/>
- </item>
- <item id="62">
-  <translation/>
- </item>
- <item id="63">
-  <translation>раньше всех</translation>
- </item>
- <item id="64">
-  <translation>позже всех</translation>
- </item>
- <item id="65">
-  <translation/>
- </item>
- <item id="65">
-  <translation/>
- </item>
- <item id="66">
-  <translation/>
- </item>
- <item id="66">
-  <translation/>
- </item>
- <item id="67">
-  <translation>светло</translation>
- </item>
- <item id="68">
-  <translation>темно, темнота</translation>
- </item>
- <item id="69">
-  <translation/>
- </item>
- <item id="69">
-  <translation/>
- </item>
- <item id="70">
-  <translation/>
- </item>
- <item id="70">
-  <translation/>
- </item>
- <item id="71">
-  <translation/>
- </item>
- <item id="71">
-  <translation/>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>посылать</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>открытка</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>открытка</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>отправляться в отпуск</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>фотоаппарат</translation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>фотография (фото)</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>делать снимок</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>получать</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>отвечать</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>электронная почта</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>смс/посылать смс</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>(глагол) связаться с</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>сообщение</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>письмо</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>дом</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>квартира</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>этаж</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>разделять</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>(block of flats) = многоквартирный дом</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>возле</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>далео от</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>ближе, чем</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>дальше, чем</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>дальше, чем</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>ближайший</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>самый дальний</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>самый отдаленный</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>в начале</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>в конце</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>светить</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>рано</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation>поздно</translation>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation>раньше, чем</translation>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation>позже, чем</translation>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0">
+			<translation>раньше всех</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation>позже всех</translation>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0">
+			<translation>светло</translation>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0">
+			<translation>темно, темнота</translation>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
 </items>

@@ -1,403 +1,522 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="285.133">
- <item id="0" start="0.333" duration="2.433">
-  <person>Teacher</person>
-  <text>Lesson 37</text>
-  <image/>
- </item>
- <item id="1" start="2.8" duration="1.6">
-  <person>Teacher</person>
-  <text>wasn't</text>
-  <image/>
- </item>
- <item id="2" start="4.433" duration="1.733">
-  <person>Teacher</person>
-  <text>weren't</text>
-  <image/>
- </item>
- <item id="3" start="6.2" duration="2.8">
-  <person>Teacher</person>
-  <text>What's the negative of &quot;I was&quot;?</text>
-  <image/>
- </item>
- <item id="3" start="9.0" duration="3.667">
-  <person>Student</person>
-  <text>The negative of &quot;I was&quot; is &quot;I wasn't&quot;</text>
-  <image/>
- </item>
- <item id="4" start="12.667" duration="2.733">
-  <person>Teacher</person>
-  <text>What's the negative of &quot;you were&quot;?</text>
-  <image/>
- </item>
- <item id="4" start="15.433" duration="3.633">
-  <person>Student</person>
-  <text>The negative of &quot;you were&quot; is &quot;you weren't&quot;</text>
-  <image/>
- </item>
- <item id="5" start="19.067" duration="3.133">
-  <person>Teacher</person>
-  <text>Was I at this school 50 years ago?</text>
-  <image/>
- </item>
- <item id="5" start="22.2" duration="3.6">
-  <person>Student</person>
-  <text>No, you weren't at this school 50 years ago</text>
-  <image/>
- </item>
- <item id="6" start="25.833" duration="2.8">
-  <person>Teacher</person>
-  <text>Were you here a hundred years ago?</text>
-  <image/>
- </item>
- <item id="6" start="28.667" duration="3.333">
-  <person>Student</person>
-  <text>No, I wasn't here a 100 years ago</text>
-  <image/>
- </item>
- <item id="7" start="32.0" duration="3.4">
-  <person>Teacher</person>
-  <text>Was she in a different classroom last lesson?</text>
-  <image/>
- </item>
- <item id="7" start="35.4" duration="3.8">
-  <person>Student</person>
-  <text>No, she wasn't in a different classroom last lesson</text>
-  <image/>
- </item>
- <item id="8" start="39.233" duration="3.167">
-  <person>Teacher</person>
-  <text>Were we in this world 90 years ago?</text>
-  <image/>
- </item>
- <item id="8" start="42.433" duration="3.567">
-  <person>Student</person>
-  <text>No, we weren't in this world 90 years ago</text>
-  <image/>
- </item>
- <item id="9" start="46.0" duration="3.867">
-  <person>Teacher</person>
-  <text>Were they outside the classroom during the last lesson?</text>
-  <image/>
- </item>
- <item id="9" start="49.9" duration="6.433">
-  <person>Student</person>
-  <text>No, they weren't outside the classroom during the last lesson; they were inside</text>
-  <image/>
- </item>
- <item id="10" start="56.333" duration="1.567">
-  <person>Teacher</person>
-  <text>field</text>
-  <image/>
- </item>
- <item id="11" start="57.9" duration="3.1">
-  <person>Teacher</person>
-  <text>Are there any fields near where you live?</text>
-  <image/>
- </item>
- <item id="11" start="61.0" duration="3.467">
-  <person>Student</person>
-  <text>Yes, there are some fields near where I live</text>
-  <image/>
- </item>
- <item id="12" start="64.467" duration="1.733">
-  <person>Teacher</person>
-  <text>increase</text>
-  <image/>
- </item>
- <item id="13" start="66.233" duration="4.0">
-  <person>Teacher</person>
-  <text>Is the number of people in your town always increasing?</text>
-  <image/>
- </item>
- <item id="13" start="70.233" duration="4.633">
-  <person>Student</person>
-  <text>Yes, the number of people in my town is always increasing</text>
-  <image/>
- </item>
- <item id="14" start="74.9" duration="1.333">
-  <person>Teacher</person>
-  <text>battle</text>
-  <image/>
- </item>
- <item id="15" start="76.233" duration="1.6">
-  <person>Teacher</person>
-  <text>war</text>
-  <image/>
- </item>
- <item id="16" start="77.867" duration="2.867">
-  <person>Teacher</person>
-  <text>Are there a lot of battles in a war?</text>
-  <image/>
- </item>
- <item id="16" start="80.733" duration="3.433">
-  <person>Student</person>
-  <text>Yes, there are a lot of battles in a war</text>
-  <image/>
- </item>
- <item id="17" start="84.2" duration="4.233">
-  <person>Teacher</person>
-  <text>Were there a lot of battles in Europe during the Second World War?</text>
-  <image/>
- </item>
- <item id="17" start="88.433" duration="4.8">
-  <person>Student</person>
-  <text>Yes, there were a lot of battles in Europe during the Second World War</text>
-  <image/>
- </item>
- <item id="18" start="93.267" duration="1.467">
-  <person>Teacher</person>
-  <text>over</text>
-  <image/>
- </item>
- <item id="19" start="94.733" duration="1.7">
-  <person>Teacher</person>
-  <text>contact</text>
-  <image/>
- </item>
- <item id="20" start="96.433" duration="1.633">
-  <person>Teacher</person>
-  <text>object</text>
-  <image/>
- </item>
- <item id="21" start="98.067" duration="2.3">
-  <person>Teacher</person>
-  <text>Where's my left hand?</text>
-  <image/>
- </item>
- <item id="21" start="100.4" duration="2.867">
-  <person>Student</person>
-  <text>Your left hand's over the table</text>
-  <image/>
- </item>
- <item id="22" start="103.267" duration="2.233">
-  <person>Teacher</person>
-  <text>Where's my right hand?</text>
-  <image/>
- </item>
- <item id="22" start="105.5" duration="2.733">
-  <person>Student</person>
-  <text>Your right hand's over the pen</text>
-  <image/>
- </item>
- <item id="23" start="108.267" duration="2.4">
-  <person>Teacher</person>
-  <text>Where's my left hand now?</text>
-  <image/>
- </item>
- <item id="23" start="110.7" duration="2.9">
-  <person>Student</person>
-  <text>Your left hand's on the table now</text>
-  <image/>
- </item>
- <item id="24" start="113.6" duration="2.467">
-  <person>Teacher</person>
-  <text>Where's my right hand now?</text>
-  <image/>
- </item>
- <item id="24" start="116.067" duration="3.533">
-  <person>Student</person>
-  <text>Your right hand's over the pen now</text>
-  <image/>
- </item>
- <item id="25" start="119.633" duration="5.5">
-  <person>Teacher</person>
-  <text>Why do we say my left hand is on the table, but my right hand is over the pen?</text>
-  <image/>
- </item>
- <item id="25" start="125.167" duration="11.8">
-  <person>Student</person>
-  <text>We say your left hand is on the table, but your right hand is over the pen, because your left hand is not covering the table completely, whereas your right hand is covering the pen completely</text>
-  <image/>
- </item>
- <item id="26" start="136.967" duration="2.4">
-  <person>Teacher</person>
-  <text>What's over our heads?</text>
-  <image/>
- </item>
- <item id="26" start="139.367" duration="3.167">
-  <person>Student</person>
-  <text>The ceiling's over our heads</text>
-  <image/>
- </item>
- <item id="27" start="142.533" duration="2.3">
-  <person>Teacher</person>
-  <text>What's over this building?</text>
-  <image/>
- </item>
- <item id="27" start="144.833" duration="2.967">
-  <person>Student</person>
-  <text>The sky's over this building</text>
-  <image/>
- </item>
- <item id="28" start="147.8" duration="4.733">
-  <person>Teacher</person>
-  <text>Put your right hand over your pen. What's he doing?</text>
-  <image/>
- </item>
- <item id="28" start="152.567" duration="3.5">
-  <person>Student</person>
-  <text>He's putting his right hand over his pen</text>
-  <image/>
- </item>
- <item id="29" start="156.067" duration="5.233">
-  <person>Teacher</person>
-  <text>Put your right hand over your mouth. Where's her right hand?</text>
-  <image/>
- </item>
- <item id="29" start="161.3" duration="3.0">
-  <person>Student</person>
-  <text>Her right hand is over her mouth</text>
-  <image/>
- </item>
- <item id="30" start="164.3" duration="1.567">
-  <person>Teacher</person>
-  <text>idea</text>
-  <image/>
- </item>
- <item id="31" start="165.9" duration="4.967">
-  <person>Teacher</person>
-  <text>Do you think it's a bad idea to go to England if you want to learn English well?</text>
-  <image/>
- </item>
- <item id="31" start="170.867" duration="7.367">
-  <person>Student</person>
-  <text>No, I don't think it's a bad idea to go to England if I want to learn English well; I think it's a good idea</text>
-  <image/>
- </item>
- <item id="32" start="178.233" duration="5.3">
-  <person>Teacher</person>
-  <text>Do you think it's a good idea to learn some English before going to England?</text>
-  <image/>
- </item>
- <item id="32" start="183.567" duration="5.367">
-  <person>Student</person>
-  <text>Yes, I think it's a good idea to learn some English before going to England</text>
-  <image/>
- </item>
- <item id="33" start="188.967" duration="1.567">
-  <person>Teacher</person>
-  <text>often</text>
-  <image/>
- </item>
- <item id="34" start="190.533" duration="1.7">
-  <person>Teacher</person>
-  <text>rarely</text>
-  <image/>
- </item>
- <item id="35" start="192.267" duration="1.6">
-  <person>Teacher</person>
-  <text>theatre</text>
-  <image/>
- </item>
- <item id="36" start="193.867" duration="3.833">
-  <person>Teacher</person>
-  <text>Does it often snow in the warm countries of the world?</text>
-  <image/>
- </item>
- <item id="36" start="197.733" duration="8.0">
-  <person>Student</person>
-  <text>No, it doesn't often snow in the warm countries of the world; it rarely snows in the warm countries of the world</text>
-  <image/>
- </item>
- <item id="37" start="205.733" duration="2.967">
-  <person>Teacher</person>
-  <text>Is it very often cold in Africa?</text>
-  <image/>
- </item>
- <item id="37" start="208.733" duration="5.733">
-  <person>Student</person>
-  <text>No, it isn't very often cold in Africa; it's very rarely cold in Africa</text>
-  <image/>
- </item>
- <item id="38" start="214.467" duration="2.9">
-  <person>Teacher</person>
-  <text>Do you often go to the theatre?</text>
-  <image/>
- </item>
- <item id="38" start="217.367" duration="3.167">
-  <person>Student</person>
-  <text>Yes, I often go to the theatre</text>
-  <image/>
- </item>
- <item id="39" start="220.567" duration="4.033">
-  <person>Teacher</person>
-  <text>Does the sun often shine in the north of Europe in winter?</text>
-  <image/>
- </item>
- <item id="39" start="224.6" duration="6.067">
-  <person>Student</person>
-  <text>No, the sun doesn't often shine in the north of Europe in winter; it rarely shines</text>
-  <image/>
- </item>
- <item id="40" start="230.7" duration="1.8">
-  <person>Teacher</person>
-  <text>understand</text>
-  <image/>
- </item>
- <item id="41" start="232.5" duration="1.733">
-  <person>Teacher</person>
-  <text>exactly</text>
-  <image/>
- </item>
- <item id="42" start="234.267" duration="1.733">
-  <person>Teacher</person>
-  <text>I am sorry</text>
-  <image/>
- </item>
- <item id="43" start="236.0" duration="4.367">
-  <person>Teacher</person>
-  <text>Do you understand two people when they speak very quickly in English?</text>
-  <image/>
- </item>
- <item id="43" start="240.4" duration="5.1">
-  <person>Student</person>
-  <text>No, I don't understand two people when they speak very quickly in English</text>
-  <image/>
- </item>
- <item id="44" start="245.5" duration="4.133">
-  <person>Teacher</person>
-  <text>Do you understand everything I say during the lesson?</text>
-  <image/>
- </item>
- <item id="44" start="249.667" duration="7.0">
-  <person>Student</person>
-  <text>No, I don't understand everything you say during the lesson, but I understand nearly everything you say</text>
-  <image/>
- </item>
- <item id="45" start="256.667" duration="5.367">
-  <person>Teacher</person>
-  <text>If the first time you don't understand a question the teacher asks you, what must you do?</text>
-  <image/>
- </item>
- <item id="45" start="262.033" duration="6.733">
-  <person>Student</person>
-  <text>If the first time I don't understand a question the teacher asks me, I must ask him to repeat it</text>
-  <image/>
- </item>
- <item id="46" start="268.8" duration="2.5">
-  <person>Teacher</person>
-  <text>What exactly do you say to him?</text>
-  <image/>
- </item>
- <item id="46" start="271.333" duration="5.467">
-  <person>Student</person>
-  <text>I say &quot;I'm sorry. I don't understand the question. Will you repeat it, please?&quot;</text>
-  <image/>
- </item>
- <item id="47" start="276.8" duration="1.533">
-  <person>Teacher</person>
-  <text>stop</text>
-  <image/>
- </item>
- <item id="48" start="278.367" duration="3.1">
-  <person>Teacher</person>
-  <text>Do you think it's easy to stop smoking?</text>
-  <image/>
- </item>
- <item id="48" start="281.467" duration="3.633">
-  <person>Student</person>
-  <text>No, I don't think it's easy to stop smoking</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.333" duration="2.433">
+			<person>Teacher</person>
+			<text>Lesson 37</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.8" duration="1.6">
+			<person>Teacher</person>
+			<text>wasn't</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.433" duration="1.733">
+			<person>Teacher</person>
+			<text>weren't</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>The negative of “I was“ is “I was not“ or “I wasn’t“, whilst the negative of “you were“ is “you were not“ or “you weren’t“.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="6.2" duration="2.8">
+			<person>Teacher</person>
+			<text>What's the negative of &quot;I was&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="9.0" duration="3.667">
+			<person>Student</person>
+			<text>The negative of &quot;I was&quot; is &quot;I wasn't&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="12.667" duration="2.733">
+			<person>Teacher</person>
+			<text>What's the negative of &quot;you were&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="15.433" duration="3.633">
+			<person>Student</person>
+			<text>The negative of &quot;you were&quot; is &quot;you weren't&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="19.067" duration="3.133">
+			<person>Teacher</person>
+			<text>Was I at this school 50 years ago?</text>
+			<image/>
+		</item>
+		<item id="1" start="22.2" duration="3.6">
+			<person>Student</person>
+			<text>No, you weren't at this school 50 years ago</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="25.833" duration="2.8">
+			<person>Teacher</person>
+			<text>Were you here a hundred years ago?</text>
+			<image/>
+		</item>
+		<item id="1" start="28.667" duration="3.333">
+			<person>Student</person>
+			<text>No, I wasn't here a 100 years ago</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="32.0" duration="3.4">
+			<person>Teacher</person>
+			<text>Was she in a different classroom last lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="35.4" duration="3.8">
+			<person>Student</person>
+			<text>No, she wasn't in a different classroom last lesson</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="39.233" duration="3.167">
+			<person>Teacher</person>
+			<text>Were we in this world 90 years ago?</text>
+			<image/>
+		</item>
+		<item id="1" start="42.433" duration="3.567">
+			<person>Student</person>
+			<text>No, we weren't in this world 90 years ago</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="46.0" duration="3.867">
+			<person>Teacher</person>
+			<text>Were they outside the classroom during the last lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="49.9" duration="6.433">
+			<person>Student</person>
+			<text>No, they weren't outside the classroom during the last lesson; they were inside</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="56.333" duration="1.567">
+			<person>Teacher</person>
+			<text>field</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="57.9" duration="3.1">
+			<person>Teacher</person>
+			<text>Are there any fields near where you live?</text>
+			<image/>
+		</item>
+		<item id="1" start="61.0" duration="3.467">
+			<person>Student</person>
+			<text>Yes, there are some fields near where I live</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="64.467" duration="1.733">
+			<person>Teacher</person>
+			<text>increase</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="66.233" duration="4.0">
+			<person>Teacher</person>
+			<text>Is the number of people in your town always increasing?</text>
+			<image/>
+		</item>
+		<item id="1" start="70.233" duration="4.633">
+			<person>Student</person>
+			<text>Yes, the number of people in my town is always increasing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="74.7" duration="1.1">
+			<person>Teacher</person>
+			<text>battle</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="76.233" duration="1.6">
+			<person>Teacher</person>
+			<text>war</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="77.867" duration="2.867">
+			<person>Teacher</person>
+			<text>Are there a lot of battles in a war?</text>
+			<image/>
+		</item>
+		<item id="1" start="80.733" duration="3.433">
+			<person>Student</person>
+			<text>Yes, there are a lot of battles in a war</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="84.2" duration="4.233">
+			<person>Teacher</person>
+			<text>Were there a lot of battles in Europe during the Second World War?</text>
+			<image/>
+		</item>
+		<item id="1" start="88.433" duration="4.8">
+			<person>Student</person>
+			<text>Yes, there were a lot of battles in Europe during the Second World War</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="93.267" duration="1.467">
+			<person>Teacher</person>
+			<text>over</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="94.733" duration="1.7">
+			<person>Teacher</person>
+			<text>contact</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="96.433" duration="1.633">
+			<person>Teacher</person>
+			<text>object</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>We say “over“ when there is no contact between the two objects. For example, my right hand is over the pen, and my left hand is over the table. When there is contact between the two objects, we say “over“ when one object covers the other completely, and “on“ when it does not cover it completely. For example, now, my right hand is over the pen, but my left hand is on the table.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="98.067" duration="2.3">
+			<person>Teacher</person>
+			<text>Where's my left hand?</text>
+			<image/>
+		</item>
+		<item id="1" start="100.4" duration="2.867">
+			<person>Student</person>
+			<text>Your left hand's over the table</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="103.267" duration="2.233">
+			<person>Teacher</person>
+			<text>Where's my right hand?</text>
+			<image/>
+		</item>
+		<item id="1" start="105.5" duration="2.733">
+			<person>Student</person>
+			<text>Your right hand's over the pen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="108.267" duration="2.4">
+			<person>Teacher</person>
+			<text>Where's my left hand now?</text>
+			<image/>
+		</item>
+		<item id="1" start="110.7" duration="2.9">
+			<person>Student</person>
+			<text>Your left hand's on the table now</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="113.6" duration="2.467">
+			<person>Teacher</person>
+			<text>Where's my right hand now?</text>
+			<image/>
+		</item>
+		<item id="1" start="116.067" duration="3.533">
+			<person>Student</person>
+			<text>Your right hand's over the pen now</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="119.633" duration="5.5">
+			<person>Teacher</person>
+			<text>Why do we say my left hand is on the table, but my right hand is over the pen?</text>
+			<image/>
+		</item>
+		<item id="1" start="125.167" duration="11.8">
+			<person>Student</person>
+			<text>We say your left hand is on the table, but your right hand is over the pen, because your left hand is not covering the table completely, whereas your right hand is covering the pen completely</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="136.967" duration="2.4">
+			<person>Teacher</person>
+			<text>What's over our heads?</text>
+			<image/>
+		</item>
+		<item id="1" start="139.367" duration="3.167">
+			<person>Student</person>
+			<text>The ceiling's over our heads</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="142.533" duration="2.3">
+			<person>Teacher</person>
+			<text>What's over this building?</text>
+			<image/>
+		</item>
+		<item id="1" start="144.833" duration="2.967">
+			<person>Student</person>
+			<text>The sky's over this building</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="147.8" duration="4.733">
+			<person>Teacher</person>
+			<text>Put your right hand over your pen. What's he doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="152.567" duration="3.5">
+			<person>Student</person>
+			<text>He's putting his right hand over his pen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="156.067" duration="5.233">
+			<person>Teacher</person>
+			<text>Put your right hand over your mouth. Where's her right hand?</text>
+			<image/>
+		</item>
+		<item id="1" start="161.3" duration="3.0">
+			<person>Student</person>
+			<text>Her right hand is over her mouth</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="164.3" duration="1.567">
+			<person>Teacher</person>
+			<text>idea</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="165.9" duration="4.967">
+			<person>Teacher</person>
+			<text>Do you think it's a bad idea to go to England if you want to learn English well?</text>
+			<image/>
+		</item>
+		<item id="1" start="170.867" duration="7.367">
+			<person>Student</person>
+			<text>No, I don't think it's a bad idea to go to England if I want to learn English well; I think it's a good idea</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="178.233" duration="5.3">
+			<person>Teacher</person>
+			<text>Do you think it's a good idea to learn some English before going to England?</text>
+			<image/>
+		</item>
+		<item id="1" start="183.567" duration="5.367">
+			<person>Student</person>
+			<text>Yes, I think it's a good idea to learn some English before going to England</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="188.967" duration="1.567">
+			<person>Teacher</person>
+			<text>often</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="190.533" duration="1.7">
+			<person>Teacher</person>
+			<text>rarely</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="192.267" duration="1.6">
+			<person>Teacher</person>
+			<text>theatre</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="193.867" duration="3.833">
+			<person>Teacher</person>
+			<text>Does it often snow in the warm countries of the world?</text>
+			<image/>
+		</item>
+		<item id="1" start="197.733" duration="8.0">
+			<person>Student</person>
+			<text>No, it doesn't often snow in the warm countries of the world; it rarely snows in the warm countries of the world</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="205.733" duration="2.967">
+			<person>Teacher</person>
+			<text>Is it very often cold in Africa?</text>
+			<image/>
+		</item>
+		<item id="1" start="208.733" duration="5.733">
+			<person>Student</person>
+			<text>No, it isn't very often cold in Africa; it's very rarely cold in Africa</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="214.467" duration="2.9">
+			<person>Teacher</person>
+			<text>Do you often go to the theatre?</text>
+			<image/>
+		</item>
+		<item id="1" start="217.367" duration="3.167">
+			<person>Student</person>
+			<text>Yes, I often go to the theatre</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="220.567" duration="4.033">
+			<person>Teacher</person>
+			<text>Does the sun often shine in the north of Europe in winter?</text>
+			<image/>
+		</item>
+		<item id="1" start="224.6" duration="6.067">
+			<person>Student</person>
+			<text>No, the sun doesn't often shine in the north of Europe in winter; it rarely shines</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="230.7" duration="1.8">
+			<person>Teacher</person>
+			<text>understand</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="232.5" duration="1.733">
+			<person>Teacher</person>
+			<text>exactly</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="234.267" duration="1.733">
+			<person>Teacher</person>
+			<text>I am sorry</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="236.0" duration="4.367">
+			<person>Teacher</person>
+			<text>Do you understand two people when they speak very quickly in English?</text>
+			<image/>
+		</item>
+		<item id="1" start="240.4" duration="5.1">
+			<person>Student</person>
+			<text>No, I don't understand two people when they speak very quickly in English</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="245.5" duration="4.133">
+			<person>Teacher</person>
+			<text>Do you understand everything I say during the lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="249.667" duration="7.0">
+			<person>Student</person>
+			<text>No, I don't understand everything you say during the lesson, but I understand nearly everything you say</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="256.667" duration="5.367">
+			<person>Teacher</person>
+			<text>If the first time you don't understand a question the teacher asks you, what must you do?</text>
+			<image/>
+		</item>
+		<item id="1" start="262.033" duration="6.733">
+			<person>Student</person>
+			<text>If the first time I don't understand a question the teacher asks me, I must ask him to repeat it</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="268.8" duration="2.5">
+			<person>Teacher</person>
+			<text>What exactly do you say to him?</text>
+			<image/>
+		</item>
+		<item id="1" start="271.333" duration="5.467">
+			<person>Student</person>
+			<text>I say &quot;I'm sorry. I don't understand the question. Will you repeat it, please?&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="276.8" duration="1.533">
+			<person>Teacher</person>
+			<text>stop</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="278.367" duration="3.1">
+			<person>Teacher</person>
+			<text>Do you think it's easy to stop smoking?</text>
+			<image/>
+		</item>
+		<item id="1" start="281.467" duration="3.633">
+			<person>Student</person>
+			<text>No, I don't think it's easy to stop smoking</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="" duration="">
+			<Dictation>
+				<text>\nWhat will tomorrow be?\nI don’t want anything to eat at the moment.\nThe lesson begins at six o’clock and ends at ten to seven.\nThose glasses aren’t cheap, but expensive.\nWe’re inside a building and can hear the cars outside.\nPut the flowers into some water, please.\nMy mum prefers milk for breakfast but wine for lunch.\nI hate some food, but most food I love.\nWe have dinner most evenings with friends.</text>
+			</Dictation>
+		</item>
+	</item>
 </items>

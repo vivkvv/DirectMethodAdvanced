@@ -1,423 +1,553 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="300.0">
- <item id="0" start="0.4" duration="2.333">
-  <person>Teacher</person>
-  <text>Lesson 33</text>
-  <image/>
- </item>
- <item id="1" start="2.767" duration="1.567">
-  <person>Teacher</person>
-  <text>look at</text>
-  <image/>
- </item>
- <item id="2" start="4.333" duration="1.533">
-  <person>Teacher</person>
-  <text>watch</text>
-  <image/>
- </item>
- <item id="3" start="5.9" duration="3.667">
-  <person>Teacher</person>
-  <text>What's the difference between &quot;to look at&quot; and &quot;to watch&quot;?</text>
-  <image/>
- </item>
- <item id="3" start="9.567" duration="10.0">
-  <person>Student</person>
-  <text>The difference between &quot;to look at&quot; and &quot;to watch&quot; is that we use &quot;to look at&quot; for something that is still whilst we used &quot;to watch&quot; for something that is moving</text>
-  <image/>
- </item>
- <item id="4" start="19.6" duration="4.267">
-  <person>Teacher</person>
-  <text>Look at my hand, please. What are you doing?</text>
-  <image/>
- </item>
- <item id="4" start="23.867" duration="2.4">
-  <person>Student</person>
-  <text>I'm looking at your hand</text>
-  <image/>
- </item>
- <item id="5" start="26.3" duration="4.367">
-  <person>Teacher</person>
-  <text>Now watch my hand, please. What are you doing?</text>
-  <image/>
- </item>
- <item id="5" start="30.7" duration="2.367">
-  <person>Student</person>
-  <text>I'm watching your hand</text>
-  <image/>
- </item>
- <item id="6" start="33.067" duration="3.433">
-  <person>Teacher</person>
-  <text>Is it right to say I'm watching that picture?</text>
-  <image/>
- </item>
- <item id="6" start="36.533" duration="4.0">
-  <person>Student</person>
-  <text>No, it isn't right to say you're watching that picture</text>
-  <image/>
- </item>
- <item id="7" start="40.567" duration="1.567">
-  <person>Teacher</person>
-  <text>Why not?</text>
-  <image/>
- </item>
- <item id="7" start="42.167" duration="2.9">
-  <person>Student</person>
-  <text>Because that picture still</text>
-  <image/>
- </item>
- <item id="8" start="45.067" duration="2.467">
-  <person>Teacher</person>
-  <text>What must I say instead?</text>
-  <image/>
- </item>
- <item id="8" start="47.533" duration="3.4">
-  <person>Student</person>
-  <text>You must say you're looking at that picture</text>
-  <image/>
- </item>
- <item id="9" start="50.933" duration="3.633">
-  <person>Teacher</person>
-  <text>Is it right to say we look at a game of football?</text>
-  <image/>
- </item>
- <item id="9" start="54.6" duration="4.233">
-  <person>Student</person>
-  <text>No, it isn't right to say we look at a game of football</text>
-  <image/>
- </item>
- <item id="10" start="58.867" duration="1.7">
-  <person>Teacher</person>
-  <text>Why not?</text>
-  <image/>
- </item>
- <item id="10" start="60.6" duration="3.3">
-  <person>Student</person>
-  <text>Because a game of football moves</text>
-  <image/>
- </item>
- <item id="11" start="63.9" duration="2.567">
-  <person>Teacher</person>
-  <text>What must we say instead?</text>
-  <image/>
- </item>
- <item id="11" start="66.5" duration="3.8">
-  <person>Student</person>
-  <text>We must say we watch a game of football instead</text>
-  <image/>
- </item>
- <item id="12" start="70.333" duration="2.533">
-  <person>Teacher</person>
-  <text>Do you like watching television?</text>
-  <image/>
- </item>
- <item id="12" start="72.867" duration="3.0">
-  <person>Student</person>
-  <text>Yes, I like watching television</text>
-  <image/>
- </item>
- <item id="13" start="75.9" duration="1.467">
-  <person>Teacher</person>
-  <text>buy</text>
-  <image/>
- </item>
- <item id="14" start="77.367" duration="2.5">
-  <person>Teacher</person>
-  <text>Where do you buy your food?</text>
-  <image/>
- </item>
- <item id="14" start="79.867" duration="4.067">
-  <person>Student</person>
-  <text>I buy my food from a shop near where I live</text>
-  <image/>
- </item>
- <item id="15" start="83.967" duration="3.1">
-  <person>Teacher</person>
-  <text>Can we buy apples at a shoe shop?</text>
-  <image/>
- </item>
- <item id="15" start="87.1" duration="3.867">
-  <person>Student</person>
-  <text>No, we can't buy apples at a shoe shop</text>
-  <image/>
- </item>
- <item id="16" start="90.967" duration="1.6">
-  <person>Teacher</person>
-  <text>gerund</text>
-  <image/>
- </item>
- <item id="17" start="92.567" duration="3.367">
-  <person>Teacher</person>
-  <text>preposition + noun</text>
-  <image/>
- </item>
- <item id="18" start="95.967" duration="4.7">
-  <person>Teacher</person>
-  <text>Do we use the gerund or the infinitive after a preposition?</text>
-  <image/>
- </item>
- <item id="18" start="100.667" duration="3.467">
-  <person>Student</person>
-  <text>We use the gerund after a preposition</text>
-  <image/>
- </item>
- <item id="19" start="104.133" duration="2.767">
-  <person>Teacher</person>
-  <text>Give me some examples, please</text>
-  <image/>
- </item>
- <item id="19" start="106.933" duration="5.567">
-  <person>Student</person>
-  <text>before coming; after taking; for buying, etc.</text>
-  <image/>
- </item>
- <item id="20" start="112.5" duration="2.2">
-  <person>Teacher</person>
-  <text>What is a gerund?</text>
-  <image/>
- </item>
- <item id="20" start="114.7" duration="6.233">
-  <person>Student</person>
-  <text>A gerund is a noun that we make by putting the letters &quot;ing&quot; at the end of a verb</text>
-  <image/>
- </item>
- <item id="21" start="120.933" duration="5.233">
-  <person>Teacher</person>
-  <text>Which do you think's the best shop in this town for buying women's clothes?</text>
-  <image/>
- </item>
- <item id="21" start="126.2" duration="5.767">
-  <person>Student</person>
-  <text>I think &quot;Marks and Spencers&quot; is the best shop in this town for buying women's clothes</text>
-  <image/>
- </item>
- <item id="22" start="131.967" duration="3.967">
-  <person>Teacher</person>
-  <text>What do you do before coming to school each day?</text>
-  <image/>
- </item>
- <item id="22" start="135.967" duration="6.3">
-  <person>Student</person>
-  <text>I eat breakfast, speak to my friends, etc. before coming to school each day</text>
-  <image/>
- </item>
- <item id="23" start="142.267" duration="2.433">
-  <person>Teacher</person>
-  <text>Are you good at playing football?</text>
-  <image/>
- </item>
- <item id="23" start="144.7" duration="4.967">
-  <person>Student</person>
-  <text>No, I'm not good at playing football; I'm bad at playing football</text>
-  <image/>
- </item>
- <item id="24" start="149.7" duration="1.667">
-  <person>Teacher</person>
-  <text>beside</text>
-  <image/>
- </item>
- <item id="25" start="151.367" duration="1.8">
-  <person>Teacher</person>
-  <text>besides</text>
-  <image/>
- </item>
- <item id="26" start="153.167" duration="1.567">
-  <person>Teacher</person>
-  <text>walk</text>
-  <image/>
- </item>
- <item id="27" start="154.733" duration="1.667">
-  <person>Teacher</person>
-  <text>any more</text>
-  <image/>
- </item>
- <item id="28" start="156.4" duration="3.867">
-  <person>Teacher</person>
-  <text>What's the difference between &quot;beside&quot; and &quot;besides&quot;?</text>
-  <image/>
- </item>
- <item id="28" start="160.3" duration="8.5">
-  <person>Student</person>
-  <text>The difference between &quot;beside&quot; and &quot;besides&quot; is that &quot;beside&quot; means &quot;next to&quot; whereas &quot;besides&quot; means &quot;apart from&quot;</text>
-  <image/>
- </item>
- <item id="29" start="168.8" duration="3.0">
-  <person>Teacher</person>
-  <text>Give me an example of each, please</text>
-  <image/>
- </item>
- <item id="29" start="171.833" duration="6.0">
-  <person>Student</person>
-  <text>I'm sitting beside Anna; Mr. Brown speaks French besides English</text>
-  <image/>
- </item>
- <item id="30" start="177.867" duration="2.567">
-  <person>Teacher</person>
-  <text>Who's sitting beside me?</text>
-  <image/>
- </item>
- <item id="30" start="180.433" duration="2.867">
-  <person>Student</person>
-  <text>Nobody's sitting beside you</text>
-  <image/>
- </item>
- <item id="31" start="183.3" duration="2.6">
-  <person>Teacher</person>
-  <text>Is Paris beside the sea?</text>
-  <image/>
- </item>
- <item id="31" start="185.933" duration="4.5">
-  <person>Student</person>
-  <text>No, Paris isn't beside the sea; it's inland</text>
-  <image/>
- </item>
- <item id="32" start="190.467" duration="2.0">
-  <person>Teacher</person>
-  <text>What's he doing?</text>
-  <image/>
- </item>
- <item id="32" start="192.5" duration="4.567">
-  <person>Student</person>
-  <text>He's putting both his hands on the table, one beside the other</text>
-  <image/>
- </item>
- <item id="33" start="197.067" duration="3.933">
-  <person>Teacher</person>
-  <text>What do you do in the evening besides watching television?</text>
-  <image/>
- </item>
- <item id="33" start="201.0" duration="8.5">
-  <person>Student</person>
-  <text>I go for a walk, I read, I go to the cinema, etc. in the evening besides watching television</text>
-  <image/>
- </item>
- <item id="34" start="209.533" duration="4.333">
-  <person>Teacher</person>
-  <text>How many floors are there in this building besides this one?</text>
-  <image/>
- </item>
- <item id="34" start="213.9" duration="4.2">
-  <person>Student</person>
-  <text>There are four floors in this building besides this one</text>
-  <image/>
- </item>
- <item id="35" start="218.1" duration="4.033">
-  <person>Teacher</person>
-  <text>Have your parents got any more children besides you?</text>
-  <image/>
- </item>
- <item id="35" start="222.133" duration="4.8">
-  <person>Student</person>
-  <text>Yes, my parents have got some more children besides me</text>
-  <image/>
- </item>
- <item id="36" start="226.967" duration="1.833">
-  <person>Teacher</person>
-  <text>very much</text>
-  <image/>
- </item>
- <item id="37" start="228.833" duration="2.733">
-  <person>Teacher</person>
-  <text>Do you like walking very much?</text>
-  <image/>
- </item>
- <item id="37" start="231.6" duration="3.367">
-  <person>Student</person>
-  <text>Yes, I like walking very much</text>
-  <image/>
- </item>
- <item id="38" start="234.967" duration="2.8">
-  <person>Teacher</person>
-  <text>Do you like working very much?</text>
-  <image/>
- </item>
- <item id="38" start="237.8" duration="3.733">
-  <person>Student</person>
-  <text>No, I don't like working very much</text>
-  <image/>
- </item>
- <item id="39" start="241.533" duration="1.7">
-  <person>Teacher</person>
-  <text>another</text>
-  <image/>
- </item>
- <item id="40" start="243.233" duration="3.367">
-  <person>Teacher</person>
-  <text>Have you got another watch besides that one?</text>
-  <image/>
- </item>
- <item id="40" start="246.633" duration="4.233">
-  <person>Student</person>
-  <text>No, I haven't got another watch besides this one</text>
-  <image/>
- </item>
- <item id="41" start="250.9" duration="4.267">
-  <person>Teacher</person>
-  <text>Have you got another blouse besides the one you're wearing now?</text>
-  <image/>
- </item>
- <item id="41" start="255.167" duration="4.933">
-  <person>Student</person>
-  <text>Yes, I've got another blouse besides the one I'm wearing now</text>
-  <image/>
- </item>
- <item id="42" start="260.1" duration="1.567">
-  <person>Teacher</person>
-  <text>church</text>
-  <image/>
- </item>
- <item id="43" start="261.7" duration="1.8">
-  <person>Teacher</person>
-  <text>temple</text>
-  <image/>
- </item>
- <item id="44" start="263.5" duration="1.567">
-  <person>Teacher</person>
-  <text>mosque</text>
-  <image/>
- </item>
- <item id="45" start="265.1" duration="1.733">
-  <person>Teacher</person>
-  <text>synagogue</text>
-  <image/>
- </item>
- <item id="46" start="266.833" duration="6.7">
-  <person>Teacher</person>
-  <text>Do most people in this country go to church or temple, synagogue or mosque each week?</text>
-  <image/>
- </item>
- <item id="46" start="273.533" duration="8.8">
-  <person>Student</person>
-  <text>Yes, most people in this country go to church or temple, synagogue or mosque, etc., each week</text>
-  <image/>
- </item>
- <item id="47" start="282.333" duration="1.633">
-  <person>Teacher</person>
-  <text>enter</text>
-  <image/>
- </item>
- <item id="48" start="284.0" duration="4.567">
-  <person>Teacher</person>
-  <text>At what time do you generally enter the classroom for your lesson?</text>
-  <image/>
- </item>
- <item id="48" start="288.567" duration="3.667">
-  <person>Student</person>
-  <text>I generally enter the classroom at 10:30 for my lesson</text>
-  <image/>
- </item>
- <item id="49" start="292.233" duration="1.1">
-  <person>Teacher</person>
-  <text>air</text>
-  <image/>
- </item>
- <item id="50" start="293.367" duration="3.3">
-  <person>Teacher</person>
-  <text>Can we see the air?</text>
-  <image/>
- </item>
- <item id="50" start="296.7" duration="3.267">
-  <person>Student</person>
-  <text>No, we can't see the air</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.4" duration="2.333">
+			<person>Teacher</person>
+			<text>Lesson 33</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.767" duration="1.567">
+			<person>Teacher</person>
+			<text>look at</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.333" duration="1.533">
+			<person>Teacher</person>
+			<text>watch</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>The difference between “to look at“ and “to watch“ is that we use “to look at“ for something that is still, whereas we use “to watch“ for something that is moving.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="5.9" duration="3.667">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;to look at&quot; and &quot;to watch&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="9.567" duration="10.0">
+			<person>Student</person>
+			<text>The difference between &quot;to look at&quot; and &quot;to watch&quot; is that we use &quot;to look at&quot; for something that is still whilst we used &quot;to watch&quot; for something that is moving</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="19.6" duration="4.267">
+			<person>Teacher</person>
+			<text>Look at my hand, please. What are you doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="23.867" duration="2.4">
+			<person>Student</person>
+			<text>I'm looking at your hand</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="26.3" duration="4.367">
+			<person>Teacher</person>
+			<text>Now watch my hand, please. What are you doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="30.7" duration="2.367">
+			<person>Student</person>
+			<text>I'm watching your hand</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="33.067" duration="3.433">
+			<person>Teacher</person>
+			<text>Is it right to say I'm watching that picture?</text>
+			<image/>
+		</item>
+		<item id="1" start="36.533" duration="4.0">
+			<person>Student</person>
+			<text>No, it isn't right to say you're watching that picture</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="40.567" duration="1.567">
+			<person>Teacher</person>
+			<text>Why not?</text>
+			<image/>
+		</item>
+		<item id="1" start="42.167" duration="2.9">
+			<person>Student</person>
+			<text>Because that picture still</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="45.067" duration="2.467">
+			<person>Teacher</person>
+			<text>What must I say instead?</text>
+			<image/>
+		</item>
+		<item id="1" start="47.533" duration="3.4">
+			<person>Student</person>
+			<text>You must say you're looking at that picture</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="50.933" duration="3.633">
+			<person>Teacher</person>
+			<text>Is it right to say we look at a game of football?</text>
+			<image/>
+		</item>
+		<item id="1" start="54.6" duration="4.233">
+			<person>Student</person>
+			<text>No, it isn't right to say we look at a game of football</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="58.867" duration="1.7">
+			<person>Teacher</person>
+			<text>Why not?</text>
+			<image/>
+		</item>
+		<item id="1" start="60.6" duration="3.3">
+			<person>Student</person>
+			<text>Because a game of football moves</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="63.9" duration="2.567">
+			<person>Teacher</person>
+			<text>What must we say instead?</text>
+			<image/>
+		</item>
+		<item id="1" start="66.5" duration="3.8">
+			<person>Student</person>
+			<text>We must say we watch a game of football instead</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="70.333" duration="2.533">
+			<person>Teacher</person>
+			<text>Do you like watching television?</text>
+			<image/>
+		</item>
+		<item id="1" start="72.867" duration="3.0">
+			<person>Student</person>
+			<text>Yes, I like watching television</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="75.9" duration="1.467">
+			<person>Teacher</person>
+			<text>buy</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="77.367" duration="2.5">
+			<person>Teacher</person>
+			<text>Where do you buy your food?</text>
+			<image/>
+		</item>
+		<item id="1" start="79.867" duration="4.067">
+			<person>Student</person>
+			<text>I buy my food from a shop near where I live</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="83.967" duration="3.1">
+			<person>Teacher</person>
+			<text>Can we buy apples at a shoe shop?</text>
+			<image/>
+		</item>
+		<item id="1" start="87.1" duration="3.867">
+			<person>Student</person>
+			<text>No, we can't buy apples at a shoe shop</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="90.967" duration="1.6">
+			<person>Teacher</person>
+			<text>gerund</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="92.567" duration="3.367">
+			<person>Teacher</person>
+			<text>preposition + noun</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="" duration="">
+			<Grammar>
+				<text>A gerund is a noun that we make by putting the letters ‘ing’ at the end of a verb. For example, “speaking“, “eating”, “coming”.\nIn English, after a preposition we use a noun. For example, “on the table”, “after the lesson”. If we want to say an action after a preposition, we use the gerund – not the infinitive. For example, we say “for buying”, “after eating” etc.</text>
+			</Grammar>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="95.967" duration="4.7">
+			<person>Teacher</person>
+			<text>Do we use the gerund or the infinitive after a preposition?</text>
+			<image/>
+		</item>
+		<item id="1" start="100.667" duration="3.467">
+			<person>Student</person>
+			<text>We use the gerund after a preposition</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="104.133" duration="2.767">
+			<person>Teacher</person>
+			<text>Give me some examples, please</text>
+			<image/>
+		</item>
+		<item id="1" start="106.933" duration="5.567">
+			<person>Student</person>
+			<text>before coming; after taking; for buying, etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="112.5" duration="2.2">
+			<person>Teacher</person>
+			<text>What is a gerund?</text>
+			<image/>
+		</item>
+		<item id="1" start="114.7" duration="6.233">
+			<person>Student</person>
+			<text>A gerund is a noun that we make by putting the letters &quot;ing&quot; at the end of a verb</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="120.933" duration="5.233">
+			<person>Teacher</person>
+			<text>Which do you think's the best shop in this town for buying women's clothes?</text>
+			<image/>
+		</item>
+		<item id="1" start="126.2" duration="5.767">
+			<person>Student</person>
+			<text>I think &quot;Marks and Spencers&quot; is the best shop in this town for buying women's clothes</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="131.967" duration="3.967">
+			<person>Teacher</person>
+			<text>What do you do before coming to school each day?</text>
+			<image/>
+		</item>
+		<item id="1" start="135.967" duration="6.3">
+			<person>Student</person>
+			<text>I eat breakfast, speak to my friends, etc. before coming to school each day</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="142.267" duration="2.433">
+			<person>Teacher</person>
+			<text>Are you good at playing football?</text>
+			<image/>
+		</item>
+		<item id="1" start="144.7" duration="4.967">
+			<person>Student</person>
+			<text>No, I'm not good at playing football; I'm bad at playing football</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="149.7" duration="1.667">
+			<person>Teacher</person>
+			<text>beside</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="151.367" duration="1.8">
+			<person>Teacher</person>
+			<text>besides</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="153.167" duration="1.567">
+			<person>Teacher</person>
+			<text>walk</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="154.733" duration="1.667">
+			<person>Teacher</person>
+			<text>any more</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>The difference between “beside“ and “besides“ is that “beside“ means “next to“ whereas “besides“ means “apart from“. For example, “The pen is beside the book. I eat vegetables and bread etc. for my lunch besides meat“.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="156.4" duration="3.867">
+			<person>Teacher</person>
+			<text>What's the difference between &quot;beside&quot; and &quot;besides&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="160.3" duration="8.5">
+			<person>Student</person>
+			<text>The difference between &quot;beside&quot; and &quot;besides&quot; is that &quot;beside&quot; means &quot;next to&quot; whereas &quot;besides&quot; means &quot;apart from&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="168.8" duration="3.0">
+			<person>Teacher</person>
+			<text>Give me an example of each, please</text>
+			<image/>
+		</item>
+		<item id="1" start="171.833" duration="6.0">
+			<person>Student</person>
+			<text>I'm sitting beside Anna; Mr. Brown speaks French besides English</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="177.867" duration="2.567">
+			<person>Teacher</person>
+			<text>Who's sitting beside me?</text>
+			<image/>
+		</item>
+		<item id="1" start="180.433" duration="2.867">
+			<person>Student</person>
+			<text>Nobody's sitting beside you</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="183.3" duration="2.6">
+			<person>Teacher</person>
+			<text>Is Paris beside the sea?</text>
+			<image/>
+		</item>
+		<item id="1" start="185.933" duration="4.5">
+			<person>Student</person>
+			<text>No, Paris isn't beside the sea; it's inland</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="190.467" duration="2.0">
+			<person>Teacher</person>
+			<text>What's he doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="192.5" duration="4.567">
+			<person>Student</person>
+			<text>He's putting both his hands on the table, one beside the other</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="197.067" duration="3.933">
+			<person>Teacher</person>
+			<text>What do you do in the evening besides watching television?</text>
+			<image/>
+		</item>
+		<item id="1" start="201.0" duration="8.5">
+			<person>Student</person>
+			<text>I go for a walk, I read, I go to the cinema, etc. in the evening besides watching television</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="209.533" duration="4.333">
+			<person>Teacher</person>
+			<text>How many floors are there in this building besides this one?</text>
+			<image/>
+		</item>
+		<item id="1" start="213.9" duration="4.2">
+			<person>Student</person>
+			<text>There are four floors in this building besides this one</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="218.1" duration="4.033">
+			<person>Teacher</person>
+			<text>Have your parents got any more children besides you?</text>
+			<image/>
+		</item>
+		<item id="1" start="222.133" duration="4.8">
+			<person>Student</person>
+			<text>Yes, my parents have got some more children besides me</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="226.967" duration="1.833">
+			<person>Teacher</person>
+			<text>very much</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="228.833" duration="2.733">
+			<person>Teacher</person>
+			<text>Do you like walking very much?</text>
+			<image/>
+		</item>
+		<item id="1" start="231.6" duration="3.367">
+			<person>Student</person>
+			<text>Yes, I like walking very much</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="234.967" duration="2.8">
+			<person>Teacher</person>
+			<text>Do you like working very much?</text>
+			<image/>
+		</item>
+		<item id="1" start="237.8" duration="3.733">
+			<person>Student</person>
+			<text>No, I don't like working very much</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="241.533" duration="1.7">
+			<person>Teacher</person>
+			<text>another</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="243.233" duration="3.367">
+			<person>Teacher</person>
+			<text>Have you got another watch besides that one?</text>
+			<image/>
+		</item>
+		<item id="1" start="246.633" duration="4.233">
+			<person>Student</person>
+			<text>No, I haven't got another watch besides this one</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="250.9" duration="4.267">
+			<person>Teacher</person>
+			<text>Have you got another blouse besides the one you're wearing now?</text>
+			<image/>
+		</item>
+		<item id="1" start="255.167" duration="4.933">
+			<person>Student</person>
+			<text>Yes, I've got another blouse besides the one I'm wearing now</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="260.1" duration="1.567">
+			<person>Teacher</person>
+			<text>church</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="261.7" duration="1.8">
+			<person>Teacher</person>
+			<text>temple</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="263.5" duration="1.567">
+			<person>Teacher</person>
+			<text>mosque</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="265.1" duration="1.733">
+			<person>Teacher</person>
+			<text>synagogue</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="266.833" duration="6.7">
+			<person>Teacher</person>
+			<text>Do most people in this country go to church or temple, synagogue or mosque each week?</text>
+			<image/>
+		</item>
+		<item id="1" start="273.533" duration="8.8">
+			<person>Student</person>
+			<text>Yes, most people in this country go to church or temple, synagogue or mosque, etc., each week</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="282.333" duration="1.633">
+			<person>Teacher</person>
+			<text>enter</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="284.0" duration="4.567">
+			<person>Teacher</person>
+			<text>At what time do you generally enter the classroom for your lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="288.567" duration="3.667">
+			<person>Student</person>
+			<text>I generally enter the classroom at 10:30 for my lesson</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="293.0" duration="0.9">
+			<person>Teacher</person>
+			<text>air</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="293.8" duration="2.6">
+			<person>Teacher</person>
+			<text>Can we see the air?</text>
+			<image/>
+		</item>
+		<item id="1" start="296.7" duration="3.267">
+			<person>Student</person>
+			<text>No, we can't see the air</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="" duration="">
+			<Dictation>
+				<text>\nParents are mother and father, whereas relations are all the other people in the family, such as uncles, aunts, cousins etc.\nHe’s got more brothers than sisters.\nI think I can see somebody coming out of the house.\nWe generally use the word “got“ with the verb “have“.\nInstead of saying “I have a pen“, we can say “I have got a pen“.\nI’ve got no money.</text>
+			</Dictation>
+		</item>
+	</item>
 </items>

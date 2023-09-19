@@ -1,0 +1,378 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="274.133">
+ <item id="0" start="0.2" duration="2.033">
+  <person>Teacher</person>
+  <text>Lesson 40</text>
+  <image/>
+ </item>
+ <item id="1" start="2.267" duration="1.633">
+  <person>Teacher</person>
+  <text>birthday</text>
+  <image/>
+ </item>
+ <item id="2" start="3.933" duration="1.933">
+  <person>Teacher</person>
+  <text>When's your birthday?</text>
+  <image/>
+ </item>
+ <item id="2" start="5.9" duration="2.933">
+  <person>Student</person>
+  <text>My birthday's on the 4th of May</text>
+  <image/>
+ </item>
+ <item id="3" start="8.833" duration="3.333">
+  <person>Teacher</person>
+  <text>What do we say to people on their birthday?</text>
+  <image/>
+ </item>
+ <item id="3" start="12.167" duration="3.9">
+  <person>Student</person>
+  <text>We say &quot;Happy Birthday&quot; to people on their birthday</text>
+  <image/>
+ </item>
+ <item id="4" start="16.1" duration="1.567">
+  <person>Teacher</person>
+  <text>hi</text>
+  <image/>
+ </item>
+ <item id="5" start="17.667" duration="1.533">
+  <person>Teacher</person>
+  <text>meet</text>
+  <image/>
+ </item>
+ <item id="6" start="19.2" duration="2.2">
+  <person>Teacher</person>
+  <text>nice to meet you</text>
+  <image/>
+ </item>
+ <item id="7" start="21.4" duration="1.767">
+  <person>Teacher</person>
+  <text>how are you?</text>
+  <image/>
+ </item>
+ <item id="8" start="23.167" duration="3.2">
+  <person>Teacher</person>
+  <text>What can we say when we meet a friend?</text>
+  <image/>
+ </item>
+ <item id="8" start="26.4" duration="4.6">
+  <person>Student</person>
+  <text>When we meet a friend, we can say &quot;Hi. How are you?&quot;</text>
+  <image/>
+ </item>
+ <item id="9" start="31.033" duration="3.933">
+  <person>Teacher</person>
+  <text>What can we do when we meet somebody for the first time?</text>
+  <image/>
+ </item>
+ <item id="9" start="35.0" duration="7.367">
+  <person>Student</person>
+  <text>When we meet somebody for the first time, we can say &quot;Hello. Nice to meet you&quot;, and shake hands with them</text>
+  <image/>
+ </item>
+ <item id="10" start="42.367" duration="4.467">
+  <person>Teacher</person>
+  <text>When you go to meet somebody, do you always arrive early?</text>
+  <image/>
+ </item>
+ <item id="10" start="46.833" duration="8.833">
+  <person>Student</person>
+  <text>No, when I go to meet somebody, I don't always arrive early; sometimes I arrive early and sometimes I arrive late</text>
+  <image/>
+ </item>
+ <item id="11" start="55.667" duration="1.467">
+  <person>Teacher</person>
+  <text>bring</text>
+  <image/>
+ </item>
+ <item id="12" start="57.133" duration="1.467">
+  <person>Teacher</person>
+  <text>take</text>
+  <image/>
+ </item>
+ <item id="13" start="58.633" duration="3.933">
+  <person>Teacher</person>
+  <text>What's the difference between &quot;bring&quot; and &quot;take&quot;?</text>
+  <image/>
+ </item>
+ <item id="13" start="62.567" duration="8.5">
+  <person>Student</person>
+  <text>The difference between &quot;bring&quot; and &quot;take&quot; is that &quot;bring&quot; means &quot;carry here&quot; whereas take means &quot;carry their&quot;</text>
+  <image/>
+ </item>
+ <item id="14" start="71.1" duration="4.9">
+  <person>Teacher</person>
+  <text>Bring your book to me, please. What are you doing?</text>
+  <image/>
+ </item>
+ <item id="14" start="76.0" duration="2.3">
+  <person>Student</person>
+  <text>I'm bringing my book to you</text>
+  <image/>
+ </item>
+ <item id="15" start="78.3" duration="4.8">
+  <person>Teacher</person>
+  <text>Take your book to her, please. What are you doing?</text>
+  <image/>
+ </item>
+ <item id="15" start="83.133" duration="2.833">
+  <person>Student</person>
+  <text>I'm taking my book to her</text>
+  <image/>
+ </item>
+ <item id="16" start="85.967" duration="3.767">
+  <person>Teacher</person>
+  <text>Give me a sentence with &quot;bring&quot; in it, please</text>
+  <image/>
+ </item>
+ <item id="16" start="89.733" duration="3.533">
+  <person>Student</person>
+  <text>I bring my bag to the lesson with me</text>
+  <image/>
+ </item>
+ <item id="17" start="93.3" duration="3.067">
+  <person>Teacher</person>
+  <text>Give me a sentence with &quot;take&quot; in it</text>
+  <image/>
+ </item>
+ <item id="17" start="96.4" duration="3.467">
+  <person>Student</person>
+  <text>I take my bag home with me after the lesson</text>
+  <image/>
+ </item>
+ <item id="18" start="99.867" duration="1.933">
+  <person>Teacher</person>
+  <text>What am I doing?</text>
+  <image/>
+ </item>
+ <item id="18" start="101.8" duration="2.933">
+  <person>Student</person>
+  <text>You're taking your book into the corridor</text>
+  <image/>
+ </item>
+ <item id="19" start="104.733" duration="2.033">
+  <person>Teacher</person>
+  <text>What am I doing?</text>
+  <image/>
+ </item>
+ <item id="19" start="106.8" duration="3.033">
+  <person>Student</person>
+  <text>You're bringing your book into the classroom</text>
+  <image/>
+ </item>
+ <item id="20" start="109.867" duration="3.167">
+  <person>Teacher</person>
+  <text>Do you bring a pen with you to school?</text>
+  <image/>
+ </item>
+ <item id="20" start="113.033" duration="3.133">
+  <person>Student</person>
+  <text>Yes, I bring a pen with me to school</text>
+  <image/>
+ </item>
+ <item id="21" start="116.2" duration="3.567">
+  <person>Teacher</person>
+  <text>Do you take this book home with you after the lesson?</text>
+  <image/>
+ </item>
+ <item id="21" start="119.767" duration="4.433">
+  <person>Student</person>
+  <text>No, I don't take that book home with me after the lesson</text>
+  <image/>
+ </item>
+ <item id="22" start="124.2" duration="1.7">
+  <person>Teacher</person>
+  <text>Why not?</text>
+  <image/>
+ </item>
+ <item id="22" start="125.9" duration="2.433">
+  <person>Student</person>
+  <text>Because it isn't mine</text>
+  <image/>
+ </item>
+ <item id="23" start="128.367" duration="3.1">
+  <person>Teacher</person>
+  <text>Do you bring any food with you to school?</text>
+  <image/>
+ </item>
+ <item id="23" start="131.5" duration="3.8">
+  <person>Student</person>
+  <text>No, I don't bring any food with me to school</text>
+  <image/>
+ </item>
+ <item id="24" start="135.333" duration="3.767">
+  <person>Teacher</person>
+  <text>Do you take a camera with you when you go on holiday?</text>
+  <image/>
+ </item>
+ <item id="24" start="139.1" duration="4.0">
+  <person>Student</person>
+  <text>Yes, I take a camera with me when I go on holiday</text>
+  <image/>
+ </item>
+ <item id="25" start="143.133" duration="2.667">
+  <person>Teacher</person>
+  <text>What do you bring with you to school?</text>
+  <image/>
+ </item>
+ <item id="25" start="145.833" duration="4.933">
+  <person>Student</person>
+  <text>I bring my book, my bag and my pen with me to school</text>
+  <image/>
+ </item>
+ <item id="26" start="150.767" duration="1.667">
+  <person>Teacher</person>
+  <text>quite</text>
+  <image/>
+ </item>
+ <item id="27" start="152.433" duration="2.533">
+  <person>Teacher</person>
+  <text>Do you speak English quite well?</text>
+  <image/>
+ </item>
+ <item id="27" start="155.0" duration="3.267">
+  <person>Student</person>
+  <text>Yes, I speak English quite well</text>
+  <image/>
+ </item>
+ <item id="28" start="158.267" duration="2.767">
+  <person>Teacher</person>
+  <text>Do you go to the cinema quite often?</text>
+  <image/>
+ </item>
+ <item id="28" start="161.067" duration="3.867">
+  <person>Student</person>
+  <text>No, I don't go to the cinema very often</text>
+  <image/>
+ </item>
+ <item id="29" start="164.933" duration="6.167">
+  <person>Teacher</person>
+  <text>Do you think learning English is quite easy, quite difficult or very difficult?</text>
+  <image/>
+ </item>
+ <item id="29" start="171.1" duration="3.8">
+  <person>Student</person>
+  <text>I think learning English is quite difficult</text>
+  <image/>
+ </item>
+ <item id="30" start="174.933" duration="1.6">
+  <person>Teacher</person>
+  <text>pure</text>
+  <image/>
+ </item>
+ <item id="31" start="176.533" duration="1.7">
+  <person>Teacher</person>
+  <text>impure</text>
+  <image/>
+ </item>
+ <item id="32" start="178.233" duration="2.867">
+  <person>Teacher</person>
+  <text>Is pure water bad for the body?</text>
+  <image/>
+ </item>
+ <item id="32" start="181.133" duration="5.5">
+  <person>Student</person>
+  <text>No, pure water isn't bad for the body; it's good for the body</text>
+  <image/>
+ </item>
+ <item id="33" start="186.633" duration="3.8">
+  <person>Teacher</person>
+  <text>Is the wine we buy in the shops always pure?</text>
+  <image/>
+ </item>
+ <item id="33" start="190.433" duration="7.9">
+  <person>Student</person>
+  <text>No, the wine we buy in the shops isn't always pure; sometimes it's pure and sometimes it's impure</text>
+  <image/>
+ </item>
+ <item id="34" start="198.367" duration="1.767">
+  <person>Teacher</person>
+  <text>promise</text>
+  <image/>
+ </item>
+ <item id="35" start="200.133" duration="4.7">
+  <person>Teacher</person>
+  <text>Do you ever promise to give something to somebody and then not give it?</text>
+  <image/>
+ </item>
+ <item id="35" start="204.867" duration="5.6">
+  <person>Student</person>
+  <text>Yes, I sometimes promise to give something to somebody and then not give it</text>
+  <image/>
+ </item>
+ <item id="36" start="210.5" duration="3.1">
+  <person>Teacher</person>
+  <text>Do you always do what you promised to do?</text>
+  <image/>
+ </item>
+ <item id="36" start="213.6" duration="4.2">
+  <person>Student</person>
+  <text>No, I don't always do what I promised to do</text>
+  <image/>
+ </item>
+ <item id="37" start="217.833" duration="1.667">
+  <person>Teacher</person>
+  <text>polite</text>
+  <image/>
+ </item>
+ <item id="38" start="219.5" duration="1.867">
+  <person>Teacher</person>
+  <text>impolite</text>
+  <image/>
+ </item>
+ <item id="39" start="221.4" duration="1.6">
+  <person>Teacher</person>
+  <text>adult</text>
+  <image/>
+ </item>
+ <item id="40" start="223.033" duration="1.833">
+  <person>Teacher</person>
+  <text>teenager</text>
+  <image/>
+ </item>
+ <item id="41" start="224.867" duration="4.867">
+  <person>Teacher</person>
+  <text>Are waiters and waitresses always polite to people in restaurants?</text>
+  <image/>
+ </item>
+ <item id="41" start="229.767" duration="8.533">
+  <person>Student</person>
+  <text>No, waiters and waitresses aren't always polite to people in restaurants; sometimes they're polite and sometimes they're impolite</text>
+  <image/>
+ </item>
+ <item id="42" start="238.3" duration="3.867">
+  <person>Teacher</person>
+  <text>Are teenagers generally more polite than adults?</text>
+  <image/>
+ </item>
+ <item id="42" start="242.2" duration="6.633">
+  <person>Student</person>
+  <text>No, teenagers aren't generally more polite than adults; they're generally less polite than adults</text>
+  <image/>
+ </item>
+ <item id="43" start="248.833" duration="1.833">
+  <person>Teacher</person>
+  <text>excuse me</text>
+  <image/>
+ </item>
+ <item id="44" start="250.667" duration="6.333">
+  <person>Teacher</person>
+  <text>When we want to speak to somebody we don't know, what's the first thing we generally say?</text>
+  <image/>
+ </item>
+ <item id="44" start="257.033" duration="6.833">
+  <person>Student</person>
+  <text>When we want to speak to somebody we don't know, the first thing we generally say is &quot;excuse me&quot;</text>
+  <image/>
+ </item>
+ <item id="45" start="263.9" duration="2.5">
+  <person>Teacher</person>
+  <text>Give me an example, please</text>
+  <image/>
+ </item>
+ <item id="45" start="266.433" duration="7.7">
+  <person>Student</person>
+  <text>Excuse me, can you tell me the way to the station, please?</text>
+  <image/>
+ </item>
+</items>

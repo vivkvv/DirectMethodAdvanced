@@ -1,0 +1,327 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation/>
+ </item>
+ <item id="1">
+  <translation>прошедший</translation>
+ </item>
+ <item id="2">
+  <translation>грамматическое время</translation>
+ </item>
+ <item id="3">
+  <translation>прошедшее время</translation>
+ </item>
+ <item id="4">
+  <translation>тому назад</translation>
+ </item>
+ <item id="5">
+  <translation/>
+ </item>
+ <item id="6">
+  <translation/>
+ </item>
+ <item id="7">
+  <translation/>
+ </item>
+ <item id="8">
+  <translation/>
+ </item>
+ <item id="9">
+  <translation/>
+ </item>
+ <item id="10">
+  <translation/>
+ </item>
+ <item id="11">
+  <translation/>
+ </item>
+ <item id="11">
+  <translation/>
+ </item>
+ <item id="12">
+  <translation/>
+ </item>
+ <item id="12">
+  <translation/>
+ </item>
+ <item id="13">
+  <translation/>
+ </item>
+ <item id="13">
+  <translation/>
+ </item>
+ <item id="14">
+  <translation/>
+ </item>
+ <item id="14">
+  <translation/>
+ </item>
+ <item id="15">
+  <translation/>
+ </item>
+ <item id="15">
+  <translation/>
+ </item>
+ <item id="16">
+  <translation/>
+ </item>
+ <item id="16">
+  <translation/>
+ </item>
+ <item id="17">
+  <translation>дорога</translation>
+ </item>
+ <item id="18">
+  <translation>улица</translation>
+ </item>
+ <item id="19">
+  <translation>соединять</translation>
+ </item>
+ <item id="20">
+  <translation/>
+ </item>
+ <item id="20">
+  <translation/>
+ </item>
+ <item id="21">
+  <translation/>
+ </item>
+ <item id="21">
+  <translation/>
+ </item>
+ <item id="22">
+  <translation>линия, морщина</translation>
+ </item>
+ <item id="23">
+  <translation/>
+ </item>
+ <item id="23">
+  <translation/>
+ </item>
+ <item id="24">
+  <translation/>
+ </item>
+ <item id="24">
+  <translation/>
+ </item>
+ <item id="25">
+  <translation>прямой</translation>
+ </item>
+ <item id="26">
+  <translation>изогнутый</translation>
+ </item>
+ <item id="27">
+  <translation>бутылка</translation>
+ </item>
+ <item id="28">
+  <translation>виски</translation>
+ </item>
+ <item id="29">
+  <translation/>
+ </item>
+ <item id="29">
+  <translation/>
+ </item>
+ <item id="30">
+  <translation/>
+ </item>
+ <item id="30">
+  <translation/>
+ </item>
+ <item id="31">
+  <translation/>
+ </item>
+ <item id="31">
+  <translation/>
+ </item>
+ <item id="32">
+  <translation/>
+ </item>
+ <item id="32">
+  <translation/>
+ </item>
+ <item id="33">
+  <translation>иногда</translation>
+ </item>
+ <item id="34">
+  <translation/>
+ </item>
+ <item id="34">
+  <translation/>
+ </item>
+ <item id="35">
+  <translation/>
+ </item>
+ <item id="35">
+  <translation/>
+ </item>
+ <item id="36">
+  <translation/>
+ </item>
+ <item id="36">
+  <translation/>
+ </item>
+ <item id="37">
+  <translation/>
+ </item>
+ <item id="37">
+  <translation/>
+ </item>
+ <item id="38">
+  <translation>правительство</translation>
+ </item>
+ <item id="39">
+  <translation>закон</translation>
+ </item>
+ <item id="40">
+  <translation/>
+ </item>
+ <item id="40">
+  <translation/>
+ </item>
+ <item id="41">
+  <translation>сердце</translation>
+ </item>
+ <item id="42">
+  <translation/>
+ </item>
+ <item id="42">
+  <translation/>
+ </item>
+ <item id="43">
+  <translation>быстро</translation>
+ </item>
+ <item id="44">
+  <translation>медленно</translation>
+ </item>
+ <item id="45">
+  <translation>наречие</translation>
+ </item>
+ <item id="46">
+  <translation>мыслитель (a quick thinker - сообразительный человек)</translation>
+ </item>
+ <item id="47">
+  <translation>писатель</translation>
+ </item>
+ <item id="48">
+  <translation/>
+ </item>
+ <item id="48">
+  <translation/>
+ </item>
+ <item id="49">
+  <translation/>
+ </item>
+ <item id="49">
+  <translation/>
+ </item>
+ <item id="50">
+  <translation/>
+ </item>
+ <item id="50">
+  <translation/>
+ </item>
+ <item id="51">
+  <translation/>
+ </item>
+ <item id="51">
+  <translation/>
+ </item>
+ <item id="52">
+  <translation/>
+ </item>
+ <item id="52">
+  <translation/>
+ </item>
+ <item id="53">
+  <translation>глубокий</translation>
+ </item>
+ <item id="54">
+  <translation>мелкий</translation>
+ </item>
+ <item id="55">
+  <translation>университет</translation>
+ </item>
+ <item id="56">
+  <translation/>
+ </item>
+ <item id="56">
+  <translation/>
+ </item>
+ <item id="57">
+  <translation/>
+ </item>
+ <item id="57">
+  <translation/>
+ </item>
+ <item id="58">
+  <translation/>
+ </item>
+ <item id="58">
+  <translation/>
+ </item>
+ <item id="59">
+  <translation>курить</translation>
+ </item>
+ <item id="60">
+  <translation>сигарета</translation>
+ </item>
+ <item id="61">
+  <translation>пепел</translation>
+ </item>
+ <item id="62">
+  <translation>пепельница</translation>
+ </item>
+ <item id="63">
+  <translation/>
+ </item>
+ <item id="63">
+  <translation/>
+ </item>
+ <item id="64">
+  <translation/>
+ </item>
+ <item id="64">
+  <translation/>
+ </item>
+ <item id="65">
+  <translation/>
+ </item>
+ <item id="65">
+  <translation/>
+ </item>
+ <item id="66">
+  <translation/>
+ </item>
+ <item id="66">
+  <translation/>
+ </item>
+ <item id="67">
+  <translation>ждать</translation>
+ </item>
+ <item id="68">
+  <translation/>
+ </item>
+ <item id="68">
+  <translation/>
+ </item>
+ <item id="69">
+  <translation/>
+ </item>
+ <item id="69">
+  <translation/>
+ </item>
+ <item id="70">
+  <translation/>
+ </item>
+ <item id="70">
+  <translation/>
+ </item>
+ <item id="71">
+  <translation/>
+ </item>
+ <item id="71">
+  <translation/>
+ </item>
+</items>
