@@ -416,14 +416,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>The past of “get“ is “got“.</text>
+	</Explanation>	
 	<item id="43">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The past of “get“ is “got“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="44">
 		<item id="0" start="195.267" duration="2.2">
 			<person>Teacher</person>
 			<text>What's the past of &quot;get&quot;?</text>
@@ -435,7 +431,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="44">
 		<item id="0" start="200.3" duration="2.267">
 			<person>Teacher</person>
 			<text>Where did you get your shoes?</text>
@@ -447,7 +443,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="45">
 		<item id="0" start="205.833" duration="2.6">
 			<person>Teacher</person>
 			<text>What time did you get here today?</text>
@@ -459,7 +455,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="47">
+	<item id="46">
 		<item id="0" start="211.233" duration="2.667">
 			<person>Teacher</person>
 			<text>Did you get to school early today?</text>
@@ -471,21 +467,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="47">
 		<item id="0" start="217.067" duration="1.667">
 			<person>Teacher</person>
 			<text>until</text>
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="48">
 		<item id="0" start="218.733" duration="1.567">
 			<person>Teacher</person>
 			<text>till</text>
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="49">
 		<item id="0" start="220.333" duration="3.633">
 			<person>Teacher</person>
 			<text>Will you be in this room until 10:00 this evening?</text>
@@ -497,7 +493,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="50">
 		<item id="0" start="228.2" duration="3.467">
 			<person>Teacher</person>
 			<text>Do you want to live until you're a hundred years old?</text>
@@ -509,7 +505,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="51">
 		<item id="0" start="235.667" duration="3.833">
 			<person>Teacher</person>
 			<text>Are supermarkets sometimes open till late at night?</text>
@@ -521,21 +517,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="52">
 		<item id="0" start="244.133" duration="1.5">
 			<person>Teacher</person>
 			<text>again</text>
 			<image/>
 		</item>
 	</item>
-	<item id="54">
+	<item id="53">
 		<item id="0" start="245.633" duration="1.7">
 			<person>Teacher</person>
 			<text>too many</text>
 			<image/>
 		</item>
 	</item>
-	<item id="55">
+	<item id="54">
 		<item id="0" start="247.333" duration="2.667">
 			<person>Teacher</person>
 			<text>Will you come here again next week?</text>
@@ -547,7 +543,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="55">
 		<item id="0" start="253.2" duration="4.8">
 			<person>Teacher</person>
 			<text>Will I ask you the same questions again next lesson as I am asking you now?</text>
@@ -559,7 +555,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="56">
 		<item id="0" start="264.067" duration="5.1">
 			<person>Teacher</person>
 			<text>If we make too many mistakes in our dictations, do you think it's better to do them again?</text>
@@ -571,14 +567,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="57">
 		<item id="0" start="275.5" duration="1.833">
 			<person>Teacher</person>
 			<text>duration</text>
 			<image/>
 		</item>
 	</item>
-	<item id="59">
+	<item id="58">
 		<item id="0" start="277.333" duration="3.2">
 			<person>Teacher</person>
 			<text>What's the duration of a lesson in this school?</text>
@@ -590,7 +586,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="60">
+	<item id="59">
 		<item id="0" start="284.933" duration="2.967">
 			<person>Teacher</person>
 			<text>What's the duration of a game of football?</text>
@@ -602,21 +598,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="60">
 		<item id="0" start="292.167" duration="2.133">
 			<person>Teacher</person>
 			<text>there will be</text>
 			<image/>
 		</item>
 	</item>
-	<item id="62">
+	<item id="61">
 		<item id="0" start="294.333" duration="2.033">
 			<person>Teacher</person>
 			<text>there'll be</text>
 			<image/>
 		</item>
 	</item>
-	<item id="63">
+	<item id="62">
 		<item id="0" start="296.4" duration="3.0">
 			<person>Teacher</person>
 			<text>Will there be anything on TV tonight?</text>
@@ -628,7 +624,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="64">
+	<item id="63">
 		<item id="0" start="303.133" duration="3.9">
 			<person>Teacher</person>
 			<text>Will there be any pictures hanging on these walls next lesson?</text>
@@ -640,7 +636,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="65">
+	<item id="64">
 		<item id="0" start="311.833" duration="3.233">
 			<person>Teacher</person>
 			<text>Will there be a chair on the table next lesson?</text>
@@ -652,7 +648,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="66">
+	<item id="65">
 		<item id="0" start="319.1" duration="3.567">
 			<person>Teacher</person>
 			<text>Will there be anybody sitting on the floor next lesson?</text>
@@ -664,11 +660,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="67">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>“New“ we use for things, whereas “young“ we use for people.\nThat shop is older than ours.\nChristmas and Easter are the two most important holidays of the year.\nWhen our stomachs are empty, we must eat, but not when they are full.\nHe doesn’t like the subject of mathematics very much.\nOn a cold morning, he sometimes dresses before washing.\nJuice, geography, fruit, telephone, apple.\nFinland is one of the coldest countries in the world, whilst India is one of the hottest.\nEngland is cool.\nItaly is warm.\nHer flat is near our house.\nShe lives in the first block.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>“New“ we use for things, whereas “young“ we use for people.\nThat shop is older than ours.\nChristmas and Easter are the two most important holidays of the year.\nWhen our stomachs are empty, we must eat, but not when they are full.\nHe doesn’t like the subject of mathematics very much.\nOn a cold morning, he sometimes dresses before washing.\nJuice, geography, fruit, telephone, apple.\nFinland is one of the coldest countries in the world, whilst India is one of the hottest.\nEngland is cool.\nItaly is warm.\nHer flat is near our house.\nShe lives in the first block.</text>
+	</Dictation>	
 </items>

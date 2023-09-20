@@ -242,28 +242,20 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>We use the word “get“ a lot in English, and it has different meanings:</text>
+	</Explanation>	
 	<item id="26">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We use the word “get“ a lot in English, and it has different meanings:</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="27">
 		<item id="0" start="123.6" duration="1.733">
 			<person>Teacher</person>
 			<text>become</text>
 			<image/>
 		</item>
 	</item>
-	<item id="28">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The word “get“ means “become“ when it has an adjective after it. For example, “I am getting hungry“ means “I am becoming hungry“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="29">
+	<Explanation>
+		<text>The word “get“ means “become“ when it has an adjective after it. For example, “I am getting hungry“ means “I am becoming hungry“.</text>
+	</Explanation>	
+	<item id="27">
 		<item id="0" start="125.333" duration="3.367">
 			<person>Teacher</person>
 			<text>When you get hungry, what do you do?</text>
@@ -275,7 +267,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="28">
 		<item id="0" start="131.867" duration="3.767">
 			<person>Teacher</person>
 			<text>Do you think your English is getting better?</text>
@@ -287,35 +279,31 @@
 			<image/>
 		</item>
 	</item>
-	<item id="31">
+	<item id="29">
 		<item id="0" start="139.767" duration="1.9">
 			<person>Teacher</person>
 			<text>obtain</text>
 			<image/>
 		</item>
 	</item>
-	<item id="32">
+	<item id="30">
 		<item id="0" start="141.667" duration="1.7">
 			<person>Teacher</person>
 			<text>fetch</text>
 			<image/>
 		</item>
 	</item>
-	<item id="33">
+	<item id="31">
 		<item id="0" start="143.367" duration="1.667">
 			<person>Teacher</person>
 			<text>doctor</text>
 			<image/>
 		</item>
 	</item>
-	<item id="34">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>When we put a noun after “get“, it can mean “receive“, “obtain“ or “fetch“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="35">
+	<Explanation>
+		<text>When we put a noun after “get“, it can mean “receive“, “obtain“ or “fetch“.</text>
+	</Explanation>	
+	<item id="32">
 		<item id="0" start="145.033" duration="3.833">
 			<person>Teacher</person>
 			<text>About how much does a doctor get (receive) a month?</text>
@@ -327,7 +315,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="36">
+	<item id="33">
 		<item id="0" start="153.8" duration="4.567">
 			<person>Teacher</person>
 			<text>Do you get (receive) any cards from your friends on your birthday?</text>
@@ -339,7 +327,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="37">
+	<item id="34">
 		<item id="0" start="163.433" duration="3.667">
 			<person>Teacher</person>
 			<text>Can I get (obtain) clothes from a book shop?</text>
@@ -351,7 +339,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="38">
+	<item id="35">
 		<item id="0" start="171.133" duration="3.367">
 			<person>Teacher</person>
 			<text>Which animal do we get (obtain) milk from?</text>
@@ -363,7 +351,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="36">
 		<item id="0" start="177.667" duration="4.7">
 			<person>Teacher</person>
 			<text>Will you go and get (fetch) a pen for me from the next room, please?</text>
@@ -375,7 +363,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="40">
+	<item id="37">
 		<item id="0" start="187.267" duration="5.967">
 			<person>Teacher</person>
 			<text>When children are young, do their parents get (fetch) them from school each day?</text>
@@ -387,7 +375,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="38">
 		<item id="0" start="199.433" duration="4.733">
 			<person>Teacher</person>
 			<text>Will you get (fetch) that book from the table and give it to me, please?</text>
@@ -399,28 +387,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="39">
 		<item id="0" start="208.967" duration="1.767">
 			<person>Teacher</person>
 			<text>get to</text>
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="40">
 		<item id="0" start="210.767" duration="1.733">
 			<person>Teacher</person>
 			<text>reach</text>
 			<image/>
 		</item>
 	</item>
-	<item id="44">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>If we “get to“ a place, it means we arrive (or reach) there.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="45">
+	<Explanation>
+		<text>If we “get to“ a place, it means we arrive (or reach) there.</text>
+	</Explanation>	
+	<item id="41">
 		<item id="0" start="212.5" duration="4.733">
 			<person>Teacher</person>
 			<text>What time do you generally get to (arrive at) school for your lesson?</text>
@@ -432,14 +416,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Before the words “home“, “here“ and “there“, we do not use the word “to“. For example, “I get here at 11 a.m. for my lesson and go home again at 1 p.m.“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="47">
+	<Explanation>
+		<text>Before the words “home“, “here“ and “there“, we do not use the word “to“. For example, “I get here at 11 a.m. for my lesson and go home again at 1 p.m.“.</text>
+	</Explanation>	
+	<item id="42">
 		<item id="0" start="222.367" duration="4.567">
 			<person>Teacher</person>
 			<text>What time do you generally get (arrive) home at the end of the day?</text>
@@ -451,14 +431,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The verb “get“ has other meanings besides the ones here, but its general meanings are “become“ (before an adjective) and “obtain“ (before a noun). If you are not sure when to use “get“, it is better to use the other verb with the same meaning. For example, instead of saying “I get many emails“ you can say “I receive many emails“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="49">
+	<Explanation>
+		<text>The verb “get“ has other meanings besides the ones here, but its general meanings are “become“ (before an adjective) and “obtain“ (before a noun). If you are not sure when to use “get“, it is better to use the other verb with the same meaning. For example, instead of saying “I get many emails“ you can say “I receive many emails“.</text>
+	</Explanation>	
+	<item id="43">
 		<item id="0" start="232.7" duration="3.833">
 			<person>Teacher</person>
 			<text>What are the general meanings of the verb &quot;get&quot;?</text>
@@ -470,7 +446,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="44">
 		<item id="0" start="242.4" duration="5.033">
 			<person>Teacher</person>
 			<text>If you are not sure when to use &quot;get&quot;, what is it better to do?</text>
@@ -482,21 +458,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="45">
 		<item id="0" start="253.967" duration="1.967">
 			<person>Teacher</person>
 			<text>there was</text>
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="46">
 		<item id="0" start="255.933" duration="1.933">
 			<person>Teacher</person>
 			<text>there were</text>
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="47">
 		<item id="0" start="257.867" duration="2.967">
 			<person>Teacher</person>
 			<text>Is there a picture on that wall?</text>
@@ -508,7 +484,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="54">
+	<item id="48">
 		<item id="0" start="264.667" duration="4.367">
 			<person>Teacher</person>
 			<text>Was there a picture on that wall three lessons ago?</text>
@@ -520,7 +496,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="55">
+	<item id="49">
 		<item id="0" start="274.067" duration="4.133">
 			<person>Teacher</person>
 			<text>Were there any books on the table last lesson?</text>
@@ -532,7 +508,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="50">
 		<item id="0" start="283.167" duration="4.567">
 			<person>Teacher</person>
 			<text>Was there a chair in that corner during the last lesson?</text>
@@ -544,7 +520,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="51">
 		<item id="0" start="292.933" duration="3.967">
 			<person>Teacher</person>
 			<text>Were there any chairs on the table last lesson?</text>
@@ -556,21 +532,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="52">
 		<item id="0" start="301.8" duration="1.6">
 			<person>Teacher</person>
 			<text>die</text>
 			<image/>
 		</item>
 	</item>
-	<item id="59">
+	<item id="53">
 		<item id="0" start="303.4" duration="1.933">
 			<person>Teacher</person>
 			<text>president</text>
 			<image/>
 		</item>
 	</item>
-	<item id="60">
+	<item id="54">
 		<item id="0" start="305.367" duration="3.467">
 			<person>Teacher</person>
 			<text>What's the opposite of the verb &quot;to live&quot;?</text>
@@ -582,7 +558,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="55">
 		<item id="0" start="313.067" duration="4.567">
 			<person>Teacher</person>
 			<text>Do most people die before they're a hundred years old?</text>
@@ -594,7 +570,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="62">
+	<item id="56">
 		<item id="0" start="322.7" duration="2.933">
 			<person>Teacher</person>
 			<text>When did president Kennedy die?</text>
@@ -606,11 +582,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="63">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>Mount Everest is the highest mountain in the world.\nThe Nile is the longest river in the world.\nThis piece of plastic is larger than that one.\nHer uncle is a very handsome man.\nWar between two nations is unpleasant.\nA hundred pence make a pound.\nI can’t measure the increase in the quantity of gas we’re using.\nA lemon is a yellow fruit.\nStart at the bottom of the road and go almost to the top.\nThe table’s heavy.\nThe date today is the twenty-first of October 2011.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>Mount Everest is the highest mountain in the world.\nThe Nile is the longest river in the world.\nThis piece of plastic is larger than that one.\nHer uncle is a very handsome man.\nWar between two nations is unpleasant.\nA hundred pence make a pound.\nI can’t measure the increase in the quantity of gas we’re using.\nA lemon is a yellow fruit.\nStart at the bottom of the road and go almost to the top.\nThe table’s heavy.\nThe date today is the twenty-first of October 2011.</text>
+	</Dictation>	
 </items>

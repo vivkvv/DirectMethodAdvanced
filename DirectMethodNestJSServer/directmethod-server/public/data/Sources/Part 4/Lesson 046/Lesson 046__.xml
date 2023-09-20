@@ -77,14 +77,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>We form the future tense with the word “will” and the infinitive without “to”. The future of “I go“ is “I will go“. The future of “you go“ is “you will go“. The complete future tense of the verb “to go“ is “I will go“, “you will go“, “he will go“, “she will go“ etc.</text>
+	</Explanation>	
 	<item id="11">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We form the future tense with the word “will” and the infinitive without “to”. The future of “I go“ is “I will go“. The future of “you go“ is “you will go“. The complete future tense of the verb “to go“ is “I will go“, “you will go“, “he will go“, “she will go“ etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="12">
 		<item id="0" start="39.3" duration="3.0">
 			<person>Teacher</person>
 			<text>What's the future of &quot;I go&quot;?</text>
@@ -96,7 +92,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="13">
+	<item id="12">
 		<item id="0" start="46.7" duration="2.9">
 			<person>Teacher</person>
 			<text>What's the future of &quot;you go&quot;?</text>
@@ -108,7 +104,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="14">
+	<item id="13">
 		<item id="0" start="53.833" duration="4.067">
 			<person>Teacher</person>
 			<text>What's the complete future of the verb &quot;to go&quot;?</text>
@@ -120,14 +116,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="15">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The contraction of “I will“ is “I’ll“; the contraction of “you will“ is “you’ll“ etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="16">
+	<Explanation>
+		<text>The contraction of “I will“ is “I’ll“; the contraction of “you will“ is “you’ll“ etc.</text>
+	</Explanation>	
+	<item id="14">
 		<item id="0" start="64.5" duration="3.367">
 			<person>Teacher</person>
 			<text>What's the contraction of &quot;I will&quot;?</text>
@@ -139,7 +131,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="17">
+	<item id="15">
 		<item id="0" start="71.133" duration="3.267">
 			<person>Teacher</person>
 			<text>What's the contraction of &quot;you will&quot;?</text>
@@ -151,7 +143,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="18">
+	<item id="16">
 		<item id="0" start="77.5" duration="5.4">
 			<person>Teacher</person>
 			<text>What are the contractions of &quot;he will&quot;, &quot;she will&quot; etc.?</text>
@@ -163,21 +155,17 @@
 			<image/>
 		</item>
 	</item>
-	<item id="19">
+	<item id="17">
 		<item id="0" start="90.667" duration="2.467">
 			<person>Teacher</person>
 			<text>in three months' time</text>
 			<image/>
 		</item>
 	</item>
-	<item id="20">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The opposite of “3 months ago“ is “in 3 months’ time“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="21">
+	<Explanation>
+		<text>The opposite of “3 months ago“ is “in 3 months’ time“.</text>
+	</Explanation>	
+	<item id="18">
 		<item id="0" start="93.133" duration="3.2">
 			<person>Teacher</person>
 			<text>What's the opposite of &quot;three months ago&quot;?</text>
@@ -189,7 +177,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="22">
+	<item id="19">
 		<item id="0" start="102.2" duration="2.433">
 			<person>Teacher</person>
 			<text>Will I be here next week?</text>
@@ -201,7 +189,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="23">
+	<item id="20">
 		<item id="0" start="107.8" duration="3.367">
 			<person>Teacher</person>
 			<text>What time will I leave the classroom today?</text>
@@ -213,7 +201,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="24">
+	<item id="21">
 		<item id="0" start="115.5" duration="2.767">
 			<person>Teacher</person>
 			<text>Will you go home after the lesson?</text>
@@ -225,7 +213,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="22">
 		<item id="0" start="121.4" duration="3.1">
 			<person>Teacher</person>
 			<text>Where will you be in six months' time?</text>
@@ -237,7 +225,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="26">
+	<item id="23">
 		<item id="0" start="127.9" duration="2.9">
 			<person>Teacher</person>
 			<text>Will he be here next lesson?</text>
@@ -249,7 +237,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="27">
+	<item id="24">
 		<item id="0" start="133.767" duration="2.5">
 			<person>Teacher</person>
 			<text>Will it rain next year?</text>
@@ -261,7 +249,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="28">
+	<item id="25">
 		<item id="0" start="139.0" duration="3.5">
 			<person>Teacher</person>
 			<text>Will we be here in three weeks' time?</text>
@@ -273,7 +261,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="29">
+	<item id="26">
 		<item id="0" start="145.633" duration="3.433">
 			<person>Teacher</person>
 			<text>Will they speak English during the next lesson?</text>
@@ -285,28 +273,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="27">
 		<item id="0" start="152.9" duration="1.7">
 			<person>Teacher</person>
 			<text>won't</text>
 			<image/>
 		</item>
 	</item>
-	<item id="31">
+	<item id="28">
 		<item id="0" start="154.633" duration="1.667">
 			<person>Teacher</person>
 			<text>stay</text>
 			<image/>
 		</item>
 	</item>
-	<item id="32">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The contraction of “I will not“ is “I won’t“. The contraction of “you will not“ is “you won’t“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="33">
+	<Explanation>
+		<text>The contraction of “I will not“ is “I won’t“. The contraction of “you will not“ is “you won’t“.</text>
+	</Explanation>	
+	<item id="29">
 		<item id="0" start="156.333" duration="3.233">
 			<person>Teacher</person>
 			<text>What's the contraction of &quot;I will not&quot;?</text>
@@ -318,7 +302,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="34">
+	<item id="30">
 		<item id="0" start="163.333" duration="2.833">
 			<person>Teacher</person>
 			<text>What's the contraction of &quot;you will not&quot;?</text>
@@ -330,7 +314,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="35">
+	<item id="31">
 		<item id="0" start="169.767" duration="5.233">
 			<person>Teacher</person>
 			<text>What are the contractions of &quot;he will not&quot;, &quot;she will not&quot; etc.?</text>
@@ -342,7 +326,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="36">
+	<item id="32">
 		<item id="0" start="183.2" duration="3.233">
 			<person>Teacher</person>
 			<text>Will I go home in two minutes time?</text>
@@ -354,7 +338,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="37">
+	<item id="33">
 		<item id="0" start="191.2" duration="3.5">
 			<person>Teacher</person>
 			<text>Will you be here in a hundred years time?</text>
@@ -366,7 +350,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="38">
+	<item id="34">
 		<item id="0" start="198.533" duration="3.333">
 			<person>Teacher</person>
 			<text>Will he stay here after the lesson?</text>
@@ -378,7 +362,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="35">
 		<item id="0" start="206.467" duration="2.967">
 			<person>Teacher</person>
 			<text>Will we live for a thousand years?</text>
@@ -390,7 +374,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="40">
+	<item id="36">
 		<item id="0" start="213.167" duration="5.333">
 			<person>Teacher</person>
 			<text>Will they agree to give you all the money they have in their pockets if you ask them?</text>
@@ -402,28 +386,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="37">
 		<item id="0" start="224.133" duration="1.633">
 			<person>Teacher</person>
 			<text>shall</text>
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="38">
 		<item id="0" start="225.767" duration="1.8">
 			<person>Teacher</person>
 			<text>suggestion</text>
 			<image/>
 		</item>
 	</item>
-	<item id="43">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We use “shall” instead of “will” when we are making a suggestion with the pronoun “I” or “we”. For example, we say “Shall I open the window?”, “Shall we go to the cinema?” etc. We can also ask somebody for a suggestion with “shall”. For example, we can ask “What shall I do?”, “Where shall we go?” etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="44">
+	<Explanation>
+		<text>We use “shall” instead of “will” when we are making a suggestion with the pronoun “I” or “we”. For example, we say “Shall I open the window?”, “Shall we go to the cinema?” etc. We can also ask somebody for a suggestion with “shall”. For example, we can ask “What shall I do?”, “Where shall we go?” etc.</text>
+	</Explanation>	
+	<item id="39">
 		<item id="0" start="227.6" duration="3.4">
 			<person>Teacher</person>
 			<text>When do we use &quot;shall&quot; instead of &quot;will&quot;?</text>
@@ -435,7 +415,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="40">
 		<item id="0" start="236.333" duration="2.6">
 			<person>Teacher</person>
 			<text>Give me some examples, please</text>
@@ -447,7 +427,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="41">
 		<item id="0" start="243.267" duration="3.733">
 			<person>Teacher</person>
 			<text>Can we use &quot;shell&quot; to ask for a suggestion?</text>
@@ -459,7 +439,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="47">
+	<item id="42">
 		<item id="0" start="250.9" duration="2.6">
 			<person>Teacher</person>
 			<text>Give me some examples, please</text>
@@ -471,28 +451,28 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="43">
 		<item id="0" start="257.2" duration="1.6">
 			<person>Teacher</person>
 			<text>public</text>
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="44">
 		<item id="0" start="258.8" duration="1.7">
 			<person>Teacher</person>
 			<text>in public</text>
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="45">
 		<item id="0" start="260.5" duration="2.1">
 			<person>Teacher</person>
 			<text>public holiday</text>
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="46">
 		<item id="0" start="262.6" duration="3.2">
 			<person>Teacher</person>
 			<text>Is this building open to the public?</text>
@@ -504,7 +484,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="47">
 		<item id="0" start="269.5" duration="4.6">
 			<person>Teacher</person>
 			<text>How many public holidays are there in your country each year?</text>
@@ -516,7 +496,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="48">
 		<item id="0" start="278.333" duration="2.7">
 			<person>Teacher</person>
 			<text>Do you like speaking in public?</text>
@@ -528,21 +508,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="54">
+	<item id="49">
 		<item id="0" start="284.067" duration="1.6">
 			<person>Teacher</person>
 			<text>show</text>
 			<image/>
 		</item>
 	</item>
-	<item id="55">
+	<item id="50">
 		<item id="0" start="285.7" duration="2.3">
 			<person>Teacher</person>
 			<text>Show me your book, please</text>
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="51">
 		<item id="0" start="288.0" duration="1.867">
 			<person>Teacher</person>
 			<text>What are you doing?</text>
@@ -554,7 +534,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="52">
 		<item id="0" start="292.2" duration="3.6">
 			<person>Teacher</person>
 			<text>Can you show me the way to the station from here?</text>
@@ -566,21 +546,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="53">
 		<item id="0" start="299.733" duration="1.533">
 			<person>Teacher</person>
 			<text>kill</text>
 			<image/>
 		</item>
 	</item>
-	<item id="59">
+	<item id="54">
 		<item id="0" start="301.3" duration="1.7">
 			<person>Teacher</person>
 			<text>tiger</text>
 			<image/>
 		</item>
 	</item>
-	<item id="60">
+	<item id="55">
 		<item id="0" start="303.0" duration="3.667">
 			<person>Teacher</person>
 			<text>Do tigers kill other animals for food?</text>
@@ -592,7 +572,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="56">
 		<item id="0" start="310.433" duration="3.867">
 			<person>Teacher</person>
 			<text>Do you like films in which lots of people get killed?</text>

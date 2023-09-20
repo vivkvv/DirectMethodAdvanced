@@ -1,0 +1,453 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="331.033">
+ <item id="0" start="0.533" duration="2.3">
+  <person>Teacher</person>
+  <text>Lesson 42</text>
+  <image/>
+ </item>
+ <item id="1" start="2.867" duration="1.6">
+  <person>Teacher</person>
+  <text>hill</text>
+  <image/>
+ </item>
+ <item id="2" start="4.467" duration="1.8">
+  <person>Teacher</person>
+  <text>around</text>
+  <image/>
+ </item>
+ <item id="3" start="6.3" duration="3.433">
+  <person>Teacher</person>
+  <text>Are there any hills around this town?</text>
+  <image/>
+ </item>
+ <item id="3" start="9.733" duration="4.567">
+  <person>Student</person>
+  <text>Yes, there are some hills around this town</text>
+  <image/>
+ </item>
+ <item id="4" start="14.333" duration="1.6">
+  <person>Teacher</person>
+  <text>laugh</text>
+  <image/>
+ </item>
+ <item id="5" start="15.933" duration="1.567">
+  <person>Teacher</person>
+  <text>comedy</text>
+  <image/>
+ </item>
+ <item id="6" start="17.533" duration="4.5">
+  <person>Teacher</person>
+  <text>Do people generally laugh when they're happy or unhappy?</text>
+  <image/>
+ </item>
+ <item id="6" start="22.033" duration="3.7">
+  <person>Student</person>
+  <text>People generally laugh when they're happy</text>
+  <image/>
+ </item>
+ <item id="7" start="25.733" duration="3.3">
+  <person>Teacher</person>
+  <text>Do you laugh when you watch comedies?</text>
+  <image/>
+ </item>
+ <item id="7" start="29.067" duration="3.967">
+  <person>Student</person>
+  <text>Yes, I laugh when I watch comedies</text>
+  <image/>
+ </item>
+ <item id="8" start="33.033" duration="1.667">
+  <person>Teacher</person>
+  <text>enemy</text>
+  <image/>
+ </item>
+ <item id="9" start="34.733" duration="3.367">
+  <person>Teacher</person>
+  <text>What's the opposite of the word &quot;friend&quot;?</text>
+  <image/>
+ </item>
+ <item id="9" start="38.1" duration="3.767">
+  <person>Student</person>
+  <text>The opposite of the word &quot;friend&quot; is &quot;enemy&quot;</text>
+  <image/>
+ </item>
+ <item id="10" start="41.867" duration="5.233">
+  <person>Teacher</person>
+  <text>Were England and America enemies during the Second World War?</text>
+  <image/>
+ </item>
+ <item id="10" start="47.1" duration="7.0">
+  <person>Student</person>
+  <text>No, England and America weren't enemies during the Second World War; they were friends</text>
+  <image/>
+ </item>
+ <item id="11" start="54.133" duration="1.833">
+  <person>Teacher</person>
+  <text>castle</text>
+  <image/>
+ </item>
+ <item id="12" start="56.0" duration="3.533">
+  <person>Teacher</person>
+  <text>Are there any old castles in this town?</text>
+  <image/>
+ </item>
+ <item id="12" start="59.533" duration="4.4">
+  <person>Student</person>
+  <text>Yes, there are some old castles in this town</text>
+  <image/>
+ </item>
+ <item id="13" start="63.933" duration="1.667">
+  <person>Teacher</person>
+  <text>hungry</text>
+  <image/>
+ </item>
+ <item id="14" start="65.633" duration="1.7">
+  <person>Teacher</person>
+  <text>noise</text>
+  <image/>
+ </item>
+ <item id="15" start="67.367" duration="2.733">
+  <person>Teacher</person>
+  <text>Are you hungry at the moment?</text>
+  <image/>
+ </item>
+ <item id="15" start="70.1" duration="3.567">
+  <person>Student</person>
+  <text>Yes, I'm hungry at the moment</text>
+  <image/>
+ </item>
+ <item id="16" start="73.7" duration="4.7">
+  <person>Teacher</person>
+  <text>Are there a lot of hungry people in some parts of the world today?</text>
+  <image/>
+ </item>
+ <item id="16" start="78.4" duration="5.633">
+  <person>Student</person>
+  <text>Yes, there are a lot of hungry people in some parts of the world today</text>
+  <image/>
+ </item>
+ <item id="17" start="84.033" duration="3.933">
+  <person>Teacher</person>
+  <text>Does your stomach make noises when you're hungry?</text>
+  <image/>
+ </item>
+ <item id="17" start="88.0" duration="4.633">
+  <person>Student</person>
+  <text>Yes, my stomach makes noises when I'm hungry</text>
+  <image/>
+ </item>
+ <item id="18" start="92.667" duration="1.633">
+  <person>Teacher</person>
+  <text>fact</text>
+  <image/>
+ </item>
+ <item id="19" start="94.3" duration="1.867">
+  <person>Teacher</person>
+  <text>historical</text>
+  <image/>
+ </item>
+ <item id="20" start="96.2" duration="1.9">
+  <person>Teacher</person>
+  <text>mathematical</text>
+  <image/>
+ </item>
+ <item id="21" start="98.1" duration="2.0">
+  <person>Teacher</person>
+  <text>geographical</text>
+  <image/>
+ </item>
+ <item id="22" start="100.1" duration="3.033">
+  <person>Teacher</person>
+  <text>Tell me a geographical fact</text>
+  <image/>
+ </item>
+ <item id="22" start="103.133" duration="4.6">
+  <person>Student</person>
+  <text>Mount Everest is the highest mountain in the world</text>
+  <image/>
+ </item>
+ <item id="23" start="107.767" duration="2.933">
+  <person>Teacher</person>
+  <text>Tell me a historical fact</text>
+  <image/>
+ </item>
+ <item id="23" start="110.7" duration="4.8">
+  <person>Student</person>
+  <text>The Second World War began in 1939</text>
+  <image/>
+ </item>
+ <item id="24" start="115.5" duration="3.033">
+  <person>Teacher</person>
+  <text>Tell me a mathematical fact</text>
+  <image/>
+ </item>
+ <item id="24" start="118.567" duration="3.467">
+  <person>Student</person>
+  <text>Two plus two equals four</text>
+  <image/>
+ </item>
+ <item id="25" start="122.033" duration="1.533">
+  <person>Teacher</person>
+  <text>get</text>
+  <image/>
+ </item>
+ <item id="26" start="123.6" duration="1.733">
+  <person>Teacher</person>
+  <text>become</text>
+  <image/>
+ </item>
+ <item id="27" start="125.333" duration="3.367">
+  <person>Teacher</person>
+  <text>When you get hungry, what do you do?</text>
+  <image/>
+ </item>
+ <item id="27" start="128.733" duration="3.1">
+  <person>Student</person>
+  <text>When I get hungry, I eat</text>
+  <image/>
+ </item>
+ <item id="28" start="131.867" duration="3.767">
+  <person>Teacher</person>
+  <text>Do you think your English is getting better?</text>
+  <image/>
+ </item>
+ <item id="28" start="135.633" duration="4.1">
+  <person>Student</person>
+  <text>Yes, I think my English is getting better</text>
+  <image/>
+ </item>
+ <item id="29" start="139.767" duration="1.9">
+  <person>Teacher</person>
+  <text>obtain</text>
+  <image/>
+ </item>
+ <item id="30" start="141.667" duration="1.7">
+  <person>Teacher</person>
+  <text>fetch</text>
+  <image/>
+ </item>
+ <item id="31" start="143.367" duration="1.667">
+  <person>Teacher</person>
+  <text>doctor</text>
+  <image/>
+ </item>
+ <item id="32" start="145.033" duration="3.833">
+  <person>Teacher</person>
+  <text>About how much does a doctor get a month?</text>
+  <image/>
+ </item>
+ <item id="32" start="148.9" duration="4.9">
+  <person>Student</person>
+  <text>A doctor gets about £2,000 a month</text>
+  <image/>
+ </item>
+ <item id="33" start="153.8" duration="4.567">
+  <person>Teacher</person>
+  <text>Do you get any cards from your friends on your birthday?</text>
+  <image/>
+ </item>
+ <item id="33" start="158.4" duration="5.033">
+  <person>Student</person>
+  <text>Yes, I get some cards from my friends on my birthday</text>
+  <image/>
+ </item>
+ <item id="34" start="163.433" duration="3.667">
+  <person>Teacher</person>
+  <text>Can I get clothes from a book shop?</text>
+  <image/>
+ </item>
+ <item id="34" start="167.133" duration="3.967">
+  <person>Student</person>
+  <text>No, you can't get clothes from a bookshop</text>
+  <image/>
+ </item>
+ <item id="35" start="171.133" duration="3.367">
+  <person>Teacher</person>
+  <text>Which animal do we get milk from?</text>
+  <image/>
+ </item>
+ <item id="35" start="174.5" duration="3.133">
+  <person>Student</person>
+  <text>We get milk from a cow</text>
+  <image/>
+ </item>
+ <item id="36" start="177.667" duration="4.7">
+  <person>Teacher</person>
+  <text>Will you go and get a pen for me from the next room, please?</text>
+  <image/>
+ </item>
+ <item id="36" start="182.4" duration="4.833">
+  <person>Student</person>
+  <text>Yes, I'll go and get a pen for you from the next room</text>
+  <image/>
+ </item>
+ <item id="37" start="187.267" duration="5.967">
+  <person>Teacher</person>
+  <text>When children are young, do their parents get them from school each day?</text>
+  <image/>
+ </item>
+ <item id="37" start="193.233" duration="6.2">
+  <person>Student</person>
+  <text>Yes, when children are young, their parents get them from school each day</text>
+  <image/>
+ </item>
+ <item id="38" start="199.433" duration="4.733">
+  <person>Teacher</person>
+  <text>Will you get that book from the table and give it to me, please?</text>
+  <image/>
+ </item>
+ <item id="38" start="204.2" duration="4.767">
+  <person>Student</person>
+  <text>Yes, I'll get that book from the table and give it to you</text>
+  <image/>
+ </item>
+ <item id="39" start="208.967" duration="1.767">
+  <person>Teacher</person>
+  <text>get to</text>
+  <image/>
+ </item>
+ <item id="40" start="210.767" duration="1.733">
+  <person>Teacher</person>
+  <text>reach</text>
+  <image/>
+ </item>
+ <item id="41" start="212.5" duration="4.733">
+  <person>Teacher</person>
+  <text>What time do you generally get to school for your lesson?</text>
+  <image/>
+ </item>
+ <item id="41" start="217.267" duration="5.067">
+  <person>Student</person>
+  <text>I generally get to school at 9 a.m. for my lesson</text>
+  <image/>
+ </item>
+ <item id="42" start="222.367" duration="4.567">
+  <person>Teacher</person>
+  <text>What time do you generally get home at the end of the day?</text>
+  <image/>
+ </item>
+ <item id="42" start="226.933" duration="5.767">
+  <person>Student</person>
+  <text>I generally get home at about 6 p.m. at the end of the day</text>
+  <image/>
+ </item>
+ <item id="43" start="232.7" duration="3.833">
+  <person>Teacher</person>
+  <text>What are the general meanings of the verb &quot;get&quot;?</text>
+  <image/>
+ </item>
+ <item id="43" start="236.567" duration="5.833">
+  <person>Student</person>
+  <text>The general meanings of the verb &quot;get&quot; are &quot;become&quot; and &quot;obtain&quot;</text>
+  <image/>
+ </item>
+ <item id="44" start="242.4" duration="5.033">
+  <person>Teacher</person>
+  <text>If you are not sure when to use &quot;get&quot;, what is it better to do?</text>
+  <image/>
+ </item>
+ <item id="44" start="247.433" duration="6.5">
+  <person>Student</person>
+  <text>If I'm not sure when to use &quot;get&quot;, it's better to use the other verb with the same meaning</text>
+  <image/>
+ </item>
+ <item id="45" start="253.967" duration="1.967">
+  <person>Teacher</person>
+  <text>there was</text>
+  <image/>
+ </item>
+ <item id="46" start="255.933" duration="1.933">
+  <person>Teacher</person>
+  <text>there were</text>
+  <image/>
+ </item>
+ <item id="47" start="257.867" duration="2.967">
+  <person>Teacher</person>
+  <text>Is there a picture on that wall?</text>
+  <image/>
+ </item>
+ <item id="47" start="260.867" duration="3.8">
+  <person>Student</person>
+  <text>Yes, there's a picture on that wall</text>
+  <image/>
+ </item>
+ <item id="48" start="264.667" duration="4.367">
+  <person>Teacher</person>
+  <text>Was there a picture on that wall three lessons ago?</text>
+  <image/>
+ </item>
+ <item id="48" start="269.033" duration="5.0">
+  <person>Student</person>
+  <text>Yes, there was a picture on that wall three lessons ago</text>
+  <image/>
+ </item>
+ <item id="49" start="274.067" duration="4.133">
+  <person>Teacher</person>
+  <text>Were there any books on the table last lesson?</text>
+  <image/>
+ </item>
+ <item id="49" start="278.2" duration="4.933">
+  <person>Student</person>
+  <text>Yes, there were some books on the table last lesson</text>
+  <image/>
+ </item>
+ <item id="50" start="283.167" duration="4.567">
+  <person>Teacher</person>
+  <text>Was there a chair in that corner during the last lesson?</text>
+  <image/>
+ </item>
+ <item id="50" start="287.733" duration="5.167">
+  <person>Student</person>
+  <text>No, there wasn't a chair in that corner during the last lesson</text>
+  <image/>
+ </item>
+ <item id="51" start="292.933" duration="3.967">
+  <person>Teacher</person>
+  <text>Were there any chairs on the table last lesson?</text>
+  <image/>
+ </item>
+ <item id="51" start="296.9" duration="4.867">
+  <person>Student</person>
+  <text>No, there weren't any chairs on the table last lesson</text>
+  <image/>
+ </item>
+ <item id="52" start="301.8" duration="1.6">
+  <person>Teacher</person>
+  <text>die</text>
+  <image/>
+ </item>
+ <item id="53" start="303.4" duration="1.933">
+  <person>Teacher</person>
+  <text>president</text>
+  <image/>
+ </item>
+ <item id="54" start="305.367" duration="3.467">
+  <person>Teacher</person>
+  <text>What's the opposite of the verb &quot;to live&quot;?</text>
+  <image/>
+ </item>
+ <item id="54" start="308.833" duration="4.2">
+  <person>Student</person>
+  <text>The opposite of the verb &quot;to live&quot; is &quot;to die&quot;</text>
+  <image/>
+ </item>
+ <item id="55" start="313.067" duration="4.567">
+  <person>Teacher</person>
+  <text>Do most people die before they're a hundred years old?</text>
+  <image/>
+ </item>
+ <item id="55" start="317.633" duration="5.033">
+  <person>Student</person>
+  <text>Yes, most people die before they're a hundred years old</text>
+  <image/>
+ </item>
+ <item id="56" start="322.7" duration="2.933">
+  <person>Teacher</person>
+  <text>When did president Kennedy die?</text>
+  <image/>
+ </item>
+ <item id="56" start="325.667" duration="5.367">
+  <person>Student</person>
+  <text>President Kennedy died in 1963</text>
+  <image/>
+ </item>
+</items>

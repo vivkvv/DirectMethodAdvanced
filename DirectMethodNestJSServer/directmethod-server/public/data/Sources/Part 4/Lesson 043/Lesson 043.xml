@@ -1,438 +1,546 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="327.167">
- <item id="0" start="0.233" duration="2.5">
-  <person>Teacher</person>
-  <text>Lesson 43</text>
-  <image/>
- </item>
- <item id="1" start="2.733" duration="1.8">
-  <person>Teacher</person>
-  <text>strong</text>
-  <image/>
- </item>
- <item id="2" start="4.567" duration="1.633">
-  <person>Teacher</person>
-  <text>weak</text>
-  <image/>
- </item>
- <item id="3" start="6.2" duration="1.767">
-  <person>Teacher</person>
-  <text>physical</text>
-  <image/>
- </item>
- <item id="4" start="8.0" duration="3.167">
-  <person>Teacher</person>
-  <text>Is whiskey a weak drink?</text>
-  <image/>
- </item>
- <item id="4" start="11.167" duration="5.333">
-  <person>Student</person>
-  <text>No, whiskey isn't a weak drink; it's a strong drink</text>
-  <image/>
- </item>
- <item id="5" start="16.5" duration="4.367">
-  <person>Teacher</person>
-  <text>Are young boys generally physically stronger than men?</text>
-  <image/>
- </item>
- <item id="5" start="20.867" duration="8.433">
-  <person>Student</person>
-  <text>No, young boys aren't generally physically stronger than men; they're generally physically weaker than men</text>
-  <image/>
- </item>
- <item id="6" start="29.3" duration="4.267">
-  <person>Teacher</person>
-  <text>Do you speak English with a strong French accent?</text>
-  <image/>
- </item>
- <item id="6" start="33.567" duration="7.733">
-  <person>Student</person>
-  <text>No, I don't speak English with a strong French accent; I speak it with a strong Japanese accent.</text>
-  <image/>
- </item>
- <item id="7" start="41.3" duration="1.8">
-  <person>Teacher</person>
-  <text>soldier</text>
-  <image/>
- </item>
- <item id="8" start="43.133" duration="1.633">
-  <person>Teacher</person>
-  <text>army</text>
-  <image/>
- </item>
- <item id="9" start="44.767" duration="2.067">
-  <person>Teacher</person>
-  <text>make money</text>
-  <image/>
- </item>
- <item id="10" start="46.867" duration="1.933">
-  <person>Teacher</person>
-  <text>uniform</text>
-  <image/>
- </item>
- <item id="11" start="48.833" duration="3.967">
-  <person>Teacher</person>
-  <text>Does a soldier make a lot of money these days?</text>
-  <image/>
- </item>
- <item id="11" start="52.8" duration="4.667">
-  <person>Student</person>
-  <text>No, a soldier doesn't make a lot of money these days</text>
-  <image/>
- </item>
- <item id="12" start="57.467" duration="4.5">
-  <person>Teacher</person>
-  <text>Which country do you think has the largest army in the world today?</text>
-  <image/>
- </item>
- <item id="12" start="61.967" duration="5.067">
-  <person>Student</person>
-  <text>I think China has the largest army in the world today</text>
-  <image/>
- </item>
- <item id="13" start="67.033" duration="3.933">
-  <person>Teacher</person>
-  <text>What do we call the clothes that a soldier wears?</text>
-  <image/>
- </item>
- <item id="13" start="71.0" duration="4.333">
-  <person>Student</person>
-  <text>We call the clothes that a soldier wears a uniform</text>
-  <image/>
- </item>
- <item id="14" start="75.333" duration="4.8">
-  <person>Teacher</person>
-  <text>Do most children wear uniforms at school in your country?</text>
-  <image/>
- </item>
- <item id="14" start="80.167" duration="4.8">
-  <person>Student</person>
-  <text>Yes, most children wear uniforms at school in my country</text>
-  <image/>
- </item>
- <item id="15" start="85.0" duration="1.8">
-  <person>Teacher</person>
-  <text>build</text>
-  <image/>
- </item>
- <item id="16" start="86.8" duration="3.7">
-  <person>Teacher</person>
-  <text>Is it cheap to build a large house in the country?</text>
-  <image/>
- </item>
- <item id="16" start="90.5" duration="6.133">
-  <person>Student</person>
-  <text>No, it isn't cheap to build a large house in the country; it's expensive</text>
-  <image/>
- </item>
- <item id="17" start="96.667" duration="1.5">
-  <person>Teacher</person>
-  <text>fill</text>
-  <image/>
- </item>
- <item id="18" start="98.2" duration="4.1">
-  <person>Teacher</person>
-  <text>Do you fill your stomach completely when you eat?</text>
-  <image/>
- </item>
- <item id="18" start="102.3" duration="4.233">
-  <person>Student</person>
-  <text>Yes, I feel my stomach completely when I eat</text>
-  <image/>
- </item>
- <item id="19" start="106.567" duration="2.0">
-  <person>Teacher</person>
-  <text>contain</text>
-  <image/>
- </item>
- <item id="20" start="108.6" duration="3.8">
-  <person>Teacher</person>
-  <text>About how many pages does this book contain?</text>
-  <image/>
- </item>
- <item id="20" start="112.4" duration="4.7">
-  <person>Student</person>
-  <text>This book contains about 250 pages</text>
-  <image/>
- </item>
- <item id="21" start="117.1" duration="1.633">
-  <person>Teacher</person>
-  <text>art</text>
-  <image/>
- </item>
- <item id="22" start="118.767" duration="1.767">
-  <person>Teacher</person>
-  <text>artist</text>
-  <image/>
- </item>
- <item id="23" start="120.533" duration="2.833">
-  <person>Teacher</person>
-  <text>Are you very good at art?</text>
-  <image/>
- </item>
- <item id="23" start="123.4" duration="3.5">
-  <person>Student</person>
-  <text>No, I'm not very good at art</text>
-  <image/>
- </item>
- <item id="24" start="126.9" duration="3.733">
-  <person>Teacher</person>
-  <text>Was Picasso a writer or an artist?</text>
-  <image/>
- </item>
- <item id="24" start="130.633" duration="2.833">
-  <person>Student</person>
-  <text>Picasso was an artist</text>
-  <image/>
- </item>
- <item id="25" start="133.5" duration="1.6">
-  <person>Teacher</person>
-  <text>feel</text>
-  <image/>
- </item>
- <item id="26" start="135.1" duration="1.833">
-  <person>Teacher</person>
-  <text>too much</text>
-  <image/>
- </item>
- <item id="27" start="136.933" duration="3.4">
-  <person>Teacher</person>
-  <text>Do you always feel in good health?</text>
-  <image/>
- </item>
- <item id="27" start="140.333" duration="3.7">
-  <person>Student</person>
-  <text>Yes, I always feel in good health</text>
-  <image/>
- </item>
- <item id="28" start="144.067" duration="3.567">
-  <person>Teacher</person>
-  <text>Do you feel bad if you eat too much?</text>
-  <image/>
- </item>
- <item id="28" start="147.633" duration="3.4">
-  <person>Student</person>
-  <text>Yes, I feel bad if I eat too much</text>
-  <image/>
- </item>
- <item id="29" start="151.033" duration="3.5">
-  <person>Teacher</person>
-  <text>Do you feel sad in good weather?</text>
-  <image/>
- </item>
- <item id="29" start="154.533" duration="5.867">
-  <person>Student</person>
-  <text>No, I don't feel sad in good weather; I feel happy in good weather</text>
-  <image/>
- </item>
- <item id="30" start="160.4" duration="1.7">
-  <person>Teacher</person>
-  <text>middle</text>
-  <image/>
- </item>
- <item id="31" start="162.133" duration="1.8">
-  <person>Teacher</person>
-  <text>center</text>
-  <image/>
- </item>
- <item id="32" start="163.933" duration="3.267">
-  <person>Teacher</person>
-  <text>What part of the square's this?</text>
-  <image/>
- </item>
- <item id="32" start="167.2" duration="10.933">
-  <person>Student</person>
-  <text>It's the top of the square; it's the bottom of the square; it's the side of the square; it's the middle of the square</text>
-  <image/>
- </item>
- <item id="33" start="178.167" duration="2.633">
-  <person>Teacher</person>
-  <text>Where's the letter E?</text>
-  <image/>
- </item>
- <item id="33" start="180.8" duration="4.7">
-  <person>Student</person>
-  <text>The letter E's in the top right hand corner of the square</text>
-  <image/>
- </item>
- <item id="34" start="185.5" duration="2.767">
-  <person>Teacher</person>
-  <text>Where's the letter I?</text>
-  <image/>
- </item>
- <item id="34" start="188.3" duration="4.3">
-  <person>Student</person>
-  <text>The letter I's in the bottom left hand corner of the square</text>
-  <image/>
- </item>
- <item id="35" start="192.6" duration="2.6">
-  <person>Teacher</person>
-  <text>Where's the letter U?</text>
-  <image/>
- </item>
- <item id="35" start="195.233" duration="3.8">
-  <person>Student</person>
-  <text>The latter U's in the middle of the square</text>
-  <image/>
- </item>
- <item id="36" start="199.033" duration="4.467">
-  <person>Teacher</person>
-  <text>Do people drive their cars in the middle of the road?</text>
-  <image/>
- </item>
- <item id="36" start="203.5" duration="8.933">
-  <person>Student</person>
-  <text>No, people don't drive their cars in the middle of the road; in most countries they drive them on the right hand side of the road</text>
-  <image/>
- </item>
- <item id="37" start="212.467" duration="2.9">
-  <person>Teacher</person>
-  <text>What's another word for &quot;middle&quot;?</text>
-  <image/>
- </item>
- <item id="37" start="215.4" duration="3.7">
-  <person>Student</person>
-  <text>Another word for &quot;middle&quot; is &quot;center&quot;</text>
-  <image/>
- </item>
- <item id="38" start="219.1" duration="3.867">
-  <person>Teacher</person>
-  <text>Is there anything in the center of this room?</text>
-  <image/>
- </item>
- <item id="38" start="223.0" duration="4.1">
-  <person>Student</person>
-  <text>Yes, there's something in the center of this room</text>
-  <image/>
- </item>
- <item id="39" start="227.133" duration="1.867">
-  <person>Teacher</person>
-  <text>sure</text>
-  <image/>
- </item>
- <item id="40" start="229.033" duration="2.367">
-  <person>Teacher</person>
-  <text>What's your name?</text>
-  <image/>
- </item>
- <item id="40" start="231.4" duration="2.067">
-  <person>Student</person>
-  <text>My name is Keiko</text>
-  <image/>
- </item>
- <item id="41" start="233.5" duration="2.067">
-  <person>Teacher</person>
-  <text>Are you sure?</text>
-  <image/>
- </item>
- <item id="41" start="235.567" duration="2.167">
-  <person>Student</person>
-  <text>Yes, I'm sure</text>
-  <image/>
- </item>
- <item id="42" start="237.733" duration="2.433">
-  <person>Teacher</person>
-  <text>How many ears have you?</text>
-  <image/>
- </item>
- <item id="42" start="240.167" duration="2.3">
-  <person>Student</person>
-  <text>I've two ears</text>
-  <image/>
- </item>
- <item id="43" start="242.5" duration="2.0">
-  <person>Teacher</person>
-  <text>Are you sure?</text>
-  <image/>
- </item>
- <item id="43" start="244.533" duration="2.267">
-  <person>Student</person>
-  <text>Yes, I'm sure</text>
-  <image/>
- </item>
- <item id="44" start="246.8" duration="1.767">
-  <person>Teacher</person>
-  <text>request</text>
-  <image/>
- </item>
- <item id="45" start="248.6" duration="4.867">
-  <person>Teacher</person>
-  <text>Do we generally say &quot;please&quot; in English at the beginning of a request?</text>
-  <image/>
- </item>
- <item id="45" start="253.467" duration="8.9">
-  <person>Student</person>
-  <text>No, we don't generally say &quot;please&quot; in English at the beginning of a request; we say it at the end of a request</text>
-  <image/>
- </item>
- <item id="46" start="262.4" duration="4.533">
-  <person>Teacher</person>
-  <text>Is it polite not to say &quot;please&quot; when we make a request?</text>
-  <image/>
- </item>
- <item id="46" start="266.933" duration="6.633">
-  <person>Student</person>
-  <text>No, it isn't polite not to say &quot;please&quot; when we make a request; it's impolite</text>
-  <image/>
- </item>
- <item id="47" start="273.6" duration="3.5">
-  <person>Teacher</person>
-  <text>neither ... nor</text>
-  <image/>
- </item>
- <item id="48" start="277.1" duration="2.8">
-  <person>Teacher</person>
-  <text>Is this a desk or a chair?</text>
-  <image/>
- </item>
- <item id="48" start="279.933" duration="5.567">
-  <person>Student</person>
-  <text>No, it's neither a desk nor a chair; it's a door</text>
-  <image/>
- </item>
- <item id="49" start="285.5" duration="4.5">
-  <person>Teacher</person>
-  <text>Are there a hundred chairs in this room or a thousand chairs?</text>
-  <image/>
- </item>
- <item id="49" start="290.0" duration="8.167">
-  <person>Student</person>
-  <text>No, there are neither a hundred chairs in this room nor a thousand chairs; there are 14 chairs in this room</text>
-  <image/>
- </item>
- <item id="50" start="298.2" duration="3.4">
-  <person>Teacher</person>
-  <text>Are you Mr. Brown or Mr. Smith?</text>
-  <image/>
- </item>
- <item id="50" start="301.6" duration="6.167">
-  <person>Student</person>
-  <text>No, I'm neither Mr. Brown nor Mr. Smith; I'm Mrs. Watanabe</text>
-  <image/>
- </item>
- <item id="51" start="307.767" duration="1.633">
-  <person>Teacher</person>
-  <text>willing</text>
-  <image/>
- </item>
- <item id="52" start="309.433" duration="3.467">
-  <person>Teacher</person>
-  <text>Are you always willing to help other people?</text>
-  <image/>
- </item>
- <item id="52" start="312.9" duration="3.533">
-  <person>Student</person>
-  <text>Yes, I'm always willing to help other people</text>
-  <image/>
- </item>
- <item id="53" start="316.433" duration="5.067">
-  <person>Teacher</person>
-  <text>Are you willing to give me all the money you have in your pocket at the moment?</text>
-  <image/>
- </item>
- <item id="53" start="321.5" duration="5.633">
-  <person>Student</person>
-  <text>No, I'm not willing to give you all the money I have in my pocket at the moment</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.233" duration="2.5">
+			<person>Teacher</person>
+			<text>Lesson 43</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.733" duration="1.8">
+			<person>Teacher</person>
+			<text>strong</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.567" duration="1.633">
+			<person>Teacher</person>
+			<text>weak</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="6.2" duration="1.767">
+			<person>Teacher</person>
+			<text>physical</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="8.0" duration="3.167">
+			<person>Teacher</person>
+			<text>Is whiskey a weak drink?</text>
+			<image/>
+		</item>
+		<item id="1" start="11.167" duration="5.333">
+			<person>Student</person>
+			<text>No, whiskey isn't a weak drink; it's a strong drink</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="16.5" duration="4.367">
+			<person>Teacher</person>
+			<text>Are young boys generally physically stronger than men?</text>
+			<image/>
+		</item>
+		<item id="1" start="20.867" duration="8.433">
+			<person>Student</person>
+			<text>No, young boys aren't generally physically stronger than men; they're generally physically weaker than men</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="29.3" duration="4.267">
+			<person>Teacher</person>
+			<text>Do you speak English with a strong French accent?</text>
+			<image/>
+		</item>
+		<item id="1" start="33.567" duration="7.733">
+			<person>Student</person>
+			<text>No, I don't speak English with a strong French accent; I speak it with a strong Japanese accent.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="41.3" duration="1.8">
+			<person>Teacher</person>
+			<text>soldier</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="43.133" duration="1.633">
+			<person>Teacher</person>
+			<text>army</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="44.767" duration="2.067">
+			<person>Teacher</person>
+			<text>make money</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="46.867" duration="1.933">
+			<person>Teacher</person>
+			<text>uniform</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="48.833" duration="3.967">
+			<person>Teacher</person>
+			<text>Does a soldier make a lot of money these days?</text>
+			<image/>
+		</item>
+		<item id="1" start="52.8" duration="4.667">
+			<person>Student</person>
+			<text>No, a soldier doesn't make a lot of money these days</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="57.467" duration="4.5">
+			<person>Teacher</person>
+			<text>Which country do you think has the largest army in the world today?</text>
+			<image/>
+		</item>
+		<item id="1" start="61.967" duration="5.067">
+			<person>Student</person>
+			<text>I think China has the largest army in the world today</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="67.033" duration="3.933">
+			<person>Teacher</person>
+			<text>What do we call the clothes that a soldier wears?</text>
+			<image/>
+		</item>
+		<item id="1" start="71.0" duration="4.333">
+			<person>Student</person>
+			<text>We call the clothes that a soldier wears a uniform</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="75.333" duration="4.8">
+			<person>Teacher</person>
+			<text>Do most children wear uniforms at school in your country?</text>
+			<image/>
+		</item>
+		<item id="1" start="80.167" duration="4.8">
+			<person>Student</person>
+			<text>Yes, most children wear uniforms at school in my country</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="85.0" duration="1.8">
+			<person>Teacher</person>
+			<text>build</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="86.8" duration="3.7">
+			<person>Teacher</person>
+			<text>Is it cheap to build a large house in the country?</text>
+			<image/>
+		</item>
+		<item id="1" start="90.5" duration="6.133">
+			<person>Student</person>
+			<text>No, it isn't cheap to build a large house in the country; it's expensive</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="96.667" duration="1.5">
+			<person>Teacher</person>
+			<text>fill</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="98.2" duration="4.1">
+			<person>Teacher</person>
+			<text>Do you fill your stomach completely when you eat?</text>
+			<image/>
+		</item>
+		<item id="1" start="102.3" duration="4.233">
+			<person>Student</person>
+			<text>Yes, I feel my stomach completely when I eat</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="106.567" duration="2.0">
+			<person>Teacher</person>
+			<text>contain</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="108.6" duration="3.8">
+			<person>Teacher</person>
+			<text>About how many pages does this book contain?</text>
+			<image/>
+		</item>
+		<item id="1" start="112.4" duration="4.7">
+			<person>Student</person>
+			<text>This book contains about 250 pages</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="117.1" duration="1.633">
+			<person>Teacher</person>
+			<text>art</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="118.767" duration="1.767">
+			<person>Teacher</person>
+			<text>artist</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="120.533" duration="2.833">
+			<person>Teacher</person>
+			<text>Are you very good at art?</text>
+			<image/>
+		</item>
+		<item id="1" start="123.4" duration="3.5">
+			<person>Student</person>
+			<text>No, I'm not very good at art</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="126.9" duration="3.733">
+			<person>Teacher</person>
+			<text>Was Picasso a writer or an artist?</text>
+			<image/>
+		</item>
+		<item id="1" start="130.633" duration="2.833">
+			<person>Student</person>
+			<text>Picasso was an artist</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="133.5" duration="1.6">
+			<person>Teacher</person>
+			<text>feel</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="135.1" duration="1.833">
+			<person>Teacher</person>
+			<text>too much</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="136.933" duration="3.4">
+			<person>Teacher</person>
+			<text>Do you always feel in good health?</text>
+			<image/>
+		</item>
+		<item id="1" start="140.333" duration="3.7">
+			<person>Student</person>
+			<text>Yes, I always feel in good health</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="144.067" duration="3.567">
+			<person>Teacher</person>
+			<text>Do you feel bad if you eat too much?</text>
+			<image/>
+		</item>
+		<item id="1" start="147.633" duration="3.4">
+			<person>Student</person>
+			<text>Yes, I feel bad if I eat too much</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="151.033" duration="3.5">
+			<person>Teacher</person>
+			<text>Do you feel sad in good weather?</text>
+			<image/>
+		</item>
+		<item id="1" start="154.533" duration="5.867">
+			<person>Student</person>
+			<text>No, I don't feel sad in good weather; I feel happy in good weather</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="160.4" duration="1.7">
+			<person>Teacher</person>
+			<text>middle</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="162.133" duration="1.8">
+			<person>Teacher</person>
+			<text>center</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="163.933" duration="3.267">
+			<person>Teacher</person>
+			<text>What part of the square's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="167.2" duration="10.933">
+			<person>Student</person>
+			<text>It's the top of the square; it's the bottom of the square; it's the side of the square; it's the middle of the square</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="178.167" duration="2.633">
+			<person>Teacher</person>
+			<text>Where's the letter E?</text>
+			<image/>
+		</item>
+		<item id="1" start="180.8" duration="4.7">
+			<person>Student</person>
+			<text>The letter E's in the top right hand corner of the square</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="185.5" duration="2.767">
+			<person>Teacher</person>
+			<text>Where's the letter I?</text>
+			<image/>
+		</item>
+		<item id="1" start="188.3" duration="4.3">
+			<person>Student</person>
+			<text>The letter I's in the bottom left hand corner of the square</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="192.6" duration="2.6">
+			<person>Teacher</person>
+			<text>Where's the letter U?</text>
+			<image/>
+		</item>
+		<item id="1" start="195.233" duration="3.8">
+			<person>Student</person>
+			<text>The latter U's in the middle of the square</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="199.033" duration="4.467">
+			<person>Teacher</person>
+			<text>Do people drive their cars in the middle of the road?</text>
+			<image/>
+		</item>
+		<item id="1" start="203.5" duration="8.933">
+			<person>Student</person>
+			<text>No, people don't drive their cars in the middle of the road; in most countries they drive them on the right hand side of the road</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="212.467" duration="2.9">
+			<person>Teacher</person>
+			<text>What's another word for &quot;middle&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="215.4" duration="3.7">
+			<person>Student</person>
+			<text>Another word for &quot;middle&quot; is &quot;center&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="219.1" duration="3.867">
+			<person>Teacher</person>
+			<text>Is there anything in the center of this room?</text>
+			<image/>
+		</item>
+		<item id="1" start="223.0" duration="4.1">
+			<person>Student</person>
+			<text>Yes, there's something in the center of this room</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="227.133" duration="1.867">
+			<person>Teacher</person>
+			<text>sure</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="229.033" duration="2.367">
+			<person>Teacher</person>
+			<text>What's your name?</text>
+			<image/>
+		</item>
+		<item id="1" start="231.4" duration="2.067">
+			<person>Student</person>
+			<text>My name is Keiko</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="233.5" duration="2.067">
+			<person>Teacher</person>
+			<text>Are you sure?</text>
+			<image/>
+		</item>
+		<item id="1" start="235.567" duration="2.167">
+			<person>Student</person>
+			<text>Yes, I'm sure</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="237.733" duration="2.433">
+			<person>Teacher</person>
+			<text>How many ears have you?</text>
+			<image/>
+		</item>
+		<item id="1" start="240.167" duration="2.3">
+			<person>Student</person>
+			<text>I've two ears</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="242.5" duration="2.0">
+			<person>Teacher</person>
+			<text>Are you sure?</text>
+			<image/>
+		</item>
+		<item id="1" start="244.533" duration="2.267">
+			<person>Student</person>
+			<text>Yes, I'm sure</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="246.8" duration="1.767">
+			<person>Teacher</person>
+			<text>request</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="248.6" duration="4.867">
+			<person>Teacher</person>
+			<text>Do we generally say &quot;please&quot; in English at the beginning of a request?</text>
+			<image/>
+		</item>
+		<item id="1" start="253.467" duration="8.9">
+			<person>Student</person>
+			<text>No, we don't generally say &quot;please&quot; in English at the beginning of a request; we say it at the end of a request</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="262.4" duration="4.533">
+			<person>Teacher</person>
+			<text>Is it polite not to say &quot;please&quot; when we make a request?</text>
+			<image/>
+		</item>
+		<item id="1" start="266.933" duration="6.633">
+			<person>Student</person>
+			<text>No, it isn't polite not to say &quot;please&quot; when we make a request; it's impolite</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="273.6" duration="3.5">
+			<person>Teacher</person>
+			<text>neither ... nor</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="277.1" duration="2.8">
+			<person>Teacher</person>
+			<text>Is this a desk or a chair?</text>
+			<image/>
+		</item>
+		<item id="1" start="279.933" duration="5.567">
+			<person>Student</person>
+			<text>No, it's neither a desk nor a chair; it's a door</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="285.5" duration="4.5">
+			<person>Teacher</person>
+			<text>Are there a hundred chairs in this room or a thousand chairs?</text>
+			<image/>
+		</item>
+		<item id="1" start="290.0" duration="8.167">
+			<person>Student</person>
+			<text>No, there are neither a hundred chairs in this room nor a thousand chairs; there are 14 chairs in this room</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="298.2" duration="3.4">
+			<person>Teacher</person>
+			<text>Are you Mr. Brown or Mr. Smith?</text>
+			<image/>
+		</item>
+		<item id="1" start="301.6" duration="6.167">
+			<person>Student</person>
+			<text>No, I'm neither Mr. Brown nor Mr. Smith; I'm Mrs. Watanabe</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="307.767" duration="1.633">
+			<person>Teacher</person>
+			<text>willing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="309.433" duration="3.467">
+			<person>Teacher</person>
+			<text>Are you always willing to help other people?</text>
+			<image/>
+		</item>
+		<item id="1" start="312.9" duration="3.533">
+			<person>Student</person>
+			<text>Yes, I'm always willing to help other people</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="316.433" duration="5.067">
+			<person>Teacher</person>
+			<text>Are you willing to give me all the money you have in your pocket at the moment?</text>
+			<image/>
+		</item>
+		<item id="1" start="321.5" duration="5.633">
+			<person>Student</person>
+			<text>No, I'm not willing to give you all the money I have in my pocket at the moment</text>
+			<image/>
+		</item>
+	</item>
 </items>

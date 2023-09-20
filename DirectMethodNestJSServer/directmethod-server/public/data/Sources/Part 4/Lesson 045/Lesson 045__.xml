@@ -364,14 +364,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>If we say that something is ‘worth doing’, we mean that it is better to do it than not do it. For example, if you live in a very rainy country, it is worth buying an umbrella. If you live in a very sunny country, it is not worth buying an umbrella.</text>
+	</Explanation>	
 	<item id="37">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>If we say that something is ‘worth doing’, we mean that it is better to do it than not do it. For example, if you live in a very rainy country, it is worth buying an umbrella. If you live in a very sunny country, it is not worth buying an umbrella.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="38">
 		<item id="0" start="200.9" duration="4.367">
 			<person>Teacher</person>
 			<text>Do you think it's worth paying lots of money for clothes?</text>
@@ -383,7 +379,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="38">
 		<item id="0" start="209.9" duration="4.7">
 			<person>Teacher</person>
 			<text>Do you think it's worth studying the language of another country?</text>
@@ -395,7 +391,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="40">
+	<item id="39">
 		<item id="0" start="219.3" duration="7.767">
 			<person>Teacher</person>
 			<text>Do you think it's worth buying an umbrella if you live in a country where it only rains about once a month?</text>
@@ -407,7 +403,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="40">
 		<item id="0" start="234.367" duration="4.533">
 			<person>Teacher</person>
 			<text>Do you think it's worth taking an umbrella with you on a rainy day?</text>
@@ -419,21 +415,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="41">
 		<item id="0" start="243.867" duration="1.633">
 			<person>Teacher</person>
 			<text>hard</text>
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="42">
 		<item id="0" start="245.533" duration="1.833">
 			<person>Teacher</person>
 			<text>soft</text>
 			<image/>
 		</item>
 	</item>
-	<item id="44">
+	<item id="43">
 		<item id="0" start="247.367" duration="3.467">
 			<person>Teacher</person>
 			<text>What are the three meanings of the word &quot;hard&quot;?</text>
@@ -445,7 +441,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="44">
 		<item id="0" start="258.333" duration="3.967">
 			<person>Teacher</person>
 			<text>Is Chinese an easy language to learn?</text>
@@ -457,7 +453,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="45">
 		<item id="0" start="268.033" duration="2.8">
 			<person>Teacher</person>
 			<text>Is English grammar hard?</text>
@@ -469,7 +465,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="47">
+	<item id="46">
 		<item id="0" start="275.1" duration="2.633">
 			<person>Teacher</person>
 			<text>Do you work very hard?</text>
@@ -481,7 +477,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="47">
 		<item id="0" start="280.867" duration="4.433">
 			<person>Teacher</person>
 			<text>Do you think you generally work harder than your parents?</text>
@@ -493,7 +489,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="48">
 		<item id="0" start="289.9" duration="2.8">
 			<person>Teacher</person>
 			<text>Is my hand hard?</text>
@@ -505,7 +501,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="49">
 		<item id="0" start="296.533" duration="2.7">
 			<person>Teacher</person>
 			<text>Is the floor soft?</text>
@@ -517,11 +513,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="51">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>I arrive at eight o’clock, study one hour, and leave at nine.\nDuring the day we can see the sun in the sky, whilst during the night we can see the moon and the stars.\nParis is not by the sea, but inland.\nHe cut his finger; not once, not twice, but three times.\nThey cannot lift the table on their backs.\nThe four seasons are spring, summer, autumn and winter.\nHe does not follow the teacher into the room, but he precedes him.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>I arrive at eight o’clock, study one hour, and leave at nine.\nDuring the day we can see the sun in the sky, whilst during the night we can see the moon and the stars.\nParis is not by the sea, but inland.\nHe cut his finger; not once, not twice, but three times.\nThey cannot lift the table on their backs.\nThe four seasons are spring, summer, autumn and winter.\nHe does not follow the teacher into the room, but he precedes him.</text>
+	</Dictation>	
 </items>

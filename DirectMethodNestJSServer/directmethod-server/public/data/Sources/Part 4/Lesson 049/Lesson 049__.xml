@@ -87,14 +87,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>The contraction of “book will” is “book’ll”; “tomorrow will - tomorrow’ll”; “Mr Smith will - Mr Smith’ll”; “who will - who’ll”; “what will - what’ll” etc.</text>
+	</Explanation>	
 	<item id="11">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The contraction of “book will” is “book’ll”; “tomorrow will - tomorrow’ll”; “Mr Smith will - Mr Smith’ll”; “who will - who’ll”; “what will - what’ll” etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="12">
 		<item id="0" start="43.567" duration="3.267">
 			<person>Teacher</person>
 			<text>What's the contraction of &quot;book will&quot;?</text>
@@ -106,7 +102,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="13">
+	<item id="12">
 		<item id="0" start="50.333" duration="2.0">
 			<person>Teacher</person>
 			<text>tomorrow will</text>
@@ -118,7 +114,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="14">
+	<item id="13">
 		<item id="0" start="54.1" duration="2.1">
 			<person>Teacher</person>
 			<text>the light will</text>
@@ -130,7 +126,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="15">
+	<item id="14">
 		<item id="0" start="58.033" duration="2.067">
 			<person>Teacher</person>
 			<text>the door will</text>
@@ -142,7 +138,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="16">
+	<item id="15">
 		<item id="0" start="61.9" duration="1.733">
 			<person>Teacher</person>
 			<text>who will</text>
@@ -154,7 +150,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="17">
+	<item id="16">
 		<item id="0" start="65.2" duration="1.9">
 			<person>Teacher</person>
 			<text>what will</text>
@@ -166,14 +162,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="18">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We generally use contractions when we speak, but we don’t use them if they are difficult to pronounce. For example, we say “pen’ll” but not “pencil’ll”. </text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="19">
+	<Explanation>
+		<text>We generally use contractions when we speak, but we don’t use them if they are difficult to pronounce. For example, we say “pen’ll” but not “pencil’ll”. </text>
+	</Explanation>	
+	<item id="17">
 		<item id="0" start="68.733" duration="3.467">
 			<person>Teacher</person>
 			<text>Do we always use contractions in English?</text>
@@ -185,7 +177,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="20">
+	<item id="18">
 		<item id="0" start="76.2" duration="3.0">
 			<person>Teacher</person>
 			<text>When don't we use contractions?</text>
@@ -197,7 +189,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="21">
+	<item id="19">
 		<item id="0" start="83.733" duration="3.5">
 			<person>Teacher</person>
 			<text>Do you think tomorrow will be a cloudy day?</text>
@@ -209,7 +201,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="22">
+	<item id="20">
 		<item id="0" start="90.967" duration="3.9">
 			<person>Teacher</person>
 			<text>Will that picture be hanging on the wall next lesson?</text>
@@ -221,7 +213,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="23">
+	<item id="21">
 		<item id="0" start="99.1" duration="4.667">
 			<person>Teacher</person>
 			<text>Will the door be the same color next week as it is this week?</text>
@@ -233,7 +225,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="24">
+	<item id="22">
 		<item id="0" start="108.533" duration="3.3">
 			<person>Teacher</person>
 			<text>Will Mr. Brown be here next lesson?</text>
@@ -245,21 +237,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="23">
 		<item id="0" start="115.367" duration="2.067">
 			<person>Teacher</person>
 			<text>communicate</text>
 			<image/>
 		</item>
 	</item>
-	<item id="26">
+	<item id="24">
 		<item id="0" start="117.433" duration="1.6">
 			<person>Teacher</person>
 			<text>easily</text>
 			<image/>
 		</item>
 	</item>
-	<item id="27">
+	<item id="25">
 		<item id="0" start="119.067" duration="4.867">
 			<person>Teacher</person>
 			<text>Do you prefer to communicate with your friends by phoning or texting?</text>
@@ -271,7 +263,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="28">
+	<item id="26">
 		<item id="0" start="128.0" duration="5.133">
 			<person>Teacher</person>
 			<text>Do you think it's easier to communicate in spoken or written English?</text>
@@ -283,7 +275,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="29">
+	<item id="27">
 		<item id="0" start="137.033" duration="5.1">
 			<person>Teacher</person>
 			<text>Can you communicate very complicated ideas easily in English?</text>
@@ -295,21 +287,17 @@
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="28">
 		<item id="0" start="147.8" duration="1.767">
 			<person>Teacher</person>
 			<text>hadn't</text>
 			<image/>
 		</item>
 	</item>
-	<item id="31">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The negative of “had“ is “hadn’t“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="32">
+	<Explanation>
+		<text>The negative of “had“ is “hadn’t“.</text>
+	</Explanation>	
+	<item id="29">
 		<item id="0" start="149.567" duration="2.733">
 			<person>Teacher</person>
 			<text>What's the negative of &quot;had&quot;?</text>
@@ -321,63 +309,51 @@
 			<image/>
 		</item>
 	</item>
-	<item id="33">
+	<item id="30">
 		<item id="0" start="155.4" duration="2.7">
 			<person>Teacher</person>
 			<text>Different forms of &quot;have&quot;</text>
 			<image/>
 		</item>
 	</item>
-	<item id="34">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The common ways of asking a question with the verb “have” are:</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="35">
+	<Explanation>
+		<text>The common ways of asking a question with the verb “have” are:</text>
+	</Explanation>	
+	<item id="31">
 		<item id="0" start="158.1" duration="2.333">
 			<person>Teacher</person>
 			<text>Do you have a pen?</text>
 			<image/>
 		</item>
 	</item>
-	<item id="36">
+	<item id="32">
 		<item id="0" start="160.467" duration="2.1">
 			<person>Teacher</person>
 			<text>Have you got a pen?</text>
 			<image/>
 		</item>
 	</item>
-	<item id="37">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>In the past tense, it is the same. We can say:</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="38">
+	<Explanation>
+		<text>In the past tense, it is the same. We can say:</text>
+	</Explanation>	
+	<item id="33">
 		<item id="0" start="162.6" duration="2.2">
 			<person>Teacher</person>
 			<text>Did you have a pen?</text>
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="34">
 		<item id="0" start="164.8" duration="2.2">
 			<person>Teacher</person>
 			<text>Had you got a pen?</text>
 			<image/>
 		</item>
 	</item>
-	<item id="40">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The most common way of asking a question with the verb “have” in the past is “Did you have ...?”</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="41">
+	<Explanation>
+		<text>The most common way of asking a question with the verb “have” in the past is “Did you have ...?”</text>
+	</Explanation>	
+	<item id="35">
 		<item id="0" start="167.0" duration="4.7">
 			<person>Teacher</person>
 			<text>What are the common ways of asking a question with the verb &quot;to have&quot;?</text>
@@ -389,7 +365,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="36">
 		<item id="0" start="179.8" duration="3.567">
 			<person>Teacher</person>
 			<text>What are the common ways for the past tense?</text>
@@ -401,7 +377,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="37">
 		<item id="0" start="189.333" duration="5.967">
 			<person>Teacher</person>
 			<text>Which is the most common way of asking a question with the verb &quot;have&quot; in the past?</text>
@@ -413,7 +389,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="44">
+	<item id="38">
 		<item id="0" start="201.433" duration="3.433">
 			<person>Teacher</person>
 			<text>Did you have your book with you last lesson?</text>
@@ -425,7 +401,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="39">
 		<item id="0" start="208.5" duration="3.433">
 			<person>Teacher</person>
 			<text>Did I have a hat on my head last lesson?</text>
@@ -437,7 +413,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="40">
 		<item id="0" start="215.6" duration="3.7">
 			<person>Teacher</person>
 			<text>Had I got any money in my hand last lesson?</text>
@@ -449,7 +425,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="47">
+	<item id="41">
 		<item id="0" start="223.467" duration="3.667">
 			<person>Teacher</person>
 			<text>Did I have my feet on the table last lesson?</text>
@@ -461,35 +437,35 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="42">
 		<item id="0" start="230.967" duration="1.833">
 			<person>Teacher</person>
 			<text>practise</text>
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="43">
 		<item id="0" start="232.8" duration="1.8">
 			<person>Teacher</person>
 			<text>practice</text>
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="44">
 		<item id="0" start="234.6" duration="1.767">
 			<person>Teacher</person>
 			<text>sport</text>
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="45">
 		<item id="0" start="236.4" duration="1.667">
 			<person>Teacher</person>
 			<text>spell</text>
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="46">
 		<item id="0" start="238.067" duration="4.133">
 			<person>Teacher</person>
 			<text>Did you practice your English after you left school yesterday?</text>
@@ -501,7 +477,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="47">
 		<item id="0" start="246.767" duration="4.967">
 			<person>Teacher</person>
 			<text>Is it easier to become good at a sport if you get lots of practice?</text>
@@ -513,7 +489,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="54">
+	<item id="48">
 		<item id="0" start="256.867" duration="4.867">
 			<person>Teacher</person>
 			<text>What's the difference between the noun &quot;practice&quot; and the verb &quot;practise&quot;?</text>
@@ -525,14 +501,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="55">
+	<item id="49">
 		<item id="0" start="270.2" duration="1.933">
 			<person>Teacher</person>
 			<text>would like</text>
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="50">
 		<item id="0" start="272.133" duration="4.467">
 			<person>Teacher</person>
 			<text>What's a polite way of communicating that you want something?</text>
@@ -544,7 +520,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="51">
 		<item id="0" start="281.867" duration="2.767">
 			<person>Teacher</person>
 			<text>Give me an example, please</text>
@@ -556,7 +532,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="52">
 		<item id="0" start="290.1" duration="3.967">
 			<person>Teacher</person>
 			<text>What can we say when we offer something to somebody?</text>
@@ -568,7 +544,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="59">
+	<item id="53">
 		<item id="0" start="298.833" duration="2.967">
 			<person>Teacher</person>
 			<text>Give me an example, please</text>
@@ -580,21 +556,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="60">
+	<item id="54">
 		<item id="0" start="306.7" duration="1.7">
 			<person>Teacher</person>
 			<text>visit</text>
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="55">
 		<item id="0" start="308.4" duration="1.867">
 			<person>Teacher</person>
 			<text>Australia</text>
 			<image/>
 		</item>
 	</item>
-	<item id="62">
+	<item id="56">
 		<item id="0" start="310.3" duration="4.067">
 			<person>Teacher</person>
 			<text>Can we learn a lot by visiting different countries?</text>
@@ -606,7 +582,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="63">
+	<item id="57">
 		<item id="0" start="318.467" duration="3.8">
 			<person>Teacher</person>
 			<text>Did you visit any new places last month?</text>
@@ -618,7 +594,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="64">
+	<item id="58">
 		<item id="0" start="326.167" duration="3.767">
 			<person>Teacher</person>
 			<text>Would you like to visit Australia in the future?</text>
@@ -630,28 +606,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="65">
+	<item id="59">
 		<item id="0" start="334.067" duration="1.7">
 			<person>Teacher</person>
 			<text>use /ju:z/</text>
 			<image/>
 		</item>
 	</item>
-	<item id="66">
+	<item id="60">
 		<item id="0" start="335.8" duration="1.733">
 			<person>Teacher</person>
 			<text>use /ju:s/</text>
 			<image/>
 		</item>
 	</item>
-	<item id="67">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The difference between “use“ /ju:z/ and “use“ /ju:s/ is that “use“ /ju:z/ is the verb whereas “use“ /ju:s/ is the noun.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="68">
+	<Explanation>
+		<text>The difference between “use“ /ju:z/ and “use“ /ju:s/ is that “use“ /ju:z/ is the verb whereas “use“ /ju:s/ is the noun.</text>
+	</Explanation>	
+	<item id="61">
 		<item id="0" start="337.533" duration="3.833">
 			<person>Teacher</person>
 			<text>What's the difference between &quot;use&quot; /ju:z/ and &quot;use&quot; /ju:s/?</text>
@@ -663,7 +635,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="69">
+	<item id="62">
 		<item id="0" start="348.7" duration="2.6">
 			<person>Teacher</person>
 			<text>What's the use of a pen?</text>
@@ -675,7 +647,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="70">
+	<item id="63">
 		<item id="0" start="354.5" duration="3.5">
 			<person>Teacher</person>
 			<text>What's the use in studying languages?</text>
@@ -687,11 +659,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="71">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>We watch a game of football, but look at a photograph.\nHe speaks better than I do.\nI am the worst in the class, while he is the best.\nI buy my soap from that shop besides shampoo.\nI forgot my camera, so I took the photos with my mobile instead.\nI know I can hold a simple conversation in English.\nPoor, story, hill, farm, laugh, rich, soldier, stop, castle, enemy.\nNot every student is quick; some are quick and some are slow.\nI’m always sad when it rains on Sunday.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>We watch a game of football, but look at a photograph.\nHe speaks better than I do.\nI am the worst in the class, while he is the best.\nI buy my soap from that shop besides shampoo.\nI forgot my camera, so I took the photos with my mobile instead.\nI know I can hold a simple conversation in English.\nPoor, story, hill, farm, laugh, rich, soldier, stop, castle, enemy.\nNot every student is quick; some are quick and some are slow.\nI’m always sad when it rains on Sunday.</text>
+	</Dictation>	
 </items>

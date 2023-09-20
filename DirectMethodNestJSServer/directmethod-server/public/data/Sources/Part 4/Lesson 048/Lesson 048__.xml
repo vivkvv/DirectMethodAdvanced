@@ -442,14 +442,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>The past of “have“ is “had“.</text>
+	</Explanation>	
 	<item id="46">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The past of “have“ is “had“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="47">
 		<item id="0" start="239.133" duration="2.667">
 			<person>Teacher</person>
 			<text>What's the past of &quot;have&quot;?</text>
@@ -461,7 +457,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="47">
 		<item id="0" start="244.9" duration="3.267">
 			<person>Teacher</person>
 			<text>What did I have in my hand last lesson?</text>
@@ -473,7 +469,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="48">
 		<item id="0" start="251.5" duration="3.4">
 			<person>Teacher</person>
 			<text>What did you have for your breakfast this morning?</text>
@@ -485,7 +481,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="49">
 		<item id="0" start="259.833" duration="3.567">
 			<person>Teacher</person>
 			<text>What did she have for her breakfast this morning?</text>
@@ -497,7 +493,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="50">
 		<item id="0" start="268.333" duration="3.733">
 			<person>Teacher</person>
 			<text>Did we have any shoes on our feet yesterday?</text>
@@ -509,7 +505,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="51">
 		<item id="0" start="275.8" duration="4.067">
 			<person>Teacher</person>
 			<text>Did they have any money in their pockets last lesson?</text>
@@ -521,28 +517,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="52">
 		<item id="0" start="284.033" duration="1.5">
 			<person>Teacher</person>
 			<text>could</text>
 			<image/>
 		</item>
 	</item>
-	<item id="54">
+	<item id="53">
 		<item id="0" start="285.533" duration="1.467">
 			<person>Teacher</person>
 			<text>baby</text>
 			<image/>
 		</item>
 	</item>
-	<item id="55">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The past of “can“ is “could“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="56">
+	<Explanation>
+		<text>The past of “can“ is “could“.</text>
+	</Explanation>	
+	<item id="54">
 		<item id="0" start="287.033" duration="2.533">
 			<person>Teacher</person>
 			<text>What's the past of &quot;can&quot;?</text>
@@ -554,7 +546,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="55">
 		<item id="0" start="292.6" duration="3.833">
 			<person>Teacher</person>
 			<text>Could you speak English fifteen years ago?</text>
@@ -566,7 +558,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="56">
 		<item id="0" start="300.4" duration="4.533">
 			<person>Teacher</person>
 			<text>Could you write your name when you were a baby of six months old?</text>
@@ -578,7 +570,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="59">
+	<item id="57">
 		<item id="0" start="310.033" duration="3.3">
 			<person>Teacher</person>
 			<text>Could you read when you were a little baby?</text>
@@ -590,28 +582,28 @@
 			<image/>
 		</item>
 	</item>
-	<item id="60">
+	<item id="58">
 		<item id="0" start="317.167" duration="1.9">
 			<person>Teacher</person>
 			<text>perhaps</text>
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="59">
 		<item id="0" start="319.1" duration="1.733">
 			<person>Teacher</person>
 			<text>maybe</text>
 			<image/>
 		</item>
 	</item>
-	<item id="62">
+	<item id="60">
 		<item id="0" start="320.867" duration="2.067">
 			<person>Teacher</person>
 			<text>a friend of yours</text>
 			<image/>
 		</item>
 	</item>
-	<item id="63">
+	<item id="61">
 		<item id="0" start="322.933" duration="3.267">
 			<person>Teacher</person>
 			<text>Do you think maybe it'll rain later?</text>
@@ -623,7 +615,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="64">
+	<item id="62">
 		<item id="0" start="329.867" duration="5.233">
 			<person>Teacher</person>
 			<text>Do you think perhaps you'll meet a friend of yours on your way home after the lesson?</text>
@@ -635,7 +627,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="65">
+	<item id="63">
 		<item id="0" start="340.5" duration="3.867">
 			<person>Teacher</person>
 			<text>Do you think maybe you'll go to the cinema next month?</text>
@@ -647,14 +639,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="66">
+	<item id="64">
 		<item id="0" start="348.467" duration="1.733">
 			<person>Teacher</person>
 			<text>sweet</text>
 			<image/>
 		</item>
 	</item>
-	<item id="67">
+	<item id="65">
 		<item id="0" start="350.2" duration="2.533">
 			<person>Teacher</person>
 			<text>Do you like sweet food?</text>
@@ -666,7 +658,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="68">
+	<item id="66">
 		<item id="0" start="355.5" duration="3.8">
 			<person>Teacher</person>
 			<text>Did you eat a lot of sweets when you were a child?</text>
@@ -678,11 +670,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="69">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>I can’t taste the difference between these two wines.\nAn hour is divided into minutes.\nI can walk no further; I must rest.\nSend the children into the other room; I want to read.\nI get up early in summer, but later in winter.\nI go to bed earlier than my father.\nIt isn’t dark in this room when the sun is shining.\nA millionaire is a very rich person.\nAsh, university, shallow, complicated, reply.\nThe message we often write inside a Christmas card is “Merry Christmas and a Happy New Year”.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>I can’t taste the difference between these two wines.\nAn hour is divided into minutes.\nI can walk no further; I must rest.\nSend the children into the other room; I want to read.\nI get up early in summer, but later in winter.\nI go to bed earlier than my father.\nIt isn’t dark in this room when the sun is shining.\nA millionaire is a very rich person.\nAsh, university, shallow, complicated, reply.\nThe message we often write inside a Christmas card is “Merry Christmas and a Happy New Year”.</text>
+	</Dictation>	
 </items>

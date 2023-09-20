@@ -108,41 +108,37 @@
 		</item>
 	</item>
 	<item id="11">
-		<item id="0" start="55.3" duration="1">
+		<item id="0" start="54.2" duration="0.1">
 			<person>Teacher</person>
 			<text>a</text>
 			<image/>
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="56.6" duration="0.9">
+		<item id="0" start="54.3" duration="4.2">
 			<person>Teacher</person>
 			<text>the /ðə/ (before a consonant sound)</text>
 			<image/>
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="58.2" duration="0.9">
+		<item id="0" start="58.5" duration="0.067">
 			<person>Teacher</person>
 			<text>an</text>
 			<image/>
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="59.5" duration="1.0">
+		<item id="0" start="58.6" duration="2.633">
 			<person>Teacher</person>
 			<text>the /ði:/ (before a vowel sound)</text>
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>The difference between “a“ and “an“ is that we use “a“ before a consonant sound whereas we use “an“ before a vowel sound. For example, we say “a book“ because the word “book“ starts with the sound /b/, a consonant sound. We say “an apple“ because the word “apple“ starts with the sound /æ/, a vowel sound.</text>
+	</Explanation>	
 	<item id="15">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The difference between “a“ and “an“ is that we use “a“ before a consonant sound whereas we use “an“ before a vowel sound. For example, we say “a book“ because the word “book“ starts with the sound /b/, a consonant sound. We say “an apple“ because the word “apple“ starts with the sound /æ/, a vowel sound.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="16">
 		<item id="0" start="61.233" duration="3.9">
 			<person>Teacher</person>
 			<text>What's the difference between &quot;a&quot; and &quot;an&quot;?</text>
@@ -154,8 +150,8 @@
 			<image/>
 		</item>
 	</item>
-	<item id="17">
-		<item id="0" start="74.2" duration="2.5">
+	<item id="16">
+		<item id="0" start="74.267" duration="3.033">
 			<person>Teacher</person>
 			<text>Give me an example of each, please</text>
 			<image/>
@@ -166,14 +162,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="18">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The difference between “the“ /ðə/ and “the“/ði:/ is the same; we use “the“ /ðə/ before a consonant sound whereas we use “the“/ði:/ before a vowel sound.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="19">
+	<Explanation>
+		<text>The difference between “the“ /ðə/ and “the“/ði:/ is the same; we use “the“ /ðə/ before a consonant sound whereas we use “the“/ði:/ before a vowel sound.</text>
+	</Explanation>	
+	<item id="17">
 		<item id="0" start="80.767" duration="2.7">
 			<person>Teacher</person>
 			<text>Give me an example of “the“ /ðə/.</text>
@@ -185,45 +177,37 @@
 			<image/>
 		</item>
 	</item>
-	<item id="20">
+	<item id="18">
 		<item id="0" start="86.067" duration="2.567">
 			<person>Teacher</person>
 			<text>Give me an example of “the“ /ði:/.</text>
 			<image/>
 		</item>
-		<item id="1" start="88.6" duration="2.4">
+		<item id="1" start="88.633" duration="2.9">
 			<person>Student</person>
 			<text>The /ði:/ apple is red</text>
 			<image/>
 		</item>
 	</item>
-	<item id="21">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The noun “use“ starts with the letter “u“, a vowel, but it starts with the sound /j/, a consonant sound. Therefore, we say “the /ðə/ use“ and not “the /ði:/ use“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="22">
+	<Explanation>
+		<text>The noun “use“ starts with the letter “u“, a vowel, but it starts with the sound /j/, a consonant sound. Therefore, we say “the /ðə/ use“ and not “the /ði:/ use“.</text>
+	</Explanation>	
+	<item id="19">
 		<item id="0" start="91.567" duration="5.233">
 			<person>Teacher</person>
-			<text>Why do we say &quot;the /ðə/ use&quot; and not &quot;the /ði:/ use&quot;?</text>
+			<text>Why do we say "the /ðə/ use" and not "the /ði:/ use"?</text>
 			<image/>
 		</item>
 		<item id="1" start="96.8" duration="8.067">
 			<person>Student</person>
-			<text>We say &quot;the /ðə/ use&quot; and not &quot;the /ði:/ use&quot; because the word &quot;use&quot; starts with a consonant sound</text>
+			<text>We say "the /ðə/ use" and not "the /ði:/ use" because the word "use" starts with a consonant sound</text>
 			<image/>
 		</item>
 	</item>
-	<item id="23">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Remember, some words that begin with the letter “h” start with a vowel sound, because the “h” is silent. For example, we say “an hour“ and not “a hour“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="24">
+	<Explanation>
+		<text>Remember, some words that begin with the letter “h” start with a vowel sound, because the “h” is silent. For example, we say “an hour“ and not “a hour“.</text>
+	</Explanation>	
+	<item id="20">
 		<item id="0" start="104.9" duration="4.633">
 			<person>Teacher</person>
 			<text>Is it right to say &quot;a hour&quot; or &quot;an hour&quot;?</text>
@@ -235,7 +219,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="21">
 		<item id="0" start="112.6" duration="1.633">
 			<person>Teacher</person>
 			<text>Why?</text>
@@ -247,49 +231,45 @@
 			<image/>
 		</item>
 	</item>
-	<item id="26">
+	<item id="22">
 		<item id="0" start="119.2" duration="1.933">
 			<person>Teacher</person>
 			<text>succeed</text>
 			<image/>
 		</item>
 	</item>
-	<item id="27">
+	<item id="23">
 		<item id="0" start="121.133" duration="1.733">
 			<person>Teacher</person>
 			<text>fail</text>
 			<image/>
 		</item>
 	</item>
-	<item id="28">
+	<item id="24">
 		<item id="0" start="122.867" duration="3.733">
 			<person>Teacher</person>
 			<text>examination (exam)</text>
 			<image/>
 		</item>
 	</item>
-	<item id="29">
+	<item id="25">
 		<item id="0" start="126.633" duration="2.367">
 			<person>Teacher</person>
 			<text>take an examination</text>
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="26">
 		<item id="0" start="129.0" duration="1.767">
 			<person>Teacher</person>
 			<text>pass</text>
 			<image/>
 		</item>
 	</item>
-	<item id="31">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Generally, after the verb “succeed“, we use the word “in“ and the gerund. For example, we say “succeed in going“, “succeed in taking“ etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="32">
+	<Explanation>
+		<text>Generally, after the verb “succeed“, we use the word “in“ and the gerund. For example, we say “succeed in going“, “succeed in taking“ etc.</text>
+	</Explanation>	
+	<item id="27">
 		<item id="0" start="130.8" duration="3.367">
 			<person>Teacher</person>
 			<text>Did you fail to answer the last question?</text>
@@ -301,7 +281,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="33">
+	<item id="28">
 		<item id="0" start="141.333" duration="5.067">
 			<person>Teacher</person>
 			<text>If you try hard, do you think you'll succeed in learning English well?</text>
@@ -313,7 +293,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="34">
+	<item id="29">
 		<item id="0" start="151.633" duration="3.433">
 			<person>Teacher</person>
 			<text>What's the opposite of &quot;to fail&quot; an exam?</text>
@@ -325,7 +305,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="35">
+	<item id="30">
 		<item id="0" start="159.8" duration="4.2">
 			<person>Teacher</person>
 			<text>Do you think you'll pass the stage exam at the end of this book?</text>
@@ -337,7 +317,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="36">
+	<item id="31">
 		<item id="0" start="168.567" duration="4.067">
 			<person>Teacher</person>
 			<text>If you fail an examination, do you always take it again?</text>
@@ -349,7 +329,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="37">
+	<item id="32">
 		<item id="0" start="177.7" duration="5.5">
 			<person>Teacher</person>
 			<text>Do people generally succeed in getting what they want if they try hard enough?</text>
@@ -361,21 +341,17 @@
 			<image/>
 		</item>
 	</item>
-	<item id="38">
+	<item id="33">
 		<item id="0" start="188.967" duration="3.333">
 			<person>Teacher</person>
 			<text>have to (equals must)</text>
 			<image/>
 		</item>
 	</item>
-	<item id="39">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>“Have to” means the same as “must”. We can say “I must go to school” or “I have to go to school”. However, we cannot use “must” to speak about the past. Instead, we use “had to” and say “Yesterday, I had to go to school”.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="40">
+	<Explanation>
+		<text>“Have to” means the same as “must”. We can say “I must go to school” or “I have to go to school”. However, we cannot use “must” to speak about the past. Instead, we use “had to” and say “Yesterday, I had to go to school”.</text>
+	</Explanation>	
+	<item id="34">
 		<item id="0" start="192.3" duration="3.4">
 			<person>Teacher</person>
 			<text>What can we say instead of &quot;I must study&quot;?</text>
@@ -387,7 +363,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="35">
 		<item id="0" start="201.367" duration="2.833">
 			<person>Teacher</person>
 			<text>Do you have to eat if you want to live?</text>
@@ -399,7 +375,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="36">
 		<item id="0" start="207.867" duration="3.2">
 			<person>Teacher</person>
 			<text>Did you have to get up early yesterday morning?</text>
@@ -411,7 +387,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="37">
 		<item id="0" start="214.833" duration="4.067">
 			<person>Teacher</person>
 			<text>Will you have to wait if you arrive too early for the next lesson?</text>
@@ -423,14 +399,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="44">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The negatives of “have to“ and “must“ have different meanings. “I don’t have to do it“means that I can do it if I want, but it is not necessary. “I mustn’t do it“ means that it is bad or wrong to do it.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="45">
+	<Explanation>
+		<text>The negatives of “have to“ and “must“ have different meanings. “I don’t have to do it“means that I can do it if I want, but it is not necessary. “I mustn’t do it“ means that it is bad or wrong to do it.</text>
+	</Explanation>	
+	<item id="38">
 		<item id="0" start="223.767" duration="7.9">
 			<person>Teacher</person>
 			<text>Which is it right to say: &quot;You mustn't smoke in this building&quot; or &quot;You don't have to smoke in this building&quot;?</text>
@@ -442,7 +414,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="39">
 		<item id="0" start="235.8" duration="7.4">
 			<person>Teacher</person>
 			<text>Which is it right to say: &quot;I mustn't get up early on Saturday&quot; or &quot;I don't have to get up early on Saturday&quot;?</text>
@@ -454,7 +426,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="47">
+	<item id="40">
 		<item id="0" start="247.8" duration="3.2">
 			<person>Teacher</person>
 			<text>Must you study if you want to learn English?</text>
@@ -466,13 +438,13 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="41">
 		<item id="0" start="254.8" duration="4.0">
 			<person>Teacher</person>
 			<text>Must you study ten hours a day if you want to learn English?</text>
 			<image/>
 		</item>
-		<item id="1" start="258.8" duration="4.3">
+		<item id="1" start="258.8" duration="8.267">
 			<person>Student</person>
 			<text>No, I don't have to study ten hours a day if I want to learn English</text>
 			<image/>

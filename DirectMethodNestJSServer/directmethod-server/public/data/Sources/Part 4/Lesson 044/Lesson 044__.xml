@@ -803,11 +803,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="84">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>They go to bed at ten and get up at seven.\nThey sleep nine hours.\nI love both tennis and basketball, but don’t play either well.\nHe hates going to the shops at the weekend.\nCount up to ten, please.\nHe has the least money.\nThe word “mine“ is a possessive pronoun.\n“On“ is a preposition.\n“Break“ is an irregular verb.\nThat phone is excellent.\nWhat does the word “stomach“ mean?\n“Go!“ is imperative.\nThe names of five vegetables are potatoes, tomatoes, onions, carrots and peas.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>They go to bed at ten and get up at seven.\nThey sleep nine hours.\nI love both tennis and basketball, but don’t play either well.\nHe hates going to the shops at the weekend.\nCount up to ten, please.\nHe has the least money.\nThe word “mine“ is a possessive pronoun.\n“On“ is a preposition.\n“Break“ is an irregular verb.\nThat phone is excellent.\nWhat does the word “stomach“ mean?\n“Go!“ is imperative.\nThe names of five vegetables are potatoes, tomatoes, onions, carrots and peas.</text>
+	</Dictation>	
 </items>

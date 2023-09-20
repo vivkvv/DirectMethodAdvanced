@@ -7,10 +7,15 @@
 	</item>
 	<item id="1">
 		<item id="0">
-			<translation>таким образом</translation>
+			<translation>холм</translation>
 		</item>
 	</item>
 	<item id="2">
+		<item id="0">
+			<translation>вблизи</translation>
+		</item>
+	</item>
+	<item id="3">
 		<item id="0">
 			<translation/>
 		</item>
@@ -18,19 +23,14 @@
 			<translation/>
 		</item>
 	</item>
-	<item id="3">
-		<item id="0">
-			<translation>звук, шум, звучать</translation>
-		</item>
-	</item>
 	<item id="4">
 		<item id="0">
-			<translation>дорожное движение</translation>
+			<translation>смеяться</translation>
 		</item>
 	</item>
 	<item id="5">
 		<item id="0">
-			<translation>погруженный в тишину</translation>
+			<translation>комедия</translation>
 		</item>
 	</item>
 	<item id="6">
@@ -51,10 +51,7 @@
 	</item>
 	<item id="8">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>враг</translation>
 		</item>
 	</item>
 	<item id="9">
@@ -75,21 +72,32 @@
 	</item>
 	<item id="11">
 		<item id="0">
-			<translation/>
+			<translation>замок</translation>
 		</item>
 	</item>
 	<item id="12">
 		<item id="0">
 			<translation/>
 		</item>
+		<item id="1">
+			<translation/>
+		</item>
 	</item>
 	<item id="13">
 		<item id="0">
-			<translation/>
+			<translation>голодный</translation>
 		</item>
 	</item>
 	<item id="14">
 		<item id="0">
+			<translation>шум</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
 			<translation/>
 		</item>
 	</item>
@@ -109,23 +117,35 @@
 			<translation/>
 		</item>
 	</item>
+	<item id="18">
+		<item id="0">
+			<translation>факт</translation>
+		</item>
+	</item>
 	<item id="19">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>исторический</translation>
 		</item>
 	</item>
 	<item id="20">
 		<item id="0">
+			<translation>математический</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>гнографический</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
 			<translation/>
 		</item>
 		<item id="1">
 			<translation/>
 		</item>
 	</item>
-	<item id="22">
+	<item id="23">
 		<item id="0">
 			<translation/>
 		</item>
@@ -145,33 +165,41 @@
 		<item id="0">
 			<translation/>
 		</item>
-		<item id="1">
-			<translation/>
-		</item>
 	</item>
 	<item id="26">
 		<item id="0">
-			<translation>добиваться успеха, преуспевать</translation>
+			<translation>становиться</translation>
 		</item>
 	</item>
 	<item id="27">
 		<item id="0">
-			<translation>терпеть неудачу</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="28">
 		<item id="0">
-			<translation>экзамен</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="29">
 		<item id="0">
-			<translation>сдавать экзамен</translation>
+			<translation>получать</translation>
 		</item>
 	</item>
 	<item id="30">
 		<item id="0">
-			<translation>успешно сдавать (экзамен)</translation>
+			<translation>приносить, приводить</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>доктор</translation>
 		</item>
 	</item>
 	<item id="32">
@@ -224,15 +252,20 @@
 	</item>
 	<item id="38">
 		<item id="0">
-			<translation>должен</translation>
-		</item>
-	</item>
-	<item id="40">
-		<item id="0">
 			<translation/>
 		</item>
 		<item id="1">
 			<translation/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>приходить, добираться</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>достигать</translation>
 		</item>
 	</item>
 	<item id="41">
@@ -259,7 +292,7 @@
 			<translation/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="44">
 		<item id="0">
 			<translation/>
 		</item>
@@ -267,12 +300,14 @@
 			<translation/>
 		</item>
 	</item>
+	<item id="45">
+		<item id="0">
+			<translation>там был (была, было)</translation>
+		</item>
+	</item>
 	<item id="46">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>там были</translation>
 		</item>
 	</item>
 	<item id="47">
@@ -284,6 +319,64 @@
 		</item>
 	</item>
 	<item id="48">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>умирать</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>президент</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="56">
 		<item id="0">
 			<translation/>
 		</item>

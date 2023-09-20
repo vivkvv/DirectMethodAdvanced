@@ -1,249 +1,349 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation/>
- </item>
- <item id="1">
-  <translation>много</translation>
- </item>
- <item id="2">
-  <translation>прочь; go away = уходить; give ... away = отдавать; take ... away = уносить</translation>
- </item>
- <item id="3">
-  <translation>говорить</translation>
- </item>
- <item id="4">
-  <translation/>
- </item>
- <item id="4">
-  <translation/>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="11">
-  <translation>бизнес</translation>
- </item>
- <item id="12">
-  <translation>иностранный</translation>
- </item>
- <item id="13">
-  <translation/>
- </item>
- <item id="13">
-  <translation/>
- </item>
- <item id="14">
-  <translation>дождливый</translation>
- </item>
- <item id="15">
-  <translation>солнечный</translation>
- </item>
- <item id="16">
-  <translation>облачно</translation>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="21">
-  <translation>природа</translation>
- </item>
- <item id="22">
-  <translation/>
- </item>
- <item id="22">
-  <translation/>
- </item>
- <item id="23">
-  <translation>стоимость</translation>
- </item>
- <item id="24">
-  <translation/>
- </item>
- <item id="24">
-  <translation/>
- </item>
- <item id="25">
-  <translation>куст</translation>
- </item>
- <item id="26">
-  <translation/>
- </item>
- <item id="26">
-  <translation/>
- </item>
- <item id="27">
-  <translation>стоящий; стоимость, ценность</translation>
- </item>
- <item id="28">
-  <translation>стоить</translation>
- </item>
- <item id="29">
-  <translation>стоимость, ценность</translation>
- </item>
- <item id="30">
-  <translation/>
- </item>
- <item id="30">
-  <translation/>
- </item>
- <item id="31">
-  <translation/>
- </item>
- <item id="31">
-  <translation/>
- </item>
- <item id="32">
-  <translation/>
- </item>
- <item id="32">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="35">
-  <translation/>
- </item>
- <item id="35">
-  <translation/>
- </item>
- <item id="36">
-  <translation/>
- </item>
- <item id="37">
-  <translation/>
- </item>
- <item id="37">
-  <translation/>
- </item>
- <item id="38">
-  <translation/>
- </item>
- <item id="38">
-  <translation/>
- </item>
- <item id="39">
-  <translation/>
- </item>
- <item id="39">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="41">
-  <translation>сложный, жесткий, усердно</translation>
- </item>
- <item id="42">
-  <translation>мягкий</translation>
- </item>
- <item id="43">
-  <translation/>
- </item>
- <item id="43">
-  <translation/>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="45">
-  <translation/>
- </item>
- <item id="45">
-  <translation/>
- </item>
- <item id="46">
-  <translation/>
- </item>
- <item id="46">
-  <translation/>
- </item>
- <item id="47">
-  <translation/>
- </item>
- <item id="47">
-  <translation/>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>много</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>прочь; go away = уходить; give ... away = отдавать; take ... away = уносить</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>говорить</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>бизнес</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>иностранный</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>дождливый</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>солнечный</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>облачно</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>природа</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>стоимость</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>куст</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>стоящий; стоимость, ценность</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>стоить</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation>стоимость, ценность</translation>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>сложный, жесткий, усердно</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>мягкий</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
 </items>

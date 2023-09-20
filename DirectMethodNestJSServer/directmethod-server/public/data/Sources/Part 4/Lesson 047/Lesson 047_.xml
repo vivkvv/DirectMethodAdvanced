@@ -1,0 +1,528 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="327.967">
+ <item id="0" start="0.267" duration="2.6">
+  <person>Teacher</person>
+  <text>Lesson 47</text>
+  <image/>
+ </item>
+ <item id="1" start="2.867" duration="1.5">
+  <person>Teacher</person>
+  <text>queen</text>
+  <image/>
+ </item>
+ <item id="2" start="4.4" duration="1.467">
+  <person>Teacher</person>
+  <text>head</text>
+  <image/>
+ </item>
+ <item id="3" start="5.9" duration="4.6">
+  <person>Teacher</person>
+  <text>Are there many countries in the world which have a queen as the head of the government?</text>
+  <image/>
+ </item>
+ <item id="3" start="10.5" duration="5.433">
+  <person>Student</person>
+  <text>No, there aren't many countries in the world which have a queen as the head of the government</text>
+  <image/>
+ </item>
+ <item id="4" start="15.933" duration="1.433">
+  <person>Teacher</person>
+  <text>blood</text>
+  <image/>
+ </item>
+ <item id="5" start="17.4" duration="1.967">
+  <person>Teacher</person>
+  <text>What color's blood?</text>
+  <image/>
+ </item>
+ <item id="5" start="19.367" duration="1.933">
+  <person>Student</person>
+  <text>Blood's red</text>
+  <image/>
+ </item>
+ <item id="6" start="21.3" duration="1.567">
+  <person>Teacher</person>
+  <text>offer</text>
+  <image/>
+ </item>
+ <item id="7" start="22.867" duration="1.6">
+  <person>Teacher</person>
+  <text>company</text>
+  <image/>
+ </item>
+ <item id="8" start="24.5" duration="1.867">
+  <person>Teacher</person>
+  <text>in company</text>
+  <image/>
+ </item>
+ <item id="9" start="26.367" duration="1.733">
+  <person>Teacher</person>
+  <text>chocolate</text>
+  <image/>
+ </item>
+ <item id="10" start="28.1" duration="1.7">
+  <person>Teacher</person>
+  <text>chocolates</text>
+  <image/>
+ </item>
+ <item id="11" start="29.833" duration="4.067">
+  <person>Teacher</person>
+  <text>When you're eating chocolates in company, do you offer them round?</text>
+  <image/>
+ </item>
+ <item id="11" start="33.9" duration="4.433">
+  <person>Student</person>
+  <text>Yes, when I'm eating chocolates in company, I offer them round</text>
+  <image/>
+ </item>
+ <item id="12" start="38.367" duration="3.5">
+  <person>Teacher</person>
+  <text>If I offer you a million pounds, will you take it?</text>
+  <image/>
+ </item>
+ <item id="12" start="41.867" duration="4.1">
+  <person>Student</person>
+  <text>Yes, if you offer me a million pounds, I'll take it</text>
+  <image/>
+ </item>
+ <item id="13" start="45.967" duration="1.467">
+  <person>Teacher</person>
+  <text>life</text>
+  <image/>
+ </item>
+ <item id="14" start="47.433" duration="1.5">
+  <person>Teacher</person>
+  <text>death</text>
+  <image/>
+ </item>
+ <item id="15" start="48.967" duration="1.767">
+  <person>Teacher</person>
+  <text>in the past</text>
+  <image/>
+ </item>
+ <item id="16" start="50.767" duration="2.333">
+  <person>Teacher</person>
+  <text>What's the opposite of &quot;life&quot;?</text>
+  <image/>
+ </item>
+ <item id="16" start="53.1" duration="3.067">
+  <person>Student</person>
+  <text>The opposite of &quot;life&quot; is &quot;death&quot;</text>
+  <image/>
+ </item>
+ <item id="17" start="56.167" duration="3.667">
+  <person>Teacher</person>
+  <text>Do you think life is more pleasant for children or adults?</text>
+  <image/>
+ </item>
+ <item id="17" start="59.833" duration="2.1">
+  <person>Student</person>
+  <text>I think life is more pleasant for children</text>
+  <image/>
+ </item>
+ <item id="18" start="61.967" duration="5.133">
+  <person>Teacher</person>
+  <text>Do you think life is harder these days than it was in the past?</text>
+  <image/>
+ </item>
+ <item id="18" start="67.1" duration="6.4">
+  <person>Student</person>
+  <text>No, I don't think life is harder these days than it was in the past; I think it's easier</text>
+  <image/>
+ </item>
+ <item id="19" start="73.533" duration="3.533">
+  <person>Teacher</person>
+  <text>In your country, what color do you use for death?</text>
+  <image/>
+ </item>
+ <item id="19" start="77.067" duration="3.3">
+  <person>Student</person>
+  <text>In my country, we use black for death</text>
+  <image/>
+ </item>
+ <item id="20" start="80.4" duration="3.033">
+  <person>Teacher</person>
+  <text>Is death a pleasant subject to speak about?</text>
+  <image/>
+ </item>
+ <item id="20" start="83.433" duration="3.933">
+  <person>Student</person>
+  <text>No, death isn't a pleasant subject to speak about</text>
+  <image/>
+ </item>
+ <item id="21" start="87.4" duration="1.6">
+  <person>Teacher</person>
+  <text>suggest</text>
+  <image/>
+ </item>
+ <item id="22" start="89.033" duration="1.7">
+  <person>Teacher</person>
+  <text>exercise</text>
+  <image/>
+ </item>
+ <item id="23" start="90.733" duration="3.5">
+  <person>Teacher</person>
+  <text>What do doctors suggest doing for a healthy life?</text>
+  <image/>
+ </item>
+ <item id="23" start="94.267" duration="6.7">
+  <person>Student</person>
+  <text>Doctors suggest eating healthy food and getting lots of fresh air and exercise for a healthy life</text>
+  <image/>
+ </item>
+ <item id="24" start="101.0" duration="3.7">
+  <person>Teacher</person>
+  <text>Where do you suggest she goes for her holiday next year?</text>
+  <image/>
+ </item>
+ <item id="24" start="104.7" duration="4.133">
+  <person>Student</person>
+  <text>I suggest she goes to Portugal for her holiday next year</text>
+  <image/>
+ </item>
+ <item id="25" start="108.867" duration="4.733">
+  <person>Teacher</person>
+  <text>Tomorrow I'll buy a new shirt; what color do you suggest I buy?</text>
+  <image/>
+ </item>
+ <item id="25" start="113.6" duration="2.867">
+  <person>Student</person>
+  <text>I suggest you buy a red shirt</text>
+  <image/>
+ </item>
+ <item id="26" start="116.5" duration="4.533">
+  <person>Teacher</person>
+  <text>If he wants to see a film tonight, which film do you suggest he sees?</text>
+  <image/>
+ </item>
+ <item id="26" start="121.033" duration="3.0">
+  <person>Student</person>
+  <text>I suggest he sees &quot;Casablanca&quot;</text>
+  <image/>
+ </item>
+ <item id="27" start="124.033" duration="2.933">
+  <person>Teacher</person>
+  <text>What do you suggest I do this weekend?</text>
+  <image/>
+ </item>
+ <item id="27" start="127.0" duration="3.367">
+  <person>Student</person>
+  <text>I suggest you go to the pub this weekend</text>
+  <image/>
+ </item>
+ <item id="28" start="130.367" duration="1.5">
+  <person>Teacher</person>
+  <text>tonight</text>
+  <image/>
+ </item>
+ <item id="29" start="131.9" duration="2.733">
+  <person>Teacher</person>
+  <text>What time will you go to bed tonight?</text>
+  <image/>
+ </item>
+ <item id="29" start="134.633" duration="2.9">
+  <person>Student</person>
+  <text>I'll go to bed at 10:00 tonight</text>
+  <image/>
+ </item>
+ <item id="30" start="137.533" duration="3.167">
+  <person>Teacher</person>
+  <text>What will you do before going to bed tonight?</text>
+  <image/>
+ </item>
+ <item id="30" start="140.7" duration="6.0">
+  <person>Student</person>
+  <text>I'll watch TV, read, go to the cinema, etc. before going to bed tonight</text>
+  <image/>
+ </item>
+ <item id="31" start="146.7" duration="1.5">
+  <person>Teacher</person>
+  <text>tired</text>
+  <image/>
+ </item>
+ <item id="32" start="148.233" duration="1.867">
+  <person>Teacher</person>
+  <text>tired of</text>
+  <image/>
+ </item>
+ <item id="33" start="150.133" duration="2.333">
+  <person>Teacher</person>
+  <text>Are you tired at the moment?</text>
+  <image/>
+ </item>
+ <item id="33" start="152.467" duration="2.9">
+  <person>Student</person>
+  <text>No, I'm not tired at the moment</text>
+  <image/>
+ </item>
+ <item id="34" start="155.4" duration="2.633">
+  <person>Teacher</person>
+  <text>What do you do when you feel tired?</text>
+  <image/>
+ </item>
+ <item id="34" start="158.067" duration="3.1">
+  <person>Student</person>
+  <text>When I feel tired, I go to bed</text>
+  <image/>
+ </item>
+ <item id="35" start="161.2" duration="2.267">
+  <person>Teacher</person>
+  <text>Are you tired of studying?</text>
+  <image/>
+ </item>
+ <item id="35" start="163.467" duration="2.8">
+  <person>Student</person>
+  <text>No, I'm not tired of studying</text>
+  <image/>
+ </item>
+ <item id="36" start="166.267" duration="1.467">
+  <person>Teacher</person>
+  <text>turn</text>
+  <image/>
+ </item>
+ <item id="37" start="167.767" duration="1.8">
+  <person>Teacher</person>
+  <text>turn over</text>
+  <image/>
+ </item>
+ <item id="38" start="169.6" duration="1.967">
+  <person>Teacher</person>
+  <text>What am I doing?</text>
+  <image/>
+ </item>
+ <item id="38" start="171.567" duration="2.2">
+  <person>Student</person>
+  <text>You're turning round</text>
+  <image/>
+ </item>
+ <item id="39" start="173.767" duration="3.2">
+  <person>Teacher</person>
+  <text>If you turn round, what will you see?</text>
+  <image/>
+ </item>
+ <item id="39" start="177.0" duration="4.133">
+  <person>Student</person>
+  <text>If I turn round, I'll see a picture etc.</text>
+  <image/>
+ </item>
+ <item id="40" start="181.133" duration="3.333">
+  <person>Teacher</person>
+  <text>Can you turn completely round without standing up?</text>
+  <image/>
+ </item>
+ <item id="40" start="184.467" duration="4.2">
+  <person>Student</person>
+  <text>No, I can't turn completely round without standing up</text>
+  <image/>
+ </item>
+ <item id="41" start="188.7" duration="1.9">
+  <person>Teacher</person>
+  <text>What am I doing?</text>
+  <image/>
+ </item>
+ <item id="41" start="190.633" duration="3.233">
+  <person>Student</person>
+  <text>You're turning over a page in your book</text>
+  <image/>
+ </item>
+ <item id="42" start="193.867" duration="1.4">
+  <person>Teacher</person>
+  <text>got</text>
+  <image/>
+ </item>
+ <item id="43" start="195.267" duration="2.2">
+  <person>Teacher</person>
+  <text>What's the past of &quot;get&quot;?</text>
+  <image/>
+ </item>
+ <item id="43" start="197.5" duration="2.8">
+  <person>Student</person>
+  <text>The past of &quot;get&quot; is &quot;got&quot;</text>
+  <image/>
+ </item>
+ <item id="44" start="200.3" duration="2.267">
+  <person>Teacher</person>
+  <text>Where did you get your shoes?</text>
+  <image/>
+ </item>
+ <item id="44" start="202.6" duration="3.233">
+  <person>Student</person>
+  <text>I got my shoes from a shoe shop</text>
+  <image/>
+ </item>
+ <item id="45" start="205.833" duration="2.6">
+  <person>Teacher</person>
+  <text>What time did you get here today?</text>
+  <image/>
+ </item>
+ <item id="45" start="208.433" duration="2.767">
+  <person>Student</person>
+  <text>I got here at 9:00 today</text>
+  <image/>
+ </item>
+ <item id="46" start="211.233" duration="2.667">
+  <person>Teacher</person>
+  <text>Did you get to school early today?</text>
+  <image/>
+ </item>
+ <item id="46" start="213.9" duration="3.133">
+  <person>Student</person>
+  <text>Yes, I got to school early today</text>
+  <image/>
+ </item>
+ <item id="47" start="217.067" duration="1.667">
+  <person>Teacher</person>
+  <text>until</text>
+  <image/>
+ </item>
+ <item id="48" start="218.733" duration="1.567">
+  <person>Teacher</person>
+  <text>till</text>
+  <image/>
+ </item>
+ <item id="49" start="220.333" duration="3.633">
+  <person>Teacher</person>
+  <text>Will you be in this room until 10:00 this evening?</text>
+  <image/>
+ </item>
+ <item id="49" start="223.967" duration="4.233">
+  <person>Student</person>
+  <text>No, I won't be in this room until 10:00 this evening</text>
+  <image/>
+ </item>
+ <item id="50" start="228.2" duration="3.467">
+  <person>Teacher</person>
+  <text>Do you want to live until you're a hundred years old?</text>
+  <image/>
+ </item>
+ <item id="50" start="231.7" duration="3.933">
+  <person>Student</person>
+  <text>Yes, I want to live until I'm a hundred years old</text>
+  <image/>
+ </item>
+ <item id="51" start="235.667" duration="3.833">
+  <person>Teacher</person>
+  <text>Are supermarkets sometimes open till late at night?</text>
+  <image/>
+ </item>
+ <item id="51" start="239.5" duration="4.6">
+  <person>Student</person>
+  <text>Yes, supermarkets are sometimes open till late at night</text>
+  <image/>
+ </item>
+ <item id="52" start="244.133" duration="1.5">
+  <person>Teacher</person>
+  <text>again</text>
+  <image/>
+ </item>
+ <item id="53" start="245.633" duration="1.7">
+  <person>Teacher</person>
+  <text>too many</text>
+  <image/>
+ </item>
+ <item id="54" start="247.333" duration="2.667">
+  <person>Teacher</person>
+  <text>Will you come here again next week?</text>
+  <image/>
+ </item>
+ <item id="54" start="250.0" duration="3.167">
+  <person>Student</person>
+  <text>Yes, I'll come here again next week</text>
+  <image/>
+ </item>
+ <item id="55" start="253.2" duration="4.8">
+  <person>Teacher</person>
+  <text>Will I ask you the same questions again next lesson as I am asking you now?</text>
+  <image/>
+ </item>
+ <item id="55" start="258.0" duration="6.033">
+  <person>Student</person>
+  <text>Yes, you'll ask us the same questions again next lesson as you're asking us now</text>
+  <image/>
+ </item>
+ <item id="56" start="264.067" duration="5.1">
+  <person>Teacher</person>
+  <text>If we make too many mistakes in our dictations, do you think it's better to do them again?</text>
+  <image/>
+ </item>
+ <item id="56" start="269.167" duration="6.3">
+  <person>Student</person>
+  <text>Yes, if we make too many mistakes in our dictations, I think it's better to do them again</text>
+  <image/>
+ </item>
+ <item id="57" start="275.5" duration="1.833">
+  <person>Teacher</person>
+  <text>duration</text>
+  <image/>
+ </item>
+ <item id="58" start="277.333" duration="3.2">
+  <person>Teacher</person>
+  <text>What's the duration of a lesson in this school?</text>
+  <image/>
+ </item>
+ <item id="58" start="280.567" duration="4.367">
+  <person>Student</person>
+  <text>The duration of a lesson in this school is 50 minutes</text>
+  <image/>
+ </item>
+ <item id="59" start="284.933" duration="2.967">
+  <person>Teacher</person>
+  <text>What's the duration of a game of football?</text>
+  <image/>
+ </item>
+ <item id="59" start="287.9" duration="4.233">
+  <person>Student</person>
+  <text>The duration of a game of football is 90 minutes</text>
+  <image/>
+ </item>
+ <item id="60" start="292.167" duration="2.133">
+  <person>Teacher</person>
+  <text>there will be</text>
+  <image/>
+ </item>
+ <item id="61" start="294.333" duration="2.033">
+  <person>Teacher</person>
+  <text>there'll be</text>
+  <image/>
+ </item>
+ <item id="62" start="296.4" duration="3.0">
+  <person>Teacher</person>
+  <text>Will there be anything on TV tonight?</text>
+  <image/>
+ </item>
+ <item id="62" start="299.4" duration="3.7">
+  <person>Student</person>
+  <text>Yes, there'll be something on TV tonight</text>
+  <image/>
+ </item>
+ <item id="63" start="303.133" duration="3.9">
+  <person>Teacher</person>
+  <text>Will there be any pictures hanging on these walls next lesson?</text>
+  <image/>
+ </item>
+ <item id="63" start="307.067" duration="4.767">
+  <person>Student</person>
+  <text>Yes, there'll be some pictures hanging on these walls next lesson</text>
+  <image/>
+ </item>
+ <item id="64" start="311.833" duration="3.233">
+  <person>Teacher</person>
+  <text>Will there be a chair on the table next lesson?</text>
+  <image/>
+ </item>
+ <item id="64" start="315.067" duration="4.0">
+  <person>Student</person>
+  <text>No, there won't be a chair on the table next lesson</text>
+  <image/>
+ </item>
+ <item id="65" start="319.1" duration="3.567">
+  <person>Teacher</person>
+  <text>Will there be anybody sitting on the floor next lesson?</text>
+  <image/>
+ </item>
+ <item id="65" start="322.7" duration="5.267">
+  <person>Student</person>
+  <text>No, there won't be anybody sitting on the floor next lesson</text>
+  <image/>
+ </item>
+</items>

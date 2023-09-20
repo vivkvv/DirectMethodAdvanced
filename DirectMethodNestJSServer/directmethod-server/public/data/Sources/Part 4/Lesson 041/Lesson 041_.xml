@@ -1,0 +1,528 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="360.167">
+ <item id="0" start="0.3" duration="2.2">
+  <person>Teacher</person>
+  <text>Lesson 41</text>
+  <image/>
+ </item>
+ <item id="1" start="2.533" duration="1.567">
+  <person>Teacher</person>
+  <text>wife</text>
+  <image/>
+ </item>
+ <item id="2" start="4.1" duration="1.8">
+  <person>Teacher</person>
+  <text>wives</text>
+  <image/>
+ </item>
+ <item id="3" start="5.9" duration="1.4">
+  <person>Teacher</person>
+  <text>help</text>
+  <image/>
+ </item>
+ <item id="4" start="7.333" duration="2.6">
+  <person>Teacher</person>
+  <text>What's the plural of &quot;wife&quot;?</text>
+  <image/>
+ </item>
+ <item id="4" start="9.933" duration="3.3">
+  <person>Student</person>
+  <text>The plural of &quot;wife&quot; is &quot;wives&quot;</text>
+  <image/>
+ </item>
+ <item id="5" start="13.267" duration="5.4">
+  <person>Teacher</person>
+  <text>Do husbands in this country generally help their wives in the house?</text>
+  <image/>
+ </item>
+ <item id="5" start="18.667" duration="5.433">
+  <person>Student</person>
+  <text>Yes, husbands in this country generally help their wives in the house</text>
+  <image/>
+ </item>
+ <item id="6" start="24.133" duration="5.667">
+  <person>Teacher</person>
+  <text>If you can't answer a question during the lesson, who helps you to answer it?</text>
+  <image/>
+ </item>
+ <item id="6" start="29.8" duration="5.867">
+  <person>Student</person>
+  <text>If I can't answer a question during the lesson, the teacher helps me to answer it</text>
+  <image/>
+ </item>
+ <item id="7" start="35.667" duration="4.667">
+  <person>Teacher</person>
+  <text>If you help me, do you think we can lift this table together?</text>
+  <image/>
+ </item>
+ <item id="7" start="40.367" duration="4.833">
+  <person>Student</person>
+  <text>Yes, if I help you, I think we can lift this table together</text>
+  <image/>
+ </item>
+ <item id="8" start="45.2" duration="1.5">
+  <person>Teacher</person>
+  <text>common</text>
+  <image/>
+ </item>
+ <item id="9" start="46.733" duration="4.5">
+  <person>Teacher</person>
+  <text>Which is the most common drink in this country besides water?</text>
+  <image/>
+ </item>
+ <item id="9" start="51.267" duration="4.8">
+  <person>Student</person>
+  <text>Tea is the most common drink in this country besides water</text>
+  <image/>
+ </item>
+ <item id="10" start="56.067" duration="1.467">
+  <person>Teacher</person>
+  <text>fire</text>
+  <image/>
+ </item>
+ <item id="11" start="57.567" duration="3.1">
+  <person>Teacher</person>
+  <text>Do you have a fire at home in winter?</text>
+  <image/>
+ </item>
+ <item id="11" start="60.667" duration="3.833">
+  <person>Student</person>
+  <text>Yes, I have a fire at home in winter</text>
+  <image/>
+ </item>
+ <item id="12" start="64.533" duration="1.733">
+  <person>Teacher</person>
+  <text>broad</text>
+  <image/>
+ </item>
+ <item id="13" start="66.267" duration="3.933">
+  <person>Teacher</person>
+  <text>Which is the broadest street in your town?</text>
+  <image/>
+ </item>
+ <item id="13" start="70.233" duration="4.367">
+  <person>Student</person>
+  <text>Oxford Street is the broadest street in my town</text>
+  <image/>
+ </item>
+ <item id="14" start="74.6" duration="1.533">
+  <person>Teacher</person>
+  <text>rich</text>
+  <image/>
+ </item>
+ <item id="15" start="76.133" duration="2.933">
+  <person>Teacher</person>
+  <text>Who is the richest person you know?</text>
+  <image/>
+ </item>
+ <item id="15" start="79.1" duration="3.4">
+  <person>Student</person>
+  <text>My uncle is the richest person I know</text>
+  <image/>
+ </item>
+ <item id="16" start="82.5" duration="1.467">
+  <person>Teacher</person>
+  <text>poor</text>
+  <image/>
+ </item>
+ <item id="17" start="84.0" duration="4.0">
+  <person>Teacher</person>
+  <text>Name me one of the poorest countries in the world</text>
+  <image/>
+ </item>
+ <item id="17" start="88.0" duration="4.067">
+  <person>Student</person>
+  <text>Haiti is one of the poorest countries in the world</text>
+  <image/>
+ </item>
+ <item id="18" start="92.067" duration="1.633">
+  <person>Teacher</person>
+  <text>story</text>
+  <image/>
+ </item>
+ <item id="19" start="93.7" duration="1.633">
+  <person>Teacher</person>
+  <text>bedtime</text>
+  <image/>
+ </item>
+ <item id="20" start="95.367" duration="2.933">
+  <person>Teacher</person>
+  <text>Do you like reading war stories?</text>
+  <image/>
+ </item>
+ <item id="20" start="98.3" duration="3.6">
+  <person>Student</person>
+  <text>Yes, I like reading war stories</text>
+  <image/>
+ </item>
+ <item id="21" start="101.933" duration="5.033">
+  <person>Teacher</person>
+  <text>Do parents in your country read bedtime stories to their children?</text>
+  <image/>
+ </item>
+ <item id="21" start="106.967" duration="5.7">
+  <person>Student</person>
+  <text>Yes, parents in my country read bedtime stories to their children</text>
+  <image/>
+ </item>
+ <item id="22" start="112.7" duration="1.9">
+  <person>Teacher</person>
+  <text>express</text>
+  <image/>
+ </item>
+ <item id="23" start="114.6" duration="1.6">
+  <person>Teacher</person>
+  <text>thought</text>
+  <image/>
+ </item>
+ <item id="24" start="116.233" duration="4.533">
+  <person>Teacher</person>
+  <text>Can you express a very simple idea quite well in English?</text>
+  <image/>
+ </item>
+ <item id="24" start="120.8" duration="4.967">
+  <person>Student</person>
+  <text>Yes, I can express a very simple idea quite well in English</text>
+  <image/>
+ </item>
+ <item id="25" start="125.767" duration="5.367">
+  <person>Teacher</person>
+  <text>Do you think it's easier to express your thoughts in writing or in speaking?</text>
+  <image/>
+ </item>
+ <item id="25" start="131.133" duration="4.267">
+  <person>Student</person>
+  <text>I think it's easier to express my thoughts in writing</text>
+  <image/>
+ </item>
+ <item id="26" start="135.4" duration="2.167">
+  <person>Teacher</person>
+  <text>irregular verbs</text>
+  <image/>
+ </item>
+ <item id="27" start="137.6" duration="1.7">
+  <person>Teacher</person>
+  <text>so</text>
+  <image/>
+ </item>
+ <item id="28" start="139.3" duration="1.8">
+  <person>Teacher</person>
+  <text>change</text>
+  <image/>
+ </item>
+ <item id="29" start="141.1" duration="2.533">
+  <person>Teacher</person>
+  <text>What's the past of &quot;speak&quot;?</text>
+  <image/>
+ </item>
+ <item id="29" start="143.667" duration="2.933">
+  <person>Student</person>
+  <text>The past of &quot;speak&quot; is &quot;spoke&quot;</text>
+  <image/>
+ </item>
+ <item id="30" start="146.6" duration="2.833">
+  <person>Teacher</person>
+  <text>speak - spoke</text>
+  <image/>
+ </item>
+ <item id="31" start="149.433" duration="2.867">
+  <person>Teacher</person>
+  <text>come - came</text>
+  <image/>
+ </item>
+ <item id="32" start="152.333" duration="2.7">
+  <person>Teacher</person>
+  <text>break - broke</text>
+  <image/>
+ </item>
+ <item id="33" start="155.033" duration="2.8">
+  <person>Teacher</person>
+  <text>wear - wore</text>
+  <image/>
+ </item>
+ <item id="34" start="157.833" duration="2.667">
+  <person>Teacher</person>
+  <text>write - wrote</text>
+  <image/>
+ </item>
+ <item id="35" start="160.533" duration="2.933">
+  <person>Teacher</person>
+  <text>get up - got up</text>
+  <image/>
+ </item>
+ <item id="36" start="163.467" duration="2.433">
+  <person>Teacher</person>
+  <text>stand - stood</text>
+  <image/>
+ </item>
+ <item id="37" start="165.9" duration="2.867">
+  <person>Teacher</person>
+  <text>shine - shone</text>
+  <image/>
+ </item>
+ <item id="38" start="168.8" duration="2.467">
+  <person>Teacher</person>
+  <text>take - took</text>
+  <image/>
+ </item>
+ <item id="39" start="171.267" duration="2.8">
+  <person>Teacher</person>
+  <text>tell - told</text>
+  <image/>
+ </item>
+ <item id="40" start="174.1" duration="2.667">
+  <person>Teacher</person>
+  <text>drive - drove</text>
+  <image/>
+ </item>
+ <item id="41" start="176.767" duration="2.8">
+  <person>Teacher</person>
+  <text>forget - forgot</text>
+  <image/>
+ </item>
+ <item id="42" start="179.567" duration="2.667">
+  <person>Teacher</person>
+  <text>see - saw</text>
+  <image/>
+ </item>
+ <item id="43" start="182.233" duration="2.667">
+  <person>Teacher</person>
+  <text>sit - sat</text>
+  <image/>
+ </item>
+ <item id="44" start="184.9" duration="2.6">
+  <person>Teacher</person>
+  <text>eat - ate</text>
+  <image/>
+ </item>
+ <item id="45" start="187.533" duration="2.9">
+  <person>Teacher</person>
+  <text>give - gave</text>
+  <image/>
+ </item>
+ <item id="46" start="190.433" duration="2.933">
+  <person>Teacher</person>
+  <text>begin - began</text>
+  <image/>
+ </item>
+ <item id="47" start="193.4" duration="3.1">
+  <person>Teacher</person>
+  <text>drink - drank</text>
+  <image/>
+ </item>
+ <item id="48" start="196.5" duration="2.633">
+  <person>Teacher</person>
+  <text>sleep - slept</text>
+  <image/>
+ </item>
+ <item id="49" start="199.167" duration="4.033">
+  <person>Teacher</person>
+  <text>Which language did we speak during the last lesson?</text>
+  <image/>
+ </item>
+ <item id="49" start="203.2" duration="3.367">
+  <person>Student</person>
+  <text>We spoke English during the last lesson</text>
+  <image/>
+ </item>
+ <item id="50" start="206.6" duration="2.633">
+  <person>Teacher</person>
+  <text>What's the past of &quot;come&quot;?</text>
+  <image/>
+ </item>
+ <item id="50" start="209.233" duration="3.067">
+  <person>Student</person>
+  <text>The past of &quot;come&quot; is &quot;came&quot;</text>
+  <image/>
+ </item>
+ <item id="51" start="212.3" duration="3.333">
+  <person>Teacher</person>
+  <text>What time did you come here last lesson?</text>
+  <image/>
+ </item>
+ <item id="51" start="215.667" duration="4.133">
+  <person>Student</person>
+  <text>I came here at 10:00 last lesson</text>
+  <image/>
+ </item>
+ <item id="52" start="219.833" duration="2.4">
+  <person>Teacher</person>
+  <text>What's the past of &quot;break&quot;?</text>
+  <image/>
+ </item>
+ <item id="52" start="222.233" duration="3.067">
+  <person>Student</person>
+  <text>The past of &quot;break&quot; is &quot;broke&quot;</text>
+  <image/>
+ </item>
+ <item id="53" start="225.3" duration="4.8">
+  <person>Teacher</person>
+  <text>Did you ever break an arm or a leg when you were a little child?</text>
+  <image/>
+ </item>
+ <item id="53" start="230.133" duration="5.033">
+  <person>Student</person>
+  <text>No, I never broke an arm or a leg when I was a little child</text>
+  <image/>
+ </item>
+ <item id="54" start="235.2" duration="2.533">
+  <person>Teacher</person>
+  <text>What did you wear yesterday?</text>
+  <image/>
+ </item>
+ <item id="54" start="237.733" duration="4.233">
+  <person>Student</person>
+  <text>I wore a grey shirt and blue trousers yesterday</text>
+  <image/>
+ </item>
+ <item id="55" start="242.0" duration="4.1">
+  <person>Teacher</person>
+  <text>Did I write anything on this piece of paper last lesson?</text>
+  <image/>
+ </item>
+ <item id="55" start="246.1" duration="4.633">
+  <person>Student</person>
+  <text>Yes, you wrote something on that piece of paper last lesson</text>
+  <image/>
+ </item>
+ <item id="56" start="250.767" duration="2.9">
+  <person>Teacher</person>
+  <text>What time did you get up this morning?</text>
+  <image/>
+ </item>
+ <item id="56" start="253.7" duration="3.3">
+  <person>Student</person>
+  <text>I got up at 8:00 this morning</text>
+  <image/>
+ </item>
+ <item id="57" start="257.0" duration="3.233">
+  <person>Teacher</person>
+  <text>Did we stand up after the last lesson?</text>
+  <image/>
+ </item>
+ <item id="57" start="260.233" duration="3.7">
+  <person>Student</person>
+  <text>Yes, we stood up after the last lesson</text>
+  <image/>
+ </item>
+ <item id="58" start="263.967" duration="2.967">
+  <person>Teacher</person>
+  <text>Did the sun shine last week?</text>
+  <image/>
+ </item>
+ <item id="58" start="266.933" duration="3.533">
+  <person>Student</person>
+  <text>Yes, the sun shone last week</text>
+  <image/>
+ </item>
+ <item id="59" start="270.5" duration="3.633">
+  <person>Teacher</person>
+  <text>Did you take any photographs on your last holiday?</text>
+  <image/>
+ </item>
+ <item id="59" start="274.133" duration="4.0">
+  <person>Student</person>
+  <text>Yes, I took some photographs on my last holiday</text>
+  <image/>
+ </item>
+ <item id="60" start="278.133" duration="2.4">
+  <person>Teacher</person>
+  <text>Did you tell me your name?</text>
+  <image/>
+ </item>
+ <item id="60" start="280.533" duration="3.0">
+  <person>Student</person>
+  <text>Yes, I told you my name</text>
+  <image/>
+ </item>
+ <item id="61" start="283.533" duration="4.0">
+  <person>Teacher</person>
+  <text>Did anybody in your family drive a car last year?</text>
+  <image/>
+ </item>
+ <item id="61" start="287.567" duration="4.4">
+  <person>Student</person>
+  <text>Yes, somebody in my family drove a car last year</text>
+  <image/>
+ </item>
+ <item id="62" start="291.967" duration="5.4">
+  <person>Teacher</person>
+  <text>Did you remember all the new words last lesson from the lesson before that?</text>
+  <image/>
+ </item>
+ <item id="62" start="297.4" duration="8.5">
+  <person>Student</person>
+  <text>No, I didn't remember all the new words last lesson from the lesson before that; some I remembered and some I forgot</text>
+  <image/>
+ </item>
+ <item id="63" start="305.9" duration="3.367">
+  <person>Teacher</person>
+  <text>What did you see in this classroom last lesson?</text>
+  <image/>
+ </item>
+ <item id="63" start="309.3" duration="7.467">
+  <person>Student</person>
+  <text>I saw some books, some chairs, a teacher etc. in this classroom last lesson</text>
+  <image/>
+ </item>
+ <item id="64" start="316.8" duration="3.067">
+  <person>Teacher</person>
+  <text>Where did you sit during the last lesson?</text>
+  <image/>
+ </item>
+ <item id="64" start="319.867" duration="3.6">
+  <person>Student</person>
+  <text>I sat here during the last lesson</text>
+  <image/>
+ </item>
+ <item id="65" start="323.467" duration="3.0">
+  <person>Teacher</person>
+  <text>What did you eat for your lunch yesterday?</text>
+  <image/>
+ </item>
+ <item id="65" start="326.467" duration="5.167">
+  <person>Student</person>
+  <text>I ate some fish and some vegetables for my lunch yesterday</text>
+  <image/>
+ </item>
+ <item id="66" start="331.633" duration="3.0">
+  <person>Teacher</person>
+  <text>Did I give you a dictation last month?</text>
+  <image/>
+ </item>
+ <item id="66" start="334.667" duration="3.967">
+  <person>Student</person>
+  <text>Yes, you gave us a dictation last month</text>
+  <image/>
+ </item>
+ <item id="67" start="338.633" duration="2.733">
+  <person>Teacher</person>
+  <text>When did last season begin?</text>
+  <image/>
+ </item>
+ <item id="67" start="341.4" duration="4.2">
+  <person>Student</person>
+  <text>Last season began on the 21st of March</text>
+  <image/>
+ </item>
+ <item id="68" start="345.6" duration="3.433">
+  <person>Teacher</person>
+  <text>What did you drink with your breakfast this morning?</text>
+  <image/>
+ </item>
+ <item id="68" start="349.067" duration="3.9">
+  <person>Student</person>
+  <text>I drank some tea with my breakfast this morning</text>
+  <image/>
+ </item>
+ <item id="69" start="352.967" duration="2.933">
+  <person>Teacher</person>
+  <text>How long did you sleep last night?</text>
+  <image/>
+ </item>
+ <item id="69" start="355.933" duration="4.2">
+  <person>Student</person>
+  <text>I slept eight hours last night</text>
+  <image/>
+ </item>
+</items>
