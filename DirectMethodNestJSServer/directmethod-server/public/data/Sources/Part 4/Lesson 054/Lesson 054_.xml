@@ -1,0 +1,353 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="261.667">
+ <item id="0" start="0.2" duration="2.533">
+  <person>Teacher</person>
+  <text>Lesson 54</text>
+  <image/>
+ </item>
+ <item id="1" start="2.767" duration="4.1">
+  <person>Teacher</person>
+  <text>dream - dreamt - dreamt</text>
+  <image/>
+ </item>
+ <item id="2" start="6.867" duration="1.7">
+  <person>Teacher</person>
+  <text>nightmare</text>
+  <image/>
+ </item>
+ <item id="3" start="8.567" duration="3.0">
+  <person>Teacher</person>
+  <text>Do you dream very much at night?</text>
+  <image/>
+ </item>
+ <item id="3" start="11.6" duration="2.967">
+  <person>Student</person>
+  <text>Yes, I dream a lot at night</text>
+  <image/>
+ </item>
+ <item id="4" start="14.567" duration="2.767">
+  <person>Teacher</person>
+  <text>What do we call a bad dream?</text>
+  <image/>
+ </item>
+ <item id="4" start="17.333" duration="3.433">
+  <person>Student</person>
+  <text>We call a bad dream a nightmare</text>
+  <image/>
+ </item>
+ <item id="5" start="20.8" duration="3.1">
+  <person>Teacher</person>
+  <text>What are the three forms of &quot;dream&quot;?</text>
+  <image/>
+ </item>
+ <item id="5" start="23.9" duration="5.1">
+  <person>Student</person>
+  <text>The three forms of &quot;dream&quot; are &quot;dream, dreamt, dreamt&quot;</text>
+  <image/>
+ </item>
+ <item id="6" start="29.0" duration="3.067">
+  <person>Teacher</person>
+  <text>What did you dream about last night?</text>
+  <image/>
+ </item>
+ <item id="6" start="32.1" duration="3.1">
+  <person>Student</person>
+  <text>I dreamt about flying last night</text>
+  <image/>
+ </item>
+ <item id="7" start="35.2" duration="1.7">
+  <person>Teacher</person>
+  <text>garden</text>
+  <image/>
+ </item>
+ <item id="8" start="36.9" duration="2.867">
+  <person>Teacher</person>
+  <text>Have you got a garden at home?</text>
+  <image/>
+ </item>
+ <item id="8" start="39.8" duration="3.367">
+  <person>Student</person>
+  <text>No, I haven't got a garden at home</text>
+  <image/>
+ </item>
+ <item id="9" start="43.167" duration="1.833">
+  <person>Teacher</person>
+  <text>refuse</text>
+  <image/>
+ </item>
+ <item id="10" start="45.033" duration="3.533">
+  <person>Teacher</person>
+  <text>Do you ever refuse to help other people?</text>
+  <image/>
+ </item>
+ <item id="10" start="48.6" duration="3.933">
+  <person>Student</person>
+  <text>Yes, I sometimes refuse to help other people</text>
+  <image/>
+ </item>
+ <item id="11" start="52.533" duration="1.967">
+  <person>Teacher</person>
+  <text>separate</text>
+  <image/>
+ </item>
+ <item id="12" start="54.533" duration="4.6">
+  <person>Teacher</person>
+  <text>Do you write your dictations in a separate book from your other books?</text>
+  <image/>
+ </item>
+ <item id="12" start="59.133" duration="5.1">
+  <person>Student</person>
+  <text>Yes, I write my dictations in a separate book from my other books</text>
+  <image/>
+ </item>
+ <item id="13" start="64.233" duration="3.733">
+  <person>Teacher</person>
+  <text>Do you live in a separate house from your parents?</text>
+  <image/>
+ </item>
+ <item id="13" start="68.0" duration="4.267">
+  <person>Student</person>
+  <text>Yes, I live in a separate house from my parents</text>
+  <image/>
+ </item>
+ <item id="14" start="72.267" duration="1.667">
+  <person>Teacher</person>
+  <text>lovely</text>
+  <image/>
+ </item>
+ <item id="15" start="73.933" duration="3.667">
+  <person>Teacher</person>
+  <text>Give me an example of the word &quot;lovely&quot;, please</text>
+  <image/>
+ </item>
+ <item id="15" start="77.633" duration="7.567">
+  <person>Student</person>
+  <text>I had a &quot;lovely&quot; holiday last year. She is a lovely person. The weather's lovely today.</text>
+  <image/>
+ </item>
+ <item id="16" start="85.2" duration="1.533">
+  <person>Teacher</person>
+  <text>keep</text>
+  <image/>
+ </item>
+ <item id="17" start="86.733" duration="1.8">
+  <person>Teacher</person>
+  <text>continue</text>
+  <image/>
+ </item>
+ <item id="18" start="88.567" duration="3.2">
+  <person>Teacher</person>
+  <text>continue (keep + -ing)</text>
+  <image/>
+ </item>
+ <item id="19" start="91.767" duration="5.033">
+  <person>Teacher</person>
+  <text>Will you keep studying English until you die?</text>
+  <image/>
+ </item>
+ <item id="19" start="96.8" duration="3.033">
+  <person>Student</person>
+  <text>No, I won't keep studying English until I die</text>
+  <image/>
+ </item>
+ <item id="20" start="99.867" duration="7.767">
+  <person>Teacher</person>
+  <text>Do you agree it's very bad for the health to keep eating after our stomachs are completely full?</text>
+  <image/>
+ </item>
+ <item id="20" start="107.633" duration="6.967">
+  <person>Student</person>
+  <text>Yes, I agree it's very bad for the health to keep eating after our stomachs are completely full</text>
+  <image/>
+ </item>
+ <item id="21" start="114.633" duration="2.3">
+  <person>Teacher</person>
+  <text>have in a place</text>
+  <image/>
+ </item>
+ <item id="22" start="116.967" duration="5.3">
+  <person>Teacher</person>
+  <text>Do you keep your money in your pocket or do you use a purse or wallet?</text>
+  <image/>
+ </item>
+ <item id="22" start="122.267" duration="3.0">
+  <person>Student</person>
+  <text>I keep my money in my pocket</text>
+  <image/>
+ </item>
+ <item id="23" start="125.267" duration="2.233">
+  <person>Teacher</person>
+  <text>not give away</text>
+  <image/>
+ </item>
+ <item id="24" start="127.5" duration="3.367">
+  <person>Teacher</person>
+  <text>Do you keep books after you've read them?</text>
+  <image/>
+ </item>
+ <item id="24" start="130.9" duration="3.6">
+  <person>Student</person>
+  <text>Yes, I keep books after I've read them</text>
+  <image/>
+ </item>
+ <item id="25" start="134.5" duration="1.833">
+  <person>Teacher</person>
+  <text>stay</text>
+  <image/>
+ </item>
+ <item id="26" start="136.367" duration="3.833">
+  <person>Teacher</person>
+  <text>What's the best way to keep warm on a cold day?</text>
+  <image/>
+ </item>
+ <item id="26" start="140.233" duration="5.3">
+  <person>Student</person>
+  <text>The best way to keep warm on a cold day is to wear a thick coat</text>
+  <image/>
+ </item>
+ <item id="27" start="145.533" duration="1.6">
+  <person>Teacher</person>
+  <text>one</text>
+  <image/>
+ </item>
+ <item id="28" start="147.133" duration="1.567">
+  <person>Teacher</person>
+  <text>you</text>
+  <image/>
+ </item>
+ <item id="29" start="148.733" duration="1.6">
+  <person>Teacher</person>
+  <text>we</text>
+  <image/>
+ </item>
+ <item id="30" start="150.333" duration="1.567">
+  <person>Teacher</person>
+  <text>they</text>
+  <image/>
+ </item>
+ <item id="31" start="151.9" duration="1.7">
+  <person>Teacher</person>
+  <text>mean</text>
+  <image/>
+ </item>
+ <item id="32" start="153.6" duration="1.967">
+  <person>Teacher</person>
+  <text>in general</text>
+  <image/>
+ </item>
+ <item id="33" start="155.6" duration="1.9">
+  <person>Teacher</person>
+  <text>necessarily</text>
+  <image/>
+ </item>
+ <item id="34" start="157.5" duration="1.967">
+  <person>Teacher</person>
+  <text>in particular</text>
+  <image/>
+ </item>
+ <item id="35" start="159.467" duration="1.6">
+  <person>Teacher</person>
+  <text>ticket</text>
+  <image/>
+ </item>
+ <item id="36" start="161.067" duration="5.967">
+  <person>Teacher</person>
+  <text>What do we sometimes mean when we use the words &quot;one&quot;, &quot;you&quot;, &quot;we&quot; and &quot;they&quot;?</text>
+  <image/>
+ </item>
+ <item id="36" start="167.067" duration="7.167">
+  <person>Student</person>
+  <text>When we use the words &quot;one&quot;, &quot;you&quot;, &quot;we&quot; and &quot;they&quot; we sometimes mean people in general</text>
+  <image/>
+ </item>
+ <item id="37" start="174.233" duration="7.767">
+  <person>Teacher</person>
+  <text>In the sentence &quot;If you want to go to the cinema, you have to buy a ticket&quot;, what does the word &quot;you&quot; mean?</text>
+  <image/>
+ </item>
+ <item id="37" start="182.033" duration="11.167">
+  <person>Student</person>
+  <text>In the sentence &quot;If you want to go to the cinema, you have to buy a ticket&quot;, the word &quot;you&quot; doesn't necessarily mean me in particular, but people in general</text>
+  <image/>
+ </item>
+ <item id="38" start="193.233" duration="5.5">
+  <person>Teacher</person>
+  <text>Which do we generally use the most: &quot;one&quot;, &quot;you&quot; or &quot;we&quot;?</text>
+  <image/>
+ </item>
+ <item id="38" start="198.733" duration="3.5">
+  <person>Student</person>
+  <text>We generally use &quot;you&quot; the most</text>
+  <image/>
+ </item>
+ <item id="39" start="202.267" duration="3.9">
+  <person>Teacher</person>
+  <text>What must you do if you want to speak a language well?</text>
+  <image/>
+ </item>
+ <item id="39" start="206.2" duration="6.467">
+  <person>Student</person>
+  <text>You must study a lot, and repeat, repeat and repeat if you want to speak a language well</text>
+  <image/>
+ </item>
+ <item id="40" start="212.7" duration="3.767">
+  <person>Teacher</person>
+  <text>What do you have to do if you want to stay healthy?</text>
+  <image/>
+ </item>
+ <item id="40" start="216.467" duration="6.6">
+  <person>Student</person>
+  <text>If you want to stay healthy, you have to eat healthy food, sleep well, and do exercise</text>
+  <image/>
+ </item>
+ <item id="41" start="223.1" duration="3.933">
+  <person>Teacher</person>
+  <text>What must you do if you want to remember something well?</text>
+  <image/>
+ </item>
+ <item id="41" start="227.033" duration="4.3">
+  <person>Student</person>
+  <text>You must repeat often if you want to remember something well</text>
+  <image/>
+ </item>
+ <item id="42" start="231.367" duration="3.433">
+  <person>Teacher</person>
+  <text>Where can we buy a drink when we're thirsty?</text>
+  <image/>
+ </item>
+ <item id="42" start="234.8" duration="3.667">
+  <person>Student</person>
+  <text>We can buy a drink from a bar when we're thirsty</text>
+  <image/>
+ </item>
+ <item id="43" start="238.5" duration="4.7">
+  <person>Teacher</person>
+  <text>Which country must we go to if we want to hear people speaking Greek?</text>
+  <image/>
+ </item>
+ <item id="43" start="243.2" duration="4.6">
+  <person>Student</person>
+  <text>We must go to Greece if we want to hear people speaking Greek</text>
+  <image/>
+ </item>
+ <item id="44" start="247.8" duration="3.167">
+  <person>Teacher</person>
+  <text>What does one do when one is hungry?</text>
+  <image/>
+ </item>
+ <item id="44" start="251.0" duration="2.9">
+  <person>Student</person>
+  <text>One eats when one is hungry</text>
+  <image/>
+ </item>
+ <item id="45" start="253.933" duration="3.4">
+  <person>Teacher</person>
+  <text>Do they sell drinks at most cinemas?</text>
+  <image/>
+ </item>
+ <item id="45" start="257.367" duration="4.3">
+  <person>Student</person>
+  <text>Yes, they sell drinks at most cinemas</text>
+  <image/>
+ </item>
+</items>

@@ -1,255 +1,361 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation/>
- </item>
- <item id="1">
-  <translation>кот</translation>
- </item>
- <item id="2">
-  <translation>собака</translation>
- </item>
- <item id="3">
-  <translation>результат</translation>
- </item>
- <item id="4">
-  <translation>удачный; приносящий удачу, счастье</translation>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="8">
-  <translation>уничтожать, разрушать</translation>
- </item>
- <item id="9">
-  <translation>документ</translation>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="11">
-  <translation/>
- </item>
- <item id="11">
-  <translation/>
- </item>
- <item id="12">
-  <translation>был; причастие прошедшего времени от be</translation>
- </item>
- <item id="13">
-  <translation>Шотландия</translation>
- </item>
- <item id="14">
-  <translation/>
- </item>
- <item id="14">
-  <translation/>
- </item>
- <item id="15">
-  <translation/>
- </item>
- <item id="15">
-  <translation/>
- </item>
- <item id="16">
-  <translation/>
- </item>
- <item id="16">
-  <translation/>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="18">
-  <translation>преступление</translation>
- </item>
- <item id="19">
-  <translation>виновный</translation>
- </item>
- <item id="20">
-  <translation>невиновный</translation>
- </item>
- <item id="21">
-  <translation>противозаконно</translation>
- </item>
- <item id="22">
-  <translation/>
- </item>
- <item id="22">
-  <translation/>
- </item>
- <item id="23">
-  <translation/>
- </item>
- <item id="23">
-  <translation/>
- </item>
- <item id="24">
-  <translation/>
- </item>
- <item id="24">
-  <translation/>
- </item>
- <item id="25">
-  <translation/>
- </item>
- <item id="25">
-  <translation/>
- </item>
- <item id="26">
-  <translation/>
- </item>
- <item id="26">
-  <translation/>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="28">
-  <translation/>
- </item>
- <item id="29">
-  <translation>я съел</translation>
- </item>
- <item id="30">
-  <translation>опыт</translation>
- </item>
- <item id="31">
-  <translation/>
- </item>
- <item id="31">
-  <translation/>
- </item>
- <item id="32">
-  <translation/>
- </item>
- <item id="32">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="35">
-  <translation>на протяжении</translation>
- </item>
- <item id="36">
-  <translation>до настоящего времени</translation>
- </item>
- <item id="37">
-  <translation/>
- </item>
- <item id="37">
-  <translation/>
- </item>
- <item id="38">
-  <translation/>
- </item>
- <item id="38">
-  <translation/>
- </item>
- <item id="39">
-  <translation/>
- </item>
- <item id="39">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="41">
-  <translation/>
- </item>
- <item id="41">
-  <translation/>
- </item>
- <item id="42">
-  <translation/>
- </item>
- <item id="42">
-  <translation/>
- </item>
- <item id="43">
-  <translation>слишком много</translation>
- </item>
- <item id="44">
-  <translation>слишком много</translation>
- </item>
- <item id="45">
-  <translation>излишний</translation>
- </item>
- <item id="46">
-  <translation/>
- </item>
- <item id="46">
-  <translation/>
- </item>
- <item id="47">
-  <translation/>
- </item>
- <item id="47">
-  <translation/>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="50">
-  <translation/>
- </item>
- <item id="50">
-  <translation/>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="52">
-  <translation/>
- </item>
- <item id="52">
-  <translation/>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>кот</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>собака</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>результат</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>удачный; приносящий удачу, счастье</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>уничтожать, разрушать</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>документ</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>был; причастие прошедшего времени от be</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>Шотландия</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation>преступление</translation>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation>виновный</translation>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>невиновный</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>противозаконно</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>я съел</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>опыт</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>на протяжении</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>до настоящего времени</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>слишком много</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>слишком много</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>излишний</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
 </items>

@@ -1,423 +1,580 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="295.033">
- <item id="0" start="0.3" duration="2.3">
-  <person>Teacher</person>
-  <text>Lesson 52</text>
-  <image/>
- </item>
- <item id="1" start="2.6" duration="1.5">
-  <person>Teacher</person>
-  <text>cat</text>
-  <image/>
- </item>
- <item id="2" start="4.1" duration="1.567">
-  <person>Teacher</person>
-  <text>dog</text>
-  <image/>
- </item>
- <item id="3" start="5.667" duration="1.767">
-  <person>Teacher</person>
-  <text>result</text>
-  <image/>
- </item>
- <item id="4" start="7.433" duration="1.567">
-  <person>Teacher</person>
-  <text>lucky</text>
-  <image/>
- </item>
- <item id="5" start="9.0" duration="3.767">
-  <person>Teacher</person>
-  <text>Which do you prefer: cats or dogs?</text>
-  <image/>
- </item>
- <item id="5" start="12.8" duration="3.3">
-  <person>Student</person>
-  <text>I prefer dogs to cats</text>
-  <image/>
- </item>
- <item id="6" start="16.1" duration="4.633">
-  <person>Teacher</person>
-  <text>What is often the result of putting a cat and a dog together?</text>
-  <image/>
- </item>
- <item id="6" start="20.767" duration="5.6">
-  <person>Student</person>
-  <text>The result of putting a cat and a dog together is often a lot of noise</text>
-  <image/>
- </item>
- <item id="7" start="26.4" duration="5.0">
-  <person>Teacher</person>
-  <text>Do people in your country think it's lucky to see a black cat?</text>
-  <image/>
- </item>
- <item id="7" start="31.4" duration="6.6">
-  <person>Student</person>
-  <text>No, people in my country don't think it's lucky to see a black cat; they think it's unlucky</text>
-  <image/>
- </item>
- <item id="8" start="38.0" duration="1.833">
-  <person>Teacher</person>
-  <text>destroy</text>
-  <image/>
- </item>
- <item id="9" start="39.867" duration="1.8">
-  <person>Teacher</person>
-  <text>document</text>
-  <image/>
- </item>
- <item id="10" start="41.667" duration="4.633">
-  <person>Teacher</person>
-  <text>Do you ever destroy documents that you receive from your bank?</text>
-  <image/>
- </item>
- <item id="10" start="46.3" duration="5.067">
-  <person>Student</person>
-  <text>Yes, I sometimes destroy documents that I receive from my bank</text>
-  <image/>
- </item>
- <item id="11" start="51.4" duration="2.967">
-  <person>Teacher</person>
-  <text>Can a fire destroy a building?</text>
-  <image/>
- </item>
- <item id="11" start="54.367" duration="3.267">
-  <person>Student</person>
-  <text>Yes, a fire can destroy a building</text>
-  <image/>
- </item>
- <item id="12" start="57.633" duration="1.533">
-  <person>Teacher</person>
-  <text>been</text>
-  <image/>
- </item>
- <item id="13" start="59.167" duration="1.933">
-  <person>Teacher</person>
-  <text>Scotland</text>
-  <image/>
- </item>
- <item id="14" start="61.133" duration="3.767">
-  <person>Teacher</person>
-  <text>What's the past participle of the verb &quot;to be&quot;?</text>
-  <image/>
- </item>
- <item id="14" start="64.9" duration="4.333">
-  <person>Student</person>
-  <text>The past participle of the verb &quot;to be&quot; is &quot;been&quot;</text>
-  <image/>
- </item>
- <item id="15" start="69.233" duration="3.233">
-  <person>Teacher</person>
-  <text>Have you been to the cinema this week?</text>
-  <image/>
- </item>
- <item id="15" start="72.5" duration="3.433">
-  <person>Student</person>
-  <text>No, I haven't been to the cinema this week</text>
-  <image/>
- </item>
- <item id="16" start="75.933" duration="3.033">
-  <person>Teacher</person>
-  <text>Have you ever been to Scotland?</text>
-  <image/>
- </item>
- <item id="16" start="79.0" duration="2.667">
-  <person>Student</person>
-  <text>Yes, I've been to Scotland</text>
-  <image/>
- </item>
- <item id="17" start="81.667" duration="3.6">
-  <person>Teacher</person>
-  <text>Have you been to see the film Casablanca?</text>
-  <image/>
- </item>
- <item id="17" start="85.3" duration="3.433">
-  <person>Student</person>
-  <text>Yes, I've been to see the film &quot;Casablanca&quot;</text>
-  <image/>
- </item>
- <item id="18" start="88.733" duration="1.633">
-  <person>Teacher</person>
-  <text>crime</text>
-  <image/>
- </item>
- <item id="19" start="90.4" duration="1.667">
-  <person>Teacher</person>
-  <text>guilty</text>
-  <image/>
- </item>
- <item id="20" start="92.1" duration="1.767">
-  <person>Teacher</person>
-  <text>innocent</text>
-  <image/>
- </item>
- <item id="21" start="93.867" duration="2.0">
-  <person>Teacher</person>
-  <text>against the law</text>
-  <image/>
- </item>
- <item id="22" start="95.867" duration="1.967">
-  <person>Teacher</person>
-  <text>What's a crime?</text>
-  <image/>
- </item>
- <item id="22" start="97.833" duration="3.7">
-  <person>Student</person>
-  <text>A crime is an action which is against the law</text>
-  <image/>
- </item>
- <item id="23" start="101.533" duration="5.5">
-  <person>Teacher</person>
-  <text>If I take something from a shop without paying, am I guilty of a crime?</text>
-  <image/>
- </item>
- <item id="23" start="107.067" duration="5.167">
-  <person>Student</person>
-  <text>Yes, if you take something from a shop without paying, you're guilty of a crime</text>
-  <image/>
- </item>
- <item id="24" start="112.233" duration="2.8">
-  <person>Teacher</person>
-  <text>What's the opposite of guilty?</text>
-  <image/>
- </item>
- <item id="24" start="115.067" duration="3.3">
-  <person>Student</person>
-  <text>The opposite of guilty is innocent</text>
-  <image/>
- </item>
- <item id="25" start="118.4" duration="4.333">
-  <person>Teacher</person>
-  <text>Do you always feel guilty when you do something wrong?</text>
-  <image/>
- </item>
- <item id="25" start="122.733" duration="4.133">
-  <person>Student</person>
-  <text>Yes, I always feel guilty when I do something wrong</text>
-  <image/>
- </item>
- <item id="26" start="126.9" duration="4.0">
-  <person>Teacher</person>
-  <text>Is there very much crime in the town where you live?</text>
-  <image/>
- </item>
- <item id="26" start="130.9" duration="3.8">
-  <person>Student</person>
-  <text>Yes, there's a lot of crime in the town where I live</text>
-  <image/>
- </item>
- <item id="27" start="134.733" duration="2.267">
-  <person>Teacher</person>
-  <text>present perfect</text>
-  <image/>
- </item>
- <item id="28" start="137.0" duration="4.4">
-  <person>Teacher</person>
-  <text>&quot;have&quot; + past participle (third form)</text>
-  <image/>
- </item>
- <item id="29" start="141.4" duration="2.033">
-  <person>Teacher</person>
-  <text>I have eaten</text>
-  <image/>
- </item>
- <item id="30" start="143.467" duration="2.0">
-  <person>Teacher</person>
-  <text>experience</text>
-  <image/>
- </item>
- <item id="31" start="145.5" duration="4.933">
-  <person>Teacher</person>
-  <text>Do we use the present perfect to talk about our experiences?</text>
-  <image/>
- </item>
- <item id="31" start="150.433" duration="4.933">
-  <person>Student</person>
-  <text>Yes, we use the present perfect to talk about our experiences</text>
-  <image/>
- </item>
- <item id="32" start="155.4" duration="2.833">
-  <person>Teacher</person>
-  <text>Have you eaten Spanish food?</text>
-  <image/>
- </item>
- <item id="32" start="158.233" duration="3.0">
-  <person>Student</person>
-  <text>Yes, I have eaten Spanish food</text>
-  <image/>
- </item>
- <item id="33" start="161.267" duration="2.5">
-  <person>Teacher</person>
-  <text>Have you visited Paris?</text>
-  <image/>
- </item>
- <item id="33" start="163.767" duration="2.833">
-  <person>Student</person>
-  <text>Yes, I have visited Paris</text>
-  <image/>
- </item>
- <item id="34" start="166.633" duration="2.733">
-  <person>Teacher</person>
-  <text>Have you ever worked on a farm?</text>
-  <image/>
- </item>
- <item id="34" start="169.367" duration="2.733">
-  <person>Student</person>
-  <text>Yes, I have worked on a farm</text>
-  <image/>
- </item>
- <item id="35" start="172.1" duration="1.6">
-  <person>Teacher</person>
-  <text>for</text>
-  <image/>
- </item>
- <item id="36" start="173.733" duration="1.867">
-  <person>Teacher</person>
-  <text>up to now</text>
-  <image/>
- </item>
- <item id="37" start="175.633" duration="6.267">
-  <person>Teacher</person>
-  <text>Do we also use the present perfect to talk about the duration of an action up to now?</text>
-  <image/>
- </item>
- <item id="37" start="181.9" duration="6.333">
-  <person>Student</person>
-  <text>Yes, we also use the present perfect to talk about the duration of an action up to now</text>
-  <image/>
- </item>
- <item id="38" start="188.267" duration="3.067">
-  <person>Teacher</person>
-  <text>How long have you lived in this city?</text>
-  <image/>
- </item>
- <item id="38" start="191.333" duration="3.7">
-  <person>Student</person>
-  <text>I have lived in this city for 30 years</text>
-  <image/>
- </item>
- <item id="39" start="195.067" duration="4.0">
-  <person>Teacher</person>
-  <text>Have you studied English for more than six months?</text>
-  <image/>
- </item>
- <item id="39" start="199.067" duration="3.9">
-  <person>Student</person>
-  <text>Yes, I have studied English for more than six months</text>
-  <image/>
- </item>
- <item id="40" start="202.967" duration="6.0">
-  <person>Teacher</person>
-  <text>Do we also use the present perfect to talk about the result now of a past action?</text>
-  <image/>
- </item>
- <item id="40" start="209.0" duration="6.167">
-  <person>Student</person>
-  <text>Yes, we also use the present perfect to talk about the result now of a past action</text>
-  <image/>
- </item>
- <item id="41" start="215.167" duration="2.933">
-  <person>Teacher</person>
-  <text>Have you eaten too much today?</text>
-  <image/>
- </item>
- <item id="41" start="218.133" duration="3.0">
-  <person>Student</person>
-  <text>No, I haven't eaten too much today</text>
-  <image/>
- </item>
- <item id="42" start="221.167" duration="3.4">
-  <person>Teacher</person>
-  <text>Has everybody come to the lesson today?</text>
-  <image/>
- </item>
- <item id="42" start="224.6" duration="3.5">
-  <person>Student</person>
-  <text>No, not everybody has come to the lesson today</text>
-  <image/>
- </item>
- <item id="43" start="228.1" duration="1.767">
-  <person>Teacher</person>
-  <text>too many</text>
-  <image/>
- </item>
- <item id="44" start="229.867" duration="1.867">
-  <person>Teacher</person>
-  <text>too much</text>
-  <image/>
- </item>
- <item id="45" start="231.733" duration="1.867">
-  <person>Teacher</person>
-  <text>excessive</text>
-  <image/>
- </item>
- <item id="46" start="233.6" duration="3.467">
-  <person>Teacher</person>
-  <text>What do &quot;too many&quot; and &quot;too much&quot; mean?</text>
-  <image/>
- </item>
- <item id="46" start="237.1" duration="6.733">
-  <person>Student</person>
-  <text>&quot;Too many&quot; and &quot;too much&quot; mean an excessive number or quantity and therefore not a good thing</text>
-  <image/>
- </item>
- <item id="47" start="243.867" duration="4.4">
-  <person>Teacher</person>
-  <text>Do children feel ill if they eat too many sweets?</text>
-  <image/>
- </item>
- <item id="47" start="248.267" duration="3.933">
-  <person>Student</person>
-  <text>Yes, children feel ill if they eat too many sweets</text>
-  <image/>
- </item>
- <item id="48" start="252.2" duration="6.1">
-  <person>Teacher</person>
-  <text>Do you agree there are too many people in the world with too little food to eat?</text>
-  <image/>
- </item>
- <item id="48" start="258.333" duration="5.233">
-  <person>Student</person>
-  <text>Yes, I agree there are too many people in the world with too little food to eat</text>
-  <image/>
- </item>
- <item id="49" start="263.6" duration="3.133">
-  <person>Teacher</person>
-  <text>Are you too short to touch the ceiling?</text>
-  <image/>
- </item>
- <item id="49" start="266.733" duration="2.233">
-  <person>Student</person>
-  <text>Yes, I'm too short to touch the ceiling</text>
-  <image/>
- </item>
- <item id="50" start="269.0" duration="5.133">
-  <person>Teacher</person>
-  <text>Do you think a millionaire has too much money?</text>
-  <image/>
- </item>
- <item id="50" start="274.133" duration="3.8">
-  <person>Student</person>
-  <text>No, I don't think a millionaire has too much money</text>
-  <image/>
- </item>
- <item id="51" start="277.967" duration="4.133">
-  <person>Teacher</person>
-  <text>If people eat too much, do they feel bad?</text>
-  <image/>
- </item>
- <item id="51" start="282.1" duration="3.7">
-  <person>Student</person>
-  <text>Yes, if people eat too much, they feel bad</text>
-  <image/>
- </item>
- <item id="52" start="285.8" duration="4.6">
-  <person>Teacher</person>
-  <text>If you work too much do you feel tired all the time?</text>
-  <image/>
- </item>
- <item id="52" start="290.4" duration="4.6">
-  <person>Student</person>
-  <text>Yes, if I work too much, I feel tired all the time</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.3" duration="2.3">
+			<person>Teacher</person>
+			<text>Lesson 52</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.6" duration="1.5">
+			<person>Teacher</person>
+			<text>cat</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.1" duration="1.567">
+			<person>Teacher</person>
+			<text>dog</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="5.667" duration="1.767">
+			<person>Teacher</person>
+			<text>result</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="7.433" duration="1.567">
+			<person>Teacher</person>
+			<text>lucky</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="9.0" duration="3.767">
+			<person>Teacher</person>
+			<text>Which do you prefer: cats or dogs?</text>
+			<image/>
+		</item>
+		<item id="1" start="12.8" duration="3.3">
+			<person>Student</person>
+			<text>I prefer dogs to cats</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="16.1" duration="4.633">
+			<person>Teacher</person>
+			<text>What is often the result of putting a cat and a dog together?</text>
+			<image/>
+		</item>
+		<item id="1" start="20.767" duration="5.6">
+			<person>Student</person>
+			<text>The result of putting a cat and a dog together is often a lot of noise</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="26.4" duration="5.0">
+			<person>Teacher</person>
+			<text>Do people in your country think it's lucky to see a black cat?</text>
+			<image/>
+		</item>
+		<item id="1" start="31.4" duration="6.6">
+			<person>Student</person>
+			<text>No, people in my country don't think it's lucky to see a black cat; they think it's unlucky</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="38.0" duration="1.833">
+			<person>Teacher</person>
+			<text>destroy</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="39.867" duration="1.8">
+			<person>Teacher</person>
+			<text>document</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="41.667" duration="4.633">
+			<person>Teacher</person>
+			<text>Do you ever destroy documents that you receive from your bank?</text>
+			<image/>
+		</item>
+		<item id="1" start="46.3" duration="5.067">
+			<person>Student</person>
+			<text>Yes, I sometimes destroy documents that I receive from my bank</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="51.4" duration="2.967">
+			<person>Teacher</person>
+			<text>Can a fire destroy a building?</text>
+			<image/>
+		</item>
+		<item id="1" start="54.367" duration="3.267">
+			<person>Student</person>
+			<text>Yes, a fire can destroy a building</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="57.633" duration="1.533">
+			<person>Teacher</person>
+			<text>been</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="59.167" duration="1.933">
+			<person>Teacher</person>
+			<text>Scotland</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>The past participle of the verb “to be“ is “been“.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="61.133" duration="3.767">
+			<person>Teacher</person>
+			<text>What's the past participle of the verb &quot;to be&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="64.9" duration="4.333">
+			<person>Student</person>
+			<text>The past participle of the verb &quot;to be&quot; is &quot;been&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="69.233" duration="3.233">
+			<person>Teacher</person>
+			<text>Have you been to the cinema this week?</text>
+			<image/>
+		</item>
+		<item id="1" start="72.5" duration="3.433">
+			<person>Student</person>
+			<text>No, I haven't been to the cinema this week</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="75.933" duration="3.033">
+			<person>Teacher</person>
+			<text>Have you ever been to Scotland?</text>
+			<image/>
+		</item>
+		<item id="1" start="79.0" duration="2.667">
+			<person>Student</person>
+			<text>Yes, I've been to Scotland</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="81.667" duration="3.6">
+			<person>Teacher</person>
+			<text>Have you been to see the film Casablanca?</text>
+			<image/>
+		</item>
+		<item id="1" start="85.3" duration="3.433">
+			<person>Student</person>
+			<text>Yes, I've been to see the film &quot;Casablanca&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="88.733" duration="1.633">
+			<person>Teacher</person>
+			<text>crime</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="90.4" duration="1.667">
+			<person>Teacher</person>
+			<text>guilty</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="92.1" duration="1.767">
+			<person>Teacher</person>
+			<text>innocent</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="93.867" duration="2.0">
+			<person>Teacher</person>
+			<text>against the law</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="95.867" duration="1.967">
+			<person>Teacher</person>
+			<text>What's a crime?</text>
+			<image/>
+		</item>
+		<item id="1" start="97.833" duration="3.7">
+			<person>Student</person>
+			<text>A crime is an action which is against the law</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="101.533" duration="5.5">
+			<person>Teacher</person>
+			<text>If I take something from a shop without paying, am I guilty of a crime?</text>
+			<image/>
+		</item>
+		<item id="1" start="107.067" duration="5.167">
+			<person>Student</person>
+			<text>Yes, if you take something from a shop without paying, you're guilty of a crime</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="112.233" duration="2.8">
+			<person>Teacher</person>
+			<text>What's the opposite of guilty?</text>
+			<image/>
+		</item>
+		<item id="1" start="115.067" duration="3.3">
+			<person>Student</person>
+			<text>The opposite of guilty is innocent</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="118.4" duration="4.333">
+			<person>Teacher</person>
+			<text>Do you always feel guilty when you do something wrong?</text>
+			<image/>
+		</item>
+		<item id="1" start="122.733" duration="4.133">
+			<person>Student</person>
+			<text>Yes, I always feel guilty when I do something wrong</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="126.9" duration="4.0">
+			<person>Teacher</person>
+			<text>Is there very much crime in the town where you live?</text>
+			<image/>
+		</item>
+		<item id="1" start="130.9" duration="3.8">
+			<person>Student</person>
+			<text>Yes, there's a lot of crime in the town where I live</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="134.733" duration="2.267">
+			<person>Teacher</person>
+			<text>present perfect</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="137.0" duration="4.4">
+			<person>Teacher</person>
+			<text>&quot;have&quot; + past participle (third form)</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="141.4" duration="2.033">
+			<person>Teacher</person>
+			<text>I have eaten</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="143.467" duration="2.0">
+			<person>Teacher</person>
+			<text>experience</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>We form the present perfect with the verb “have“ and the past participle. For example, we say “I have arrived“ or “She has written“.
+		\nThe present perfect has three common uses:
+		\n1) We use it to talk about our experiences. If I say “I have eaten Chinese food“, it means I have experience of “eating Chinese food“. If I say “I have been to Paris“, it means that I have experience of “being in Paris“.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="145.5" duration="4.933">
+			<person>Teacher</person>
+			<text>Do we use the present perfect to talk about our experiences?</text>
+			<image/>
+		</item>
+		<item id="1" start="150.433" duration="4.933">
+			<person>Student</person>
+			<text>Yes, we use the present perfect to talk about our experiences</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="155.4" duration="2.833">
+			<person>Teacher</person>
+			<text>Have you eaten Spanish food?</text>
+			<image/>
+		</item>
+		<item id="1" start="158.233" duration="3.0">
+			<person>Student</person>
+			<text>Yes, I have eaten Spanish food</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="161.267" duration="2.5">
+			<person>Teacher</person>
+			<text>Have you visited Paris?</text>
+			<image/>
+		</item>
+		<item id="1" start="163.767" duration="2.833">
+			<person>Student</person>
+			<text>Yes, I have visited Paris</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="166.633" duration="2.733">
+			<person>Teacher</person>
+			<text>Have you ever worked on a farm?</text>
+			<image/>
+		</item>
+		<item id="1" start="169.367" duration="2.733">
+			<person>Student</person>
+			<text>Yes, I have worked on a farm</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="172.1" duration="1.6">
+			<person>Teacher</person>
+			<text>for</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="173.733" duration="1.867">
+			<person>Teacher</person>
+			<text>up to now</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>2) We also use the present perfect to talk about the duration of an action up to now. If I say “I have lived here for three years“, it means that I’m living here now and I started living here three years ago.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="175.633" duration="6.267">
+			<person>Teacher</person>
+			<text>Do we also use the present perfect to talk about the duration of an action up to now?</text>
+			<image/>
+		</item>
+		<item id="1" start="181.9" duration="6.333">
+			<person>Student</person>
+			<text>Yes, we also use the present perfect to talk about the duration of an action up to now</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="188.267" duration="3.067">
+			<person>Teacher</person>
+			<text>How long have you lived in this city?</text>
+			<image/>
+		</item>
+		<item id="1" start="191.333" duration="3.7">
+			<person>Student</person>
+			<text>I have lived in this city for 30 years</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="195.067" duration="4.0">
+			<person>Teacher</person>
+			<text>Have you studied English for more than six months?</text>
+			<image/>
+		</item>
+		<item id="1" start="199.067" duration="3.9">
+			<person>Student</person>
+			<text>Yes, I have studied English for more than six months</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>3) We can also use the present perfect to talk about the result now of a past action. For example, “I have eaten too much“ means that I feel bad (or guilty) now. “She has arrived“ means that she is here now.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="202.967" duration="6.0">
+			<person>Teacher</person>
+			<text>Do we also use the present perfect to talk about the result now of a past action?</text>
+			<image/>
+		</item>
+		<item id="1" start="209.0" duration="6.167">
+			<person>Student</person>
+			<text>Yes, we also use the present perfect to talk about the result now of a past action</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="215.167" duration="2.933">
+			<person>Teacher</person>
+			<text>Have you eaten too much today?</text>
+			<image/>
+		</item>
+		<item id="1" start="218.133" duration="3.0">
+			<person>Student</person>
+			<text>No, I haven't eaten too much today</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="221.167" duration="3.4">
+			<person>Teacher</person>
+			<text>Has everybody come to the lesson today?</text>
+			<image/>
+		</item>
+		<item id="1" start="224.6" duration="3.5">
+			<person>Student</person>
+			<text>No, not everybody has come to the lesson today</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="228.1" duration="1.767">
+			<person>Teacher</person>
+			<text>too many</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="229.867" duration="1.867">
+			<person>Teacher</person>
+			<text>too much</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="231.733" duration="1.867">
+			<person>Teacher</person>
+			<text>excessive</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>“Too many” and “too much” mean an excessive number or quantity, and therefore not a good thing. We use “too many” and “too much” with nouns, but with adjectives and adverbs we only use the word “too”. For example, we say “too many cars” and “too much food”, but we say “too short” and “too quickly”.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="233.6" duration="3.467">
+			<person>Teacher</person>
+			<text>What do &quot;too many&quot; and &quot;too much&quot; mean?</text>
+			<image/>
+		</item>
+		<item id="1" start="237.1" duration="6.733">
+			<person>Student</person>
+			<text>&quot;Too many&quot; and &quot;too much&quot; mean an excessive number or quantity and therefore not a good thing</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="243.867" duration="4.4">
+			<person>Teacher</person>
+			<text>Do children feel ill if they eat too many sweets?</text>
+			<image/>
+		</item>
+		<item id="1" start="248.267" duration="3.933">
+			<person>Student</person>
+			<text>Yes, children feel ill if they eat too many sweets</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="252.2" duration="6.1">
+			<person>Teacher</person>
+			<text>Do you agree there are too many people in the world with too little food to eat?</text>
+			<image/>
+		</item>
+		<item id="1" start="258.333" duration="5.233">
+			<person>Student</person>
+			<text>Yes, I agree there are too many people in the world with too little food to eat</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="263.6" duration="3.133">
+			<person>Teacher</person>
+			<text>Are you too short to touch the ceiling?</text>
+			<image/>
+		</item>
+		<item id="1" start="266.733" duration="2.233">
+			<person>Student</person>
+			<text>Yes, I'm too short to touch the ceiling</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="269.0" duration="5.133">
+			<person>Teacher</person>
+			<text>Do you think a millionaire has too much money?</text>
+			<image/>
+		</item>
+		<item id="1" start="274.133" duration="3.8">
+			<person>Student</person>
+			<text>No, I don't think a millionaire has too much money</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>We can also use “too much” after a verb. For example, “If I eat too much, I feel bad”.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="277.967" duration="4.133">
+			<person>Teacher</person>
+			<text>If people eat too much, do they feel bad?</text>
+			<image/>
+		</item>
+		<item id="1" start="282.1" duration="3.7">
+			<person>Student</person>
+			<text>Yes, if people eat too much, they feel bad</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="285.8" duration="4.6">
+			<person>Teacher</person>
+			<text>If you work too much do you feel tired all the time?</text>
+			<image/>
+		</item>
+		<item id="1" start="290.4" duration="4.6">
+			<person>Student</person>
+			<text>Yes, if I work too much, I feel tired all the time</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="" duration="">
+			<Dictation>
+				<text>We can sit at the corner of a square table, but we can’t sit at the corner of a round one because, like a circle, a round table has no corners.\nWhen she goes on holiday, she sends postcards to all her relations.\nThis method we are using is called the Callan Method.\nThe cinema was completely full.\nHe doesn’t know if he will go to church tomorrow; he says it depends on the weather.\nHe’ll text me or email me in the morning.\nBusiness, foreign, nature, price, bush.</text>
+			</Dictation>
+		</item>
+	</item>
 </items>

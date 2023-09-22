@@ -1,0 +1,219 @@
+<?xml version="1.0" ?>
+<items>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>вероятный</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>маловероятный, невероятный</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>возможно</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>возможность</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation>представлять себе</translation>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation>конструкция</translation>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>полиция</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>полицейский участок</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation>парк</translation>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+</items>

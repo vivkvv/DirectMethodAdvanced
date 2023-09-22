@@ -1,0 +1,709 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="399.767">
+	<item id="0">
+		<item id="0" start="0.167" duration="2.467">
+			<person>Teacher</person>
+			<text>Lesson 67</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.633" duration="1.767">
+			<person>Teacher</person>
+			<text>force</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.4" duration="2.267">
+			<person>Teacher</person>
+			<text>make somebody do ...</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="6.7" duration="4.5">
+			<person>Teacher</person>
+			<text>Do I force you to give long answers during the lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="11.2" duration="4.633">
+			<person>Student</person>
+			<text>Yes, you forced me to give long answers during the lesson.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="15.867" duration="1.5">
+			<person>Teacher</person>
+			<text>Why?</text>
+			<image/>
+		</item>
+		<item id="1" start="17.367" duration="4.033">
+			<person>Student</person>
+			<text>Because it is important to speak as much as possible.</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>In the construction “make somebody do ...“, the word “make“ means “force“ or “cause“. For example, “The teacher made me correct my dictation“ means that he forced me to correct my dictation. The sentence “Sunny weather makes me feel happy“ means that it causes me to feel happy.</text>
+	</Explanation>	
+	<item id="5">
+		<item id="0" start="21.433" duration="5.133">
+			<person>Teacher</person>
+			<text>When you were a child, did your parents make you eat your vegetables?</text>
+			<image/>
+		</item>
+		<item id="1" start="26.567" duration="5.033">
+			<person>Student</person>
+			<text>Yes, when I was a child, my parents made me eat my vegetables.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="31.6" duration="3.2">
+			<person>Teacher</person>
+			<text>What kind of films make you laugh?</text>
+			<image/>
+		</item>
+		<item id="1" start="34.8" duration="4.533">
+			<person>Student</person>
+			<text>The kind of films that make me laugh are cartoons.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="39.367" duration="1.6">
+			<person>Teacher</person>
+			<text>snack</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="41.0" duration="1.667">
+			<person>Teacher</person>
+			<text>break</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="42.667" duration="1.667">
+			<person>Teacher</person>
+			<text>biscuit</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="44.333" duration="1.767">
+			<person>Teacher</person>
+			<text>crisps</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="46.1" duration="2.133">
+			<person>Teacher</person>
+			<text>What is a snack?</text>
+			<image/>
+		</item>
+		<item id="1" start="48.267" duration="6.233">
+			<person>Student</person>
+			<text>A snack is something small that people eat between meals like a sandwich or a bag of crisps.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="54.533" duration="7.0">
+			<person>Teacher</person>
+			<text>Which would you prefer as a snack during a morning break: a bag of crisps or some biscuits?</text>
+			<image/>
+		</item>
+		<item id="1" start="61.533" duration="4.433">
+			<person>Student</person>
+			<text>I'd prefer some biscuits as a snack during a morning break.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="66.0" duration="2.0">
+			<person>Teacher</person>
+			<text>to be born</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="68.0" duration="2.2">
+			<person>Teacher</person>
+			<text>Where were you born?</text>
+			<image/>
+		</item>
+		<item id="1" start="70.2" duration="2.633">
+			<person>Student</person>
+			<text>I was born in London.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="72.833" duration="4.2">
+			<person>Teacher</person>
+			<text>How soon after you were born did you learn to walk?</text>
+			<image/>
+		</item>
+		<item id="1" start="77.067" duration="3.767">
+			<person>Student</person>
+			<text>I learnt to walk about a year after I was born.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="80.833" duration="1.633">
+			<person>Teacher</person>
+			<text>murder</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="82.5" duration="4.433">
+			<person>Teacher</person>
+			<text>Do you like reading books with stories about murders in them?</text>
+			<image/>
+		</item>
+		<item id="1" start="86.967" duration="4.667">
+			<person>Student</person>
+			<text>Yes, I like reading books with stories about murders in them.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="91.667" duration="1.767">
+			<person>Teacher</person>
+			<text>prison</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="93.433" duration="3.3">
+			<person>Teacher</person>
+			<text>Would you like to see inside a prison?</text>
+			<image/>
+		</item>
+		<item id="1" start="96.767" duration="3.367">
+			<person>Student</person>
+			<text>Yes, I'd like to see inside a prison.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="100.133" duration="1.333">
+			<person>Teacher</person>
+			<text>Why?</text>
+			<image/>
+		</item>
+		<item id="1" start="101.5" duration="2.967">
+			<person>Student</person>
+			<text>Because I'd find it interesting.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="104.5" duration="1.8">
+			<person>Teacher</person>
+			<text>pupil</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="106.3" duration="2.167">
+			<person>Teacher</person>
+			<text>What's a pupil?</text>
+			<image/>
+		</item>
+		<item id="1" start="108.467" duration="3.267">
+			<person>Student</person>
+			<text>A pupil is a child who's in school.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="111.733" duration="4.3">
+			<person>Teacher</person>
+			<text>Do most pupils in your country have to wear a uniform?</text>
+			<image/>
+		</item>
+		<item id="1" start="116.033" duration="4.5">
+			<person>Student</person>
+			<text>Yes, most pupils in my country have to wear a uniform.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="120.533" duration="1.5">
+			<person>Teacher</person>
+			<text>root</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="122.033" duration="3.967">
+			<person>Teacher</person>
+			<text>What do we call the part of a tree that's in the land?</text>
+			<image/>
+		</item>
+		<item id="1" start="126.033" duration="4.333">
+			<person>Student</person>
+			<text>We call the part of a tree that's in the land &quot;the roots&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="130.367" duration="1.7">
+			<person>Teacher</person>
+			<text>memory</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="132.1" duration="2.6">
+			<person>Teacher</person>
+			<text>Have you got a good memory?</text>
+			<image/>
+		</item>
+		<item id="1" start="134.7" duration="2.967">
+			<person>Student</person>
+			<text>Yes, I've got a good memory.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="137.7" duration="3.8">
+			<person>Teacher</person>
+			<text>Another contraction of the verb &quot;to be&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="141.533" duration="3.733">
+			<person>Teacher</person>
+			<text>I'm not - I'm not</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="145.267" duration="3.967">
+			<person>Teacher</person>
+			<text>you aren't - you're not</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="149.233" duration="3.767">
+			<person>Teacher</person>
+			<text>he isn't - he's not</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="153.0" duration="4.033">
+			<person>Teacher</person>
+			<text>she isn't - she's not</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="157.033" duration="3.767">
+			<person>Teacher</person>
+			<text>it isn't - it's not</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="160.8" duration="3.733">
+			<person>Teacher</person>
+			<text>we aren't - we're not</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="164.567" duration="3.7">
+			<person>Teacher</person>
+			<text>you aren't - you're not</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="168.267" duration="3.767">
+			<person>Teacher</person>
+			<text>they aren't - they're not</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>Instead of “I’m not“, “you aren’t“, “he isn’t“ etc., we can use “I’m not“, “you’re not“, “he’s not“ etc.</text>
+	</Explanation>	
+	<item id="37">
+		<item id="0" start="172.067" duration="6.2">
+			<person>Teacher</person>
+			<text>What can we use instead of &quot;I'm not&quot;, &quot;you aren't&quot;, &quot;he isn't&quot; etc.?</text>
+			<image/>
+		</item>
+		<item id="1" start="178.267" duration="14.1">
+			<person>Student</person>
+			<text>Instead of &quot;I'm not&quot;, &quot;you aren't&quot;, &quot;he isn't&quot; etc. we can use &quot;I'm not&quot;, &quot;you're not&quot;, &quot;he's not&quot;, &quot;she's not&quot;, &quot;it's not&quot;, &quot;we're not&quot;, &quot;you're not&quot;, &quot;they're not&quot;.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="192.367" duration="1.567">
+			<person>Teacher</person>
+			<text>cross</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="193.967" duration="5.333">
+			<person>Teacher</person>
+			<text>If you want to go from one side of the road to the other, what must you do?</text>
+			<image/>
+		</item>
+		<item id="1" start="199.3" duration="5.4">
+			<person>Student</person>
+			<text>If I want to go from one side of the road to the other, I must cross the road.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="204.733" duration="3.733">
+			<person>Teacher</person>
+			<text>What must you do before crossing the road?</text>
+			<image/>
+		</item>
+		<item id="1" start="208.5" duration="3.967">
+			<person>Student</person>
+			<text>I must look both ways before crossing the road.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="212.5" duration="8.433">
+			<person>Teacher</person>
+			<text>If you wanted to go from here to Scotland, would you have to cross the sea or would you be able to go all the way by land?</text>
+			<image/>
+		</item>
+		<item id="1" start="220.933" duration="8.0">
+			<person>Student</person>
+			<text>If I wanted to go from here to Scotland, I'd be able to go all the way by land; I wouldn't have to cross the sea.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="228.967" duration="1.767">
+			<person>Teacher</person>
+			<text>think of</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="230.733" duration="4.433">
+			<person>Teacher</person>
+			<text>What was the first thing you thought of when you woke up this morning?</text>
+			<image/>
+		</item>
+		<item id="1" start="235.2" duration="5.1">
+			<person>Student</person>
+			<text>The first thing I thought of when I woke up this morning was the time.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="240.3" duration="1.767">
+			<person>Teacher</person>
+			<text>safe</text>
+			<image/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="242.067" duration="1.7">
+			<person>Teacher</person>
+			<text>safety</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="243.767" duration="1.967">
+			<person>Teacher</person>
+			<text>on your own</text>
+			<image/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="245.733" duration="3.633">
+			<person>Teacher</person>
+			<text>What's the opposite of the word &quot;dangerous&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="249.4" duration="3.6">
+			<person>Student</person>
+			<text>The opposite of the word &quot;dangerous&quot; is &quot;safe&quot;.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="253.0" duration="3.5">
+			<person>Teacher</person>
+			<text>Do you think it's safe to shop online?</text>
+			<image/>
+		</item>
+		<item id="1" start="256.5" duration="3.5">
+			<person>Student</person>
+			<text>Yes, I think it's safe to shop online.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="260.033" duration="4.233">
+			<person>Teacher</person>
+			<text>Do parents often worry about their children's safety?</text>
+			<image/>
+		</item>
+		<item id="1" start="264.3" duration="4.333">
+			<person>Student</person>
+			<text>Yes, parents often worry about their children's safety.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="268.633" duration="4.367">
+			<person>Teacher</person>
+			<text>Is it safe for young children to cross the road on their own?</text>
+			<image/>
+		</item>
+		<item id="1" start="273.0" duration="5.0">
+			<person>Student</person>
+			<text>No, it isn't safe for young children to cross the road on their own.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="278.033" duration="3.633">
+			<person>Teacher</person>
+			<text>Do you like going on holiday on your own?</text>
+			<image/>
+		</item>
+		<item id="1" start="281.667" duration="4.1">
+			<person>Student</person>
+			<text>Yes, I like going on holiday on my own.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="285.8" duration="1.667">
+			<person>Teacher</person>
+			<text>lay</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="287.467" duration="3.533">
+			<person>Teacher</person>
+			<text>What's the past of the verb &quot;to lie&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="291.033" duration="3.6">
+			<person>Student</person>
+			<text>The past of the verb &quot;to lie&quot; is &quot;lay&quot;.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="294.633" duration="3.5">
+			<person>Teacher</person>
+			<text>How long did you lie in bed for last night?</text>
+			<image/>
+		</item>
+		<item id="1" start="298.167" duration="3.6">
+			<person>Student</person>
+			<text>I lay in bed for eight hours last night.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="301.767" duration="1.767">
+			<person>Teacher</person>
+			<text>sir</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="303.533" duration="1.667">
+			<person>Teacher</person>
+			<text>madam</text>
+			<image/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0" start="305.2" duration="1.9">
+			<person>Teacher</person>
+			<text>gentlemen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0" start="307.133" duration="1.7">
+			<person>Teacher</person>
+			<text>lady</text>
+			<image/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0" start="308.833" duration="1.733">
+			<person>Teacher</person>
+			<text>customer</text>
+			<image/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0" start="310.6" duration="1.633">
+			<person>Teacher</person>
+			<text>officer</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>To be polite, people who work in shops, hotels etc. use the words “sir“, “madam“ or “miss“ when they speak to customers. Also, in the army, a soldier calls his officer “sir“, and at school, a pupil sometimes calls his teacher “sir“ or “miss“.</text>
+	</Explanation>	
+	<item id="61">
+		<item id="0" start="312.233" duration="4.433">
+			<person>Teacher</person>
+			<text>When do people use the words &quot;sir&quot; and &quot;madam&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="316.667" duration="10.8">
+			<person>Student</person>
+			<text>People use the word &quot;sir&quot; and &quot;madam&quot; to be polite when they're speaking to their customers in a shop, their offices in the army or their teachers at school.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0" start="327.5" duration="2.6">
+			<person>Teacher</person>
+			<text>Give me an example, please.</text>
+			<image/>
+		</item>
+		<item id="1" start="330.133" duration="2.967">
+			<person>Student</person>
+			<text>&quot;Excuse me, sir; can I help you?&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>When we want to sound polite, we can use the words “gentleman” and “lady” instead of “man” and “woman”. For example, we can say “Who is that gentleman over there?“ or “The lady I spoke to on the phone yesterday told me to call again today”.</text>
+	</Explanation>	
+	<item id="63">
+		<item id="0" start="333.1" duration="4.2">
+			<person>Teacher</person>
+			<text>When do we use the words &quot;gentleman&quot; and &quot;lady&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="337.333" duration="6.767">
+			<person>Student</person>
+			<text>We use the words &quot;gentleman&quot; and &quot;lady&quot; instead of &quot;man&quot; and &quot;woman&quot; when we want to sound polite.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0" start="344.1" duration="2.7">
+			<person>Teacher</person>
+			<text>Give me an example, please.</text>
+			<image/>
+		</item>
+		<item id="1" start="346.833" duration="6.833">
+			<person>Student</person>
+			<text>&quot;Which of these two gentlemen gave you the book?&quot; and &quot;Will you ask that lady her name, please?&quot;</text>
+			<image/>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0" start="353.667" duration="1.767">
+			<person>Teacher</person>
+			<text>title</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>Everybody has a title. For most people, it is “Mr“, “Mrs“, “Miss“ or “Ms“. For example, John Brown’s title is “Mr“, so we call him “Mr Brown“. The title “Mrs“ is for married women; the title “Miss“ is for unmarried women; the title “Ms“ can be used for either married or unmarried women.
+		\n
+		\nSome people have other titles, such as “Sir“ and “Lady“. For example “Sir Paul McCartney“ and “Lady Diana“.</text>
+	</Explanation>	
+	<item id="66">
+		<item id="0" start="355.467" duration="2.2">
+			<person>Teacher</person>
+			<text>What's your title?</text>
+			<image/>
+		</item>
+		<item id="1" start="357.7" duration="2.867">
+			<person>Student</person>
+			<text>My title is &quot;Mrs.&quot;.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0" start="360.567" duration="4.933">
+			<person>Teacher</person>
+			<text>Give me examples of &quot;Sir&quot; and &quot;Lady&quot; used as titles.</text>
+			<image/>
+		</item>
+		<item id="1" start="365.533" duration="7.667">
+			<person>Student</person>
+			<text>Some examples of &quot;Sir&quot; and &quot;Lady&quot; used as titles are Sir Paul McCartney and Lady Diana.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0" start="373.2" duration="1.967">
+			<person>Teacher</person>
+			<text>standard</text>
+			<image/>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0" start="375.2" duration="1.6">
+			<person>Teacher</person>
+			<text>height</text>
+			<image/>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0" start="376.833" duration="5.233">
+			<person>Teacher</person>
+			<text>Which two countries have the highest standards of living in the world?</text>
+			<image/>
+		</item>
+		<item id="1" start="382.1" duration="5.6">
+			<person>Student</person>
+			<text>Norway and Australia have the highest standards of living in the world.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0" start="387.7" duration="4.1">
+			<person>Teacher</person>
+			<text>What's the standard height for a man in this country?</text>
+			<image/>
+		</item>
+		<item id="1" start="391.8" duration="5.767">
+			<person>Student</person>
+			<text>The standard height for a man in this country is 1.75m</text>
+			<image/>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0" start="397.6" duration="2.167">
+			<person>Teacher</person>
+			<text>colorful</text>
+			<image/>
+		</item>
+	</item>
+	<Dictation>
+		<text>Dictation 41\nSixteenth century fashions in men’s clothes were very colourful.\nThe word “use” is a verb, whilst the word “use” is a noun.\nAfter the verb “succeed”, we use the word “in” followed by a gerund.\nFor example, “He succeeded in answering the question.”\nHe is only a beginner, but believes he will succeed.\nI hope so.\nA hard worker rarely fails an examination, so students should always work hard.</text>
+	</Dictation>	
+</items>

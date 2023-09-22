@@ -1,0 +1,332 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="193.5">
+	<item id="0">
+		<item id="0" start="0.233" duration="1.8">
+			<person>Teacher</person>
+			<text>Lesson 60</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.033" duration="1.5">
+			<person>Teacher</person>
+			<text>probable</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="3.567" duration="1.733">
+			<person>Teacher</person>
+			<text>improbable</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="5.3" duration="1.6">
+			<person>Teacher</person>
+			<text>probably</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="6.933" duration="3.133">
+			<person>Teacher</person>
+			<text>Is it probable that it will snow next summer?</text>
+			<image/>
+		</item>
+		<item id="1" start="10.1" duration="5.5">
+			<person>Student</person>
+			<text>No, it is improbable that it was snow next summer; it's very improbable.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="15.6" duration="4.1">
+			<person>Teacher</person>
+			<text>Are you probably going to finish all of the stages of the Kallan method?</text>
+			<image/>
+		</item>
+		<item id="1" start="19.7" duration="5.633">
+			<person>Student</person>
+			<text>Yes, I'm probably going to finish all of the stages of the Kallan method.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="25.367" duration="1.9">
+			<person>Teacher</person>
+			<text>possibility</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="27.3" duration="1.667">
+			<person>Teacher</person>
+			<text>imagine</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="28.967" duration="2.0">
+			<person>Teacher</person>
+			<text>construction</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="31.0" duration="1.6">
+			<person>Teacher</person>
+			<text>police</text>
+			<image/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="32.6" duration="1.9">
+			<person>Teacher</person>
+			<text>police station</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="34.5" duration="1.667">
+			<person>Teacher</person>
+			<text>park</text>
+			<image/>
+		</item>
+	</item>	
+	<item id="12">
+		<item id="0" start="36.167" duration="2.067">
+			<person>Teacher</person>
+			<text>1st conditional</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="38.233" duration="6.667">
+			<person>Teacher</person>
+			<text>&quot;if&quot; + present + &quot;will do&quot; = real possibility</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="44.933" duration="3.733">
+			<person>Teacher</person>
+			<text>If I go to the park tomorrow, I will play football</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>This sentence means that I think there is a real possibility that I will go to the park tomorrow, and, if I do, I will play football. The construction of the 1st conditional is “If“ + present + “will do”. It communicates that we think something is a real possibility. </text>
+	</Explanation>	
+	<item id="15">
+		<item id="0" start="48.667" duration="2.067">
+			<person>Teacher</person>
+			<text>2nd conditional</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="50.767" duration="6.567">
+			<person>Teacher</person>
+			<text>&quot;if&quot; + past + &quot;would do&quot; = only imagining</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="57.333" duration="3.667">
+			<person>Teacher</person>
+			<text>If I went to the park tomorrow, I would play football</text>
+			<image/>
+		</item>
+	</item>
+	<Explanation>
+		<text>This sentence means that I think it is very improbable that I will go to the park tomorrow; I am only imagining it. The construction of the 2nd conditional is “If“ + past + “would do”. It communicates that we are only imagining something.
+		/nIt is important to understand that, in the 2nd conditional, we use the past simple after “if“, but we are not thinking about past time; we are thinking about now, the future or general time. For example:
+		/nIf I had £1 million (now), I would buy a house
+		/nIf we went to the cinema tomorrow (future), we would see a film
+		/nIf they were American (general time), they would speak English</text>
+	</Explanation>	
+	<item id="18">
+		<item id="0" start="61.0" duration="2.667">
+			<person>Teacher</person>
+			<text>When do we use the first conditional?</text>
+			<image/>
+		</item>
+		<item id="1" start="63.7" duration="6.233">
+			<person>Student</person>
+			<text>We use the first conditional to communicate that we think something is a real possibility.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="69.933" duration="2.233">
+			<person>Teacher</person>
+			<text>Give me an example, please.</text>
+			<image/>
+		</item>
+		<item id="1" start="72.2" duration="3.433">
+			<person>Student</person>
+			<text>If he sees his friend, he will say hello.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="75.667" duration="2.767">
+			<person>Teacher</person>
+			<text>When do we use the second conditional?</text>
+			<image/>
+		</item>
+		<item id="1" start="78.433" duration="5.0">
+			<person>Student</person>
+			<text>We use the second conditional to communicate that we are only imagining something.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="83.433" duration="2.167">
+			<person>Teacher</person>
+			<text>Give me an example, please.</text>
+			<image/>
+		</item>
+		<item id="1" start="85.633" duration="8.233">
+			<person>Student</person>
+			<text>If she went to the North Pole, she would feel very cold. If they were stronger, they would be able to lift the table.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="93.867" duration="3.633">
+			<person>Teacher</person>
+			<text>If you feel tired tonight, will you go to bed early?</text>
+			<image/>
+		</item>
+		<item id="1" start="97.5" duration="4.467">
+			<person>Student</person>
+			<text>Yes, if I feel tired tonight, I will go to bed early.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="102.0" duration="3.2">
+			<person>Teacher</person>
+			<text>If you fell till tomorrow, would you go out?</text>
+			<image/>
+		</item>
+		<item id="1" start="105.233" duration="5.267">
+			<person>Student</person>
+			<text>No, if I felt ill tomorrow, I wouldn't go out; I would stay at home.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="110.5" duration="3.967">
+			<person>Teacher</person>
+			<text>If you study hard, will you learn to speak English well?</text>
+			<image/>
+		</item>
+		<item id="1" start="114.5" duration="4.467">
+			<person>Student</person>
+			<text>Yes, if I study hard, I will learn to speak English well.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="118.967" duration="3.767">
+			<person>Teacher</person>
+			<text>If you stopped studying, would your English get better?</text>
+			<image/>
+		</item>
+		<item id="1" start="122.767" duration="5.8">
+			<person>Student</person>
+			<text>No, if I stopped studying, my English wouldn't get better; it would get worse.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="128.567" duration="3.5">
+			<person>Teacher</person>
+			<text>If you had £1 million, what would you buy?</text>
+			<image/>
+		</item>
+		<item id="1" start="132.067" duration="4.267">
+			<person>Student</person>
+			<text>If I had £1 million, I would buy a Ferrari.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="136.367" duration="4.367">
+			<person>Teacher</person>
+			<text>If you came here next Sunday, would you be able to have a lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="140.733" duration="5.033">
+			<person>Student</person>
+			<text>No, if I came here next Sunday, I wouldn't be able to have a lesson.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="145.8" duration="1.6">
+			<person>Teacher</person>
+			<text>Why not?</text>
+			<image/>
+		</item>
+		<item id="1" start="147.4" duration="3.267">
+			<person>Student</person>
+			<text>Because the school is closed on Sundays.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="150.7" duration="4.8">
+			<person>Teacher</person>
+			<text>If you swam in the sea in the middle of winter, would you find the water warm?</text>
+			<image/>
+		</item>
+		<item id="1" start="155.5" duration="7.467">
+			<person>Student</person>
+			<text>No, if I swam in the sea in the middle of winter, I wouldn't find the water warm; I would find it cold.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="163.0" duration="3.667">
+			<person>Teacher</person>
+			<text>If you go on holiday next year, where will you go?</text>
+			<image/>
+		</item>
+		<item id="1" start="166.7" duration="4.067">
+			<person>Student</person>
+			<text>If I go on holiday next year, I will go to Portugal.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="170.767" duration="6.3">
+			<person>Teacher</person>
+			<text>If you found something in the street worth a lot of money, would you keep it or would you take it to the police station?</text>
+			<image/>
+		</item>
+		<item id="1" start="177.067" duration="5.867">
+			<person>Student</person>
+			<text>If I found something in the street worth a lot of money, I would take it to the police station.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="182.933" duration="4.6">
+			<person>Teacher</person>
+			<text>If you sent a letter and forgot to put the address on it, would it arrive?</text>
+			<image/>
+		</item>
+		<item id="1" start="187.567" duration="5.9">
+			<person>Student</person>
+			<text>No, if I send a letter and forgot to put the address on it, it wouldn't arrive.</text>
+			<image/>
+		</item>
+	</item>
+	<Dictation>
+		<text>Dictation 35\nI’ll listen to the news on a different radio station today.\nWhen I feel ill, I go to bed.\nWhen I feel thirsty, my favourite drink is water.\nThe difference between a ship and a boat is that a boat is small whereas a ship is large.\nI want a credit card from a bank with a branch in every town in the country.\nMost horses are not wild.\nThe river is very shallow, but we can go over by bridge if you like.\nI generally have two eggs for breakfast.</text>
+	</Dictation>	
+</items>

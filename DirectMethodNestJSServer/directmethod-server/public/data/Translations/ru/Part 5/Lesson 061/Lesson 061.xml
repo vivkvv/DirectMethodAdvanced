@@ -1,390 +1,560 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation/>
- </item>
- <item id="1">
-  <translation>разговаривать, болтать</translation>
- </item>
- <item id="2">
-  <translation>онлайн</translation>
- </item>
- <item id="3">
-  <translation/>
- </item>
- <item id="3">
-  <translation/>
- </item>
- <item id="4">
-  <translation/>
- </item>
- <item id="4">
-  <translation/>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="6">
-  <translation>замечать</translation>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="9">
-  <translation>свободный, бесплатный</translation>
- </item>
- <item id="10">
-  <translation>занятый</translation>
- </item>
- <item id="11">
-  <translation/>
- </item>
- <item id="11">
-  <translation/>
- </item>
- <item id="12">
-  <translation/>
- </item>
- <item id="12">
-  <translation/>
- </item>
- <item id="13">
-  <translation/>
- </item>
- <item id="13">
-  <translation/>
- </item>
- <item id="14">
-  <translation>лежать</translation>
- </item>
- <item id="15">
-  <translation>удобный</translation>
- </item>
- <item id="16">
-  <translation>неудобный</translation>
- </item>
- <item id="17">
-  <translation>подушка</translation>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="21">
-  <translation>прсыпаться - проснулся - проснулся</translation>
- </item>
- <item id="22">
-  <translation>ложиться спать</translation>
- </item>
- <item id="23">
-  <translation>немедленно</translation>
- </item>
- <item id="24">
-  <translation>полночь</translation>
- </item>
- <item id="25">
-  <translation/>
- </item>
- <item id="25">
-  <translation/>
- </item>
- <item id="26">
-  <translation/>
- </item>
- <item id="26">
-  <translation/>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="28">
-  <translation/>
- </item>
- <item id="28">
-  <translation/>
- </item>
- <item id="29">
-  <translation/>
- </item>
- <item id="29">
-  <translation/>
- </item>
- <item id="30">
-  <translation>сквозь</translation>
- </item>
- <item id="31">
-  <translation>пуговица</translation>
- </item>
- <item id="32">
-  <translation>петля</translation>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="35">
-  <translation/>
- </item>
- <item id="35">
-  <translation/>
- </item>
- <item id="36">
-  <translation>карьера</translation>
- </item>
- <item id="37">
-  <translation/>
- </item>
- <item id="37">
-  <translation/>
- </item>
- <item id="38">
-  <translation>крестик</translation>
- </item>
- <item id="39">
-  <translation>перекресток</translation>
- </item>
- <item id="40">
-  <translation>контрольная работа</translation>
- </item>
- <item id="41">
-  <translation/>
- </item>
- <item id="41">
-  <translation/>
- </item>
- <item id="42">
-  <translation/>
- </item>
- <item id="42">
-  <translation/>
- </item>
- <item id="43">
-  <translation/>
- </item>
- <item id="43">
-  <translation/>
- </item>
- <item id="44">
-  <translation>опасность</translation>
- </item>
- <item id="45">
-  <translation>опасный</translation>
- </item>
- <item id="46">
-  <translation>опасно</translation>
- </item>
- <item id="47">
-  <translation>алкоголь</translation>
- </item>
- <item id="48">
-  <translation>детектив</translation>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="50">
-  <translation/>
- </item>
- <item id="50">
-  <translation/>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="52">
-  <translation>следует</translation>
- </item>
- <item id="53">
-  <translation>обязательство</translation>
- </item>
- <item id="54">
-  <translation>альтернатива, выбор</translation>
- </item>
- <item id="55">
-  <translation>скорая помощь</translation>
- </item>
- <item id="56">
-  <translation/>
- </item>
- <item id="56">
-  <translation/>
- </item>
- <item id="57">
-  <translation/>
- </item>
- <item id="57">
-  <translation/>
- </item>
- <item id="58">
-  <translation/>
- </item>
- <item id="58">
-  <translation/>
- </item>
- <item id="59">
-  <translation/>
- </item>
- <item id="59">
-  <translation/>
- </item>
- <item id="60">
-  <translation/>
- </item>
- <item id="60">
-  <translation/>
- </item>
- <item id="61">
-  <translation/>
- </item>
- <item id="61">
-  <translation/>
- </item>
- <item id="62">
-  <translation/>
- </item>
- <item id="62">
-  <translation/>
- </item>
- <item id="63">
-  <translation>исправлять</translation>
- </item>
- <item id="64">
-  <translation>грамматический</translation>
- </item>
- <item id="65">
-  <translation/>
- </item>
- <item id="65">
-  <translation/>
- </item>
- <item id="66">
-  <translation/>
- </item>
- <item id="66">
-  <translation/>
- </item>
- <item id="67">
-  <translation/>
- </item>
- <item id="67">
-  <translation/>
- </item>
- <item id="68">
-  <translation>проблема</translation>
- </item>
- <item id="69">
-  <translation>вызывать, быть причиной; причина, мотив, цель(for the causes of = ради)</translation>
- </item>
- <item id="70">
-  <translation>коллега</translation>
- </item>
- <item id="71">
-  <translation>начальник</translation>
- </item>
- <item id="72">
-  <translation>свобода</translation>
- </item>
- <item id="73">
-  <translation>справедливость</translation>
- </item>
- <item id="74">
-  <translation/>
- </item>
- <item id="74">
-  <translation/>
- </item>
- <item id="75">
-  <translation/>
- </item>
- <item id="75">
-  <translation/>
- </item>
- <item id="76">
-  <translation/>
- </item>
- <item id="76">
-  <translation/>
- </item>
- <item id="77">
-  <translation>так как</translation>
- </item>
- <item id="78">
-  <translation/>
- </item>
- <item id="78">
-  <translation/>
- </item>
- <item id="79">
-  <translation/>
- </item>
- <item id="79">
-  <translation/>
- </item>
- <item id="80">
-  <translation>то есть</translation>
- </item>
- <item id="81">
-  <translation/>
- </item>
- <item id="81">
-  <translation/>
- </item>
- <item id="82">
-  <translation>кость</translation>
- </item>
- <item id="83">
-  <translation/>
- </item>
- <item id="83">
-  <translation/>
- </item>
- <item id="84">
-  <translation/>
- </item>
- <item id="84">
-  <translation/>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>разговаривать, болтать</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>онлайн</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>замечать</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation>свободный, бесплатный</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>занятый</translation>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>лежать</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>удобный</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>неудобный</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>подушка</translation>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>прсыпаться - проснулся - проснулся</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>ложиться спать</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>немедленно</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>полночь</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>сквозь</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>пуговица</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>петля</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>карьера</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>крестик</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>перекресток</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>контрольная работа</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>опасность</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>опасный</translation>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation>опасно</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>алкоголь</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation>детектив</translation>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>следует</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>обязательство</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>альтернатива, выбор</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation>скорая помощь</translation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0">
+			<translation>исправлять</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation>грамматический</translation>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0">
+			<translation>проблема</translation>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0">
+			<translation>вызывать, быть причиной; причина, мотив, цель(for the causes of = ради)</translation>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0">
+			<translation>коллега</translation>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0">
+			<translation>начальник</translation>
+		</item>
+	</item>
+	<item id="73">
+		<item id="0">
+			<translation>свобода</translation>
+		</item>
+	</item>
+	<item id="74">
+		<item id="0">
+			<translation>справедливость</translation>
+		</item>
+	</item>
+	<item id="75">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="76">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="77">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="78">
+		<item id="0">
+			<translation>так как</translation>
+		</item>
+	</item>
+	<item id="79">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="80">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="81">
+		<item id="0">
+			<translation>то есть</translation>
+		</item>
+	</item>
+	<item id="83">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="84">
+		<item id="0">
+			<translation>кость</translation>
+		</item>
+	</item>
+	<item id="85">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="86">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
 </items>

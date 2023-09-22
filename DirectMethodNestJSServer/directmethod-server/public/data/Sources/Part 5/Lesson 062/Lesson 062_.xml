@@ -1,0 +1,508 @@
+<?xml version="1.0" ?>
+<items start="0.0" duration="377.0">
+ <item id="0" start="0.133" duration="2.5">
+  <person>Teacher</person>
+  <text>Lesson 62</text>
+  <image/>
+ </item>
+ <item id="1" start="2.667" duration="1.567">
+  <person>Teacher</person>
+  <text>life</text>
+  <image/>
+ </item>
+ <item id="2" start="4.233" duration="1.867">
+  <person>Teacher</person>
+  <text>lives</text>
+  <image/>
+ </item>
+ <item id="3" start="6.1" duration="1.767">
+  <person>Teacher</person>
+  <text>the poor</text>
+  <image/>
+ </item>
+ <item id="4" start="7.9" duration="1.733">
+  <person>Teacher</person>
+  <text>the rich</text>
+  <image/>
+ </item>
+ <item id="5" start="9.633" duration="2.9">
+  <person>Teacher</person>
+  <text>What's the plural of &quot;life&quot;?</text>
+  <image/>
+ </item>
+ <item id="5" start="12.533" duration="3.267">
+  <person>Student</person>
+  <text>The plural of &quot;life&quot; is &quot;lives&quot;.</text>
+  <image/>
+ </item>
+ <item id="6" start="15.833" duration="5.067">
+  <person>Teacher</person>
+  <text>Do you think the lives of the poor are happier than those of the rich?</text>
+  <image/>
+ </item>
+ <item id="6" start="20.9" duration="4.9">
+  <person>Student</person>
+  <text>Yes, I think the lives of the poor are happier than those of the rich.</text>
+  <image/>
+ </item>
+ <item id="7" start="25.833" duration="1.833">
+  <person>Teacher</person>
+  <text>although</text>
+  <image/>
+ </item>
+ <item id="8" start="27.7" duration="3.567">
+  <person>Teacher</person>
+  <text>Make a sentence with the word &quot;although&quot; in it.</text>
+  <image/>
+ </item>
+ <item id="8" start="31.267" duration="4.967">
+  <person>Student</person>
+  <text>Although the food was not very nice, I ate it because I was hungry.</text>
+  <image/>
+ </item>
+ <item id="9" start="36.267" duration="7.0">
+  <person>Teacher</person>
+  <text>Although you are now able to hold a simple conversation in English, do you think you should keep studying?</text>
+  <image/>
+ </item>
+ <item id="9" start="43.3" duration="6.533">
+  <person>Student</person>
+  <text>Yes, although I'm now able to hold a simple conversation in English, I think I should keep studying.</text>
+  <image/>
+ </item>
+ <item id="10" start="49.833" duration="5.267">
+  <person>Teacher</person>
+  <text>Are some people always happy although they have problems in their lives?</text>
+  <image/>
+ </item>
+ <item id="10" start="55.1" duration="5.067">
+  <person>Student</person>
+  <text>Yes, some people are always happy, although they have problems in their lives.</text>
+  <image/>
+ </item>
+ <item id="11" start="60.2" duration="1.5">
+  <person>Teacher</person>
+  <text>cook</text>
+  <image/>
+ </item>
+ <item id="12" start="61.7" duration="1.667">
+  <person>Teacher</person>
+  <text>tasty</text>
+  <image/>
+ </item>
+ <item id="13" start="63.4" duration="1.667">
+  <person>Teacher</person>
+  <text>pasta</text>
+  <image/>
+ </item>
+ <item id="14" start="65.067" duration="4.1">
+  <person>Teacher</person>
+  <text>Is there a restaurant near here that cooks tasty food?</text>
+  <image/>
+ </item>
+ <item id="14" start="69.2" duration="4.333">
+  <person>Student</person>
+  <text>Yes, there's a restaurant near here that cooks tasty food.</text>
+  <image/>
+ </item>
+ <item id="15" start="73.533" duration="3.333">
+  <person>Teacher</person>
+  <text>Is it difficult to cook pasta?</text>
+  <image/>
+ </item>
+ <item id="15" start="76.9" duration="4.067">
+  <person>Student</person>
+  <text>No, it isn't difficult to cook pasta; it's easy.</text>
+  <image/>
+ </item>
+ <item id="16" start="80.967" duration="2.2">
+  <person>Teacher</person>
+  <text>Are you a good cook?</text>
+  <image/>
+ </item>
+ <item id="16" start="83.2" duration="2.7">
+  <person>Student</person>
+  <text>Yes, I'm a good cook.</text>
+  <image/>
+ </item>
+ <item id="17" start="85.9" duration="1.967">
+  <person>Teacher</person>
+  <text>independent</text>
+  <image/>
+ </item>
+ <item id="18" start="87.867" duration="4.6">
+  <person>Teacher</person>
+  <text>Do you think that all the countries of the world should be independent?</text>
+  <image/>
+ </item>
+ <item id="18" start="92.5" duration="4.967">
+  <person>Student</person>
+  <text>Yes, I think that all the countries of the world should be independent.</text>
+  <image/>
+ </item>
+ <item id="19" start="97.467" duration="1.767">
+  <person>Teacher</person>
+  <text>origin</text>
+  <image/>
+ </item>
+ <item id="20" start="99.233" duration="4.667">
+  <person>Teacher</person>
+  <text>Do many European languages have their origins in Latin?</text>
+  <image/>
+ </item>
+ <item id="20" start="103.9" duration="4.8">
+  <person>Student</person>
+  <text>Yes, many European languages have their origins in Latin.</text>
+  <image/>
+ </item>
+ <item id="21" start="108.7" duration="2.033">
+  <person>Teacher</person>
+  <text>belong to</text>
+  <image/>
+ </item>
+ <item id="22" start="110.767" duration="4.0">
+  <person>Teacher</person>
+  <text>Why don't you take this book home with you after the lesson?</text>
+  <image/>
+ </item>
+ <item id="22" start="114.8" duration="5.433">
+  <person>Student</person>
+  <text>I don't take that book home with me after the lesson because it doesn't belong to me.</text>
+  <image/>
+ </item>
+ <item id="23" start="120.233" duration="2.833">
+  <person>Teacher</person>
+  <text>Who does that pen belong to?</text>
+  <image/>
+ </item>
+ <item id="23" start="123.1" duration="2.633">
+  <person>Student</person>
+  <text>This pen belongs to me.</text>
+  <image/>
+ </item>
+ <item id="24" start="125.733" duration="5.333">
+  <person>Teacher</person>
+  <text>If a factory belonged to you, do you think you would be able to make a lot of money?</text>
+  <image/>
+ </item>
+ <item id="24" start="131.1" duration="5.367">
+  <person>Student</person>
+  <text>Yes, if a factory belonged to me, I think I'd be able to make a lot of money.</text>
+  <image/>
+ </item>
+ <item id="25" start="136.5" duration="1.567">
+  <person>Teacher</person>
+  <text>could</text>
+  <image/>
+ </item>
+ <item id="26" start="138.067" duration="1.933">
+  <person>Teacher</person>
+  <text>vice versa</text>
+  <image/>
+ </item>
+ <item id="27" start="140.0" duration="5.7">
+  <person>Teacher</person>
+  <text>What can we use instead of &quot;would be able&quot; in conditional sentences?</text>
+  <image/>
+ </item>
+ <item id="27" start="145.733" duration="5.267">
+  <person>Student</person>
+  <text>We can use &quot;could&quot; instead of &quot;would be able&quot; in conditional sentences.</text>
+  <image/>
+ </item>
+ <item id="28" start="151.0" duration="2.533">
+  <person>Teacher</person>
+  <text>Give me an example, please.</text>
+  <image/>
+ </item>
+ <item id="28" start="153.567" duration="3.2">
+  <person>Student</person>
+  <text>If I was a bird, I could fly.</text>
+  <image/>
+ </item>
+ <item id="29" start="156.8" duration="7.867">
+  <person>Teacher</person>
+  <text>Now I'm going to ask you some questions with &quot;could&quot; and you answer with &quot;would be able&quot; and vice versa.</text>
+  <image/>
+ </item>
+ <item id="30" start="164.667" duration="4.733">
+  <person>Teacher</person>
+  <text>If you were very, very tall, could you touch the ceiling?</text>
+  <image/>
+ </item>
+ <item id="30" start="169.4" duration="5.4">
+  <person>Student</person>
+  <text>Yes, if I were very, very tall, I would be able to touch the ceiling.</text>
+  <image/>
+ </item>
+ <item id="31" start="174.833" duration="4.967">
+  <person>Teacher</person>
+  <text>If you were a doctor, would you be able to help people who were ill?</text>
+  <image/>
+ </item>
+ <item id="31" start="179.8" duration="4.867">
+  <person>Student</person>
+  <text>Yes, If I were a doctor, I could help people who were ill.</text>
+  <image/>
+ </item>
+ <item id="32" start="184.7" duration="6.8">
+  <person>Teacher</person>
+  <text>If you were as strong as a horse, could you lift a man above your head with only one hand?</text>
+  <image/>
+ </item>
+ <item id="32" start="191.533" duration="7.667">
+  <person>Student</person>
+  <text>Yes, If I were as strong as a horse, I would be able to lift a man above my head with only one hand.</text>
+  <image/>
+ </item>
+ <item id="33" start="199.2" duration="1.567">
+  <person>Teacher</person>
+  <text>throw</text>
+  <image/>
+ </item>
+ <item id="34" start="200.8" duration="2.233">
+  <person>Teacher</person>
+  <text>What am I going to do?</text>
+  <image/>
+ </item>
+ <item id="34" start="203.033" duration="2.367">
+  <person>Student</person>
+  <text>You're going to throw your pen at the window.</text>
+  <image/>
+ </item>
+ <item id="35" start="205.433" duration="5.733">
+  <person>Teacher</person>
+  <text>Do you think you could throw a stone further than I can?</text>
+  <image/>
+ </item>
+ <item id="35" start="211.167" duration="4.533">
+  <person>Student</person>
+  <text>Yes, I think I could throw a stone further than you can.</text>
+  <image/>
+ </item>
+ <item id="36" start="215.7" duration="1.8">
+  <person>Teacher</person>
+  <text>alive</text>
+  <image/>
+ </item>
+ <item id="37" start="217.5" duration="1.467">
+  <person>Teacher</person>
+  <text>dead</text>
+  <image/>
+ </item>
+ <item id="38" start="219.0" duration="2.633">
+  <person>Teacher</person>
+  <text>Is Napoleon alive?</text>
+  <image/>
+ </item>
+ <item id="38" start="221.667" duration="3.633">
+  <person>Student</person>
+  <text>No, Napoleon isn't alive; he's dead.</text>
+  <image/>
+ </item>
+ <item id="39" start="225.3" duration="1.767">
+  <person>Teacher</person>
+  <text>drop</text>
+  <image/>
+ </item>
+ <item id="40" start="227.067" duration="2.0">
+  <person>Teacher</person>
+  <text>go without</text>
+  <image/>
+ </item>
+ <item id="41" start="229.067" duration="1.967">
+  <person>Teacher</person>
+  <text>What am I doing?</text>
+  <image/>
+ </item>
+ <item id="41" start="231.067" duration="3.167">
+  <person>Student</person>
+  <text>You're dropping your pen on the table.</text>
+  <image/>
+ </item>
+ <item id="42" start="234.233" duration="2.233">
+  <person>Teacher</person>
+  <text>What's the pen doing?</text>
+  <image/>
+ </item>
+ <item id="42" start="236.467" duration="3.0">
+  <person>Student</person>
+  <text>The pen's dropping on the table.</text>
+  <image/>
+ </item>
+ <item id="43" start="239.467" duration="3.8">
+  <person>Teacher</person>
+  <text>What would happen if I dropped a glass on the floor?</text>
+  <image/>
+ </item>
+ <item id="43" start="243.3" duration="3.9">
+  <person>Student</person>
+  <text>If you dropped a glass on the floor, it would break.</text>
+  <image/>
+ </item>
+ <item id="44" start="247.2" duration="5.333">
+  <person>Teacher</person>
+  <text>What's the longest time you have ever gone without drinking a drop of water?</text>
+  <image/>
+ </item>
+ <item id="44" start="252.567" duration="6.067">
+  <person>Student</person>
+  <text>The longest I've ever gone without drinking a drop of water is about ten hours.</text>
+  <image/>
+ </item>
+ <item id="45" start="258.633" duration="1.967">
+  <person>Teacher</person>
+  <text>assassinate</text>
+  <image/>
+ </item>
+ <item id="46" start="260.633" duration="3.033">
+  <person>Teacher</person>
+  <text>What happened to President Kennedy?</text>
+  <image/>
+ </item>
+ <item id="46" start="263.7" duration="4.833">
+  <person>Student</person>
+  <text>President Kennedy was assassinated in 1963.</text>
+  <image/>
+ </item>
+ <item id="47" start="268.533" duration="1.667">
+  <person>Teacher</person>
+  <text>usual</text>
+  <image/>
+ </item>
+ <item id="48" start="270.233" duration="1.733">
+  <person>Teacher</person>
+  <text>unusual</text>
+  <image/>
+ </item>
+ <item id="49" start="271.967" duration="3.833">
+  <person>Teacher</person>
+  <text>Did anything unusual happen to you yesterday?</text>
+  <image/>
+ </item>
+ <item id="49" start="275.8" duration="4.033">
+  <person>Student</person>
+  <text>Yes, something unusual happened to me yesterday.</text>
+  <image/>
+ </item>
+ <item id="50" start="279.867" duration="1.5">
+  <person>Teacher</person>
+  <text>What?</text>
+  <image/>
+ </item>
+ <item id="50" start="281.367" duration="3.5">
+  <person>Student</person>
+  <text>I found £20 in the street.</text>
+  <image/>
+ </item>
+ <item id="51" start="284.9" duration="4.967">
+  <person>Teacher</person>
+  <text>Is it usual for people in your country to eat hot food for breakfast?</text>
+  <image/>
+ </item>
+ <item id="51" start="289.867" duration="5.233">
+  <person>Student</person>
+  <text>Yes, it's usual for people in my country to eat hot food for breakfast.</text>
+  <image/>
+ </item>
+ <item id="52" start="295.133" duration="4.267">
+  <person>Teacher</person>
+  <text>Is it unusual for children to find coffee tasty?</text>
+  <image/>
+ </item>
+ <item id="52" start="299.4" duration="4.8">
+  <person>Student</person>
+  <text>Yes, it's unusual for children to find coffee tasty.</text>
+  <image/>
+ </item>
+ <item id="53" start="304.233" duration="1.667">
+  <person>Teacher</person>
+  <text>still</text>
+  <image/>
+ </item>
+ <item id="54" start="305.9" duration="1.567">
+  <person>Teacher</person>
+  <text>yet</text>
+  <image/>
+ </item>
+ <item id="55" start="307.5" duration="1.9">
+  <person>Teacher</person>
+  <text>in progress</text>
+  <image/>
+ </item>
+ <item id="56" start="309.433" duration="3.667">
+  <person>Teacher</person>
+  <text>What's the difference between &quot;still&quot; and &quot;yet&quot;?</text>
+  <image/>
+ </item>
+ <item id="56" start="313.1" duration="19.833">
+  <person>Student</person>
+  <text>The difference between &quot;still&quot; and &quot;yet&quot; is that we use still for something that is in progress at the moment, whereas we use &quot;yet&quot; for something that has not begun or happened. We generally use &quot;still&quot; in positive sentences, whereas we generally use &quot;yet&quot; in questions and negative sentences.</text>
+  <image/>
+ </item>
+ <item id="57" start="332.967" duration="2.8">
+  <person>Teacher</person>
+  <text>Give me some examples, please.</text>
+  <image/>
+ </item>
+ <item id="57" start="335.8" duration="3.733">
+  <person>Student</person>
+  <text>It's still winter. It isn't spring yet.</text>
+  <image/>
+ </item>
+ <item id="58" start="339.533" duration="2.633">
+  <person>Teacher</person>
+  <text>Has the lesson finished yet?</text>
+  <image/>
+ </item>
+ <item id="58" start="342.2" duration="4.667">
+  <person>Student</person>
+  <text>No, the lesson hasn't finished yet; it's still in progress.</text>
+  <image/>
+ </item>
+ <item id="59" start="346.867" duration="3.033">
+  <person>Teacher</person>
+  <text>Have we finished speaking yet?</text>
+  <image/>
+ </item>
+ <item id="59" start="349.933" duration="4.333">
+  <person>Student</person>
+  <text>No, we haven't finished speaking yet; we're still speaking.</text>
+  <image/>
+ </item>
+ <item id="60" start="354.3" duration="2.6">
+  <person>Teacher</person>
+  <text>Have they gone home yet?</text>
+  <image/>
+ </item>
+ <item id="60" start="356.9" duration="3.933">
+  <person>Student</person>
+  <text>No, they haven't gone home yet; they're still here.</text>
+  <image/>
+ </item>
+ <item id="61" start="360.867" duration="2.7">
+  <person>Teacher</person>
+  <text>Has the spring begun yet?</text>
+  <image/>
+ </item>
+ <item id="61" start="363.567" duration="4.167">
+  <person>Student</person>
+  <text>No, the spring hasn't begun yet; it's still winter.</text>
+  <image/>
+ </item>
+ <item id="62" start="367.733" duration="3.833">
+  <person>Teacher</person>
+  <text>Will I still be in this country in two weeks time?</text>
+  <image/>
+ </item>
+ <item id="62" start="371.6" duration="4.233">
+  <person>Student</person>
+  <text>Yes, you'll still be in this country in two weeks time.</text>
+  <image/>
+ </item>
+ <item id="63" start="375.833" duration="1.133">
+  <person>Teacher</person>
+  <text>special</text>
+  <image/>
+ </item>
+</items>

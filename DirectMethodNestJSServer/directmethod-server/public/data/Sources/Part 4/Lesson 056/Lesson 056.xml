@@ -1,413 +1,560 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="284.367">
- <item id="0" start="0.133" duration="2.267">
-  <person>Teacher</person>
-  <text>Lesson 56</text>
-  <image/>
- </item>
- <item id="1" start="2.4" duration="2.067">
-  <person>Teacher</person>
-  <text>to be going to</text>
-  <image/>
- </item>
- <item id="2" start="4.467" duration="1.833">
-  <person>Teacher</person>
-  <text>intention</text>
-  <image/>
- </item>
- <item id="3" start="6.333" duration="1.667">
-  <person>Teacher</person>
-  <text>soon</text>
-  <image/>
- </item>
- <item id="4" start="8.0" duration="1.567">
-  <person>Teacher</person>
-  <text>happen</text>
-  <image/>
- </item>
- <item id="5" start="9.6" duration="3.533">
-  <person>Teacher</person>
-  <text>Tell me one use of &quot;to be going to&quot;.</text>
-  <image/>
- </item>
- <item id="5" start="13.133" duration="6.067">
-  <person>Student</person>
-  <text>One use of &quot;to be going to&quot; is to say what we think will happen because of something we know now.</text>
-  <image/>
- </item>
- <item id="6" start="19.2" duration="2.3">
-  <person>Teacher</person>
-  <text>What am I going to do?</text>
-  <image/>
- </item>
- <item id="6" start="21.533" duration="5.1">
-  <person>Student</person>
-  <text>You're going to open the book; you're going to sit down, etc.</text>
-  <image/>
- </item>
- <item id="7" start="26.667" duration="2.9">
-  <person>Teacher</person>
-  <text>Do you think it's going to rain soon?</text>
-  <image/>
- </item>
- <item id="7" start="29.567" duration="3.067">
-  <person>Student</person>
-  <text>Yes, I think it's going to rain soon.</text>
-  <image/>
- </item>
- <item id="8" start="32.667" duration="3.5">
-  <person>Teacher</person>
-  <text>Tell me another use of &quot;to be going to&quot;.</text>
-  <image/>
- </item>
- <item id="8" start="36.167" duration="4.967">
-  <person>Student</person>
-  <text>Another use of &quot;to be going to&quot; is to speak about our future intentions.</text>
-  <image/>
- </item>
- <item id="9" start="41.133" duration="3.133">
-  <person>Teacher</person>
-  <text>What are you going to do after the lesson?</text>
-  <image/>
- </item>
- <item id="9" start="44.267" duration="5.667">
-  <person>Student</person>
-  <text>I'm going to go to work, go home, have lunch, etc. after the lesson</text>
-  <image/>
- </item>
- <item id="10" start="49.967" duration="3.4">
-  <person>Teacher</person>
-  <text>Are you going to watch television this evening?</text>
-  <image/>
- </item>
- <item id="10" start="53.367" duration="3.433">
-  <person>Student</person>
-  <text>No, I'm not going to watch television this evening.</text>
-  <image/>
- </item>
- <item id="11" start="56.833" duration="3.4">
-  <person>Teacher</person>
-  <text>What are you going to have for your dinner this evening?</text>
-  <image/>
- </item>
- <item id="11" start="60.267" duration="4.333">
-  <person>Student</person>
-  <text>I'm going to have some rice and vegetables for my dinner this evening.</text>
-  <image/>
- </item>
- <item id="12" start="64.6" duration="3.2">
-  <person>Teacher</person>
-  <text>Are you going to come here again tomorrow?</text>
-  <image/>
- </item>
- <item id="12" start="67.8" duration="3.3">
-  <person>Student</person>
-  <text>Yes, I'm going to come here again tomorrow.</text>
-  <image/>
- </item>
- <item id="13" start="71.133" duration="1.633">
-  <person>Teacher</person>
-  <text>enjoy</text>
-  <image/>
- </item>
- <item id="14" start="72.8" duration="1.667">
-  <person>Teacher</person>
-  <text>museum</text>
-  <image/>
- </item>
- <item id="15" start="74.467" duration="3.8">
-  <person>Teacher</person>
-  <text>What kind of things do you enjoy doing most of all?</text>
-  <image/>
- </item>
- <item id="15" start="78.3" duration="6.367">
-  <person>Student</person>
-  <text>The kind of things I enjoy doing most of all are watching television, going to the cinema etc.</text>
-  <image/>
- </item>
- <item id="16" start="84.667" duration="3.133">
-  <person>Teacher</person>
-  <text>Do you always enjoy your weekends?</text>
-  <image/>
- </item>
- <item id="16" start="87.833" duration="3.6">
-  <person>Student</person>
-  <text>No, I don't always enjoy my weekends.</text>
-  <image/>
- </item>
- <item id="17" start="91.433" duration="2.933">
-  <person>Teacher</person>
-  <text>Do you enjoy going to museums?</text>
-  <image/>
- </item>
- <item id="17" start="94.4" duration="2.967">
-  <person>Student</person>
-  <text>Yes, I enjoy going to museums.</text>
-  <image/>
- </item>
- <item id="18" start="97.4" duration="3.5">
-  <person>Teacher</person>
-  <text>Do young children enjoy bedtime stories?</text>
-  <image/>
- </item>
- <item id="18" start="100.9" duration="3.767">
-  <person>Student</person>
-  <text>Yes, young children enjoy bedtime stories.</text>
-  <image/>
- </item>
- <item id="19" start="104.7" duration="1.433">
-  <person>Teacher</person>
-  <text>hole</text>
-  <image/>
- </item>
- <item id="20" start="106.133" duration="1.633">
-  <person>Teacher</person>
-  <text>keyhole</text>
-  <image/>
- </item>
- <item id="21" start="107.8" duration="1.8">
-  <person>Teacher</person>
-  <text>What's this?</text>
-  <image/>
- </item>
- <item id="21" start="109.6" duration="1.8">
-  <person>Student</person>
-  <text>It's a hole.</text>
-  <image/>
- </item>
- <item id="22" start="111.4" duration="3.433">
-  <person>Teacher</person>
-  <text>What kind of hole do we find in a door?</text>
-  <image/>
- </item>
- <item id="22" start="114.867" duration="2.767">
-  <person>Student</person>
-  <text>We find a keyhole in a door.</text>
-  <image/>
- </item>
- <item id="23" start="117.633" duration="2.867">
-  <person>Teacher</person>
-  <text>Have you got a hole in your pocket?</text>
-  <image/>
- </item>
- <item id="23" start="120.5" duration="3.333">
-  <person>Student</person>
-  <text>No, I haven't got a hole in my pocket.</text>
-  <image/>
- </item>
- <item id="24" start="123.867" duration="1.767">
-  <person>Teacher</person>
-  <text>stupid</text>
-  <image/>
- </item>
- <item id="25" start="125.633" duration="1.833">
-  <person>Teacher</person>
-  <text>intelligent</text>
-  <image/>
- </item>
- <item id="26" start="127.467" duration="1.6">
-  <person>Teacher</person>
-  <text>clever</text>
-  <image/>
- </item>
- <item id="27" start="129.1" duration="4.067">
-  <person>Teacher</person>
-  <text>Is it stupid to believe everything people tell you?</text>
-  <image/>
- </item>
- <item id="27" start="133.167" duration="4.167">
-  <person>Student</person>
-  <text>Yes, It's stupid to believe everything people tell you.</text>
-  <image/>
- </item>
- <item id="28" start="137.367" duration="4.533">
-  <person>Teacher</person>
-  <text>Which do you think are more intelligent: cats or dogs?</text>
-  <image/>
- </item>
- <item id="28" start="141.9" duration="3.333">
-  <person>Student</person>
-  <text>I think dogs are more intelligent than cats.</text>
-  <image/>
- </item>
- <item id="29" start="145.233" duration="3.167">
-  <person>Teacher</person>
-  <text>What's another word for intelligent?</text>
-  <image/>
- </item>
- <item id="29" start="148.433" duration="3.233">
-  <person>Student</person>
-  <text>Another word for intelligent is clever.</text>
-  <image/>
- </item>
- <item id="30" start="151.7" duration="1.833">
-  <person>Teacher</person>
-  <text>against</text>
-  <image/>
- </item>
- <item id="31" start="153.533" duration="1.9">
-  <person>Teacher</person>
-  <text>What am I doing?</text>
-  <image/>
- </item>
- <item id="31" start="155.467" duration="2.8">
-  <person>Student</person>
-  <text>You're pushing against the table.</text>
-  <image/>
- </item>
- <item id="32" start="158.267" duration="3.6">
-  <person>Teacher</person>
-  <text>Who does this country play football against?</text>
-  <image/>
- </item>
- <item id="32" start="161.9" duration="3.9">
-  <person>Student</person>
-  <text>This country plays football against many countries.</text>
-  <image/>
- </item>
- <item id="33" start="165.8" duration="2.633">
-  <person>Teacher</person>
-  <text>Is the chair against the wall?</text>
-  <image/>
- </item>
- <item id="33" start="168.433" duration="4.4">
-  <person>Student</person>
-  <text>No, the chair isn't against the wall; it's near the wall.</text>
-  <image/>
- </item>
- <item id="34" start="172.867" duration="2.767">
-  <person>Teacher</person>
-  <text>Is the chair against the wall now?</text>
-  <image/>
- </item>
- <item id="34" start="175.633" duration="3.433">
-  <person>Student</person>
-  <text>Yes, The chair's against the wall now.</text>
-  <image/>
- </item>
- <item id="35" start="179.1" duration="1.5">
-  <person>Teacher</person>
-  <text>been</text>
-  <image/>
- </item>
- <item id="36" start="180.6" duration="1.5">
-  <person>Teacher</person>
-  <text>gone</text>
-  <image/>
- </item>
- <item id="37" start="182.1" duration="1.733">
-  <person>Teacher</person>
-  <text>return</text>
-  <image/>
- </item>
- <item id="38" start="183.867" duration="1.5">
-  <person>Teacher</person>
-  <text>visit</text>
-  <image/>
- </item>
- <item id="39" start="185.367" duration="3.533">
-  <person>Teacher</person>
-  <text>What's the past participle of the verb &quot;to go&quot;?</text>
-  <image/>
- </item>
- <item id="39" start="188.933" duration="3.667">
-  <person>Student</person>
-  <text>The past participle of the verb &quot;to go&quot; is &quot;gone&quot;.</text>
-  <image/>
- </item>
- <item id="40" start="192.6" duration="2.867">
-  <person>Teacher</person>
-  <text>What are the three forms of &quot;go&quot;?</text>
-  <image/>
- </item>
- <item id="40" start="195.5" duration="4.533">
-  <person>Student</person>
-  <text>The three forms of &quot;go&quot; are &quot;go, went, gone&quot;.</text>
-  <image/>
- </item>
- <item id="41" start="200.033" duration="8.767">
-  <person>Teacher</person>
-  <text>What's the difference between these two sentences: &quot;Mr. Brown has been to Scotland&quot; and &quot;Mr. Brown has gone to Scotland&quot;.</text>
-  <image/>
- </item>
- <item id="41" start="208.833" duration="13.8">
-  <person>Student</person>
-  <text>The difference between those two sentences is that the first sentence means that Mr. Brown has visited Scotland in his life, but he is not there now, whereas the second sentence means he is in Scotland; he is not here now.</text>
-  <image/>
- </item>
- <item id="42" start="222.633" duration="5.9">
-  <person>Teacher</person>
-  <text>Why can I say &quot;Mr. Brown has gone to Scotland&quot;, but not &quot;I have gone to Scotland&quot;?</text>
-  <image/>
- </item>
- <item id="42" start="228.567" duration="9.467">
-  <person>Student</person>
-  <text>We can say &quot;Mr. Brown has gone to Scotland&quot;, but not &quot;I have gone to Scotland&quot; because &quot;I have gone to Scotland&quot; means I am not here now, which is impossible.</text>
-  <image/>
- </item>
- <item id="43" start="238.067" duration="1.633">
-  <person>Teacher</person>
-  <text>bird</text>
-  <image/>
- </item>
- <item id="44" start="239.7" duration="1.633">
-  <person>Teacher</person>
-  <text>fly</text>
-  <image/>
- </item>
- <item id="45" start="241.333" duration="3.2">
-  <person>Teacher</person>
-  <text>aeroplane (plane)</text>
-  <image/>
- </item>
- <item id="46" start="244.567" duration="3.767">
-  <person>Teacher</person>
-  <text>Do you know anybody who keeps birds at home?</text>
-  <image/>
- </item>
- <item id="46" start="248.333" duration="3.933">
-  <person>Student</person>
-  <text>Yes, I know somebody who keeps birds at home.</text>
-  <image/>
- </item>
- <item id="47" start="252.3" duration="5.767">
-  <person>Teacher</person>
-  <text>When people go on holiday, do they generally prefer to fly or go by train?</text>
-  <image/>
- </item>
- <item id="47" start="258.067" duration="4.067">
-  <person>Student</person>
-  <text>When people go on holiday, they generally prefer to fly.</text>
-  <image/>
- </item>
- <item id="48" start="262.167" duration="3.2">
-  <person>Teacher</person>
-  <text>Can a bird fly quicker than a plane?</text>
-  <image/>
- </item>
- <item id="48" start="265.4" duration="5.2">
-  <person>Student</person>
-  <text>No, a bird can't fly quicker than a plane; it flies slower than a plane.</text>
-  <image/>
- </item>
- <item id="49" start="270.6" duration="2.233">
-  <person>Teacher</person>
-  <text>Can a chicken fly?</text>
-  <image/>
- </item>
- <item id="49" start="272.833" duration="3.833">
-  <person>Student</person>
-  <text>Yes, a chicken can fly, but not very far.</text>
-  <image/>
- </item>
- <item id="50" start="276.7" duration="2.9">
-  <person>Teacher</person>
-  <text>Have you ever dreamt you could fly?</text>
-  <image/>
- </item>
- <item id="50" start="279.6" duration="4.767">
-  <person>Student</person>
-  <text>Yes, I've sometimes dreamt I could fly.</text>
-  <image/>
- </item>
+	<item id="0">
+		<item id="0" start="0.133" duration="2.267">
+			<person>Teacher</person>
+			<text>Lesson 56</text>
+			<image/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0" start="2.4" duration="2.067">
+			<person>Teacher</person>
+			<text>to be going to</text>
+			<image/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0" start="4.467" duration="1.833">
+			<person>Teacher</person>
+			<text>intention</text>
+			<image/>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0" start="6.333" duration="1.667">
+			<person>Teacher</person>
+			<text>soon</text>
+			<image/>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0" start="8.0" duration="1.567">
+			<person>Teacher</person>
+			<text>happen</text>
+			<image/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>One use of “to be going to” is to say what we think will happen because of something we know now. For example, “The sky is very dark now; I think it’s going to rain”, or “John is a very good student; he’s going to do well in his exams”.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0" start="9.6" duration="3.533">
+			<person>Teacher</person>
+			<text>Tell me one use of &quot;to be going to&quot;.</text>
+			<image/>
+		</item>
+		<item id="1" start="13.133" duration="6.067">
+			<person>Student</person>
+			<text>One use of &quot;to be going to&quot; is to say what we think will happen because of something we know now.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0" start="19.2" duration="2.3">
+			<person>Teacher</person>
+			<text>What am I going to do?</text>
+			<image/>
+		</item>
+		<item id="1" start="21.533" duration="5.1">
+			<person>Student</person>
+			<text>You're going to open the book; you're going to sit down, etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0" start="26.667" duration="2.9">
+			<person>Teacher</person>
+			<text>Do you think it's going to rain soon?</text>
+			<image/>
+		</item>
+		<item id="1" start="29.567" duration="3.067">
+			<person>Student</person>
+			<text>Yes, I think it's going to rain soon.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>Another use of “to be going to” is to speak about our future intentions. For example, “I’m going to keep studying English for a few more years”.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0" start="32.667" duration="3.5">
+			<person>Teacher</person>
+			<text>Tell me another use of &quot;to be going to&quot;.</text>
+			<image/>
+		</item>
+		<item id="1" start="36.167" duration="4.967">
+			<person>Student</person>
+			<text>Another use of &quot;to be going to&quot; is to speak about our future intentions.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0" start="41.133" duration="3.133">
+			<person>Teacher</person>
+			<text>What are you going to do after the lesson?</text>
+			<image/>
+		</item>
+		<item id="1" start="44.267" duration="5.667">
+			<person>Student</person>
+			<text>I'm going to go to work, go home, have lunch, etc. after the lesson</text>
+			<image/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0" start="49.967" duration="3.4">
+			<person>Teacher</person>
+			<text>Are you going to watch television this evening?</text>
+			<image/>
+		</item>
+		<item id="1" start="53.367" duration="3.433">
+			<person>Student</person>
+			<text>No, I'm not going to watch television this evening.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0" start="56.833" duration="3.4">
+			<person>Teacher</person>
+			<text>What are you going to have for your dinner this evening?</text>
+			<image/>
+		</item>
+		<item id="1" start="60.267" duration="4.333">
+			<person>Student</person>
+			<text>I'm going to have some rice and vegetables for my dinner this evening.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0" start="64.6" duration="3.2">
+			<person>Teacher</person>
+			<text>Are you going to come here again tomorrow?</text>
+			<image/>
+		</item>
+		<item id="1" start="67.8" duration="3.3">
+			<person>Student</person>
+			<text>Yes, I'm going to come here again tomorrow.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0" start="71.133" duration="1.633">
+			<person>Teacher</person>
+			<text>enjoy</text>
+			<image/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0" start="72.8" duration="1.667">
+			<person>Teacher</person>
+			<text>museum</text>
+			<image/>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0" start="74.467" duration="3.8">
+			<person>Teacher</person>
+			<text>What kind of things do you enjoy doing most of all?</text>
+			<image/>
+		</item>
+		<item id="1" start="78.3" duration="6.367">
+			<person>Student</person>
+			<text>The kind of things I enjoy doing most of all are watching television, going to the cinema etc.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0" start="84.667" duration="3.133">
+			<person>Teacher</person>
+			<text>Do you always enjoy your weekends?</text>
+			<image/>
+		</item>
+		<item id="1" start="87.833" duration="3.6">
+			<person>Student</person>
+			<text>No, I don't always enjoy my weekends.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0" start="91.433" duration="2.933">
+			<person>Teacher</person>
+			<text>Do you enjoy going to museums?</text>
+			<image/>
+		</item>
+		<item id="1" start="94.4" duration="2.967">
+			<person>Student</person>
+			<text>Yes, I enjoy going to museums.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0" start="97.4" duration="3.5">
+			<person>Teacher</person>
+			<text>Do young children enjoy bedtime stories?</text>
+			<image/>
+		</item>
+		<item id="1" start="100.9" duration="3.767">
+			<person>Student</person>
+			<text>Yes, young children enjoy bedtime stories.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0" start="104.7" duration="1.433">
+			<person>Teacher</person>
+			<text>hole</text>
+			<image/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0" start="106.133" duration="1.633">
+			<person>Teacher</person>
+			<text>keyhole</text>
+			<image/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0" start="107.8" duration="1.8">
+			<person>Teacher</person>
+			<text>What's this?</text>
+			<image/>
+		</item>
+		<item id="1" start="109.6" duration="1.8">
+			<person>Student</person>
+			<text>It's a hole.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0" start="111.4" duration="3.433">
+			<person>Teacher</person>
+			<text>What kind of hole do we find in a door?</text>
+			<image/>
+		</item>
+		<item id="1" start="114.867" duration="2.767">
+			<person>Student</person>
+			<text>We find a keyhole in a door.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0" start="117.633" duration="2.867">
+			<person>Teacher</person>
+			<text>Have you got a hole in your pocket?</text>
+			<image/>
+		</item>
+		<item id="1" start="120.5" duration="3.333">
+			<person>Student</person>
+			<text>No, I haven't got a hole in my pocket.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0" start="123.867" duration="1.767">
+			<person>Teacher</person>
+			<text>stupid</text>
+			<image/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0" start="125.633" duration="1.833">
+			<person>Teacher</person>
+			<text>intelligent</text>
+			<image/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0" start="127.467" duration="1.6">
+			<person>Teacher</person>
+			<text>clever</text>
+			<image/>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0" start="129.1" duration="4.067">
+			<person>Teacher</person>
+			<text>Is it stupid to believe everything people tell you?</text>
+			<image/>
+		</item>
+		<item id="1" start="133.167" duration="4.167">
+			<person>Student</person>
+			<text>Yes, It's stupid to believe everything people tell you.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0" start="137.367" duration="4.533">
+			<person>Teacher</person>
+			<text>Which do you think are more intelligent: cats or dogs?</text>
+			<image/>
+		</item>
+		<item id="1" start="141.9" duration="3.333">
+			<person>Student</person>
+			<text>I think dogs are more intelligent than cats.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0" start="145.233" duration="3.167">
+			<person>Teacher</person>
+			<text>What's another word for intelligent?</text>
+			<image/>
+		</item>
+		<item id="1" start="148.433" duration="3.233">
+			<person>Student</person>
+			<text>Another word for intelligent is clever.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0" start="151.7" duration="1.833">
+			<person>Teacher</person>
+			<text>against</text>
+			<image/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0" start="153.533" duration="1.9">
+			<person>Teacher</person>
+			<text>What am I doing?</text>
+			<image/>
+		</item>
+		<item id="1" start="155.467" duration="2.8">
+			<person>Student</person>
+			<text>You're pushing against the table.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0" start="158.267" duration="3.6">
+			<person>Teacher</person>
+			<text>Who does this country play football against?</text>
+			<image/>
+		</item>
+		<item id="1" start="161.9" duration="3.9">
+			<person>Student</person>
+			<text>This country plays football against many countries.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0" start="165.8" duration="2.633">
+			<person>Teacher</person>
+			<text>Is the chair against the wall?</text>
+			<image/>
+		</item>
+		<item id="1" start="168.433" duration="4.4">
+			<person>Student</person>
+			<text>No, the chair isn't against the wall; it's near the wall.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0" start="172.867" duration="2.767">
+			<person>Teacher</person>
+			<text>Is the chair against the wall now?</text>
+			<image/>
+		</item>
+		<item id="1" start="175.633" duration="3.433">
+			<person>Student</person>
+			<text>Yes, The chair's against the wall now.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0" start="179.1" duration="1.5">
+			<person>Teacher</person>
+			<text>been</text>
+			<image/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0" start="180.6" duration="1.5">
+			<person>Teacher</person>
+			<text>gone</text>
+			<image/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0" start="182.1" duration="1.733">
+			<person>Teacher</person>
+			<text>return</text>
+			<image/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>The past participle of the verb “to go“ is “gone“. The three forms of “go“ are “go, went, gone“.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0" start="183.867" duration="1.5">
+			<person>Teacher</person>
+			<text>visit</text>
+			<image/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0" start="185.367" duration="3.533">
+			<person>Teacher</person>
+			<text>What's the past participle of the verb &quot;to go&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="188.933" duration="3.667">
+			<person>Student</person>
+			<text>The past participle of the verb &quot;to go&quot; is &quot;gone&quot;.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0" start="192.6" duration="2.867">
+			<person>Teacher</person>
+			<text>What are the three forms of &quot;go&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="195.5" duration="4.533">
+			<person>Student</person>
+			<text>The three forms of &quot;go&quot; are &quot;go, went, gone&quot;.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>We have two sentences:
+		\n1) “Mr Brown has been to Scotland“ and
+		\n2) “Mr Brown has gone to Scotland“.
+		\nThe first sentence, “Mr Brown has been to Scotland“, means that he has visited Scotland in his life but is not there now. The second sentence, “Mr Brown has gone to Scotland“, means he is in Scotland; he isn’t here now.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0" start="200.033" duration="8.767">
+			<person>Teacher</person>
+			<text>What's the difference between these two sentences: &quot;Mr. Brown has been to Scotland&quot; and &quot;Mr. Brown has gone to Scotland&quot;.</text>
+			<image/>
+		</item>
+		<item id="1" start="208.833" duration="13.8">
+			<person>Student</person>
+			<text>The difference between those two sentences is that the first sentence means that Mr. Brown has visited Scotland in his life, but he is not there now, whereas the second sentence means he is in Scotland; he is not here now.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0" start="" duration="">
+			<Explanation>
+				<text>We can say “Mr Brown has gone to Scotland“, because he is not here now, but we can’t say “I have gone to Scotland“, because that means I am not here now, which is impossible.</text>
+			</Explanation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0" start="222.633" duration="5.9">
+			<person>Teacher</person>
+			<text>Why can I say &quot;Mr. Brown has gone to Scotland&quot;, but not &quot;I have gone to Scotland&quot;?</text>
+			<image/>
+		</item>
+		<item id="1" start="228.567" duration="9.467">
+			<person>Student</person>
+			<text>We can say &quot;Mr. Brown has gone to Scotland&quot;, but not &quot;I have gone to Scotland&quot; because &quot;I have gone to Scotland&quot; means I am not here now, which is impossible.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0" start="238.067" duration="1.633">
+			<person>Teacher</person>
+			<text>bird</text>
+			<image/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0" start="239.7" duration="1.633">
+			<person>Teacher</person>
+			<text>fly</text>
+			<image/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0" start="241.333" duration="3.2">
+			<person>Teacher</person>
+			<text>aeroplane (plane)</text>
+			<image/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0" start="244.567" duration="3.767">
+			<person>Teacher</person>
+			<text>Do you know anybody who keeps birds at home?</text>
+			<image/>
+		</item>
+		<item id="1" start="248.333" duration="3.933">
+			<person>Student</person>
+			<text>Yes, I know somebody who keeps birds at home.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0" start="252.3" duration="5.767">
+			<person>Teacher</person>
+			<text>When people go on holiday, do they generally prefer to fly or go by train?</text>
+			<image/>
+		</item>
+		<item id="1" start="258.067" duration="4.067">
+			<person>Student</person>
+			<text>When people go on holiday, they generally prefer to fly.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0" start="262.167" duration="3.2">
+			<person>Teacher</person>
+			<text>Can a bird fly quicker than a plane?</text>
+			<image/>
+		</item>
+		<item id="1" start="265.4" duration="5.2">
+			<person>Student</person>
+			<text>No, a bird can't fly quicker than a plane; it flies slower than a plane.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0" start="270.6" duration="2.233">
+			<person>Teacher</person>
+			<text>Can a chicken fly?</text>
+			<image/>
+		</item>
+		<item id="1" start="272.833" duration="3.833">
+			<person>Student</person>
+			<text>Yes, a chicken can fly, but not very far.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0" start="276.7" duration="2.9">
+			<person>Teacher</person>
+			<text>Have you ever dreamt you could fly?</text>
+			<image/>
+		</item>
+		<item id="1" start="279.6" duration="4.767">
+			<person>Student</person>
+			<text>Yes, I've sometimes dreamt I could fly.</text>
+			<image/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0" start="" duration="">
+			<Dictation>
+				<text>Dictation 32\nI had to meet him at the corner of the street, and he asked me to bring him some cash.\nI cannot jump as high as the door.\nThe water we drink isn’t completely pure; it’s impure.\nWe can buy wine in supermarkets.\nI never promise to do things and then not do them.\nAdults are rarely as impolite as children.\nCan I help you?\nThey can express their thoughts quite well in English.\nThe past tenses of some irregular verbs are as follows: spoke, came, broke, wore, wrote, got up, stood, shone, took, told.</text>
+			</Dictation>
+		</item>
+	</item>
 </items>
