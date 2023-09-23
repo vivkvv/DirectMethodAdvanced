@@ -1,0 +1,294 @@
+<?xml version="1.0" ?>
+<items>
+ <item id="0">
+  <translation/>
+ </item>
+ <item id="1">
+  <translation>нуждаться</translation>
+ </item>
+ <item id="2">
+  <translation/>
+ </item>
+ <item id="2">
+  <translation/>
+ </item>
+ <item id="3">
+  <translation/>
+ </item>
+ <item id="3">
+  <translation/>
+ </item>
+ <item id="4">
+  <translation/>
+ </item>
+ <item id="4">
+  <translation/>
+ </item>
+ <item id="5">
+  <translation>по направлению к</translation>
+ </item>
+ <item id="6">
+  <translation>место назначения</translation>
+ </item>
+ <item id="7">
+  <translation/>
+ </item>
+ <item id="7">
+  <translation/>
+ </item>
+ <item id="8">
+  <translation/>
+ </item>
+ <item id="8">
+  <translation/>
+ </item>
+ <item id="9">
+  <translation/>
+ </item>
+ <item id="9">
+  <translation/>
+ </item>
+ <item id="10">
+  <translation>поднос</translation>
+ </item>
+ <item id="11">
+  <translation/>
+ </item>
+ <item id="11">
+  <translation/>
+ </item>
+ <item id="12">
+  <translation>стадион</translation>
+ </item>
+ <item id="13">
+  <translation/>
+ </item>
+ <item id="13">
+  <translation/>
+ </item>
+ <item id="14">
+  <translation/>
+ </item>
+ <item id="14">
+  <translation/>
+ </item>
+ <item id="15">
+  <translation>намного лучше</translation>
+ </item>
+ <item id="16">
+  <translation>намного больше</translation>
+ </item>
+ <item id="17">
+  <translation/>
+ </item>
+ <item id="17">
+  <translation/>
+ </item>
+ <item id="18">
+  <translation/>
+ </item>
+ <item id="18">
+  <translation/>
+ </item>
+ <item id="19">
+  <translation>противоположность</translation>
+ </item>
+ <item id="20">
+  <translation>падать</translation>
+ </item>
+ <item id="21">
+  <translation>темература</translation>
+ </item>
+ <item id="22">
+  <translation>атмосфера</translation>
+ </item>
+ <item id="23">
+  <translation/>
+ </item>
+ <item id="23">
+  <translation/>
+ </item>
+ <item id="24">
+  <translation/>
+ </item>
+ <item id="24">
+  <translation/>
+ </item>
+ <item id="25">
+  <translation/>
+ </item>
+ <item id="25">
+  <translation/>
+ </item>
+ <item id="26">
+  <translation/>
+ </item>
+ <item id="26">
+  <translation/>
+ </item>
+ <item id="27">
+  <translation>зуб</translation>
+ </item>
+ <item id="28">
+  <translation>зубы</translation>
+ </item>
+ <item id="29">
+  <translation>зубная щетка</translation>
+ </item>
+ <item id="30">
+  <translation>стоматолог</translation>
+ </item>
+ <item id="31">
+  <translation/>
+ </item>
+ <item id="31">
+  <translation/>
+ </item>
+ <item id="32">
+  <translation/>
+ </item>
+ <item id="32">
+  <translation/>
+ </item>
+ <item id="33">
+  <translation/>
+ </item>
+ <item id="33">
+  <translation/>
+ </item>
+ <item id="34">
+  <translation>казаться</translation>
+ </item>
+ <item id="35">
+  <translation/>
+ </item>
+ <item id="35">
+  <translation/>
+ </item>
+ <item id="36">
+  <translation/>
+ </item>
+ <item id="36">
+  <translation/>
+ </item>
+ <item id="37">
+  <translation/>
+ </item>
+ <item id="37">
+  <translation/>
+ </item>
+ <item id="38">
+  <translation>несколько</translation>
+ </item>
+ <item id="39">
+  <translation/>
+ </item>
+ <item id="39">
+  <translation/>
+ </item>
+ <item id="40">
+  <translation/>
+ </item>
+ <item id="40">
+  <translation/>
+ </item>
+ <item id="41">
+  <translation>сочинять, составлять</translation>
+ </item>
+ <item id="42">
+  <translation>состоять из</translation>
+ </item>
+ <item id="43">
+  <translation/>
+ </item>
+ <item id="43">
+  <translation/>
+ </item>
+ <item id="44">
+  <translation/>
+ </item>
+ <item id="44">
+  <translation/>
+ </item>
+ <item id="45">
+  <translation/>
+ </item>
+ <item id="45">
+  <translation/>
+ </item>
+ <item id="46">
+  <translation/>
+ </item>
+ <item id="46">
+  <translation/>
+ </item>
+ <item id="47">
+  <translation>мудрый</translation>
+ </item>
+ <item id="48">
+  <translation>мудрость</translation>
+ </item>
+ <item id="49">
+  <translation/>
+ </item>
+ <item id="49">
+  <translation/>
+ </item>
+ <item id="50">
+  <translation/>
+ </item>
+ <item id="50">
+  <translation/>
+ </item>
+ <item id="51">
+  <translation>неожиданно</translation>
+ </item>
+ <item id="52">
+  <translation/>
+ </item>
+ <item id="52">
+  <translation/>
+ </item>
+ <item id="53">
+  <translation>боль</translation>
+ </item>
+ <item id="54">
+  <translation/>
+ </item>
+ <item id="54">
+  <translation/>
+ </item>
+ <item id="55">
+  <translation>уверенный</translation>
+ </item>
+ <item id="56">
+  <translation/>
+ </item>
+ <item id="56">
+  <translation/>
+ </item>
+ <item id="57">
+  <translation>проходить мимо</translation>
+ </item>
+ <item id="58">
+  <translation/>
+ </item>
+ <item id="58">
+  <translation/>
+ </item>
+ <item id="59">
+  <translation>парковать</translation>
+ </item>
+ <item id="60">
+  <translation>автомобильная стоянка, парковка</translation>
+ </item>
+ <item id="61">
+  <translation/>
+ </item>
+ <item id="61">
+  <translation/>
+ </item>
+ <item id="62">
+  <translation>изображать</translation>
+ </item>
+</items>

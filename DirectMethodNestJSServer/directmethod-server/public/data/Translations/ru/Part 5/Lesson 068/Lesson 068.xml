@@ -1,363 +1,525 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation/>
- </item>
- <item id="1">
-  <translation>как вы думаете?</translation>
- </item>
- <item id="2">
-  <translation>мнение</translation>
- </item>
- <item id="3">
-  <translation/>
- </item>
- <item id="3">
-  <translation/>
- </item>
- <item id="4">
-  <translation/>
- </item>
- <item id="4">
-  <translation/>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="10">
-  <translation>садиться в</translation>
- </item>
- <item id="11">
-  <translation>выходить из</translation>
- </item>
- <item id="12">
-  <translation>садиться на</translation>
- </item>
- <item id="13">
-  <translation>выходить из</translation>
- </item>
- <item id="14">
-  <translation>такси</translation>
- </item>
- <item id="15">
-  <translation>плата за проезд</translation>
- </item>
- <item id="16">
-  <translation/>
- </item>
- <item id="16">
-  <translation/>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="19">
-  <translation>королевский</translation>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="21">
-  <translation>грязь</translation>
- </item>
- <item id="22">
-  <translation>сельская местность</translation>
- </item>
- <item id="23">
-  <translation/>
- </item>
- <item id="23">
-  <translation/>
- </item>
- <item id="24">
-  <translation>толпа</translation>
- </item>
- <item id="25">
-  <translation>переполненный людьми</translation>
- </item>
- <item id="26">
-  <translation/>
- </item>
- <item id="26">
-  <translation/>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="28">
-  <translation>капитан</translation>
- </item>
- <item id="29">
-  <translation>команда</translation>
- </item>
- <item id="30">
-  <translation/>
- </item>
- <item id="30">
-  <translation/>
- </item>
- <item id="31">
-  <translation/>
- </item>
- <item id="31">
-  <translation/>
- </item>
- <item id="32">
-  <translation>широкий</translation>
- </item>
- <item id="33">
-  <translation>узкий</translation>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="35">
-  <translation>флаг</translation>
- </item>
- <item id="36">
-  <translation>национальный</translation>
- </item>
- <item id="37">
-  <translation/>
- </item>
- <item id="37">
-  <translation/>
- </item>
- <item id="38">
-  <translation/>
- </item>
- <item id="38">
-  <translation/>
- </item>
- <item id="39">
-  <translation>трава</translation>
- </item>
- <item id="40">
-  <translation>жить на</translation>
- </item>
- <item id="41">
-  <translation/>
- </item>
- <item id="41">
-  <translation/>
- </item>
- <item id="42">
-  <translation/>
- </item>
- <item id="42">
-  <translation/>
- </item>
- <item id="43">
-  <translation>башня</translation>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="45">
-  <translation>мокрый</translation>
- </item>
- <item id="46">
-  <translation>сухой, сушиться</translation>
- </item>
- <item id="47">
-  <translation/>
- </item>
- <item id="47">
-  <translation/>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="49">
-  <translation/>
- </item>
- <item id="50">
-  <translation>бросил</translation>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="52">
-  <translation/>
- </item>
- <item id="52">
-  <translation/>
- </item>
- <item id="53">
-  <translation>громкий</translation>
- </item>
- <item id="54">
-  <translation>включать звук</translation>
- </item>
- <item id="55">
-  <translation>уменьшать звук</translation>
- </item>
- <item id="56">
-  <translation/>
- </item>
- <item id="56">
-  <translation/>
- </item>
- <item id="57">
-  <translation/>
- </item>
- <item id="58">
-  <translation>себя</translation>
- </item>
- <item id="59">
-  <translation>себя (ты)</translation>
- </item>
- <item id="60">
-  <translation>себя (он)</translation>
- </item>
- <item id="61">
-  <translation>себя (она)</translation>
- </item>
- <item id="62">
-  <translation>себя (оно)</translation>
- </item>
- <item id="63">
-  <translation>себя</translation>
- </item>
- <item id="64">
-  <translation>себя (мы)</translation>
- </item>
- <item id="65">
-  <translation>себя (вы)</translation>
- </item>
- <item id="66">
-  <translation>себя (они)</translation>
- </item>
- <item id="67">
-  <translation>следовательно</translation>
- </item>
- <item id="68">
-  <translation>защищать</translation>
- </item>
- <item id="69">
-  <translation/>
- </item>
- <item id="69">
-  <translation/>
- </item>
- <item id="70">
-  <translation/>
- </item>
- <item id="70">
-  <translation/>
- </item>
- <item id="71">
-  <translation/>
- </item>
- <item id="71">
-  <translation/>
- </item>
- <item id="72">
-  <translation/>
- </item>
- <item id="72">
-  <translation/>
- </item>
- <item id="73">
-  <translation/>
- </item>
- <item id="73">
-  <translation/>
- </item>
- <item id="74">
-  <translation/>
- </item>
- <item id="74">
-  <translation/>
- </item>
- <item id="75">
-  <translation/>
- </item>
- <item id="75">
-  <translation/>
- </item>
- <item id="76">
-  <translation/>
- </item>
- <item id="76">
-  <translation/>
- </item>
- <item id="77">
-  <translation/>
- </item>
- <item id="77">
-  <translation/>
- </item>
- <item id="78">
-  <translation/>
- </item>
- <item id="78">
-  <translation/>
- </item>
- <item id="79">
-  <translation/>
- </item>
- <item id="79">
-  <translation/>
- </item>
- <item id="80">
-  <translation/>
- </item>
- <item id="80">
-  <translation/>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>как вы думаете?</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>мнение</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>садиться в</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation>выходить из</translation>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation>садиться на</translation>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>выходить из</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>такси</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation>плата за проезд</translation>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>королевский</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation>грязь</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>сельская местность</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>толпа</translation>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>переполненный людьми</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>капитан</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation>команда</translation>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>широкий</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>узкий</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>флаг</translation>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation>национальный</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>трава</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>жить на</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation>башня</translation>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>мокрый</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>сухой, сушиться</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>бросил</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>громкий</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation>включать звук</translation>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation>уменьшать звук</translation>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation>себя</translation>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation>себя (ты)</translation>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0">
+			<translation>себя (он)</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation>себя (она)</translation>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation>себя (оно)</translation>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0">
+			<translation>себя</translation>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0">
+			<translation>себя (мы)</translation>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0">
+			<translation>себя (вы)</translation>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0">
+			<translation>себя (они)</translation>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0">
+			<translation>следовательно</translation>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0">
+			<translation>защищать</translation>
+		</item>
+	</item>
+	<item id="74">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="75">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="76">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="77">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="78">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="79">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="80">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="81">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="82">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="83">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="84">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="85">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
 </items>

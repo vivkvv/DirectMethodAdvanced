@@ -42,14 +42,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>To form a noun from an adjective, we sometimes add the letters “ness“ to the adjective. For example, “slow – slowness“, “late – lateness“, “careless – carelessness“ etc.</text>
+	</Explanation>	
 	<item id="6">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>To form a noun from an adjective, we sometimes add the letters “ness“ to the adjective. For example, “slow – slowness“, “late – lateness“, “careless – carelessness“ etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="7">
 		<item id="0" start="11.267" duration="3.8">
 			<person>Teacher</person>
 			<text>How do we sometimes form a noun from an adjective?</text>
@@ -61,7 +57,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="8">
+	<item id="7">
 		<item id="0" start="22.667" duration="2.0">
 			<person>Teacher</person>
 			<text>Give me an example.</text>
@@ -73,7 +69,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="9">
+	<item id="8">
 		<item id="0" start="27.067" duration="2.767">
 			<person>Teacher</person>
 			<text>When did you have your last illness?</text>
@@ -85,7 +81,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="10">
+	<item id="9">
 		<item id="0" start="33.167" duration="2.6">
 			<person>Teacher</person>
 			<text>What's the reason for tiredness?</text>
@@ -97,26 +93,26 @@
 			<image/>
 		</item>
 	</item>
-	<item id="11">
+	<item id="10">
 		<item id="0" start="41.633" duration="3.2">
 			<person>Teacher</person>
 			<text>What's the reason for darkness at night?</text>
 			<image/>
 		</item>
-		<item id="1" start="44.8" duration="6.7">
+		<item id="1" start="44.867" duration="6.867">
 			<person>Student</person>
 			<text>The reason for darkness at night is that the world turns completely round every 24 hours.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="12">
+	<item id="11">
 		<item id="0" start="51.733" duration="1.6">
 			<person>Teacher</person>
 			<text>alone</text>
 			<image/>
 		</item>
 	</item>
-	<item id="13">
+	<item id="12">
 		<item id="0" start="53.333" duration="3.967">
 			<person>Teacher</person>
 			<text>What's another way of saying he lives on his own?</text>
@@ -128,7 +124,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="14">
+	<item id="13">
 		<item id="0" start="62.4" duration="3.367">
 			<person>Teacher</person>
 			<text>Do you live alone or with other people?</text>
@@ -140,7 +136,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="15">
+	<item id="14">
 		<item id="0" start="68.2" duration="3.133">
 			<person>Teacher</person>
 			<text>Do you prefer to go on holiday alone?</text>
@@ -152,14 +148,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="16">
+	<item id="15">
 		<item id="0" start="76.833" duration="1.7">
 			<person>Teacher</person>
 			<text>already</text>
 			<image/>
 		</item>
 	</item>
-	<item id="17">
+	<item id="16">
 		<item id="0" start="78.533" duration="2.7">
 			<person>Teacher</person>
 			<text>Has the lesson already finished?</text>
@@ -171,7 +167,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="18">
+	<item id="17">
 		<item id="0" start="85.8" duration="4.633">
 			<person>Teacher</person>
 			<text>Are you already able to speak English without making any mistakes?</text>
@@ -183,7 +179,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="19">
+	<item id="18">
 		<item id="0" start="96.9" duration="2.533">
 			<person>Teacher</person>
 			<text>Are we all ready in spring?</text>
@@ -195,7 +191,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="20">
+	<item id="19">
 		<item id="0" start="103.733" duration="4.1">
 			<person>Teacher</person>
 			<text>Have we already studied stage four of the Callan method?</text>
@@ -207,14 +203,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="21">
+	<item id="20">
 		<item id="0" start="111.9" duration="1.833">
 			<person>Teacher</person>
 			<text>thrown</text>
 			<image/>
 		</item>
 	</item>
-	<item id="22">
+	<item id="21">
 		<item id="0" start="113.733" duration="2.967">
 			<person>Teacher</person>
 			<text>What are the three forms of &quot;throw&quot;?</text>
@@ -226,7 +222,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="23">
+	<item id="22">
 		<item id="0" start="122.067" duration="5.033">
 			<person>Teacher</person>
 			<text>Have you ever thrown anything away by mistake, which was worth a lot of money?</text>
@@ -238,38 +234,36 @@
 			<image/>
 		</item>
 	</item>
-	<item id="24">
+	<item id="23">
 		<item id="0" start="132.9" duration="1.5">
 			<person>Teacher</person>
 			<text>What?</text>
 			<image/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="24">
 		<item id="0" start="134.4" duration="1.533">
 			<person>Teacher</person>
 			<text>A ring.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="26">
+	<item id="25">
 		<item id="0" start="135.933" duration="1.9">
 			<person>Teacher</person>
 			<text>in spite of</text>
 			<image/>
 		</item>
 	</item>
-	<item id="27">
+	<item id="26">
 		<item id="0" start="137.867" duration="1.7">
 			<person>Teacher</person>
 			<text>despite</text>
 			<image/>
 		</item>
 	</item>
-	<item id="28">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>“In spite of” and “despite” both mean the same as “although”, but they are prepositions, so we put nouns after them.
+	<Explanation>
+		<text>“In spite of” and “despite” both mean the same as “although”, but they are prepositions, so we put nouns after them.
 		\n
 		\nThere are three ways of using “in spite of” or “despite”. They can be followed by a noun, or “-ing”, or “the fact that ...”. For example:
 		\n
@@ -280,10 +274,8 @@
 		\nIn spite of the fact that she was ill, she went to work.
 		\n
 		\nIt is important to remember that “in spite of“ and “despite“ cannot be followed immediately by a subject and verb. For example, we cannot say “In spite of she was ill, she went to work”.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="29">
+	</Explanation>	
+	<item id="27">
 		<item id="0" start="139.567" duration="4.867">
 			<person>Teacher</person>
 			<text>Why do some people do dangerous sports in spite of the danger?</text>
@@ -295,7 +287,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="28">
 		<item id="0" start="150.167" duration="4.8">
 			<person>Teacher</person>
 			<text>Name some foods that are very popular despite being bad for the health.</text>
@@ -307,8 +299,8 @@
 			<image/>
 		</item>
 	</item>
-	<item id="31">
-		<item id="0" start="162.3" duration="6.7">
+	<item id="29">
+		<item id="0" start="162.033" duration="7.2">
 			<person>Teacher</person>
 			<text>Do you think it's worth learning a foreign language in spite of the fact that it's quite difficult?</text>
 			<image/>
@@ -319,7 +311,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="32">
+	<item id="30">
 		<item id="0" start="175.367" duration="5.833">
 			<person>Teacher</person>
 			<text>In spite of studying a lot of words and grammar, do you still find English a little difficult?</text>
@@ -331,35 +323,31 @@
 			<image/>
 		</item>
 	</item>
-	<item id="33">
-		<item id="0" start="187.6" duration="1.0">
+	<item id="31">
+		<item id="0" start="187.6" duration="1.633">
 			<person>Teacher</person>
 			<text>anyone</text>
 			<image/>
 		</item>
 	</item>
-	<item id="34">
-		<item id="0" start="189.2" duration="0.8">
+	<item id="32">
+		<item id="0" start="189.233" duration="0.4">
 			<person>Teacher</person>
 			<text>someone</text>
 			<image/>
 		</item>
 	</item>
-	<item id="35">
-		<item id="0" start="190.0" duration="1.6">
+	<item id="33">
+		<item id="0" start="189.667" duration="2.933">
 			<person>Teacher</person>
 			<text>no one (no-one)</text>
 			<image/>
 		</item>
 	</item>
-	<item id="36">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Instead of the words “anybody”, “somebody“ and “nobody“, we can use the words “anyone“, “someone“ and “no one“ (or “no-one”).</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="37">
+	<Explanation>
+		<text>Instead of the words “anybody”, “somebody“ and “nobody“, we can use the words “anyone“, “someone“ and “no one“ (or “no-one”).</text>
+	</Explanation>	
+	<item id="34">
 		<item id="0" start="192.6" duration="5.367">
 			<person>Teacher</person>
 			<text>What words can we use instead of &quot;anybody&quot;, &quot;somebody&quot; and &quot;nobody&quot;?</text>
@@ -371,7 +359,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="38">
+	<item id="35">
 		<item id="0" start="206.3" duration="4.3">
 			<person>Teacher</person>
 			<text>Did anyone come into the classroom at the beginning of the lesson?</text>
@@ -383,7 +371,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="36">
 		<item id="0" start="215.767" duration="3.433">
 			<person>Teacher</person>
 			<text>Who went out of this room two minutes ago?</text>
@@ -395,14 +383,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="40">
+	<item id="37">
 		<item id="0" start="222.9" duration="1.633">
 			<person>Teacher</person>
 			<text>borrow</text>
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="38">
 		<item id="0" start="224.567" duration="3.0">
 			<person>Teacher</person>
 			<text>What's the opposite of the verb &quot;to lend&quot;?</text>
@@ -414,7 +402,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="39">
 		<item id="0" start="231.367" duration="3.7">
 			<person>Teacher</person>
 			<text>Should we always give back the things we borrow?</text>
@@ -426,7 +414,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="40">
 		<item id="0" start="238.933" duration="5.633">
 			<person>Teacher</person>
 			<text>If you forgot to bring a pen with you to school, would you have to borrow one from another student?</text>
@@ -438,28 +426,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="44">
+	<item id="41">
 		<item id="0" start="251.067" duration="1.867">
 			<person>Teacher</person>
 			<text>my own</text>
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="42">
 		<item id="0" start="252.933" duration="1.9">
 			<person>Teacher</person>
 			<text>emphasize</text>
 			<image/>
 		</item>
 	</item>
-	<item id="46">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We often put the word “own“ after a possessive adjective when we want to emphasize that something belongs to someone. For example, this is my own pen; it belongs to me. Notice that we can say that this is our classroom because we study here all the time, but we cannot say that this is our own classroom because it doesn’t belong to us.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="47">
+	<Explanation>
+		<text>We often put the word “own“ after a possessive adjective when we want to emphasize that something belongs to someone. For example, this is my own pen; it belongs to me. Notice that we can say that this is our classroom because we study here all the time, but we cannot say that this is our own classroom because it doesn’t belong to us.</text>
+	</Explanation>	
+	<item id="43">
 		<item id="0" start="254.833" duration="4.433">
 			<person>Teacher</person>
 			<text>Give me an example of the word &quot;own&quot; after a possessive adjective.</text>
@@ -471,7 +455,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="44">
 		<item id="0" start="261.6" duration="5.0">
 			<person>Teacher</person>
 			<text>Do you live in your own house or flat or does it belong to somebody else?</text>
@@ -483,7 +467,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="45">
 		<item id="0" start="271.4" duration="5.1">
 			<person>Teacher</person>
 			<text>Do you think this is probably my own book or do you think it belongs to the school?</text>
@@ -495,14 +479,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="46">
 		<item id="0" start="280.9" duration="1.667">
 			<person>Teacher</person>
 			<text>skin</text>
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="47">
 		<item id="0" start="282.6" duration="1.7">
 			<person>Teacher</person>
 			<text>What's this?</text>
@@ -514,49 +498,49 @@
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="48">
 		<item id="0" start="286.2" duration="1.7">
 			<person>Teacher</person>
 			<text>wire</text>
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="49">
 		<item id="0" start="287.933" duration="1.833">
 			<person>Teacher</person>
 			<text>electricity</text>
 			<image/>
 		</item>
 	</item>
-	<item id="54">
+	<item id="50">
 		<item id="0" start="289.8" duration="1.633">
 			<person>Teacher</person>
 			<text>connection</text>
 			<image/>
 		</item>
 	</item>
-	<item id="55">
+	<item id="51">
 		<item id="0" start="291.433" duration="1.7">
 			<person>Teacher</person>
 			<text>wireless</text>
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="52">
 		<item id="0" start="293.167" duration="2.067">
 			<person>Teacher</person>
 			<text>Wi-Fi</text>
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="53">
 		<item id="0" start="295.267" duration="1.5">
 			<person>Teacher</person>
 			<text>hyphen</text>
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="54">
 		<item id="0" start="296.8" duration="2.6">
 			<person>Teacher</person>
 			<text>What do we use wire for?</text>
@@ -568,7 +552,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="59">
+	<item id="55">
 		<item id="0" start="305.0" duration="3.833">
 			<person>Teacher</person>
 			<text>What do we mean by a wireless Internet connection?</text>
@@ -580,7 +564,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="60">
+	<item id="56">
 		<item id="0" start="316.4" duration="4.133">
 			<person>Teacher</person>
 			<text>What can we say instead of a &quot;wireless Internet connection&quot;?</text>
@@ -592,20 +576,20 @@
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="57">
 		<item id="0" start="326.3" duration="4.767">
 			<person>Teacher</person>
 			<text>Do some bars and cafes offer free Wi-Fi to their customers?</text>
 			<image/>
 		</item>
-		<item id="1" start="331.1" duration="5.2">
+		<item id="1" start="331.1" duration="5.367">
 			<person>Student</person>
 			<text>Yes, some bars and cafes offer free Wi-Fi to their customers.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="62">
-		<item id="0" start="336.3" duration="3.2">
+	<item id="58">
+		<item id="0" start="336.467" duration="3.333">
 			<person>Teacher</person>
 			<text>Spell the words &quot;Wi-Fi&quot;, please.</text>
 			<image/>
@@ -616,28 +600,28 @@
 			<image/>
 		</item>
 	</item>
-	<item id="63">
+	<item id="59">
 		<item id="0" start="345.933" duration="1.733">
 			<person>Teacher</person>
 			<text>boil</text>
 			<image/>
 		</item>
 	</item>
-	<item id="64">
-		<item id="0" start="347.7" duration="1.6">
+	<item id="60">
+		<item id="0" start="347.7" duration="1.867">
 			<person>Teacher</person>
 			<text>fry</text>
 			<image/>
 		</item>
 	</item>
-	<item id="65">
+	<item id="61">
 		<item id="0" start="349.567" duration="1.7">
 			<person>Teacher</person>
 			<text>roast</text>
 			<image/>
 		</item>
 	</item>
-	<item id="66">
+	<item id="62">
 		<item id="0" start="351.267" duration="3.2">
 			<person>Teacher</person>
 			<text>Tell me three ways of cooking potatoes.</text>
@@ -645,11 +629,11 @@
 		</item>
 		<item id="1" start="354.467" duration="5.7">
 			<person>Student</person>
-			<text>Three ways of cooking potatoes are boiling, frying and roasting.</text>
+			<text>Three ways of cooking. Potatoes are boiling, frying and roasting.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="67">
+	<item id="63">
 		<item id="0" start="360.2" duration="3.4">
 			<person>Teacher</person>
 			<text>Do you prefer fried eggs or boiled eggs?</text>
@@ -661,7 +645,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="68">
+	<item id="64">
 		<item id="0" start="366.3" duration="3.133">
 			<person>Teacher</person>
 			<text>How long does it take to boil potatoes?</text>
@@ -673,54 +657,50 @@
 			<image/>
 		</item>
 	</item>
-	<item id="69">
+	<item id="65">
 		<item id="0" start="373.1" duration="1.5">
 			<person>Teacher</person>
 			<text>brick</text>
 			<image/>
 		</item>
 	</item>
-	<item id="70">
+	<item id="66">
 		<item id="0" start="374.6" duration="2.967">
 			<person>Teacher</person>
 			<text>What's a wall normally built of?</text>
 			<image/>
 		</item>
-		<item id="1" start="377.6" duration="3.0">
+		<item id="1" start="377.6" duration="3.133">
 			<person>Student</person>
 			<text>A wall is normally built of bricks.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="71">
+	<item id="67">
 		<item id="0" start="380.733" duration="1.6">
 			<person>Teacher</person>
 			<text>as well</text>
 			<image/>
 		</item>
 	</item>
-	<item id="72">
+	<item id="68">
 		<item id="0" start="382.367" duration="1.533">
 			<person>Teacher</person>
 			<text>too</text>
 			<image/>
 		</item>
 	</item>
-	<item id="73">
+	<item id="69">
 		<item id="0" start="383.9" duration="1.667">
 			<person>Teacher</person>
 			<text>also</text>
 			<image/>
 		</item>
 	</item>
-	<item id="74">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The words “as well“, “too“ and “also“ all mean the same thing. The words “as well” and ”too” go at the end of the sentence, but the word “also” usually goes after the first auxiliary verb.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="75">
+	<Explanation>
+		<text>The words “as well“, “too“ and “also“ all mean the same thing. The words “as well” and ”too” go at the end of the sentence, but the word “also” usually goes after the first auxiliary verb.</text>
+	</Explanation>	
+	<item id="70">
 		<item id="0" start="385.6" duration="6.4">
 			<person>Teacher</person>
 			<text>Where do the words &quot;as well&quot;, &quot;too&quot; and &quot;also&quot; usually go?</text>
@@ -732,7 +712,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="76">
+	<item id="71">
 		<item id="0" start="401.8" duration="2.733">
 			<person>Teacher</person>
 			<text>Give me an example of each, please.</text>
@@ -744,14 +724,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="77">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>With the present simple and past simple, there is no auxiliary in the positive, so the word “also“ simply goes between the subject and the verb. For example, we say “He speaks German and he also speaks French“. </text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="78">
+	<Explanation>
+		<text>With the present simple and past simple, there is no auxiliary in the positive, so the word “also“ simply goes between the subject and the verb. For example, we say “He speaks German and he also speaks French“. </text>
+	</Explanation>	
+	<item id="72">
 		<item id="0" start="414.533" duration="4.767">
 			<person>Teacher</person>
 			<text>Give me an example of &quot;also&quot; when there is no auxiliary verb, please.</text>

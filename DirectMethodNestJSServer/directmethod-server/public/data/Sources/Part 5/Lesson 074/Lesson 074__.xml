@@ -103,14 +103,14 @@
 			<text>Is there anywhere in this town I could get my hair cut for nothing?</text>
 			<image/>
 		</item>
-		<item id="1" start="52.267" duration="5.1">
+		<item id="1" start="52.267" duration="5.3">
 			<person>Student</person>
 			<text>No, there isn't anywhere in this town you could get your hair cut for nothing.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="57.4" duration="5.4">
+		<item id="0" start="57.567" duration="5.533">
 			<person>Teacher</person>
 			<text>Where in the world can a man murder another man without breaking the law?</text>
 			<image/>
@@ -215,14 +215,14 @@
 		</item>
 	</item>
 	<item id="22">
-		<item id="0" start="127.8" duration="1.7">
+		<item id="0" start="127.8" duration="1.833">
 			<person>Teacher</person>
 			<text>lightning</text>
 			<image/>
 		</item>
 	</item>
 	<item id="23">
-		<item id="0" start="129.6" duration="1.5">
+		<item id="0" start="129.667" duration="1.667">
 			<person>Teacher</person>
 			<text>thunder</text>
 			<image/>
@@ -368,14 +368,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>When we ask for permission to do something, we use the words “may“, “can“ or “could“. For example, “May I leave the room, please?“</text>
+	</Explanation>	
 	<item id="39">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>When we ask for permission to do something, we use the words “may“, “can“ or “could“. For example, “May I leave the room, please?“</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="40">
 		<item id="0" start="198.533" duration="5.333">
 			<person>Teacher</person>
 			<text>What words do we use when we ask for permission to do something?</text>
@@ -387,7 +383,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="40">
 		<item id="0" start="210.2" duration="2.9">
 			<person>Teacher</person>
 			<text>Give me three examples, please.</text>
@@ -399,28 +395,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
-		<item id="0" start="219.2" duration="1.5">
+	<item id="41">
+		<item id="0" start="219.233" duration="1.7">
 			<person>Teacher</person>
 			<text>catch</text>
 			<image/>
 		</item>
 	</item>
-	<item id="43">
-		<item id="0" start="220.8" duration="1.7">
+	<item id="42">
+		<item id="0" start="220.967" duration="1.9">
 			<person>Teacher</person>
 			<text>raincoat</text>
 			<image/>
 		</item>
 	</item>
-	<item id="44">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We use the word “catch“ in expressions such as “catch a ball”, “catch a train”, “catch a cold” etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="45">
+	<Explanation>
+		<text>We use the word “catch“ in expressions such as “catch a ball”, “catch a train”, “catch a cold” etc.</text>
+	</Explanation>	
+	<item id="43">
 		<item id="0" start="222.867" duration="4.667">
 			<person>Teacher</person>
 			<text>In what kind of expressions do we use the word &quot;catch&quot;?</text>
@@ -432,7 +424,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="44">
 		<item id="0" start="236.2" duration="2.1">
 			<person>Teacher</person>
 			<text>What am I doing?</text>
@@ -444,7 +436,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="47">
+	<item id="45">
 		<item id="0" start="242.633" duration="8.9">
 			<person>Teacher</person>
 			<text>Are you the kind of person who usually has to run hard at the last moment in order to catch a bus or a train?</text>
@@ -456,7 +448,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="46">
 		<item id="0" start="259.1" duration="6.967">
 			<person>Teacher</person>
 			<text>If you walked in the rain without carrying an umbrella or wearing a raincoat, what might happen?</text>
@@ -468,14 +460,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="47">
 		<item id="0" start="274.333" duration="1.633">
 			<person>Teacher</person>
 			<text>cap</text>
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="48">
 		<item id="0" start="275.967" duration="5.267">
 			<person>Teacher</person>
 			<text>Why is it a good idea to wear a cap in hot, sunny weather?</text>
@@ -487,28 +479,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="49">
 		<item id="0" start="289.133" duration="1.667">
 			<person>Teacher</person>
 			<text>habit</text>
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="50">
 		<item id="0" start="290.8" duration="2.933">
 			<person>Teacher</person>
 			<text>be in the habit of doing</text>
 			<image/>
 		</item>
 	</item>
-	<item id="53">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The most common way to speak about our habits is to use the present simple or past simple. For example, we say “I drink coffee every day“ or “I usually went to bed early when I was a child“. We sometimes add expressions like “usually“, “always“ or “every week“ so that it is understood that we are speaking about a habit.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="54">
+	<Explanation>
+		<text>The most common way to speak about our habits is to use the present simple or past simple. For example, we say “I drink coffee every day“ or “I usually went to bed early when I was a child“. We sometimes add expressions like “usually“, “always“ or “every week“ so that it is understood that we are speaking about a habit.</text>
+	</Explanation>	
+	<item id="51">
 		<item id="0" start="293.767" duration="4.433">
 			<person>Teacher</person>
 			<text>What's the most common way to speak about our habits?</text>
@@ -520,7 +508,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="55">
+	<item id="52">
 		<item id="0" start="305.0" duration="2.6">
 			<person>Teacher</person>
 			<text>Give me an example, please.</text>
@@ -532,7 +520,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="53">
 		<item id="0" start="314.633" duration="2.567">
 			<person>Teacher</person>
 			<text>Does your father smoke?</text>
@@ -544,7 +532,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="54">
 		<item id="0" start="320.2" duration="4.967">
 			<person>Teacher</person>
 			<text>Did you usually go to bed early when you were a small child?</text>
@@ -556,7 +544,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="55">
 		<item id="0" start="329.867" duration="2.6">
 			<person>Teacher</person>
 			<text>What's your worst habit?</text>
@@ -568,14 +556,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="59">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Notice that we can also say that someone is “in the habit of doing“ something.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="60">
+	<Explanation>
+		<text>Notice that we can also say that someone is “in the habit of doing“ something.</text>
+	</Explanation>	
+	<item id="56">
 		<item id="0" start="335.9" duration="4.933">
 			<person>Teacher</person>
 			<text>Are you in the habit of speaking to yourself when you're alone?</text>
@@ -587,7 +571,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="57">
 		<item id="0" start="345.433" duration="5.667">
 			<person>Teacher</person>
 			<text>What were you in the habit of doing at the weekend when you were a little child?</text>
@@ -599,28 +583,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="62">
+	<item id="58">
 		<item id="0" start="357.533" duration="2.0">
 			<person>Teacher</person>
 			<text>stranger</text>
 			<image/>
 		</item>
 	</item>
-	<item id="63">
+	<item id="59">
 		<item id="0" start="359.567" duration="1.667">
 			<person>Teacher</person>
 			<text>foreigner</text>
 			<image/>
 		</item>
 	</item>
-	<item id="64">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>A stranger is somebody we don’t know, whereas a foreigner is somebody from another country.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="65">
+	<Explanation>
+		<text>A stranger is somebody we don’t know, whereas a foreigner is somebody from another country.</text>
+	</Explanation>	
+	<item id="60">
 		<item id="0" start="361.233" duration="4.733">
 			<person>Teacher</person>
 			<text>What's the difference between a stranger and a foreigner?</text>
@@ -632,18 +612,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="66">
+	<item id="61">
 		<item id="0" start="376.4" duration="2.367">
 			<person>Teacher</person>
 			<text>snowstorm</text>
 			<image/>
 		</item>
 	</item>
-	<item id="67">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>Dictation 46\nDon’t shout all the time!\nI can hear you well enough when you speak quietly.\nHowever, the best way to learn anything in English is by practice.\nThey’ve always kept their promises, so they say.\nOf course he finds life boring; he watches the same television programmes all the time.\nThey were nearly blinded by the snowstorm, and could not see which direction the ambulance was coming from.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>Dictation 46\nDon’t shout all the time!\nI can hear you well enough when you speak quietly.\nHowever, the best way to learn anything in English is by practice.\nThey’ve always kept their promises, so they say.\nOf course he finds life boring; he watches the same television programmes all the time.\nThey were nearly blinded by the snowstorm, and could not see which direction the ambulance was coming from.</text>
+	</Dictation>	
 </items>

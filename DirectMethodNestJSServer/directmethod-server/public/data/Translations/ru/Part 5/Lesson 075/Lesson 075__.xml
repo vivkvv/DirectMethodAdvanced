@@ -65,6 +65,14 @@
 			<translation>только</translation>
 		</item>
 	</item>
+	<item id="10">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
 	<item id="11">
 		<item id="0">
 			<translation/>
@@ -83,28 +91,28 @@
 	</item>
 	<item id="13">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>конечно</translation>
 		</item>
 	</item>
 	<item id="14">
 		<item id="0">
-			<translation>конечно</translation>
-		</item>
-	</item>
-	<item id="15">
-		<item id="0">
 			<translation/>
 		</item>
 		<item id="1">
 			<translation/>
 		</item>
 	</item>
-	<item id="16">
+	<item id="15">
 		<item id="0">
 			<translation>в наше время</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="17">
@@ -117,44 +125,59 @@
 	</item>
 	<item id="18">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>страдать</translation>
 		</item>
 	</item>
 	<item id="19">
 		<item id="0">
-			<translation>страдать</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="20">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>желание</translation>
 		</item>
 	</item>
 	<item id="21">
 		<item id="0">
-			<translation>желание</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="22">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>существовать</translation>
 		</item>
 	</item>
 	<item id="23">
 		<item id="0">
-			<translation>существовать</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="24">
+		<item id="0">
+			<translation>напоминать</translation>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation>иначе говоря</translation>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>член</translation>
+		</item>
+	</item>
+	<item id="27">
 		<item id="0">
 			<translation/>
 		</item>
@@ -162,19 +185,12 @@
 			<translation/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="28">
 		<item id="0">
-			<translation>напоминать</translation>
+			<translation/>
 		</item>
-	</item>
-	<item id="26">
-		<item id="0">
-			<translation>иначе говоря</translation>
-		</item>
-	</item>
-	<item id="27">
-		<item id="0">
-			<translation>член</translation>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="29">
@@ -195,10 +211,7 @@
 	</item>
 	<item id="31">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>библиотека</translation>
 		</item>
 	</item>
 	<item id="32">
@@ -211,10 +224,20 @@
 	</item>
 	<item id="33">
 		<item id="0">
-			<translation>библиотека</translation>
+			<translation>даже если</translation>
 		</item>
 	</item>
 	<item id="34">
+		<item id="0">
+			<translation>даже</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>даже не</translation>
+		</item>
+	</item>
+	<item id="36">
 		<item id="0">
 			<translation/>
 		</item>
@@ -222,19 +245,12 @@
 			<translation/>
 		</item>
 	</item>
-	<item id="35">
-		<item id="0">
-			<translation>даже если</translation>
-		</item>
-	</item>
-	<item id="36">
-		<item id="0">
-			<translation>даже</translation>
-		</item>
-	</item>
 	<item id="37">
 		<item id="0">
-			<translation>даже не</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="38">
@@ -255,33 +271,41 @@
 	</item>
 	<item id="40">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>к, в (предлог направления)</translation>
 		</item>
 	</item>
 	<item id="41">
 		<item id="0">
+			<translation>в, возле</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>направление</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
 			<translation/>
 		</item>
 		<item id="1">
 			<translation/>
 		</item>
 	</item>
-	<item id="42">
-		<item id="0">
-			<translation>к, в (предлог направления)</translation>
-		</item>
-	</item>
-	<item id="43">
-		<item id="0">
-			<translation>в, возле</translation>
-		</item>
-	</item>
 	<item id="44">
 		<item id="0">
-			<translation>направление</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="46">
@@ -294,18 +318,12 @@
 	</item>
 	<item id="47">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>скоро</translation>
 		</item>
 	</item>
 	<item id="48">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>сразу же</translation>
 		</item>
 	</item>
 	<item id="49">
@@ -318,12 +336,18 @@
 	</item>
 	<item id="50">
 		<item id="0">
-			<translation>скоро</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="51">
 		<item id="0">
-			<translation>сразу же</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="52">
@@ -343,30 +367,6 @@
 		</item>
 	</item>
 	<item id="54">
-		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
-		</item>
-	</item>
-	<item id="55">
-		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
-		</item>
-	</item>
-	<item id="56">
-		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
-		</item>
-	</item>
-	<item id="57">
 		<item id="0">
 			<translation/>
 		</item>

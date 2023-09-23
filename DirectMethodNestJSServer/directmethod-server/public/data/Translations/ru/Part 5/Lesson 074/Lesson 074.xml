@@ -1,291 +1,415 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation/>
- </item>
- <item id="1">
-  <translation>где-либо</translation>
- </item>
- <item id="2">
-  <translation>где-то</translation>
- </item>
- <item id="3">
-  <translation>нигде</translation>
- </item>
- <item id="4">
-  <translation/>
- </item>
- <item id="5">
-  <translation/>
- </item>
- <item id="6">
-  <translation>нигде</translation>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="11">
-  <translation/>
- </item>
- <item id="11">
-  <translation/>
- </item>
- <item id="12">
-  <translation/>
- </item>
- <item id="12">
-  <translation/>
- </item>
- <item id="13">
-  <translation/>
- </item>
- <item id="13">
-  <translation/>
- </item>
- <item id="14">
-  <translation/>
- </item>
- <item id="14">
-  <translation/>
- </item>
- <item id="15">
-  <translation>свободный, незакрепленный</translation>
- </item>
- <item id="16">
-  <translation>ослаблять, отпускать</translation>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="20">
-  <translation/>
- </item>
- <item id="21">
-  <translation>буря, гроза</translation>
- </item>
- <item id="22">
-  <translation>молния</translation>
- </item>
- <item id="23">
-  <translation>гром</translation>
- </item>
- <item id="24">
-  <translation/>
- </item>
- <item id="24">
-  <translation/>
- </item>
- <item id="25">
-  <translation/>
- </item>
- <item id="25">
-  <translation/>
- </item>
- <item id="26">
-  <translation>слепой</translation>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="28">
-  <translation>дьявол</translation>
- </item>
- <item id="29">
-  <translation/>
- </item>
- <item id="29">
-  <translation/>
- </item>
- <item id="30">
-  <translation>ездить на чем-либо</translation>
- </item>
- <item id="31">
-  <translation>ездить на велосипеде</translation>
- </item>
- <item id="32">
-  <translation/>
- </item>
- <item id="32">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="33">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="35">
-  <translation>мочь, иметь разрешение делать что-либо</translation>
- </item>
- <item id="36">
-  <translation>мочь, уметь, быть способным</translation>
- </item>
- <item id="37">
-  <translation>мог, мог бы</translation>
- </item>
- <item id="38">
-  <translation>разрешение</translation>
- </item>
- <item id="39">
-  <translation/>
- </item>
- <item id="39">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="41">
-  <translation>поймать, ловить</translation>
- </item>
- <item id="42">
-  <translation>плащ</translation>
- </item>
- <item id="43">
-  <translation/>
- </item>
- <item id="43">
-  <translation/>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="45">
-  <translation/>
- </item>
- <item id="45">
-  <translation/>
- </item>
- <item id="46">
-  <translation/>
- </item>
- <item id="46">
-  <translation/>
- </item>
- <item id="47">
-  <translation>кепка</translation>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="48">
-  <translation/>
- </item>
- <item id="49">
-  <translation>привычка</translation>
- </item>
- <item id="50">
-  <translation>иметь привычку делать что-либо</translation>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="51">
-  <translation/>
- </item>
- <item id="52">
-  <translation/>
- </item>
- <item id="52">
-  <translation/>
- </item>
- <item id="53">
-  <translation/>
- </item>
- <item id="53">
-  <translation/>
- </item>
- <item id="54">
-  <translation/>
- </item>
- <item id="54">
-  <translation/>
- </item>
- <item id="55">
-  <translation/>
- </item>
- <item id="55">
-  <translation/>
- </item>
- <item id="56">
-  <translation/>
- </item>
- <item id="56">
-  <translation/>
- </item>
- <item id="57">
-  <translation/>
- </item>
- <item id="57">
-  <translation/>
- </item>
- <item id="58">
-  <translation>незнакомец</translation>
- </item>
- <item id="59">
-  <translation>иностранец</translation>
- </item>
- <item id="60">
-  <translation/>
- </item>
- <item id="60">
-  <translation/>
- </item>
- <item id="61">
-  <translation>снежная буря</translation>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation>где-либо</translation>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>где-то</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>нигде</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="6">
+		<item id="0">
+			<translation>нигде</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation>свободный, незакрепленный</translation>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>ослаблять, отпускать</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>буря, гроза</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation>молния</translation>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation>гром</translation>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>слепой</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>дьявол</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation>ездить на чем-либо</translation>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation>ездить на велосипеде</translation>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>мочь, иметь разрешение делать что-либо</translation>
+		</item>
+	</item>
+	<item id="36">
+		<item id="0">
+			<translation>мочь, уметь, быть способным</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation>мог, мог бы</translation>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation>разрешение</translation>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>поймать, ловить</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>плащ</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="46">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation>кепка</translation>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation>привычка</translation>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>иметь привычку делать что-либо</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation>незнакомец</translation>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation>иностранец</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation>снежная буря</translation>
+		</item>
+	</item>
 </items>

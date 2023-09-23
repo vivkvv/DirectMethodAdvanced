@@ -21,14 +21,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>We use the future continuous for an action that will be in progress at a particular time in the future. For example, the sentence “I will be sleeping at 4 o’clock tomorrow morning“ means that I will go to sleep before 4 o’clock and I will wake up after 4 o’clock; at 4 o’clock, I will be in the middle of a period of sleeping.</text>
+	</Explanation>	
 	<item id="3">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We use the future continuous for an action that will be in progress at a particular time in the future. For example, the sentence “I will be sleeping at 4 o’clock tomorrow morning“ means that I will go to sleep before 4 o’clock and I will wake up after 4 o’clock; at 4 o’clock, I will be in the middle of a period of sleeping.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="4">
 		<item id="0" start="7.567" duration="3.267">
 			<person>Teacher</person>
 			<text>When do we use the future continuous?</text>
@@ -40,7 +36,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="5">
+	<item id="4">
 		<item id="0" start="18.533" duration="2.6">
 			<person>Teacher</person>
 			<text>Give me an example, please.</text>
@@ -52,7 +48,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="6">
+	<item id="5">
 		<item id="0" start="24.8" duration="3.733">
 			<person>Teacher</person>
 			<text>What do you think you will be doing at this time tomorrow?</text>
@@ -64,7 +60,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="7">
+	<item id="6">
 		<item id="0" start="32.9" duration="4.267">
 			<person>Teacher</person>
 			<text>Will you still be studying English in fifty years time?</text>
@@ -76,7 +72,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="8">
+	<item id="7">
 		<item id="0" start="42.067" duration="3.733">
 			<person>Teacher</person>
 			<text>Where do you think you'll be living in ten years time?</text>
@@ -88,35 +84,31 @@
 			<image/>
 		</item>
 	</item>
-	<item id="9">
-		<item id="0" start="50.3" duration="1.6">
+	<item id="8">
+		<item id="0" start="50.3" duration="1.867">
 			<person>Teacher</person>
 			<text>inch</text>
 			<image/>
 		</item>
 	</item>
-	<item id="10">
+	<item id="9">
 		<item id="0" start="52.167" duration="1.433">
 			<person>Teacher</person>
 			<text>foot</text>
 			<image/>
 		</item>
 	</item>
-	<item id="11">
+	<item id="10">
 		<item id="0" start="53.633" duration="1.667">
 			<person>Teacher</person>
 			<text>yard</text>
 			<image/>
 		</item>
 	</item>
-	<item id="12">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>This is an inch; this is a foot; this is a yard. An inch is about two-and-a-half centimetres. Twelve inches make a foot, and three feet make a yard. A yard is about three inches shorter than a metre.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="13">
+	<Explanation>
+		<text>This is an inch; this is a foot; this is a yard. An inch is about two-and-a-half centimetres. Twelve inches make a foot, and three feet make a yard. A yard is about three inches shorter than a metre.</text>
+	</Explanation>	
+	<item id="11">
 		<item id="0" start="55.3" duration="1.633">
 			<person>Teacher</person>
 			<text>What's this?</text>
@@ -128,7 +120,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="14">
+	<item id="12">
 		<item id="0" start="58.867" duration="1.667">
 			<person>Teacher</person>
 			<text>What's this?</text>
@@ -140,7 +132,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="15">
+	<item id="13">
 		<item id="0" start="62.5" duration="1.867">
 			<person>Teacher</person>
 			<text>What's this?</text>
@@ -152,7 +144,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="16">
+	<item id="14">
 		<item id="0" start="66.5" duration="3.233">
 			<person>Teacher</person>
 			<text>How many centimeters make an inch?</text>
@@ -164,7 +156,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="17">
+	<item id="15">
 		<item id="0" start="74.033" duration="3.0">
 			<person>Teacher</person>
 			<text>How many inches make a foot?</text>
@@ -176,7 +168,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="18">
+	<item id="16">
 		<item id="0" start="80.333" duration="2.767">
 			<person>Teacher</person>
 			<text>How many feet make a yard?</text>
@@ -188,7 +180,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="19">
+	<item id="17">
 		<item id="0" start="86.1" duration="3.267">
 			<person>Teacher</person>
 			<text>Is a yard longer than a meter?</text>
@@ -200,7 +192,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="20">
+	<item id="18">
 		<item id="0" start="94.567" duration="6.067">
 			<person>Teacher</person>
 			<text>Consequently, when we run a hundred yards, do we run further than a hundred meters?</text>
@@ -212,14 +204,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="21">
+	<item id="19">
 		<item id="0" start="108.467" duration="1.667">
 			<person>Teacher</person>
 			<text>chain</text>
 			<image/>
 		</item>
 	</item>
-	<item id="22">
+	<item id="20">
 		<item id="0" start="110.133" duration="2.6">
 			<person>Teacher</person>
 			<text>Are you wearing a chain?</text>
@@ -231,7 +223,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="23">
+	<item id="21">
 		<item id="0" start="115.667" duration="4.1">
 			<person>Teacher</person>
 			<text>What do we mean when we say someone is a chain smoker?</text>
@@ -243,21 +235,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="24">
+	<item id="22">
 		<item id="0" start="129.333" duration="1.733">
 			<person>Teacher</person>
 			<text>rise</text>
 			<image/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="23">
 		<item id="0" start="131.1" duration="1.867">
 			<person>Teacher</person>
 			<text>constantly</text>
 			<image/>
 		</item>
 	</item>
-	<item id="26">
+	<item id="24">
 		<item id="0" start="132.967" duration="2.3">
 			<person>Teacher</person>
 			<text>What's my book doing?</text>
@@ -269,7 +261,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="27">
+	<item id="25">
 		<item id="0" start="138.767" duration="3.367">
 			<person>Teacher</person>
 			<text>Does the sun rise early in winter?</text>
@@ -281,7 +273,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="28">
+	<item id="26">
 		<item id="0" start="147.233" duration="4.367">
 			<person>Teacher</person>
 			<text>Is the cost of living constantly rising these days?</text>
@@ -293,7 +285,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="29">
+	<item id="27">
 		<item id="0" start="156.4" duration="7.0">
 			<person>Teacher</person>
 			<text>What would you do if this table slowly began to rise into the air without anybody touching it?</text>
@@ -305,14 +297,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="28">
 		<item id="0" start="171.467" duration="1.7">
 			<person>Teacher</person>
 			<text>belt</text>
 			<image/>
 		</item>
 	</item>
-	<item id="31">
+	<item id="29">
 		<item id="0" start="173.2" duration="2.367">
 			<person>Teacher</person>
 			<text>Are you wearing a belt?</text>
@@ -324,49 +316,45 @@
 			<image/>
 		</item>
 	</item>
-	<item id="32">
-		<item id="0" start="178.4" duration="1.5">
+	<item id="30">
+		<item id="0" start="178.533" duration="1.667">
 			<person>Teacher</person>
 			<text>hourly</text>
 			<image/>
 		</item>
 	</item>
-	<item id="33">
+	<item id="31">
 		<item id="0" start="180.2" duration="1.7">
 			<person>Teacher</person>
 			<text>daily</text>
 			<image/>
 		</item>
 	</item>
-	<item id="34">
+	<item id="32">
 		<item id="0" start="181.933" duration="1.767">
 			<person>Teacher</person>
 			<text>weekly</text>
 			<image/>
 		</item>
 	</item>
-	<item id="35">
+	<item id="33">
 		<item id="0" start="183.733" duration="1.8">
 			<person>Teacher</person>
 			<text>monthly</text>
 			<image/>
 		</item>
 	</item>
-	<item id="36">
+	<item id="34">
 		<item id="0" start="185.533" duration="1.7">
 			<person>Teacher</person>
 			<text>yearly</text>
 			<image/>
 		</item>
 	</item>
-	<item id="37">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The words “hourly“, “daily“, “weekly“, “monthly“ and “yearly“ mean “every hour“, “every day“, “every week“, “every month“ and “every year“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="38">
+	<Explanation>
+		<text>The words “hourly“, “daily“, “weekly“, “monthly“ and “yearly“ mean “every hour“, “every day“, “every week“, “every month“ and “every year“.</text>
+	</Explanation>	
+	<item id="35">
 		<item id="0" start="187.267" duration="6.567">
 			<person>Teacher</person>
 			<text>What do the words &quot;hourly&quot;, &quot;daily&quot;, &quot;weekly&quot;, &quot;monthly&quot; and &quot;yearly&quot; mean?</text>
@@ -378,7 +366,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="36">
 		<item id="0" start="203.533" duration="4.2">
 			<person>Teacher</person>
 			<text>Do most radio stations have hourly traffic news?</text>
@@ -390,7 +378,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="40">
+	<item id="37">
 		<item id="0" start="212.5" duration="3.333">
 			<person>Teacher</person>
 			<text>Which daily newspaper do you read?</text>
@@ -402,7 +390,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="38">
 		<item id="0" start="218.833" duration="3.767">
 			<person>Teacher</person>
 			<text>Do you read any weekly newspapers?</text>
@@ -414,7 +402,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="39">
 		<item id="0" start="226.5" duration="3.9">
 			<person>Teacher</person>
 			<text>How many hours of English do you study monthly?</text>
@@ -426,7 +414,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="40">
 		<item id="0" start="234.533" duration="3.833">
 			<person>Teacher</person>
 			<text>Where do you usually go for your yearly holidays?</text>
@@ -438,35 +426,31 @@
 			<image/>
 		</item>
 	</item>
-	<item id="44">
+	<item id="41">
 		<item id="0" start="242.733" duration="1.667">
 			<person>Teacher</person>
 			<text>allow</text>
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="42">
 		<item id="0" start="244.4" duration="3.4">
 			<person>Teacher</person>
 			<text>let - let - let</text>
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="43">
 		<item id="0" start="247.833" duration="1.767">
 			<person>Teacher</person>
 			<text>everyday</text>
 			<image/>
 		</item>
 	</item>
-	<item id="47">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The verbs “allow“ and “let“ have the same meaning. The difference is that “allow“ has the infinitive with “to“ after it, whereas “let“ has the infinitive without “to“ after it. For example, we can say “The policeman allowed the man to go home“ or “The policeman let the man go home“. In everyday English, “let“ is more common than “allow“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="48">
+	<Explanation>
+		<text>The verbs “allow“ and “let“ have the same meaning. The difference is that “allow“ has the infinitive with “to“ after it, whereas “let“ has the infinitive without “to“ after it. For example, we can say “The policeman allowed the man to go home“ or “The policeman let the man go home“. In everyday English, “let“ is more common than “allow“.</text>
+	</Explanation>	
+	<item id="44">
 		<item id="0" start="249.6" duration="3.767">
 			<person>Teacher</person>
 			<text>What's the difference between &quot;allow&quot; and &quot;let&quot;?</text>
@@ -478,7 +462,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="45">
 		<item id="0" start="264.9" duration="2.6">
 			<person>Teacher</person>
 			<text>Give me an example, please.</text>
@@ -490,7 +474,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="46">
 		<item id="0" start="275.0" duration="5.2">
 			<person>Teacher</person>
 			<text>What sometimes happens when we let people borrow things that belong to us?</text>
@@ -502,7 +486,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="47">
 		<item id="0" start="286.167" duration="5.2">
 			<person>Teacher</person>
 			<text>Do you think it's a good idea to allow children to do as they please?</text>
@@ -514,7 +498,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="48">
 		<item id="0" start="296.767" duration="6.0">
 			<person>Teacher</person>
 			<text>Do you think it's dangerous these days to let people we don't know enter our houses?</text>
@@ -526,7 +510,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="49">
 		<item id="0" start="308.933" duration="5.5">
 			<person>Teacher</person>
 			<text>Do you think more people would kill each other if the law of the country let them?</text>
@@ -538,14 +522,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="54">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Another difference between “allow“ and “let“ is that we cannot use “let“ in the passive voice. We cannot say “I was let“; we must say “I was allowed“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="55">
+	<Explanation>
+		<text>Another difference between “allow“ and “let“ is that we cannot use “let“ in the passive voice. We cannot say “I was let“; we must say “I was allowed“.</text>
+	</Explanation>	
+	<item id="50">
 		<item id="0" start="319.933" duration="6.2">
 			<person>Teacher</person>
 			<text>Which is it right to say &quot;I was let&quot; or &quot;I was allowed&quot;?</text>
@@ -557,7 +537,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="51">
 		<item id="0" start="329.8" duration="1.467">
 			<person>Teacher</person>
 			<text>Why?</text>
@@ -569,7 +549,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="52">
 		<item id="0" start="335.7" duration="5.733">
 			<person>Teacher</person>
 			<text>Do you think students should be allowed to use their mobile phones during lessons?</text>
@@ -581,11 +561,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="58">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>Dictation 45\nFrom over the lake came the sound of the church bells.\nThe fat man swam better than his thin friend.\nShe lost her way and was unable to find a policeman.\nSome past participles of verbs are: begun, known, swum, taken, shaken, written, forgotten and broken.\nWe use the word “whether” to express a doubt.\nThe only way to learn how to cook is by practice.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>Dictation 45\nFrom over the lake came the sound of the church bells.\nThe fat man swam better than his thin friend.\nShe lost her way and was unable to find a policeman.\nSome past participles of verbs are: begun, known, swum, taken, shaken, written, forgotten and broken.\nWe use the word “whether” to express a doubt.\nThe only way to learn how to cook is by practice.</text>
+	</Dictation>	
 </items>

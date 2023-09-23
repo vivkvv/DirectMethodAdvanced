@@ -1,342 +1,488 @@
 <?xml version="1.0" ?>
 <items>
- <item id="0">
-  <translation/>
- </item>
- <item id="1">
-  <translation/>
- </item>
- <item id="2">
-  <translation>причина</translation>
- </item>
- <item id="3">
-  <translation>болезнь</translation>
- </item>
- <item id="4">
-  <translation>усталость</translation>
- </item>
- <item id="5">
-  <translation>темнота</translation>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="6">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="7">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="8">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="9">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="10">
-  <translation/>
- </item>
- <item id="11">
-  <translation>один</translation>
- </item>
- <item id="12">
-  <translation/>
- </item>
- <item id="12">
-  <translation/>
- </item>
- <item id="13">
-  <translation/>
- </item>
- <item id="13">
-  <translation/>
- </item>
- <item id="14">
-  <translation/>
- </item>
- <item id="14">
-  <translation/>
- </item>
- <item id="15">
-  <translation>уже</translation>
- </item>
- <item id="16">
-  <translation/>
- </item>
- <item id="16">
-  <translation/>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="17">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="18">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="19">
-  <translation/>
- </item>
- <item id="20">
-  <translation>бросил</translation>
- </item>
- <item id="21">
-  <translation/>
- </item>
- <item id="21">
-  <translation/>
- </item>
- <item id="22">
-  <translation/>
- </item>
- <item id="22">
-  <translation/>
- </item>
- <item id="23">
-  <translation/>
- </item>
- <item id="24">
-  <translation/>
- </item>
- <item id="25">
-  <translation>несмотря на</translation>
- </item>
- <item id="26">
-  <translation>несмотря на</translation>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="27">
-  <translation/>
- </item>
- <item id="28">
-  <translation/>
- </item>
- <item id="28">
-  <translation/>
- </item>
- <item id="29">
-  <translation/>
- </item>
- <item id="29">
-  <translation/>
- </item>
- <item id="30">
-  <translation/>
- </item>
- <item id="30">
-  <translation/>
- </item>
- <item id="31">
-  <translation>кто-либо</translation>
- </item>
- <item id="32">
-  <translation>кто-то</translation>
- </item>
- <item id="33">
-  <translation>никто</translation>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="34">
-  <translation/>
- </item>
- <item id="35">
-  <translation/>
- </item>
- <item id="35">
-  <translation/>
- </item>
- <item id="36">
-  <translation/>
- </item>
- <item id="36">
-  <translation/>
- </item>
- <item id="37">
-  <translation>брать в долг</translation>
- </item>
- <item id="38">
-  <translation/>
- </item>
- <item id="38">
-  <translation/>
- </item>
- <item id="39">
-  <translation/>
- </item>
- <item id="39">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="40">
-  <translation/>
- </item>
- <item id="41">
-  <translation>мой собственный</translation>
- </item>
- <item id="42">
-  <translation>усиливать, подчеркивать</translation>
- </item>
- <item id="43">
-  <translation/>
- </item>
- <item id="43">
-  <translation/>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="44">
-  <translation/>
- </item>
- <item id="45">
-  <translation/>
- </item>
- <item id="45">
-  <translation/>
- </item>
- <item id="46">
-  <translation>кожа</translation>
- </item>
- <item id="47">
-  <translation/>
- </item>
- <item id="47">
-  <translation/>
- </item>
- <item id="48">
-  <translation>провод</translation>
- </item>
- <item id="49">
-  <translation>электричество</translation>
- </item>
- <item id="50">
-  <translation>связь</translation>
- </item>
- <item id="51">
-  <translation>беспроводной</translation>
- </item>
- <item id="52">
-  <translation>Wi-Fi, беспроводной доступ в интернет</translation>
- </item>
- <item id="53">
-  <translation>дефис</translation>
- </item>
- <item id="54">
-  <translation/>
- </item>
- <item id="54">
-  <translation/>
- </item>
- <item id="55">
-  <translation/>
- </item>
- <item id="55">
-  <translation/>
- </item>
- <item id="56">
-  <translation/>
- </item>
- <item id="56">
-  <translation/>
- </item>
- <item id="57">
-  <translation/>
- </item>
- <item id="57">
-  <translation/>
- </item>
- <item id="58">
-  <translation/>
- </item>
- <item id="58">
-  <translation/>
- </item>
- <item id="59">
-  <translation>варить</translation>
- </item>
- <item id="60">
-  <translation>жарить</translation>
- </item>
- <item id="61">
-  <translation>жарить, запекать</translation>
- </item>
- <item id="62">
-  <translation/>
- </item>
- <item id="62">
-  <translation/>
- </item>
- <item id="63">
-  <translation/>
- </item>
- <item id="63">
-  <translation/>
- </item>
- <item id="64">
-  <translation/>
- </item>
- <item id="64">
-  <translation/>
- </item>
- <item id="65">
-  <translation>кирпич</translation>
- </item>
- <item id="66">
-  <translation/>
- </item>
- <item id="66">
-  <translation/>
- </item>
- <item id="67">
-  <translation>также</translation>
- </item>
- <item id="68">
-  <translation>также</translation>
- </item>
- <item id="69">
-  <translation>также</translation>
- </item>
- <item id="70">
-  <translation/>
- </item>
- <item id="70">
-  <translation/>
- </item>
- <item id="71">
-  <translation/>
- </item>
- <item id="71">
-  <translation/>
- </item>
- <item id="72">
-  <translation/>
- </item>
- <item id="72">
-  <translation/>
- </item>
+	<item id="0">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="1">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="2">
+		<item id="0">
+			<translation>причина</translation>
+		</item>
+	</item>
+	<item id="3">
+		<item id="0">
+			<translation>болезнь</translation>
+		</item>
+	</item>
+	<item id="4">
+		<item id="0">
+			<translation>усталость</translation>
+		</item>
+	</item>
+	<item id="5">
+		<item id="0">
+			<translation>темнота</translation>
+		</item>
+	</item>
+	<item id="7">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="8">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="9">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="11">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="12">
+		<item id="0">
+			<translation>один</translation>
+		</item>
+	</item>
+	<item id="13">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="14">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="15">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="16">
+		<item id="0">
+			<translation>уже</translation>
+		</item>
+	</item>
+	<item id="17">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="18">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="19">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="20">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="21">
+		<item id="0">
+			<translation>бросил</translation>
+		</item>
+	</item>
+	<item id="22">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="23">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="24">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="25">
+		<item id="0">
+			<translation/>
+		</item>
+	</item>
+	<item id="26">
+		<item id="0">
+			<translation>несмотря на</translation>
+		</item>
+	</item>
+	<item id="27">
+		<item id="0">
+			<translation>несмотря на</translation>
+		</item>
+	</item>
+	<item id="29">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="30">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="31">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="32">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="33">
+		<item id="0">
+			<translation>кто-либо</translation>
+		</item>
+	</item>
+	<item id="34">
+		<item id="0">
+			<translation>кто-то</translation>
+		</item>
+	</item>
+	<item id="35">
+		<item id="0">
+			<translation>никто</translation>
+		</item>
+	</item>
+	<item id="37">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="38">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="39">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="40">
+		<item id="0">
+			<translation>брать в долг</translation>
+		</item>
+	</item>
+	<item id="41">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
+			<translation>мой собственный</translation>
+		</item>
+	</item>
+	<item id="45">
+		<item id="0">
+			<translation>усиливать, подчеркивать</translation>
+		</item>
+	</item>
+	<item id="47">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="48">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="49">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="50">
+		<item id="0">
+			<translation>кожа</translation>
+		</item>
+	</item>
+	<item id="51">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="52">
+		<item id="0">
+			<translation>провод</translation>
+		</item>
+	</item>
+	<item id="53">
+		<item id="0">
+			<translation>электричество</translation>
+		</item>
+	</item>
+	<item id="54">
+		<item id="0">
+			<translation>связь</translation>
+		</item>
+	</item>
+	<item id="55">
+		<item id="0">
+			<translation>беспроводной</translation>
+		</item>
+	</item>
+	<item id="56">
+		<item id="0">
+			<translation>Wi-Fi, беспроводной доступ в интернет</translation>
+		</item>
+	</item>
+	<item id="57">
+		<item id="0">
+			<translation>дефис</translation>
+		</item>
+	</item>
+	<item id="58">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="59">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="60">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="61">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="62">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="63">
+		<item id="0">
+			<translation>варить</translation>
+		</item>
+	</item>
+	<item id="64">
+		<item id="0">
+			<translation>жарить</translation>
+		</item>
+	</item>
+	<item id="65">
+		<item id="0">
+			<translation>жарить, запекать</translation>
+		</item>
+	</item>
+	<item id="66">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="67">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="68">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="69">
+		<item id="0">
+			<translation>кирпич</translation>
+		</item>
+	</item>
+	<item id="70">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="71">
+		<item id="0">
+			<translation>также</translation>
+		</item>
+	</item>
+	<item id="72">
+		<item id="0">
+			<translation>также</translation>
+		</item>
+	</item>
+	<item id="73">
+		<item id="0">
+			<translation>также</translation>
+		</item>
+	</item>
+	<item id="75">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="76">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="78">
+		<item id="0">
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
 </items>

@@ -14,56 +14,52 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>Before we think about the 3rd conditional, we should remind ourselves of the 1st conditional and 2nd conditional:</text>
+	</Explanation>	
 	<item id="2">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Before we think about the 3rd conditional, we should remind ourselves of the 1st conditional and 2nd conditional:</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="3">
 		<item id="0" start="4.633" duration="2.067">
 			<person>Teacher</person>
 			<text>1st conditional</text>
 			<image/>
 		</item>
 	</item>
-	<item id="4">
+	<item id="3">
 		<item id="0" start="6.7" duration="6.767">
 			<person>Teacher</person>
 			<text>&quot;if&quot; + present + &quot;will do&quot; = real possibility</text>
 			<image/>
 		</item>
 	</item>
-	<item id="5">
+	<item id="4">
 		<item id="0" start="13.5" duration="4.4">
 			<person>Teacher</person>
 			<text>If I go to the park tomorrow, I will play football</text>
 			<image/>
 		</item>
 	</item>
-	<item id="6">
+	<item id="5">
 		<item id="0" start="17.9" duration="2.067">
 			<person>Teacher</person>
 			<text>2nd conditional</text>
 			<image/>
 		</item>
 	</item>
-	<item id="7">
+	<item id="6">
 		<item id="0" start="20.0" duration="6.6">
 			<person>Teacher</person>
 			<text>&quot;if&quot; + past + &quot;would do&quot; = only imagining</text>
 			<image/>
 		</item>
 	</item>
-	<item id="8">
+	<item id="7">
 		<item id="0" start="26.6" duration="4.033">
 			<person>Teacher</person>
 			<text>If I went to the park tomorrow, I would play football</text>
 			<image/>
 		</item>
 	</item>
-	<item id="9">
+	<item id="8">
 		<item id="0" start="30.633" duration="2.9">
 			<person>Teacher</person>
 			<text>When do we use the first conditional?</text>
@@ -75,7 +71,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="10">
+	<item id="9">
 		<item id="0" start="40.4" duration="2.233">
 			<person>Teacher</person>
 			<text>What is its construction?</text>
@@ -87,7 +83,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="11">
+	<item id="10">
 		<item id="0" start="48.3" duration="2.267">
 			<person>Teacher</person>
 			<text>Give me an example, please.</text>
@@ -99,7 +95,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="12">
+	<item id="11">
 		<item id="0" start="55.067" duration="2.933">
 			<person>Teacher</person>
 			<text>When do we use the second conditional?</text>
@@ -111,7 +107,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="13">
+	<item id="12">
 		<item id="0" start="63.767" duration="2.2">
 			<person>Teacher</person>
 			<text>What is its construction?</text>
@@ -123,7 +119,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="14">
+	<item id="13">
 		<item id="0" start="71.967" duration="2.267">
 			<person>Teacher</person>
 			<text>Give me an example, please.</text>
@@ -135,35 +131,31 @@
 			<image/>
 		</item>
 	</item>
-	<item id="15">
+	<item id="14">
 		<item id="0" start="79.2" duration="2.067">
 			<person>Teacher</person>
 			<text>3rd conditional</text>
 			<image/>
 		</item>
 	</item>
-	<item id="16">
+	<item id="15">
 		<item id="0" start="81.3" duration="7.467">
 			<person>Teacher</person>
 			<text>&quot;if&quot; + past perfect + &quot;would have done&quot; = imagining in the past</text>
 			<image/>
 		</item>
 	</item>
-	<item id="17">
+	<item id="16">
 		<item id="0" start="88.767" duration="4.9">
 			<person>Teacher</person>
 			<text>If I had gone to the park yesterday, I would have played football</text>
 			<image/>
 		</item>
 	</item>
-	<item id="18">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We use the 3rd conditional to communicate that we are imagining something in the past that did not really happen. Its construction is “If“ + past perfect + “would have done“. The sentence “If I had gone to the park yesterday, I would have played football“ means that, in fact, I did not go to the park yesterday, and I did not play football; I am only imagining. </text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="19">
+	<Explanation>
+		<text>We use the 3rd conditional to communicate that we are imagining something in the past that did not really happen. Its construction is “If“ + past perfect + “would have done“. The sentence “If I had gone to the park yesterday, I would have played football“ means that, in fact, I did not go to the park yesterday, and I did not play football; I am only imagining. </text>
+	</Explanation>	
+	<item id="17">
 		<item id="0" start="93.7" duration="2.8">
 			<person>Teacher</person>
 			<text>When do we use the third conditional?</text>
@@ -175,7 +167,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="20">
+	<item id="18">
 		<item id="0" start="103.567" duration="2.233">
 			<person>Teacher</person>
 			<text>What is its construction?</text>
@@ -187,7 +179,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="21">
+	<item id="19">
 		<item id="0" start="112.1" duration="2.233">
 			<person>Teacher</person>
 			<text>Give me an example, please.</text>
@@ -199,14 +191,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="22">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Notice that, in the 3rd conditional, we put the word “have“ and the past participle after the word “would“. For example, we say “I would have taken“; “you would have taken“; “he would have taken“ etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="23">
+	<Explanation>
+		<text>Notice that, in the 3rd conditional, we put the word “have“ and the past participle after the word “would“. For example, we say “I would have taken“; “you would have taken“; “he would have taken“ etc.</text>
+	</Explanation>	
+	<item id="20">
 		<item id="0" start="119.5" duration="4.9">
 			<person>Teacher</person>
 			<text>In the third conditional what do we put after the word would?</text>
@@ -218,7 +206,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="24">
+	<item id="21">
 		<item id="0" start="131.367" duration="2.533">
 			<person>Teacher</person>
 			<text>Give me some examples, please.</text>
@@ -230,7 +218,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="22">
 		<item id="0" start="139.667" duration="5.667">
 			<person>Teacher</person>
 			<text>If you had been born in England, which language would you have spoken as a child?</text>
@@ -242,7 +230,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="26">
+	<item id="23">
 		<item id="0" start="149.967" duration="3.033">
 			<person>Teacher</person>
 			<text>Were you, in fact, born in England?</text>
@@ -254,14 +242,10 @@
 			<image/>
 		</item>
 	</item>
-	<item id="27">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>Exactly; we are only imagining.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="28">
+	<Explanation>
+		<text>Exactly; we are only imagining.</text>
+	</Explanation>	
+	<item id="24">
 		<item id="0" start="158.067" duration="3.667">
 			<person>Teacher</person>
 			<text>Did you find £100 on the street yesterday?</text>
@@ -273,7 +257,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="29">
+	<item id="25">
 		<item id="0" start="165.8" duration="5.2">
 			<person>Teacher</person>
 			<text>But if you had found £100 on the street yesterday, what would you have done with it?</text>
@@ -285,7 +269,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="26">
 		<item id="0" start="177.033" duration="5.667">
 			<person>Teacher</person>
 			<text>If you had not decided to study English, which language would you have studied instead?</text>
@@ -297,7 +281,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="31">
+	<item id="27">
 		<item id="0" start="187.9" duration="4.767">
 			<person>Teacher</person>
 			<text>If you had not come to school last week, what would you have done instead?</text>
@@ -305,18 +289,18 @@
 		</item>
 		<item id="1" start="192.7" duration="6.9">
 			<person>Student</person>
-			<text>If I had not come to school last week, I would have gone on holiday/stayed at home etc.</text>
+			<text>If I had not come to school last week, I would have gone on holiday stayed at home etc.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="32">
+	<item id="28">
 		<item id="0" start="199.6" duration="1.567">
 			<person>Teacher</person>
 			<text>diary</text>
 			<image/>
 		</item>
 	</item>
-	<item id="33">
+	<item id="29">
 		<item id="0" start="201.2" duration="3.1">
 			<person>Teacher</person>
 			<text>What do people use diaries for?</text>
@@ -328,33 +312,33 @@
 			<image/>
 		</item>
 	</item>
-	<item id="34">
+	<item id="30">
 		<item id="0" start="210.733" duration="1.7">
 			<person>Teacher</person>
 			<text>character</text>
 			<image/>
 		</item>
 	</item>
-	<item id="35">
-		<item id="0" start="212.3" duration="3.7">
+	<item id="31">
+		<item id="0" start="212.467" duration="3.7">
 			<person>Teacher</person>
 			<text>What kind of character do you like to see in a person?</text>
 			<image/>
 		</item>
-		<item id="1" start="216.1" duration="3.5">
+		<item id="1" start="216.167" duration="3.7">
 			<person>Student</person>
 			<text>I like to see a friendly character in a person.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="36">
+	<item id="32">
 		<item id="0" start="219.9" duration="1.533">
 			<person>Teacher</person>
 			<text>really</text>
 			<image/>
 		</item>
 	</item>
-	<item id="37">
+	<item id="33">
 		<item id="0" start="221.433" duration="2.8">
 			<person>Teacher</person>
 			<text>Have you ever got up really early?</text>
@@ -366,7 +350,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="38">
+	<item id="34">
 		<item id="0" start="227.767" duration="1.867">
 			<person>Teacher</person>
 			<text>For what reason?</text>
@@ -378,26 +362,26 @@
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="35">
 		<item id="0" start="231.6" duration="6.0">
 			<person>Teacher</person>
 			<text>If you are driving a car on a long journey and suddenly felt really tired, what would you do?</text>
 			<image/>
 		</item>
-		<item id="1" start="237.6" duration="10.0">
+		<item id="1" start="237.633" duration="10.2">
 			<person>Student</person>
 			<text>If I were driving a car on a long journey and suddenly felt really tired, I'd stop the car, buy a cup of coffee and wait until I felt more awake.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="40">
+	<item id="36">
 		<item id="0" start="247.833" duration="1.833">
 			<person>Teacher</person>
 			<text>ran</text>
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="37">
 		<item id="0" start="249.667" duration="2.433">
 			<person>Teacher</person>
 			<text>What's the past of &quot;run&quot;?</text>
@@ -409,7 +393,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="38">
 		<item id="0" start="254.9" duration="5.167">
 			<person>Teacher</person>
 			<text>If you ran against him or me etc. who do you think could win?</text>
@@ -421,21 +405,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="39">
 		<item id="0" start="264.067" duration="1.9">
 			<person>Teacher</person>
 			<text>improve</text>
 			<image/>
 		</item>
 	</item>
-	<item id="44">
+	<item id="40">
 		<item id="0" start="265.967" duration="1.567">
 			<person>Teacher</person>
 			<text>coach</text>
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="41">
 		<item id="0" start="267.567" duration="2.533">
 			<person>Teacher</person>
 			<text>How can we improve our English?</text>
@@ -447,7 +431,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="42">
 		<item id="0" start="275.667" duration="3.733">
 			<person>Teacher</person>
 			<text>Why do even the best tennis players need a coach?</text>
@@ -459,7 +443,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="47">
+	<item id="43">
 		<item id="0" start="284.433" duration="5.0">
 			<person>Teacher</person>
 			<text>Is it cheaper to travel by coach or by train in your country?</text>
@@ -471,21 +455,17 @@
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="44">
 		<item id="0" start="293.167" duration="3.133">
 			<person>Teacher</person>
 			<text>Adverbs formed from adjectives</text>
 			<image/>
 		</item>
 	</item>
-	<item id="49">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>As you have already seen, one very common way of forming adverbs is by adding the letters “ly“ to the adjective. For example, “careful – carefully“; “dangerous – dangerously“; “useless – uselessly“ etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="50">
+	<Explanation>
+		<text>As you have already seen, one very common way of forming adverbs is by adding the letters “ly“ to the adjective. For example, “careful – carefully“; “dangerous – dangerously“; “useless – uselessly“ etc.</text>
+	</Explanation>	
+	<item id="45">
 		<item id="0" start="296.3" duration="4.933">
 			<person>Teacher</person>
 			<text>Tell me one very common way of forming adverbs from adjectives.</text>
@@ -497,7 +477,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="46">
 		<item id="0" start="310.2" duration="2.533">
 			<person>Teacher</person>
 			<text>Give me some examples, please.</text>
@@ -509,26 +489,26 @@
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="47">
 		<item id="0" start="318.267" duration="1.667">
 			<person>Teacher</person>
 			<text>flew</text>
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="48">
 		<item id="0" start="319.967" duration="2.633">
 			<person>Teacher</person>
 			<text>What's the path to &quot;fly&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="322.4" duration="2.5">
+		<item id="1" start="322.6" duration="2.8">
 			<person>Student</person>
-			<text>The past of &quot;fly&quot; is &quot;flew&quot;.</text>
+			<text>The pastor &quot;fly&quot; is &quot;flew&quot;.</text>
 			<image/>
 		</item>
 	</item>
-	<item id="54">
+	<item id="49">
 		<item id="0" start="325.433" duration="7.4">
 			<person>Teacher</person>
 			<text>If you flew around the world in a straight line, would you finish in the same place as you had started?</text>
@@ -540,7 +520,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="55">
+	<item id="50">
 		<item id="0" start="339.733" duration="4.0">
 			<person>Teacher</person>
 			<text>If a bird flew into this room, what did you do?</text>
@@ -552,14 +532,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="51">
 		<item id="0" start="348.433" duration="1.567">
 			<person>Teacher</person>
 			<text>wool</text>
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="52">
 		<item id="0" start="350.0" duration="3.067">
 			<person>Teacher</person>
 			<text>Which animal do we get wool from?</text>
@@ -571,7 +551,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="53">
 		<item id="0" start="355.767" duration="2.6">
 			<person>Teacher</person>
 			<text>What can we make from wool?</text>
@@ -583,28 +563,28 @@
 			<image/>
 		</item>
 	</item>
-	<item id="59">
+	<item id="54">
 		<item id="0" start="362.9" duration="4.3">
 			<person>Teacher</person>
 			<text>Possessive case of plural nouns ending in &quot;s&quot;</text>
 			<image/>
 		</item>
 	</item>
-	<item id="60">
+	<item id="55">
 		<item id="0" start="367.2" duration="1.967">
 			<person>Teacher</person>
 			<text>apostrophe</text>
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="56">
 		<item id="0" start="369.2" duration="1.7">
 			<person>Teacher</person>
 			<text>case</text>
 			<image/>
 		</item>
 	</item>
-	<item id="62">
+	<item id="57">
 		<item id="0" start="370.933" duration="7.9">
 			<person>Teacher</person>
 			<text>How do we form the possessive case of singular nouns like &quot;girl&quot;, &quot;man&quot;, &quot;child&quot; etc.?</text>
@@ -616,7 +596,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="63">
+	<item id="58">
 		<item id="0" start="388.867" duration="2.5">
 			<person>Teacher</person>
 			<text>Give me some examples, please.</text>
@@ -628,7 +608,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="64">
+	<item id="59">
 		<item id="0" start="397.4" duration="8.8">
 			<person>Teacher</person>
 			<text>How do we form the possessive case of plural nouns that do not end in 's' such as &quot;men&quot;, &quot;women&quot;, &quot;children&quot; etc.?</text>
@@ -640,7 +620,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="65">
+	<item id="60">
 		<item id="0" start="418.667" duration="2.467">
 			<person>Teacher</person>
 			<text>Give me some examples, please.</text>
@@ -652,7 +632,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="66">
+	<item id="61">
 		<item id="0" start="427.033" duration="5.333">
 			<person>Teacher</person>
 			<text>How do we form the possessive case of a plural noun which already ends in 's'?</text>
@@ -664,7 +644,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="67">
+	<item id="62">
 		<item id="0" start="440.2" duration="2.433">
 			<person>Teacher</person>
 			<text>Give me some examples, please.</text>
@@ -676,7 +656,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="68">
+	<item id="63">
 		<item id="0" start="448.7" duration="3.8">
 			<person>Teacher</person>
 			<text>What do footballers shirts have written on their backs?</text>
@@ -688,14 +668,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="69">
+	<item id="64">
 		<item id="0" start="456.633" duration="1.4">
 			<person>Teacher</person>
 			<text>kick</text>
 			<image/>
 		</item>
 	</item>
-	<item id="70">
+	<item id="65">
 		<item id="0" start="458.067" duration="1.767">
 			<person>Teacher</person>
 			<text>What am I doing?</text>
@@ -707,21 +687,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="71">
+	<item id="66">
 		<item id="0" start="462.1" duration="1.7">
 			<person>Teacher</person>
 			<text>coast</text>
 			<image/>
 		</item>
 	</item>
-	<item id="72">
+	<item id="67">
 		<item id="0" start="463.833" duration="1.6">
 			<person>Teacher</person>
 			<text>certain</text>
 			<image/>
 		</item>
 	</item>
-	<item id="73">
+	<item id="68">
 		<item id="0" start="465.433" duration="4.267">
 			<person>Teacher</person>
 			<text>Can the English coast be seen from the coast of France?</text>
@@ -733,15 +713,15 @@
 			<image/>
 		</item>
 	</item>
-	<item id="74">
+	<item id="69">
 		<item id="0" start="475.1" duration="1.6">
 			<person>Teacher</person>
 			<text>tire</text>
 			<image/>
 		</item>
 	</item>
-	<item id="75">
-		<item id="0" start="476.7" duration="2.4">
+	<item id="70">
+		<item id="0" start="476.733" duration="2.667">
 			<person>Teacher</person>
 			<text>Do you ever tire of speaking?</text>
 			<image/>
@@ -752,11 +732,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="76">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>Dictation 48\nWhat have they just done?\nThey’ve just learnt that we use the 1st conditional to communicate that we think something is a real possibility.\nIts construction is “if” + present + “will do”.\nIn the 2nd conditional, we use the past tense to communicate that we are only imagining something.\nWe use “would” followed by the infinitive without “to” to talk about the imagined result.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>Dictation 48\nWhat have they just done?\nThey’ve just learnt that we use the 1st conditional to communicate that we think something is a real possibility.\nIts construction is “if” + present + “will do”.\nIn the 2nd conditional, we use the past tense to communicate that we are only imagining something.\nWe use “would” followed by the infinitive without “to” to talk about the imagined result.</text>
+	</Dictation>	
 </items>

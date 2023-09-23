@@ -7,15 +7,12 @@
 	</item>
 	<item id="1">
 		<item id="0">
-			<translation>выглядеть как, быть похожим</translation>
+			<translation/>
 		</item>
 	</item>
 	<item id="2">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>я буду говорить</translation>
 		</item>
 	</item>
 	<item id="3">
@@ -52,17 +49,25 @@
 	</item>
 	<item id="7">
 		<item id="0">
-			<translation>путешествовать</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="8">
 		<item id="0">
-			<translation>путешествие</translation>
+			<translation>дюйм</translation>
 		</item>
 	</item>
 	<item id="9">
 		<item id="0">
-			<translation>только</translation>
+			<translation>фут</translation>
+		</item>
+	</item>
+	<item id="10">
+		<item id="0">
+			<translation>ярд</translation>
 		</item>
 	</item>
 	<item id="11">
@@ -91,7 +96,10 @@
 	</item>
 	<item id="14">
 		<item id="0">
-			<translation>конечно</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="15">
@@ -104,7 +112,10 @@
 	</item>
 	<item id="16">
 		<item id="0">
-			<translation>в наше время</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="17">
@@ -125,7 +136,7 @@
 	</item>
 	<item id="19">
 		<item id="0">
-			<translation>страдать</translation>
+			<translation>цепь</translation>
 		</item>
 	</item>
 	<item id="20">
@@ -138,20 +149,20 @@
 	</item>
 	<item id="21">
 		<item id="0">
-			<translation>желание</translation>
-		</item>
-	</item>
-	<item id="22">
-		<item id="0">
 			<translation/>
 		</item>
 		<item id="1">
 			<translation/>
 		</item>
 	</item>
+	<item id="22">
+		<item id="0">
+			<translation>подниматься, возрастать</translation>
+		</item>
+	</item>
 	<item id="23">
 		<item id="0">
-			<translation>существовать</translation>
+			<translation>постоянно</translation>
 		</item>
 	</item>
 	<item id="24">
@@ -164,17 +175,31 @@
 	</item>
 	<item id="25">
 		<item id="0">
-			<translation>напоминать</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="26">
 		<item id="0">
-			<translation>иначе говоря</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="27">
 		<item id="0">
-			<translation>член</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
+		</item>
+	</item>
+	<item id="28">
+		<item id="0">
+			<translation>пояс, ремень</translation>
 		</item>
 	</item>
 	<item id="29">
@@ -187,34 +212,30 @@
 	</item>
 	<item id="30">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>ежечасный, ежечасно</translation>
 		</item>
 	</item>
 	<item id="31">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>ежедневный, ежедневно</translation>
 		</item>
 	</item>
 	<item id="32">
 		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
+			<translation>еженедельный, еженедельно</translation>
 		</item>
 	</item>
 	<item id="33">
 		<item id="0">
-			<translation>библиотека</translation>
+			<translation>ежемесячный, ежемесячно</translation>
 		</item>
 	</item>
 	<item id="34">
+		<item id="0">
+			<translation>ежегодный, ежегодно</translation>
+		</item>
+	</item>
+	<item id="35">
 		<item id="0">
 			<translation/>
 		</item>
@@ -222,19 +243,20 @@
 			<translation/>
 		</item>
 	</item>
-	<item id="35">
-		<item id="0">
-			<translation>даже если</translation>
-		</item>
-	</item>
 	<item id="36">
 		<item id="0">
-			<translation>даже</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="37">
 		<item id="0">
-			<translation>даже не</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="38">
@@ -263,25 +285,33 @@
 	</item>
 	<item id="41">
 		<item id="0">
+			<translation>позволять</translation>
+		</item>
+	</item>
+	<item id="42">
+		<item id="0">
+			<translation>позволять - позволил - позволил</translation>
+		</item>
+	</item>
+	<item id="43">
+		<item id="0">
+			<translation>повседневный</translation>
+		</item>
+	</item>
+	<item id="44">
+		<item id="0">
 			<translation/>
 		</item>
 		<item id="1">
 			<translation/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="45">
 		<item id="0">
-			<translation>к, в (предлог направления)</translation>
+			<translation/>
 		</item>
-	</item>
-	<item id="43">
-		<item id="0">
-			<translation>в, возле</translation>
-		</item>
-	</item>
-	<item id="44">
-		<item id="0">
-			<translation>направление</translation>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="46">
@@ -318,55 +348,21 @@
 	</item>
 	<item id="50">
 		<item id="0">
-			<translation>скоро</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="51">
 		<item id="0">
-			<translation>сразу же</translation>
+			<translation/>
+		</item>
+		<item id="1">
+			<translation/>
 		</item>
 	</item>
 	<item id="52">
-		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
-		</item>
-	</item>
-	<item id="53">
-		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
-		</item>
-	</item>
-	<item id="54">
-		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
-		</item>
-	</item>
-	<item id="55">
-		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
-		</item>
-	</item>
-	<item id="56">
-		<item id="0">
-			<translation/>
-		</item>
-		<item id="1">
-			<translation/>
-		</item>
-	</item>
-	<item id="57">
 		<item id="0">
 			<translation/>
 		</item>

@@ -35,14 +35,10 @@
 			<image/>
 		</item>
 	</item>
+	<Explanation>
+		<text>The words “may“ and “might“ both express the idea of “perhaps“, but we cannot use “may“ in the 2nd conditional. For example, we cannot say “If I was rich, I may buy a big house “; we must say “I might buy“ instead.</text>
+	</Explanation>	
 	<item id="5">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The words “may“ and “might“ both express the idea of “perhaps“, but we cannot use “may“ in the 2nd conditional. For example, we cannot say “If I was rich, I may buy a big house “; we must say “I might buy“ instead.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="6">
 		<item id="0" start="9.133" duration="3.9">
 			<person>Teacher</person>
 			<text>What do the words &quot;may&quot; and &quot;might&quot; express?</text>
@@ -54,7 +50,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="7">
+	<item id="6">
 		<item id="0" start="18.233" duration="3.367">
 			<person>Teacher</person>
 			<text>What's the difference between &quot;may&quot; and &quot;might&quot;?</text>
@@ -66,7 +62,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="8">
+	<item id="7">
 		<item id="0" start="28.433" duration="2.167">
 			<person>Teacher</person>
 			<text>Give me an example.</text>
@@ -78,7 +74,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="9">
+	<item id="8">
 		<item id="0" start="35.067" duration="2.533">
 			<person>Teacher</person>
 			<text>Do you think it may rain later?</text>
@@ -90,7 +86,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="10">
+	<item id="9">
 		<item id="0" start="40.833" duration="3.1">
 			<person>Teacher</person>
 			<text>What do you think I might have in my pocket?</text>
@@ -102,7 +98,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="11">
+	<item id="10">
 		<item id="0" start="47.9" duration="4.4">
 			<person>Teacher</person>
 			<text>What might happen if you didn't look both ways before crossing the road?</text>
@@ -114,7 +110,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="12">
+	<item id="11">
 		<item id="0" start="57.667" duration="2.867">
 			<person>Teacher</person>
 			<text>What might you see if you went to London?</text>
@@ -126,7 +122,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="13">
+	<item id="12">
 		<item id="0" start="69.767" duration="3.0">
 			<person>Teacher</person>
 			<text>Do you think there might be another world war?</text>
@@ -138,56 +134,52 @@
 			<image/>
 		</item>
 	</item>
-	<item id="14">
+	<item id="13">
 		<item id="0" start="76.733" duration="1.833">
 			<person>Teacher</person>
 			<text>arrive at</text>
 			<image/>
 		</item>
 	</item>
-	<item id="15">
-		<item id="0" start="78.6" duration="1.5">
+	<item id="14">
+		<item id="0" start="78.6" duration="1.633">
 			<person>Teacher</person>
 			<text>point</text>
 			<image/>
 		</item>
 	</item>
-	<item id="16">
+	<item id="15">
 		<item id="0" start="80.233" duration="1.9">
 			<person>Teacher</person>
 			<text>arrive in</text>
 			<image/>
 		</item>
 	</item>
-	<item id="17">
+	<item id="16">
 		<item id="0" start="82.167" duration="1.6">
 			<person>Teacher</person>
 			<text>area</text>
 			<image/>
 		</item>
 	</item>
-	<item id="18">
+	<item id="17">
 		<item id="0" start="83.8" duration="1.667">
 			<person>Teacher</person>
 			<text>airport</text>
 			<image/>
 		</item>
 	</item>
-	<item id="19">
+	<item id="18">
 		<item id="0" start="85.467" duration="1.8">
 			<person>Teacher</person>
 			<text>passport</text>
 			<image/>
 		</item>
 	</item>
-	<item id="20">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>We arrive at a point, like a building or a station, whereas we arrive in an area, like a city or a country.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="21">
+	<Explanation>
+		<text>We arrive at a point, like a building or a station, whereas we arrive in an area, like a city or a country.</text>
+	</Explanation>	
+	<item id="19">
 		<item id="0" start="87.3" duration="4.2">
 			<person>Teacher</person>
 			<text>What's the difference between &quot;arrive at&quot; and &quot;arrive in&quot;?</text>
@@ -199,7 +191,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="22">
+	<item id="20">
 		<item id="0" start="100.533" duration="2.7">
 			<person>Teacher</person>
 			<text>What time do you arrive at school?</text>
@@ -211,7 +203,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="23">
+	<item id="21">
 		<item id="0" start="106.867" duration="5.167">
 			<person>Teacher</person>
 			<text>If you arrived at a foreign airport without your passport, what might happen?</text>
@@ -223,14 +215,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="24">
+	<item id="22">
 		<item id="0" start="119.433" duration="1.6">
 			<person>Teacher</person>
 			<text>café</text>
 			<image/>
 		</item>
 	</item>
-	<item id="25">
+	<item id="23">
 		<item id="0" start="121.067" duration="2.167">
 			<person>Teacher</person>
 			<text>What is a café?</text>
@@ -242,14 +234,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="26">
+	<item id="24">
 		<item id="0" start="129.833" duration="1.367">
 			<person>Teacher</person>
 			<text>owe</text>
 			<image/>
 		</item>
 	</item>
-	<item id="27">
+	<item id="25">
 		<item id="0" start="131.2" duration="2.433">
 			<person>Teacher</person>
 			<text>Do you owe me any money?</text>
@@ -261,7 +253,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="28">
+	<item id="26">
 		<item id="0" start="136.7" duration="2.4">
 			<person>Teacher</person>
 			<text>Do I owe you any money?</text>
@@ -273,28 +265,24 @@
 			<image/>
 		</item>
 	</item>
-	<item id="29">
+	<item id="27">
 		<item id="0" start="142.433" duration="2.333">
 			<person>Teacher</person>
 			<text>verb + back</text>
 			<image/>
 		</item>
 	</item>
-	<item id="30">
+	<item id="28">
 		<item id="0" start="144.8" duration="1.667">
 			<person>Teacher</person>
 			<text>souvenir</text>
 			<image/>
 		</item>
 	</item>
-	<item id="31">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>When we add the word “back“ to a verb it means “to return“. For example, “give back“, “go back“, “pay back“ etc.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="32">
+	<Explanation>
+		<text>When we add the word “back“ to a verb it means “to return“. For example, “give back“, “go back“, “pay back“ etc.</text>
+	</Explanation>	
+	<item id="29">
 		<item id="0" start="146.467" duration="2.4">
 			<person>Teacher</person>
 			<text>What does it mean &quot;to give back&quot;?</text>
@@ -306,7 +294,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="33">
+	<item id="30">
 		<item id="0" start="152.233" duration="4.033">
 			<person>Teacher</person>
 			<text>When you go on holiday, what do you bring back with you?</text>
@@ -318,7 +306,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="34">
+	<item id="31">
 		<item id="0" start="160.9" duration="4.3">
 			<person>Teacher</person>
 			<text>Are you going to go back home immediately after the lessons ended?</text>
@@ -330,7 +318,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="35">
+	<item id="32">
 		<item id="0" start="170.8" duration="4.433">
 			<person>Teacher</person>
 			<text>When people lend you money, do you always pay it back when promised?</text>
@@ -342,7 +330,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="36">
+	<item id="33">
 		<item id="0" start="180.667" duration="4.633">
 			<person>Teacher</person>
 			<text>Do you know anybody who has retired but then later gone back to work?</text>
@@ -354,42 +342,42 @@
 			<image/>
 		</item>
 	</item>
-	<item id="37">
+	<item id="34">
 		<item id="0" start="191.033" duration="1.6">
 			<person>Teacher</person>
 			<text>pride</text>
 			<image/>
 		</item>
 	</item>
-	<item id="38">
+	<item id="35">
 		<item id="0" start="192.667" duration="1.8">
 			<person>Teacher</person>
 			<text>proud</text>
 			<image/>
 		</item>
 	</item>
-	<item id="39">
+	<item id="36">
 		<item id="0" start="194.467" duration="1.667">
 			<person>Teacher</person>
 			<text>normal</text>
 			<image/>
 		</item>
 	</item>
-	<item id="40">
+	<item id="37">
 		<item id="0" start="196.133" duration="1.667">
 			<person>Teacher</person>
 			<text>normally</text>
 			<image/>
 		</item>
 	</item>
-	<item id="41">
+	<item id="38">
 		<item id="0" start="197.833" duration="2.033">
 			<person>Teacher</person>
 			<text>take pride in</text>
 			<image/>
 		</item>
 	</item>
-	<item id="42">
+	<item id="39">
 		<item id="0" start="199.9" duration="2.633">
 			<person>Teacher</person>
 			<text>What is your normal breakfast?</text>
@@ -401,7 +389,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="43">
+	<item id="40">
 		<item id="0" start="206.267" duration="4.067">
 			<person>Teacher</person>
 			<text>Do people normally feel proud when they do well in exams?</text>
@@ -413,7 +401,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="44">
+	<item id="41">
 		<item id="0" start="215.2" duration="2.7">
 			<person>Teacher</person>
 			<text>Do you take pride in your work?</text>
@@ -425,14 +413,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="45">
+	<item id="42">
 		<item id="0" start="221.133" duration="1.7">
 			<person>Teacher</person>
 			<text>servant</text>
 			<image/>
 		</item>
 	</item>
-	<item id="46">
+	<item id="43">
 		<item id="0" start="222.867" duration="4.3">
 			<person>Teacher</person>
 			<text>If you were very rich, would you have servants in your house?</text>
@@ -444,21 +432,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="47">
-		<item id="0" start="232.1" duration="1.5">
+	<item id="44">
+		<item id="0" start="232.1" duration="1.633">
 			<person>Teacher</person>
 			<text>wheel</text>
 			<image/>
 		</item>
 	</item>
-	<item id="48">
+	<item id="45">
 		<item id="0" start="233.733" duration="1.5">
 			<person>Teacher</person>
 			<text>lorry</text>
 			<image/>
 		</item>
 	</item>
-	<item id="49">
+	<item id="46">
 		<item id="0" start="235.233" duration="3.567">
 			<person>Teacher</person>
 			<text>Does a lorry have fewer wheels than a car?</text>
@@ -470,28 +458,28 @@
 			<image/>
 		</item>
 	</item>
-	<item id="50">
+	<item id="47">
 		<item id="0" start="244.333" duration="1.5">
 			<person>Teacher</person>
 			<text>arrow</text>
 			<image/>
 		</item>
 	</item>
-	<item id="51">
+	<item id="48">
 		<item id="0" start="245.867" duration="1.867">
 			<person>Teacher</person>
 			<text>centimeter</text>
 			<image/>
 		</item>
 	</item>
-	<item id="52">
+	<item id="49">
 		<item id="0" start="247.733" duration="1.667">
 			<person>Teacher</person>
 			<text>meter</text>
 			<image/>
 		</item>
 	</item>
-	<item id="53">
+	<item id="50">
 		<item id="0" start="249.433" duration="2.533">
 			<person>Teacher</person>
 			<text>About how long is an arrow?</text>
@@ -503,7 +491,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="54">
+	<item id="51">
 		<item id="0" start="255.133" duration="2.933">
 			<person>Teacher</person>
 			<text>How many centimeters make a meter?</text>
@@ -515,14 +503,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="55">
+	<item id="52">
 		<item id="0" start="261.567" duration="1.467">
 			<person>Teacher</person>
 			<text>beard</text>
 			<image/>
 		</item>
 	</item>
-	<item id="56">
+	<item id="53">
 		<item id="0" start="263.033" duration="3.367">
 			<person>Teacher</person>
 			<text>Do you know anybody who has a long beard?</text>
@@ -534,28 +522,28 @@
 			<image/>
 		</item>
 	</item>
-	<item id="57">
+	<item id="54">
 		<item id="0" start="270.467" duration="1.6">
 			<person>Teacher</person>
 			<text>true</text>
 			<image/>
 		</item>
 	</item>
-	<item id="58">
+	<item id="55">
 		<item id="0" start="272.067" duration="1.533">
 			<person>Teacher</person>
 			<text>false</text>
 			<image/>
 		</item>
 	</item>
-	<item id="59">
+	<item id="56">
 		<item id="0" start="273.633" duration="3.433">
 			<person>Teacher</person>
 			<text>paper (newspaper)</text>
 			<image/>
 		</item>
 	</item>
-	<item id="60">
+	<item id="57">
 		<item id="0" start="277.1" duration="3.533">
 			<person>Teacher</person>
 			<text>Is it false that the opposite of &quot;heaven&quot; is &quot;hell&quot;?</text>
@@ -567,7 +555,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="61">
+	<item id="58">
 		<item id="0" start="286.1" duration="3.3">
 			<person>Teacher</person>
 			<text>Is everything we read in the newspapers true?</text>
@@ -579,7 +567,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="62">
+	<item id="59">
 		<item id="0" start="297.067" duration="2.433">
 			<person>Teacher</person>
 			<text>Why do you think this is so?</text>
@@ -591,14 +579,14 @@
 			<image/>
 		</item>
 	</item>
-	<item id="63">
+	<item id="60">
 		<item id="0" start="307.133" duration="1.7">
 			<person>Teacher</person>
 			<text>maintain</text>
 			<image/>
 		</item>
 	</item>
-	<item id="64">
+	<item id="61">
 		<item id="0" start="308.833" duration="3.133">
 			<person>Teacher</person>
 			<text>Is it cheap to maintain a large house?</text>
@@ -610,21 +598,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="65">
+	<item id="62">
 		<item id="0" start="317.233" duration="1.8">
 			<person>Teacher</person>
 			<text>it takes</text>
 			<image/>
 		</item>
 	</item>
-	<item id="66">
+	<item id="63">
 		<item id="0" start="319.033" duration="1.7">
 			<person>Teacher</person>
 			<text>Ireland</text>
 			<image/>
 		</item>
 	</item>
-	<item id="67">
+	<item id="64">
 		<item id="0" start="320.767" duration="3.2">
 			<person>Teacher</person>
 			<text>How do we translate the words &quot;it takes&quot;?</text>
@@ -636,7 +624,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="68">
+	<item id="65">
 		<item id="0" start="328.0" duration="3.133">
 			<person>Teacher</person>
 			<text>How long does it take you to go home from here?</text>
@@ -648,7 +636,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="69">
+	<item id="66">
 		<item id="0" start="335.267" duration="5.033">
 			<person>Teacher</person>
 			<text>Does it take longer to fly from here to Ireland than to go by train and ship?</text>
@@ -660,7 +648,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="70">
+	<item id="67">
 		<item id="0" start="348.767" duration="5.133">
 			<person>Teacher</person>
 			<text>About how long would it take us to reach the station from here if we walked very fast?</text>
@@ -672,21 +660,21 @@
 			<image/>
 		</item>
 	</item>
-	<item id="71">
+	<item id="68">
 		<item id="0" start="360.5" duration="1.533">
 			<person>Teacher</person>
 			<text>amount</text>
 			<image/>
 		</item>
 	</item>
-	<item id="72">
+	<item id="69">
 		<item id="0" start="362.067" duration="1.867">
 			<person>Teacher</person>
 			<text>amount to</text>
 			<image/>
 		</item>
 	</item>
-	<item id="73">
+	<item id="70">
 		<item id="0" start="363.933" duration="3.9">
 			<person>Teacher</person>
 			<text>What amount of money have you got in your pocket at the moment?</text>
@@ -698,7 +686,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="74">
+	<item id="71">
 		<item id="0" start="372.133" duration="4.7">
 			<person>Teacher</person>
 			<text>Do they use a large amount of wood in building houses in this region?</text>
@@ -710,7 +698,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="75">
+	<item id="72">
 		<item id="0" start="382.633" duration="1.5">
 			<person>Teacher</person>
 			<text>Why not?</text>
@@ -722,7 +710,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="76">
+	<item id="73">
 		<item id="0" start="386.667" duration="3.867">
 			<person>Teacher</person>
 			<text>What do £50 and £13 amount to?</text>
@@ -734,42 +722,38 @@
 			<image/>
 		</item>
 	</item>
-	<item id="77">
+	<item id="74">
 		<item id="0" start="395.933" duration="1.633">
 			<person>Teacher</person>
 			<text>futher</text>
 			<image/>
 		</item>
 	</item>
-	<item id="78">
+	<item id="75">
 		<item id="0" start="397.567" duration="1.7">
 			<person>Teacher</person>
 			<text>Sweden</text>
 			<image/>
 		</item>
 	</item>
-	<item id="79">
+	<item id="76">
 		<item id="0" start="399.3" duration="1.767">
 			<person>Teacher</person>
 			<text>in addition</text>
 			<image/>
 		</item>
 	</item>
-	<item id="80">
+	<item id="77">
 		<item id="0" start="401.1" duration="1.667">
 			<person>Teacher</person>
 			<text>extra</text>
 			<image/>
 		</item>
 	</item>
-	<item id="81">
-		<item id="0" start="" duration="">
-			<Explanation>
-				<text>The word “further“ means the same as “farther“, but it also means “in addition“ or “extra“.</text>
-			</Explanation>
-		</item>
-	</item>
-	<item id="82">
+	<Explanation>
+		<text>The word “further“ means the same as “farther“, but it also means “in addition“ or “extra“.</text>
+	</Explanation>	
+	<item id="78">
 		<item id="0" start="402.767" duration="2.567">
 			<person>Teacher</person>
 			<text>What does the word &quot;futher&quot; mean?</text>
@@ -781,7 +765,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="83">
+	<item id="79">
 		<item id="0" start="412.567" duration="4.4">
 			<person>Teacher</person>
 			<text>Which is further from Spain: Sweden or Switzerland?</text>
@@ -793,7 +777,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="84">
+	<item id="80">
 		<item id="0" start="421.1" duration="2.8">
 			<person>Teacher</person>
 			<text>What's the furthest you've ever been?</text>
@@ -805,7 +789,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="85">
+	<item id="81">
 		<item id="0" start="428.533" duration="5.4">
 			<person>Teacher</person>
 			<text>Where do you have to go, if you wanted further information about train times at a station?</text>
@@ -817,7 +801,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="86">
+	<item id="82">
 		<item id="0" start="441.633" duration="3.7">
 			<person>Teacher</person>
 			<text>Give me a further example of the word &quot;further&quot;, please.</text>
@@ -829,11 +813,7 @@
 			<image/>
 		</item>
 	</item>
-	<item id="87">
-		<item id="0" start="" duration="">
-			<Dictation>
-				<text>Dictation 43\nThey keep lots of their books under the bed.\nShe’s pouring the fruit juice from a bottle into a glass.\nHis grave was covered with sand, and, in the sand, somebody had printed his name.\nFrom the neck of the bottle came a flame which gave light to the room.\nFish and chips is a common meal in England.\nIf we push a door which has the word “pull” written on it, it won’t open.\nHe’s got a hole in his sock.</text>
-			</Dictation>
-		</item>
-	</item>
+	<Dictation>
+		<text>Dictation 43\nThey keep lots of their books under the bed.\nShe’s pouring the fruit juice from a bottle into a glass.\nHis grave was covered with sand, and, in the sand, somebody had printed his name.\nFrom the neck of the bottle came a flame which gave light to the room.\nFish and chips is a common meal in England.\nIf we push a door which has the word “pull” written on it, it won’t open.\nHe’s got a hole in his sock.</text>
+	</Dictation>	
 </items>
