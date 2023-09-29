@@ -12,7 +12,7 @@ import { LoadingService } from '../loading.service';
 import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, first, isEmpty, tap } from 'rxjs/operators';
 import { LessonItem } from './lesson.wrapper';
-import { Observable, forkJoin, of } from 'rxjs';
+import { switchMap, from, Observable, forkJoin, of } from 'rxjs';
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component';
 import { OptionsService } from '../services/Options/options.service';
@@ -186,7 +186,7 @@ export class LessonComponent implements OnInit {
     getCurrentEpisode(strictCurrentPerson: boolean): undefined | LessonItem {
         const currentKey: Key = strictCurrentPerson
             ? this.selectedKey
-            : { itemId: this.selectedKey.itemId, subItemId: "0" };
+            : { itemId: this.selectedKey.itemId, subItemId: '0' };
         //        const currentKey: Key = this.selectedKey;
         const lesson: LessonItem =
             this.lessonItemsDict[this.keyToString(currentKey)];
@@ -573,126 +573,77 @@ export class LessonComponent implements OnInit {
         return match ? Number(match[0]) : -1;
     }
 
+    private async parseLessonData(response: any) {
+        this.lessonItemsDict = {}
+        const parser = new DOMParser();
+        
+        const lessonXmlDoc = parser.parseFromString(response.lesson_xml, 'application/xml');
+        const translationXmlDoc = parser.parseFromString(response.translation_xml, 'application/xml');
+       
+        const topLevelItems = Array.from(lessonXmlDoc.querySelectorAll('items > item'));
+    
+        topLevelItems.forEach((topItem) => {
+            const itemId = topItem.getAttribute('id') || '-1';
+            const subItems = topItem.querySelectorAll('item');
+            subItems.forEach((subItem) => {
+                const subItemId = subItem.getAttribute('id') || '-1';
+                const translationElement = translationXmlDoc.querySelector(`item[id="${itemId}"] item[id="${subItemId}"] translation`);
+                const translation = translationElement?.textContent || '';
+                const key = this.keyToString({ itemId, subItemId });
+                this.lessonItemsDict[key] = new LessonItem(subItem, translation);
+            });
+        });
+    }    
+
+    private async loadImagesForLesson(partId: any, lessonId: any) {
+        let fetchObservables = [];
+        for (const key in this.lessonItemsDict) {
+            fetchObservables.push(
+                this.fetchAndReplaceImage(
+                    partId,
+                    lessonId,
+                    this.lessonItemsDict[key]
+                )
+            );
+        }        
+        await forkJoin(fetchObservables).toPromise();
+    }
+
+    private async loadAndDecodeAudio(audio_link: string) {
+        const audio_response = await fetch(audio_link);
+        const arrayBuffer = await audio_response.arrayBuffer();
+        const audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
+        
+        this.audioBuffer = audioBuffer;
+        this.startLessonTime = 0;
+        this.endLessonTime = audioBuffer.duration;
+        this.currentLessonTime = 0;
+    }    
+    
     private async fetchLessonData(partId: any, lessonId: any): Promise<void> {
         this.partID = partId;
         this.lessonID = lessonId;
         this.part = this.extractNumber(this.partID);
         this.lesson = this.extractNumber(this.lessonID);
         this.loadingService.setLoading(true);
-        this.lessonItemsDict = {};
+
         this.http
-            .get(`/api/lessons?part=${partId}&lesson=${lessonId}`)
-            .pipe(finalize(() => this.loadingService.setLoading(false)))
+            .get(`/api/lessons?part=${partId}&lesson=${lessonId}`)            
             .subscribe({
                 next: async (response: any) => {
-                    const parser = new DOMParser();
-
-                    const lessonXmlDoc = parser.parseFromString(
-                        response.lesson_xml,
-                        'application/xml'
-                    );
-
-                    const translationXmlDoc = parser.parseFromString(
-                        response.translation_xml,
-                        'application/xml'
-                    );
-
-                    const topLevelItems = Array.from(
-                        lessonXmlDoc.querySelectorAll('items > item')
-                    );
-                    topLevelItems.forEach((topItem) => {
-                        const itemId = topItem.getAttribute('id') || '-1';
-                        const subItems = topItem.querySelectorAll('item');
-                        subItems.forEach((subItem) => {
-                            const subItemId =
-                                subItem.getAttribute('id') || '-1';
-                            const translationElement =
-                                translationXmlDoc.querySelector(
-                                    `item[id="${itemId}"] item[id="${subItemId}"] translation`
-                                );
-                            const translation =
-                                translationElement?.textContent || '';
-
-                            const key = this.keyToString({ itemId, subItemId });
-
-                            this.lessonItemsDict[key] = new LessonItem(
-                                subItem,
-                                translation
-                            );
-                        });
-                    });
-                    /*
-                    const lessonItems = Array.from(
-                        lessonXmlDoc.getElementsByTagName('item')
-                    );
-                    let translationItems = Array.from(
-                        translationXmlDoc.getElementsByTagName('item')
-                    );
-
-                    for (const lessonItem of lessonItems) {
-                        const id = lessonItem.getAttribute('id')!;
-                        const translationItem = translationItems.find(
-                            (item) => item.getAttribute('id') === id
-                        );
-                        if (translationItem) {
-                            translationItems = translationItems.filter(
-                                (item) => item !== translationItem
-                            );
-                        }
-                        const translation =
-                            translationItem?.getElementsByTagName(
-                                'translation'
-                            )[0]?.textContent || '';
-                        this.lessonItemsDict[id] = [
-                            ...(this.lessonItemsDict[id] || []),
-                            new LessonItem(lessonItem, translation),
-                        ];
+                    try {
+                        await this.parseLessonData(response);
+                        await this.loadImagesForLesson(partId, lessonId);
+                        await this.loadAndDecodeAudio(response.audio_link);
+                        this.setActiveKey('0-0');
+                    } catch (error) {
+                        console.error(error);
+                    } finally {
+                        this.loadingService.setLoading(false);
                     }
-                    */
-                    // load all the images of this.lessonItemsDict
-                    let fetchObservables = [];
-                    for (const key in this.lessonItemsDict) {
-                        //for (let item of this.lessonItemsDict[key]) {
-                        fetchObservables.push(
-                            this.fetchAndReplaceImage(
-                                partId,
-                                lessonId,
-                                this.lessonItemsDict[key]
-                            )
-                        );
-                        //}
-                    }
-
-                    forkJoin(fetchObservables).subscribe((responces) => {});
-
-                    this.setActiveKey('0-0');
-
-                    const audio_link = response.audio_link;
-
-                    fetch(audio_link)
-                        .then((response) => response.arrayBuffer())
-                        .then((arrayBuffer) =>
-                            this.audioContext.decodeAudioData(arrayBuffer)
-                        )
-                        .then((audioBuffer) => {
-                            this.audioBuffer = audioBuffer;
-                            this.startLessonTime = 0;
-                            this.endLessonTime = audioBuffer.duration;
-                            this.currentLessonTime = 0;
-                        });
-                },
-                error: (error) => {
-                    console.error(error);
                 },
             });
     }
-
-    // private getNumberSecondsAsTimeFormat(secs: number) {
-    //     const hours = Math.floor(secs / 3600);
-    //     const minutes = Math.floor((secs % 3600) / 60);
-    //     const seconds = secs % 60;
-    //     return hours === 0 ? `${minutes}:${seconds}` : `${hours}:${minutes}:${seconds}`;
-    // }
 
     fetchAndReplaceImage(
         partId: any,
@@ -725,5 +676,9 @@ export class LessonComponent implements OnInit {
 
     navigateToOptions() {
         this.router.navigate(['/options']);
+    }
+
+    navigateToQuickLinks() {
+        this.router.navigate(['/quick-links']);
     }
 }

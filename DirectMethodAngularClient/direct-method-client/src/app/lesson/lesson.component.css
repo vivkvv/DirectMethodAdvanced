@@ -45,12 +45,11 @@ header svg {
     transition: all 1s ease;
     transform: translateY(0);
 }
-  
 
 .panel-hidden {
     display: none;
-  }
+}
 
-  .disabled-button {
+.disabled-button {
     @apply pointer-events-none opacity-50;
-  }
+}
