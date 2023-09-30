@@ -18,9 +18,14 @@ export class OnRealStudentAnswer {
     maximumError!: number;
 }
 
+export class PauseAfterPhrase{ // = constantTime + multiplePreviousPhraseTime * lengthOfPreviousTime()
+    constantTime!: number;
+    multiplePreviousPhraseTime!: number;
+}
+
 export class ContinuousLessonOptions {
     pauseBeforePhrase!: number;
-    pauseAfterPhrase!: number;
+    pauseAfterPhrase!: PauseAfterPhrase;
     digitalStudent!: DigitalStudent;
     onRealStudentAnswer!: OnRealStudentAnswer;
 }
@@ -56,7 +61,7 @@ class SerializableOptions{
 
     continuousLessonOptions: ContinuousLessonOptions = {
         pauseBeforePhrase: 0.5,
-        pauseAfterPhrase: 0.5,
+        pauseAfterPhrase: {constantTime: 0.5, multiplePreviousPhraseTime: 1.0},
 
         digitalStudent: {
             use: false,

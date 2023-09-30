@@ -322,7 +322,8 @@ export class LessonComponent implements OnInit {
                 break;
             }
 
-            await this.sleep(1000 * pauseAfter);
+            //this.getPreviousKey()
+            await this.sleep(1000 * (pauseAfter.constantTime + pauseAfter.multiplePreviousPhraseTime * episode.duration ));
 
             if (this.currentEpisodeIsLast()) {
                 break;

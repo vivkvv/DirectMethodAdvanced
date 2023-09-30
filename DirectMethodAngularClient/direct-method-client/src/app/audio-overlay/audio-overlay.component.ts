@@ -11,6 +11,7 @@ export enum AudioState {
     AS_PLAY = 2,
     AS_RECOGNIZE = 3,
     AS_SYNC_PLAY = 4,
+    AS_PLAY_CURRENT_EPISODE = 5,
 }
 
 @Component({
@@ -27,6 +28,8 @@ export class AudioOverlayComponent implements OnInit {
 
     audioContext: AudioContext = new (window.AudioContext ||
         (window as any).webkitAudioContext)();
+    private recoredGainNode: GainNode = this.audioContext.createGain();
+    private episodeGainNode: GainNode = this.audioContext.createGain();
 
     audioState: AudioState = AudioState.AS_NONE;
 
@@ -51,6 +54,16 @@ export class AudioOverlayComponent implements OnInit {
             this.audioState === AudioState.AS_NONE ||
             this.audioState === AudioState.AS_RECOGNIZE
         );
+    }
+
+    isPlayingRecordedAudio(): boolean {
+        return (
+            this.audioState === AudioState.AS_NONE && Boolean(this.audio_buffer)
+        );
+    }
+
+    isPlayingCurrentEpisode(): boolean {
+        return this.audioState === AudioState.AS_PLAY_CURRENT_EPISODE;
     }
 
     isSyncPlayEnabled(): boolean {
@@ -181,6 +194,84 @@ export class AudioOverlayComponent implements OnInit {
         return startOfSignal;
     }
 
+    showRecorderAudioVolumeSlider = false;
+    recorderAudioVolume: number = 50;
+    toggleRecorderAudioVolumeSlider() {
+        this.showRecorderAudioVolumeSlider = !this.showRecorderAudioVolumeSlider;
+    }
+
+    showEpisodeAudioVolumeSlider = false;
+    episodeAudioVolume: number = 50;
+    toggleEpisodeAudioVolumeSlider() {
+        this.showEpisodeAudioVolumeSlider = !this.showEpisodeAudioVolumeSlider;
+    }
+
+    updateRecordedVolume(event: Event) {
+        const input = event.target as HTMLInputElement;
+        if (input) {
+            this.recorderAudioVolume = Number(input.value);
+            this.recoredGainNode.gain.value = this.recorderAudioVolume / 100;
+        }
+    }
+
+    updateEpisodeVolume(event: Event) {
+        const input = event.target as HTMLInputElement;
+        if (input) {
+            this.episodeAudioVolume = Number(input.value);
+            this.episodeGainNode.gain.value = this.episodeAudioVolume / 100;
+        }
+    }
+
+    onPlayRecordedAudio() {
+        if (this.audioState === AudioState.AS_NONE) {
+            if (this.audio_buffer) {
+                this.audioState = AudioState.AS_PLAY;
+    
+                this.source = this.audioContext.createBufferSource();
+                this.recoredGainNode.gain.value = this.recorderAudioVolume / 100.0;
+    
+                this.source.buffer = this.audio_buffer;
+    
+                this.source.connect(this.recoredGainNode);
+                this.recoredGainNode.connect(this.audioContext.destination);
+    
+                this.source.onended = () => {
+                    this.audioState = AudioState.AS_NONE;
+                    this.cd.detectChanges();
+                };
+    
+                this.source.start();
+            }
+        }
+    }
+    
+    onPlayCurrentEpisode() {
+        const episode = this.lesson.getCurrentEpisode(true);
+        if (this.audioState === AudioState.AS_NONE && Boolean(episode)) {
+            this.episode_source = this.audioContext.createBufferSource();
+            this.episodeGainNode.gain.value = this.episodeAudioVolume / 100.0;
+
+            const start = episode.start;
+            const duration = episode.duration;
+
+            this.audioState = AudioState.AS_PLAY_CURRENT_EPISODE;
+
+            this.episode_source.onended = () => {
+                this.audioState = AudioState.AS_NONE;
+                this.cd.detectChanges();
+            };
+
+            this.episode_source.buffer = this.lesson.audioBuffer;
+
+            this.episode_source.connect(this.episodeGainNode);
+            this.episodeGainNode.connect(this.audioContext.destination);
+
+            this.episode_source.start(0, start, duration);
+
+            this.cd.detectChanges();
+        }
+    }
+
     onRecord() {
         if (this.audioState === AudioState.AS_NONE) {
             this.audioState = AudioState.AS_RECORD;
@@ -222,6 +313,9 @@ export class AudioOverlayComponent implements OnInit {
             if (this.audio_buffer) {
                 this.audioState = AudioState.AS_SYNC_PLAY;
 
+                this.recoredGainNode.gain.value = this.recorderAudioVolume / 100.0;
+                this.episodeGainNode.gain.value = this.episodeAudioVolume / 100.0;
+
                 const episode = this.lesson.getCurrentEpisode(true);
 
                 const episode_signal_start = this.findStartOfSignal(
@@ -246,13 +340,16 @@ export class AudioOverlayComponent implements OnInit {
                 };
 
                 this.source.buffer = this.audio_buffer;
-                this.source.connect(this.audioContext.destination);
+                this.source.connect(this.recoredGainNode);
+                this.recoredGainNode.connect(this.audioContext.destination);
+
                 this.source.start(this.audioContext.currentTime, signal_start);
 
                 this.episode_source.buffer = this.lesson.audioBuffer;
-                this.episode_source.connect(this.audioContext.destination);
+                this.episode_source.connect(this.episodeGainNode);
+                this.episodeGainNode.connect(this.audioContext.destination);
+
                 this.episode_source.start(
-                    //this.lesson.audioContext.currentTime,
                     this.audioContext.currentTime,
                     episode_signal_start
                 );
@@ -281,23 +378,17 @@ export class AudioOverlayComponent implements OnInit {
                 const chunks: Blob[] = [];
                 this.mediaRecorder = new MediaRecorder(stream);
 
-                const audioElement = document.querySelector(
-                    '.sound-clips audio'
-                ) as HTMLAudioElement;
-
                 this.mediaRecorder.onstop = (e) => {
                     const blob = new Blob(chunks, {
                         type: 'audio/ogg; codecs=opus',
                     });
 
-                    audioElement.src = window.URL.createObjectURL(blob);
-
                     const reader = new FileReader();
                     reader.onloadend = () => {
                         const arrayBuffer = reader.result as ArrayBuffer;
-                        const audioContext = new (window.AudioContext ||
-                            (window as any).webkitAudioContext)();
-                        audioContext
+                        //const audioContext = new (window.AudioContext ||
+                        //    (window as any).webkitAudioContext)();
+                        this.audioContext
                             .decodeAudioData(arrayBuffer)
                             .then((audioBuffer) => {
                                 this.audio_buffer = audioBuffer;
