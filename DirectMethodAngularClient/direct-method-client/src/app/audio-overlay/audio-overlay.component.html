@@ -5,7 +5,7 @@
             [class.pulsing]="isRecording()"
             [style.fill]="isRecordEnabled() ? (isRecording() ? 'red' : 'black') : 'gray'"
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1920" fill="currentColor"
-            class="w-12 h-12 button-effect">
+            class="w-6 h-6 button-effect">
             <path fill-rule="evenodd"
                 d="M960 0c529.36 0 960 430.645 960 960 0 529.36-430.64 960-960 960-529.355 0-960-430.64-960-960C0 430.645 430.645 0 960 0Zm0 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.12 379.934 847.06 847.059 847.06 467.12 0 847.06-379.94 847.06-847.06 0-467.125-379.94-847.059-847.06-847.059Zm0 313.726c294.55 0 533.33 238.781 533.33 533.333 0 294.55-238.78 533.33-533.33 533.33-294.552 0-533.333-238.78-533.333-533.33 0-294.552 238.781-533.333 533.333-533.333Z"
                 clip-rule="evenodd" />
@@ -14,7 +14,7 @@
             <svg (click)="onPlayRecordedAudio()" [style.pointer-events]="isPlayingRecordedAudio() ? 'auto' : 'none'"
                 [class.pulsing]="isPlaying()"
                 [style.fill]="isPlayingRecordedAudio() ? (isPlayingRecordedAudio() ? 'green' : 'black') : 'gray'"
-                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="green" class="w-12 h-12 button-effect">
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="green" class="w-6 h-6 button-effect">
                 <path fill-rule="evenodd"
                     d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
                     clip-rule="evenodd" />
@@ -34,7 +34,7 @@
         <div style="display: flex; align-items: center;">
             <svg (click)="onPlayCurrentEpisode()" [style.pointer-events]="'auto'"
                 [class.pulsing]="isPlayingCurrentEpisode()" [style.fill]="'dark-blue'"
-                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="blue" class="w-12 h-12 button-effect">
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="blue" class="w-6 h-6 button-effect">
                 <path fill-rule="evenodd"
                     d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z"
                     clip-rule="evenodd" />
@@ -64,7 +64,7 @@
         <svg (click)="onRecognizing(1, 0.0, false)" [style.pointer-events]="isRecognizeEnabled() ? 'auto' : 'none'"
             [class.pulsing]="isRecognizing()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
             [style.fill]="isRecognizeEnabled() ? (isRecognizing() ? 'red' : 'black') : 'gray'"
-            class="w-12 h-12 button-effect">
+            class="w-6 h-6 button-effect">
             <rect [style.fill]="isRecognizeEnabled() ? (isRecognizing() ? 'red' : 'black') : 'gray'" x="104.088"
                 y="67.516" style="fill:black;" width="303.824" height="343.209" />
             <g>
@@ -94,7 +94,7 @@
                 <circle style="fill:white;" cx="275.501" cy="178.491" r="8.44" />
             </g>
         </svg>
-        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-12 h-12 button-effect"
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 button-effect"
             (click)="onSyncPlay()" [style.pointer-events]="isSyncPlayEnabled() ? 'auto' : 'none'"
             [class.pulsing]="isSyncPlaying()"
             [style.fill]="isSyncPlayEnabled() ? (isSyncPlaying() ? 'red' : 'black') : 'gray'">
@@ -107,11 +107,35 @@
     </div>
     <div class="flex justify-center space-x-4 p-2">
     </div>
-    <div>
+    <!-- <div>
         <label [style.color]="getColor(comparison_result_text)" id="comparison-result">Error:
             {{comparison_result_text}}</label>
+    </div> -->
+    <div class="flex justify-between items-center">
+        <label [style.color]="getColor(comparison_result_text)" id="comparison-result">
+            Error: {{comparison_result_text}}
+        </label>
+        <button class="border border-gray-300 rounded px-4 py-2 hover:bg-gray-200 active:bg-gray-300"
+            (click)="clearComparison()">
+            Clear
+        </button>
     </div>
-    <textarea matInput class="flex-grow w-full border border-black">
+    <!-- <textarea matInput class="flex-grow w-full border border-black">
         {{transcript}}
-    </textarea>
+    </textarea> -->
+    <div class="flex flex-col h-full">
+        <div class="flex-1 overflow-auto border border-gray-300" style="flex: 1 0 50%;">
+            <div class="flex" *ngFor="let row of tableRows">
+                <div class="flex-1 p-2 border-b border-r">{{row.text}}</div>
+                <div class="w-[70px] p-2 border-b">{{row.value}}</div>
+            </div>
+        </div>
+
+        <div #chartContainer class="flex-1 flex flex-col" style="flex: 1 0 50%;">
+            <div class="flex-1" id="chart1">
+            </div>
+            <div class="flex-1" id="chart2">
+            </div>
+        </div>
+    </div>
 </div>

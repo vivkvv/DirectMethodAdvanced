@@ -22,4 +22,8 @@ export class QuickLinksComponent {
     toLessons() {
         this.router.navigate(['/topic-list']);
     }    
+
+    toFiles() {
+        this.router.navigate(['/files']);
+    }
 }

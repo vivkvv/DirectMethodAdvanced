@@ -8,6 +8,7 @@ import { AuthorizationCheckingComponent } from './authorization-checking/authori
 import { RegisterComponent } from './registering/registering.component';
 import { ExitComponent } from './exit/exit.component';
 import { QuickLinksComponent } from './quick-links/quick-links';
+import { FilesComponent } from './files/files.component';
 // import { PreAuthorizationCheckingComponent } from './pre-authorization-checking/pre-authorization-checking.components';
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
     { path: 'quick-links', component: QuickLinksComponent},
     { path: 'Lesson/:part_id/:lesson_id', component: LessonComponent },
     { path: 'topic-list', component: PartsListComponent },
+    { path: 'files', component: FilesComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
     { path: 'not-found-angular', component: LoginComponent },
     { path: 'options', component: OptionsPageComponent },

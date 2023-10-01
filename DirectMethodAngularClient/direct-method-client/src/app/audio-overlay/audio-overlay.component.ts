@@ -1,9 +1,17 @@
-import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
+import {
+    Component,
+    ViewChild,
+    ElementRef,
+    OnInit,
+    ChangeDetectorRef,
+    Inject,
+    AfterViewInit,
+} from '@angular/core';
 import { MatDialogRef } from '@angular/material/dialog';
 import { SpeechRecognitionService } from '../services/Speech-recognition/speech-recognition.service';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { Inject } from '@angular/core';
-import { LessonComponent } from '../lesson/lesson.component';
+// import { LessonComponent } from '../lesson/lesson.component';
+import * as d3 from 'd3';
 
 export enum AudioState {
     AS_NONE = 0,
@@ -19,7 +27,9 @@ export enum AudioState {
     templateUrl: './audio-overlay.component.html',
     styleUrls: ['./audio-overlay.component.css'],
 })
-export class AudioOverlayComponent implements OnInit {
+export class AudioOverlayComponent implements OnInit, AfterViewInit {
+    @ViewChild('chartContainer', { static: false }) chartContainer!: ElementRef;
+
     comparison_result: number = 0;
     comparison_result_text: string = '';
     audio_buffer: AudioBuffer | undefined = undefined;
@@ -34,7 +44,8 @@ export class AudioOverlayComponent implements OnInit {
     audioState: AudioState = AudioState.AS_NONE;
 
     mediaRecorder!: MediaRecorder;
-    transcript = '';
+    //transcript = '';
+    tableRows: Array<{ text: string; value: string }> = [];
 
     lesson!: any;
 
@@ -99,12 +110,13 @@ export class AudioOverlayComponent implements OnInit {
         this.lesson = data.parentComponent;
         this.speechRecognitionService.onResult((event) => {
             let final_flag: boolean = false;
+            let transcript: string = '';
 
             for (let i = event.resultIndex; i < event.results.length; i++) {
                 const result = event.results[i];
                 if (result.isFinal) {
                     final_flag = true;
-                    this.transcript += result[0].transcript + '\n';
+                    transcript += result[0].transcript + '\n';
                 } else {
                     //   this.transcript += result[0].transcript + '\n';
                 }
@@ -114,13 +126,19 @@ export class AudioOverlayComponent implements OnInit {
                 const desired_text = this.lesson.getCurrentEpisode(true)?.text;
                 if (desired_text) {
                     const difference = this.levenshtein(
-                        this.transcript,
+                        transcript,
                         desired_text
                     );
                     this.comparison_result =
                         (100 * difference) / desired_text.length;
                     this.comparison_result_text =
                         this.comparison_result.toFixed(1) + '%';
+
+                    const newRow = {
+                        text: transcript,
+                        value: this.comparison_result_text,
+                    };
+                    this.tableRows.unshift(newRow);
                 }
             }
 
@@ -128,12 +146,57 @@ export class AudioOverlayComponent implements OnInit {
         });
     }
 
+    ngAfterViewInit() {
+        const width = this.chartContainer.nativeElement.offsetWidth;
+        const height = this.chartContainer.nativeElement.offsetHeight / 2;
+
+        this.initChart('chart1', (d: number) => d * d, [0, 100], width, height);
+        this.initChart(
+            'chart2',
+            (d: number) => d * d * d,
+            [-50, 50],
+            width,
+            height
+        );
+    }
+
+    private initChart(
+        id: string,
+        func: (d: number) => number,
+        domain: [number, number],
+        width: number,
+        height: number
+    ) {
+        const svg = d3
+            .select(`#${id}`)
+            .append('svg')
+            .attr('width', width)
+            .attr('height', height);
+
+        const x = d3.scaleLinear().domain(domain).range([0, width]);
+        const y = d3.scaleLinear().domain(domain.map(func)).range([height, 0]);
+
+        const line = d3
+            .line<number>()
+            .x((d, i) => x(d))
+            .y((d, i) => y(func(d)));
+
+        const data = d3.range(domain[0], domain[1]).map((d) => +d);
+
+        svg.append('path')
+            .datum(data)
+            .attr('fill', 'none')
+            .attr('stroke', 'steelblue')
+            .attr('stroke-width', 1.5)
+            .attr('d', line);
+    }
+
     ngOnInit() {
         this.speechRecognitionService.onStart(() => {
             if (this.audioState === AudioState.AS_NONE) {
                 this.audioState = AudioState.AS_RECOGNIZE;
             }
-            this.transcript = '';
+            //this.transcript = '';
             this.cd.detectChanges();
         });
 
@@ -197,7 +260,8 @@ export class AudioOverlayComponent implements OnInit {
     showRecorderAudioVolumeSlider = false;
     recorderAudioVolume: number = 50;
     toggleRecorderAudioVolumeSlider() {
-        this.showRecorderAudioVolumeSlider = !this.showRecorderAudioVolumeSlider;
+        this.showRecorderAudioVolumeSlider =
+            !this.showRecorderAudioVolumeSlider;
     }
 
     showEpisodeAudioVolumeSlider = false;
@@ -226,25 +290,26 @@ export class AudioOverlayComponent implements OnInit {
         if (this.audioState === AudioState.AS_NONE) {
             if (this.audio_buffer) {
                 this.audioState = AudioState.AS_PLAY;
-    
+
                 this.source = this.audioContext.createBufferSource();
-                this.recoredGainNode.gain.value = this.recorderAudioVolume / 100.0;
-    
+                this.recoredGainNode.gain.value =
+                    this.recorderAudioVolume / 100.0;
+
                 this.source.buffer = this.audio_buffer;
-    
+
                 this.source.connect(this.recoredGainNode);
                 this.recoredGainNode.connect(this.audioContext.destination);
-    
+
                 this.source.onended = () => {
                     this.audioState = AudioState.AS_NONE;
                     this.cd.detectChanges();
                 };
-    
+
                 this.source.start();
             }
         }
     }
-    
+
     onPlayCurrentEpisode() {
         const episode = this.lesson.getCurrentEpisode(true);
         if (this.audioState === AudioState.AS_NONE && Boolean(episode)) {
@@ -313,8 +378,10 @@ export class AudioOverlayComponent implements OnInit {
             if (this.audio_buffer) {
                 this.audioState = AudioState.AS_SYNC_PLAY;
 
-                this.recoredGainNode.gain.value = this.recorderAudioVolume / 100.0;
-                this.episodeGainNode.gain.value = this.episodeAudioVolume / 100.0;
+                this.recoredGainNode.gain.value =
+                    this.recorderAudioVolume / 100.0;
+                this.episodeGainNode.gain.value =
+                    this.episodeAudioVolume / 100.0;
 
                 const episode = this.lesson.getCurrentEpisode(true);
 
@@ -459,5 +526,9 @@ export class AudioOverlayComponent implements OnInit {
             }
         }
         return matrix[b.length][a.length];
+    }
+
+    clearComparison() {
+        this.tableRows = [];
     }
 }
