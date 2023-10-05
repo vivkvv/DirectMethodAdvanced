@@ -8,14 +8,14 @@
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="1.933" duration="1.8">
+		<item id="0" start="1.9" duration="1.5">
 			<person>Teacher</person>
 			<text>question</text>
 			<image/>
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="3.767" duration="1.433">
+		<item id="0" start="3.5" duration="1.4">
 			<person>Teacher</person>
 			<text>answer</text>
 			<image/>
@@ -168,19 +168,19 @@
 		</item>
 	</item>
 	<item id="16">
-		<item id="0" start="76.067" duration="2.0">
+		<item id="0" start="76.0" duration="1.8">
 			<person>Teacher</person>
 			<text>What's her name?</text>
 			<image/>
 		</item>
-		<item id="1" start="78.067" duration="2.5">
+		<item id="1" start="78.0" duration="2.0">
 			<person>Student</person>
 			<text>Her name's Mrs. Brown</text>
 			<image/>
 		</item>
 	</item>
 	<item id="17">
-		<item id="0" start="80.6" duration="1.433">
+		<item id="0" start="80.6" duration="1.3">
 			<person>Teacher</person>
 			<text>head</text>
 			<image/>
@@ -194,7 +194,7 @@
 		</item>
 	</item>
 	<item id="19">
-		<item id="0" start="83.6" duration="1.567">
+		<item id="0" start="83.6" duration="1.4">
 			<person>Teacher</person>
 			<text>chin</text>
 			<image/>
@@ -248,7 +248,7 @@
 			<text>What's this?</text>
 			<image/>
 		</item>
-		<item id="1" start="96.067" duration="2.367">
+		<item id="1" start="96.0" duration="2.2">
 			<person>Student</person>
 			<text>It's the head, etc.</text>
 			<image/>
@@ -355,7 +355,7 @@
 		</item>
 	</item>
 	<item id="37">
-		<item id="0" start="144.933" duration="1.567">
+		<item id="0" start="144.9" duration="1.4">
 			<person>Teacher</person>
 			<text>into</text>
 			<image/>
@@ -388,7 +388,7 @@
 		</item>
 	</item>
 	<item id="41">
-		<item id="0" start="162.1" duration="2.167">
+		<item id="0" start="162.1" duration="2.1">
 			<person>Teacher</person>
 			<text>What's he doing?</text>
 			<image/>
@@ -431,81 +431,81 @@
 			<text>What's she doing?</text>
 			<image/>
 		</item>
-		<item id="1" start="185.5" duration="4.167">
+		<item id="1" start="185.5" duration="3.9">
 			<person>Student</person>
 			<text>She's translating a sentence from English into ...</text>
 			<image/>
 		</item>
 	</item>
 	<item id="46">
-		<item id="0" start="189.667" duration="1.367">
+		<item id="0" start="189.4" duration="1.2">
 			<person>Teacher</person>
 			<text>who</text>
 			<image/>
 		</item>
 	</item>
 	<item id="47">
-		<item id="0" start="191.033" duration="2.067">
+		<item id="0" start="190.9" duration="1.8">
 			<person>Teacher</person>
 			<text>Who am I?</text>
 			<image/>
 		</item>
-		<item id="1" start="193.1" duration="2.133">
+		<item id="1" start="193.0" duration="2.0">
 			<person>Student</person>
 			<text>You're Mr. Smith</text>
 			<image/>
 		</item>
 	</item>
 	<item id="48">
-		<item id="0" start="195.267" duration="1.767">
+		<item id="0" start="195.1" duration="1.6">
 			<person>Teacher</person>
 			<text>Who are you?</text>
 			<image/>
 		</item>
-		<item id="1" start="197.033" duration="2.367">
+		<item id="1" start="197.0" duration="2.2">
 			<person>Student</person>
 			<text>I'm Mr. Rossi</text>
 			<image/>
 		</item>
 	</item>
 	<item id="49">
-		<item id="0" start="199.4" duration="1.6">
+		<item id="0" start="199.3" duration="1.6">
 			<person>Teacher</person>
 			<text>Who's he?</text>
 			<image/>
 		</item>
-		<item id="1" start="201.033" duration="2.633">
+		<item id="1" start="200.9" duration="2.4">
 			<person>Student</person>
 			<text>He's Jack Brown</text>
 			<image/>
 		</item>
 	</item>
 	<item id="50">
-		<item id="0" start="203.7" duration="1.6">
+		<item id="0" start="203.5" duration="1.6">
 			<person>Teacher</person>
 			<text>Who's she?</text>
 			<image/>
 		</item>
-		<item id="1" start="205.3" duration="2.6">
+		<item id="1" start="205.3" duration="2.5">
 			<person>Student</person>
 			<text>She's Anna Brown</text>
 			<image/>
 		</item>
 	</item>
 	<item id="51">
-		<item id="0" start="207.933" duration="1.8">
+		<item id="0" start="207.8" duration="1.8">
 			<person>Teacher</person>
 			<text>Who are they?</text>
 			<image/>
 		</item>
-		<item id="1" start="209.733" duration="2.767">
+		<item id="1" start="209.6" duration="2.6">
 			<person>Student</person>
 			<text>They're Mr. and Mrs. Brown</text>
 			<image/>
 		</item>
 	</item>
 	<item id="52">
-		<item id="0" start="212.533" duration="1.533">
+		<item id="0" start="212.5" duration="1.4">
 			<person>Teacher</person>
 			<text>thing</text>
 			<image/>
@@ -555,26 +555,26 @@
 		</item>
 	</item>
 	<item id="57">
-		<item id="0" start="231.567" duration="1.633">
+		<item id="0" start="231.5" duration="1.4">
 			<person>Teacher</person>
 			<text>short</text>
 			<image/>
 		</item>
 	</item>
 	<item id="58">
-		<item id="0" start="233.2" duration="1.867">
+		<item id="0" start="233.1" duration="1.8">
 			<person>Teacher</person>
 			<text>Scandinavia</text>
 			<image/>
 		</item>
 	</item>
 	<item id="59">
-		<item id="0" start="235.1" duration="2.4">
+		<item id="0" start="235.0" duration="2.4">
 			<person>Teacher</person>
 			<text>Is Mr. Brown short?</text>
 			<image/>
 		</item>
-		<item id="1" start="237.5" duration="4.0">
+		<item id="1" start="237.4" duration="4.0">
 			<person>Student</person>
 			<text>No, Mr. Brown isn't; he's tall</text>
 			<image/>
@@ -631,7 +631,7 @@
 			<text>What's the difference between &quot;tall&quot; and &quot;short&quot; and &quot;high&quot; and &quot;low&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="266.367" duration="12.167">
+		<item id="1" start="266.3" duration="11.0">
 			<person>Student</person>
 			<text>The difference between &quot;tall&quot; and &quot;short&quot; and &quot;high&quot; and &quot;low&quot; is that we use &quot;tall&quot; and &quot;short&quot; for people, whereas we use &quot;high&quot; and &quot;low&quot; for things</text>
 			<image/>
