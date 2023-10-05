@@ -146,18 +146,76 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         });
     }
 
+    private paintEpisodeAudioData() {
+        if (!this.lesson.audioBuffer) {
+            return;
+        }
+
+        const channelData = this.lesson.audioBuffer.getChannelData(0);
+        let data: number[] = Array.from(channelData);
+        
+        const skip = 10000;
+        data = data.filter((_, index) => index % skip === 0);
+
+        const minData: number = d3.min(data) ?? 0
+        const maxData: number = d3.max(data) ?? 0
+
+        const svg = d3.select("#chart1");
+        // const width = Number(svg.attr("width"))
+        // const height = Number(svg.attr("height"))
+        const width = this.chartContainer.nativeElement.offsetWidth;
+        const height = this.chartContainer.nativeElement.offsetHeight;
+
+        const xScale = d3.scaleLinear()
+            .domain([0, this.lesson.audioBuffer.duration])
+            .range([0, width])
+
+        const yScale = d3.scaleLinear()
+            .domain([minData, maxData])
+            .range([height, 0])
+
+        const line = d3.line<number>()
+            .x((d, i) => xScale( i / this.lesson.audioBuffer.sampleRate))
+            .y(d => yScale(d));
+
+        // svg.append("path")
+        //     .datum(data)
+        //     .attr("d", line);
+
+        svg.append("path")
+            .datum(data)
+            .attr("d", line)
+            .attr("stroke", "blue")
+            .attr("fill", "none");
+        
+        
+        // axes
+        /*
+        const xAxis = d3.axisBottom(xScale);
+        const yAxis = d3.axisLeft(yScale);
+
+        svg.append("g")
+            .attr("transform", `translate(0, ${height})`)
+            .call(xAxis)
+
+        svg.append("g")
+            .call(yAxis)
+        */
+    }
+
     ngAfterViewInit() {
         const width = this.chartContainer.nativeElement.offsetWidth;
         const height = this.chartContainer.nativeElement.offsetHeight / 2;
 
-        this.initChart('chart1', (d: number) => d * d, [0, 100], width, height);
-        this.initChart(
-            'chart2',
-            (d: number) => d * d * d,
-            [-50, 50],
-            width,
-            height
-        );
+        //this.initChart('chart1', (d: number) => d * d, [0, 100], width, height);
+        //!!!! here !!!!this.paintEpisodeAudioData()
+        // this.initChart(
+        //     'chart2',
+        //     (d: number) => d * d * d,
+        //     [-50, 50],
+        //     width,
+        //     height
+        // );
     }
 
     private initChart(

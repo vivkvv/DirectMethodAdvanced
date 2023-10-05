@@ -19,12 +19,10 @@ export class SpeechRecognitionService {
 
         this.recognition.onstart = () => {
             this.startSubject.next();
-            console.log('speech recognition start');
         };
 
         this.recognition.onend = () => {
             this.endSubject.next();
-            console.log('speech recognition end');
         };
     }
 
@@ -44,7 +42,6 @@ export class SpeechRecognitionService {
 
     onResult(callback: (event: any) => void) {
         this.recognition.onresult = callback;
-        console.log('on result');
     }
 
     onError(callback: (event: any) => void) {

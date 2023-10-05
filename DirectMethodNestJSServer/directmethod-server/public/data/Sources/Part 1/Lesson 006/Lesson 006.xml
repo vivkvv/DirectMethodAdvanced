@@ -86,21 +86,21 @@
 		</item>
 	</item>
 	<item id="10">
-		<item id="0" start="34.2" duration="1.867">
+		<item id="0" start="34.2" duration="1.6">
 			<person>Teacher</person>
 			<text>second</text>
 			<image/>
 		</item>
 	</item>
 	<item id="11">
-		<item id="0" start="36.067" duration="1.667">
+		<item id="0" start="36.0" duration="1.4">
 			<person>Teacher</person>
 			<text>third</text>
 			<image/>
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="37.767" duration="1.733">
+		<item id="0" start="37.7" duration="1.4">
 			<person>Teacher</person>
 			<text>fourth</text>
 			<image/>
@@ -161,12 +161,12 @@
 		</item>
 	</item>
 	<item id="20">
-		<item id="0" start="57.733" duration="2.967">
+		<item id="0" start="57.7" duration="1.8">
 			<person>Teacher</person>
 			<text>What are the ordinal numbers?</text>
 			<image/>
 		</item>
-		<item id="1" start="60.7" duration="6.6">
+		<item id="1" start="60.7" duration="5.6">
 			<person>Student</person>
 			<text>The ordinal numbers are 1st, 2nd, 3rd, etc.</text>
 			<image/>
@@ -652,7 +652,7 @@
 			<text>Are all the students sitting?</text>
 			<image/>
 		</item>
-		<item id="1" start="294.533" duration="5.467">
+		<item id="1" start="294.533" duration="3.4">
 			<person>Student</person>
 			<text>Yes, all the students are sitting</text>
 			<image/>
