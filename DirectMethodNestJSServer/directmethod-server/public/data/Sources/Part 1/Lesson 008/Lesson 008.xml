@@ -576,7 +576,7 @@
 		</item>
 		<item id="1" start="237.4" duration="4.0">
 			<person>Student</person>
-			<text>No, Mr. Brown isn't; he's tall</text>
+			<text>No, Mr. Brown isn't short; he's tall</text>
 			<image/>
 		</item>
 	</item>
@@ -595,7 +595,7 @@
 	<item id="61">
 		<item id="0" start="248.033" duration="3.233">
 			<person>Teacher</person>
-			<text>All the people of Scandinavia short?</text>
+			<text>Are the people of Scandinavia short?</text>
 			<image/>
 		</item>
 		<item id="1" start="251.3" duration="5.2">
@@ -631,7 +631,7 @@
 			<text>What's the difference between &quot;tall&quot; and &quot;short&quot; and &quot;high&quot; and &quot;low&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="266.3" duration="11.0">
+		<item id="1" start="266.3" duration="10.8">
 			<person>Student</person>
 			<text>The difference between &quot;tall&quot; and &quot;short&quot; and &quot;high&quot; and &quot;low&quot; is that we use &quot;tall&quot; and &quot;short&quot; for people, whereas we use &quot;high&quot; and &quot;low&quot; for things</text>
 			<image/>

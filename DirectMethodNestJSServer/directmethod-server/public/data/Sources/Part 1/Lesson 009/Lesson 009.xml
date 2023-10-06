@@ -22,7 +22,7 @@
 		</item>
 	</item>
 	<item id="3">
-		<item id="0" start="5.6" duration="1.767">
+		<item id="0" start="5.5" duration="1.6">
 			<person>Teacher</person>
 			<text>What's this?</text>
 			<image/>
@@ -167,7 +167,7 @@
 		</item>
 	</item>
 	<item id="18">
-		<item id="0" start="65.0" duration="3.5">
+		<item id="0" start="65.0" duration="3.4">
 			<person>Teacher</person>
 			<text>we have - we've</text>
 			<image/>
@@ -219,7 +219,7 @@
 		</item>
 	</item>
 	<item id="24">
-		<item id="0" start="93.933" duration="1.9">
+		<item id="0" start="93.9" duration="1.7">
 			<person>Teacher</person>
 			<text>generally</text>
 			<image/>
@@ -238,7 +238,7 @@
 			<text>Have I got two eyes?</text>
 			<image/>
 		</item>
-		<item id="1" start="98.7" duration="2.9">
+		<item id="1" start="98.7" duration="2.7">
 			<person>Student</person>
 			<text>Yes, you've got two eyes</text>
 			<image/>
@@ -250,7 +250,7 @@
 			<text>Have you got two ears?</text>
 			<image/>
 		</item>
-		<item id="1" start="104.567" duration="3.067">
+		<item id="1" start="104.5" duration="2.9">
 			<person>Student</person>
 			<text>Yes, I've got two ears</text>
 			<image/>
@@ -269,7 +269,7 @@
 		</item>
 	</item>
 	<item id="29">
-		<item id="0" start="113.5" duration="2.7">
+		<item id="0" start="113.0" duration="2.7">
 			<person>Teacher</person>
 			<text>Has she got two hands?</text>
 			<image/>
@@ -286,7 +286,7 @@
 			<text>Have we got two heads?</text>
 			<image/>
 		</item>
-		<item id="1" start="121.933" duration="2.8">
+		<item id="1" start="121.9" duration="2.7">
 			<person>Student</person>
 			<text>Yes, we've got two heads</text>
 			<image/>
@@ -305,7 +305,7 @@
 		</item>
 	</item>
 	<item id="32">
-		<item id="0" start="130.5" duration="3.1">
+		<item id="0" start="130.0" duration="3.1">
 			<person>Teacher</person>
 			<text>any? (non-specific)</text>
 			<image/>
@@ -333,7 +333,7 @@
 		</item>
 	</item>
 	<item id="36">
-		<item id="0" start="141.667" duration="5.667">
+		<item id="0" start="141.4" duration="5.5">
 			<person>Teacher</person>
 			<text>seven, thirteen, etc.; none</text>
 			<image/>
@@ -420,7 +420,7 @@
 		</item>
 	</item>
 	<item id="47">
-		<item id="0" start="187.867" duration="1.533">
+		<item id="0" start="187.7" duration="1.4">
 			<person>Teacher</person>
 			<text>any</text>
 			<image/>
@@ -444,7 +444,7 @@
 			<text>Are there any pictures on these walls?</text>
 			<image/>
 		</item>
-		<item id="1" start="198.9" duration="3.833">
+		<item id="1" start="198.9" duration="3.7">
 			<person>Student</person>
 			<text>Yes, there are some pictures on these walls</text>
 			<image/>
@@ -527,12 +527,12 @@
 		</item>
 	</item>
 	<item id="58">
-		<item id="0" start="234.9" duration="2.767">
+		<item id="0" start="234.9" duration="2.5">
 			<person>Teacher</person>
 			<text>How many books are there on the table?</text>
 			<image/>
 		</item>
-		<item id="1" start="237.667" duration="2.9">
+		<item id="1" start="237.6" duration="2.6">
 			<person>Student</person>
 			<text>There are two books on the table</text>
 			<image/>
@@ -556,7 +556,7 @@
 			<text>How many pictures are there on these walls?</text>
 			<image/>
 		</item>
-		<item id="1" start="248.667" duration="3.567">
+		<item id="1" start="248.6" duration="3.4">
 			<person>Student</person>
 			<text>There are three pictures on these walls</text>
 			<image/>

@@ -1,5 +1,36 @@
 <div class="flex flex-wrap">
 
+    <fieldset class="block-container w-full p-3 m-3 border border-solid border-gray-400">
+        <legend>Common</legend>
+        <div class="flex w-full md:w-1/2 mb-2">
+            <label class="label-container w-1/3 mr-10">Main buttons panel side</label>
+            <div class="value-container w-2/3">
+                <select class="w-full">
+                    <!-- <option *ngFor="let font of availableFonts" [value]="font">{{font}}</option> -->
+                </select>
+            </div>
+        </div>
+
+        <div class="flex w-full md:w-1/2 mb-2">
+            <label class="label-container w-1/3 mr-10">Language</label>
+            <div class="value-container w-2/3">
+                <select class="w-full">
+                    <!-- <option *ngFor="let font of availableFonts" [value]="font">{{font}}</option> -->
+                </select>
+            </div>
+        </div>
+
+        <div class="flex w-full md:w-1/2 mb-2">
+            <label class="label-container w-1/3 mr-10">STT voice</label>
+            <div class="value-container w-2/3">
+                <select class="w-full">
+                    <!-- <option *ngFor="let font of availableFonts" [value]="font">{{font}}</option> -->
+                </select>
+            </div>
+        </div>
+
+    </fieldset>
+
     <div class="block-container p-3 m-3 border border-solid border-gray-400 w-full">
         <div class="w-full md:w-1/2 p-3">
             <input type="checkbox" id="cb_show_teacher_text_id"
@@ -54,6 +85,17 @@
 
     <fieldset class="block-container w-full p-3 m-3 border border-solid border-gray-400">
         <legend>Continuous lesson mode</legend>
+
+        <div class="flex w-full md:w-1/2 mb-2">
+            <label class="ml-2 flex-1">Active mode</label>
+            <div class="value-container w-2/3">
+                <select class="w-full">
+                    <!-- <option *ngFor="let font of availableFonts" [value]="font">{{font}}</option> -->
+                </select>
+            </div>
+        </div>
+
+
         <div class="flex w-full md:w-1/2 mb-2">
             <label for="pause_before_phrase_id" class="ml-2 flex-1">Pause before, s</label>
             <input type="number" id="pause_before_phrase_id" class="border border-solid border-black flex-1"

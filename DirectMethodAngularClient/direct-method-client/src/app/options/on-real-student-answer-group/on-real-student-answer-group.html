@@ -75,6 +75,12 @@
                             <label for="close_automatically_id" class="ml-2">Close automatically</label>
                         </div>
 
+                        <div class="flex w-full md:w-1/2">
+                            <label for="pause_before_close_id" class="ml-2 flex-1">Pause before close, s</label>
+                            <input type="number" id="pause_before_close_id" class="border border-solid border-black flex-1"
+                                disabled="{{!onRealStudentAnswer.use || !onRealStudentAnswer.openSpeechRecognitionDialog}}">
+                        </div>
+
                     </fieldset>
                 </div>
             </div>
