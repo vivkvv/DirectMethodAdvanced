@@ -5,8 +5,9 @@
         <div class="flex w-full md:w-1/2 mb-2">
             <label class="label-container w-1/3 mr-10">Main buttons panel side</label>
             <div class="value-container w-2/3">
-                <select class="w-full">
-                    <!-- <option *ngFor="let font of availableFonts" [value]="font">{{font}}</option> -->
+                <select class="w-full border border-black">
+                    <option value="left">left</option>
+                    <option value="right">right</option>
                 </select>
             </div>
         </div>
@@ -14,9 +15,16 @@
         <div class="flex w-full md:w-1/2 mb-2">
             <label class="label-container w-1/3 mr-10">Language</label>
             <div class="value-container w-2/3">
-                <select class="w-full">
-                    <!-- <option *ngFor="let font of availableFonts" [value]="font">{{font}}</option> -->
-                </select>
+                <select class="w-full language_id border border-black">
+                    <option value="de-DE">de-DE</option>
+                    <option value="en-GB">en-GB</option>
+                    <option value="en-US" selected>en-US</option>
+                    <option value="es-ES">es-ES</option>
+                    <option value="fr-FR">fr-FR</option>
+                    <option value="it-IT">it-IT</option>
+                    <option value="ru">ru</option>
+                    <option value="uk-UA">uk-UA</option>
+                </select>                
             </div>
         </div>
 

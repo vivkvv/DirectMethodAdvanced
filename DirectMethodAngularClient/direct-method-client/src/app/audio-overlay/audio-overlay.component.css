@@ -43,3 +43,19 @@ div::-webkit-scrollbar {
     /* Chrome, Safari, Edge */
     display: none;
 }
+
+#recorder-volume-slider {
+    -webkit-appearance: slider-vertical; /* WebKit */
+    writing-mode: bt-lr; /* IE */
+    width: 8px; /* Ширина */
+    height: 100px; /* Высота */
+    padding: 0 5px; /* Отступы */
+}
+
+#episode-volume-slider {
+    -webkit-appearance: slider-vertical; /* WebKit */
+    writing-mode: bt-lr; /* IE */
+    width: 8px; /* Ширина */
+    height: 100px; /* Высота */
+    padding: 0 5px; /* Отступы */
+}
