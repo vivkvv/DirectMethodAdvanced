@@ -59,3 +59,10 @@ div::-webkit-scrollbar {
     height: 100px; /* Высота */
     padding: 0 5px; /* Отступы */
 }
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}

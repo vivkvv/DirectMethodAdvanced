@@ -11,6 +11,7 @@ import { MatDialogRef } from '@angular/material/dialog';
 import { SpeechRecognitionService } from '../services/Speech-recognition/speech-recognition.service';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 // import { LessonComponent } from '../lesson/lesson.component';
+import { HostListener } from '@angular/core';
 import * as d3 from 'd3';
 
 export enum AudioState {
@@ -29,6 +30,23 @@ export enum AudioState {
 })
 export class AudioOverlayComponent implements OnInit, AfterViewInit {
     @ViewChild('chartContainer', { static: false }) chartContainer!: ElementRef;
+    @HostListener('window:keydown', ['$event'])
+    handle(event: KeyboardEvent) {
+        switch (event.key.toUpperCase()) {
+            case 'N':
+                this.onNextEpisode();
+                break;
+            case 'B':
+                this.onPreviousEpisode();
+                break;
+            case 'P':
+                this.onPlayCurrentEpisode();
+                break;
+            case 'R':
+                this.onRecognizing(1, 0.0, false);
+                break;
+        }
+    }
 
     comparison_result: number = 0;
     comparison_result_text: string = '';
@@ -151,56 +169,127 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             return;
         }
 
-        const channelData = this.lesson.audioBuffer.getChannelData(0);
-        let data: number[] = Array.from(channelData);
-        
-        const skip = 10000;
-        data = data.filter((_, index) => index % skip === 0);
+        const svg1 = d3
+            .select('#chart1')
+            .attr('width', 400)
+            .attr('height', 200);
 
-        const minData: number = d3.min(data) ?? 0
-        const maxData: number = d3.max(data) ?? 0
+        const xScale1 = d3.scaleLinear().domain([0, 100]).range([0, 400]);
+        const yScale1 = d3.scaleLinear().domain([0, 100]).range([200, 0]);
 
-        const svg = d3.select("#chart1");
-        // const width = Number(svg.attr("width"))
-        // const height = Number(svg.attr("height"))
+        svg1.append('rect')
+            .attr('x', 10)
+            .attr('y', 10)
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr('fill', 'red');
+
+        svg1.append('line')
+            .attr('x1', 20)
+            .attr('y1', 0)
+            .attr('x2', 200)
+            .attr('y2', 0)
+            .attr('stroke', 'blue');
+
+        svg1.append('line')
+            .attr('x1', 20)
+            .attr('y1', 10)
+            .attr('x2', 200)
+            .attr('y2', 10)
+            .attr('stroke', 'blue');
+
+            svg1.append('line')
+            .attr('x1', 20)
+            .attr('y1', 10)
+            .attr('x2', 20)
+            .attr('y2', 100)
+            .attr('stroke', 'green');
+
+            svg1.append('line')
+            .attr('x1', 0)
+            .attr('y1', 10)
+            .attr('x2', 0)
+            .attr('y2', 100)
+            .attr('stroke', 'green');
+
+
+        const xAxis1 = d3.axisBottom(xScale1);
+        const yAxis1 = d3.axisLeft(yScale1);
+
+        svg1.append('g').attr('transform', 'translate(0, 200)').call(xAxis1);
+
+        svg1.append('g').call(yAxis1);
+
+        return;
+
+        // const channelData = this.lesson.audioBuffer.getChannelData(0);
+        // let data: number[] = Array.from(channelData);
+
+        // const skip = 10000;
+        // data = data.filter((_, index) => index % skip === 0);
+
+        // const minData: number = d3.min(data) ?? 0;
+        // const maxData: number = d3.max(data) ?? 0;
+
+        const svg = d3.select('#chart1');
         const width = this.chartContainer.nativeElement.offsetWidth;
         const height = this.chartContainer.nativeElement.offsetHeight;
+        svg.attr('width', width).attr('height', height);
 
-        const xScale = d3.scaleLinear()
-            .domain([0, this.lesson.audioBuffer.duration])
-            .range([0, width])
+        svg.selectAll('line').attr('stroke', 'black');
+        svg.selectAll('text').attr('fill', 'black');
 
-        const yScale = d3.scaleLinear()
-            .domain([minData, maxData])
-            .range([height, 0])
+        const xScale = d3
+            .scaleLinear()
+            //.domain([0, this.lesson.audioBuffer.duration])
+            .domain([0, 100])
+            .range([0, width]);
 
-        const line = d3.line<number>()
-            .x((d, i) => xScale( i / this.lesson.audioBuffer.sampleRate))
-            .y(d => yScale(d));
+        const yScale = d3
+            .scaleLinear()
+            //.domain([minData, maxData])
+            .domain([0, 100])
+            .range([height, 0]);
 
-        // svg.append("path")
+        // const line = d3
+        //     .line<number>()
+        //     .x((d, i) => xScale(i / this.lesson.audioBuffer.sampleRate))
+        //     .y((d) => yScale(d));
+
+        svg.append('rect')
+            .attr('x', 10)
+            .attr('y', 10)
+            .attr('width', 50)
+            .attr('height', 50)
+            .attr('fill', 'red');
+
+        svg.append('line')
+            .attr('x1', 0)
+            .attr('y1', height)
+            .attr('x2', width)
+            .attr('y2', height)
+            .attr('stroke', 'black');
+
+        svg.append('line')
+            .attr('x1', 0)
+            .attr('y1', 0)
+            .attr('x2', 0)
+            .attr('y2', height)
+            .attr('stroke', 'black');
+
+        // svg.append('path')
         //     .datum(data)
-        //     .attr("d", line);
+        //     .attr('d', line)
+        //     .attr('stroke', 'blue')
+        //     .attr('fill', 'none');
 
-        svg.append("path")
-            .datum(data)
-            .attr("d", line)
-            .attr("stroke", "blue")
-            .attr("fill", "none");
-        
-        
         // axes
-        /*
-        const xAxis = d3.axisBottom(xScale);
-        const yAxis = d3.axisLeft(yScale);
+        const xAxis = d3.axisBottom(xScale).ticks(10);
+        const yAxis = d3.axisLeft(yScale).ticks(10);
 
-        svg.append("g")
-            .attr("transform", `translate(0, ${height})`)
-            .call(xAxis)
+        svg.append('g').attr('transform', 'translate(0, 168)').call(xAxis);
 
-        svg.append("g")
-            .call(yAxis)
-        */
+        svg.append('g').attr('transform', 'translate(0, 0)').call(yAxis);
     }
 
     ngAfterViewInit() {
@@ -208,7 +297,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         const height = this.chartContainer.nativeElement.offsetHeight / 2;
 
         //this.initChart('chart1', (d: number) => d * d, [0, 100], width, height);
-        //!!!! here !!!!this.paintEpisodeAudioData()
+        //this.paintEpisodeAudioData();
         // this.initChart(
         //     'chart2',
         //     (d: number) => d * d * d,
@@ -431,6 +520,14 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         }
     }
 
+    onNextEpisode() {
+        this.lesson.gotoNextEpisode();
+    }
+
+    onPreviousEpisode() {
+        this.lesson.gotoPreviousEpisode();
+    }
+
     onSyncPlay() {
         if (this.audioState === AudioState.AS_NONE) {
             if (this.audio_buffer) {
@@ -550,7 +647,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
 
     normalizeString(str: string) {
         return str
-            .replace(/[.,\/#!?$%\^&\*;:{}=\-_`~()\n\r\ \"]/g, '')
+            .replace(/[.,\/#!?$%\^&\*;:{}=\-_`~()\n\r\ \"\\\/]/g, '')
             .toLowerCase();
     }
 
