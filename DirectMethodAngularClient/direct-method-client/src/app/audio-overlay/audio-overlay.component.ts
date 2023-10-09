@@ -13,6 +13,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 // import { LessonComponent } from '../lesson/lesson.component';
 import { HostListener } from '@angular/core';
 import * as d3 from 'd3';
+import { Subscription } from 'rxjs';
 
 export enum AudioState {
     AS_NONE = 0,
@@ -33,6 +34,9 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     @HostListener('window:keydown', ['$event'])
     handle(event: KeyboardEvent) {
         switch (event.key.toUpperCase()) {
+            case 'C':
+                this.clearComparison();
+                break;
             case 'N':
                 this.onNextEpisode();
                 break;
@@ -45,6 +49,17 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             case 'R':
                 this.onRecognizing(1, 0.0, false);
                 break;
+        }
+    }
+
+    subscription!: Subscription;
+
+    public showPlot: Boolean = false;
+
+    onShowPlotChange() {
+        if (this.showPlot) {
+            this.cd.detectChanges();
+            this.paintEpisodeAudioData();
         }
     }
 
@@ -169,142 +184,88 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             return;
         }
 
-        const svg1 = d3
-            .select('#chart1')
-            .attr('width', 400)
-            .attr('height', 200);
+        const channelData = this.lesson.audioBuffer.getChannelData(0);
 
-        const xScale1 = d3.scaleLinear().domain([0, 100]).range([0, 400]);
-        const yScale1 = d3.scaleLinear().domain([0, 100]).range([200, 0]);
-
-        svg1.append('rect')
-            .attr('x', 10)
-            .attr('y', 10)
-            .attr('width', 50)
-            .attr('height', 50)
-            .attr('fill', 'red');
-
-        svg1.append('line')
-            .attr('x1', 20)
-            .attr('y1', 0)
-            .attr('x2', 200)
-            .attr('y2', 0)
-            .attr('stroke', 'blue');
-
-        svg1.append('line')
-            .attr('x1', 20)
-            .attr('y1', 10)
-            .attr('x2', 200)
-            .attr('y2', 10)
-            .attr('stroke', 'blue');
-
-            svg1.append('line')
-            .attr('x1', 20)
-            .attr('y1', 10)
-            .attr('x2', 20)
-            .attr('y2', 100)
-            .attr('stroke', 'green');
-
-            svg1.append('line')
-            .attr('x1', 0)
-            .attr('y1', 10)
-            .attr('x2', 0)
-            .attr('y2', 100)
-            .attr('stroke', 'green');
-
-
-        const xAxis1 = d3.axisBottom(xScale1);
-        const yAxis1 = d3.axisLeft(yScale1);
-
-        svg1.append('g').attr('transform', 'translate(0, 200)').call(xAxis1);
-
-        svg1.append('g').call(yAxis1);
-
-        return;
-
-        // const channelData = this.lesson.audioBuffer.getChannelData(0);
-        // let data: number[] = Array.from(channelData);
-
-        // const skip = 10000;
-        // data = data.filter((_, index) => index % skip === 0);
-
-        // const minData: number = d3.min(data) ?? 0;
-        // const maxData: number = d3.max(data) ?? 0;
-
-        const svg = d3.select('#chart1');
         const width = this.chartContainer.nativeElement.offsetWidth;
         const height = this.chartContainer.nativeElement.offsetHeight;
-        svg.attr('width', width).attr('height', height);
 
-        svg.selectAll('line').attr('stroke', 'black');
-        svg.selectAll('text').attr('fill', 'black');
+        const sampleRate = this.lesson.audioBuffer.sampleRate;
+        const startTime = this.lesson.getCurrentEpisode(true).start;
+        const endTime =
+            startTime + this.lesson.getCurrentEpisode(true).duration;
+        const startIndex = Math.floor(startTime * sampleRate);
+        const endIndex = Math.floor(endTime * sampleRate);
 
-        const xScale = d3
+        let data: number[] = Array.from(channelData);
+        data = data.slice(startIndex, endIndex);
+
+        // let smoothedData = [];
+        // const groupSize = Math.floor(data.length / width);
+        // for (let i = 0; i < width; i++) {
+        //     let sum = 0;
+        //     for (let j = 0; j < groupSize; j++) {
+        //         sum += data[i * groupSize + j];
+        //     }
+        //     smoothedData[i] = sum / groupSize;
+        // }
+
+        // data = smoothedData;
+
+        const minData: number = d3.min(data) ?? 0;
+        const maxData: number = d3.max(data) ?? 0;
+
+        d3.select('#chart1').selectAll('*').remove();
+
+        const svg = d3
+            .select('#chart1')
+            .attr('width', width)
+            .attr('height', height);
+
+        const xScale1 = d3
             .scaleLinear()
-            //.domain([0, this.lesson.audioBuffer.duration])
-            .domain([0, 100])
+            .domain([0, data.length])
             .range([0, width]);
-
-        const yScale = d3
+        const yScale1 = d3
             .scaleLinear()
-            //.domain([minData, maxData])
-            .domain([0, 100])
+            .domain([minData, maxData])
             .range([height, 0]);
 
-        // const line = d3
-        //     .line<number>()
-        //     .x((d, i) => xScale(i / this.lesson.audioBuffer.sampleRate))
-        //     .y((d) => yScale(d));
+        const line = d3
+            .line<number>()
+            .x((d, i) => xScale1(i))
+            .y((d) => yScale1(d));
 
-        svg.append('rect')
-            .attr('x', 10)
-            .attr('y', 10)
-            .attr('width', 50)
-            .attr('height', 50)
-            .attr('fill', 'red');
+        svg.append('path')
+            .datum(data)
+            .attr('fill', 'none')
+            .attr('stroke', 'steelblue')
+            .attr('stroke-width', 1.5)
+            .attr('d', line);
 
-        svg.append('line')
-            .attr('x1', 0)
-            .attr('y1', height)
-            .attr('x2', width)
-            .attr('y2', height)
-            .attr('stroke', 'black');
+        const xAxis1 = d3.axisBottom(xScale1);
+        const yAxis1 = d3.axisRight(yScale1);
 
-        svg.append('line')
-            .attr('x1', 0)
-            .attr('y1', 0)
-            .attr('x2', 0)
-            .attr('y2', height)
-            .attr('stroke', 'black');
+        svg.append('g').attr('transform', `translate(0, ${height / 2})`);
+        //.call(xAxis1);
 
-        // svg.append('path')
-        //     .datum(data)
-        //     .attr('d', line)
-        //     .attr('stroke', 'blue')
-        //     .attr('fill', 'none');
+        svg.append('g').attr('transform', `translate(${width / 2}, 0)`);
+        //.call(yAxis1);
 
-        // axes
-        const xAxis = d3.axisBottom(xScale).ticks(10);
-        const yAxis = d3.axisLeft(yScale).ticks(10);
-
-        svg.append('g').attr('transform', 'translate(0, 168)').call(xAxis);
-
-        svg.append('g').attr('transform', 'translate(0, 0)').call(yAxis);
+        return;
     }
 
     ngAfterViewInit() {
-        const width = this.chartContainer.nativeElement.offsetWidth;
-        const height = this.chartContainer.nativeElement.offsetHeight / 2;
+        // this.paintEpisodeAudioData();
 
-        //this.initChart('chart1', (d: number) => d * d, [0, 100], width, height);
-        //this.paintEpisodeAudioData();
-        // this.initChart(
-        //     'chart2',
-        //     (d: number) => d * d * d,
-        //     [-50, 50],
-        //     width,
-        //     height
-        // );
+        const ro = new ResizeObserver((entries) => {
+            for (let entry of entries) {
+                if (entry.target === this.chartContainer.nativeElement) {
+                    this.paintEpisodeAudioData();
+                }
+            }
+        });
+
+        ro.observe(this.chartContainer.nativeElement);
     }
 
     private initChart(
@@ -353,6 +314,18 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             }
             this.cd.detectChanges();
         });
+
+        this.subscription = this.data.parentComponent
+            .getEpisodeActivateEvent()
+            .subscribe(() => {
+                if (this.showPlot) {
+                    this.paintEpisodeAudioData();
+                }
+            });
+    }
+
+    ngOnDestroy(): void {
+        this.subscription.unsubscribe();
     }
 
     getColor(value: string): string {

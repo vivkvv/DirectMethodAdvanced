@@ -121,35 +121,33 @@
 
     </div>
     <div class="flex flex-col h-full" [style.order]="0" style="flex: 1;">
-        <!-- <div>
-        <label [style.color]="getColor(comparison_result_text)" id="comparison-result">Error:
-            {{comparison_result_text}}</label>
-    </div> -->
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center p-2">
             <label [style.color]="getColor(comparison_result_text)" id="comparison-result">
                 Error: {{comparison_result_text}}
             </label>
-            <button class="border border-gray-300 rounded px-4 py-2 hover:bg-gray-200 active:bg-gray-300"
-                (click)="clearComparison()">
-                Clear
-            </button>
+            <div class>
+                <label class="inline-flex items-center mr-4">
+                    <input type="checkbox" [(ngModel)]="showPlot" (change)="onShowPlotChange()" class="mr-2">
+                    Show plot
+                </label>
+                <button class="border border-gray-300 rounded px-4 py-2 hover:bg-gray-200 active:bg-gray-300"
+                    (click)="clearComparison()">
+                    Clear
+                </button>
+            </div>
         </div>
-        <!-- <textarea matInput class="flex-grow w-full border border-black">
-        {{transcript}}
-    </textarea> -->
         <div class="flex flex-col h-full">
-            <div class="flex-1 overflow-auto border border-gray-300" style="flex: 1 0 50%;">
+            <div class="flex-1 overflow-auto border border-gray-300" [style.flex]="showPlot ? '1 0 50%' : '1 0 100%'">
                 <div class="flex" *ngFor="let row of tableRows">
                     <div class="flex-1 p-2 border-b border-r">{{row.text}}</div>
                     <div class="w-[70px] p-2 border-b">{{row.value}}</div>
                 </div>
             </div>
 
-            <div #chartContainer class="flex-1 flex flex-col" style="flex: 1 0 50%;">
-                <svg class="flex-1 h-full w-full" id="chart1">
+            <div *ngIf="showPlot" #chartContainer class="flex-1 flex flex-col box-border" style="flex: 1 0 50%;">
+                <svg class="flex-1 h-full w-full" id="chart1"
+                    style="border: 2px solid green; width: 100%; height: 100%;">
                 </svg>
-                <!-- <div class="flex-1" id="chart2">
-            </div> -->
             </div>
         </div>
     </div>

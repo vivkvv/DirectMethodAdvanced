@@ -22,7 +22,7 @@
 		</item>
 	</item>
 	<item id="3">
-		<item id="0" start="5.4" duration="3.467">
+		<item id="0" start="5.3" duration="3.4">
 			<person>Teacher</person>
 			<text>About how many people are there in your country?</text>
 			<image/>
@@ -34,7 +34,7 @@
 		</item>
 	</item>
 	<item id="4">
-		<item id="0" start="12.8" duration="3.333">
+		<item id="0" start="12.7" duration="3.2">
 			<person>Teacher</person>
 			<text>About how many things are there in this room?</text>
 			<image/>
@@ -46,7 +46,7 @@
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="20.467" duration="3.933">
+		<item id="0" start="20.3" duration="3.8">
 			<person>Teacher</person>
 			<text>About how many pages are there in this book?</text>
 			<image/>
@@ -94,42 +94,42 @@
 			<text>Can you read and write?</text>
 			<image/>
 		</item>
-		<item id="1" start="43.0" duration="3.4">
+		<item id="1" start="43.0" duration="3.2">
 			<person>Student</person>
 			<text>Yes, I can read and write</text>
 			<image/>
 		</item>
 	</item>
 	<item id="10">
-		<item id="0" start="46.4" duration="1.467">
+		<item id="0" start="46.1" duration="1.1">
 			<person>Teacher</person>
 			<text>like</text>
 			<image/>
 		</item>
 	</item>
 	<item id="11">
-		<item id="0" start="47.867" duration="1.8">
+		<item id="0" start="47.8" duration="1.3">
 			<person>Teacher</person>
 			<text>dislike</text>
 			<image/>
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="49.7" duration="1.567">
+		<item id="0" start="49.3" duration="1.3">
 			<person>Teacher</person>
 			<text>cinema</text>
 			<image/>
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="51.267" duration="1.767">
+		<item id="0" start="51.2" duration="1.57">
 			<person>Teacher</person>
 			<text>television</text>
 			<image/>
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="53.067" duration="2.033">
+		<item id="0" start="52.8" duration="1.9">
 			<person>Teacher</person>
 			<text>Do you like your city?</text>
 			<image/>
@@ -141,7 +141,7 @@
 		</item>
 	</item>
 	<item id="15">
-		<item id="0" start="57.9" duration="2.767">
+		<item id="0" start="57.9" duration="2.6">
 			<person>Teacher</person>
 			<text>Do you dislike the cinema?</text>
 			<image/>
@@ -182,21 +182,21 @@
 			<text>Does he dislike television? (вообще)</text>
 			<image/>
 		</item>
-		<item id="1" start="79.733" duration="4.567">
+		<item id="1" start="79.7" duration="4.4">
 			<person>Student</person>
 			<text>No, he doesn't dislike television; he likes television</text>
 			<image/>
 		</item>
 	</item>
 	<item id="19">
-		<item id="0" start="84.333" duration="1.6">
+		<item id="0" start="84.1" duration="1.3">
 			<person>Teacher</person>
 			<text>right</text>
 			<image/>
 		</item>
 	</item>
 	<item id="20">
-		<item id="0" start="85.933" duration="1.5">
+		<item id="0" start="85.8" duration="1.2">
 			<person>Teacher</person>
 			<text>left</text>
 			<image/>
@@ -489,7 +489,7 @@
 		</item>
 	</item>
 	<item id="49">
-		<item id="0" start="219.833" duration="3.367">
+		<item id="0" start="219.7" duration="3.3">
 			<person>Teacher</person>
 			<text>How much is half of a hundred?</text>
 			<image/>
@@ -501,7 +501,7 @@
 		</item>
 	</item>
 	<item id="50">
-		<item id="0" start="226.3" duration="3.433">
+		<item id="0" start="226.1" duration="3.0">
 			<person>Teacher</person>
 			<text>How much is half of thirteen?</text>
 			<image/>

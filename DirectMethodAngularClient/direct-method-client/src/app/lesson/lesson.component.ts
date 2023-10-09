@@ -4,7 +4,7 @@ import {
     ViewChild,
     ElementRef,
     Renderer2,
-    ChangeDetectorRef,
+    ChangeDetectorRef
 } from '@angular/core';
 import { EntityService, IEntity } from '../services/entity.service';
 import { Router, ActivatedRoute } from '@angular/router';
@@ -12,17 +12,11 @@ import { LoadingService } from '../loading.service';
 import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, first, isEmpty, tap } from 'rxjs/operators';
 import { LessonItem } from './lesson.wrapper';
-import { switchMap, from, Observable, forkJoin, of } from 'rxjs';
+import { Subject, Observable, forkJoin, of } from 'rxjs';
 import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component';
 import { OptionsService } from '../services/Options/options.service';
 import { ExitComponent } from '../exit/exit.component';
-
-/*
-class TSelectedKey {
-    constructor(public id: number = -1, public person: string = '') {}
-}
-*/
 
 interface Lesson {
     nextPart: string;
@@ -41,6 +35,16 @@ interface Key {
 })
 export class LessonComponent implements OnInit {
     @ViewChild('headerElement') headerElement!: ElementRef;
+
+    private activateEpisodeSubject = new Subject<any>();
+
+    emitEpisodeActivateEvent() {
+        this.activateEpisodeSubject.next(null);
+    }
+
+    getEpisodeActivateEvent() {
+        return this.activateEpisodeSubject.asObservable();
+    }
 
     Object = Object;
 
@@ -107,6 +111,7 @@ export class LessonComponent implements OnInit {
     setActiveKey(value: string) {
         this.selectedKey = this.stringToKey(value);
         this.updateGUIDueToSelectedKey();
+        this.emitEpisodeActivateEvent();
     }
 
     onValueChanged(value: string) {
@@ -535,14 +540,12 @@ export class LessonComponent implements OnInit {
 
     gotoPreviousEpisode() {
         const previousSelectedKey = this.getPreviousKey();
-        this.selectedKey = this.stringToKey(previousSelectedKey);
-        this.updateGUIDueToSelectedKey();
+        this.setActiveKey(previousSelectedKey);
     }
 
     gotoNextEpisode() {
         const nextSelectedKey = this.getNextKey();
-        this.selectedKey = this.stringToKey(nextSelectedKey);
-        this.updateGUIDueToSelectedKey();
+        this.setActiveKey(nextSelectedKey);   
     }
 
     get lessonItemKeys(): string[] {
