@@ -56,7 +56,7 @@
 		<item id="0" start="18.867" duration="1.4">
 			<person>Teacher</person>
 			<text>tea</text>
-			<image>чай</image>
+			<image></image>
 		</item>
 	</item>
 	<item id="7">
@@ -675,7 +675,7 @@
 			<text>Which is it right to say: &quot;people are&quot; or &quot;people is&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="324.067" duration="5.667">
+		<item id="1" start="324.067" duration="2.8">
 			<person>Student</person>
 			<text>It's right to say &quot;people are&quot;</text>
 			<image/>

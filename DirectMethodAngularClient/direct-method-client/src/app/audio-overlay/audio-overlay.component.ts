@@ -265,7 +265,9 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             }
         });
 
-        ro.observe(this.chartContainer.nativeElement);
+        if (Boolean(this.chartContainer) && Boolean(this.chartContainer.nativeElement)) {
+            ro.observe(this.chartContainer.nativeElement);
+        }
     }
 
     private initChart(

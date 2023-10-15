@@ -196,14 +196,9 @@
 		</item>
 	</item>
 	<item id="20">
-		<item id="0" start="99.367" duration="1.667">
+		<item id="0" start="99.367" duration="3.0">
 			<person>Teacher</person>
-			<text>place</text>
-			<image/>
-		</item>
-		<item id="1" start="101.033" duration="2.3">
-			<person>Student</person>
-			<text>some of</text>
+			<text>place   some of</text>
 			<image/>
 		</item>
 	</item>
@@ -485,7 +480,7 @@
 			<text>About how many questions do you answer during the lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="278.7" duration="6.567">
+		<item id="1" start="278.7" duration="5.0">
 			<person>Student</person>
 			<text>I answer about 30 questions during the lesson</text>
 			<image/>

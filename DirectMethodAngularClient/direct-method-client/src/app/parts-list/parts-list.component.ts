@@ -37,7 +37,6 @@ export class PartsListComponent implements OnInit {
     getTopics(): void {
         this.topicService.getTopics().subscribe(
             (parts: Part[]) => {
-                console.log('Parts:', parts);
                 this.parts = parts.map(createPartFromJSON);
             },
             (error: any) => {
