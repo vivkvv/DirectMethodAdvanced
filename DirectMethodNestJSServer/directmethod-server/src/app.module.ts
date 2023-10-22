@@ -19,6 +19,7 @@ import { EventsService } from './mangoose-service/services/events.service';
 import { ActionService } from './mangoose-service/services/actions.service';
 import { OptionsService } from './mangoose-service/services/options.service';
 //import { MongooseModule } from '@nestjs/mongoose';
+import { S3Controller } from './s3/s3.controller';
 
 @Module({
   imports: [
@@ -41,6 +42,7 @@ import { OptionsService } from './mangoose-service/services/options.service';
     PrevLessonController,
     NotFoundController,
     AuthRedirectControllerController,
+    S3Controller,
   ],
   providers: [
     AppService,

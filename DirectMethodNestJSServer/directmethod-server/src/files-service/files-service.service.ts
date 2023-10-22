@@ -25,7 +25,7 @@ export class FilesService implements OnModuleInit {
     'Sources',
   );
 
-  private firebaseApp: admin.app.App;
+  //private firebaseApp: admin.app.App;
   //private fileList: MP3File[] = [];
   private allFolderParts: Part[];
 

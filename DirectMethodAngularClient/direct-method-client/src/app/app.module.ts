@@ -37,12 +37,14 @@ import { RouterModule } from '@angular/router';
 import { ExitComponent } from './exit/exit.component';
 import { UserService } from './services/UserService/user.service';
 import { QuickLinksComponent } from './quick-links/quick-links';
+import { FilesComponent } from './files/files.component';
 
 @NgModule({
     declarations: [
         AppComponent,
         EntityBlockComponent,
         LoginComponent,
+        FilesComponent,
         RegisterComponent,
         QuickLinksComponent,
         LessonComponent,

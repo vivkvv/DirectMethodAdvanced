@@ -632,7 +632,7 @@ export class LessonComponent implements OnInit {
         this.loadingService.setLoading(true);
 
         this.http
-            .get(`/api/lessons?part=${partId}&lesson=${lessonId}`)            
+            .get(`/api/lessons?part=${partId}&lesson=${lessonId}`)
             .subscribe({
                 next: async (response: any) => {
                     try {

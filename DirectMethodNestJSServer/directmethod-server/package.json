@@ -27,6 +27,7 @@
     "@nestjs/jwt": "^10.1.0",
     "@nestjs/mongoose": "^10.0.1",
     "@nestjs/platform-express": "^10.0.0",
+    "aws-sdk": "^2.1477.0",
     "firebase-admin": "^11.10.1",
     "google-auth-library": "^9.0.0",
     "mongoose": "^7.5.0",

@@ -129,9 +129,9 @@
 		<item id="0" start="38.667" duration="2.6">
 			<person>Teacher</person>
 			<text>How many hours make a day?</text>
-			<image>Сколько часов составляют день?</image>
+			<image/>
 		</item>
-		<item id="1" start="41.3" duration="2.733">
+		<item id="1" start="41.3" duration="2.6">
 			<person>Student</person>
 			<text>Twenty four hours make a day</text>
 			<image/>
@@ -155,7 +155,7 @@
 			<text>How many weeks make a month?</text>
 			<image/>
 		</item>
-		<item id="1" start="52.133" duration="2.367">
+		<item id="1" start="52.1" duration="2.2">
 			<person>Student</person>
 			<text>Four weeks make a month</text>
 			<image/>
@@ -472,7 +472,7 @@
 			<text>Give me an example, please</text>
 			<image/>
 		</item>
-		<item id="1" start="200.3" duration="5.7">
+		<item id="1" start="200.3" duration="5.6">
 			<person>Student</person>
 			<text>This is my book. This book is mine. This is mine</text>
 			<image/>
@@ -791,7 +791,7 @@
 		</item>
 	</item>
 	<item id="85">
-		<item id="0" start="351.9" duration="3.167">
+		<item id="0" start="351.9" duration="3.0">
 			<person>Teacher</person>
 			<text>What do you do after the lesson?</text>
 			<image/>

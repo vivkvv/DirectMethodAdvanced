@@ -318,21 +318,21 @@
 		</item>
 	</item>
 	<item id="31">
-		<item id="0" start="152.033" duration="1.667">
+		<item id="0" start="152.0" duration="1.5">
 			<person>Teacher</person>
 			<text>gold</text>
 			<image/>
 		</item>
 	</item>
 	<item id="32">
-		<item id="0" start="153.733" duration="1.733">
+		<item id="0" start="153.7" duration="1.6">
 			<person>Teacher</person>
 			<text>silver</text>
 			<image/>
 		</item>
 	</item>
 	<item id="33">
-		<item id="0" start="155.5" duration="1.6">
+		<item id="0" start="155.0" duration="1.6">
 			<person>Teacher</person>
 			<text>steel</text>
 			<image/>
@@ -396,7 +396,7 @@
 			<text>What's the key generally made of?</text>
 			<image/>
 		</item>
-		<item id="1" start="183.2" duration="2.9">
+		<item id="1" start="183.0" duration="2.9">
 			<person>Student</person>
 			<text>A key's generally made of steel</text>
 			<image/>
@@ -534,21 +534,21 @@
 		</item>
 	</item>
 	<item id="54">
-		<item id="0" start="257.2" duration="2.0">
+		<item id="0" start="257.2" duration="1.9">
 			<person>Teacher</person>
 			<text>Thursday</text>
 			<image/>
 		</item>
 	</item>
 	<item id="55">
-		<item id="0" start="259.233" duration="1.867">
+		<item id="0" start="259.2" duration="1.7">
 			<person>Teacher</person>
 			<text>Friday</text>
 			<image/>
 		</item>
 	</item>
 	<item id="56">
-		<item id="0" start="261.1" duration="1.8">
+		<item id="0" start="261.1" duration="1.7">
 			<person>Teacher</person>
 			<text>Saturday</text>
 			<image/>

@@ -4,13 +4,23 @@
         <div class="flex flex-col space-y-2">
             <div class="flex items-center space-x-2 p-2">
                 <label for="audio" class="w-24">Audio:</label>
-                <input type="file" id="audio" class="flex-grow border rounded">
+                <input
+                    type="file"
+                    id="audio"
+                    class="flex-grow border rounded"
+                />
             </div>
             <div class="flex items-center space-x-2 p-2">
                 <label for="subtitle" class="w-24">Subtitle:</label>
-                <input type="file" id="subtitle" class="flex-grow border rounded">
+                <input
+                    type="file"
+                    id="subtitle"
+                    class="flex-grow border rounded"
+                />
             </div>
-            <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white">Use</button>
+            <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white">
+                Use
+            </button>
         </div>
     </fieldset>
 
@@ -18,25 +28,85 @@
         <legend class="text-lg font-bold">S3</legend>
         <div class="flex flex-col space-y-2">
             <div class="flex items-center space-x-2 p-2">
-                <label for="configuration" class="w-24">Configuration:</label>
-                <select id="configuration" class="flex-grow border rounded"></select>
+                <label for="configuration" class="w-24">Configuration</label>
+                <select
+                    id="configuration"
+                    class="flex-grow border rounded"
+                ></select>
             </div>
             <div class="flex items-center space-x-2 p-2">
-                <label for="path" class="w-24">Path:</label>
-                <input type="text" id="path" class="flex-grow border rounded">
+                <label for="endpoint" class="w-24">S3 Endpoint URL</label>
+                <input
+                    type="text"
+                    id="endpoint"
+                    [(ngModel)]="endpoint"
+                    class="flex-grow border rounded"
+                />
             </div>
             <div class="flex items-center space-x-2 p-2">
-                <label for="description" class="w-24">Description File:</label>
-                <input type="text" id="description" class="flex-grow border rounded">
+                <label for="bucketName" class="w-24">Bucket Name</label>
+                <input
+                    type="text"
+                    id="bucketName"
+                    class="flex-grow border rounded"
+                    [(ngModel)]="bucketName"
+                />
             </div>
             <div class="flex items-center space-x-2 p-2">
-                <label for="key" class="w-24">Key:</label>
-                <input type="text" id="key" class="flex-grow border rounded">
+                <label for="accessKey" class="w-24">Access Key</label>
+                <input
+                    type="text"
+                    id="accessKey"
+                    class="flex-grow border rounded"
+                    [(ngModel)]="accessKey"
+                />
+            </div>
+            <div class="flex items-center space-x-2 p-2">
+                <label for="secretKey" class="w-24">Secret Key</label>
+                <input
+                    type="text"
+                    id="secretKey"
+                    [(ngModel)]="secretKey"
+                    class="flex-grow border rounded"
+                />
+            </div>
+            <div class="flex items-center space-x-2 p-2">
+                <label for="configXmlPath " class="w-24"
+                    >Configurational xml</label
+                >
+                <input
+                    type="text"
+                    id="configXmlPath"
+                    [(ngModel)]="configXmlPath"
+                    class="flex-grow border rounded"
+                />
+            </div>
+            <div class="flex items-center space-x-2 p-2">
+                <label for="languages" class="w-24">Translation language</label>
+                <select
+                    id="languages"
+                    class="flex-grow border rounded"
+                ></select>
+                <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white" (click)="onCheckButtonClick()">
+                    Check
+                </button>
             </div>
             <div class="flex justify-between items-center space-x-2 p-2">
-                <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white">Add</button>
-                <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white">Use</button>
+                <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white">
+                    Add
+                </button>
+                <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white">
+                    Use
+                </button>
             </div>
         </div>
     </fieldset>
+
+    <fieldset class="border p-4">
+        <legend class="text-lg font-bold">Google Drive</legend>
+    </fieldset>
+    
+    <fieldset class="border p-4">
+        <legend class="text-lg font-bold">Dropbox</legend>
+    </fieldset>    
 </div>
