@@ -22,19 +22,19 @@
 		</item>
 	</item>
 	<item id="3">
-		<item id="0" start="5.733" duration="2.733">
+		<item id="0" start="5.7" duration="2.8">
 			<person>Teacher</person>
 			<text>Do you want to break your pen?</text>
 			<image/>
 		</item>
-		<item id="1" start="8.5" duration="1.867">
+		<item id="1" start="8.5" duration="2.0">
 			<person>Student</person>
 			<text>No, I don't want to break my pen</text>
 			<image/>
 		</item>
 	</item>
 	<item id="4">
-		<item id="0" start="10.367" duration="3.467">
+		<item id="0" start="10.7" duration="3.1">
 			<person>Teacher</person>
 			<text>Do you want to break the window?</text>
 			<image/>
@@ -155,7 +155,7 @@
 		</item>
 	</item>
 	<item id="17">
-		<item id="0" start="59.633" duration="2.9">
+		<item id="0" start="59.633" duration="2.8">
 			<person>Teacher</person>
 			<text>At what time does the lesson begin?</text>
 			<image/>
@@ -396,7 +396,7 @@
 			<text>Is there any food inside our stomachs after eating?</text>
 			<image/>
 		</item>
-		<item id="1" start="199.333" duration="5.067">
+		<item id="1" start="199.3" duration="4.9">
 			<person>Student</person>
 			<text>Yes, there's some food inside our stomachs after eating</text>
 			<image/>

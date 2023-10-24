@@ -15,7 +15,7 @@
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="4.233" duration="1.867">
+		<item id="0" start="4.2" duration="1.7">
 			<person>Teacher</person>
 			<text>breakfast</text>
 			<image/>
@@ -64,7 +64,7 @@
 		</item>
 		<item id="1" start="19.367" duration="7.4">
 			<person>Student</person>
-			<text>The names of the three meals that people generally eat today are breakfast, lunch and dinner</text>
+			<text>The names of the three meals that people generally eat a day are breakfast, lunch and dinner</text>
 			<image/>
 		</item>
 	</item>
@@ -143,7 +143,7 @@
 		</item>
 	</item>
 	<item id="16">
-		<item id="0" start="62.6" duration="1.633">
+		<item id="0" start="62.6" duration="1.5">
 			<person>Teacher</person>
 			<text>knife</text>
 			<image/>
@@ -209,14 +209,14 @@
 		</item>
 	</item>
 	<item id="24">
-		<item id="0" start="90.0" duration="1.9">
+		<item id="0" start="90.0" duration="1.7">
 			<person>Teacher</person>
 			<text>the most</text>
 			<image/>
 		</item>
 	</item>
 	<item id="25">
-		<item id="0" start="91.933" duration="1.6">
+		<item id="0" start="91.9" duration="1.5">
 			<person>Teacher</person>
 			<text>few</text>
 			<image/>
@@ -251,14 +251,14 @@
 		</item>
 	</item>
 	<item id="30">
-		<item id="0" start="100.733" duration="1.867">
+		<item id="0" start="100.7" duration="1.7">
 			<person>Teacher</person>
 			<text>the most</text>
 			<image/>
 		</item>
 	</item>
 	<item id="31">
-		<item id="0" start="102.6" duration="1.633">
+		<item id="0" start="102.0" duration="1.5">
 			<person>Teacher</person>
 			<text>little</text>
 			<image/>
@@ -387,7 +387,7 @@
 		</item>
 	</item>
 	<item id="45">
-		<item id="0" start="169.0" duration="1.767">
+		<item id="0" start="169.0" duration="1.6">
 			<person>Teacher</person>
 			<text>many</text>
 			<image/>
@@ -432,7 +432,7 @@
 		</item>
 	</item>
 	<item id="50">
-		<item id="0" start="194.733" duration="1.533">
+		<item id="0" start="194.6" duration="1.4">
 			<person>Teacher</person>
 			<text>little</text>
 			<image/>
@@ -520,21 +520,21 @@
 			<text>Do you put much pepper on your plate?</text>
 			<image/>
 		</item>
-		<item id="1" start="234.367" duration="6.167">
+		<item id="1" start="234.3" duration="6.0">
 			<person>Student</person>
 			<text>No, I don't put much pepper on my plate; I put little pepper on my plate</text>
 			<image/>
 		</item>
 	</item>
 	<item id="60">
-		<item id="0" start="240.567" duration="1.933">
+		<item id="0" start="240.5" duration="1.8s">
 			<person>Teacher</person>
 			<text>fewer ... than</text>
 			<image/>
 		</item>
 	</item>
 	<item id="61">
-		<item id="0" start="242.5" duration="1.8">
+		<item id="0" start="242.2" duration="1.8">
 			<person>Teacher</person>
 			<text>less ... than</text>
 			<image/>
@@ -596,14 +596,14 @@
 			<text>Are there more people in Europe than in Asia?</text>
 			<image/>
 		</item>
-		<item id="1" start="280.567" duration="6.633">
+		<item id="1" start="280.5" duration="6.9">
 			<person>Student</person>
 			<text>No, there aren't more people in Europe than in Asia; there are fewer people in Europe than in Asia</text>
 			<image/>
 		</item>
 	</item>
 	<item id="68">
-		<item id="0" start="287.2" duration="4.667">
+		<item id="0" start="287.5" duration="4.4">
 			<person>Teacher</person>
 			<text>Do you drink more milk than water?</text>
 			<image/>
@@ -632,7 +632,7 @@
 			<text>Do you eat more meat than bread?</text>
 			<image/>
 		</item>
-		<item id="1" start="310.9" duration="8.133">
+		<item id="1" start="310.9" duration="6.0">
 			<person>Student</person>
 			<text>No, I don't eat more meat than bread; I eat less meat than bread</text>
 			<image/>

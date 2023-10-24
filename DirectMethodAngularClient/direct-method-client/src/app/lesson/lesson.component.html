@@ -151,7 +151,7 @@
                 </div>
             </div>
 
-            <mat-form-field appearance="fill" class="w-full">
+            <mat-form-field appearance="fill" class="w-full" name="episodes">
                 <mat-select [value]="keyToString(selectedKey)" (valueChange)="onValueChanged($event)">
                     <mat-option *ngFor="let key of Object.keys(lessonItemsDict)" [value]="key">
                         <div class="option-item"

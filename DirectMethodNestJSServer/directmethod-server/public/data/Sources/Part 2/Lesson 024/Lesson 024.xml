@@ -15,7 +15,7 @@
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="4.433" duration="1.933">
+		<item id="0" start="4.3" duration="1.7">
 			<person>Teacher</person>
 			<text>the least</text>
 			<image/>
@@ -31,7 +31,7 @@
 	<item id="4">
 		<item id="0" start="" duration="">
 			<Explanation>
-				<text>The difference between “the fewest“ and “the least“ is the same as the difference between “fewer ... than“ and “less ... than“. We use “the fewest“ with things we can count, whereas we use “the least“ we use with things we cannot count. For example, “Of these three places, London, Cambridge and Greenwich, Greenwich has the fewest buildings“, and “Of these three people, Mr Brown, Mr Smith and Mr Jones, Mr Jones drinks the least coffee“.</text>
+				<text>The difference between “the fewest“ and “the least“ is the same as the difference between “fewer ... than“ and “less ... than“. We use “the fewest“ with things we can count, whereas we use “the least“ with things we cannot count. For example, “Of these three places, London, Cambridge and Greenwich, Greenwich has the fewest buildings“, and “Of these three people, Mr Brown, Mr Smith and Mr Jones, Mr Jones drinks the least coffee“.</text>
 			</Explanation>
 		</item>
 	</item>
@@ -525,7 +525,7 @@
 		</item>
 	</item>
 	<item id="52">
-		<item id="0" start="287.967" duration="2.1">
+		<item id="0" start="287.9" duration="1.9">
 			<person>Teacher</person>
 			<text>mobile</text>
 			<image/>
@@ -565,12 +565,12 @@
 		</item>
 	</item>
 	<item id="57">
-		<item id="0" start="303.6" duration="3.6">
+		<item id="0" start="303.6" duration="3.4">
 			<person>Teacher</person>
 			<text>Have you got a mobile phone in your pocket?</text>
 			<image/>
 		</item>
-		<item id="1" start="307.233" duration="3.667">
+		<item id="1" start="307.2" duration="3.5">
 			<person>Student</person>
 			<text>Yes, I've got a mobile phone in my pocket</text>
 			<image/>
