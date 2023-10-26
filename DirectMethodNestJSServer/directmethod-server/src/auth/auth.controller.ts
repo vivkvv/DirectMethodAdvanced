@@ -10,7 +10,7 @@ export class AuthController {
   constructor(
     private authService: AuthService,
     private jwtService: JwtService,
-    private dbService: DBService
+    private dbService: DBService,
   ) {}
 
   @UseGuards(LocalAuthGuard)
@@ -49,7 +49,9 @@ export class AuthController {
   @Post('login/google')
   async googleLogin(@Request() req) {
     const googleToken = req.body.token;
-    const googleUser: GoogleUser = await this.authService.validateGoogleUser(googleToken);
+    const googleUser: GoogleUser = await this.authService.validateGoogleUser(
+      googleToken,
+    );
 
     if (!googleUser) {
       // Проверьте черный список и другие условия здесь
@@ -78,7 +80,7 @@ export class AuthController {
     const result = await this.authService.logout(username);
 
     const decodedToken = req.decodedToken;
-    await this.dbService.handleLogout(decodedToken.userId);    
+    await this.dbService.handleLogout(decodedToken.userId);
 
     if (result) {
       return {
@@ -94,7 +96,7 @@ export class AuthController {
 
   @UseGuards(JwtAuthGuard)
   @Post('db/save_options')
-  async serializeOptions(@Request() req){
+  async serializeOptions(@Request() req) {
     const decodedToken = req.decodedToken;
     const userUniqId = decodedToken.userId;
     const options = req.body;
@@ -104,11 +106,15 @@ export class AuthController {
 
   @UseGuards(JwtAuthGuard)
   @Post('db/load_options')
-  async deserializeOptions(@Request() req){
-    const decodedToken = req.decodedToken;
-    const buffer = await this.dbService.loadOptions(decodedToken.userId);
-    const options = JSON.parse(buffer.toString());
-    return options;
+  async deserializeOptions(@Request() req) {
+    try {
+      const decodedToken = req.decodedToken;
+      const buffer = await this.dbService.loadOptions(decodedToken.userId);
+      const options = JSON.parse(buffer.toString());
+      return options;
+    } catch (e) {
+      return null;
+    }
   }
 
   @UseGuards(JwtAuthGuard)

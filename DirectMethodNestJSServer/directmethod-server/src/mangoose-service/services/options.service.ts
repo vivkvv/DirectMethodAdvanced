@@ -27,6 +27,7 @@ export class OptionsService {
     const options = await this.optionModel
       .findOne({ usersId: user._id })
       .exec();
-    return options.options;
+
+    return  options ? options.options : null;
   }
 }
