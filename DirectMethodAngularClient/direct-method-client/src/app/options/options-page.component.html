@@ -8,9 +8,14 @@
                 >Main buttons panel side</label
             >
             <div class="value-container w-2/3">
-                <select class="w-full border border-black">
-                    <option value="left">left</option>
-                    <option value="right">right</option>
+                <select
+                    class="w-full border border-black"
+                    [(ngModel)]="optionsService.options.mainPanelSide"
+                    (ngModelChange)="optionsService.serialize()"
+                >
+                    <option *ngFor="let side of availableSides" [value]="side">
+                        {{ side }}
+                    </option>
                 </select>
             </div>
         </div>
@@ -120,26 +125,54 @@
         <div class="flex w-full md:w-1/2 mb-2">
             <label class="ml-2 flex-1">Active mode</label>
             <div class="value-container w-2/3">
-                <select class="w-full border border-black">
-                    <!-- <option *ngFor="let font of availableFonts" [value]="font">{{font}}</option> -->
+                <select
+                    class="w-full border border-black"
+                    [(ngModel)]="selectedModelKey"
+                    (change)="updateSelectedModel()"
+                >
+                    <option *ngFor="let key of getModelKeys()" [value]="key">
+                        {{ key }}
+                    </option>
                 </select>
             </div>
         </div>
 
         <div class="flex w-full md:w-1/2 mb-2">
             <label class="ml-2 flex-1">Mode</label>
-            <div class="value-container w-2/3">
-                <input class="w-full border border-black" type="text" />
+            <div class="value-container w-2/3 flex">
+                <input
+                    class="w-full border border-black"
+                    type="text"
+                    [(ngModel)]="this.tempModelKey"
+                    (blur)="changeModeName()"
+                />
+                <button
+                    class="border border-black ml-2 px-1"
+                    (click)="addNewContinuousLessonMode()"
+                >
+                    +
+                </button>
+                <button
+                    class="border border-black ml-2 px-1"
+                    (click)="deleteCurrentContinuousLessonMode()"
+                >
+                    -
+                </button>
             </div>
         </div>
 
         <div class="flex w-full md:w-1/2 mb-2">
-            <label class="ml-2 flex-1">Language</label>
+            <label class="ml-2 flex-1">TTS Language</label>
             <div class="value-container w-2/3">
                 <select
                     class="w-full border border-black"
-                    [(ngModel)]="selectedLanguage"
                     (change)="onLanguageChange()"
+                    [(ngModel)]="
+                        optionsService.options.continuousLessonOptionsMap[
+                            optionsService.options.activeModelName
+                        ].ttsLanguage
+                    "
+                    (ngModelChange)="optionsService.serialize()"
                 >
                     <option
                         *ngFor="let lang of availableLanguages"
@@ -156,12 +189,23 @@
             <div class="value-container w-2/3">
                 <select
                     class="w-full border border-black"
-                    [(ngModel)]="selectedVoice"
+                    [(ngModel)]="
+                        optionsService.options.continuousLessonOptionsMap[
+                            optionsService.options.activeModelName
+                        ].ttsVoice
+                    "
+                    (ngModelChange)="onVoiceNameChange($event)"
                 >
                     <ng-container *ngFor="let voice of availableVoices">
                         <option
-                            *ngIf="voice.lang === selectedLanguage"
-                            [value]="voice"
+                            *ngIf="
+                                voice.lang ===
+                                optionsService.options
+                                    .continuousLessonOptionsMap[
+                                    optionsService.options.activeModelName
+                                ].ttsLanguage
+                            "
+                            [value]="voice.name"
                         >
                             {{ voice.name }}
                         </option>
@@ -196,8 +240,9 @@
                 id="pause_before_phrase_id"
                 class="border border-solid border-black flex-1"
                 [(ngModel)]="
-                    optionsService.options.continuousLessonOptions
-                        .pauseBeforePhrase
+                    optionsService.options.continuousLessonOptionsMap[
+                        optionsService.options.activeModelName
+                    ].pauseBeforePhrase
                 "
                 (ngModelChange)="optionsService.serialize()"
             />
@@ -212,8 +257,9 @@
                 id="pause_constant_time_id"
                 class="border border-solid border-black w-32"
                 [(ngModel)]="
-                    optionsService.options.continuousLessonOptions
-                        .pauseAfterPhrase.constantTime
+                    optionsService.options.continuousLessonOptionsMap[
+                        optionsService.options.activeModelName
+                    ].pauseAfterPhrase.constantTime
                 "
                 (ngModelChange)="optionsService.serialize()"
             />
@@ -223,8 +269,9 @@
                 id="pause_multiple_previous_time_id"
                 class="border border-solid border-black w-32"
                 [(ngModel)]="
-                    optionsService.options.continuousLessonOptions
-                        .pauseAfterPhrase.multiplePreviousPhraseTime
+                    optionsService.options.continuousLessonOptionsMap[
+                        optionsService.options.activeModelName
+                    ].pauseAfterPhrase.multiplePreviousPhraseTime
                 "
                 (ngModelChange)="optionsService.serialize()"
             />
@@ -234,8 +281,9 @@
         <div>
             <digital-students-group
                 [digitalStudent]="
-                    optionsService.options.continuousLessonOptions
-                        .digitalStudent
+                    optionsService.options.continuousLessonOptionsMap[
+                        optionsService.options.activeModelName
+                    ].digitalStudent
                 "
             ></digital-students-group>
         </div>
@@ -243,8 +291,9 @@
         <div>
             <on-real-student-answer-group
                 [onRealStudentAnswer]="
-                    optionsService.options.continuousLessonOptions
-                        .onRealStudentAnswer
+                    optionsService.options.continuousLessonOptionsMap[
+                        optionsService.options.activeModelName
+                    ].onRealStudentAnswer
                 "
                 (realStudentChanged)="optionsService.serialize()"
                 (ngModelChange)="optionsService.serialize()"

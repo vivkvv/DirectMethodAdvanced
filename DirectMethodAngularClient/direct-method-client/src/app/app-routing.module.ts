@@ -7,6 +7,7 @@ import { OptionsPageComponent } from './options/options-page.component';
 import { AuthorizationCheckingComponent } from './authorization-checking/authorization-checking.component';
 import { RegisterComponent } from './registering/registering.component';
 import { ExitComponent } from './exit/exit.component';
+import { DeleteModeComponent } from './delete-mode/delete-mode.component';
 import { QuickLinksComponent } from './quick-links/quick-links';
 import { FilesComponent } from './files/files.component';
 // import { PreAuthorizationCheckingComponent } from './pre-authorization-checking/pre-authorization-checking.components';
@@ -22,6 +23,7 @@ const routes: Routes = [
     { path: 'not-found-angular', component: LoginComponent },
     { path: 'options', component: OptionsPageComponent },
     { path: 'exit', component: ExitComponent },
+    { path: 'delete-mode', component: DeleteModeComponent },
     {
         path: 'authorization-checking',
         component: AuthorizationCheckingComponent,

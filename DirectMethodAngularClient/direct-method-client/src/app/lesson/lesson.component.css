@@ -53,3 +53,18 @@ header svg {
 .disabled-button {
     @apply pointer-events-none opacity-50;
 }
+
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* or other settings as needed */
+}
+
+.left-panel {
+    order: 0;
+    width: 20%;
+}
+
+.right-panel {
+    order: 2;
+    width: 20%;
+}

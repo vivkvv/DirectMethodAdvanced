@@ -14,6 +14,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { HostListener } from '@angular/core';
 import * as d3 from 'd3';
 import { Subscription } from 'rxjs';
+import { OptionsService } from '../services/Options/options.service';
 
 export enum AudioState {
     AS_NONE = 0,
@@ -55,6 +56,11 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     subscription!: Subscription;
 
     public showPlot: Boolean = false;
+
+    public isLeft(): number {
+        return this.optionsService.options.mainPanelSide === "left" ? 0 : 1;
+    }
+
 
     onShowPlotChange() {
         if (this.showPlot) {
@@ -138,7 +144,8 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         @Inject(MAT_DIALOG_DATA) public data: any,
         public dialogRef: MatDialogRef<AudioOverlayComponent>,
         private speechRecognitionService: SpeechRecognitionService,
-        private cd: ChangeDetectorRef
+        private cd: ChangeDetectorRef,
+        public optionsService: OptionsService,
     ) {
         this.lesson = data.parentComponent;
         this.speechRecognitionService.onResult((event) => {

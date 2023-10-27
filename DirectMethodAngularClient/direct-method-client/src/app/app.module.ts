@@ -35,6 +35,7 @@ import { OnRealStudentAnswerGroupComponent } from './options/on-real-student-ans
 import { RegisterComponent } from './registering/registering.component';
 import { RouterModule } from '@angular/router';
 import { ExitComponent } from './exit/exit.component';
+import { DeleteModeComponent } from './delete-mode/delete-mode.component';
 import { UserService } from './services/UserService/user.service';
 import { QuickLinksComponent } from './quick-links/quick-links';
 import { FilesComponent } from './files/files.component';
@@ -56,6 +57,7 @@ import { FilesComponent } from './files/files.component';
         AuthorizationCheckingComponent,
         PreAuthorizationCheckingComponent,
         ExitComponent,
+        DeleteModeComponent,
         AudioOverlayComponent
     ],
     imports: [

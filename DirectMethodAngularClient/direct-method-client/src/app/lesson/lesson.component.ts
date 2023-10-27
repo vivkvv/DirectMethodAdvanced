@@ -4,7 +4,7 @@ import {
     ViewChild,
     ElementRef,
     Renderer2,
-    ChangeDetectorRef
+    ChangeDetectorRef,
 } from '@angular/core';
 import { EntityService, IEntity } from '../services/entity.service';
 import { Router, ActivatedRoute } from '@angular/router';
@@ -44,6 +44,11 @@ export class LessonComponent implements OnInit {
 
     getEpisodeActivateEvent() {
         return this.activateEpisodeSubject.asObservable();
+    }
+
+    public isLeft(): boolean {
+        const result = this.optionsService.options.mainPanelSide === "left";
+        return result;
     }
 
     Object = Object;
@@ -276,7 +281,11 @@ export class LessonComponent implements OnInit {
     }
 
     private async continuousPlay() {
-        const opt = this.optionsService.options.continuousLessonOptions;
+        const activeModelName = this.optionsService.options.activeModelName;
+        const opt =
+            this.optionsService.options.continuousLessonOptionsMap[
+                activeModelName
+            ];
         const realStudentAnswer = opt.onRealStudentAnswer;
 
         const pauseBefore = opt.pauseBeforePhrase;
@@ -328,7 +337,12 @@ export class LessonComponent implements OnInit {
             }
 
             //this.getPreviousKey()
-            await this.sleep(1000 * (pauseAfter.constantTime + pauseAfter.multiplePreviousPhraseTime * episode.duration ));
+            await this.sleep(
+                1000 *
+                    (pauseAfter.constantTime +
+                        pauseAfter.multiplePreviousPhraseTime *
+                            episode.duration)
+            );
 
             if (this.currentEpisodeIsLast()) {
                 break;
@@ -545,7 +559,7 @@ export class LessonComponent implements OnInit {
 
     gotoNextEpisode() {
         const nextSelectedKey = this.getNextKey();
-        this.setActiveKey(nextSelectedKey);   
+        this.setActiveKey(nextSelectedKey);
     }
 
     get lessonItemKeys(): string[] {
@@ -578,26 +592,39 @@ export class LessonComponent implements OnInit {
     }
 
     private async parseLessonData(response: any) {
-        this.lessonItemsDict = {}
+        this.lessonItemsDict = {};
         const parser = new DOMParser();
-        
-        const lessonXmlDoc = parser.parseFromString(response.lesson_xml, 'application/xml');
-        const translationXmlDoc = parser.parseFromString(response.translation_xml, 'application/xml');
-       
-        const topLevelItems = Array.from(lessonXmlDoc.querySelectorAll('items > item'));
-    
+
+        const lessonXmlDoc = parser.parseFromString(
+            response.lesson_xml,
+            'application/xml'
+        );
+        const translationXmlDoc = parser.parseFromString(
+            response.translation_xml,
+            'application/xml'
+        );
+
+        const topLevelItems = Array.from(
+            lessonXmlDoc.querySelectorAll('items > item')
+        );
+
         topLevelItems.forEach((topItem) => {
             const itemId = topItem.getAttribute('id') || '-1';
             const subItems = topItem.querySelectorAll('item');
             subItems.forEach((subItem) => {
                 const subItemId = subItem.getAttribute('id') || '-1';
-                const translationElement = translationXmlDoc.querySelector(`item[id="${itemId}"] item[id="${subItemId}"] translation`);
+                const translationElement = translationXmlDoc.querySelector(
+                    `item[id="${itemId}"] item[id="${subItemId}"] translation`
+                );
                 const translation = translationElement?.textContent || '';
                 const key = this.keyToString({ itemId, subItemId });
-                this.lessonItemsDict[key] = new LessonItem(subItem, translation);
+                this.lessonItemsDict[key] = new LessonItem(
+                    subItem,
+                    translation
+                );
             });
         });
-    }    
+    }
 
     private async loadImagesForLesson(partId: any, lessonId: any) {
         let fetchObservables = [];
@@ -609,21 +636,23 @@ export class LessonComponent implements OnInit {
                     this.lessonItemsDict[key]
                 )
             );
-        }        
+        }
         await forkJoin(fetchObservables).toPromise();
     }
 
     private async loadAndDecodeAudio(audio_link: string) {
         const audio_response = await fetch(audio_link);
         const arrayBuffer = await audio_response.arrayBuffer();
-        const audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
-        
+        const audioBuffer = await this.audioContext.decodeAudioData(
+            arrayBuffer
+        );
+
         this.audioBuffer = audioBuffer;
         this.startLessonTime = 0;
         this.endLessonTime = audioBuffer.duration;
         this.currentLessonTime = 0;
-    }    
-    
+    }
+
     private async fetchLessonData(partId: any, lessonId: any): Promise<void> {
         this.partID = partId;
         this.lessonID = lessonId;

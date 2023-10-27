@@ -1,5 +1,5 @@
 <div class="flex flex-row h-full">
-    <div class="flex flex-col" [style.order]="1" style="width: 64px;">
+    <div class="flex flex-col" [style.order]="isLeft()" style="width: 64px;">
         <button mat-icon-button (click)="close()" class="flex-none"><mat-icon>close</mat-icon></button>
         <select class="language_id border border-black" [disabled]="!isLanguageEnabled()">
             <option value="de-DE">de-DE</option>

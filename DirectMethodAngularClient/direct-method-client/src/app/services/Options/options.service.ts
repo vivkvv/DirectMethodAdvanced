@@ -18,19 +18,39 @@ export class OnRealStudentAnswer {
     maximumError!: number;
 }
 
-export class PauseAfterPhrase{ // = constantTime + multiplePreviousPhraseTime * lengthOfPreviousTime()
+export class PauseAfterPhrase {
+    // = constantTime + multiplePreviousPhraseTime * lengthOfPreviousTime()
     constantTime!: number;
     multiplePreviousPhraseTime!: number;
 }
 
 export class ContinuousLessonOptions {
-    pauseBeforePhrase!: number;
-    pauseAfterPhrase!: PauseAfterPhrase;
-    digitalStudent!: DigitalStudent;
-    onRealStudentAnswer!: OnRealStudentAnswer;
+    ttsLanguage: string = '';
+    ttsVoice: string = '';
+    pauseBeforePhrase: number = 0.5;
+    pauseAfterPhrase: PauseAfterPhrase = {
+        constantTime: 0.5,
+        multiplePreviousPhraseTime: 1.0,
+    };
+    digitalStudent: DigitalStudent = {
+        use: false,
+        amount: 0,
+        realStudentOrder: 0,
+    };
+    onRealStudentAnswer: OnRealStudentAnswer = {
+        use: false,
+        playSignal: false,
+        openSpeechRecognitionDialog: true,
+        closeSpeechRecognitionDialog: true,
+        useEvaluation: true,
+        maximumAttempts: 3,
+        maximumError: 30,
+    }
 }
 
-class SerializableOptions{
+class SerializableOptions {
+    mainPanelSide: string = 'left';
+
     teacherFont: FontOptions = {
         visibility: true,
         fontFamily: 'Arial',
@@ -59,24 +79,34 @@ class SerializableOptions{
         fontColor: '#333333',
     };
 
-    continuousLessonOptions: ContinuousLessonOptions = {
-        pauseBeforePhrase: 0.5,
-        pauseAfterPhrase: {constantTime: 0.5, multiplePreviousPhraseTime: 1.0},
+    activeModelName: string = 'default';
 
-        digitalStudent: {
-            use: false,
-            amount: 0,
-            realStudentOrder: 0,
-        },
+    continuousLessonOptionsMap: { [key: string]: ContinuousLessonOptions } = {
+        'default': {
+            ttsLanguage: '',
+            ttsVoice: '',
 
-        onRealStudentAnswer: {
-            use: false,
-            playSignal: false,
-            openSpeechRecognitionDialog: true,
-            closeSpeechRecognitionDialog: true,
-            useEvaluation: true,
-            maximumAttempts: 3,
-            maximumError: 30,
+            pauseBeforePhrase: 0.5,
+            pauseAfterPhrase: {
+                constantTime: 0.5,
+                multiplePreviousPhraseTime: 1.0,
+            },
+
+            digitalStudent: {
+                use: false,
+                amount: 0,
+                realStudentOrder: 0,
+            },
+
+            onRealStudentAnswer: {
+                use: false,
+                playSignal: false,
+                openSpeechRecognitionDialog: true,
+                closeSpeechRecognitionDialog: true,
+                useEvaluation: true,
+                maximumAttempts: 3,
+                maximumError: 30,
+            },
         },
     };
 }
@@ -102,5 +132,4 @@ export class OptionsService {
     }
 
     options: SerializableOptions;
-
 }
