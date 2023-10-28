@@ -6,6 +6,8 @@ import { JwksValidationHandler, OAuthService } from 'angular-oauth2-oidc';
 import { googleAuthConfig } from '../services/OAuth/auth-config';
 import { AuthService, LoginData } from '../services/auth.service';
 import { RouterModule } from '@angular/router';
+import { ExitComponent } from '../exit/exit.component';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
     selector: 'app-quick-links',
@@ -13,7 +15,7 @@ import { RouterModule } from '@angular/router';
     styleUrls: ['./quick-links.css'],
 })
 export class QuickLinksComponent {
-    constructor(private router: Router) {}
+    constructor(private router: Router, private dialog: MatDialog) {}
 
     toOptions() {
         this.router.navigate(['/options']);
@@ -21,9 +23,16 @@ export class QuickLinksComponent {
 
     toLessons() {
         this.router.navigate(['/topic-list']);
-    }    
+    }
 
     toFiles() {
         this.router.navigate(['/files']);
+    }
+
+    toExit() {
+        const dialogRef = this.dialog.open(ExitComponent, {
+            panelClass: 'exit-overlay-pane-class',
+            disableClose: true,
+        });
     }
 }

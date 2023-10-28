@@ -13,6 +13,7 @@ export class OnRealStudentAnswer {
     playSignal!: boolean;
     openSpeechRecognitionDialog!: boolean;
     closeSpeechRecognitionDialog!: boolean;
+    pauseBeforeClose!: number;
     useEvaluation!: boolean;
     maximumAttempts!: number;
     maximumError!: number;
@@ -25,8 +26,9 @@ export class PauseAfterPhrase {
 }
 
 export class ContinuousLessonOptions {
-    ttsLanguage: string = '';
+    Language: string = '';
     ttsVoice: string = '';
+    emptyTimeBehaviour: string = '';
     pauseBeforePhrase: number = 0.5;
     pauseAfterPhrase: PauseAfterPhrase = {
         constantTime: 0.5,
@@ -42,10 +44,11 @@ export class ContinuousLessonOptions {
         playSignal: false,
         openSpeechRecognitionDialog: true,
         closeSpeechRecognitionDialog: true,
+        pauseBeforeClose: 0.5,
         useEvaluation: true,
         maximumAttempts: 3,
         maximumError: 30,
-    }
+    };
 }
 
 class SerializableOptions {
@@ -82,9 +85,10 @@ class SerializableOptions {
     activeModelName: string = 'default';
 
     continuousLessonOptionsMap: { [key: string]: ContinuousLessonOptions } = {
-        'default': {
-            ttsLanguage: '',
+        default: {
+            Language: '',
             ttsVoice: '',
+            emptyTimeBehaviour: 'stop',
 
             pauseBeforePhrase: 0.5,
             pauseAfterPhrase: {
@@ -103,6 +107,7 @@ class SerializableOptions {
                 playSignal: false,
                 openSpeechRecognitionDialog: true,
                 closeSpeechRecognitionDialog: true,
+                pauseBeforeClose: 0.5,
                 useEvaluation: true,
                 maximumAttempts: 3,
                 maximumError: 30,

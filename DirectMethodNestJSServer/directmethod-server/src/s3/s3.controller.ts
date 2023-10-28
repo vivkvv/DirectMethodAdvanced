@@ -12,7 +12,8 @@ export class S3Controller {
         @Query('endpoint') endpoint: string,
         @Query('accessKey') accessKeyId: string,
         @Query('secretKey') secretAccessKey: string,        
-        @Query('bucketName') Bucket: string,        
+        @Query('bucketName') Bucket: string, 
+        @Query('configXmlPath') configXmlPath: string
     ){
         
         const s3 = new S3({
@@ -30,7 +31,21 @@ export class S3Controller {
         // getting objects list
         try {
             const data = await s3.listObjectsV2(params).promise();
-            return data.Contents; // objects array
+
+            const file = data.Contents.find(item => item.Key === configXmlPath);
+
+            if (file) {
+                const urlParams = {
+                    Bucket: params.Bucket,
+                    Key: file.Key,
+                    Expires: 60 // URL will be valid for 60 seconds
+                };
+              
+                const url = s3.getSignedUrl('getObject', urlParams);
+                return { configXml: url };
+            }
+
+            return { error: `Can't find ${configXmlPath} file`};
         } catch (error) {
             return { error: error.message };
         }        

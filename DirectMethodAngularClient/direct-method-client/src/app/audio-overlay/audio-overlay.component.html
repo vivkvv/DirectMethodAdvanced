@@ -1,16 +1,6 @@
 <div class="flex flex-row h-full">
     <div class="flex flex-col" [style.order]="isLeft()" style="width: 64px;">
         <button mat-icon-button (click)="close()" class="flex-none"><mat-icon>close</mat-icon></button>
-        <select class="language_id border border-black" [disabled]="!isLanguageEnabled()">
-            <option value="de-DE">de-DE</option>
-            <option value="en-GB">en-GB</option>
-            <option value="en-US" selected>en-US</option>
-            <option value="es-ES">es-ES</option>
-            <option value="fr-FR">fr-FR</option>
-            <option value="it-IT">it-IT</option>
-            <option value="ru">ru</option>
-            <option value="uk-UA">uk-UA</option>
-        </select>
         <svg (click)="onRecord()" [style.pointer-events]="isRecordEnabled() ? 'auto' : 'none'"
             [class.pulsing]="isRecording()"
             [style.fill]="isRecordEnabled() ? (isRecording() ? 'red' : 'black') : 'gray'"
@@ -122,9 +112,6 @@
     </div>
     <div class="flex flex-col h-full" [style.order]="0" style="flex: 1;">
         <div class="flex justify-between items-center p-2">
-            <label [style.color]="getColor(comparison_result_text)" id="comparison-result">
-                Error: {{comparison_result_text}}
-            </label>
             <div class>
                 <label class="inline-flex items-center mr-4">
                     <input type="checkbox" [(ngModel)]="showPlot" (change)="onShowPlotChange()" class="mr-2">

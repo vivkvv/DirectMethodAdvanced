@@ -47,7 +47,7 @@ export class LessonComponent implements OnInit {
     }
 
     public isLeft(): boolean {
-        const result = this.optionsService.options.mainPanelSide === "left";
+        const result = this.optionsService.options.mainPanelSide === 'left';
         return result;
     }
 
@@ -233,35 +233,52 @@ export class LessonComponent implements OnInit {
         }
     }
 
-    private continuosPlayCurrentEpisode(episode: LessonItem): Promise<boolean> {
+    private continuosPlayCurrentEpisode(
+        episode: LessonItem,
+        language: string,
+        ttsVoice: string
+    ): Promise<boolean> {
         return new Promise((resolve) => {
-            this.source = this.audioContext.createBufferSource();
-            this.source.buffer = this.audioBuffer;
-            this.source.connect(this.audioContext.destination);
-            this.source.loop = false;
+            if (ttsVoice) {
+                const msg = new SpeechSynthesisUtterance(episode.text);
+                msg.lang = language;
+                const voice = (msg.voice =
+                    speechSynthesis
+                        .getVoices()
+                        .find((voice) => voice.name === ttsVoice) ?? null);
+                msg.onend = () => {
+                    resolve(true);
+                };
+                window.speechSynthesis.speak(msg);
+            } else {
+                this.source = this.audioContext.createBufferSource();
+                this.source.buffer = this.audioBuffer;
+                this.source.connect(this.audioContext.destination);
+                this.source.loop = false;
 
-            const start = episode.start;
-            const duration = episode.duration;
+                const start = episode.start;
+                const duration = episode.duration;
 
-            this.source.onended = () => {
-                resolve(true);
-            };
+                this.source.onended = () => {
+                    resolve(true);
+                };
 
-            const relativeStart = this.audioContext.currentTime;
-            this.source.start(0, start, duration);
+                const relativeStart = this.audioContext.currentTime;
+                this.source.start(0, start, duration);
 
-            const updateProgress = () => {
-                if (!this.isPlaying) {
-                    return;
-                }
+                const updateProgress = () => {
+                    if (!this.isPlaying) {
+                        return;
+                    }
 
-                this.currentLessonTime =
-                    start + (this.audioContext.currentTime - relativeStart);
-                this.cd.detectChanges();
-                requestAnimationFrame(updateProgress);
-            };
+                    this.currentLessonTime =
+                        start + (this.audioContext.currentTime - relativeStart);
+                    this.cd.detectChanges();
+                    requestAnimationFrame(updateProgress);
+                };
 
-            updateProgress();
+                updateProgress();
+            }
         });
     }
 
@@ -288,6 +305,10 @@ export class LessonComponent implements OnInit {
             ];
         const realStudentAnswer = opt.onRealStudentAnswer;
 
+        const emptyTimeBehaviour = opt.emptyTimeBehaviour;
+        const ttsVoice = opt.ttsVoice;
+        const language = opt.Language;
+
         const pauseBefore = opt.pauseBeforePhrase;
         const pauseAfter = opt.pauseAfterPhrase;
 
@@ -295,6 +316,9 @@ export class LessonComponent implements OnInit {
         const playRealStudentSignal = realStudentAnswer.playSignal;
         const openRecognitionDialog =
             realStudentAnswer.openSpeechRecognitionDialog;
+        const closeRecognitionDialogAutomatically =
+            realStudentAnswer.closeSpeechRecognitionDialog;
+        const pauseBeforeCloseDialog = realStudentAnswer.pauseBeforeClose;
         const attemptsNumber = realStudentAnswer.maximumAttempts;
         const acceptableResult = realStudentAnswer.maximumError;
 
@@ -320,7 +344,10 @@ export class LessonComponent implements OnInit {
                         acceptableResult
                     );
 
-                    await this.closeAudioDialog();
+                    if(closeRecognitionDialogAutomatically) {
+                        await this.sleep(1000 * pauseBeforeCloseDialog);
+                        await this.closeAudioDialog();
+                    }
 
                     //skipEpisode = true;
                 }
@@ -329,7 +356,25 @@ export class LessonComponent implements OnInit {
             let playResult: boolean = true;
 
             if (!skipEpisode) {
-                playResult = await this.continuosPlayCurrentEpisode(episode);
+                if (episode.start === 0 && episode.duration === 0) {
+                    if (emptyTimeBehaviour === 'skip') {
+                        playResult = true;
+                    } else if (emptyTimeBehaviour === 'stop') {
+                        playResult = false;
+                    } else if (emptyTimeBehaviour === 'use TTS') {
+                        playResult = await this.continuosPlayCurrentEpisode(
+                            episode,
+                            language,
+                            ttsVoice
+                        );
+                    }
+                } else {
+                    playResult = await this.continuosPlayCurrentEpisode(
+                        episode,
+                        '',
+                        ''
+                    );
+                }
             }
 
             if (!playResult || !this.isPlaying) {

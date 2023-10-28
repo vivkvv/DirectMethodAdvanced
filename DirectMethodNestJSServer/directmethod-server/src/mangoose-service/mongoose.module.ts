@@ -10,6 +10,7 @@ import { Option, OptionSchema } from './models/options.model';
   imports: [
     MongooseModule.forRoot(
       'mongodb+srv://vivkvv:CF5rGfrtvEF2vGs7@directcluster0.tyh8vrd.mongodb.net/Direct?retryWrites=true&w=majority',
+      //'mongodb://localhost:27017/Direct',
     ),
     MongooseModule.forFeature([
       { name: Method.name, schema: MethodSchema },

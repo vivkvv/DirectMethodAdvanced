@@ -10,7 +10,7 @@ import { S3filesService } from '../services/s3files/s3files.service';
     styleUrls: ['./files.component.css'],
 })
 export class FilesComponent implements OnInit {
-    endpoint: string = 'http://192.168.208.210:9001';
+    endpoint: string = 'http://192.168.208.210:9000';
     accessKey: string = 'aF0nBssacKE9P2hRXp0n';
     secretKey: string = 'eot73MGgQaBRnU5CQFjRaeJu0V6HMunJ1NBnT3lI';
     bucketName: string = 'directmethod';
@@ -22,7 +22,7 @@ export class FilesComponent implements OnInit {
     ngOnInit(): void {}
 
     async onCheckButtonClick() {
-        await this.s3filesService.getS3data(this.endpoint, this.accessKey, this.secretKey, this.bucketName);
+        await this.s3filesService.getS3data(this.endpoint, this.accessKey, this.secretKey, this.bucketName, this.configXmlPath);
         this.s3filesService.languages;
         // const uppy = new Uppy();
         // const self = this;

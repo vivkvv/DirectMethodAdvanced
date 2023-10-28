@@ -13,6 +13,7 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class OptionsPageComponent implements OnInit {
     availableSides: string[] = ['left', 'right'];
+    emtyTimeOptions: string[] = ['stop', 'skip', 'use TTS'];
 
     tempModelKey!: string;
     selectedModelKey: string = 'default';
@@ -66,7 +67,7 @@ export class OptionsPageComponent implements OnInit {
                     voice.lang ===
                     this.optionsService.options.continuousLessonOptionsMap[
                         this.tempModelKey
-                    ].ttsLanguage
+                    ].Language
             ) || null;
         this.cdr.detectChanges();
     }
@@ -105,7 +106,7 @@ export class OptionsPageComponent implements OnInit {
         msg.lang =
             this.optionsService.options.continuousLessonOptionsMap[
                 this.tempModelKey
-            ].ttsLanguage;
+            ].Language;
         msg.voice = voice;
         window.speechSynthesis.speak(msg);
     }
