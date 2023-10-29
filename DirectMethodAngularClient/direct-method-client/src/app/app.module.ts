@@ -12,6 +12,7 @@ import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LessonComponent } from './lesson/lesson.component';
 import { PartsListComponent } from './parts-list/parts-list.component';
+import { ClientPartsListComponent } from './client-parts-list/client-parts-list.component';
 
 import { AuthInterceptor } from './services/auth.interceptor';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -50,6 +51,7 @@ import { FilesComponent } from './files/files.component';
         QuickLinksComponent,
         LessonComponent,
         PartsListComponent,
+        ClientPartsListComponent,
         FontGroupComponent,
         DigitalStudentsGroupComponent,
         OnRealStudentAnswerGroupComponent,

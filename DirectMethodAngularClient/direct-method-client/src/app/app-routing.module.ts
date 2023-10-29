@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { LessonComponent } from './lesson/lesson.component';
 import { PartsListComponent } from './parts-list/parts-list.component';
+import { ClientPartsListComponent } from './client-parts-list/client-parts-list.component';
 import { OptionsPageComponent } from './options/options-page.component';
 import { AuthorizationCheckingComponent } from './authorization-checking/authorization-checking.component';
 import { RegisterComponent } from './registering/registering.component';
@@ -18,6 +19,7 @@ const routes: Routes = [
     { path: 'quick-links', component: QuickLinksComponent},
     { path: 'Lesson/:part_id/:lesson_id', component: LessonComponent },
     { path: 'topic-list', component: PartsListComponent },
+    { path: 'client-topic-list', component: ClientPartsListComponent },    
     { path: 'files', component: FilesComponent },
     { path: '', redirectTo: '/login', pathMatch: 'full' },
     { path: 'not-found-angular', component: LoginComponent },

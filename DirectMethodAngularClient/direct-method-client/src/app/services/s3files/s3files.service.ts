@@ -17,6 +17,11 @@ export class S3filesService {
     private configXmlPath!: string;
     languages: string[] = [];
 
+    audioBase: string = '';
+    sourceBase: string = '';
+    translations: { [key: string]: string } = {};
+    parts: Part[] = [];
+
     constructor(private httpClient: HttpClient) {}
 
     async getS3data(
@@ -26,6 +31,11 @@ export class S3filesService {
         bucketName: string,
         configXmlPath: string
     ) {
+        this.audioBase = '';
+        this.sourceBase = '';
+        this.translations = {};
+        this.parts = [];
+
         Object.assign(this, {
             endpoint,
             accessKey,
@@ -34,21 +44,20 @@ export class S3filesService {
             configXmlPath,
         });
 
-        await this.httpClient
-            .get(
-                `/api/s3?endpoint=${this.endpoint}&accessKey=${this.accessKey}&secretKey=${this.secretKey}&bucketName=${this.bucketName}&configXmlPath=${this.configXmlPath}`
-            )
-            .subscribe({
-                next: async (response: any) => {
-                    try {
-                        await this.parse(response);
-                    } catch (error) {
-                        console.error(error);
-                    } finally {
-                        // this.loadingService.setLoading(false);
-                    }
-                },
-            });
+        //
+        try {
+            const response: any = await this.httpClient
+                .get(
+                    `/api/s3?endpoint=${this.endpoint}&accessKey=${this.accessKey}&secretKey=${this.secretKey}&bucketName=${this.bucketName}&configXmlPath=${this.configXmlPath}`
+                )
+                .toPromise();
+
+            await this.parse(response);
+        } catch (error) {
+            console.error(error);
+        } finally {
+            // this.loadingService.setLoading(false);
+        } //
     }
 
     private async parse(response: any) {
@@ -58,10 +67,7 @@ export class S3filesService {
             const urlResponse = await fetch(url);
             if (urlResponse.ok) {
                 const fileContent = await urlResponse.text();
-                // prepare html with fileContent
-                const { audioBase, sourceBase, translations, parts } =
-                    this.parseLessonsXML(fileContent);
-                console.log(parts);
+                this.parseLessonsXML(fileContent);
             } else {
                 console.log(urlResponse);
             }
@@ -80,27 +86,19 @@ export class S3filesService {
         return { fileName, folderPath };
     }
 
-    private parseLessonsXML(fileContent: string): {
-        audioBase: string;
-        sourceBase: string;
-        translations: { [key: string]: string };
-        parts: Part[];
-    } {
+    private parseLessonsXML(fileContent: string) {
         let parser = new DOMParser();
         let xmlDoc = parser.parseFromString(fileContent, 'text/xml');
 
-        let audioBase = '';
-        let sourceBase = '';
-
         let config = xmlDoc.getElementsByTagName('Config')[0];
         if (config) {
-            audioBase =
+            this.audioBase =
                 config.getElementsByTagName('AudioBase')[0]?.textContent || '';
-            sourceBase =
+            this.sourceBase =
                 config.getElementsByTagName('SourceBase')[0]?.textContent || '';
         }
 
-        let translations: { [key: string]: string } = {};
+        this.translations = {};
 
         let translationsNode = xmlDoc.getElementsByTagName('Translations')[0];
         if (translationsNode) {
@@ -111,12 +109,12 @@ export class S3filesService {
                 let code = langNode.getAttribute('code');
                 let value = langNode.textContent || '';
                 if (code) {
-                    translations[code] = value;
+                  this.translations[code] = value;
                 }
             }
         }
 
-        let parts: Part[] = [];
+        this.parts = [];
 
         let xmlParts = xmlDoc.getElementsByTagName('Parts')[0];
 
@@ -156,10 +154,7 @@ export class S3filesService {
                 level.getAttribute('pdf') || '', // pdf
                 lessons // lessons
             );
-
-            parts.push(part);
+            this.parts.push(part);
         }
-
-        return { audioBase, sourceBase, translations, parts };
     }
 }
