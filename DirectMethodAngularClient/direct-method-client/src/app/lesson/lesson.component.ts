@@ -142,20 +142,36 @@ export class LessonComponent implements OnInit {
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
     private async openDialog() {
-        const parentComponent = this;
-        this.dialogRef = this.dialog.open(AudioOverlayComponent, {
-            width: '100%',
-            panelClass: 'custom-overlay-pane-class',
-            disableClose: true,
-            hasBackdrop: false,
-            data: { parentComponent },
-        });
+        if (!this.dialogRef) {
+            const parentComponent = this;
+            //const parentComponent = this;
+            this.dialogRef = this.dialog.open(AudioOverlayComponent, {
+                width: '100%',
+                panelClass: 'custom-overlay-pane-class',
+                disableClose: true,
+                hasBackdrop: false,
+                data: {
+                    parentComponent,
+                    hideDialog: this.hideDialog.bind(this),
+                },
+            });
+        } else {
+            this.showDialog();
+        }
 
-        this.dialogRef.afterClosed().subscribe((result) => {
-            this.isAudioDialogOpen = false;
-        });
+        // this.dialogRef.afterClosed().subscribe((result) => {
+        //     this.isAudioDialogOpen = false;
+        // });
 
         return this.dialogRef.afterOpened().toPromise();
+    }
+
+    private hideDialog(): void {
+        this.dialogRef?.addPanelClass('hidden-dialog');
+    }
+
+    private showDialog(): void {
+        this.dialogRef?.removePanelClass('hidden-dialog');
     }
 
     async showAudioDialog(
@@ -163,10 +179,10 @@ export class LessonComponent implements OnInit {
         attemptsNumber: number,
         acceptedResult: number
     ) {
-        if (!this.isAudioDialogOpen) {
-            this.isAudioDialogOpen = true;
-            await this.openDialog();
-        }
+        // if (!this.isAudioDialogOpen) {
+        this.isAudioDialogOpen = true;
+        await this.openDialog();
+        // }
 
         if (startRecognition) {
             await this.dialogRef?.componentInstance.onRecognizing(
@@ -178,12 +194,14 @@ export class LessonComponent implements OnInit {
     }
 
     async closeAudioDialog() {
-        await this.dialogRef?.close();
+        //await this.dialogRef?.close();
+        this.hideDialog();
     }
 
     exit() {
         // const parentComponent = this;
-        const dialogRef = this.dialog.open(ExitComponent, {
+        /*const dialogRef =*/
+        this.dialog.open(ExitComponent, {
             panelClass: 'exit-overlay-pane-class',
             disableClose: true,
         });
@@ -344,7 +362,7 @@ export class LessonComponent implements OnInit {
                         acceptableResult
                     );
 
-                    if(closeRecognitionDialogAutomatically) {
+                    if (closeRecognitionDialogAutomatically) {
                         await this.sleep(1000 * pauseBeforeCloseDialog);
                         await this.closeAudioDialog();
                     }

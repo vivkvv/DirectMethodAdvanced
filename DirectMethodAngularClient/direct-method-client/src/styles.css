@@ -24,6 +24,12 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.custom-overlay-pane-class.fullscreen {
+    top: 0 !important;
+    height: 100vh !important;
+  }
+  
+
 .exit-overlay-pane-class {
     opacity: 0.9;
     position: absolute !important;
@@ -50,4 +56,8 @@ body {
 .pressed {
     transform: scale(0.75);
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.hidden-dialog {
+    visibility: hidden;
 }

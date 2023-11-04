@@ -66,3 +66,23 @@ div::-webkit-scrollbar {
     stroke: #000;
     shape-rendering: crispEdges;
 }
+
+/* Full-screen styling */
+.custom-overlay-pane-class.fullscreen {
+    padding: 0;
+    margin: 0;
+    max-width: none;
+    max-height: none;
+    width: 100vw !important;
+    height: 100vh !important;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+/* Normal size styling - adjust to your dialog's default size */
+.custom-overlay-pane-class {
+    /* Your default styles here */
+    max-width: 80vw;
+    max-height: 80vh;
+    /* Other styles... */
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="368.133">
 	<item id="0">
-		<item id="0" start="0.133" duration="2.4">
+		<item id="0" start="0.1" duration="2.4">
 			<person>Teacher</person>
 			<text>Lesson 27</text>
 			<image/>
@@ -44,21 +44,21 @@
 			<text>About how many pieces of bread do you eat with your lunch?</text>
 			<image/>
 		</item>
-		<item id="1" start="18.933" duration="3.7">
+		<item id="1" start="18.9" duration="3.5">
 			<person>Student</person>
 			<text>I eat about four pieces of bread with my lunch</text>
 			<image/>
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="22.633" duration="1.833">
+		<item id="0" start="22.5" duration="1.4">
 			<person>Teacher</person>
 			<text>a country</text>
 			<image/>
 		</item>
 	</item>
 	<item id="6">
-		<item id="0" start="24.467" duration="1.9">
+		<item id="0" start="24.3" duration="1.6">
 			<person>Teacher</person>
 			<text>the country</text>
 			<image/>
@@ -127,14 +127,14 @@
 			<text>What nationality is Mr. Callan?</text>
 			<image/>
 		</item>
-		<item id="1" start="65.9" duration="2.733">
+		<item id="1" start="65.9" duration="2.6">
 			<person>Student</person>
 			<text>Mr. Callan is British</text>
 			<image/>
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="68.667" duration="1.367">
+		<item id="0" start="68.5" duration="1.1">
 			<person>Teacher</person>
 			<text>live</text>
 			<image/>
@@ -198,7 +198,7 @@
 		</item>
 	</item>
 	<item id="21">
-		<item id="0" start="93.1" duration="2.567">
+		<item id="0" start="92.9" duration="2.4">
 			<person>Teacher</person>
 			<text>Does gas smell pleasant?</text>
 			<image/>
@@ -277,14 +277,14 @@
 			<text>Do we drink coffee from a glass?</text>
 			<image/>
 		</item>
-		<item id="1" start="135.7" duration="4.933">
+		<item id="1" start="135.7" duration="4.8">
 			<person>Student</person>
 			<text>No, we don't drink coffee from a glass; we drink it from a cup</text>
 			<image/>
 		</item>
 	</item>
 	<item id="29">
-		<item id="0" start="140.667" duration="2.1">
+		<item id="0" start="140.5" duration="2.0">
 			<person>Teacher</person>
 			<text>longer ... than</text>
 			<image/>
@@ -310,14 +310,14 @@
 		</item>
 	</item>
 	<item id="32">
-		<item id="0" start="154.0" duration="2.1">
+		<item id="0" start="153.9" duration="1.9">
 			<person>Teacher</person>
 			<text>higher ... than</text>
 			<image/>
 		</item>
 	</item>
 	<item id="33">
-		<item id="0" start="156.133" duration="2.0">
+		<item id="0" start="155.9" duration="1.9">
 			<person>Teacher</person>
 			<text>lower ... than</text>
 			<image/>
@@ -362,14 +362,14 @@
 		</item>
 	</item>
 	<item id="38">
-		<item id="0" start="178.833" duration="2.0">
+		<item id="0" start="178.8" duration="1.6">
 			<person>Teacher</person>
 			<text>the longest</text>
 			<image/>
 		</item>
 	</item>
 	<item id="39">
-		<item id="0" start="180.867" duration="1.467">
+		<item id="0" start="180.6" duration="1.3">
 			<person>Teacher</person>
 			<text>river</text>
 			<image/>
@@ -407,7 +407,7 @@
 			<text>Which is the longest river in the world?</text>
 			<image/>
 		</item>
-		<item id="1" start="195.9" duration="3.267">
+		<item id="1" start="195.7" duration="3.1">
 			<person>Student</person>
 			<text>The Nile is the longest river in the world</text>
 			<image/>
@@ -523,7 +523,7 @@
 			<text>What will the date tomorrow be?</text>
 			<image/>
 		</item>
-		<item id="1" start="246.8" duration="6.1">
+		<item id="1" start="246.8" duration="6.0">
 			<person>Student</person>
 			<text>The date tomorrow will be the 21st of January 2012</text>
 			<image/>
@@ -592,14 +592,14 @@
 		</item>
 	</item>
 	<item id="63">
-		<item id="0" start="285.733" duration="1.333">
+		<item id="0" start="285.6" duration="1.1">
 			<person>Teacher</person>
 			<text>shop</text>
 			<image/>
 		</item>
 	</item>
 	<item id="64">
-		<item id="0" start="287.067" duration="3.867">
+		<item id="0" start="287.0" duration="3.7">
 			<person>Teacher</person>
 			<text>Which is the largest shop in this town?</text>
 			<image/>
@@ -668,7 +668,7 @@
 		</item>
 	</item>
 	<item id="71">
-		<item id="0" start="320.467" duration="1.7">
+		<item id="0" start="320.3" duration="1.5">
 			<person>Teacher</person>
 			<text>sleep</text>
 			<image/>

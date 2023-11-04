@@ -94,12 +94,12 @@
 		</item>
 	</item>
 	<item id="9">
-		<item id="0" start="47.233" duration="3.467">
+		<item id="0" start="47.2" duration="3.3">
 			<person>Teacher</person>
 			<text>Has each chair only got three legs?</text>
 			<image/>
 		</item>
-		<item id="1" start="50.7" duration="6.6">
+		<item id="1" start="50.7" duration="6.4">
 			<person>Student</person>
 			<text>No, each chair hasn't only got three legs; each chair's got four legs</text>
 			<image/>
@@ -134,14 +134,14 @@
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="64.0" duration="1.6">
+		<item id="0" start="64.0" duration="1.4">
 			<person>Teacher</person>
 			<text>pea</text>
 			<image/>
 		</item>
 	</item>
 	<item id="15">
-		<item id="0" start="65.6" duration="1.533">
+		<item id="0" start="65.5" duration="1.4">
 			<person>Teacher</person>
 			<text>fruit</text>
 			<image/>
@@ -169,7 +169,7 @@
 		</item>
 	</item>
 	<item id="19">
-		<item id="0" start="71.867" duration="1.633">
+		<item id="0" start="71.7" duration="1.5">
 			<person>Teacher</person>
 			<text>banana</text>
 			<image/>
@@ -195,12 +195,12 @@
 		</item>
 	</item>
 	<item id="22">
-		<item id="0" start="80.4" duration="2.8">
+		<item id="0" start="80.4" duration="2.6">
 			<person>Teacher</person>
 			<text>Do you like all vegetables?</text>
 			<image/>
 		</item>
-		<item id="1" start="83.2" duration="6.6">
+		<item id="1" start="83.1" duration="6.5">
 			<person>Student</person>
 			<text>No, I don't like all vegetables; some I like and some I dislike</text>
 			<image/>
@@ -269,7 +269,7 @@
 		</item>
 	</item>
 	<item id="29">
-		<item id="0" start="132.0" duration="1.633">
+		<item id="0" start="131.9" duration="1.5">
 			<person>Teacher</person>
 			<text>study</text>
 			<image/>
@@ -312,7 +312,7 @@
 			<text>Must you study a lot if you want to learn a language well?</text>
 			<image/>
 		</item>
-		<item id="1" start="156.6" duration="4.867">
+		<item id="1" start="156.6" duration="4.7">
 			<person>Student</person>
 			<text>Yes, I must study a lot if I want to learn a language well</text>
 			<image/>
@@ -345,7 +345,7 @@
 		</item>
 	</item>
 	<item id="37">
-		<item id="0" start="172.433" duration="3.233">
+		<item id="0" start="172.3" duration="3.2">
 			<person>Teacher</person>
 			<text>Are you the first to arrive in the classroom?</text>
 			<image/>
@@ -448,21 +448,21 @@
 			<text>What color's the sky today?</text>
 			<image/>
 		</item>
-		<item id="1" start="232.9" duration="2.6">
+		<item id="1" start="232.9" duration="2.4">
 			<person>Student</person>
 			<text>The sky is gray today</text>
 			<image/>
 		</item>
 	</item>
 	<item id="47">
-		<item id="0" start="235.5" duration="1.6">
+		<item id="0" start="235.4" duration="1.5">
 			<person>Teacher</person>
 			<text>sea</text>
 			<image/>
 		</item>
 	</item>
 	<item id="48">
-		<item id="0" start="237.1" duration="1.567">
+		<item id="0" start="237.0" duration="1.4">
 			<person>Teacher</person>
 			<text>land</text>
 			<image/>
@@ -602,7 +602,7 @@
 		</item>
 	</item>
 	<item id="63">
-		<item id="0" start="309.967" duration="3.267">
+		<item id="0" start="309.9" duration="3.1">
 			<person>Teacher</person>
 			<text>How much is three times 13?</text>
 			<image/>

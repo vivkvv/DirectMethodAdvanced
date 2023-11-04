@@ -13,6 +13,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 // import { LessonComponent } from '../lesson/lesson.component';
 import { HostListener } from '@angular/core';
 import * as d3 from 'd3';
+import { ScaleLinear, Selection } from 'd3';
 import { Subscription } from 'rxjs';
 import { OptionsService } from '../services/Options/options.service';
 
@@ -53,14 +54,30 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         }
     }
 
+    isMaximized = false;
+
     subscription!: Subscription;
 
     public showPlot: Boolean = false;
 
     public isLeft(): number {
-        return this.optionsService.options.mainPanelSide === "left" ? 0 : 1;
+        return this.optionsService.options.mainPanelSide === 'left' ? 0 : 1;
     }
 
+    toggleMaximize(): void {
+        this.isMaximized = !this.isMaximized; // Toggle the state
+        if (this.isMaximized) {
+            // Maximizing the dialog
+            // this.dialogRef.updateSize('100vw', '100vh');
+            // this.dialogRef.updatePosition({ top: '0', left: '0' });
+            this.dialogRef.addPanelClass('fullscreen');
+        } else {
+            // Restoring the dialog to its previous size
+            // this.dialogRef.updateSize('initial', 'initial');
+            // this.dialogRef.updatePosition({ top: 'initial', left: 'initial' });
+            this.dialogRef.removePanelClass('fullscreen');
+        }
+    }
 
     onShowPlotChange() {
         if (this.showPlot) {
@@ -71,7 +88,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
 
     comparison_result: number = 0;
     comparison_result_text: string = '';
-    audio_buffer: AudioBuffer | undefined = undefined;
+    user_audio_buffer: AudioBuffer | undefined = undefined;
     source: AudioBufferSourceNode | undefined = undefined;
     episode_source: AudioBufferSourceNode | undefined = undefined;
 
@@ -108,7 +125,8 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
 
     isPlayingRecordedAudio(): boolean {
         return (
-            this.audioState === AudioState.AS_NONE && Boolean(this.audio_buffer)
+            this.audioState === AudioState.AS_NONE &&
+            Boolean(this.user_audio_buffer)
         );
     }
 
@@ -119,7 +137,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     isSyncPlayEnabled(): boolean {
         return (
             (this.audioState === AudioState.AS_NONE &&
-                Boolean(this.audio_buffer)) ||
+                Boolean(this.user_audio_buffer)) ||
             this.audioState === AudioState.AS_SYNC_PLAY
         );
     }
@@ -145,7 +163,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         public dialogRef: MatDialogRef<AudioOverlayComponent>,
         private speechRecognitionService: SpeechRecognitionService,
         private cd: ChangeDetectorRef,
-        public optionsService: OptionsService,
+        public optionsService: OptionsService
     ) {
         this.lesson = data.parentComponent;
         this.speechRecognitionService.onResult((event) => {
@@ -186,79 +204,200 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         });
     }
 
+    private clearSvg(svgId: string) {
+        d3.select(svgId).selectAll('*').remove();
+    }
+
+    private createSvg(svgId: string, width: number, height: number) {
+        return d3.select(svgId).attr('width', width).attr('height', height);
+    }
+
+    // private createScales(data: number[], width: number, height: number) {
+    //     const minData = d3.min(data) ?? 0;
+    //     const maxData = d3.max(data) ?? 0;
+
+    //     const xScale = d3
+    //         .scaleLinear()
+    //         .domain([0, data.length])
+    //         .range([0, width]);
+    //     const yScale = d3
+    //         .scaleLinear()
+    //         .domain([minData, maxData])
+    //         .range([height, 0]);
+
+    //     return { xScale, yScale };
+    // }
+
+    private createScales(
+        xRange: [number, number],
+        yRange: [number, number],
+        width: number,
+        height: number
+    ) {
+        const xScale = d3.scaleLinear().domain(xRange).range([0, width]);
+        const yScale = d3.scaleLinear().domain(yRange).range([height, 0]);
+
+        return { xScale, yScale };
+    }
+
+    private drawData(
+        svg: Selection<SVGSVGElement, unknown, null, undefined>,
+        data: number[],
+        scales: {
+            xScale: d3.ScaleLinear<number, number, never>;
+            yScale: d3.ScaleLinear<number, number, never>;
+        },
+        color: string,
+        opacity: number
+    ) {
+        const line = d3
+            .line<number>()
+            .x((_, i) => scales.xScale(i))
+            .y((d) => scales.yScale(d));
+
+        svg.append('path')
+            .datum(data)
+            .attr('fill', 'none')
+            .attr('stroke', color)
+            .attr('stroke-width', 1.5)
+            .attr('stroke-opacity', opacity)
+            .attr('d', line);
+    }
+
+    private getAudioData(
+        audioBuffer: any,
+        startTime: number,
+        endTime: number
+    ): number[] {
+        const channelData = audioBuffer.getChannelData(0);
+
+        const width = this.chartContainer.nativeElement.offsetWidth;
+        const height = this.chartContainer.nativeElement.offsetHeight;
+
+        const sampleRate = audioBuffer.sampleRate;
+        const startIndex = Math.floor(startTime * sampleRate);
+        const endIndex = Math.floor(endTime * sampleRate);
+
+        let data = Array.from(channelData).slice(
+            startIndex,
+            endIndex
+        ) as number[];
+
+        return data;
+    }
+
+    normalizeData(data: number[]){
+        if (data.length === 0 || data.every(val => val === 0)) {
+          return data;
+        }
+      
+        const maxVal = data.reduce((max, val) => Math.max(max, Math.abs(val)), 0);
+        return data.map(val => val / maxVal);
+      };
+      
     private paintEpisodeAudioData() {
         if (!this.lesson.audioBuffer) {
             return;
         }
 
-        const channelData = this.lesson.audioBuffer.getChannelData(0);
-
         const width = this.chartContainer.nativeElement.offsetWidth;
         const height = this.chartContainer.nativeElement.offsetHeight;
 
-        const sampleRate = this.lesson.audioBuffer.sampleRate;
-        const startTime = this.lesson.getCurrentEpisode(true).start;
-        const endTime =
-            startTime + this.lesson.getCurrentEpisode(true).duration;
-        const startIndex = Math.floor(startTime * sampleRate);
-        const endIndex = Math.floor(endTime * sampleRate);
+        const episodeStart = this.lesson.getCurrentEpisode(true).start;
+        const episodeEnd =
+            this.lesson.getCurrentEpisode(true).start +
+            this.lesson.getCurrentEpisode(true).duration;
 
-        let data: number[] = Array.from(channelData);
-        data = data.slice(startIndex, endIndex);
+        const start1 = this.findStartOfSignal(
+            this.lesson.audioBuffer,
+            0.1,
+            episodeStart,
+            episodeEnd
+        );
 
-        // let smoothedData = [];
-        // const groupSize = Math.floor(data.length / width);
-        // for (let i = 0; i < width; i++) {
-        //     let sum = 0;
-        //     for (let j = 0; j < groupSize; j++) {
-        //         sum += data[i * groupSize + j];
-        //     }
-        //     smoothedData[i] = sum / groupSize;
-        // }
+        let data1 = this.getAudioData(
+            this.lesson.audioBuffer,
+            episodeStart,
+            episodeEnd
+        );
 
-        // data = smoothedData;
+        let user_audio_data: number[] = [];
+        if (this.user_audio_buffer) {
+            let userStart = 0;
+            const start2 = this.findStartOfSignal(
+                this.user_audio_buffer,
+                0.1,
+                userStart
+            );
 
-        const minData: number = d3.min(data) ?? 0;
-        const maxData: number = d3.max(data) ?? 0;
+            if (start2 >= start1 - episodeStart) {
+                userStart = start2 - (start1 - episodeStart);
+                const userEnd =
+                    this.user_audio_buffer.length /
+                    this.user_audio_buffer.sampleRate;
+                user_audio_data = this.getAudioData(
+                    this.user_audio_buffer,
+                    userStart,
+                    userEnd
+                );
+            } else {
+                userStart = 0;
+                const userEnd =
+                    this.user_audio_buffer.length /
+                    this.user_audio_buffer.sampleRate;
+                const lengthInSamples = Math.round(
+                    (start1 - episodeStart - start2) *
+                        this.user_audio_buffer.sampleRate
+                );
+                let prefixData: number[] = new Array(lengthInSamples).fill(0);
+                user_audio_data = this.getAudioData(
+                    this.user_audio_buffer,
+                    userStart,
+                    userEnd
+                );
+                user_audio_data = prefixData.concat(user_audio_data);
+            }
 
-        d3.select('#chart1').selectAll('*').remove();
+            const maxLength = Math.max(data1.length, user_audio_data.length);
 
-        const svg = d3
-            .select('#chart1')
-            .attr('width', width)
-            .attr('height', height);
+            let suffixData: number[] = [];
+            if (maxLength > data1.length) {
+                suffixData = new Array(maxLength - data1.length).fill(0);
+                data1 = data1.concat(suffixData);
+            } else {
+                suffixData = new Array(maxLength - user_audio_data.length).fill(
+                    0
+                );
+                user_audio_data = user_audio_data.concat(suffixData);
+            }
+        }
+        const normalizedData1 = this.normalizeData(data1);
+        const normalizedUserAudioData = this.normalizeData(user_audio_data);
+        const combinedNormalizedData = normalizedData1.concat(
+            normalizedUserAudioData
+        );
 
-        const xScale1 = d3
-            .scaleLinear()
-            .domain([0, data.length])
-            .range([0, width]);
-        const yScale1 = d3
-            .scaleLinear()
-            .domain([minData, maxData])
-            .range([height, 0]);
+        const combinedData = data1.concat(user_audio_data); // Combine both data arrays
+        const minData = d3.min(combinedData) ?? 0;
+        const maxData = d3.max(combinedData) ?? 0;
 
-        const line = d3
-            .line<number>()
-            .x((d, i) => xScale1(i))
-            .y((d) => yScale1(d));
+        const maxLength = Math.max(data1.length, user_audio_data.length);
 
-        svg.append('path')
-            .datum(data)
-            .attr('fill', 'none')
-            .attr('stroke', 'steelblue')
-            .attr('stroke-width', 1.5)
-            .attr('d', line);
+        this.clearSvg('#chart1');
+        const svg = this.createSvg(
+            '#chart1',
+            width,
+            height
+        ) as unknown as d3.Selection<SVGSVGElement, unknown, null, undefined>;
+        const scales = this.createScales(
+            [0, maxLength],
+            [minData, maxData],
+            width,
+            height
+        );
 
-        const xAxis1 = d3.axisBottom(xScale1);
-        const yAxis1 = d3.axisRight(yScale1);
-
-        svg.append('g').attr('transform', `translate(0, ${height / 2})`);
-        //.call(xAxis1);
-
-        svg.append('g').attr('transform', `translate(${width / 2}, 0)`);
-        //.call(yAxis1);
-
-        return;
+        this.drawData(svg, data1, scales, 'steelblue', 1);
+        this.drawData(svg, user_audio_data, scales, 'green', 0.5);
     }
 
     ngAfterViewInit() {
@@ -272,7 +411,10 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             }
         });
 
-        if (Boolean(this.chartContainer) && Boolean(this.chartContainer.nativeElement)) {
+        if (
+            Boolean(this.chartContainer) &&
+            Boolean(this.chartContainer.nativeElement)
+        ) {
             ro.observe(this.chartContainer.nativeElement);
         }
     }
@@ -337,14 +479,15 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         this.subscription.unsubscribe();
     }
 
-    getColor(value: string): string {
-        const percentage = parseFloat(value);
-        const hue = (1 - percentage / 100) * 120;
-        return `hsl(${hue}, 100%, 50%)`;
-    }
+    // getColor(value: string): string {
+    //     const percentage = parseFloat(value);
+    //     const hue = (1 - percentage / 100) * 120;
+    //     return `hsl(${hue}, 100%, 50%)`;
+    // }
 
     close(): void {
-        this.dialogRef.close();
+        //this.dialogRef.close();
+        this.data.hideDialog();
     }
 
     private findStartOfSignal(
@@ -417,14 +560,14 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
 
     onPlayRecordedAudio() {
         if (this.audioState === AudioState.AS_NONE) {
-            if (this.audio_buffer) {
+            if (this.user_audio_buffer) {
                 this.audioState = AudioState.AS_PLAY;
 
                 this.source = this.audioContext.createBufferSource();
                 this.recoredGainNode.gain.value =
                     this.recorderAudioVolume / 100.0;
 
-                this.source.buffer = this.audio_buffer;
+                this.source.buffer = this.user_audio_buffer;
 
                 this.source.connect(this.recoredGainNode);
                 this.recoredGainNode.connect(this.audioContext.destination);
@@ -512,7 +655,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
 
     onSyncPlay() {
         if (this.audioState === AudioState.AS_NONE) {
-            if (this.audio_buffer) {
+            if (this.user_audio_buffer) {
                 this.audioState = AudioState.AS_SYNC_PLAY;
 
                 this.recoredGainNode.gain.value =
@@ -531,7 +674,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
                 this.episode_source = this.audioContext.createBufferSource();
 
                 const signal_start = this.findStartOfSignal(
-                    this.audio_buffer,
+                    this.user_audio_buffer,
                     0.1
                 );
 
@@ -543,7 +686,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
                     this.episode_source?.stop();
                 };
 
-                this.source.buffer = this.audio_buffer;
+                this.source.buffer = this.user_audio_buffer;
                 this.source.connect(this.recoredGainNode);
                 this.recoredGainNode.connect(this.audioContext.destination);
 
@@ -595,8 +738,9 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
                         this.audioContext
                             .decodeAudioData(arrayBuffer)
                             .then((audioBuffer) => {
-                                this.audio_buffer = audioBuffer;
+                                this.user_audio_buffer = audioBuffer;
                                 this.cd.detectChanges();
+                                this.onShowPlotChange();
                             })
                             .catch((err) => {
                                 console.error('Error on file decoding', err);

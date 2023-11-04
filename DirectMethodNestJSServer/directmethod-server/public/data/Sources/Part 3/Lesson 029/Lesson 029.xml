@@ -126,12 +126,12 @@
 		</item>
 	</item>
 	<item id="15">
-		<item id="0" start="56.2" duration="3.733">
+		<item id="0" start="56.2" duration="3.6">
 			<person>Teacher</person>
 			<text>Tell me the names of the four seasons of the year, please</text>
 			<image/>
 		</item>
-		<item id="1" start="59.967" duration="7.2">
+		<item id="1" start="59.8" duration="7.2">
 			<person>Student</person>
 			<text>The names of the four seasons of the year are spring, summer, autumn and winter</text>
 			<image/>
@@ -174,7 +174,7 @@
 		</item>
 	</item>
 	<item id="19">
-		<item id="0" start="83.0" duration="1.767">
+		<item id="0" start="83.0" duration="1.6">
 			<person>Teacher</person>
 			<text>precede</text>
 			<image/>
@@ -267,7 +267,7 @@
 		</item>
 	</item>
 	<item id="28">
-		<item id="0" start="137.267" duration="2.3">
+		<item id="0" start="137.2" duration="2.2">
 			<person>Teacher</person>
 			<text>When does the lesson begin?</text>
 			<image/>
@@ -336,7 +336,7 @@
 		</item>
 	</item>
 	<item id="35">
-		<item id="0" start="169.533" duration="1.367">
+		<item id="0" start="169.4" duration="1.2">
 			<person>Teacher</person>
 			<text>new</text>
 			<image/>

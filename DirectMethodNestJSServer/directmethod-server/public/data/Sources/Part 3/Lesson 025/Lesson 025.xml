@@ -34,7 +34,7 @@
 		</item>
 	</item>
 	<item id="4">
-		<item id="0" start="17.6" duration="3.367">
+		<item id="0" start="17.6" duration="3.2">
 			<person>Teacher</person>
 			<text>Is a Rolls-Royce cheaper than a Ford?</text>
 			<image/>
@@ -46,7 +46,7 @@
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="26.8" duration="4.133">
+		<item id="0" start="26.8" duration="4.0">
 			<person>Teacher</person>
 			<text>Is your town a more expensive place than London?</text>
 			<image/>
@@ -72,7 +72,7 @@
 		</item>
 	</item>
 	<item id="8">
-		<item id="0" start="41.3" duration="4.033">
+		<item id="0" start="41.3" duration="3.9">
 			<person>Teacher</person>
 			<text>Is the Ford the most expensive car in this country?</text>
 			<image/>
@@ -247,7 +247,7 @@
 		</item>
 	</item>
 	<item id="25">
-		<item id="0" start="131.367" duration="2.467">
+		<item id="0" start="131.3" duration="2.3">
 			<person>Teacher</person>
 			<text>Are my feet above the table?</text>
 			<image/>
@@ -287,7 +287,7 @@
 		</item>
 	</item>
 	<item id="30">
-		<item id="0" start="145.767" duration="1.6">
+		<item id="0" start="145.7" duration="1.4">
 			<person>Teacher</person>
 			<text>May</text>
 			<image/>
@@ -362,7 +362,7 @@
 		</item>
 	</item>
 	<item id="40">
-		<item id="0" start="180.4" duration="1.667">
+		<item id="0" start="180.3" duration="1.5">
 			<person>Teacher</person>
 			<text>next</text>
 			<image/>
@@ -386,7 +386,7 @@
 			<text>What was last month?</text>
 			<image/>
 		</item>
-		<item id="1" start="188.767" duration="2.533">
+		<item id="1" start="188.7" duration="2.5">
 			<person>Student</person>
 			<text>Last month was December</text>
 			<image/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="263.167">
 	<item id="0">
-		<item id="0" start="0.133" duration="2.633">
+		<item id="0" start="0.1" duration="2.4">
 			<person>Teacher</person>
 			<text>Lesson 26</text>
 			<image/>
@@ -301,7 +301,7 @@
 		</item>
 	</item>
 	<item id="30">
-		<item id="0" start="179.033" duration="1.8">
+		<item id="0" start="179.0" duration="1.6">
 			<person>Teacher</person>
 			<text>guitar</text>
 			<image/>
@@ -346,14 +346,14 @@
 		</item>
 	</item>
 	<item id="35">
-		<item id="0" start="195.367" duration="1.767">
+		<item id="0" start="195.3" duration="1.6">
 			<person>Teacher</person>
 			<text>morning</text>
 			<image/>
 		</item>
 	</item>
 	<item id="36">
-		<item id="0" start="197.133" duration="1.733">
+		<item id="0" start="197.0" duration="1.7">
 			<person>Teacher</person>
 			<text>afternoon</text>
 			<image/>
@@ -450,7 +450,7 @@
 	<item id="46">
 		<item id="0" start="" duration="">
 			<Dictation>
-				<text>We use the present simple for an action that we do generally.\nFor example, I generally speak German.\nWith the present simple, we use the auxiliary verb do in questions and negative sentences, but not in positive sentences.\nFor example, Do you speak French?\nYes, I speak French.\nDo you speak Japanese?\nNo, I do not speak Japanese.\nShe can speak Chinese.</text>
+				<text>We use the present simple for an action that we do generally.\nFor example, "I generally speak German".\nWith the present simple, we use the auxiliary verb "do" in questions and negative sentences, but not in positive sentences.\nFor example, "Do you speak French?"\n"Yes, I speak French."\n"Do you speak Japanese?"\n"No, I do not speak Japanese."\n"She can speak Chinese."</text>
 			</Dictation>
 		</item>
 	</item>
