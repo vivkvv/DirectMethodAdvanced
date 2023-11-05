@@ -14,24 +14,41 @@
                 }}</mat-icon>
             </button>
         </div>
-        <svg
-            (click)="onRecord()"
-            [style.pointer-events]="isRecordEnabled() ? 'auto' : 'none'"
-            [class.pulsing]="isRecording()"
-            [style.fill]="
-                isRecordEnabled() ? (isRecording() ? 'red' : 'black') : 'gray'
-            "
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 1920 1920"
-            fill="currentColor"
-            class="w-10 h-10 button-effect"
-        >
-            <path
-                fill-rule="evenodd"
-                d="M960 0c529.36 0 960 430.645 960 960 0 529.36-430.64 960-960 960-529.355 0-960-430.64-960-960C0 430.645 430.645 0 960 0Zm0 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.12 379.934 847.06 847.059 847.06 467.12 0 847.06-379.94 847.06-847.06 0-467.125-379.94-847.059-847.06-847.059Zm0 313.726c294.55 0 533.33 238.781 533.33 533.333 0 294.55-238.78 533.33-533.33 533.33-294.552 0-533.333-238.78-533.333-533.33 0-294.552 238.781-533.333 533.333-533.333Z"
-                clip-rule="evenodd"
-            />
-        </svg>
+        <div style="display: flex; align-items: center">
+            <svg
+                (click)="onRecord()"
+                [style.pointer-events]="isRecordEnabled() ? 'auto' : 'none'"
+                [class.pulsing]="isRecording()"
+                [style.fill]="
+                    isRecordEnabled()
+                        ? isRecording()
+                            ? 'red'
+                            : 'black'
+                        : 'gray'
+                "
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1920 1920"
+                fill="currentColor"
+                class="w-10 h-10 button-effect"
+            >
+                <path
+                    fill-rule="evenodd"
+                    d="M960 0c529.36 0 960 430.645 960 960 0 529.36-430.64 960-960 960-529.355 0-960-430.64-960-960C0 430.645 430.645 0 960 0Zm0 112.941c-467.125 0-847.059 379.934-847.059 847.059 0 467.12 379.934 847.06 847.059 847.06 467.12 0 847.06-379.94 847.06-847.06 0-467.125-379.94-847.059-847.06-847.059Zm0 313.726c294.55 0 533.33 238.781 533.33 533.333 0 294.55-238.78 533.33-533.33 533.33-294.552 0-533.333-238.78-533.333-533.33 0-294.552 238.781-533.333 533.333-533.333Z"
+                    clip-rule="evenodd"
+                />
+            </svg>
+            <svg
+                (click)="clearUserAudioData()"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="w-4 h-4"
+            >
+                <path
+                    d="M2,32l28-12L22,6l-8,8L2,32z M28.4,18.4l-12,12L8,24l12-12L28.4,18.4z M22.6,12.6l-8,8L12,24l8-8L22.6,12.6z M16,16
+            l-6,6l-1.6-1.6l6-6L16,16z"
+                />
+            </svg>
+        </div>
         <div style="display: flex; align-items: center">
             <svg
                 (click)="onPlayRecordedAudio()"
@@ -286,6 +303,14 @@
                         class="mr-2"
                     />
                     Show plot
+                </label>
+                <label class="inline-flex items-center mr-4">
+                    <input
+                        type="checkbox"
+                        [(ngModel)]="showTimeScroller"
+                        class="mr-2"
+                    />
+                    Timeline
                 </label>
                 <button
                     class="border border-gray-300 rounded px-4 py-2 hover:bg-gray-200 active:bg-gray-300"

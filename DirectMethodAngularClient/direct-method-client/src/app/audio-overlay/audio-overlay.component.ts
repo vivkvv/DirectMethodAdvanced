@@ -59,12 +59,13 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     subscription!: Subscription;
 
     public showPlot: Boolean = false;
+    public showTimeScroller: Boolean = false;
 
     public isLeft(): number {
         return this.optionsService.options.mainPanelSide === 'left' ? 0 : 1;
     }
 
-    toggleMaximize(): void {
+    toggleMaximize(): void {        
         this.isMaximized = !this.isMaximized; // Toggle the state
         if (this.isMaximized) {
             // Maximizing the dialog
@@ -286,15 +287,27 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         return data;
     }
 
-    normalizeData(data: number[]){
-        if (data.length === 0 || data.every(val => val === 0)) {
-          return data;
+    normalizeData(data: number[]) {
+        if (data.length === 0 || data.every((val) => val === 0)) {
+            return data;
         }
-      
-        const maxVal = data.reduce((max, val) => Math.max(max, Math.abs(val)), 0);
-        return data.map(val => val / maxVal);
-      };
-      
+
+        const maxVal = data.reduce(
+            (max, val) => Math.max(max, Math.abs(val)),
+            0
+        );
+        return data.map((val) => val / maxVal);
+    }
+
+    scales!: {
+        xScale: d3.ScaleLinear<number, number>;
+        yScale: d3.ScaleLinear<number, number>;
+    };
+
+    svg!: d3.Selection<SVGSVGElement, unknown, null, undefined>;
+
+    cursorLine!: d3.Selection<SVGLineElement, unknown, null, undefined>;
+
     private paintEpisodeAudioData() {
         if (!this.lesson.audioBuffer) {
             return;
@@ -384,20 +397,20 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         const maxLength = Math.max(data1.length, user_audio_data.length);
 
         this.clearSvg('#chart1');
-        const svg = this.createSvg(
+        this.svg = this.createSvg(
             '#chart1',
             width,
             height
         ) as unknown as d3.Selection<SVGSVGElement, unknown, null, undefined>;
-        const scales = this.createScales(
+        this.scales = this.createScales(
             [0, maxLength],
             [minData, maxData],
             width,
             height
         );
 
-        this.drawData(svg, data1, scales, 'steelblue', 1);
-        this.drawData(svg, user_audio_data, scales, 'green', 0.5);
+        this.drawData(this.svg, data1, this.scales, 'darkblue', 1);
+        this.drawData(this.svg, user_audio_data, this.scales, 'orange', 0.5);
     }
 
     ngAfterViewInit() {
@@ -582,6 +595,65 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         }
     }
 
+    private addVerticalLineToSVG() {
+        if (!this.showTimeScroller) {
+            return;
+        }
+        // Set the x position for the vertical line, could be the start of the x-axis or any other value
+        const xPosition = this.scales.xScale(0); // Change '0' to whatever x-value you want the line to correspond to
+
+        // Add the vertical line to the SVG
+        this.cursorLine = this.svg
+            .append('line')
+            .attr('x1', xPosition)
+            .attr('x2', xPosition)
+            .attr('y1', this.scales.yScale(this.scales.yScale.domain()[1])) // y1 is the top of the y-axis scale
+            .attr('y2', this.scales.yScale(this.scales.yScale.domain()[0])) // y2 is the bottom of the y-axis scale
+            .attr('stroke', 'red')
+            .attr('stroke-width', 2);
+    }
+
+    private removeVerticalLineFromSVG() {
+        if (!this.showTimeScroller) {
+            return;
+        }
+
+        if (this.cursorLine) {
+            this.cursorLine.remove();
+            //this.cursorLine = null; // Clear the reference if necessary
+        }
+    }
+
+    private updateLinePosition(time: number) {
+        if (!this.showTimeScroller) {
+            return;
+        }
+
+        const rate = this.lesson.audioBuffer.sampleRate;
+        this.cursorLine
+            .attr('x1', this.scales.xScale(time * rate))
+            .attr('x2', this.scales.xScale(time * rate));
+    }
+
+    private startMovingLine() {
+        if (!this.showTimeScroller) {
+            return;
+        }
+
+        const recordingStartTime = Date.now();
+        const recordingLengthInSeconds = 10; // Set this to your recording length
+        const interval = 10; // Update every 100ms
+
+        const intervalId = setInterval(() => {
+            const currentTime = (Date.now() - recordingStartTime) / 1000;
+            if (currentTime >= recordingLengthInSeconds) {
+                clearInterval(intervalId); // Stop updating after the recording duration
+            } else {
+                this.updateLinePosition(currentTime);
+            }
+        }, interval);
+    }
+
     onPlayCurrentEpisode() {
         const episode = this.lesson.getCurrentEpisode(true);
         if (this.audioState === AudioState.AS_NONE && Boolean(episode)) {
@@ -596,6 +668,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             this.episode_source.onended = () => {
                 this.audioState = AudioState.AS_NONE;
                 this.cd.detectChanges();
+                this.removeVerticalLineFromSVG();
             };
 
             this.episode_source.buffer = this.lesson.audioBuffer;
@@ -603,7 +676,9 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             this.episode_source.connect(this.episodeGainNode);
             this.episodeGainNode.connect(this.audioContext.destination);
 
+            this.addVerticalLineToSVG();
             this.episode_source.start(0, start, duration);
+            this.startMovingLine();
 
             this.cd.detectChanges();
         }
@@ -620,6 +695,11 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         }
 
         this.cd.detectChanges();
+    }
+
+    clearUserAudioData() {
+        this.user_audio_buffer = undefined;
+        this.onShowPlotChange();
     }
 
     async onRecognizing(
@@ -747,12 +827,16 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
                             });
                     };
                     reader.readAsArrayBuffer(blob);
+
+                    this.removeVerticalLineFromSVG();
                 };
 
+                this.addVerticalLineToSVG();
                 this.mediaRecorder.start();
                 this.mediaRecorder.ondataavailable = (e) => {
                     chunks.push(e.data);
                 };
+                this.startMovingLine();
             })
             // Error callback
             .catch((err) => {
