@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="307.733">
 	<item id="0">
-		<item id="0" start="0.1" duration="2.067">
+		<item id="0" start="0.1" duration="1.9">
 			<person>Teacher</person>
 			<text>Lesson 30</text>
 			<image/>
@@ -15,7 +15,7 @@
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="3.9" duration="1.8">
+		<item id="0" start="3.8" duration="1.8">
 			<person>Teacher</person>
 			<text>Christmas</text>
 			<image/>
@@ -58,7 +58,7 @@
 			<text>When's Easter?</text>
 			<image/>
 		</item>
-		<item id="1" start="25.067" duration="4.867">
+		<item id="1" start="25.0" duration="4.7">
 			<person>Student</person>
 			<text>Easter's in spring, either in March or in April</text>
 			<image/>
@@ -210,7 +210,7 @@
 			<text>Of these three subjects mathematics, history and geography, which do you like the most?</text>
 			<image/>
 		</item>
-		<item id="1" start="100.8" duration="7.3">
+		<item id="1" start="100.8" duration="7.2">
 			<person>Student</person>
 			<text>Of those three subjects mathematics, history and geography, I like history the most</text>
 			<image/>
@@ -338,7 +338,7 @@
 		</item>
 	</item>
 	<item id="36">
-		<item id="0" start="163.233" duration="1.733">
+		<item id="0" start="163.2" duration="1.6">
 			<person>Teacher</person>
 			<text>cold</text>
 			<image/>
@@ -414,7 +414,7 @@
 		</item>
 	</item>
 	<item id="44">
-		<item id="0" start="198.433" duration="3.567">
+		<item id="0" start="198.4" duration="3.4">
 			<person>Teacher</person>
 			<text>Which is one of the coldest countries in the world?</text>
 			<image/>

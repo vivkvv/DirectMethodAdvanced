@@ -1,5 +1,19 @@
+<!-- Image container -->
+<div class="my-5 flex justify-center">
+    <img
+        src="../woodpecker.png"
+        alt="Woodpecker Image"
+        class="max-w-full h-auto"
+    />
+</div>
+
+<!-- Title below the image -->
+<div class="text-center my-4">
+    <h1 class="text-2xl font-bold">Stubborn Woodpecker</h1>
+</div>
+
 <form class="center-form" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-    <div class="form-group">
+    <!-- <div class="form-group">
         <label>Study Language</label>
         <select>
             <option value="English">English</option>
@@ -10,39 +24,58 @@
         <select>
             <option value="Русский">Русский</option>
         </select>
-    </div>
-    <hr class="divider">
+    </div> -->
+    <!-- <hr class="divider" />
     <div class="form-group">
         <label>User</label>
-        <input type="text" formControlName="username"
-            [ngClass]="{'input-valid': isControlValid('username'), 'input-invalid': isControlInvalid('username')}">
+        <input
+            type="text"
+            formControlName="username"
+            [ngClass]="{
+                'input-valid': isControlValid('username'),
+                'input-invalid': isControlInvalid('username')
+            }"
+        />
         <small class="input-hint">Any nonempty string</small>
     </div>
     <div class="form-group">
         <label>Password</label>
-        <input type="password" formControlName="password"
-            [ngClass]="{'input-valid': isControlValid('password'), 'input-invalid': isControlInvalid('password')}">
+        <input
+            type="password"
+            formControlName="password"
+            [ngClass]="{
+                'input-valid': isControlValid('password'),
+                'input-invalid': isControlInvalid('password')
+            }"
+        />
         <small class="input-hint">Not less than 8 symbols</small>
     </div>
     <div class="button-container">
-        <button type="submit" [disabled]="loginForm.invalid" [ngClass]="{
-            'valid-border': loginForm.valid, 
-            'invalid-border': loginForm.invalid}">Login</button>
-        <button type="button" [routerLink]="['/register']">Registering ...</button>
+        <button
+            type="submit"
+            [disabled]="loginForm.invalid"
+            [ngClass]="{
+                'valid-border': loginForm.valid,
+                'invalid-border': loginForm.invalid
+            }"
+        >
+            Login
+        </button>
+        <button type="button" [routerLink]="['/register']">
+            Registering ...
+        </button>
     </div>
-    <hr class="divider">
-    <div style="text-align: center; margin-bottom: 10px;">
-        or continue with
-    </div>
+    <hr class="divider" /> -->
+    <!-- <div style="text-align: center; margin-bottom: 10px">or continue with</div> -->
     <div class="oidc-buttons">
         <button class="btn" (click)="onGoogleLogin($event)">
             <i class="fa-brands fa-google"></i>
         </button>
-        <button class="btn" (click)="onGitHubLogin()">
+        <!-- <button class="btn" (click)="onGitHubLogin()">
             <i class="fa-brands fa-github"></i>
         </button>
         <button class="btn" (click)="onFacebookLogin()">
             <i class="fa-brands fa-facebook"></i>
-        </button>
+        </button> -->
     </div>
 </form>
