@@ -237,9 +237,8 @@
                 />
             </svg>
             <svg
-                [ngClass]="{ 'disabled-button': isPlaying }"
+                [ngClass]="{'disabled-button': isPlaying, 'pressed': playLoop}"
                 (click)="isPlaying ? null : changeAudioLoop()"
-                [ngClass]="playLoop ? 'pressed' : ''"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
