@@ -618,11 +618,13 @@ export class LessonComponent implements OnInit {
     gotoPreviousEpisode() {
         const previousSelectedKey = this.getPreviousKey();
         this.setActiveKey(previousSelectedKey);
+        this.cd.detectChanges();        
     }
 
     gotoNextEpisode() {
         const nextSelectedKey = this.getNextKey();
         this.setActiveKey(nextSelectedKey);
+        this.cd.detectChanges();
     }
 
     get lessonItemKeys(): string[] {
