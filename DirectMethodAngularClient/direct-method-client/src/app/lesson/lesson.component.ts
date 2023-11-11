@@ -615,20 +615,14 @@ export class LessonComponent implements OnInit {
         return keys[keys.length - 1] === currentKey;
     }
 
-    repaint = () => {
-        const _ = document.body.offsetHeight;
-    };
-
     gotoPreviousEpisode() {
         const previousSelectedKey = this.getPreviousKey();
         this.setActiveKey(previousSelectedKey);
-        this.repaint();
     }
 
     gotoNextEpisode() {
         const nextSelectedKey = this.getNextKey();
         this.setActiveKey(nextSelectedKey);
-        this.repaint();
     }
 
     get lessonItemKeys(): string[] {
