@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="300.0">
 	<item id="0">
-		<item id="0" start="0.4" duration="2.333">
+		<item id="0" start="0.4" duration="2.2">
 			<person>Teacher</person>
 			<text>Lesson 33</text>
 			<image/>
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="2.767" duration="1.567">
+		<item id="0" start="2.6" duration="1.3">
 			<person>Teacher</person>
 			<text>look at</text>
 			<image/>
@@ -84,7 +84,7 @@
 		</item>
 		<item id="1" start="42.167" duration="2.9">
 			<person>Student</person>
-			<text>Because that picture still</text>
+			<text>Because that picture's still</text>
 			<image/>
 		</item>
 	</item>
@@ -397,7 +397,7 @@
 			<text>Have your parents got any more children besides you?</text>
 			<image/>
 		</item>
-		<item id="1" start="222.133" duration="4.8">
+		<item id="1" start="222.1" duration="4.7">
 			<person>Student</person>
 			<text>Yes, my parents have got some more children besides me</text>
 			<image/>
@@ -428,14 +428,14 @@
 			<text>Do you like working very much?</text>
 			<image/>
 		</item>
-		<item id="1" start="237.8" duration="3.733">
+		<item id="1" start="237.8" duration="3.6">
 			<person>Student</person>
 			<text>No, I don't like working very much</text>
 			<image/>
 		</item>
 	</item>
 	<item id="42">
-		<item id="0" start="241.533" duration="1.7">
+		<item id="0" start="241.4" duration="1.6">
 			<person>Teacher</person>
 			<text>another</text>
 			<image/>
@@ -454,7 +454,7 @@
 		</item>
 	</item>
 	<item id="44">
-		<item id="0" start="250.9" duration="4.267">
+		<item id="0" start="250.8" duration="4.1">
 			<person>Teacher</person>
 			<text>Have you got another blouse besides the one you're wearing now?</text>
 			<image/>
@@ -487,7 +487,7 @@
 		</item>
 	</item>
 	<item id="48">
-		<item id="0" start="265.1" duration="1.733">
+		<item id="0" start="265.0" duration="1.6">
 			<person>Teacher</person>
 			<text>synagogue</text>
 			<image/>
@@ -518,7 +518,7 @@
 			<text>At what time do you generally enter the classroom for your lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="288.567" duration="3.667">
+		<item id="1" start="288.5" duration="4.0">
 			<person>Student</person>
 			<text>I generally enter the classroom at 10:30 for my lesson</text>
 			<image/>

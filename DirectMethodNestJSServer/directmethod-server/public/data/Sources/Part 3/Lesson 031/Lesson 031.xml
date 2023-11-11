@@ -93,7 +93,7 @@
 		</item>
 	</item>
 	<item id="11">
-		<item id="0" start="52.833" duration="2.033">
+		<item id="0" start="52.7" duration="1.9">
 			<person>Teacher</person>
 			<text>receive</text>
 			<image/>
@@ -128,7 +128,7 @@
 		</item>
 	</item>
 	<item id="16">
-		<item id="0" start="62.033" duration="2.167">
+		<item id="0" start="62.0" duration="1.9">
 			<person>Teacher</person>
 			<text>message</text>
 			<image/>
@@ -207,7 +207,7 @@
 			<text>If you want to send somebody a quick message, do you write a text or an email?</text>
 			<image/>
 		</item>
-		<item id="1" start="117.7" duration="4.8">
+		<item id="1" start="117.7" duration="4.7">
 			<person>Student</person>
 			<text>If I want to send somebody a quick message, I write a text</text>
 			<image/>
@@ -518,21 +518,21 @@
 			<text>Can we see well during the night if the moon isn't shining?</text>
 			<image/>
 		</item>
-		<item id="1" start="299.9" duration="6.6">
+		<item id="1" start="299.9" duration="6.5">
 			<person>Student</person>
 			<text>No, we can't see well during the night if the moon isn't shining; we see badly</text>
 			<image/>
 		</item>
 	</item>
 	<item id="57">
-		<item id="0" start="306.5" duration="1.667">
+		<item id="0" start="306.4" duration="1.5">
 			<person>Teacher</person>
 			<text>early</text>
 			<image/>
 		</item>
 	</item>
 	<item id="58">
-		<item id="0" start="308.167" duration="1.533">
+		<item id="0" start="308.0" duration="1.5">
 			<person>Teacher</person>
 			<text>late</text>
 			<image/>
@@ -563,21 +563,21 @@
 		</item>
 	</item>
 	<item id="61">
-		<item id="0" start="320.833" duration="2.0">
+		<item id="0" start="320.8" duration="1.8">
 			<person>Teacher</person>
 			<text>earlier ... than</text>
 			<image/>
 		</item>
 	</item>
 	<item id="62">
-		<item id="0" start="322.867" duration="1.0">
+		<item id="0" start="322.7" duration="1.4">
 			<person>Teacher</person>
 			<text>later ... than</text>
 			<image/>
 		</item>
 	</item>
 	<item id="63">
-		<item id="0" start="323.9" duration="6.733">
+		<item id="0" start="324.2" duration="6.3">
 			<person>Teacher</person>
 			<text>Do the students generally come into the classroom later than the teacher?</text>
 			<image/>
@@ -608,7 +608,7 @@
 			<text>Who gets up the earliest in your family?</text>
 			<image/>
 		</item>
-		<item id="1" start="348.033" duration="4.067">
+		<item id="1" start="348.0" duration="3.9">
 			<person>Student</person>
 			<text>My brother gets up the earliest in my family</text>
 			<image/>
@@ -620,14 +620,14 @@
 			<text>Who gets up the latest in your family?</text>
 			<image/>
 		</item>
-		<item id="1" start="355.633" duration="4.233">
+		<item id="1" start="355.6" duration="4.1">
 			<person>Student</person>
 			<text>My father gets up the latest in my family</text>
 			<image/>
 		</item>
 	</item>
 	<item id="68">
-		<item id="0" start="359.9" duration="1.567">
+		<item id="0" start="359.7" duration="1.4">
 			<person>Teacher</person>
 			<text>light</text>
 			<image/>

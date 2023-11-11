@@ -194,14 +194,14 @@
 			<text>About how many matches does a matchbox generally hold?</text>
 			<image/>
 		</item>
-		<item id="1" start="112.433" duration="4.833">
+		<item id="1" start="112.3" duration="4.7">
 			<person>Student</person>
 			<text>A matchbox generally holds about 50 matches</text>
 			<image/>
 		</item>
 	</item>
 	<item id="20">
-		<item id="0" start="117.3" duration="4.7">
+		<item id="0" start="117.1" duration="4.7">
 			<person>Teacher</person>
 			<text>About how long can you hold your hand above your head for?</text>
 			<image/>
@@ -220,14 +220,14 @@
 		</item>
 	</item>
 	<item id="22">
-		<item id="0" start="129.1" duration="1.9">
+		<item id="0" start="128.9" duration="1.7">
 			<person>Teacher</person>
 			<text>excellent</text>
 			<image/>
 		</item>
 	</item>
 	<item id="23">
-		<item id="0" start="131.0" duration="1.833">
+		<item id="0" start="130.8" duration="1.7">
 			<person>Teacher</person>
 			<text>other than</text>
 			<image/>
@@ -463,14 +463,14 @@
 			<text>Does it snow everywhere in the world?</text>
 			<image/>
 		</item>
-		<item id="1" start="278.667" duration="8.1">
+		<item id="1" start="278.5" duration="8.0">
 			<person>Student</person>
 			<text>No, it doesn't snow everywhere in the world; in some places it does and in some places it doesn't</text>
 			<image/>
 		</item>
 	</item>
 	<item id="47">
-		<item id="0" start="286.767" duration="1.733">
+		<item id="0" start="286.7" duration="1.6">
 			<person>Teacher</person>
 			<text>rain</text>
 			<image/>

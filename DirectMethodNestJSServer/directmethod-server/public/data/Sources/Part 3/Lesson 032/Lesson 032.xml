@@ -168,7 +168,7 @@
 		</item>
 	</item>
 	<item id="16">
-		<item id="0" start="97.767" duration="1.6">
+		<item id="0" start="97.7" duration="1.5">
 			<person>Teacher</person>
 			<text>happy</text>
 			<image/>
@@ -194,14 +194,14 @@
 			<text>What message do we generally write inside a Christmas card?</text>
 			<image/>
 		</item>
-		<item id="1" start="107.5" duration="7.2">
+		<item id="1" start="107.55" duration="7.1">
 			<person>Student</person>
 			<text>The message we generally write inside a Christmas card is &quot;A Merry Christmas and a happy New Year&quot;</text>
 			<image/>
 		</item>
 	</item>
 	<item id="20">
-		<item id="0" start="114.7" duration="3.2">
+		<item id="0" start="114.7" duration="3.1">
 			<person>Teacher</person>
 			<text>What does the word &quot;merry&quot; mean?</text>
 			<image/>
@@ -256,33 +256,33 @@
 		</item>
 	</item>
 	<item id="25">
-		<item id="0" start="146.1" duration="1.767">
+		<item id="0" start="146.0" duration="1.5">
 			<person>Teacher</person>
 			<text>apart</text>
 			<image/>
 		</item>
 	</item>
 	<item id="26">
-		<item id="0" start="147.867" duration="2.1">
+		<item id="0" start="147.8" duration="1.9">
 			<person>Teacher</person>
 			<text>apart from</text>
 			<image/>
 		</item>
 	</item>
 	<item id="27">
-		<item id="0" start="149.967" duration="2.4">
+		<item id="0" start="149.9" duration="2.4">
 			<person>Teacher</person>
 			<text>Are my hands apart?</text>
 			<image/>
 		</item>
-		<item id="1" start="152.4" duration="3.3">
+		<item id="1" start="152.3" duration="3.6">
 			<person>Student</person>
 			<text>No, your hands aren't apart; they're together</text>
 			<image/>
 		</item>
 	</item>
 	<item id="28">
-		<item id="0" start="155.7" duration="3.867">
+		<item id="0" start="156.8" duration="2.5">
 			<person>Teacher</person>
 			<text>Do you live apart from your family?</text>
 			<image/>
@@ -335,7 +335,7 @@
 			<text>Apart from me, is anybody in this room standing?</text>
 			<image/>
 		</item>
-		<item id="1" start="191.8" duration="5.033">
+		<item id="1" start="191.8" duration="4.9">
 			<person>Student</person>
 			<text>No, apart from you, nobody in this room is standing</text>
 			<image/>
@@ -380,7 +380,7 @@
 			<text>Do you speak English better than your language?</text>
 			<image/>
 		</item>
-		<item id="1" start="215.567" duration="6.033">
+		<item id="1" start="215.4" duration="6.0">
 			<person>Student</person>
 			<text>No, I don't speak English better than my language; I speak it worse than my language</text>
 			<image/>
@@ -501,7 +501,7 @@
 	<item id="49">
 		<item id="0" start="306.167" duration="3.3">
 			<person>Teacher</person>
-			<text>What is your worst subject at school?</text>
+			<text>What was your worst subject at school?</text>
 			<image/>
 		</item>
 		<item id="1" start="309.5" duration="3.7">
@@ -575,12 +575,12 @@
 		</item>
 	</item>
 	<item id="57">
-		<item id="0" start="343.033" duration="4.033">
+		<item id="0" start="342.9" duration="4.0">
 			<person>Teacher</person>
 			<text>Name me some games in which we use a ball, please</text>
 			<image/>
 		</item>
-		<item id="1" start="347.067" duration="11.133">
+		<item id="1" start="346.9" duration="10.9">
 			<person>Student</person>
 			<text>Some games in which we use a ball are football, tennis, rugby, golf, basketball, etc.</text>
 			<image/>

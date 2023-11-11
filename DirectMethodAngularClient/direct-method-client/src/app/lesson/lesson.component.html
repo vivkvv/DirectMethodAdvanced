@@ -148,8 +148,16 @@
 </header>
 
 <section class="grid py-3" style="display: flex">
-    <!-- <aside style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2; width: 20%"> -->
-    <!-- <aside
+    <aside
+        style="
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            width: 20%;
+        "
+    >
+        <!-- <aside
         [ngStyle]="{
             'grid-column-start':
                 optionsService.options.mainPanelSide === 'left' ? '1' : '3',
@@ -160,7 +168,7 @@
             'width': '20%'
         }"
     > -->
-    <aside [ngClass]="{ 'left-panel': isLeft(), 'right-panel': !isLeft() }">
+        <!-- <aside [ngClass]="{ 'left-panel': isLeft(), 'right-panel': !isLeft() }"> -->
         <div>
             <svg
                 (click)="isPanelHidden = !isPanelHidden"
