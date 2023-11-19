@@ -7,6 +7,8 @@ import { join } from 'path';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
 
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0"; // for self signed certificates
+
   if (process.env.NODE_ENV === 'production') {
     app.use(express.static(join(__dirname, '../..', 'public')));
   } else {
