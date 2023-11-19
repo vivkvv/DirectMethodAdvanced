@@ -5,7 +5,7 @@ import {
 } from '../services/Options/options.service';
 import { ChangeDetectorRef } from '@angular/core';
 import { DeleteModeComponent } from '../delete-mode/delete-mode.component';
-import { MatDialog } from '@angular/material/dialog';
+import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 
 @Component({
     selector: 'app-options-page',
@@ -27,7 +27,8 @@ export class OptionsPageComponent implements OnInit {
     constructor(
         public optionsService: OptionsService,
         private cdr: ChangeDetectorRef,
-        private dialog: MatDialog
+        private dialog: MatDialog,
+        private optionsDialog: MatDialogRef<OptionsPageComponent>
     ) {}
 
     ngOnInit(): void {
@@ -146,6 +147,10 @@ export class OptionsPageComponent implements OnInit {
         this.updateSelectedModel();
 
         this.optionsService.serialize();
+    }
+
+    closeDialog(){
+        this.optionsDialog.close();
     }
 
     deleteCurrentContinuousLessonMode() {

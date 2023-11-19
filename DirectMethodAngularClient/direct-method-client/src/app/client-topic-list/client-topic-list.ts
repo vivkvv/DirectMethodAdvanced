@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { PartsService } from '../services/parts.service';
 import { Lesson, Part } from '../DirectMethodCommonInterface/folderStructure';
+import { FilesService } from '../services/s3files/files.service';
 
 function createLessonFromJSON(json: any): Lesson {
     const lesson: Lesson = new Lesson(
@@ -22,28 +23,29 @@ function createPartFromJSON(json: any): Part {
 }
 
 @Component({
-    selector: 'app-topic-list',
-    templateUrl: './parts-list.component.html',
-    styleUrls: ['./parts-list.component.css'],
+    selector: 'client-topic-list',
+    templateUrl: './client-topic-list.component.html',
+    styleUrls: ['./client-topic-list.component.css'],
 })
-export class PartsListComponent implements OnInit {
+export class ClientTopicListComponent implements OnInit {
     parts: Part[] = [];
 
-    constructor(private topicService: PartsService) {}
+    constructor(private filesService: FilesService) {}
 
     ngOnInit(): void {
         this.getTopics();
     }
 
     getTopics(): void {
-        this.topicService.getTopics().subscribe(
-            (parts: Part[]) => {
-                this.parts = parts.map(createPartFromJSON);
-            },
-            (error: any) => {
-                console.error('Failed to load parts:', error);
-            }
-        );
+        this.parts = this.filesService.parts.map(createPartFromJSON);
+        // this.topicService.getTopics().subscribe(
+        //     (parts: Part[]) => {
+        //         this.parts = parts.map(createPartFromJSON);
+        //     },
+        //     (error: any) => {
+        //         console.error('Failed to load parts:', error);
+        //     }
+        // );
     }
 
     formatDuration(seconds: number): string {

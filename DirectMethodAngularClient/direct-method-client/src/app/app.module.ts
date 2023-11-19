@@ -40,6 +40,7 @@ import { DeleteModeComponent } from './delete-mode/delete-mode.component';
 import { UserService } from './services/UserService/user.service';
 import { QuickLinksComponent } from './quick-links/quick-links';
 import { FilesComponent } from './files/files.component';
+import { ClientTopicListComponent } from './client-topic-list/client-topic-list';
 
 @NgModule({
     declarations: [
@@ -51,6 +52,7 @@ import { FilesComponent } from './files/files.component';
         QuickLinksComponent,
         LessonComponent,
         PartsListComponent,
+        ClientTopicListComponent,
         ClientPartsListComponent,
         FontGroupComponent,
         DigitalStudentsGroupComponent,

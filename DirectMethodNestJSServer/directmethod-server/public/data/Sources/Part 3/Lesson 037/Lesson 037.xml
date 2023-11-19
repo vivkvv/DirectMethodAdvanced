@@ -106,7 +106,7 @@
 			<text>Were they outside the classroom during the last lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="49.9" duration="6.433">
+		<item id="1" start="49.9" duration="6.3">
 			<person>Student</person>
 			<text>No, they weren't outside the classroom during the last lesson; they were inside</text>
 			<image/>
@@ -144,7 +144,7 @@
 			<text>Is the number of people in your town always increasing?</text>
 			<image/>
 		</item>
-		<item id="1" start="70.233" duration="4.633">
+		<item id="1" start="70.2" duration="4.5">
 			<person>Student</person>
 			<text>Yes, the number of people in my town is always increasing</text>
 			<image/>
@@ -189,7 +189,7 @@
 		</item>
 	</item>
 	<item id="19">
-		<item id="0" start="93.267" duration="1.467">
+		<item id="0" start="93.1" duration="1.1">
 			<person>Teacher</person>
 			<text>over</text>
 			<image/>
@@ -356,14 +356,14 @@
 		</item>
 	</item>
 	<item id="35">
-		<item id="0" start="188.967" duration="1.567">
+		<item id="0" start="188.9" duration="1.3">
 			<person>Teacher</person>
 			<text>often</text>
 			<image/>
 		</item>
 	</item>
 	<item id="36">
-		<item id="0" start="190.533" duration="1.7">
+		<item id="0" start="190.5" duration="1.3">
 			<person>Teacher</person>
 			<text>rarely</text>
 			<image/>

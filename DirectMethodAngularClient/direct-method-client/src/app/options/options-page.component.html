@@ -1,3 +1,7 @@
+<button mat-icon-button (click)="closeDialog()" class="flex-none">
+    <mat-icon>close</mat-icon>
+</button>
+
 <div class="flex flex-wrap">
     <fieldset
         class="block-container w-full p-3 m-3 border border-solid border-gray-400"
@@ -232,9 +236,7 @@
         </div>
 
         <div class="flex w-full md:w-1/2 mb-2">
-            <label class="ml-2 flex-1"
-                >Empty time behaviour</label
-            >
+            <label class="ml-2 flex-1">Empty time behaviour</label>
             <div class="value-container w-2/3">
                 <select
                     class="w-full border border-black"
@@ -245,7 +247,10 @@
                     "
                     (ngModelChange)="optionsService.serialize()"
                 >
-                    <option *ngFor="let emtyTimeOption of emtyTimeOptions" [value]="emtyTimeOption">
+                    <option
+                        *ngFor="let emtyTimeOption of emtyTimeOptions"
+                        [value]="emtyTimeOption"
+                    >
                         {{ emtyTimeOption }}
                     </option>
                 </select>

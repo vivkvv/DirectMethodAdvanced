@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="336.033">
 	<item id="0">
-		<item id="0" start="0.3" duration="2.4">
+		<item id="0" start="0.2" duration="1.8">
 			<person>Teacher</person>
 			<text>Lesson 36</text>
 			<image/>
@@ -324,7 +324,7 @@
 		</item>
 	</item>
 	<item id="34">
-		<item id="0" start="167.067" duration="4.0">
+		<item id="0" start="166.9" duration="3.9">
 			<person>Teacher</person>
 			<text>Are the countries of Europe more or less friends today?</text>
 			<image/>
@@ -386,12 +386,12 @@
 		</item>
 	</item>
 	<item id="40">
-		<item id="0" start="202.0" duration="7.067">
+		<item id="0" start="201.9" duration="7.4">
 			<person>Teacher</person>
 			<text>Some people eat in expensive restaurants, others eat in cheap restaurants. What does this depend on?</text>
 			<image/>
 		</item>
-		<item id="1" start="209.067" duration="4.167">
+		<item id="1" start="210.0" duration="2.2">
 			<person>Student</person>
 			<text>It depends on how much money they have</text>
 			<image/>
@@ -527,7 +527,7 @@
 		</item>
 	</item>
 	<item id="53">
-		<item id="0" start="300.867" duration="1.633">
+		<item id="0" start="300.6" duration="1.4">
 			<person>Teacher</person>
 			<text>nearly</text>
 			<image/>
@@ -539,7 +539,7 @@
 			<text>Are we nearly at the end of the lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="305.8" duration="3.3">
+		<item id="1" start="305.7" duration="3.2">
 			<person>Student</person>
 			<text>Yes, we're nearly at the end of the lesson</text>
 			<image/>

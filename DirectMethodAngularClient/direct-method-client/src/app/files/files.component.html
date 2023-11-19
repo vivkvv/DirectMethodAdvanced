@@ -86,8 +86,19 @@
                 <select
                     id="languages"
                     class="flex-grow border rounded"
-                ></select>
-                <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white" (click)="onCheckButtonClick()">
+                    [(ngModel)]="selectedLanguage"
+                >
+                    <option
+                        *ngFor="let key of getTranslationKeys()"
+                        [value]="key"
+                    >
+                        {{ key }}
+                    </option>
+                </select>
+                <button
+                    class="self-end mt-2 px-4 py-2 bg-blue-500 text-white"
+                    (click)="onCheckButtonClick()"
+                >
                     Check
                 </button>
             </div>
@@ -95,7 +106,10 @@
                 <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white">
                     Add
                 </button>
-                <button class="self-end mt-2 px-4 py-2 bg-blue-500 text-white">
+                <button
+                    class="self-end mt-2 px-4 py-2 bg-blue-500 text-white"
+                    (click)="onUseButtonClick()"
+                >
                     Use
                 </button>
             </div>
@@ -105,8 +119,8 @@
     <fieldset class="border p-4">
         <legend class="text-lg font-bold">Google Drive</legend>
     </fieldset>
-    
+
     <fieldset class="border p-4">
         <legend class="text-lg font-bold">Dropbox</legend>
-    </fieldset>    
+    </fieldset>
 </div>

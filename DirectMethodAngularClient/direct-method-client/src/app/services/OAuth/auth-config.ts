@@ -1,10 +1,12 @@
-import {AuthConfig} from "angular-oauth2-oidc";
+import { AuthConfig } from 'angular-oauth2-oidc';
 
-import { google_environment } from "src/environments/environment";
+import { google_environment } from 'src/environments/environment';
 
+// https://console.cloud.google.com/apis/credentials/oauthclient/1056330085698-p14refckgcbhs0533767eq2non7597nf.apps.googleusercontent.com?project=directmethodproject
 export const googleAuthConfig: AuthConfig = {
     issuer: 'https://accounts.google.com',
-    clientId: '1056330085698-p14refckgcbhs0533767eq2non7597nf.apps.googleusercontent.com',
+    clientId:
+        '1056330085698-p14refckgcbhs0533767eq2non7597nf.apps.googleusercontent.com',
     scope: 'openid profile email',
     clearHashAfterLogin: false,
     strictDiscoveryDocumentValidation: false,

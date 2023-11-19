@@ -17,6 +17,7 @@ import { MatDialog, MatDialogRef } from '@angular/material/dialog';
 import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component';
 import { OptionsService } from '../services/Options/options.service';
 import { ExitComponent } from '../exit/exit.component';
+import { OptionsPageComponent } from '../options/options-page.component';
 
 interface Lesson {
     nextPart: string;
@@ -81,7 +82,8 @@ export class LessonComponent implements OnInit {
     currentLessonTime: number = 0;
 
     isAudioDialogOpen: boolean = false;
-    dialogRef: MatDialogRef<AudioOverlayComponent, any> | undefined = undefined;
+    audioDialogRef: MatDialogRef<AudioOverlayComponent, any> | undefined =
+        undefined;
 
     formatIntervalLabel(value: number): string {
         return `${value}`;
@@ -142,10 +144,10 @@ export class LessonComponent implements OnInit {
     private checkTimeInterval: ReturnType<typeof setInterval> | undefined;
 
     private async openDialog() {
-        if (!this.dialogRef) {
+        if (!this.audioDialogRef) {
             const parentComponent = this;
             //const parentComponent = this;
-            this.dialogRef = this.dialog.open(AudioOverlayComponent, {
+            this.audioDialogRef = this.dialog.open(AudioOverlayComponent, {
                 width: '100%',
                 panelClass: 'custom-overlay-pane-class',
                 disableClose: true,
@@ -163,15 +165,15 @@ export class LessonComponent implements OnInit {
         //     this.isAudioDialogOpen = false;
         // });
 
-        return this.dialogRef.afterOpened().toPromise();
+        return this.audioDialogRef.afterOpened().toPromise();
     }
 
     private hideDialog(): void {
-        this.dialogRef?.addPanelClass('hidden-dialog');
+        this.audioDialogRef?.addPanelClass('hidden-dialog');
     }
 
     private showDialog(): void {
-        this.dialogRef?.removePanelClass('hidden-dialog');
+        this.audioDialogRef?.removePanelClass('hidden-dialog');
     }
 
     async showAudioDialog(
@@ -185,7 +187,7 @@ export class LessonComponent implements OnInit {
         // }
 
         if (startRecognition) {
-            await this.dialogRef?.componentInstance.onRecognizing(
+            await this.audioDialogRef?.componentInstance.onRecognizing(
                 attemptsNumber,
                 acceptedResult,
                 true
@@ -642,10 +644,28 @@ export class LessonComponent implements OnInit {
     ) {}
 
     async ngOnInit(): Promise<void> {
-        this.route.params.subscribe(async (params: { [x: string]: any }) => {
-            const partId = params['part_id'];
-            const lessonId = params['lesson_id'];
-            await this.fetchLessonData(partId, lessonId);
+        const currentUrl = this.router.url;
+
+
+        this.route.params.subscribe(async (params: { [key: string]: any }) => {
+            //if (params['part_id'] && params['lesson_id']) {
+            if(currentUrl.includes('/Lesson/')){
+                const partId = params['part_id'];
+                const lessonId = params['lesson_id'];
+                await this.fetchLessonData(partId, lessonId);
+            } else if (
+                // params['fileName'] &&
+                // params['translationFile'] &&
+                // params['mp3file']
+                currentUrl.includes('/Unity/')
+            ) {
+                const fileName = params['fileName'];
+                const translationFile = params['translationFile'];
+                const mp3 = params['mp3file'];
+                const partId = params['part_id'];
+                const lessonId = params['lesson_id'];
+                await this.fetchUnityData(partId, lessonId, fileName, translationFile, mp3);
+            }
         });
     }
 
@@ -654,16 +674,16 @@ export class LessonComponent implements OnInit {
         return match ? Number(match[0]) : -1;
     }
 
-    private async parseLessonData(response: any) {
+    private async parseLessonData(lesson_xml: string, translation_xml: string) {
         this.lessonItemsDict = {};
         const parser = new DOMParser();
 
         const lessonXmlDoc = parser.parseFromString(
-            response.lesson_xml,
+            lesson_xml,
             'application/xml'
         );
         const translationXmlDoc = parser.parseFromString(
-            response.translation_xml,
+            translation_xml,
             'application/xml'
         );
 
@@ -716,6 +736,30 @@ export class LessonComponent implements OnInit {
         this.currentLessonTime = 0;
     }
 
+    private async fetchUnityData(partId: string, lessonId: string, fileName: string, translationFile: string, mp3: string){
+        this.loadingService.setLoading(true);
+        try{
+        const xml = await fetch(fileName);
+        const lessonXml = await xml.text();        
+        
+        const translation = await fetch(translationFile);
+        const translationXml = await translation.text();
+
+        await this.parseLessonData(lessonXml, translationXml);        
+        await this.loadAndDecodeAudio(mp3);        
+
+        this.partID = partId;
+        this.lessonID = lessonId;
+        this.part = this.extractNumber(this.partID);
+        this.lesson = this.extractNumber(this.lessonID);
+
+        this.setActiveKey('0-0');
+        }
+        finally{
+            this.loadingService.setLoading(false);
+        }
+    }
+
     private async fetchLessonData(partId: any, lessonId: any): Promise<void> {
         this.partID = partId;
         this.lessonID = lessonId;
@@ -728,7 +772,7 @@ export class LessonComponent implements OnInit {
             .subscribe({
                 next: async (response: any) => {
                     try {
-                        await this.parseLessonData(response);
+                        await this.parseLessonData(response.lesson_xml, response.translation_xml);
                         await this.loadImagesForLesson(partId, lessonId);
                         await this.loadAndDecodeAudio(response.audio_link);
                         this.setActiveKey('0-0');
@@ -771,7 +815,18 @@ export class LessonComponent implements OnInit {
     }
 
     navigateToOptions() {
-        this.router.navigate(['/options']);
+        // this.router.navigate(['/options']);
+        const optionsDialogRef = this.dialog.open(OptionsPageComponent, {
+            // width: '100%',
+            // width: '100vh',
+            disableClose: false,
+            panelClass: 'options-pane-class',
+        });
+
+        optionsDialogRef.afterClosed().subscribe((result) => {
+            // Optional: Handle any actions after the dialog is closed
+            console.log('The options dialog was closed');
+        });
     }
 
     navigateToQuickLinks() {

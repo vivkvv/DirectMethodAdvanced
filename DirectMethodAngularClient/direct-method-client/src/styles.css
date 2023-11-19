@@ -27,8 +27,14 @@ body {
 .custom-overlay-pane-class.fullscreen {
     top: 0 !important;
     height: 100vh !important;
-  }
-  
+}
+
+.options-pane-class {
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    max-width: 100vw !important;
+}
 
 .exit-overlay-pane-class {
     opacity: 0.9;

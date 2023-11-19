@@ -20,6 +20,9 @@ export class Lesson {
   public get folderName(): string {
     return this._folderName;
   }
+  public get translationFile(): string {
+    return this._translationFile;
+  }
   constructor(
     private _title: string,
     private _fileName: string,
@@ -27,6 +30,7 @@ export class Lesson {
     private _imagesPath: string,
     private _mp3: string,
     private _duration: number,
+    private _translationFile: string
   ) {}
 }
 
@@ -36,6 +40,9 @@ export class Part {
   }
   public get pdf(): string {
     return this._pdf;
+  }
+  public get pdfPath(): string {
+    return this._pdfPath;
   }
   public get path(): string {
     return this._path;
@@ -47,6 +54,7 @@ export class Part {
     private _title: string,
     private _path: string,
     private _pdf: string,
+    private _pdfPath: string,
     private _lessons: Lesson[],
   ) {}
 }

@@ -62,8 +62,8 @@ export class LoginComponent {
         return control?.invalid ?? false;
     }
 
-    onGoogleLogin(event: Event) {
-        event.preventDefault();
+    onGoogleLogin() {
+        //event.preventDefault();
 
         this.oAuthService.configure(googleAuthConfig);
         // this.oAuthService.tokenValidationHandler = new JwksValidationHandler();
@@ -73,7 +73,10 @@ export class LoginComponent {
 
     onGitHubLogin() {}
 
-    onFacebookLogin() {}
+    onFacebookLogin() {
+
+        
+    }
 
     onSubmit() {
         const username = this.loginForm.get('username')?.value;

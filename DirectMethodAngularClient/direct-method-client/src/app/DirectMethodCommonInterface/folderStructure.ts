@@ -20,13 +20,17 @@ export class Lesson {
   public get folderName(): string {
     return this._folderName;
   }
+  public get translationFile(): string {
+    return this._translationFile;
+  }  
   constructor(
-    private _title: string,
-    private _fileName: string,
+    public _title: string,
+    public _fileName: string,
     private _folderName: string,
     private _imagesPath: string,
-    private _mp3: string,
+    public _mp3: string,
     private _duration: number,
+    public _translationFile: string    
   ) {}
 }
 
@@ -37,6 +41,9 @@ export class Part {
   public get pdf(): string {
     return this._pdf;
   }
+  public get pdfPath(): string {
+    return this._pdfPath;
+  }
   public get path(): string {
     return this._path;
   }
@@ -44,9 +51,10 @@ export class Part {
     return this._title;
   }
   constructor(
-    private _title: string,
-    private _path: string,
-    private _pdf: string,
-    private _lessons: Lesson[],
+    public _title: string,
+    public _path: string,
+    public _pdf: string,
+    public _pdfPath: string,
+    public _lessons: Lesson[],
   ) {}
 }

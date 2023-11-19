@@ -5,6 +5,7 @@ import {
     Lesson,
     Part,
 } from 'src/app/DirectMethodCommonInterface/folderStructure';
+import { FilesService } from './files.service';
 
 @Injectable({
     providedIn: 'root',
@@ -15,14 +16,45 @@ export class S3filesService {
     private secretKey!: string;
     private bucketName!: string;
     private configXmlPath!: string;
+    private language!: string;
     languages: string[] = [];
 
     audioBase: string = '';
     sourceBase: string = '';
     translations: { [key: string]: string } = {};
-    parts: Part[] = [];
+    //parts: Part[] = [];
 
-    constructor(private httpClient: HttpClient) {}
+    constructor(private httpClient: HttpClient, private filesService: FilesService) {}
+
+    async gets3DetailedData(
+        endpoint: string,
+        accessKey: string,
+        secretKey: string,
+        bucketName: string,
+        language: string
+    ) {
+        Object.assign(this, {
+            endpoint,
+            accessKey,
+            secretKey,
+            bucketName,
+            language
+        });
+
+        try {
+            const response: any = await this.httpClient
+                .get(
+                    `/api/s3/detailed?endpoint=${this.endpoint}&accessKey=${this.accessKey}&secretKey=${this.secretKey}&bucketName=${this.bucketName}&configXmlPath=${this.configXmlPath}&language=${this.language}`
+                )
+                .toPromise();
+
+            await this.parseDetailed(response);
+        } catch (error) {
+            console.error(error);
+        } finally {
+            // this.loadingService.setLoading(false);
+        } //
+    }
 
     async getS3data(
         endpoint: string,
@@ -34,7 +66,8 @@ export class S3filesService {
         this.audioBase = '';
         this.sourceBase = '';
         this.translations = {};
-        this.parts = [];
+        //this.parts = [];
+        this.filesService.parts = [];
 
         Object.assign(this, {
             endpoint,
@@ -52,7 +85,7 @@ export class S3filesService {
                 )
                 .toPromise();
 
-            await this.parse(response);
+            await this.parseLanguages(response);
         } catch (error) {
             console.error(error);
         } finally {
@@ -60,19 +93,13 @@ export class S3filesService {
         } //
     }
 
-    private async parse(response: any) {
-        if ('configXml' in response) {
-            const url = response.configXml;
+    private async parseDetailed(response: any){
+        this.filesService.parts = response;
+    }
 
-            const urlResponse = await fetch(url);
-            if (urlResponse.ok) {
-                const fileContent = await urlResponse.text();
-                this.parseLessonsXML(fileContent);
-            } else {
-                console.log(urlResponse);
-            }
-        } else if ('error' in response) {
-            console.log(response.error);
+    private async parseLanguages(response: any) {
+        if ('languages' in response) {
+            this.languages = response.languages;
         }
     }
 
@@ -86,6 +113,7 @@ export class S3filesService {
         return { fileName, folderPath };
     }
 
+    /*
     private parseLessonsXML(fileContent: string) {
         let parser = new DOMParser();
         let xmlDoc = parser.parseFromString(fileContent, 'text/xml');
@@ -109,12 +137,12 @@ export class S3filesService {
                 let code = langNode.getAttribute('code');
                 let value = langNode.textContent || '';
                 if (code) {
-                  this.translations[code] = value;
+                    this.translations[code] = value;
                 }
             }
         }
 
-        this.parts = [];
+        this.filesService.parts = [];
 
         let xmlParts = xmlDoc.getElementsByTagName('Parts')[0];
 
@@ -154,7 +182,8 @@ export class S3filesService {
                 level.getAttribute('pdf') || '', // pdf
                 lessons // lessons
             );
-            this.parts.push(part);
+            this.filesService.parts.push(part);
         }
     }
+    */
 }

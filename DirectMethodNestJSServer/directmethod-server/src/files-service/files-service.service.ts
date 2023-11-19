@@ -128,12 +128,13 @@ export class FilesService implements OnModuleInit {
           imagesFolder?.name,
           '', //firstMp3File,
           0, //duration,
+          ''
         );
 
         lessons.push(lesson);
       });
 
-      parts.push(new Part(partName, partPath, pdfFile, lessons));
+      parts.push(new Part(partName, partPath, pdfFile, '', lessons));
     });
 
     return parts;
