@@ -656,6 +656,11 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
 
     onPlayCurrentEpisode() {
         const episode = this.lesson.getCurrentEpisode(true);
+
+        if(episode.duration <= 0) {
+            return;
+        }
+
         if (this.audioState === AudioState.AS_NONE && Boolean(episode)) {
             this.episode_source = this.audioContext.createBufferSource();
             this.episodeGainNode.gain.value = this.episodeAudioVolume / 100.0;

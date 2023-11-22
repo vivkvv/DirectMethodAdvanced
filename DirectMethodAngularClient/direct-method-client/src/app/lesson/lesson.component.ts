@@ -246,6 +246,7 @@ export class LessonComponent implements OnInit {
             this.continuousPlay();
         } else {
             if (this.source) {
+                window.speechSynthesis.cancel();
                 this.source.stop();
                 this.source = null;
             }

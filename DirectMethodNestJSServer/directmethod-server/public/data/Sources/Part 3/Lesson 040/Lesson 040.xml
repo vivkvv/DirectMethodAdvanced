@@ -53,14 +53,14 @@
 		</item>
 	</item>
 	<item id="6">
-		<item id="0" start="19.2" duration="2.2">
+		<item id="0" start="19.2" duration="1.8">
 			<person>Teacher</person>
 			<text>nice to meet you</text>
 			<image/>
 		</item>
 	</item>
 	<item id="7">
-		<item id="0" start="21.4" duration="1.767">
+		<item id="0" start="21.3" duration="1.4">
 			<person>Teacher</person>
 			<text>how are you?</text>
 			<image/>
@@ -148,7 +148,7 @@
 			<text>Bring your book to me, please. What are you doing?</text>
 			<image/>
 		</item>
-		<item id="1" start="76.0" duration="2.3">
+		<item id="1" start="75.9" duration="2.2">
 			<person>Student</person>
 			<text>I'm bringing my book to you</text>
 			<image/>
@@ -239,7 +239,7 @@
 		</item>
 	</item>
 	<item id="24">
-		<item id="0" start="124.2" duration="1.7">
+		<item id="0" start="124.1" duration="1.7">
 			<person>Teacher</person>
 			<text>Why not?</text>
 			<image/>
@@ -432,7 +432,7 @@
 			<text>Are waiters and waitresses always polite to people in restaurants?</text>
 			<image/>
 		</item>
-		<item id="1" start="229.767" duration="8.533">
+		<item id="1" start="229.6" duration="8.5">
 			<person>Student</person>
 			<text>No, waiters and waitresses aren't always polite to people in restaurants; sometimes they're polite and sometimes they're impolite</text>
 			<image/>
@@ -475,7 +475,7 @@
 			<text>Give me an example, please</text>
 			<image/>
 		</item>
-		<item id="1" start="266.433" duration="7.7">
+		<item id="1" start="266.3" duration="4.2">
 			<person>Student</person>
 			<text>Excuse me, can you tell me the way to the station, please?</text>
 			<image/>
