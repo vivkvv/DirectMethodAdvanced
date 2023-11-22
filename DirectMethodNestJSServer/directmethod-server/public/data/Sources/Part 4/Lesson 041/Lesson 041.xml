@@ -15,14 +15,14 @@
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="4.1" duration="1.8">
+		<item id="0" start="4.1" duration="1.7">
 			<person>Teacher</person>
 			<text>wives</text>
 			<image/>
 		</item>
 	</item>
 	<item id="3">
-		<item id="0" start="5.9" duration="1.4">
+		<item id="0" start="5.8" duration="1.2">
 			<person>Teacher</person>
 			<text>help</text>
 			<image/>
@@ -89,7 +89,7 @@
 			<text>Which is the most common drink in this country besides water?</text>
 			<image/>
 		</item>
-		<item id="1" start="51.267" duration="4.8">
+		<item id="1" start="51.2" duration="4.6">
 			<person>Student</person>
 			<text>Tea is the most common drink in this country besides water</text>
 			<image/>
@@ -134,14 +134,14 @@
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="74.6" duration="1.533">
+		<item id="0" start="74.5" duration="1.2">
 			<person>Teacher</person>
 			<text>rich</text>
 			<image/>
 		</item>
 	</item>
 	<item id="15">
-		<item id="0" start="76.133" duration="2.933">
+		<item id="0" start="76.0" duration="2.7">
 			<person>Teacher</person>
 			<text>Who is the richest person you know?</text>
 			<image/>
@@ -160,19 +160,19 @@
 		</item>
 	</item>
 	<item id="17">
-		<item id="0" start="84.0" duration="4.0">
+		<item id="0" start="84.0" duration="3.8">
 			<person>Teacher</person>
 			<text>Name me one of the poorest countries in the world</text>
 			<image/>
 		</item>
-		<item id="1" start="88.0" duration="4.067">
+		<item id="1" start="87.9" duration="3.8">
 			<person>Student</person>
 			<text>Haiti is one of the poorest countries in the world</text>
 			<image/>
 		</item>
 	</item>
 	<item id="18">
-		<item id="0" start="92.067" duration="1.633">
+		<item id="0" start="91.9" duration="1.4">
 			<person>Teacher</person>
 			<text>story</text>
 			<image/>
@@ -210,7 +210,7 @@
 		</item>
 	</item>
 	<item id="22">
-		<item id="0" start="112.7" duration="1.9">
+		<item id="0" start="112.6" duration="1.5">
 			<person>Teacher</person>
 			<text>express</text>
 			<image/>
@@ -255,7 +255,7 @@
 		</item>
 	</item>
 	<item id="27">
-		<item id="0" start="137.6" duration="1.7">
+		<item id="0" start="137.5" duration="1.3">
 			<person>Teacher</person>
 			<text>so</text>
 			<image/>
@@ -288,7 +288,7 @@
 		</item>
 	</item>
 	<item id="31">
-		<item id="0" start="146.6" duration="2.833">
+		<item id="0" start="146.5" duration="2.6">
 			<person>Teacher</person>
 			<text>speak - spoke</text>
 			<image/>
@@ -309,28 +309,28 @@
 		</item>
 	</item>
 	<item id="34">
-		<item id="0" start="155.033" duration="2.8">
+		<item id="0" start="155.0" duration="2.3">
 			<person>Teacher</person>
 			<text>wear - wore</text>
 			<image/>
 		</item>
 	</item>
 	<item id="35">
-		<item id="0" start="157.833" duration="2.667">
+		<item id="0" start="157.7" duration="2.4">
 			<person>Teacher</person>
 			<text>write - wrote</text>
 			<image/>
 		</item>
 	</item>
 	<item id="36">
-		<item id="0" start="160.533" duration="2.933">
+		<item id="0" start="160.5" duration="2.6">
 			<person>Teacher</person>
 			<text>get up - got up</text>
 			<image/>
 		</item>
 	</item>
 	<item id="37">
-		<item id="0" start="163.467" duration="2.433">
+		<item id="0" start="163.2" duration="2.2">
 			<person>Teacher</person>
 			<text>stand - stood</text>
 			<image/>
@@ -351,35 +351,35 @@
 		</item>
 	</item>
 	<item id="40">
-		<item id="0" start="171.267" duration="2.8">
+		<item id="0" start="171.2" duration="2.5">
 			<person>Teacher</person>
 			<text>tell - told</text>
 			<image/>
 		</item>
 	</item>
 	<item id="41">
-		<item id="0" start="174.1" duration="2.667">
+		<item id="0" start="173.9" duration="2.3">
 			<person>Teacher</person>
 			<text>drive - drove</text>
 			<image/>
 		</item>
 	</item>
 	<item id="42">
-		<item id="0" start="176.767" duration="2.8">
+		<item id="0" start="176.5" duration="2.2">
 			<person>Teacher</person>
 			<text>forget - forgot</text>
 			<image/>
 		</item>
 	</item>
 	<item id="43">
-		<item id="0" start="179.567" duration="2.667">
+		<item id="0" start="179.4" duration="2.3">
 			<person>Teacher</person>
 			<text>see - saw</text>
 			<image/>
 		</item>
 	</item>
 	<item id="44">
-		<item id="0" start="182.233" duration="2.667">
+		<item id="0" start="182.1" duration="2.3">
 			<person>Teacher</person>
 			<text>sit - sat</text>
 			<image/>
@@ -407,14 +407,14 @@
 		</item>
 	</item>
 	<item id="48">
-		<item id="0" start="193.4" duration="3.1">
+		<item id="0" start="193.4" duration="2.7">
 			<person>Teacher</person>
 			<text>drink - drank</text>
 			<image/>
 		</item>
 	</item>
 	<item id="49">
-		<item id="0" start="196.5" duration="2.633">
+		<item id="0" start="196.2" duration="2.3">
 			<person>Teacher</person>
 			<text>sleep - slept</text>
 			<image/>
@@ -510,7 +510,7 @@
 			<text>What time did you get up this morning?</text>
 			<image/>
 		</item>
-		<item id="1" start="253.7" duration="3.3">
+		<item id="1" start="253.5" duration="3.3">
 			<person>Student</person>
 			<text>I got up at 8:00 this morning</text>
 			<image/>
@@ -606,7 +606,7 @@
 			<text>Where did you sit during the last lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="319.867" duration="3.6">
+		<item id="1" start="319.7" duration="3.4">
 			<person>Student</person>
 			<text>I sat here during the last lesson</text>
 			<image/>
@@ -642,26 +642,26 @@
 			<text>When did last season begin?</text>
 			<image/>
 		</item>
-		<item id="1" start="341.4" duration="4.2">
+		<item id="1" start="341.4" duration="4.1">
 			<person>Student</person>
 			<text>Last season began on the 21st of March</text>
 			<image/>
 		</item>
 	</item>
 	<item id="69">
-		<item id="0" start="345.6" duration="3.433">
+		<item id="0" start="345.4" duration="3.2">
 			<person>Teacher</person>
 			<text>What did you drink with your breakfast this morning?</text>
 			<image/>
 		</item>
-		<item id="1" start="349.067" duration="3.9">
+		<item id="1" start="348.9" duration="3.7">
 			<person>Student</person>
 			<text>I drank some tea with my breakfast this morning</text>
 			<image/>
 		</item>
 	</item>
 	<item id="70">
-		<item id="0" start="352.967" duration="2.933">
+		<item id="0" start="352.8" duration="2.7">
 			<person>Teacher</person>
 			<text>How long did you sleep last night?</text>
 			<image/>
