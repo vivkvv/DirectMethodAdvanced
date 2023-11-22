@@ -1,0 +1,16 @@
+<as-split *ngIf="desktopSplitter.isDesktop()" gutterSize="10" direction="horizontal">
+    <as-split-area [size]="mainContentSize">
+        <div class="min-w-[400px]" select="[main-content]">
+            <ng-content select="[main-content]"></ng-content>
+        </div>
+    </as-split-area>
+    <as-split-area [size]="tabsContentSize" [visible]="desktopSplitter.isDesktop()">
+        <mat-tab-group>
+            <ng-content select="[tabs-content]"></ng-content>
+        </mat-tab-group>
+    </as-split-area>
+</as-split>
+
+<div *ngIf="!desktopSplitter.isDesktop()">
+    <ng-content select="[main-content]"></ng-content>
+</div>

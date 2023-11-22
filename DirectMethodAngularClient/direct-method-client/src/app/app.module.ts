@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatTabsModule } from '@angular/material/tabs';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -41,6 +42,8 @@ import { UserService } from './services/UserService/user.service';
 import { QuickLinksComponent } from './quick-links/quick-links';
 import { FilesComponent } from './files/files.component';
 import { ClientTopicListComponent } from './client-topic-list/client-topic-list';
+import { AngularSplitModule } from 'angular-split';
+import { DetailedViewComponent } from './detailed-view/detailed-view.component';
 
 @NgModule({
     declarations: [
@@ -62,7 +65,8 @@ import { ClientTopicListComponent } from './client-topic-list/client-topic-list'
         PreAuthorizationCheckingComponent,
         ExitComponent,
         DeleteModeComponent,
-        AudioOverlayComponent
+        AudioOverlayComponent,
+        DetailedViewComponent
     ],
     imports: [
         MatSliderModule,        
@@ -72,6 +76,7 @@ import { ClientTopicListComponent } from './client-topic-list/client-topic-list'
         MatFormFieldModule,
         MatIconModule,
         MatDialogModule,
+        MatTabsModule,
         CommonModule,
         RouterModule,
         BrowserModule,
@@ -80,6 +85,7 @@ import { ClientTopicListComponent } from './client-topic-list/client-topic-list'
         HttpClientModule,
         OAuthModule.forRoot(),
         BrowserAnimationsModule,
+        AngularSplitModule
     ],
     providers: [
         {
