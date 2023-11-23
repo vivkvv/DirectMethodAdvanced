@@ -4,7 +4,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DesktopSplitterService {
-  private readonly mainContentDefaultWidth: number = 600;
+   private readonly mainContentDefaultWidth: number = 400;
 
   constructor() {}
 
