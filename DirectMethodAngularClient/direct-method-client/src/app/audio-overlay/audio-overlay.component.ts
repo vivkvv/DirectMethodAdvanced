@@ -61,11 +61,14 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     public showPlot: Boolean = false;
     public showTimeScroller: Boolean = false;
 
+    voiceRecognitionProcess: boolean = false;
+    voiceRecognitionPrompt: string = '';
+
     public isLeft(): number {
         return this.optionsService.options.mainPanelSide === 'left' ? 0 : 1;
     }
 
-    toggleMaximize(): void {        
+    toggleMaximize(): void {
         this.isMaximized = !this.isMaximized; // Toggle the state
         if (this.isMaximized) {
             // Maximizing the dialog
@@ -657,7 +660,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     onPlayCurrentEpisode() {
         const episode = this.lesson.getCurrentEpisode(true);
 
-        if(episode.duration <= 0) {
+        if (episode.duration <= 0) {
             return;
         }
 
@@ -714,16 +717,27 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     ) {
         if (this.audioState === AudioState.AS_NONE) {
             let attempts = 0;
-            while (attempts < attemptsNumber) {
-                ++attempts;
-                this.speechRecognitionService.start();
 
-                if (checkResult) {
-                    await this.speechRecognitionService.recognitionEnded();
-                    if (this.comparison_result <= acceptedResult) {
-                        break;
+            this.voiceRecognitionPrompt = '';
+            this.voiceRecognitionProcess = true;
+
+            try {
+                while (attempts < attemptsNumber) {
+                    ++attempts;                    
+                    this.speechRecognitionService.start();
+                    this.voiceRecognitionPrompt = `Speak, please (${attempts}/${attemptsNumber})`;
+
+                    if (checkResult) {
+                        this.comparison_result = acceptedResult + 1;
+                        await this.speechRecognitionService.recognitionEnded();
+                        if (this.comparison_result <= acceptedResult) {
+                            break;
+                        }
                     }
                 }
+            } finally {
+                this.voiceRecognitionPrompt = '';
+                this.voiceRecognitionProcess = false;    
             }
         } else if (this.audioState === AudioState.AS_RECOGNIZE) {
             this.speechRecognitionService.stopListening();

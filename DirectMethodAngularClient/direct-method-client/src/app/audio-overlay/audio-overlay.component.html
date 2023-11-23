@@ -318,6 +318,9 @@
                 >
                     Clear
                 </button>
+
+                <span *ngIf="voiceRecognitionProcess" [ngStyle]="{'color': 'red'}" class="ml-4">{{ voiceRecognitionPrompt }}</span>
+
             </div>
         </div>
         <div class="flex flex-col h-full">
