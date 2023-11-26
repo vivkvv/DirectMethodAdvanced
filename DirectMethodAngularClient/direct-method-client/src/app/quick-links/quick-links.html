@@ -1,47 +1,30 @@
-<app-detailed-view>
-    <div main-content>
-        <div class="container">
-            <div class="button-container">
-                <button class="button" (click)="toLessons()">Lessons</button>
-            </div>
-            <div class="button-container">
-                <button class="button" (click)="toOptions()">Options</button>
-            </div>
-            <div class="button-container">
-                <button class="button" [class.strikethrough]="true">
-                    User
-                </button>
-            </div>
-            <div class="button-container">
-                <button class="button" (click)="toFiles()">Files</button>
-            </div>
-            <div class="button-container"></div>
-            <div class="button-container"></div>
-            <div class="button-container">
-                <button class="button" [class.strikethrough]="true">
-                    Blog
-                </button>
-            </div>
-            <div class="button-container">
-                <button class="button" [class.strikethrough]="true">
-                    Video
-                </button>
-            </div>
-            <div class="button-container">
-                <button class="button" [class.strikethrough]="true">
-                    Discord
-                </button>
-            </div>
-            <div class="button-container">
-                <button class="button" [class.strikethrough]="true">
-                    S3 servers
-                </button>
-            </div>
-            <div class="button-container"></div>
-            <div class="button-container">
-                <button class="button" (click)="toExit()">Exit</button>
-            </div>
+<div class="flex justify-center items-center h-screen">
+    <div class="container" style="width: 400px">
+        <div class="button-container">
+            <button class="button" (click)="toLessons()">Lessons</button>
         </div>
-        <div tabs-content style="width: 1800px"></div>
+        <div class="button-container">
+            <button class="button" (click)="toOptions()">Options</button>
+        </div>
+        <div class="button-container">
+            <button class="button" [class.strikethrough]="true">Log</button>
+        </div>
+        <div class="button-container">
+            <button class="button" (click)="toFiles()">Files</button>
+        </div>
+        <div class="button-container"></div>
+        <div class="button-container"></div>
+        <div class="button-container">
+            <button class="button" [class.strikethrough]="true">Blog</button>
+        </div>
+        <div class="button-container">
+            <button class="button" [class.strikethrough]="true">Video</button>
+        </div>
+        <div class="button-container">
+            <button class="button" [class.strikethrough]="true">Discord Forum</button>
+        </div>
+        <div class="button-container">
+            <button class="button" (click)="toExit()">Exit</button>
+        </div>
     </div>
-</app-detailed-view>
+</div>

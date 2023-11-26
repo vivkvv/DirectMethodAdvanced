@@ -167,7 +167,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         public dialogRef: MatDialogRef<AudioOverlayComponent>,
         private speechRecognitionService: SpeechRecognitionService,
         private cd: ChangeDetectorRef,
-        public optionsService: OptionsService
+        private optionsService: OptionsService
     ) {
         this.lesson = data.parentComponent;
         this.speechRecognitionService.onResult((event) => {

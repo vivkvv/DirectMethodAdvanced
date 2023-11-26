@@ -8,14 +8,14 @@
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="2.867" duration="1.6">
+		<item id="0" start="2.7" duration="1.0">
 			<person>Teacher</person>
 			<text>hill</text>
 			<image/>
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="4.467" duration="1.8">
+		<item id="0" start="4.3" duration="1.0">
 			<person>Teacher</person>
 			<text>around</text>
 			<image/>
@@ -27,14 +27,14 @@
 			<text>Are there any hills around this town?</text>
 			<image/>
 		</item>
-		<item id="1" start="9.733" duration="4.567">
+		<item id="1" start="9.7" duration="4.4">
 			<person>Student</person>
 			<text>Yes, there are some hills around this town</text>
 			<image/>
 		</item>
 	</item>
 	<item id="4">
-		<item id="0" start="14.333" duration="1.6">
+		<item id="0" start="14.1" duration="1.0">
 			<person>Teacher</person>
 			<text>laugh</text>
 			<image/>
@@ -122,7 +122,7 @@
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="63.933" duration="1.667">
+		<item id="0" start="63.8" duration="1.3">
 			<person>Teacher</person>
 			<text>hungry</text>
 			<image/>
@@ -136,7 +136,7 @@
 		</item>
 	</item>
 	<item id="15">
-		<item id="0" start="67.367" duration="2.733">
+		<item id="0" start="67.2" duration="2.6">
 			<person>Teacher</person>
 			<text>Are you hungry at the moment?</text>
 			<image/>
@@ -165,14 +165,14 @@
 			<text>Does your stomach make noises when you're hungry?</text>
 			<image/>
 		</item>
-		<item id="1" start="88.0" duration="4.633">
+		<item id="1" start="88.0" duration="4.4">
 			<person>Student</person>
 			<text>Yes, my stomach makes noises when I'm hungry</text>
 			<image/>
 		</item>
 	</item>
 	<item id="18">
-		<item id="0" start="92.667" duration="1.633">
+		<item id="0" start="92.5" duration="1.1">
 			<person>Teacher</person>
 			<text>fact</text>
 			<image/>
@@ -288,14 +288,14 @@
 		</item>
 	</item>
 	<item id="31">
-		<item id="0" start="139.767" duration="1.9">
+		<item id="0" start="139.5" duration="1.2">
 			<person>Teacher</person>
 			<text>obtain</text>
 			<image/>
 		</item>
 	</item>
 	<item id="32">
-		<item id="0" start="141.667" duration="1.7">
+		<item id="0" start="141.5" duration="1.2">
 			<person>Teacher</person>
 			<text>fetch</text>
 			<image/>
@@ -321,7 +321,7 @@
 			<text>About how much does a doctor get (receive) a month?</text>
 			<image/>
 		</item>
-		<item id="1" start="148.9" duration="4.9">
+		<item id="1" start="148.8" duration="4.7">
 			<person>Student</person>
 			<text>A doctor gets about £2,000 a month</text>
 			<image/>
@@ -407,7 +407,7 @@
 		</item>
 	</item>
 	<item id="43">
-		<item id="0" start="210.767" duration="1.733">
+		<item id="0" start="210.5" duration="1.5">
 			<person>Teacher</person>
 			<text>reach</text>
 			<image/>
@@ -483,7 +483,7 @@
 		</item>
 	</item>
 	<item id="51">
-		<item id="0" start="253.967" duration="1.967">
+		<item id="0" start="253.8" duration="1.5">
 			<person>Teacher</person>
 			<text>there was</text>
 			<image/>
@@ -557,7 +557,7 @@
 		</item>
 	</item>
 	<item id="58">
-		<item id="0" start="301.8" duration="1.6">
+		<item id="0" start="301.7" duration="1.2">
 			<person>Teacher</person>
 			<text>die</text>
 			<image/>
@@ -600,7 +600,7 @@
 			<text>When did president Kennedy die?</text>
 			<image/>
 		</item>
-		<item id="1" start="325.667" duration="5.367">
+		<item id="1" start="325.6" duration="4.3">
 			<person>Student</person>
 			<text>President Kennedy died in 1963</text>
 			<image/>

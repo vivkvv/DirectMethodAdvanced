@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { OptionsService } from '../services/Options/options.service';
+// import { OptionsService } from '../services/Options/options.service';
 import { FontOptions } from '../options/font-group/font-group.component';
 // import { EntityService, IEntity } from '../services/entity.service';
 
@@ -22,7 +22,7 @@ export class EntityBlockComponent implements OnInit {
     translatedText = '';
     imageUrl = '';
 
-    constructor(public optionsService: OptionsService) {}
+    // constructor(public optionsService: OptionsService) {}
 
     transformText(originalText: string): string {
         if (originalText) {

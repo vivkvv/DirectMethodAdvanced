@@ -1,5 +1,7 @@
-<app-detailed-view>
-    <div main-content>
+<div class="flex justify-center items-center h-screen">
+    <div class="container" style="width: 500px">
+        <!-- <app-detailed-view>
+    <div main-content> -->
         <!-- <div id="overlay"></div>
 
 <div *ngIf="isLoading | async" class="loading-spinner">
@@ -152,18 +154,6 @@
         </header>
 
         <section class="py-3" style="display: flex">
-            <!-- <aside style="grid-column-start: 1; grid-column-end: 2; grid-row-start: 1; grid-row-end: 2; width: 20%"> -->
-            <!-- <aside
-        [ngStyle]="{
-            'grid-column-start':
-                optionsService.options.mainPanelSide === 'left' ? '1' : '3',
-            'grid-column-end':
-                optionsService.options.mainPanelSide === 'left' ? '2' : '4',
-            'grid-row-start': '1',
-            'grid-row-end': '2',
-            'width': '20%'
-        }"
-    > -->
             <aside
                 [ngClass]="{ 'left-panel': isLeft(), 'right-panel': !isLeft() }"
             >
@@ -469,5 +459,7 @@
                 </section>
             </main>
         </section>
+        <!-- </div>
+</app-detailed-view> -->
     </div>
-</app-detailed-view>
+</div>

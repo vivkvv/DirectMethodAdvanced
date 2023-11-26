@@ -27,6 +27,7 @@ export class FilesService implements OnModuleInit {
 
   //private firebaseApp: admin.app.App;
   //private fileList: MP3File[] = [];
+  // https://console.firebase.google.com/u/0/project/directmethodstorage/storage/directmethodstorage.appspot.com/files
   private allFolderParts: Part[];
 
   async onModuleInit() {

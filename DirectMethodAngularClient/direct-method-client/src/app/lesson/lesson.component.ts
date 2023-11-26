@@ -18,6 +18,7 @@ import { AudioOverlayComponent } from '../audio-overlay/audio-overlay.component'
 import { OptionsService } from '../services/Options/options.service';
 import { ExitComponent } from '../exit/exit.component';
 import { OptionsPageComponent } from '../options/options-page.component';
+import { FilesService } from '../services/s3files/files.service';
 
 interface Lesson {
     nextPart: string;
@@ -559,28 +560,6 @@ export class LessonComponent implements OnInit {
         this.showInterval = !this.showInterval;
     }
 
-    gotoPreviousLesson() {
-        this.http
-            .get<Lesson>(
-                `/api/prev.lesson?part=${this.partID}&lesson=${this.lessonID}`
-            )
-            .pipe(first())
-            .subscribe((data) => {
-                this.fetchLessonData(data.nextPart, data.nextLesson);
-            });
-    }
-
-    gotoNextLesson(): void {
-        this.http
-            .get<Lesson>(
-                `/api/next.lesson?part=${this.partID}&lesson=${this.lessonID}`
-            )
-            .pipe(first())
-            .subscribe((data) => {
-                this.fetchLessonData(data.nextPart, data.nextLesson);
-            });
-    }
-
     private getNextKey(): string {
         const currentKey = this.keyToString(this.selectedKey);
 
@@ -641,16 +620,16 @@ export class LessonComponent implements OnInit {
         private cd: ChangeDetectorRef,
         private renderer: Renderer2,
         public dialog: MatDialog,
-        public optionsService: OptionsService
+        public optionsService: OptionsService,
+        private filesService: FilesService
     ) {}
 
     async ngOnInit(): Promise<void> {
         const currentUrl = this.router.url;
 
-
         this.route.params.subscribe(async (params: { [key: string]: any }) => {
             //if (params['part_id'] && params['lesson_id']) {
-            if(currentUrl.includes('/Lesson/')){
+            if (currentUrl.includes('/Lesson/')) {
                 const partId = params['part_id'];
                 const lessonId = params['lesson_id'];
                 await this.fetchLessonData(partId, lessonId);
@@ -665,9 +644,70 @@ export class LessonComponent implements OnInit {
                 const mp3 = params['mp3file'];
                 const partId = params['part_id'];
                 const lessonId = params['lesson_id'];
-                await this.fetchUnityData(partId, lessonId, fileName, translationFile, mp3);
+                await this.fetchUnityData(
+                    partId,
+                    lessonId,
+                    fileName,
+                    translationFile,
+                    mp3
+                );
             }
         });
+    }
+
+    async gotoPreviousLesson() {
+
+        const {
+            nextPartID,
+            nextLessonID,
+            nextFileName,
+            nextTranslationFile,
+            nextMP3,
+        } = this.filesService.getPrevFile(this.partID, this.lessonID);
+
+        await this.fetchUnityData(
+            nextPartID,
+            nextLessonID,
+            nextFileName,
+            nextTranslationFile,
+            nextMP3
+        );
+
+        // this.http
+        //     .get<Lesson>(
+        //         `/api/prev.lesson?part=${this.partID}&lesson=${this.lessonID}`
+        //     )
+        //     .pipe(first())
+        //     .subscribe((data) => {
+        //         this.fetchLessonData(data.nextPart, data.nextLesson);
+        //     });
+    }
+
+    async gotoNextLesson() {
+        const {
+            nextPartID,
+            nextLessonID,
+            nextFileName,
+            nextTranslationFile,
+            nextMP3,
+        } = this.filesService.getNextFile(this.partID, this.lessonID);
+
+        await this.fetchUnityData(
+            nextPartID,
+            nextLessonID,
+            nextFileName,
+            nextTranslationFile,
+            nextMP3
+        );
+
+        // this.http
+        //     .get<Lesson>(
+        //         `/api/next.lesson?part=${this.partID}&lesson=${this.lessonID}`
+        //     )
+        //     .pipe(first())
+        //     .subscribe((data) => {
+        //         this.fetchLessonData(data.nextPart, data.nextLesson);
+        //     });
     }
 
     private extractNumber(str: string) {
@@ -737,26 +777,31 @@ export class LessonComponent implements OnInit {
         this.currentLessonTime = 0;
     }
 
-    private async fetchUnityData(partId: string, lessonId: string, fileName: string, translationFile: string, mp3: string){
+    private async fetchUnityData(
+        partId: string,
+        lessonId: string,
+        fileName: string,
+        translationFile: string,
+        mp3: string
+    ) {
         this.loadingService.setLoading(true);
-        try{
-        const xml = await fetch(fileName);
-        const lessonXml = await xml.text();        
-        
-        const translation = await fetch(translationFile);
-        const translationXml = await translation.text();
+        try {
+            const xml = await fetch(fileName);
+            const lessonXml = await xml.text();
 
-        await this.parseLessonData(lessonXml, translationXml);        
-        await this.loadAndDecodeAudio(mp3);        
+            const translation = await fetch(translationFile);
+            const translationXml = await translation.text();
 
-        this.partID = partId;
-        this.lessonID = lessonId;
-        this.part = this.extractNumber(this.partID);
-        this.lesson = this.extractNumber(this.lessonID);
+            await this.parseLessonData(lessonXml, translationXml);
+            await this.loadAndDecodeAudio(mp3);
 
-        this.setActiveKey('0-0');
-        }
-        finally{
+            this.partID = partId;
+            this.lessonID = lessonId;
+            this.part = this.extractNumber(this.partID);
+            this.lesson = this.extractNumber(this.lessonID);
+
+            this.setActiveKey('0-0');
+        } finally {
             this.loadingService.setLoading(false);
         }
     }
@@ -773,7 +818,10 @@ export class LessonComponent implements OnInit {
             .subscribe({
                 next: async (response: any) => {
                     try {
-                        await this.parseLessonData(response.lesson_xml, response.translation_xml);
+                        await this.parseLessonData(
+                            response.lesson_xml,
+                            response.translation_xml
+                        );
                         await this.loadImagesForLesson(partId, lessonId);
                         await this.loadAndDecodeAudio(response.audio_link);
                         this.setActiveKey('0-0');

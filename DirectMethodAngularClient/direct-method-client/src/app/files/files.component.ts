@@ -13,7 +13,7 @@ import { FilesService } from '../services/s3files/files.service';
 })
 export class FilesComponent implements OnInit {
     // endpoint: string = 'http://192.168.208.210:9000';
-    endpoint: string = 'http://127.0.0.1:9000';
+    endpoint: string = 'https://127.0.0.1:9000';
     accessKey: string = 'aF0nBssacKE9P2hRXp0n';
     secretKey: string = 'eot73MGgQaBRnU5CQFjRaeJu0V6HMunJ1NBnT3lI';
     bucketName: string = 'directmethod';
