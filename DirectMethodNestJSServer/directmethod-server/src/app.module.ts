@@ -20,6 +20,7 @@ import { ActionService } from './mangoose-service/services/actions.service';
 import { OptionsService } from './mangoose-service/services/options.service';
 //import { MongooseModule } from '@nestjs/mongoose';
 import { S3Controller } from './s3/s3.controller';
+import { GoogleDriveController } from './google-drive/google-drive.controller';
 
 @Module({
   imports: [
@@ -43,6 +44,7 @@ import { S3Controller } from './s3/s3.controller';
     NotFoundController,
     AuthRedirectControllerController,
     S3Controller,
+    GoogleDriveController,
   ],
   providers: [
     AppService,

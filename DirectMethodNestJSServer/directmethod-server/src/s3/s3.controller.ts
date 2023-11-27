@@ -78,7 +78,7 @@ export class S3Controller {
       const urlResponse = await fetch(url);
       if (urlResponse.ok) {
         const fileContent = await urlResponse.text();
-        const translations = this.getLessonsTranslationLanguages(fileContent);
+        const translations = S3Controller.getLessonsTranslationLanguages(fileContent);
         return { languages: Object.keys(translations) };
       } else {
         return { error: `Error on parsing ${url} file: ${urlResponse}` };
@@ -142,7 +142,7 @@ export class S3Controller {
     return { fileName, folderPath };
   }
 
-  private getLessonsTranslationLanguages(fileContent: string) {
+  public static getLessonsTranslationLanguages(fileContent: string) {
     const validationResult = XMLValidator.validate(fileContent);
     if (validationResult !== true) {
       throw new Error('Invalid XML content: ' + validationResult.err.msg);

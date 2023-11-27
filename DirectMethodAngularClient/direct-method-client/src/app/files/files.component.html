@@ -130,13 +130,73 @@
                 </div>
             </fieldset>
 
-            <fieldset class="border p-4">
+            <!-- <fieldset class="border p-4">
                 <legend class="text-lg font-bold">Google Drive</legend>
+                <div class="flex items-center space-x-2 p-2">
+                    <label for="GoogleConfigurationFile" class="w-24"
+                        >Configuration xml</label
+                    >
+                    <input
+                        type="text"
+                        id="GoogleConfigurationFile"
+                        [(ngModel)]="googleConfigXmlId"
+                        class="flex-grow border rounded"
+                    />
+                </div>
+
+                <div class="flex items-center space-x-2 p-2">
+                    <label for="GoogleFileListFile" class="w-24"
+                        >Filelist csv</label
+                    >
+                    <input
+                        type="text"
+                        id="GoogleFileListFile"
+                        [(ngModel)]="googleFileListPath"
+                        class="flex-grow border rounded"
+                    />
+                </div>
+
+                <div class="flex items-center space-x-2 p-2">
+                    <label for="GoogleDriveLanguages" class="w-24"
+                        >Translation language</label
+                    >
+                    <select
+                        id="GoogleDriveLanguages"
+                        class="flex-grow border rounded"
+                        [(ngModel)]="selectedLanguage"
+                    >
+                        <option
+                            *ngFor="let key of getTranslationKeys()"
+                            [value]="key"
+                        >
+                            {{ key }}
+                        </option>
+                    </select>
+                    <button
+                        class="self-end mt-2 px-4 py-2 bg-blue-500 text-white"
+                        (click)="onGoogleDriveLanguagesCheckButtonClick()"
+                    >
+                        Check
+                    </button>
+                </div>
+                <div class="flex justify-between items-center space-x-2 p-2">
+                    <button
+                        class="self-end mt-2 px-4 py-2 bg-blue-500 text-white"
+                    >
+                        Add
+                    </button>
+                    <button
+                        class="self-end mt-2 px-4 py-2 bg-blue-500 text-white"
+                        (click)="onGoogleDriveUseButtonClick()"
+                    >
+                        Use
+                    </button>
+                </div>
             </fieldset>
 
             <fieldset class="border p-4">
                 <legend class="text-lg font-bold">Dropbox</legend>
-            </fieldset>
+            </fieldset> -->
         </div>
     </div>
 </div>

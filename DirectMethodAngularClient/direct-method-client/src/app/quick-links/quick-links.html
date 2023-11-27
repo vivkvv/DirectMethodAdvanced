@@ -1,16 +1,16 @@
 <div class="flex justify-center items-center h-screen">
     <div class="container" style="width: 400px">
         <div class="button-container">
-            <button class="button" (click)="toLessons()">Lessons</button>
+            <!-- <button class="button gray"  disabled="true" (click)="toLessons()">Lessons</button> -->
+        </div>
+        <div class="button-container">
+            <button class="button" (click)="toFiles()">Files</button>
         </div>
         <div class="button-container">
             <button class="button" (click)="toOptions()">Options</button>
         </div>
         <div class="button-container">
             <button class="button" [class.strikethrough]="true">Log</button>
-        </div>
-        <div class="button-container">
-            <button class="button" (click)="toFiles()">Files</button>
         </div>
         <div class="button-container"></div>
         <div class="button-container"></div>
