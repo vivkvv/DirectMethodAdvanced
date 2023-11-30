@@ -2,9 +2,10 @@
     <div class="container" style="width: 400px">
         <div class="button-container">
             <!-- <button class="button gray"  disabled="true" (click)="toLessons()">Lessons</button> -->
+            <button class="button" [class.strikethrough]="true" (click)="toDemo()">Demo</button>
         </div>
         <div class="button-container">
-            <button class="button" (click)="toFiles()">Files</button>
+            <button class="button" (click)="toFiles()">My Files</button>
         </div>
         <div class="button-container">
             <button class="button" (click)="toOptions()">Options</button>

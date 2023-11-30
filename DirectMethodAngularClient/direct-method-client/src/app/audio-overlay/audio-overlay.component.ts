@@ -16,6 +16,8 @@ import * as d3 from 'd3';
 import { ScaleLinear, Selection } from 'd3';
 import { Subscription } from 'rxjs';
 import { OptionsService } from '../services/Options/options.service';
+import { LessonComponent } from '../lesson/lesson.component';
+import { SpeechRecognitionDataService } from '../services/speech-recognition-data-service/speech-recognition-data.service';
 
 export enum AudioState {
     AS_NONE = 0,
@@ -107,7 +109,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     //transcript = '';
     tableRows: Array<{ text: string; value: string }> = [];
 
-    lesson!: any;
+    lesson!: LessonComponent;
 
     isRecordEnabled(): boolean {
         return (
@@ -167,7 +169,8 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
         public dialogRef: MatDialogRef<AudioOverlayComponent>,
         private speechRecognitionService: SpeechRecognitionService,
         private cd: ChangeDetectorRef,
-        private optionsService: OptionsService
+        private optionsService: OptionsService,
+        private srds: SpeechRecognitionDataService
     ) {
         this.lesson = data.parentComponent;
         this.speechRecognitionService.onResult((event) => {
@@ -201,6 +204,9 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
                         value: this.comparison_result_text,
                     };
                     this.tableRows.unshift(newRow);
+
+                    const rootID = `${this.lesson.part}/${this.lesson.lesson}/${this.lesson.selectedKey.itemId}/${this.lesson.selectedKey.subItemId}`;
+                    srds.addOrUpdateNode(rootID, this.comparison_result_text, transcript);
                 }
             }
 
@@ -316,13 +322,21 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
             return;
         }
 
+        if(this.lesson === undefined){
+            return;
+        }
+
+        const currentEpisode = this.lesson.getCurrentEpisode(true);
+
+        if(currentEpisode === undefined){
+            return;
+        }
+
         const width = this.chartContainer.nativeElement.offsetWidth;
         const height = this.chartContainer.nativeElement.offsetHeight;
 
-        const episodeStart = this.lesson.getCurrentEpisode(true).start;
-        const episodeEnd =
-            this.lesson.getCurrentEpisode(true).start +
-            this.lesson.getCurrentEpisode(true).duration;
+        const episodeStart = currentEpisode.start;
+        const episodeEnd = currentEpisode.start + currentEpisode.duration;
 
         const start1 = this.findStartOfSignal(
             this.lesson.audioBuffer,
@@ -660,6 +674,10 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     onPlayCurrentEpisode() {
         const episode = this.lesson.getCurrentEpisode(true);
 
+        if(episode === undefined){
+            return;
+        }
+
         if (episode.duration <= 0) {
             return;
         }
@@ -763,6 +781,10 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
                     this.episodeAudioVolume / 100.0;
 
                 const episode = this.lesson.getCurrentEpisode(true);
+
+                if(episode === undefined){
+                    return;
+                }
 
                 const episode_signal_start = this.findStartOfSignal(
                     this.lesson.audioBuffer,

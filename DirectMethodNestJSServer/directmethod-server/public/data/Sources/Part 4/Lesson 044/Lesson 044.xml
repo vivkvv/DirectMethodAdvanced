@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="419.367">
 	<item id="0">
-		<item id="0" start="0.2" duration="2.367">
+		<item id="0" start="0.1" duration="2.0">
 			<person>Teacher</person>
 			<text>Lesson 44</text>
 			<image/>
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="2.6" duration="3.133">
+		<item id="0" start="2.5" duration="2.7">
 			<person>Teacher</person>
 			<text>irregular verbs (continued)</text>
 			<image/>
@@ -36,14 +36,14 @@
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="12.8" duration="3.133">
+		<item id="0" start="12.7" duration="2.8">
 			<person>Teacher</person>
 			<text>read - read</text>
 			<image/>
 		</item>
 	</item>
 	<item id="6">
-		<item id="0" start="15.933" duration="3.167">
+		<item id="0" start="15.7" duration="2.8">
 			<person>Teacher</person>
 			<text>smell - smelt</text>
 			<image/>
@@ -57,49 +57,49 @@
 		</item>
 	</item>
 	<item id="8">
-		<item id="0" start="22.367" duration="3.133">
+		<item id="0" start="22.1" duration="2.8">
 			<person>Teacher</person>
 			<text>learn - learnt</text>
 			<image/>
 		</item>
 	</item>
 	<item id="9">
-		<item id="0" start="25.5" duration="3.233">
+		<item id="0" start="25.3" duration="2.8">
 			<person>Teacher</person>
 			<text>feel - felt</text>
 			<image/>
 		</item>
 	</item>
 	<item id="10">
-		<item id="0" start="28.767" duration="3.233">
+		<item id="0" start="28.5" duration="2.8">
 			<person>Teacher</person>
 			<text>send - sent</text>
 			<image/>
 		</item>
 	</item>
 	<item id="11">
-		<item id="0" start="32.0" duration="3.4">
+		<item id="0" start="31.9" duration="2.8">
 			<person>Teacher</person>
 			<text>hear - heard</text>
 			<image/>
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="35.4" duration="3.267">
+		<item id="0" start="35.4" duration="2.8">
 			<person>Teacher</person>
 			<text>know - knew</text>
 			<image/>
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="38.7" duration="3.367">
+		<item id="0" start="38.5" duration="2.8">
 			<person>Teacher</person>
 			<text>hold - held</text>
 			<image/>
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="42.067" duration="3.167">
+		<item id="0" start="41.8" duration="2.8">
 			<person>Teacher</person>
 			<text>hang - hung</text>
 			<image/>
@@ -127,21 +127,21 @@
 		</item>
 	</item>
 	<item id="18">
-		<item id="0" start="54.867" duration="3.367">
+		<item id="0" start="54.7" duration="2.8">
 			<person>Teacher</person>
 			<text>shake - shook</text>
 			<image/>
 		</item>
 	</item>
 	<item id="19">
-		<item id="0" start="58.233" duration="3.233">
+		<item id="0" start="58.0" duration="2.8">
 			<person>Teacher</person>
 			<text>say - said</text>
 			<image/>
 		</item>
 	</item>
 	<item id="20">
-		<item id="0" start="61.5" duration="3.233">
+		<item id="0" start="61.3" duration="2.8">
 			<person>Teacher</person>
 			<text>think - thought</text>
 			<image/>
@@ -172,7 +172,7 @@
 			<text>What time did you leave home to come here today?</text>
 			<image/>
 		</item>
-		<item id="1" start="76.867" duration="4.033">
+		<item id="1" start="76.6" duration="3.4">
 			<person>Student</person>
 			<text>I left home at 8:00 to come here today</text>
 			<image/>
@@ -184,19 +184,19 @@
 			<text>What's the past of &quot;smell&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="83.5" duration="3.0">
+		<item id="1" start="83.4" duration="2.8">
 			<person>Student</person>
 			<text>The past of &quot;smell&quot; is &quot;smelt&quot;</text>
 			<image/>
 		</item>
 	</item>
 	<item id="25">
-		<item id="0" start="86.5" duration="3.233">
+		<item id="0" start="86.5" duration="2.8">
 			<person>Teacher</person>
 			<text>Did your lunch smell bad yesterday?</text>
 			<image/>
 		</item>
-		<item id="1" start="89.767" duration="4.933">
+		<item id="1" start="89.5" duration="4.3">
 			<person>Student</person>
 			<text>No, my lunch didn't smell bad yesterday; it smelt good</text>
 			<image/>
@@ -263,12 +263,12 @@
 		</item>
 	</item>
 	<item id="31">
-		<item id="0" start="130.967" duration="4.267">
+		<item id="0" start="130.8" duration="4.0">
 			<person>Teacher</person>
 			<text>Who was the last person you met before coming to the school?</text>
 			<image/>
 		</item>
-		<item id="1" start="135.267" duration="4.5">
+		<item id="1" start="135.0" duration="4.2">
 			<person>Student</person>
 			<text>Mr. Brown was the last person I met before coming to the school</text>
 			<image/>
@@ -304,7 +304,7 @@
 			<text>What did I hold in my hand last lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="160.8" duration="3.433">
+		<item id="1" start="160.5" duration="3.0">
 			<person>Student</person>
 			<text>You held your pen in your hand last lesson</text>
 			<image/>
@@ -316,7 +316,7 @@
 			<text>What did you bring with you to the lesson today?</text>
 			<image/>
 		</item>
-		<item id="1" start="167.767" duration="3.433">
+		<item id="1" start="167.3" duration="3.1">
 			<person>Student</person>
 			<text>I brought my books with me to the lesson today</text>
 			<image/>
@@ -328,7 +328,7 @@
 			<text>Where did you buy your clothes from?</text>
 			<image/>
 		</item>
-		<item id="1" start="174.033" duration="3.067">
+		<item id="1" start="173.8" duration="2.7">
 			<person>Student</person>
 			<text>I bought my clothes from a clothes shop</text>
 			<image/>
@@ -340,14 +340,14 @@
 			<text>Did you go to the pub last month?</text>
 			<image/>
 		</item>
-		<item id="1" start="180.1" duration="2.9">
+		<item id="1" start="179.9" duration="2.5">
 			<person>Student</person>
 			<text>Yes, I went to the pub last month</text>
 			<image/>
 		</item>
 	</item>
 	<item id="38">
-		<item id="0" start="183.0" duration="3.3">
+		<item id="0" start="182.9" duration="3.0">
 			<person>Teacher</person>
 			<text>Who was the last person you shook hands with?</text>
 			<image/>
@@ -400,7 +400,7 @@
 			<text>Did your parents teach you to wash and dress when you were a child?</text>
 			<image/>
 		</item>
-		<item id="1" start="221.967" duration="4.433">
+		<item id="1" start="221.8" duration="4.1">
 			<person>Student</person>
 			<text>Yes, my parents taught me to wash and dress when I was a child</text>
 			<image/>
@@ -433,7 +433,7 @@
 			<text>Which is quicker: a bicycle or a motorbike?</text>
 			<image/>
 		</item>
-		<item id="1" start="235.7" duration="3.1">
+		<item id="1" start="235.5" duration="3.0">
 			<person>Student</person>
 			<text>A motorbike is quicker than a bicycle</text>
 			<image/>
@@ -483,35 +483,35 @@
 		</item>
 	</item>
 	<item id="51">
-		<item id="0" start="264.5" duration="1.667">
+		<item id="0" start="264.3" duration="1.2">
 			<person>Teacher</person>
 			<text>listen</text>
 			<image/>
 		</item>
 	</item>
 	<item id="52">
-		<item id="0" start="266.167" duration="1.5">
+		<item id="0" start="266.0" duration="1.0">
 			<person>Teacher</person>
 			<text>hear</text>
 			<image/>
 		</item>
 	</item>
 	<item id="53">
-		<item id="0" start="267.7" duration="1.667">
+		<item id="0" start="267.5" duration="1.3">
 			<person>Teacher</person>
 			<text>news</text>
 			<image/>
 		</item>
 	</item>
 	<item id="54">
-		<item id="0" start="269.367" duration="1.733">
+		<item id="0" start="269.2" duration="1.2">
 			<person>Teacher</person>
 			<text>radio</text>
 			<image/>
 		</item>
 	</item>
 	<item id="55">
-		<item id="0" start="271.1" duration="2.267">
+		<item id="0" start="270.9" duration="1.8">
 			<person>Teacher</person>
 			<text>radio station</text>
 			<image/>
@@ -566,14 +566,14 @@
 			<text>Did you hear the news on the radio yesterday?</text>
 			<image/>
 		</item>
-		<item id="1" start="294.9" duration="3.733">
+		<item id="1" start="294.8" duration="3.5">
 			<person>Student</person>
 			<text>Yes, I heard the news on the radio yesterday</text>
 			<image/>
 		</item>
 	</item>
 	<item id="61">
-		<item id="0" start="298.633" duration="4.3">
+		<item id="0" start="298.5" duration="4.1">
 			<person>Teacher</person>
 			<text>How often do they give the news on the radio each day?</text>
 			<image/>
@@ -585,26 +585,26 @@
 		</item>
 	</item>
 	<item id="62">
-		<item id="0" start="307.5" duration="4.333">
+		<item id="0" start="307.5" duration="3.9">
 			<person>Teacher</person>
 			<text>Do you listen to the same radio station all the time?</text>
 			<image/>
 		</item>
-		<item id="1" start="311.833" duration="4.633">
+		<item id="1" start="311.5" duration="4.0">
 			<person>Student</person>
 			<text>No, I don't listen to the same radio station all the time</text>
 			<image/>
 		</item>
 	</item>
 	<item id="63">
-		<item id="0" start="316.5" duration="1.467">
+		<item id="0" start="316.4" duration="1.0">
 			<person>Teacher</person>
 			<text>ill</text>
 			<image/>
 		</item>
 	</item>
 	<item id="64">
-		<item id="0" start="317.967" duration="1.6">
+		<item id="0" start="317.967" duration="1.0">
 			<person>Teacher</person>
 			<text>well</text>
 			<image/>
@@ -678,35 +678,35 @@
 			<text>Do people feel well when they have a cold?</text>
 			<image/>
 		</item>
-		<item id="1" start="350.7" duration="4.933">
+		<item id="1" start="350.5" duration="4.7">
 			<person>Student</person>
 			<text>No, people don't feel well when they have a cold; they feel ill</text>
 			<image/>
 		</item>
 	</item>
 	<item id="72">
-		<item id="0" start="355.633" duration="1.9">
+		<item id="0" start="355.4" duration="1.5">
 			<person>Teacher</person>
 			<text>favorite</text>
 			<image/>
 		</item>
 	</item>
 	<item id="73">
-		<item id="0" start="357.567" duration="1.7">
+		<item id="0" start="357.4" duration="1.5">
 			<person>Teacher</person>
 			<text>thirsty</text>
 			<image/>
 		</item>
 	</item>
 	<item id="74">
-		<item id="0" start="359.3" duration="1.667">
+		<item id="0" start="359.3" duration="1.3">
 			<person>Teacher</person>
 			<text>programme</text>
 			<image/>
 		</item>
 	</item>
 	<item id="75">
-		<item id="0" start="360.967" duration="2.9">
+		<item id="0" start="360.8" duration="2.5">
 			<person>Teacher</person>
 			<text>Are you thirsty at the moment?</text>
 			<image/>
@@ -742,26 +742,26 @@
 		</item>
 	</item>
 	<item id="78">
-		<item id="0" start="384.367" duration="1.633">
+		<item id="0" start="384.2" duration="1.3">
 			<person>Teacher</person>
 			<text>sell</text>
 			<image/>
 		</item>
 	</item>
 	<item id="79">
-		<item id="0" start="386.0" duration="2.033">
+		<item id="0" start="385.9" duration="1.7">
 			<person>Teacher</person>
 			<text>supermarket</text>
 			<image/>
 		</item>
 	</item>
 	<item id="80">
-		<item id="0" start="388.067" duration="3.167">
+		<item id="0" start="387.9" duration="2.8">
 			<person>Teacher</person>
 			<text>What's the opposite of the verb &quot;to buy&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="391.267" duration="3.633">
+		<item id="1" start="391.1" duration="3.4">
 			<person>Student</person>
 			<text>The opposite of the verb &quot;to buy&quot; is &quot;to sell&quot;</text>
 			<image/>

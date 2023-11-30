@@ -1,0 +1,24 @@
+<mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+    <!-- Node with children (expandable node) -->
+    <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding>
+        <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'toggle ' + node.text">
+            <mat-icon class="mat-icon-rtl-mirror">
+                {{ treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right' }}
+            </mat-icon>
+        </button>
+        {{ node.text }}
+    </mat-tree-node>
+  
+    <!-- Leaf node with two columns -->
+    <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+        <div class="flex w-full">
+            <div class="w-[100px] flex justify-left border-r border-gray-300">
+                {{ node.id }}
+            </div>
+            <div class="flex-1 flex items-center justify-left">
+                {{ node.text }}
+            </div>
+        </div>
+    </mat-tree-node>
+  </mat-tree>
+  

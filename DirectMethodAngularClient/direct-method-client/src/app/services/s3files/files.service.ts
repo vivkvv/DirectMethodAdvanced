@@ -87,7 +87,7 @@ export class FilesService {
         );
 
         // Return the next lesson, or null if there isn't one
-        if (currentIndex > 0 && currentIndex < flattenedLessons.length - 1) {
+        if (currentIndex > 0 && currentIndex <= flattenedLessons.length - 1) {
             nextPartID = flattenedLessons[currentIndex - 1].partTitle;
             nextLessonID = flattenedLessons[currentIndex - 1]._title;
             nextFileName = flattenedLessons[currentIndex - 1]._fileName;

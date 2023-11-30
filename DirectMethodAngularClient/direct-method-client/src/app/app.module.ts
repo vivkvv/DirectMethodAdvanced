@@ -26,6 +26,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatTreeModule } from '@angular/material/tree';
 
 import { AudioOverlayComponent } from './audio-overlay/audio-overlay.component';
 import { FontGroupComponent } from './options/font-group/font-group.component';
@@ -44,6 +45,7 @@ import { FilesComponent } from './files/files.component';
 import { ClientTopicListComponent } from './client-topic-list/client-topic-list';
 import { AngularSplitModule } from 'angular-split';
 import { DetailedViewComponent } from './detailed-view/detailed-view.component';
+import { SpeechRecognitionTreeComponent } from './speech-recognition-tree/speech-recognition-tree.component';
 
 @NgModule({
     declarations: [
@@ -66,10 +68,12 @@ import { DetailedViewComponent } from './detailed-view/detailed-view.component';
         ExitComponent,
         DeleteModeComponent,
         AudioOverlayComponent,
-        DetailedViewComponent
+        DetailedViewComponent,
+        SpeechRecognitionTreeComponent,
     ],
     imports: [
-        MatSliderModule,        
+        MatTreeModule,
+        MatSliderModule,
         FormsModule,
         MatProgressSpinnerModule,
         MatSelectModule,
@@ -85,7 +89,7 @@ import { DetailedViewComponent } from './detailed-view/detailed-view.component';
         HttpClientModule,
         OAuthModule.forRoot(),
         BrowserAnimationsModule,
-        AngularSplitModule
+        AngularSplitModule,
     ],
     providers: [
         {
@@ -93,7 +97,7 @@ import { DetailedViewComponent } from './detailed-view/detailed-view.component';
             useClass: AuthInterceptor,
             multi: true,
         },
-        UserService
+        UserService,
     ],
     bootstrap: [AppComponent],
 })

@@ -44,6 +44,10 @@ export class QuickLinksComponent {
         this.router.navigate(['/files']);
     }
 
+    toDemo() {
+        //  this.router.navigate(['/demo']);
+    }
+
     toExit() {
         const dialogRef = this.dialog.open(ExitComponent, {
             panelClass: 'exit-overlay-pane-class',
