@@ -56,6 +56,11 @@ export class SpeechRecognitionDataService {
     //     this.dataChange.next(initialData);
     // }
 
+    clearData() {
+      this.dataChange.value.data = []; 
+      this.dataChange.next(this.dataChange.value);
+    }
+
     addOrUpdateNode(rootID: string, childID: string, childText: string) {
         // const nodes = this.data;
         let rootNode = this.findNode(rootID);

@@ -21,6 +21,7 @@ import { OptionsService } from './mangoose-service/services/options.service';
 //import { MongooseModule } from '@nestjs/mongoose';
 import { S3Controller } from './s3/s3.controller';
 import { GoogleDriveController } from './google-drive/google-drive.controller';
+import { S3ServersService } from './mangoose-service/services/s3servers.service';
 
 @Module({
   imports: [
@@ -55,6 +56,7 @@ import { GoogleDriveController } from './google-drive/google-drive.controller';
     EventsService,
     ActionService,
     OptionsService,
+    S3ServersService,
   ],
 })
 export class AppModule {}

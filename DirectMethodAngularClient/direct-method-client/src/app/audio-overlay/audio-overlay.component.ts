@@ -107,7 +107,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
 
     mediaRecorder!: MediaRecorder;
     //transcript = '';
-    tableRows: Array<{ text: string; value: string }> = [];
+    //tableRows: Array<{ text: string; value: string }> = [];
 
     lesson!: LessonComponent;
 
@@ -203,7 +203,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
                         text: transcript,
                         value: this.comparison_result_text,
                     };
-                    this.tableRows.unshift(newRow);
+                    //this.tableRows.unshift(newRow);
 
                     const rootID = `${this.lesson.part}/${this.lesson.lesson}/${this.lesson.selectedKey.itemId}/${this.lesson.selectedKey.subItemId}`;
                     srds.addOrUpdateNode(rootID, this.comparison_result_text, transcript);
@@ -935,6 +935,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
     }
 
     clearComparison() {
-        this.tableRows = [];
+        // this.tableRows = [];
+        this.srds.clearData();
     }
 }

@@ -1,4 +1,11 @@
-import { Controller, Get, Post, Request, UseGuards } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Query,
+  Request,
+  UseGuards,
+} from '@nestjs/common';
 import { AuthService, DirectUser, GoogleUser } from './auth.service';
 import { LocalAuthGuard } from './local-auth.guard';
 import { JwtAuthGuard } from './jwt-auth.guard';
@@ -91,6 +98,73 @@ export class AuthController {
         description: 'user is not entered',
         status: 'error',
       };
+    }
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('db/load_s3servers')
+  async deserializeS3servers(@Request() req) {
+    try {
+      const decodedToken = req.decodedToken;
+      const s3Servers = await this.dbService.loadS3Servers(decodedToken.userId);
+      return s3Servers;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('db/remove_s3server')
+  async removeS3Server(
+    @Request() req,
+    @Query('configurationName') configurationName: string,
+  ) {
+    try {
+      const decodedToken = req.decodedToken;
+      const s3Servers = await this.dbService.removeS3Servers(decodedToken.userId, configurationName);
+      return s3Servers;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('db/save_s3server')
+  async serializeS3server(
+    @Request() req,
+    @Query('configurationName') configurationName: string,
+    @Query('endpoint') endpoint: string,
+    @Query('bucketName') bucketName: string,
+    @Query('accessKey') accessKey: string,
+    @Query('secretKey') secretKey: string,
+    @Query('configXmlPath') configXmlPath: string,
+    @Query('language') language: string,
+  ) {
+    const decodedToken = req.decodedToken;
+    const userUniqId = decodedToken.userId;
+    const options = {
+      configurationName,
+      endpoint,
+      bucketName,
+      accessKey,
+      secretKey,
+      configXmlPath,
+      language,
+    };
+    const buffer = Buffer.from(JSON.stringify(options));
+    await this.dbService.saveS3Server(userUniqId, buffer);
+  }
+
+  @UseGuards(JwtAuthGuard)
+  @Post('db/delete_s3server')
+  async deleteS3server(@Request() req) {
+    try {
+      const decodedToken = req.decodedToken;
+      const id = req.body.id;
+      //const options = JSON.parse(buffer.toString());
+      //return options;
+    } catch (e) {
+      return null;
     }
   }
 

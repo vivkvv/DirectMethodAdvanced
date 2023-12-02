@@ -6,6 +6,16 @@ import {
     Part,
 } from 'src/app/DirectMethodCommonInterface/folderStructure';
 import { FilesService } from './files.service';
+import { firstValueFrom } from 'rxjs';
+
+interface S3Configuration {
+    endpoint: string;
+    bucketName: string;
+    accessKey: string;
+    secretKey: string;
+    configXmlPath: string;
+    language: string;
+}
 
 @Injectable({
     providedIn: 'root',
@@ -24,7 +34,86 @@ export class S3filesService {
     translations: { [key: string]: string } = {};
     //parts: Part[] = [];
 
-    constructor(private httpClient: HttpClient, private filesService: FilesService) {}
+    s3Configurations: { [key: string]: S3Configuration } = {};
+
+    constructor(
+        private httpClient: HttpClient,
+        private filesService: FilesService
+    ) {
+        this.updateAllS3Configurations();
+    }
+
+    async updateAllS3Configurations() {
+        try {
+            const response: any = await firstValueFrom(
+                this.httpClient.post('/api/db/load_s3servers', {})
+            );
+
+            this.s3Configurations = {};
+            for (const config of response) {
+                const {
+                    configurationName,
+                    endpoint,
+                    bucketName,
+                    accessKey,
+                    secretKey,
+                    configXmlPath,
+                    language,
+                } = config;
+                this.s3Configurations[configurationName] = {
+                    endpoint,
+                    bucketName,
+                    accessKey,
+                    secretKey,
+                    configXmlPath,
+                    language,
+                };
+            }
+        } catch (error) {
+            console.log(error);
+        } finally {
+        }
+    }
+
+    async removeConfiguration(configurationName: string) {
+        try {
+            const response: any = await firstValueFrom(
+                this.httpClient.post(
+                    `/api/db/remove_s3server?configurationName=${configurationName}`,
+                    {}
+                )
+            );
+
+            return response;
+        } catch (error) {
+            console.error(error);
+        } finally {
+        }
+    }
+
+    async addS3Configuration(
+        configurationName: string,
+        endpoint: string,
+        bucketName: string,
+        accessKey: string,
+        secretKey: string,
+        configXmlPath: string,
+        language: string
+    ) {
+        try {
+            const response: any = await firstValueFrom(
+                this.httpClient.post(
+                    `/api/db/save_s3server?configurationName=${configurationName}&endpoint=${endpoint}&bucketName=${bucketName}&accessKey=${accessKey}&secretKey=${secretKey}&configXmlPath=${configXmlPath}&language=${language}`,
+                    {}
+                )
+            );
+
+            return response;
+        } catch (error) {
+            console.error(error);
+        } finally {
+        }
+    }
 
     async gets3DetailedData(
         endpoint: string,
@@ -38,7 +127,7 @@ export class S3filesService {
             accessKey,
             secretKey,
             bucketName,
-            language
+            language,
         });
 
         try {
@@ -93,7 +182,7 @@ export class S3filesService {
         } //
     }
 
-    private async parseDetailed(response: any){
+    private async parseDetailed(response: any) {
         this.filesService.parts = response;
     }
 

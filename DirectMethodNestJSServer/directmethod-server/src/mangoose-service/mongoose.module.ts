@@ -5,6 +5,7 @@ import { User, UserSchema } from './models/user.model';
 import { Action, ActionSchema } from './models/actions.model';
 import { EventSchema } from './models/events.model';
 import { Option, OptionSchema } from './models/options.model';
+import { S3Servers, S3ServersSchema } from './models/s3servers.model';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { Option, OptionSchema } from './models/options.model';
       { name: Action.name, schema: ActionSchema },
       { name: Event.name, schema: EventSchema },
       { name: Option.name, schema: OptionSchema },
+      { name: S3Servers.name, schema: S3ServersSchema},
     ]),
   ],
   exports: [MongooseModule],

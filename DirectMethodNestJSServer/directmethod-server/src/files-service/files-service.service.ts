@@ -31,6 +31,8 @@ export class FilesService implements OnModuleInit {
   private allFolderParts: Part[];
 
   async onModuleInit() {
+    return;
+
     this.allFolderParts = this.getAllParts();
 
     admin.initializeApp({
