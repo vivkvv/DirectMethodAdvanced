@@ -35,7 +35,7 @@ export class OptionsPageComponent implements OnInit {
         this.tempModelKey = this.optionsService.options.activeModelName;
         this.selectedModelKey = this.optionsService.options.activeModelName;
         this.updateVoices();
-        this.updateSelectedModel();
+        this.updateSelectedModel(false);
 
         window.speechSynthesis.onvoiceschanged = () => {
             this.updateVoices();
@@ -119,10 +119,12 @@ export class OptionsPageComponent implements OnInit {
         return keys;
     }
 
-    updateSelectedModel() {
+    updateSelectedModel(ifSerialize: boolean) {
         this.tempModelKey = this.selectedModelKey;
         this.optionsService.options.activeModelName = this.selectedModelKey;
-        this.optionsService.serialize();
+        if (ifSerialize) {
+            this.optionsService.serialize();
+        }
     }
 
     private generateRandomString(length: number) {
@@ -144,12 +146,12 @@ export class OptionsPageComponent implements OnInit {
             newOption;
         this.selectedModelKey = randomName;
         this.optionsService.options.activeModelName = this.selectedModelKey;
-        this.updateSelectedModel();
+        this.updateSelectedModel(true);
 
         this.optionsService.serialize();
     }
 
-    closeDialog(){
+    closeDialog() {
         this.optionsDialog.close();
     }
 
@@ -180,7 +182,7 @@ export class OptionsPageComponent implements OnInit {
                 this.selectedModelKey = firstKey;
                 this.optionsService.options.activeModelName =
                     this.selectedModelKey;
-                this.updateSelectedModel();
+                this.updateSelectedModel(true);
 
                 this.optionsService.serialize();
             }

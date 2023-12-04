@@ -132,7 +132,7 @@
                 <select
                     class="w-full border border-black"
                     [(ngModel)]="selectedModelKey"
-                    (change)="updateSelectedModel()"
+                    (change)="updateSelectedModel(true)"
                 >
                     <option *ngFor="let key of getModelKeys()" [value]="key">
                         {{ key }}

@@ -8,7 +8,7 @@
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="2.433" duration="1.9">
+		<item id="0" start="2.3" duration="1.2">
 			<person>Teacher</person>
 			<text>future tense</text>
 			<image/>
@@ -29,21 +29,21 @@
 		</item>
 	</item>
 	<item id="4">
-		<item id="0" start="12.2" duration="3.867">
+		<item id="0" start="12.2" duration="3.6">
 			<person>Teacher</person>
 			<text>you will eat - you'll eat</text>
 			<image/>
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="16.067" duration="3.667">
+		<item id="0" start="15.9" duration="3.5">
 			<person>Teacher</person>
 			<text>he will eat - he'll eat</text>
 			<image/>
 		</item>
 	</item>
 	<item id="6">
-		<item id="0" start="19.767" duration="3.967">
+		<item id="0" start="19.6" duration="3.6">
 			<person>Teacher</person>
 			<text>she will eat - she'll eat</text>
 			<image/>
@@ -66,7 +66,7 @@
 	<item id="9">
 		<item id="0" start="31.4" duration="3.933">
 			<person>Teacher</person>
-			<text>you'll eat - you'll eat</text>
+			<text>you will eat - you'll eat</text>
 			<image/>
 		</item>
 	</item>
@@ -133,7 +133,7 @@
 			<text>What's the contraction of &quot;I will&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="67.867" duration="3.233">
+		<item id="1" start="67.7" duration="3.0">
 			<person>Student</person>
 			<text>The contraction of &quot;I will&quot; is &quot;I'll&quot;</text>
 			<image/>
@@ -145,7 +145,7 @@
 			<text>What's the contraction of &quot;you will&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="74.4" duration="3.1">
+		<item id="1" start="74.3" duration="3.0">
 			<person>Student</person>
 			<text>The contraction of &quot;you will&quot; is &quot;you'll&quot;</text>
 			<image/>
@@ -164,7 +164,7 @@
 		</item>
 	</item>
 	<item id="19">
-		<item id="0" start="90.667" duration="2.467">
+		<item id="0" start="90.5" duration="2.0">
 			<person>Teacher</person>
 			<text>in three months' time</text>
 			<image/>
@@ -183,7 +183,7 @@
 			<text>What's the opposite of &quot;three months ago&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="96.333" duration="5.833">
+		<item id="1" start="96.2" duration="5.6">
 			<person>Student</person>
 			<text>The opposite of &quot;three months ago&quot; is &quot;in three months' time&quot;</text>
 			<image/>
@@ -243,7 +243,7 @@
 			<text>Will he be here next lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="130.833" duration="2.933">
+		<item id="1" start="130.7" duration="2.6">
 			<person>Student</person>
 			<text>Yes, he'll be here next lesson</text>
 			<image/>
@@ -293,7 +293,7 @@
 		</item>
 	</item>
 	<item id="31">
-		<item id="0" start="154.633" duration="1.667">
+		<item id="0" start="154.5" duration="1.4">
 			<person>Teacher</person>
 			<text>stay</text>
 			<image/>
@@ -336,7 +336,7 @@
 			<text>What are the contractions of &quot;he will not&quot;, &quot;she will not&quot; etc.?</text>
 			<image/>
 		</item>
-		<item id="1" start="175.033" duration="8.133">
+		<item id="1" start="174.9" duration="8.0">
 			<person>Student</person>
 			<text>The contractions of &quot;he will not&quot;, &quot;she will not&quot; etc. are &quot;he won't&quot;, &quot;she won't&quot; etc.</text>
 			<image/>
@@ -348,7 +348,7 @@
 			<text>Will I go home in two minutes time?</text>
 			<image/>
 		</item>
-		<item id="1" start="186.433" duration="4.767">
+		<item id="1" start="186.3" duration="4.5">
 			<person>Student</person>
 			<text>No, you won't go home in two minutes time; you'll stay here</text>
 			<image/>
@@ -410,7 +410,7 @@
 		</item>
 	</item>
 	<item id="42">
-		<item id="0" start="225.767" duration="1.8">
+		<item id="0" start="225.6" duration="1.2">
 			<person>Teacher</person>
 			<text>suggestion</text>
 			<image/>
@@ -424,12 +424,12 @@
 		</item>
 	</item>
 	<item id="44">
-		<item id="0" start="227.6" duration="3.4">
+		<item id="0" start="227.5" duration="3.0">
 			<person>Teacher</person>
 			<text>When do we use &quot;shall&quot; instead of &quot;will&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="231.0" duration="5.3">
+		<item id="1" start="230.8" duration="5.0">
 			<person>Student</person>
 			<text>We use &quot;shall&quot; when we are making a suggestion with the pronoun &quot;I&quot; or &quot;we&quot;</text>
 			<image/>
@@ -441,7 +441,7 @@
 			<text>Give me some examples, please</text>
 			<image/>
 		</item>
-		<item id="1" start="238.933" duration="4.333">
+		<item id="1" start="238.8" duration="4.0">
 			<person>Student</person>
 			<text>Shall I open the window? Shall we go to the cinema?</text>
 			<image/>
@@ -460,7 +460,7 @@
 		</item>
 	</item>
 	<item id="47">
-		<item id="0" start="250.9" duration="2.6">
+		<item id="0" start="250.8" duration="2.0">
 			<person>Teacher</person>
 			<text>Give me some examples, please</text>
 			<image/>
@@ -505,12 +505,12 @@
 		</item>
 	</item>
 	<item id="52">
-		<item id="0" start="269.5" duration="4.6">
+		<item id="0" start="269.3" duration="4.0">
 			<person>Teacher</person>
 			<text>How many public holidays are there in your country each year?</text>
 			<image/>
 		</item>
-		<item id="1" start="274.133" duration="4.2">
+		<item id="1" start="274.0" duration="4.0">
 			<person>Student</person>
 			<text>There are eight public holidays in my country each year</text>
 			<image/>
@@ -586,7 +586,7 @@
 			<text>Do tigers kill other animals for food?</text>
 			<image/>
 		</item>
-		<item id="1" start="306.7" duration="3.7">
+		<item id="1" start="306.6" duration="3.1">
 			<person>Student</person>
 			<text>Yes, tigers kill other animals for food</text>
 			<image/>
