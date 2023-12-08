@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="365.033">
 	<item id="0">
-		<item id="0" start="0.2" duration="2.367">
+		<item id="0" start="0.1" duration="1.6">
 			<person>Teacher</person>
 			<text>Lesson 49</text>
 			<image/>
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="2.567" duration="1.933">
+		<item id="0" start="2.4" duration="1.3">
 			<person>Teacher</person>
 			<text>spoken</text>
 			<image/>
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="4.5" duration="1.5">
+		<item id="0" start="4.3" duration="1.0">
 			<person>Teacher</person>
 			<text>written</text>
 			<image/>
@@ -53,14 +53,14 @@
 		</item>
 	</item>
 	<item id="6">
-		<item id="0" start="27.067" duration="3.433">
+		<item id="0" start="27.0" duration="3.0">
 			<person>Teacher</person>
 			<text>tomorrow will - tomorrow'll</text>
 			<image/>
 		</item>
 	</item>
 	<item id="7">
-		<item id="0" start="30.5" duration="3.1">
+		<item id="0" start="30.3" duration="2.7">
 			<person>Teacher</person>
 			<text>light will - light'll</text>
 			<image/>
@@ -74,7 +74,7 @@
 		</item>
 	</item>
 	<item id="9">
-		<item id="0" start="37.667" duration="2.933">
+		<item id="0" start="37.5" duration="2.1">
 			<person>Teacher</person>
 			<text>who will - who'll</text>
 			<image/>
@@ -124,7 +124,7 @@
 			<text>the light will</text>
 			<image/>
 		</item>
-		<item id="1" start="56.233" duration="1.8">
+		<item id="1" start="56.1" duration="1.0">
 			<person>Student</person>
 			<text>the light'll</text>
 			<image/>
@@ -143,7 +143,7 @@
 		</item>
 	</item>
 	<item id="16">
-		<item id="0" start="61.9" duration="1.733">
+		<item id="0" start="61.8" duration="1.0">
 			<person>Teacher</person>
 			<text>who will</text>
 			<image/>
@@ -272,12 +272,12 @@
 		</item>
 	</item>
 	<item id="28">
-		<item id="0" start="128.0" duration="5.133">
+		<item id="0" start="128.0" duration="5.0">
 			<person>Teacher</person>
 			<text>Do you think it's easier to communicate in spoken or written English?</text>
 			<image/>
 		</item>
-		<item id="1" start="133.133" duration="3.867">
+		<item id="1" start="133.0" duration="3.2">
 			<person>Student</person>
 			<text>I think it's easier to communicate in spoken English</text>
 			<image/>
@@ -343,7 +343,7 @@
 		</item>
 	</item>
 	<item id="36">
-		<item id="0" start="160.467" duration="2.1">
+		<item id="0" start="160.3" duration="1.8">
 			<person>Teacher</person>
 			<text>Have you got a pen?</text>
 			<image/>
@@ -438,7 +438,7 @@
 		</item>
 	</item>
 	<item id="46">
-		<item id="0" start="215.6" duration="3.7">
+		<item id="0" start="215.5" duration="3.2">
 			<person>Teacher</person>
 			<text>Had I got any money in my hand last lesson?</text>
 			<image/>
@@ -519,14 +519,14 @@
 			<text>What's the difference between the noun &quot;practice&quot; and the verb &quot;practise&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="261.767" duration="8.4">
+		<item id="1" start="261.6" duration="8.2">
 			<person>Student</person>
 			<text>The difference between the noun &quot;practice&quot; and the verb &quot;practise&quot; is that we spell the noun with a &quot;c&quot; and we spell the verb with an &quot;s&quot;</text>
 			<image/>
 		</item>
 	</item>
 	<item id="55">
-		<item id="0" start="270.2" duration="1.933">
+		<item id="0" start="270.0" duration="1.3">
 			<person>Teacher</person>
 			<text>would like</text>
 			<image/>
@@ -581,7 +581,7 @@
 		</item>
 	</item>
 	<item id="60">
-		<item id="0" start="306.7" duration="1.7">
+		<item id="0" start="306.6" duration="1.1">
 			<person>Teacher</person>
 			<text>visit</text>
 			<image/>

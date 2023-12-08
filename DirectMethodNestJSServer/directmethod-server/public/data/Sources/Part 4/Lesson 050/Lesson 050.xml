@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="267.1">
 	<item id="0">
-		<item id="0" start="0.267" duration="2.0">
+		<item id="0" start="0.1" duration="1.2">
 			<person>Teacher</person>
 			<text>Lesson 50</text>
 			<image/>
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="2.433" duration="1.667">
+		<item id="0" start="2.3" duration="1.2">
 			<person>Teacher</person>
 			<text>therefore</text>
 			<image/>
@@ -96,12 +96,12 @@
 		</item>
 	</item>
 	<item id="10">
-		<item id="0" start="47.267" duration="4.967">
+		<item id="0" start="47.1" duration="4.6">
 			<person>Teacher</person>
 			<text>Is your house completely silent at night or can you hear street noise?</text>
 			<image/>
 		</item>
-		<item id="1" start="52.233" duration="1.967">
+		<item id="1" start="52.2" duration="2.3">
 			<person>Student</person>
 			<text>My house is completely silent at night</text>
 			<image/>
@@ -160,7 +160,7 @@
 			<text>Give me an example of each, please</text>
 			<image/>
 		</item>
-		<item id="1" start="77.3" duration="3.433">
+		<item id="1" start="77.1" duration="3.2">
 			<person>Student</person>
 			<text>&quot;a book&quot;; &quot;an apple&quot;</text>
 			<image/>
@@ -186,7 +186,7 @@
 		</item>
 	</item>
 	<item id="20">
-		<item id="0" start="86.067" duration="2.567">
+		<item id="0" start="85.9" duration="2.2">
 			<person>Teacher</person>
 			<text>Give me an example of “the“ /ði:/.</text>
 			<image/>
@@ -241,21 +241,21 @@
 			<text>Why?</text>
 			<image/>
 		</item>
-		<item id="1" start="114.267" duration="4.9">
+		<item id="1" start="114.0" duration="4.4">
 			<person>Student</person>
 			<text>Because the letter &quot;h&quot; in the word &quot;hour&quot; is silent</text>
 			<image/>
 		</item>
 	</item>
 	<item id="26">
-		<item id="0" start="119.2" duration="1.933">
+		<item id="0" start="119.1" duration="1.2">
 			<person>Teacher</person>
 			<text>succeed</text>
 			<image/>
 		</item>
 	</item>
 	<item id="27">
-		<item id="0" start="121.133" duration="1.733">
+		<item id="0" start="121.0" duration="1.2">
 			<person>Teacher</person>
 			<text>fail</text>
 			<image/>
@@ -362,7 +362,7 @@
 		</item>
 	</item>
 	<item id="38">
-		<item id="0" start="188.967" duration="3.333">
+		<item id="0" start="188.8" duration="3.0">
 			<person>Teacher</person>
 			<text>have to (equals must)</text>
 			<image/>
@@ -376,7 +376,7 @@
 		</item>
 	</item>
 	<item id="40">
-		<item id="0" start="192.3" duration="3.4">
+		<item id="0" start="192.1" duration="3.2">
 			<person>Teacher</person>
 			<text>What can we say instead of &quot;I must study&quot;?</text>
 			<image/>
@@ -426,7 +426,7 @@
 	<item id="44">
 		<item id="0" start="" duration="">
 			<Explanation>
-				<text>The negatives of “have to“ and “must“ have different meanings. “I don’t have to do it“means that I can do it if I want, but it is not necessary. “I mustn’t do it“ means that it is bad or wrong to do it.</text>
+				<text>The negatives of “have to“ and “must“ have different meanings. “I don’t have to do it“ means that I can do it if I want, but it is not necessary. “I mustn’t do it“ means that it is bad or wrong to do it.</text>
 			</Explanation>
 		</item>
 	</item>

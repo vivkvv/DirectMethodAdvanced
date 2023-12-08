@@ -436,7 +436,7 @@
 		</item>
 	</item>
 	<item id="45">
-		<item id="0" start="237.467" duration="1.667">
+		<item id="0" start="237.3" duration="1.1">
 			<person>Teacher</person>
 			<text>had</text>
 			<image/>
@@ -491,7 +491,7 @@
 			<text>What did she have for her breakfast this morning?</text>
 			<image/>
 		</item>
-		<item id="1" start="263.433" duration="4.9">
+		<item id="1" start="263.3" duration="4.5">
 			<person>Student</person>
 			<text>She had some coffee, some bread, etc. for her breakfast this morning</text>
 			<image/>
@@ -672,7 +672,7 @@
 			<text>Did you eat a lot of sweets when you were a child?</text>
 			<image/>
 		</item>
-		<item id="1" start="359.3" duration="5.6">
+		<item id="1" start="359.3" duration="4.0">
 			<person>Student</person>
 			<text>No, I didn't eat a lot of sweets when I was a child</text>
 			<image/>
