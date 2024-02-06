@@ -46,7 +46,7 @@
 			<text>What are the contractions of &quot;you would&quot;, &quot;he would&quot;, &quot;she would&quot; etc.?</text>
 			<image/>
 		</item>
-		<item id="1" start="19.9" duration="11.167">
+		<item id="1" start="19.8" duration="11.0">
 			<person>Student</person>
 			<text>The contractions of &quot;you would&quot;, &quot;he would&quot;, &quot;she would&quot; etc. are &quot;you'd&quot;, &quot;he'd&quot;, &quot;she'd&quot;, &quot;it'd&quot;, &quot;we'd&quot;, &quot;you'd&quot;, &quot;they'd&quot;.</text>
 			<image/>
@@ -60,12 +60,12 @@
 		</item>
 	</item>
 	<item id="7">
-		<item id="0" start="31.067" duration="4.633">
+		<item id="0" start="30.9" duration="4.3">
 			<person>Teacher</person>
 			<text>If you went to the cinema this evening, which film would you see?</text>
 			<image/>
 		</item>
-		<item id="1" start="35.7" duration="4.8">
+		<item id="1" start="35.6" duration="4.2">
 			<person>Student</person>
 			<text>If I went to the cinema this evening, I'd see &quot;The Artist&quot;.</text>
 			<image/>
@@ -122,12 +122,12 @@
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="66.833" duration="6.0">
+		<item id="0" start="66.8" duration="5.8">
 			<person>Teacher</person>
 			<text>lesson would; who would; what would; which would</text>
 			<image/>
 		</item>
-		<item id="1" start="72.833" duration="4.3">
+		<item id="1" start="72.7" duration="4.0">
 			<person>Student</person>
 			<text>lesson'd; who'd; what'd; which'd</text>
 			<image/>
@@ -208,7 +208,7 @@
 		</item>
 	</item>
 	<item id="21">
-		<item id="0" start="128.667" duration="1.867">
+		<item id="0" start="128.5" duration="1.2">
 			<person>Teacher</person>
 			<text>fault</text>
 			<image/>
@@ -229,7 +229,7 @@
 		</item>
 	</item>
 	<item id="24">
-		<item id="0" start="134.4" duration="1.5">
+		<item id="0" start="134.3" duration="1.1">
 			<person>Teacher</person>
 			<text>fix</text>
 			<image/>
@@ -331,7 +331,7 @@
 		</item>
 	</item>
 	<item id="35">
-		<item id="0" start="191.0" duration="2.5">
+		<item id="0" start="190.9" duration="2.0">
 			<person>Teacher</person>
 			<text>have something in common</text>
 			<image/>
@@ -374,7 +374,7 @@
 		</item>
 	</item>
 	<item id="39">
-		<item id="0" start="221.7" duration="1.433">
+		<item id="0" start="221.6" duration="1.0">
 			<person>Teacher</person>
 			<text>ice</text>
 			<image/>
@@ -412,14 +412,14 @@
 			<text>What am I doing?</text>
 			<image/>
 		</item>
-		<item id="1" start="235.267" duration="4.3">
+		<item id="1" start="235.2" duration="4.1">
 			<person>Student</person>
 			<text>You're pouring some water from a bottle into a glass.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="44">
-		<item id="0" start="239.567" duration="1.667">
+		<item id="0" start="239.4" duration="1.2">
 			<person>Teacher</person>
 			<text>unite</text>
 			<image/>
@@ -464,7 +464,7 @@
 			<text>Give me a sentence with &quot;even&quot; in it.</text>
 			<image/>
 		</item>
-		<item id="1" start="257.733" duration="13.8">
+		<item id="1" start="257.6" duration="13.5">
 			<person>Student</person>
 			<text>She speaks Russian, German, French and even Chinese. He was very impolite. He didn't even say &quot;hello&quot;. It's very simple. Even a child could understand it.</text>
 			<image/>
@@ -478,7 +478,7 @@
 		</item>
 	</item>
 	<item id="51">
-		<item id="0" start="273.367" duration="1.633">
+		<item id="0" start="273.2" duration="1.1">
 			<person>Teacher</person>
 			<text>mixture</text>
 			<image/>
@@ -549,7 +549,7 @@
 		</item>
 	</item>
 	<item id="59">
-		<item id="0" start="312.3" duration="3.167">
+		<item id="0" start="312.2" duration="3.0">
 			<person>Teacher</person>
 			<text>Who cared for you when you were a child?</text>
 			<image/>
@@ -575,7 +575,7 @@
 	<item id="61">
 		<item id="0" start="326.9" duration="3.2">
 			<person>Teacher</person>
-			<text>Do you take a good care of your health?</text>
+			<text>Do you take good care of your health?</text>
 			<image/>
 		</item>
 		<item id="1" start="330.1" duration="3.267">
@@ -604,14 +604,14 @@
 		</item>
 	</item>
 	<item id="64">
-		<item id="0" start="343.2" duration="2.233">
+		<item id="0" start="343.2" duration="1.7">
 			<person>Teacher</person>
 			<text>keep an appointment</text>
 			<image/>
 		</item>
 	</item>
 	<item id="65">
-		<item id="0" start="345.433" duration="1.467">
+		<item id="0" start="345.3" duration="1.0">
 			<person>Teacher</person>
 			<text>hurry</text>
 			<image/>
@@ -625,7 +625,7 @@
 		</item>
 	</item>
 	<item id="67">
-		<item id="0" start="349.0" duration="5.1">
+		<item id="0" start="348.9" duration="4.8">
 			<person>Teacher</person>
 			<text>If you were late for a very important appointment, would you take your time?</text>
 			<image/>
@@ -666,7 +666,7 @@
 			<text>Would you take your time going home if somebody told you your house was on fire?</text>
 			<image/>
 		</item>
-		<item id="1" start="380.367" duration="6.1">
+		<item id="1" start="380.2" duration="5.9">
 			<person>Student</person>
 			<text>No, I wouldn't take my time going home if somebody told me my house was on fire; I'd hurry.</text>
 			<image/>

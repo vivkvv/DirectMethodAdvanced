@@ -22,14 +22,14 @@
 		</item>
 	</item>
 	<item id="3">
-		<item id="0" start="6.333" duration="1.667">
+		<item id="0" start="6.2" duration="1.0">
 			<person>Teacher</person>
 			<text>soon</text>
 			<image/>
 		</item>
 	</item>
 	<item id="4">
-		<item id="0" start="8.0" duration="1.567">
+		<item id="0" start="7.9" duration="1.0">
 			<person>Teacher</person>
 			<text>happen</text>
 			<image/>
@@ -91,7 +91,7 @@
 			<text>Tell me another use of &quot;to be going to&quot;.</text>
 			<image/>
 		</item>
-		<item id="1" start="36.167" duration="4.967">
+		<item id="1" start="36.0" duration="4.6">
 			<person>Student</person>
 			<text>Another use of &quot;to be going to&quot; is to speak about our future intentions.</text>
 			<image/>
@@ -103,31 +103,31 @@
 			<text>What are you going to do after the lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="44.267" duration="5.667">
+		<item id="1" start="44.1" duration="5.2">
 			<person>Student</person>
 			<text>I'm going to go to work, go home, have lunch, etc. after the lesson</text>
 			<image/>
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="49.967" duration="3.4">
+		<item id="0" start="49.8" duration="3.0">
 			<person>Teacher</person>
 			<text>Are you going to watch television this evening?</text>
 			<image/>
 		</item>
-		<item id="1" start="53.367" duration="3.433">
+		<item id="1" start="53.2" duration="3.0">
 			<person>Student</person>
 			<text>No, I'm not going to watch television this evening.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="56.833" duration="3.4">
+		<item id="0" start="56.8" duration="3.0">
 			<person>Teacher</person>
 			<text>What are you going to have for your dinner this evening?</text>
 			<image/>
 		</item>
-		<item id="1" start="60.267" duration="4.333">
+		<item id="1" start="60.1" duration="4.0">
 			<person>Student</person>
 			<text>I'm going to have some rice and vegetables for my dinner this evening.</text>
 			<image/>
@@ -208,7 +208,7 @@
 		</item>
 	</item>
 	<item id="21">
-		<item id="0" start="104.7" duration="1.433">
+		<item id="0" start="104.6" duration="1.0">
 			<person>Teacher</person>
 			<text>hole</text>
 			<image/>
@@ -227,7 +227,7 @@
 			<text>What's this?</text>
 			<image/>
 		</item>
-		<item id="1" start="109.6" duration="1.8">
+		<item id="1" start="109.5" duration="1.0">
 			<person>Student</person>
 			<text>It's a hole.</text>
 			<image/>
@@ -308,14 +308,14 @@
 			<text>What's another word for intelligent?</text>
 			<image/>
 		</item>
-		<item id="1" start="148.433" duration="3.233">
+		<item id="1" start="148.3" duration="3.0">
 			<person>Student</person>
 			<text>Another word for intelligent is clever.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="32">
-		<item id="0" start="151.7" duration="1.833">
+		<item id="0" start="151.5" duration="1.0">
 			<person>Teacher</person>
 			<text>against</text>
 			<image/>
@@ -327,14 +327,14 @@
 			<text>What am I doing?</text>
 			<image/>
 		</item>
-		<item id="1" start="155.467" duration="2.8">
+		<item id="1" start="155.3" duration="2.0">
 			<person>Student</person>
 			<text>You're pushing against the table.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="34">
-		<item id="0" start="158.267" duration="3.6">
+		<item id="0" start="158.1" duration="3.2">
 			<person>Teacher</person>
 			<text>Who does this country play football against?</text>
 			<image/>
@@ -377,14 +377,14 @@
 		</item>
 	</item>
 	<item id="38">
-		<item id="0" start="180.6" duration="1.5">
+		<item id="0" start="180.6" duration="1.0">
 			<person>Teacher</person>
 			<text>gone</text>
 			<image/>
 		</item>
 	</item>
 	<item id="39">
-		<item id="0" start="182.1" duration="1.733">
+		<item id="0" start="181.9" duration="1.0">
 			<person>Teacher</person>
 			<text>return</text>
 			<image/>
@@ -398,7 +398,7 @@
 		</item>
 	</item>
 	<item id="41">
-		<item id="0" start="183.867" duration="1.5">
+		<item id="0" start="183.7" duration="1.0">
 			<person>Teacher</person>
 			<text>visit</text>
 			<image/>
@@ -410,7 +410,7 @@
 			<text>What's the past participle of the verb &quot;to go&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="188.933" duration="3.667">
+		<item id="1" start="188.8" duration="3.0">
 			<person>Student</person>
 			<text>The past participle of the verb &quot;to go&quot; is &quot;gone&quot;.</text>
 			<image/>
@@ -465,19 +465,19 @@
 		</item>
 		<item id="1" start="228.567" duration="9.467">
 			<person>Student</person>
-			<text>We can say &quot;Mr. Brown has gone to Scotland&quot;, but not &quot;I have gone to Scotland&quot; because &quot;I have gone to Scotland&quot; means I am not here now, which is impossible.</text>
+			<text>I can say &quot;Mr. Brown has gone to Scotland&quot;, but not &quot;I have gone to Scotland&quot; because &quot;I have gone to Scotland&quot; means I am not here now, which is impossible.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="48">
-		<item id="0" start="238.067" duration="1.633">
+		<item id="0" start="238.0" duration="1.0">
 			<person>Teacher</person>
 			<text>bird</text>
 			<image/>
 		</item>
 	</item>
 	<item id="49">
-		<item id="0" start="239.7" duration="1.633">
+		<item id="0" start="239.5" duration="1.0">
 			<person>Teacher</person>
 			<text>fly</text>
 			<image/>
@@ -520,7 +520,7 @@
 			<text>Can a bird fly quicker than a plane?</text>
 			<image/>
 		</item>
-		<item id="1" start="265.4" duration="5.2">
+		<item id="1" start="265.3" duration="4.8">
 			<person>Student</person>
 			<text>No, a bird can't fly quicker than a plane; it flies slower than a plane.</text>
 			<image/>
@@ -539,7 +539,7 @@
 		</item>
 	</item>
 	<item id="55">
-		<item id="0" start="276.7" duration="2.9">
+		<item id="0" start="276.6" duration="2.2">
 			<person>Teacher</person>
 			<text>Have you ever dreamt you could fly?</text>
 			<image/>

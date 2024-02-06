@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="277.0">
 	<item id="0">
-		<item id="0" start="0.3" duration="2.133">
+		<item id="0" start="0.2" duration="1.6">
 			<person>Teacher</person>
 			<text>Lesson 51</text>
 			<image/>
@@ -22,21 +22,21 @@
 		</item>
 	</item>
 	<item id="3">
-		<item id="0" start="5.8" duration="1.767">
+		<item id="0" start="5.6" duration="1.0">
 			<person>Teacher</person>
 			<text>sleeper</text>
 			<image/>
 		</item>
 	</item>
 	<item id="4">
-		<item id="0" start="7.567" duration="1.7">
+		<item id="0" start="7.567" duration="1.0">
 			<person>Teacher</person>
 			<text>writer</text>
 			<image/>
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="9.267" duration="1.8">
+		<item id="0" start="9.1" duration="1.0">
 			<person>Teacher</person>
 			<text>speaker</text>
 			<image/>
@@ -50,7 +50,7 @@
 		</item>
 	</item>
 	<item id="7">
-		<item id="0" start="11.067" duration="3.233">
+		<item id="0" start="11.0" duration="2.8">
 			<person>Teacher</person>
 			<text>How do we sometimes form a noun from a verb?</text>
 			<image/>
@@ -67,14 +67,14 @@
 			<text>Give me some examples, please</text>
 			<image/>
 		</item>
-		<item id="1" start="22.667" duration="8.067">
+		<item id="1" start="22.5" duration="8.0">
 			<person>Student</person>
 			<text>eat - eater; walk - walker; speak - speaker</text>
 			<image/>
 		</item>
 	</item>
 	<item id="9">
-		<item id="0" start="30.733" duration="2.267">
+		<item id="0" start="30.6" duration="1.5">
 			<person>Teacher</person>
 			<text>Are you a hard worker?</text>
 			<image/>
@@ -91,14 +91,14 @@
 			<text>Are you a complete beginner in English?</text>
 			<image/>
 		</item>
-		<item id="1" start="38.6" duration="5.167">
+		<item id="1" start="38.5" duration="4.8">
 			<person>Student</person>
 			<text>No, I'm not a complete beginner in English; I began a few months ago</text>
 			<image/>
 		</item>
 	</item>
 	<item id="11">
-		<item id="0" start="43.8" duration="2.133">
+		<item id="0" start="43.7" duration="1.6">
 			<person>Teacher</person>
 			<text>Are you a heavy sleeper?</text>
 			<image/>
@@ -110,7 +110,7 @@
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="48.667" duration="2.367">
+		<item id="0" start="48.5" duration="1.7">
 			<person>Teacher</person>
 			<text>Who's your favorite writer?</text>
 			<image/>
@@ -122,7 +122,7 @@
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="54.233" duration="1.4">
+		<item id="0" start="54.1" duration="0.8">
 			<person>Teacher</person>
 			<text>hope</text>
 			<image/>
@@ -134,19 +134,19 @@
 			<text>Do you hope you'll live a very long time?</text>
 			<image/>
 		</item>
-		<item id="1" start="58.7" duration="2.367">
+		<item id="1" start="58.7" duration="2.6">
 			<person>Student</person>
 			<text>Yes, I hope I'll live a very long time</text>
 			<image/>
 		</item>
 	</item>
 	<item id="15">
-		<item id="0" start="61.1" duration="6.067">
+		<item id="0" start="61.3" duration="5.0">
 			<person>Teacher</person>
 			<text>Do you think it's important to be positive about life and full of hope for the future?</text>
 			<image/>
 		</item>
-		<item id="1" start="67.167" duration="5.4">
+		<item id="1" start="67.0" duration="5.0">
 			<person>Student</person>
 			<text>Yes, I think it's important to be positive about life and full of hope for the future</text>
 			<image/>
@@ -378,7 +378,7 @@
 		</item>
 	</item>
 	<item id="41">
-		<item id="0" start="202.067" duration="4.8">
+		<item id="0" start="201.9" duration="4.8">
 			<person>Teacher</person>
 			<text>see - saw - seen</text>
 			<image/>
@@ -429,12 +429,12 @@
 		</item>
 	</item>
 	<item id="47">
-		<item id="0" start="229.0" duration="2.6">
+		<item id="0" start="229.0" duration="1.6">
 			<person>Teacher</person>
 			<text>Give me an example, please</text>
 			<image/>
 		</item>
-		<item id="1" start="231.6" duration="10.533">
+		<item id="1" start="231.4" duration="10.4">
 			<person>Student</person>
 			<text>see - saw - seen: I see him every week; I saw him last week; I have seen him this week</text>
 			<image/>
@@ -489,7 +489,7 @@
 			<text>What are the three forms of &quot;give&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="269.367" duration="7.6">
+		<item id="1" start="269.3" duration="5.0">
 			<person>Student</person>
 			<text>The three forms of &quot;give&quot; are &quot;give&quot;, &quot;gave&quot;, &quot;given&quot;</text>
 			<image/>

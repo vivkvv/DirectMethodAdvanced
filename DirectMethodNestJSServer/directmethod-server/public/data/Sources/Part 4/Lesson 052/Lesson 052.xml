@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="295.033">
 	<item id="0">
-		<item id="0" start="0.3" duration="2.3">
+		<item id="0" start="0.2" duration="1.8">
 			<person>Teacher</person>
 			<text>Lesson 52</text>
 			<image/>
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="2.6" duration="1.5">
+		<item id="0" start="2.5" duration="1.0">
 			<person>Teacher</person>
 			<text>cat</text>
 			<image/>
@@ -41,7 +41,7 @@
 			<text>Which do you prefer: cats or dogs?</text>
 			<image/>
 		</item>
-		<item id="1" start="12.8" duration="3.3">
+		<item id="1" start="12.7" duration="3.0">
 			<person>Student</person>
 			<text>I prefer dogs to cats</text>
 			<image/>
@@ -103,7 +103,7 @@
 			<text>Can a fire destroy a building?</text>
 			<image/>
 		</item>
-		<item id="1" start="54.367" duration="3.267">
+		<item id="1" start="54.2" duration="3.0">
 			<person>Student</person>
 			<text>Yes, a fire can destroy a building</text>
 			<image/>
@@ -117,7 +117,7 @@
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="59.167" duration="1.933">
+		<item id="0" start="59.0" duration="1.2">
 			<person>Teacher</person>
 			<text>Scotland</text>
 			<image/>
@@ -155,7 +155,7 @@
 		</item>
 	</item>
 	<item id="17">
-		<item id="0" start="75.933" duration="3.033">
+		<item id="0" start="75.8" duration="2.8">
 			<person>Teacher</person>
 			<text>Have you ever been to Scotland?</text>
 			<image/>
@@ -193,14 +193,14 @@
 		</item>
 	</item>
 	<item id="21">
-		<item id="0" start="92.1" duration="1.767">
+		<item id="0" start="92.0" duration="1.2">
 			<person>Teacher</person>
 			<text>innocent</text>
 			<image/>
 		</item>
 	</item>
 	<item id="22">
-		<item id="0" start="93.867" duration="2.0">
+		<item id="0" start="93.6" duration="1.7">
 			<person>Teacher</person>
 			<text>against the law</text>
 			<image/>
@@ -212,7 +212,7 @@
 			<text>What's a crime?</text>
 			<image/>
 		</item>
-		<item id="1" start="97.833" duration="3.7">
+		<item id="1" start="97.7" duration="3.0">
 			<person>Student</person>
 			<text>A crime is an action which is against the law</text>
 			<image/>
@@ -274,7 +274,7 @@
 		</item>
 	</item>
 	<item id="29">
-		<item id="0" start="137.0" duration="4.4">
+		<item id="0" start="136.8" duration="4.2">
 			<person>Teacher</person>
 			<text>&quot;have&quot; + past participle (third form)</text>
 			<image/>
@@ -316,7 +316,7 @@
 		</item>
 	</item>
 	<item id="34">
-		<item id="0" start="155.4" duration="2.833">
+		<item id="0" start="155.3" duration="2.2">
 			<person>Teacher</person>
 			<text>Have you eaten Spanish food?</text>
 			<image/>
@@ -328,7 +328,7 @@
 		</item>
 	</item>
 	<item id="35">
-		<item id="0" start="161.267" duration="2.5">
+		<item id="0" start="161.1" duration="2.0">
 			<person>Teacher</person>
 			<text>Have you visited Paris?</text>
 			<image/>
@@ -340,7 +340,7 @@
 		</item>
 	</item>
 	<item id="36">
-		<item id="0" start="166.633" duration="2.733">
+		<item id="0" start="166.5" duration="2.2">
 			<person>Teacher</person>
 			<text>Have you ever worked on a farm?</text>
 			<image/>
@@ -352,7 +352,7 @@
 		</item>
 	</item>
 	<item id="37">
-		<item id="0" start="172.1" duration="1.6">
+		<item id="0" start="172.0" duration="1.2">
 			<person>Teacher</person>
 			<text>for</text>
 			<image/>
@@ -385,7 +385,7 @@
 		</item>
 	</item>
 	<item id="41">
-		<item id="0" start="188.267" duration="3.067">
+		<item id="0" start="188.1" duration="2.7">
 			<person>Teacher</person>
 			<text>How long have you lived in this city?</text>
 			<image/>
@@ -428,7 +428,7 @@
 		</item>
 	</item>
 	<item id="45">
-		<item id="0" start="215.167" duration="2.933">
+		<item id="0" start="215.0" duration="2.3">
 			<person>Teacher</person>
 			<text>Have you eaten too much today?</text>
 			<image/>
@@ -440,7 +440,7 @@
 		</item>
 	</item>
 	<item id="46">
-		<item id="0" start="221.167" duration="3.4">
+		<item id="0" start="221.0" duration="3.1">
 			<person>Teacher</person>
 			<text>Has everybody come to the lesson today?</text>
 			<image/>
@@ -521,14 +521,14 @@
 			<text>Are you too short to touch the ceiling?</text>
 			<image/>
 		</item>
-		<item id="1" start="266.733" duration="2.233">
+		<item id="1" start="266.6" duration="2.7">
 			<person>Student</person>
 			<text>Yes, I'm too short to touch the ceiling</text>
 			<image/>
 		</item>
 	</item>
 	<item id="55">
-		<item id="0" start="269.0" duration="5.133">
+		<item id="0" start="269.5" duration="4.0">
 			<person>Teacher</person>
 			<text>Do you think a millionaire has too much money?</text>
 			<image/>

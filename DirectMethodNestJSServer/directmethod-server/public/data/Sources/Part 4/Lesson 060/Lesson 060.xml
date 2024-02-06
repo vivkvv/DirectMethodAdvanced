@@ -34,21 +34,21 @@
 			<text>Is it probable that it will snow next summer?</text>
 			<image/>
 		</item>
-		<item id="1" start="10.1" duration="5.5">
+		<item id="1" start="10.0" duration="5.5">
 			<person>Student</person>
-			<text>No, it is improbable that it was snow next summer; it's very improbable.</text>
+			<text>No, it isn't probable that it was snow next summer; it's very improbable.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="15.6" duration="4.1">
+		<item id="0" start="15.5" duration="4.1">
 			<person>Teacher</person>
-			<text>Are you probably going to finish all of the stages of the Kallan method?</text>
+			<text>Are you probably going to finish all of the stages of the Callan method?</text>
 			<image/>
 		</item>
 		<item id="1" start="19.7" duration="5.633">
 			<person>Student</person>
-			<text>Yes, I'm probably going to finish all of the stages of the Kallan method.</text>
+			<text>Yes, I'm probably going to finish all of the stages of the Callan method.</text>
 			<image/>
 		</item>
 	</item>
@@ -95,7 +95,7 @@
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="36.167" duration="2.067">
+		<item id="0" start="36.0" duration="1.6">
 			<person>Teacher</person>
 			<text>1st conditional</text>
 			<image/>
@@ -130,7 +130,7 @@
 		</item>
 	</item>
 	<item id="17">
-		<item id="0" start="50.767" duration="6.567">
+		<item id="0" start="50.6" duration="6.5">
 			<person>Teacher</person>
 			<text>&quot;if&quot; + past + &quot;would do&quot; = only imagining</text>
 			<image/>
@@ -196,7 +196,7 @@
 			<text>Give me an example, please.</text>
 			<image/>
 		</item>
-		<item id="1" start="85.633" duration="8.233">
+		<item id="1" start="85.5" duration="8.2">
 			<person>Student</person>
 			<text>If she went to the North Pole, she would feel very cold. If they were stronger, they would be able to lift the table.</text>
 			<image/>
@@ -244,7 +244,7 @@
 			<text>If you stopped studying, would your English get better?</text>
 			<image/>
 		</item>
-		<item id="1" start="122.767" duration="5.8">
+		<item id="1" start="122.6" duration="5.6">
 			<person>Student</person>
 			<text>No, if I stopped studying, my English wouldn't get better; it would get worse.</text>
 			<image/>
@@ -268,7 +268,7 @@
 			<text>If you came here next Sunday, would you be able to have a lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="140.733" duration="5.033">
+		<item id="1" start="140.6" duration="5.0">
 			<person>Student</person>
 			<text>No, if I came here next Sunday, I wouldn't be able to have a lesson.</text>
 			<image/>
@@ -299,12 +299,12 @@
 		</item>
 	</item>
 	<item id="32">
-		<item id="0" start="163.0" duration="3.667">
+		<item id="0" start="162.9" duration="3.6">
 			<person>Teacher</person>
 			<text>If you go on holiday next year, where will you go?</text>
 			<image/>
 		</item>
-		<item id="1" start="166.7" duration="4.067">
+		<item id="1" start="166.6" duration="4.0">
 			<person>Student</person>
 			<text>If I go on holiday next year, I will go to Portugal.</text>
 			<image/>
@@ -328,7 +328,7 @@
 			<text>If you sent a letter and forgot to put the address on it, would it arrive?</text>
 			<image/>
 		</item>
-		<item id="1" start="187.567" duration="5.9">
+		<item id="1" start="187.4" duration="5.7">
 			<person>Student</person>
 			<text>No, if I send a letter and forgot to put the address on it, it wouldn't arrive.</text>
 			<image/>

@@ -115,12 +115,12 @@
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="63.967" duration="5.067">
+		<item id="0" start="63.8" duration="4.7">
 			<person>Teacher</person>
 			<text>Would you be afraid to go around the world in a small open boat?</text>
 			<image/>
 		</item>
-		<item id="1" start="69.033" duration="5.233">
+		<item id="1" start="68.9" duration="5.0">
 			<person>Student</person>
 			<text>Yes, I would be afraid to go round the world in a small open boat.</text>
 			<image/>
@@ -132,7 +132,7 @@
 			<text>Do people shake when they feel very afraid?</text>
 			<image/>
 		</item>
-		<item id="1" start="78.1" duration="4.0">
+		<item id="1" start="78.0" duration="3.8">
 			<person>Student</person>
 			<text>Yes, people shake when they feel very afraid.</text>
 			<image/>
@@ -165,14 +165,14 @@
 			<text>What's the best way to guard against becoming ill?</text>
 			<image/>
 		</item>
-		<item id="1" start="91.6" duration="6.533">
+		<item id="1" start="91.5" duration="6.3">
 			<person>Student</person>
 			<text>The best way to guard against becoming ill is to eat healthy food, sleep well, and do exercise.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="18">
-		<item id="0" start="98.167" duration="6.033">
+		<item id="0" start="98.0" duration="5.9">
 			<person>Teacher</person>
 			<text>Must we be on our guard when we buy something from a man selling things in the street?</text>
 			<image/>
@@ -227,7 +227,7 @@
 			<text>What's the best way to calm somebody down when he's very angry?</text>
 			<image/>
 		</item>
-		<item id="1" start="133.333" duration="6.933">
+		<item id="1" start="133.2" duration="6.7">
 			<person>Student</person>
 			<text>The best way to calm somebody down when he's very angry is to speak quietly and pleasantly to him.</text>
 			<image/>
@@ -279,19 +279,19 @@
 			<text>What are the two ways of forming the second conditional with the verb &quot;to be&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="161.967" duration="7.3">
+		<item id="1" start="161.8" duration="7.0">
 			<person>Student</person>
 			<text>The two ways of forming the second conditional with the verb &quot;to be&quot; are &quot;if I was&quot; and &quot;if I were&quot;.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="30">
-		<item id="0" start="169.3" duration="3.767">
+		<item id="0" start="169.2" duration="3.3">
 			<person>Teacher</person>
 			<text>If you were a millionaire, where would you live?</text>
 			<image/>
 		</item>
-		<item id="1" start="173.067" duration="3.8">
+		<item id="1" start="172.9" duration="3.3">
 			<person>Student</person>
 			<text>If I were a millionaire, I would live in Hawaii.</text>
 			<image/>
@@ -334,7 +334,7 @@
 		</item>
 	</item>
 	<item id="34">
-		<item id="0" start="196.4" duration="5.967">
+		<item id="0" start="196.3" duration="5.6">
 			<person>Teacher</person>
 			<text>If there wasn't a light in this room, would we be able to see well when it got dark?</text>
 			<image/>
@@ -363,7 +363,7 @@
 			<text>If you weren't you, who would you like to be?</text>
 			<image/>
 		</item>
-		<item id="1" start="223.2" duration="3.833">
+		<item id="1" start="223.1" duration="3.3">
 			<person>Student</person>
 			<text>If I weren't me, I would like to be George Clooney.</text>
 			<image/>
@@ -403,7 +403,7 @@
 		</item>
 	</item>
 	<item id="41">
-		<item id="0" start="237.867" duration="1.833">
+		<item id="0" start="237.7" duration="1.3">
 			<person>Teacher</person>
 			<text>especially</text>
 			<image/>
@@ -496,7 +496,7 @@
 			<text>What are the three forms of &quot;win&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="291.8" duration="4.667">
+		<item id="1" start="291.7" duration="4.5">
 			<person>Student</person>
 			<text>The three forms of &quot;win&quot; are &quot;win, won, won&quot;.</text>
 			<image/>
@@ -508,7 +508,7 @@
 			<text>Does your country usually win at football?</text>
 			<image/>
 		</item>
-		<item id="1" start="300.133" duration="5.367">
+		<item id="1" start="300.0" duration="5.0">
 			<person>Student</person>
 			<text>No, my country doesn't usually win at football; it usually loses.</text>
 			<image/>
@@ -527,12 +527,12 @@
 		</item>
 	</item>
 	<item id="53">
-		<item id="0" start="310.267" duration="2.133">
+		<item id="0" start="310.1" duration="1.5">
 			<person>Teacher</person>
 			<text>Have you ever won?</text>
 			<image/>
 		</item>
-		<item id="1" start="312.433" duration="2.767">
+		<item id="1" start="312.3" duration="2.0">
 			<person>Student</person>
 			<text>No, I've never won.</text>
 			<image/>
@@ -641,7 +641,7 @@
 	<item id="64">
 		<item id="0" start="" duration="">
 			<Dictation>
-				<text>Dictation 38\nIn the struggle, the enemy were surrounded at great speed and were taken by surprise without their swords in their hands.\nI won’t buy him a newspaper again.\nFetch me the salad bowl, please.\nHe is sorry that he sold his old house, which was in a quiet road.\nThe house he has now is in a very noisy street, and so he must try/ and find another, if possible.</text>
+				<text>Dictation 38\nIn the struggle, the enemy were surrounded at great speed and were taken by surprise without their swords in their hands.\nI won’t buy him a newspaper again.\nFetch me the salad bowl, please.\nHe is sorry that he sold his old house, which was in a quiet road.\nThe house he has now is in a very noisy street, and so he must try and find another, if possible.</text>
 			</Dictation>
 		</item>
 	</item>

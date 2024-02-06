@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="475.1">
 	<item id="0">
-		<item id="0" start="0.267" duration="2.267">
+		<item id="0" start="0.1" duration="1.7">
 			<person>Teacher</person>
 			<text>Lesson 61</text>
 			<image/>
@@ -39,40 +39,40 @@
 			<text>Why?</text>
 			<image/>
 		</item>
-		<item id="1" start="14.933" duration="2.4">
+		<item id="1" start="14.9" duration="2.0">
 			<person>Student</person>
 			<text>Because I can see them.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="17.333" duration="3.6">
+		<item id="0" start="17.2" duration="3.0">
 			<person>Teacher</person>
 			<text>How often do you go online to look at your email?</text>
 			<image/>
 		</item>
-		<item id="1" start="20.967" duration="4.267">
+		<item id="1" start="20.9" duration="4.0">
 			<person>Student</person>
 			<text>I go online a few times a day to look at my email.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="6">
-		<item id="0" start="25.233" duration="1.6">
+		<item id="0" start="25.1" duration="1.0">
 			<person>Teacher</person>
 			<text>notice</text>
 			<image/>
 		</item>
 	</item>
 	<item id="7">
-		<item id="0" start="26.867" duration="3.733">
+		<item id="0" start="26.7" duration="3.3">
 			<person>Teacher</person>
 			<text>Do you notice anything different about the classroom today?</text>
 			<image/>
 		</item>
-		<item id="1" start="30.6" duration="4.1">
+		<item id="1" start="30.5" duration="3.7">
 			<person>Student</person>
-			<text>Yes, I noticed something different about the classroom today.</text>
+			<text>Yes, I notice something different about the classroom today.</text>
 			<image/>
 		</item>
 	</item>
@@ -89,7 +89,7 @@
 		</item>
 	</item>
 	<item id="9">
-		<item id="0" start="45.533" duration="1.5">
+		<item id="0" start="45.3" duration="1.2">
 			<person>Teacher</person>
 			<text>free</text>
 			<image/>
@@ -108,14 +108,14 @@
 			<text>Are most people busy on Sunday?</text>
 			<image/>
 		</item>
-		<item id="1" start="51.5" duration="4.433">
+		<item id="1" start="51.0" duration="4.1">
 			<person>Student</person>
 			<text>No, most people aren't busy on Sunday; they're free.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="55.967" duration="2.767">
+		<item id="0" start="55.8" duration="2.5">
 			<person>Teacher</person>
 			<text>What do we mean by a free meal?</text>
 			<image/>
@@ -132,28 +132,28 @@
 			<text>Do you believe that the best things in life are free?</text>
 			<image/>
 		</item>
-		<item id="1" start="66.267" duration="4.133">
+		<item id="1" start="66.1" duration="4.0">
 			<person>Student</person>
 			<text>Yes, I believe that the best things in life are free.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="70.4" duration="1.567">
+		<item id="0" start="70.3" duration="1.0">
 			<person>Teacher</person>
 			<text>lie</text>
 			<image/>
 		</item>
 	</item>
 	<item id="15">
-		<item id="0" start="72.0" duration="1.767">
+		<item id="0" start="72.0" duration="1.2">
 			<person>Teacher</person>
 			<text>comfortable</text>
 			<image/>
 		</item>
 	</item>
 	<item id="16">
-		<item id="0" start="73.767" duration="1.767">
+		<item id="0" start="73.6" duration="1.2">
 			<person>Teacher</person>
 			<text>uncomfortable</text>
 			<image/>
@@ -196,7 +196,7 @@
 			<text>Do you find it comfortable to sleep without a pillow?</text>
 			<image/>
 		</item>
-		<item id="1" start="96.833" duration="5.967">
+		<item id="1" start="96.7" duration="5.6">
 			<person>Student</person>
 			<text>No, I don't find it comfortable to sleep without a pillow; I find it uncomfortable.</text>
 			<image/>
@@ -260,7 +260,7 @@
 			<text>What are the three forms of &quot;wake up&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="128.767" duration="5.933">
+		<item id="1" start="128.6" duration="5.7">
 			<person>Student</person>
 			<text>The three forms of &quot;wake up&quot; are &quot;wake up, woke up, woken up&quot;.</text>
 			<image/>
@@ -272,26 +272,26 @@
 			<text>What was the first thing you saw when you woke up today?</text>
 			<image/>
 		</item>
-		<item id="1" start="138.7" duration="4.6">
+		<item id="1" start="138.5" duration="4.2">
 			<person>Student</person>
 			<text>The first thing I saw when I woke up today was the ceiling.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="29">
-		<item id="0" start="143.3" duration="3.3">
+		<item id="0" start="143.2" duration="3.0">
 			<person>Teacher</person>
 			<text>Have you ever woken up too late to go to school?</text>
 			<image/>
 		</item>
-		<item id="1" start="146.633" duration="4.4">
+		<item id="1" start="146.6" duration="4.1">
 			<person>Student</person>
 			<text>Yes, I've sometimes woken up too late to go to school.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="30">
-		<item id="0" start="151.067" duration="1.667">
+		<item id="0" start="150.9" duration="1.2">
 			<person>Teacher</person>
 			<text>through</text>
 			<image/>
@@ -336,7 +336,7 @@
 		</item>
 	</item>
 	<item id="35">
-		<item id="0" start="170.433" duration="5.367">
+		<item id="0" start="170.3" duration="5.0">
 			<person>Teacher</person>
 			<text>If you went from London to Rome, which cities would you perhaps have to go through?</text>
 			<image/>
@@ -412,7 +412,7 @@
 		</item>
 	</item>
 	<item id="43">
-		<item id="0" start="210.833" duration="3.967">
+		<item id="0" start="210.7" duration="3.6">
 			<person>Teacher</person>
 			<text>Are there any crossroads at the end of the street where you live?</text>
 			<image/>
@@ -488,7 +488,7 @@
 			<text>Would you like to live dangerously like a detective: somebody like Sherlock Holmes, for example.</text>
 			<image/>
 		</item>
-		<item id="1" start="247.667" duration="6.0">
+		<item id="1" start="247.5" duration="5.8">
 			<person>Student</person>
 			<text>Yes, I'd like to live dangerously like a detective: somebody like Sherlock Holmes.</text>
 			<image/>
@@ -516,7 +516,7 @@
 		</item>
 	</item>
 	<item id="55">
-		<item id="0" start="259.0" duration="1.633">
+		<item id="0" start="258.9" duration="1.3">
 			<person>Teacher</person>
 			<text>ambulance</text>
 			<image/>
@@ -535,14 +535,14 @@
 			<text>What's the difference between these two sentences: &quot;I must study&quot; and &quot;I should study&quot;.</text>
 			<image/>
 		</item>
-		<item id="1" start="267.933" duration="14.233">
+		<item id="1" start="267.8" duration="14.0">
 			<person>Student</person>
 			<text>The difference between those two sentences is that &quot;I must study&quot; means that I have no alternative, whereas &quot;I should study&quot; means I have alternatives, but that studying is the right thing for me to do.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="58">
-		<item id="0" start="282.2" duration="3.033">
+		<item id="0" start="282.1" duration="2.7">
 			<person>Teacher</person>
 			<text>How do we translate &quot;I must study&quot;.</text>
 			<image/>
@@ -559,7 +559,7 @@
 			<text>Do you think people should be more polite in the shops and streets?</text>
 			<image/>
 		</item>
-		<item id="1" start="293.0" duration="4.9">
+		<item id="1" start="292.9" duration="4.7">
 			<person>Student</person>
 			<text>Yes, I think people should be more polite in the shops and streets.</text>
 			<image/>
@@ -583,7 +583,7 @@
 			<text>Do you agree that young people should help the old?</text>
 			<image/>
 		</item>
-		<item id="1" start="308.667" duration="3.967">
+		<item id="1" start="308.5" duration="3.6">
 			<person>Student</person>
 			<text>Yes, I agree that young people should help the old.</text>
 			<image/>
@@ -640,19 +640,19 @@
 		</item>
 	</item>
 	<item id="67">
-		<item id="0" start="344.267" duration="4.833">
+		<item id="0" start="344.1" duration="4.6">
 			<person>Teacher</person>
 			<text>In a Callan method lesson, does the teacher correct your grammatical mistakes?</text>
 			<image/>
 		</item>
-		<item id="1" start="349.1" duration="5.3">
+		<item id="1" start="349.0" duration="5.0">
 			<person>Student</person>
 			<text>Yes, in a Callan method lesson, the teacher corrects my grammatical mistakes.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="68">
-		<item id="0" start="354.433" duration="3.767">
+		<item id="0" start="354.3" duration="3.4">
 			<person>Teacher</person>
 			<text>How can we correct our mistakes in our pronunciation?</text>
 			<image/>
@@ -685,14 +685,14 @@
 		</item>
 	</item>
 	<item id="72">
-		<item id="0" start="369.8" duration="1.633">
+		<item id="0" start="369.8" duration="1.2">
 			<person>Teacher</person>
 			<text>boss</text>
 			<image/>
 		</item>
 	</item>
 	<item id="73">
-		<item id="0" start="371.467" duration="1.567">
+		<item id="0" start="371.3" duration="1.2">
 			<person>Teacher</person>
 			<text>freedom</text>
 			<image/>
@@ -706,12 +706,12 @@
 		</item>
 	</item>
 	<item id="75">
-		<item id="0" start="374.767" duration="5.1">
+		<item id="0" start="374.6" duration="4.8">
 			<person>Teacher</person>
 			<text>If you have a problem with a colleague at work, should you speak to your boss about it?</text>
 			<image/>
 		</item>
-		<item id="1" start="379.9" duration="5.833">
+		<item id="1" start="379.8" duration="5.6">
 			<person>Student</person>
 			<text>Yes, if I have a problem with a colleague at work, I should speak to my boss about it.</text>
 			<image/>
@@ -723,7 +723,7 @@
 			<text>Can smoking cause health problems?</text>
 			<image/>
 		</item>
-		<item id="1" start="388.6" duration="3.633">
+		<item id="1" start="388.5" duration="3.4">
 			<person>Student</person>
 			<text>Yes, smoking can cause health problems.</text>
 			<image/>
@@ -749,24 +749,24 @@
 		</item>
 	</item>
 	<item id="79">
-		<item id="0" start="404.467" duration="6.933">
+		<item id="0" start="404.3" duration="6.7">
 			<person>Teacher</person>
 			<text>As we have now studied about a thousand words and a lot of the grammar, can you hold a simple conversation in English?</text>
 			<image/>
 		</item>
-		<item id="1" start="411.4" duration="8.633">
+		<item id="1" start="411.3" duration="8.3">
 			<person>Student</person>
 			<text>Yes, as we have now studied about a thousand words and a lot of the grammar, I can hold a simple conversation in English.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="80">
-		<item id="0" start="420.067" duration="5.967">
+		<item id="0" start="419.9" duration="5.6">
 			<person>Teacher</person>
 			<text>As you are not tall enough to reach the ceiling, what would you have to do if you wanted to reach it?</text>
 			<image/>
 		</item>
-		<item id="1" start="426.033" duration="8.9">
+		<item id="1" start="425.9" duration="8.7">
 			<person>Student</person>
 			<text>As I am not tall enough to reach the ceiling, I would have to put a chair on the table and stand on the chair if I wanted to reach it.</text>
 			<image/>
@@ -792,7 +792,7 @@
 			<text>Give me a sentence with &quot;that is&quot; in it.</text>
 			<image/>
 		</item>
-		<item id="1" start="440.0" duration="10.533">
+		<item id="1" start="439.9" duration="10.3">
 			<person>Student</person>
 			<text>Everybody loves that film; that is, everybody I've spoken to. We will go to the cinema this evening; that is if we have enough money.</text>
 			<image/>
@@ -806,7 +806,7 @@
 		</item>
 	</item>
 	<item id="85">
-		<item id="0" start="452.2" duration="3.567">
+		<item id="0" start="452.1" duration="3.0">
 			<person>Teacher</person>
 			<text>Have you ever broken any of the bones in your body?</text>
 			<image/>

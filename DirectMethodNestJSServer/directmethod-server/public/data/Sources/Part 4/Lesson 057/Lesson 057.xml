@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="311.133">
 	<item id="0">
-		<item id="0" start="0.733" duration="2.4">
+		<item id="0" start="0.7" duration="2.0">
 			<person>Teacher</person>
 			<text>Lesson 57</text>
 			<image/>
 		</item>
 	</item>
 	<item id="1">
-		<item id="0" start="3.167" duration="1.567">
+		<item id="0" start="3.0" duration="1.0">
 			<person>Teacher</person>
 			<text>fat</text>
 			<image/>
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="4.733" duration="1.633">
+		<item id="0" start="4.6" duration="1.2">
 			<person>Teacher</person>
 			<text>thin</text>
 			<image/>
@@ -46,7 +46,7 @@
 		</item>
 	</item>
 	<item id="5">
-		<item id="0" start="25.7" duration="3.533">
+		<item id="0" start="25.6" duration="3.3">
 			<person>Teacher</person>
 			<text>Who's the thinnest person in your family?</text>
 			<image/>
@@ -58,7 +58,7 @@
 		</item>
 	</item>
 	<item id="6">
-		<item id="0" start="32.667" duration="4.5">
+		<item id="0" start="32.5" duration="4.3">
 			<person>Teacher</person>
 			<text>Do people generally become thinner as they become older?</text>
 			<image/>
@@ -82,7 +82,7 @@
 			<text>What's the past of the verb &quot;to swim&quot;?</text>
 			<image/>
 		</item>
-		<item id="1" start="48.133" duration="3.933">
+		<item id="1" start="48.0" duration="3.7">
 			<person>Student</person>
 			<text>The past of the verb &quot;to swim&quot; is &quot;swam&quot;.</text>
 			<image/>
@@ -101,7 +101,7 @@
 		</item>
 	</item>
 	<item id="10">
-		<item id="0" start="57.7" duration="1.567">
+		<item id="0" start="57.5" duration="1.0">
 			<person>Teacher</person>
 			<text>lost</text>
 			<image/>
@@ -120,7 +120,7 @@
 		</item>
 	</item>
 	<item id="12">
-		<item id="0" start="69.833" duration="3.8">
+		<item id="0" start="69.7" duration="3.5">
 			<person>Teacher</person>
 			<text>Have you ever lost your way in a large city?</text>
 			<image/>
@@ -144,7 +144,7 @@
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="85.567" duration="1.8">
+		<item id="0" start="85.4" duration="1.2">
 			<person>Teacher</person>
 			<text>each other</text>
 			<image/>
@@ -178,12 +178,12 @@
 		</item>
 	</item>
 	<item id="18">
-		<item id="0" start="105.9" duration="2.833">
+		<item id="0" start="105.8" duration="2.3">
 			<person>Teacher</person>
 			<text>Give me an example, please.</text>
 			<image/>
 		</item>
-		<item id="1" start="108.733" duration="6.633">
+		<item id="1" start="108.6" duration="6.4">
 			<person>Student</person>
 			<text>You and I are speaking to each other. The students speak to one another after the lesson.</text>
 			<image/>
@@ -202,7 +202,7 @@
 		</item>
 	</item>
 	<item id="20">
-		<item id="0" start="123.033" duration="4.533">
+		<item id="0" start="122.9" duration="4.3">
 			<person>Teacher</person>
 			<text>Do we shake hands with each other at the beginning of the lesson?</text>
 			<image/>
@@ -219,7 +219,7 @@
 			<text>Do your country and England play football against each other?</text>
 			<image/>
 		</item>
-		<item id="1" start="137.033" duration="4.6">
+		<item id="1" start="136.9" duration="4.4">
 			<person>Student</person>
 			<text>Yes, my country and England play football against each other.</text>
 			<image/>
@@ -231,19 +231,19 @@
 			<text>Do Italy, Germany, Russia and England play football against one another?</text>
 			<image/>
 		</item>
-		<item id="1" start="147.533" duration="6.0">
+		<item id="1" start="147.4" duration="5.8">
 			<person>Student</person>
 			<text>Yes, Italy, Germany, Russia and England play football against one another.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="23">
-		<item id="0" start="153.533" duration="4.333">
+		<item id="0" start="153.4" duration="4.1">
 			<person>Teacher</person>
 			<text>Do the countries of Europe do business with one another?</text>
 			<image/>
 		</item>
-		<item id="1" start="157.9" duration="4.333">
+		<item id="1" start="157.8" duration="4.0">
 			<person>Student</person>
 			<text>Yes, the countries of Europe do business with one another.</text>
 			<image/>
@@ -255,7 +255,7 @@
 			<text>Which language do the students speak to one another in after the lesson?</text>
 			<image/>
 		</item>
-		<item id="1" start="167.6" duration="5.3">
+		<item id="1" start="167.5" duration="5.0">
 			<person>Student</person>
 			<text>The students speak to one another in their language after the lesson.</text>
 			<image/>
@@ -269,7 +269,7 @@
 		</item>
 	</item>
 	<item id="26">
-		<item id="0" start="174.933" duration="5.9">
+		<item id="0" start="174.8" duration="5.7">
 			<person>Teacher</person>
 			<text>am able - was able - been able</text>
 			<image/>
@@ -283,7 +283,7 @@
 		</item>
 	</item>
 	<item id="28">
-		<item id="0" start="180.833" duration="2.433">
+		<item id="0" start="180.833" duration="2.0">
 			<person>Teacher</person>
 			<text>What's the past of &quot;can&quot;?</text>
 			<image/>
@@ -360,26 +360,26 @@
 			<text>Will you be able to speak English well if you study a lot?</text>
 			<image/>
 		</item>
-		<item id="1" start="238.033" duration="4.867">
+		<item id="1" start="238.0" duration="4.5">
 			<person>Student</person>
 			<text>Yes, I'll be able to speak English well if I study a lot.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="35">
-		<item id="0" start="242.9" duration="6.367">
+		<item id="0" start="242.8" duration="6.0">
 			<person>Teacher</person>
 			<text>Have you been able to answer all the questions I have asked you without too much difficulty?</text>
 			<image/>
 		</item>
-		<item id="1" start="249.3" duration="8.933">
+		<item id="1" start="249.2" duration="8.7">
 			<person>Student</person>
 			<text>No, I haven't been able to answer all the questions you've asked me without too much difficulty; some I have and some I haven't.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="36">
-		<item id="0" start="258.233" duration="1.767">
+		<item id="0" start="258.1" duration="1.2">
 			<person>Teacher</person>
 			<text>factory</text>
 			<image/>
@@ -448,21 +448,21 @@
 		</item>
 	</item>
 	<item id="43">
-		<item id="0" start="294.633" duration="1.967">
+		<item id="0" start="294.6" duration="1.2">
 			<person>Teacher</person>
 			<text>hotel</text>
 			<image/>
 		</item>
 	</item>
 	<item id="44">
-		<item id="0" start="296.6" duration="1.667">
+		<item id="0" start="296.4" duration="1.2">
 			<person>Teacher</person>
 			<text>stay</text>
 			<image/>
 		</item>
 	</item>
 	<item id="45">
-		<item id="0" start="298.267" duration="6.0">
+		<item id="0" start="298.1" duration="5.8">
 			<person>Teacher</person>
 			<text>How much does it cost to stay in an ordinary hotel for one night in this town?</text>
 			<image/>

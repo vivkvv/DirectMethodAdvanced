@@ -1,9 +1,7 @@
 import { Injectable, OnModuleInit } from '@nestjs/common';
-import * as admin from 'firebase-admin';
 import * as path from 'path';
 import * as fs from 'fs';
 import { Lesson, Part } from '../DirectMethodCommonInterface/folderStructure';
-import serviceAccount from '../../directmethodstorage-firebase-adminsdk.json';
 
 export class MP3File {
   public get url(): string {
@@ -25,52 +23,10 @@ export class FilesService implements OnModuleInit {
     'Sources',
   );
 
-  //private firebaseApp: admin.app.App;
-  //private fileList: MP3File[] = [];
-  // https://console.firebase.google.com/u/0/project/directmethodstorage/storage/directmethodstorage.appspot.com/files
   private allFolderParts: Part[];
 
   async onModuleInit() {
     return;
-
-    this.allFolderParts = this.getAllParts();
-
-    admin.initializeApp({
-      credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
-      storageBucket: 'directmethodstorage.appspot.com',
-    });
-
-    const bucket = admin.storage().bucket();
-    const [files] = await bucket.getFiles();
-
-    for (const file of files) {
-      const fileName = path.basename(file.name);
-      const isFolder = file.name.endsWith('/');
-      if (!isFolder && path.extname(fileName) === '.mp3') {
-        const date = new Date();
-        date.setFullYear(date.getFullYear() + 20);
-
-        const config = {
-          action: 'read' as const,
-          expires: date,
-        };
-
-        const url = await file.getSignedUrl(config);
-        //this.fileList.push(new MP3File(file.name, url[0]));
-
-        const partName = file.name.split('/')[0];
-        const lessonName = file.name.split('/')[1];
-        const part: Part = this.allFolderParts.filter(
-          (part) => part.title === partName,
-        )[0];
-        const lesson: Lesson = part?.lessons.filter(
-          (lesson) => lesson.title === lessonName,
-        )[0];
-        if (lesson) {
-          lesson.mp3 = url[0];
-        }
-      }
-    }
   }
 
   private getSubDirs = (folderName) => {

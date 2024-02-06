@@ -898,7 +898,7 @@ export class AudioOverlayComponent implements OnInit, AfterViewInit {
 
     normalizeString(str: string) {
         return str
-            .replace(/[.,\/#!?$%\^&\*;:{}=\-_`~()\n\r\ \"\\\/]/g, '')
+            .replace(/[.,\/#!?$%\^&\*;:{}+=\-_`~()\n\r\ \"\\\/]/g, '')
             .toLowerCase();
     }
 

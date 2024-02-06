@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <items start="0.0" duration="378.233">
 	<item id="0">
-		<item id="0" start="0.167" duration="2.333">
+		<item id="0" start="0.1" duration="1.8">
 			<person>Teacher</person>
 			<text>Lesson 65</text>
 			<image/>
@@ -15,7 +15,7 @@
 		</item>
 	</item>
 	<item id="2">
-		<item id="0" start="4.133" duration="1.5">
+		<item id="0" start="4.0" duration="1.1">
 			<person>Teacher</person>
 			<text>since</text>
 			<image/>
@@ -62,7 +62,7 @@
 			<text>Give me some examples of &quot;for&quot;.</text>
 			<image/>
 		</item>
-		<item id="1" start="28.2" duration="3.533">
+		<item id="1" start="28.1" duration="3.3">
 			<person>Student</person>
 			<text>For half an hour. For two weeks.</text>
 			<image/>
@@ -74,14 +74,14 @@
 			<text>Now give me some examples of &quot;since&quot;.</text>
 			<image/>
 		</item>
-		<item id="1" start="34.633" duration="3.733">
+		<item id="1" start="34.5" duration="3.3">
 			<person>Student</person>
 			<text>Since 6:00. Since last June.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="9">
-		<item id="0" start="38.4" duration="3.033">
+		<item id="0" start="38.3" duration="2.3">
 			<person>Teacher</person>
 			<text>How long have you been in this room for?</text>
 			<image/>
@@ -98,14 +98,14 @@
 			<text>Since when has she been in this room?</text>
 			<image/>
 		</item>
-		<item id="1" start="47.733" duration="3.833">
+		<item id="1" start="47.6" duration="3.3">
 			<person>Student</person>
 			<text>She's been in this room since 2:30.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="11">
-		<item id="0" start="51.567" duration="2.933">
+		<item id="0" start="51.4" duration="2.3">
 			<person>Teacher</person>
 			<text>How long have you lived in this town for?</text>
 			<image/>
@@ -129,7 +129,7 @@
 		</item>
 	</item>
 	<item id="13">
-		<item id="0" start="64.567" duration="2.867">
+		<item id="0" start="64.4" duration="2.1">
 			<person>Teacher</person>
 			<text>About how long have you known me for?</text>
 			<image/>
@@ -141,12 +141,12 @@
 		</item>
 	</item>
 	<item id="14">
-		<item id="0" start="70.6" duration="2.5">
+		<item id="0" start="70.5" duration="1.8">
 			<person>Teacher</person>
 			<text>Since when has she known me?</text>
 			<image/>
 		</item>
-		<item id="1" start="73.267" duration="3.333">
+		<item id="1" start="73.1" duration="2.8">
 			<person>Student</person>
 			<text>She's known you since last June.</text>
 			<image/>
@@ -165,7 +165,7 @@
 		</item>
 	</item>
 	<item id="16">
-		<item id="0" start="85.667" duration="3.833">
+		<item id="0" start="85.5" duration="3.3">
 			<person>Teacher</person>
 			<text>Have you been able to speak English since you were a young child?</text>
 			<image/>
@@ -177,21 +177,21 @@
 		</item>
 	</item>
 	<item id="17">
-		<item id="0" start="94.833" duration="1.633">
+		<item id="0" start="94.8" duration="1.3">
 			<person>Teacher</person>
 			<text>kitchen</text>
 			<image/>
 		</item>
 	</item>
 	<item id="18">
-		<item id="0" start="96.5" duration="1.7">
+		<item id="0" start="96.4" duration="1.2">
 			<person>Teacher</person>
 			<text>fridge</text>
 			<image/>
 		</item>
 	</item>
 	<item id="19">
-		<item id="0" start="98.2" duration="1.667">
+		<item id="0" start="98.1" duration="1.0">
 			<person>Teacher</person>
 			<text>freezer</text>
 			<image/>
@@ -224,7 +224,7 @@
 			<text>What kind of things does a kitchen usually contain?</text>
 			<image/>
 		</item>
-		<item id="1" start="108.667" duration="6.7">
+		<item id="1" start="108.5" duration="6.5">
 			<person>Student</person>
 			<text>A kitchen usually contains a fridge, a freezer, a cooker, a sink etc.</text>
 			<image/>
@@ -243,19 +243,19 @@
 		</item>
 	</item>
 	<item id="25">
-		<item id="0" start="122.433" duration="3.3">
+		<item id="0" start="122.3" duration="3.0">
 			<person>Teacher</person>
 			<text>Why do some people like using microwaves?</text>
 			<image/>
 		</item>
-		<item id="1" start="125.767" duration="5.233">
+		<item id="1" start="125.6" duration="5.0">
 			<person>Student</person>
 			<text>Some people like using microwaves because they cook food very quickly.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="26">
-		<item id="0" start="131.033" duration="1.6">
+		<item id="0" start="130.9" duration="1.0">
 			<person>Teacher</person>
 			<text>studies</text>
 			<image/>
@@ -314,17 +314,17 @@
 	<item id="32">
 		<item id="0" start="166.2" duration="4.567">
 			<person>Teacher</person>
-			<text>If you lent something to somebody and they didn't return it, what did you do?</text>
+			<text>If you lent something to somebody and they didn't return it, what would you do?</text>
 			<image/>
 		</item>
-		<item id="1" start="170.8" duration="6.567">
+		<item id="1" start="170.7" duration="6.3">
 			<person>Student</person>
 			<text>If I lent something to somebody and they didn't return it, I'd keep asking for it back.</text>
 			<image/>
 		</item>
 	</item>
 	<item id="33">
-		<item id="0" start="177.367" duration="1.833">
+		<item id="0" start="177.2" duration="1.3">
 			<person>Teacher</person>
 			<text>first name</text>
 			<image/>
@@ -383,7 +383,7 @@
 		</item>
 	</item>
 	<item id="40">
-		<item id="0" start="195.367" duration="1.733">
+		<item id="0" start="195.2" duration="1.0">
 			<person>Teacher</person>
 			<text>film star</text>
 			<image/>
@@ -395,7 +395,7 @@
 			<text>Would you like to be famous?</text>
 			<image/>
 		</item>
-		<item id="1" start="199.433" duration="2.733">
+		<item id="1" start="199.3" duration="2.3">
 			<person>Student</person>
 			<text>Yes, I'd like to be famous.</text>
 			<image/>
@@ -407,7 +407,7 @@
 			<text>What's a film star?</text>
 			<image/>
 		</item>
-		<item id="1" start="204.3" duration="4.967">
+		<item id="1" start="204.2" duration="4.5">
 			<person>Student</person>
 			<text>A film star is a famous actor or actress in the cinema world.</text>
 			<image/>
@@ -431,7 +431,7 @@
 			<text>Name a few famous people in history.</text>
 			<image/>
 		</item>
-		<item id="1" start="219.3" duration="6.6">
+		<item id="1" start="219.2" duration="6.0">
 			<person>Student</person>
 			<text>A few famous people in history are Shakespeare, Einstein, Michelangelo etc.</text>
 			<image/>
@@ -445,14 +445,14 @@
 		</item>
 	</item>
 	<item id="46">
-		<item id="0" start="227.8" duration="2.067">
+		<item id="0" start="227.7" duration="1.0">
 			<person>Teacher</person>
 			<text>agricultural</text>
 			<image/>
 		</item>
 	</item>
 	<item id="47">
-		<item id="0" start="229.867" duration="1.6">
+		<item id="0" start="229.7" duration="1.0">
 			<person>Teacher</person>
 			<text>region</text>
 			<image/>
@@ -483,7 +483,7 @@
 		</item>
 	</item>
 	<item id="50">
-		<item id="0" start="248.1" duration="1.833">
+		<item id="0" start="248.0" duration="1.0">
 			<person>Teacher</person>
 			<text>apologize</text>
 			<image/>
@@ -516,12 +516,12 @@
 		</item>
 	</item>
 	<item id="54">
-		<item id="0" start="263.2" duration="4.433">
+		<item id="0" start="263.1" duration="4.0">
 			<person>Teacher</person>
 			<text>If you keep somebody waiting for a long time, should you apologize?</text>
 			<image/>
 		</item>
-		<item id="1" start="267.633" duration="5.433">
+		<item id="1" start="267.5" duration="5.0">
 			<person>Student</person>
 			<text>Yes, if you keep somebody waiting for a long time, you should apologize.</text>
 			<image/>
@@ -547,7 +547,7 @@
 		</item>
 	</item>
 	<item id="57">
-		<item id="0" start="282.233" duration="3.2">
+		<item id="0" start="282.1" duration="2.8">
 			<person>Teacher</person>
 			<text>How can we help to avoid becoming ill?</text>
 			<image/>
@@ -597,7 +597,7 @@
 		</item>
 	</item>
 	<item id="62">
-		<item id="0" start="313.533" duration="0.4">
+		<item id="0" start="313.5" duration="0.9">
 			<person>Teacher</person>
 			<text>fashion</text>
 			<image/>
@@ -616,7 +616,7 @@
 		</item>
 	</item>
 	<item id="64">
-		<item id="0" start="322.567" duration="1.633">
+		<item id="0" start="322.4" duration="1.0">
 			<person>Teacher</person>
 			<text>gate</text>
 			<image/>
@@ -628,7 +628,7 @@
 			<text>Does this school have a gate outside it?</text>
 			<image/>
 		</item>
-		<item id="1" start="327.3" duration="3.533">
+		<item id="1" start="327.2" duration="3.1">
 			<person>Student</person>
 			<text>Yes, this school has a gate outside it.</text>
 			<image/>
@@ -685,19 +685,19 @@
 		</item>
 	</item>
 	<item id="71">
-		<item id="0" start="362.667" duration="1.5">
+		<item id="0" start="362.5" duration="1.0">
 			<person>Teacher</person>
 			<text>run</text>
 			<image/>
 		</item>
 	</item>
 	<item id="72">
-		<item id="0" start="364.167" duration="3.3">
+		<item id="0" start="364.1" duration="3.0">
 			<person>Teacher</person>
 			<text>When we're in a hurry, what must we do?</text>
 			<image/>
 		</item>
-		<item id="1" start="367.5" duration="3.167">
+		<item id="1" start="367.4" duration="2.7">
 			<person>Student</person>
 			<text>When we're in a hurry, we must run.</text>
 			<image/>

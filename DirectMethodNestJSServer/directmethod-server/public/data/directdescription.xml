@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<Description>
+	<Config>
+	  <AudioBase>data/Audio</AudioBase>
+	  <SourceBase>data/Sources</SourceBase>
+	</Config>
+	<Translations>
+	  <Language code="ru">data/Translations/ru</Language>
+      	  <Language code="ua">data/Translations/ua</Language>
+	</Translations>
+	<Parts>
+	  <Level levelID="STAGE_01" sourceBasePath="Part 1" pdf="Callan Method 1.pdf">
+		<Lesson audio="Lesson 001.mp3" source="Lesson 001/Lesson 001.xml" />
+		<Lesson audio="Lesson 002.mp3" source="Lesson 002/Lesson 002.xml" />
+		<Lesson audio="Lesson 003.mp3" source="Lesson 003/Lesson 003.xml" />
+		<Lesson audio="Lesson 004.mp3" source="Lesson 004/Lesson 004.xml" />
+		<Lesson audio="Lesson 005.mp3" source="Lesson 005/Lesson 005.xml" />
+		<Lesson audio="Lesson 006.mp3" source="Lesson 006/Lesson 006.xml" />
+		<Lesson audio="Lesson 007.mp3" source="Lesson 007/Lesson 007.xml" />
+		<Lesson audio="Lesson 008.mp3" source="Lesson 008/Lesson 008.xml" />
+		<Lesson audio="Lesson 009.mp3" source="Lesson 009/Lesson 009.xml" />
+	  </Level>
+	  <Level levelID="STAGE_02" sourceBasePath="Part 2" pdf="Callan Method 2.pdf">
+		<Lesson audio="Lesson 010.mp3" source="Lesson 010/Lesson 010.xml" />
+		<Lesson audio="Lesson 011.mp3" source="Lesson 011/Lesson 011.xml" />
+		<Lesson audio="Lesson 012.mp3" source="Lesson 012/Lesson 012.xml" />
+		<Lesson audio="Lesson 013.mp3" source="Lesson 013/Lesson 013.xml" />
+		<Lesson audio="Lesson 014.mp3" source="Lesson 014/Lesson 014.xml" />
+		<Lesson audio="Lesson 015.mp3" source="Lesson 015/Lesson 015.xml" />
+		<Lesson audio="Lesson 016.mp3" source="Lesson 016/Lesson 016.xml" />
+		<Lesson audio="Lesson 017.mp3" source="Lesson 017/Lesson 017.xml" />
+		<Lesson audio="Lesson 018.mp3" source="Lesson 018/Lesson 018.xml" />
+		<Lesson audio="Lesson 019.mp3" source="Lesson 019/Lesson 019.xml" />
+		<Lesson audio="Lesson 020.mp3" source="Lesson 020/Lesson 020.xml" />
+		<Lesson audio="Lesson 021.mp3" source="Lesson 021/Lesson 021.xml" />
+		<Lesson audio="Lesson 022.mp3" source="Lesson 022/Lesson 022.xml" />
+		<Lesson audio="Lesson 023.mp3" source="Lesson 023/Lesson 023.xml" />
+		<Lesson audio="Lesson 024.mp3" source="Lesson 024/Lesson 024.xml" />
+	  </Level>
+	  <Level levelID="STAGE_03" sourceBasePath="Part 3" pdf="Callan Method 3.pdf">
+		<Lesson audio="Lesson 025.mp3" source="Lesson 025/Lesson 025.xml" />
+		<Lesson audio="Lesson 026.mp3" source="Lesson 026/Lesson 026.xml" />
+		<Lesson audio="Lesson 027.mp3" source="Lesson 027/Lesson 027.xml" />
+		<Lesson audio="Lesson 028.mp3" source="Lesson 028/Lesson 028.xml" />
+		<Lesson audio="Lesson 029.mp3" source="Lesson 029/Lesson 029.xml" />
+		<Lesson audio="Lesson 030.mp3" source="Lesson 030/Lesson 030.xml" />
+		<Lesson audio="Lesson 031.mp3" source="Lesson 031/Lesson 031.xml" />
+		<Lesson audio="Lesson 032.mp3" source="Lesson 032/Lesson 032.xml" />
+		<Lesson audio="Lesson 033.mp3" source="Lesson 033/Lesson 033.xml" />
+		<Lesson audio="Lesson 034.mp3" source="Lesson 034/Lesson 034.xml" />
+		<Lesson audio="Lesson 035.mp3" source="Lesson 035/Lesson 035.xml" />
+		<Lesson audio="Lesson 036.mp3" source="Lesson 036/Lesson 036.xml" />
+		<Lesson audio="Lesson 037.mp3" source="Lesson 037/Lesson 037.xml" />
+		<Lesson audio="Lesson 038.mp3" source="Lesson 038/Lesson 038.xml" />
+		<Lesson audio="Lesson 039.mp3" source="Lesson 039/Lesson 039.xml" />
+		<Lesson audio="Lesson 040.mp3" source="Lesson 040/Lesson 040.xml" />
+	  </Level>
+	  <Level levelID="STAGE_04" sourceBasePath="Part 4" pdf="Callan Method 4.pdf">
+		<Lesson audio="Lesson 041.mp3" source="Lesson 041/Lesson 041.xml" />
+		<Lesson audio="Lesson 042.mp3" source="Lesson 042/Lesson 042.xml" />
+		<Lesson audio="Lesson 043.mp3" source="Lesson 043/Lesson 043.xml" />
+		<Lesson audio="Lesson 044.mp3" source="Lesson 044/Lesson 044.xml" />
+		<Lesson audio="Lesson 045.mp3" source="Lesson 045/Lesson 045.xml" />
+		<Lesson audio="Lesson 046.mp3" source="Lesson 046/Lesson 046.xml" />
+		<Lesson audio="Lesson 047.mp3" source="Lesson 047/Lesson 047.xml" />
+		<Lesson audio="Lesson 048.mp3" source="Lesson 048/Lesson 048.xml" />
+		<Lesson audio="Lesson 049.mp3" source="Lesson 049/Lesson 049.xml" />
+		<Lesson audio="Lesson 050.mp3" source="Lesson 050/Lesson 050.xml" />
+		<Lesson audio="Lesson 051.mp3" source="Lesson 051/Lesson 051.xml" />
+		<Lesson audio="Lesson 052.mp3" source="Lesson 052/Lesson 052.xml" />
+		<Lesson audio="Lesson 053.mp3" source="Lesson 053/Lesson 053.xml" />
+		<Lesson audio="Lesson 054.mp3" source="Lesson 054/Lesson 054.xml" />
+		<Lesson audio="Lesson 055.mp3" source="Lesson 055/Lesson 055.xml" />
+		<Lesson audio="Lesson 056.mp3" source="Lesson 056/Lesson 056.xml" />
+		<Lesson audio="Lesson 057.mp3" source="Lesson 057/Lesson 057.xml" />
+		<Lesson audio="Lesson 058.mp3" source="Lesson 058/Lesson 058.xml" />
+		<Lesson audio="Lesson 059.mp3" source="Lesson 059/Lesson 059.xml" />
+		<Lesson audio="Lesson 060.mp3" source="Lesson 060/Lesson 060.xml" />
+	  </Level>
+	  <Level levelID="STAGE_05" sourceBasePath="Part 5" pdf="Callan Method 5.pdf">
+		<Lesson audio="Lesson 061.mp3" source="Lesson 061/Lesson 061.xml" />
+		<Lesson audio="Lesson 062.mp3" source="Lesson 062/Lesson 062.xml" />
+		<Lesson audio="Lesson 063.mp3" source="Lesson 063/Lesson 063.xml" />
+		<Lesson audio="Lesson 064.mp3" source="Lesson 064/Lesson 064.xml" />
+		<Lesson audio="Lesson 065.mp3" source="Lesson 065/Lesson 065.xml" />
+		<Lesson audio="Lesson 066.mp3" source="Lesson 066/Lesson 066.xml" />
+		<Lesson audio="Lesson 067.mp3" source="Lesson 067/Lesson 067.xml" />
+		<Lesson audio="Lesson 068.mp3" source="Lesson 068/Lesson 068.xml" />
+		<Lesson audio="Lesson 069.mp3" source="Lesson 069/Lesson 069.xml" />
+		<Lesson audio="Lesson 070.mp3" source="Lesson 070/Lesson 070.xml" />
+		<Lesson audio="Lesson 071.mp3" source="Lesson 071/Lesson 071.xml" />
+		<Lesson audio="Lesson 072.mp3" source="Lesson 072/Lesson 072.xml" />
+		<Lesson audio="Lesson 073.mp3" source="Lesson 073/Lesson 073.xml" />
+		<Lesson audio="Lesson 074.mp3" source="Lesson 074/Lesson 074.xml" />
+		<Lesson audio="Lesson 075.mp3" source="Lesson 075/Lesson 075.xml" />
+		<Lesson audio="Lesson 076.mp3" source="Lesson 076/Lesson 076.xml" />
+		<Lesson audio="Lesson 077.mp3" source="Lesson 077/Lesson 077.xml" />
+	  </Level>
+	</Parts>
+</Description>
